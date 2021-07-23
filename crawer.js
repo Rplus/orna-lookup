@@ -1,17 +1,16 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 
-// let o_items = fs.readFileSync('./items.json', 'utf8') || [];
-// let data = [...o_items];
-
-let data = [];
-let start = 1;
+let o_item = fs.readFileSync('./item.json', 'utf8') || [];
+let data = JSON.parse(o_item);
 let errLog = [];
 
-getNextItems();
+getNext();
 
-function getNextItems() {
+function getNext() {
   let start = data.length// || 1;
+  console.log({start});
+  outputJSON(data, 'item.json');
   Promise.all(
     Array(10).fill(0).map((v, i) => {
       return postData('https://orna.guide/api/v1/item', { id: i + start });
@@ -31,13 +30,19 @@ function getNextItems() {
     })
   })
   .finally(() => {
-    if (errLog.length > 5) {
-      outputJSON(data, 'items.json');
-      outputJSON(errLog, 'itemsErr.json');
+    outputJSON(data, 'items.json');
+    outputJSON(errLog, 'itemsErr.json');
+    if (checkContinusErr()) {
+      console.log('GG');
     } else {
-      getNextItems();
+      console.log('___ keep going ___');
+      getNext();
     }
   })
+}
+
+function checkContinusErr() {
+  return errLog.length > 20;
 }
 
 function postData(url, data) {
@@ -58,7 +63,7 @@ function postData(url, data) {
   .then(response => response.json()) // 輸出成 json
 }
 
-const outputJSON = (json = {}, fileName, jsonSpace = 2) => {
+function outputJSON(json = {}, fileName, jsonSpace = 2) {
   let fileContent = JSON.stringify(json, null, jsonSpace);
   fs.writeFileSync(fileName, fileContent);
   console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
