@@ -8,27 +8,36 @@ let data = [];
 let start = 1;
 let errLog = [];
 
-getNextItem();
+getNextItems();
 
-function getNextItem() {
-  postData('https://orna.guide/api/v1/item', { id: start })
-    .then(data => {
-      console.log(`Get: item-${start}, ${data[0]?.name}`);
-      data[start] = data;
-      start++;
+function getNextItems() {
+  let start = data.length// || 1;
+  Promise.all(
+    Array(10).fill(0).map((v, i) => {
+      return postData('https://orna.guide/api/v1/item', { id: i + start });
     })
-    .catch(error => {
-      console.error('==ERROR==', error);
-      errLog.push({ id: start, err: error })
-    })
-    .finally(() => {
-      if (errLog.length > 5) {
-        outputJSON(data, 'items.json');
-        outputJSON(errLog, 'itemsErr.json');
+  )
+  .then(res => {
+    if (!res) { return; }
+    res.forEach((arrData, index) => {
+      let itemData = arrData[0];
+      if (itemData?.id) {
+        console.log(`Get: item-${itemData.id}, ${itemData.name}`);
+        data[itemData.id] = itemData;
       } else {
-        getNextItem();
+        // err
+        errLog.push([start + index, arrData])
       }
     })
+  })
+  .finally(() => {
+    if (errLog.length > 5) {
+      outputJSON(data, 'items.json');
+      outputJSON(errLog, 'itemsErr.json');
+    } else {
+      getNextItems();
+    }
+  })
 }
 
 function postData(url, data) {
