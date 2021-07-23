@@ -31,6 +31,7 @@ function getNext() {
   })
   .finally(() => {
     outputJSON(data, 'item.json');
+    outputJSON(data, 'item.min.json', 0);
     outputJSON(errLog, 'itemErr.json');
     if (checkContinusErr()) {
       console.log('GG');
