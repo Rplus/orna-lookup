@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "crawer": "node crawer.js"
+  },
   "devDependencies": {
     "node-fetch": "^2.6.1"
   }
