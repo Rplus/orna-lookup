@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Small Health Potion",
+    "id": 1,
+    "description": "Recovers 100 health points.",
+    "type": "Curative",
+    "tier": 1,
+    "boss": false,
+    "arena": false,
+    "image": "useables/small_health_potion.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  }
+]
