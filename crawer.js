@@ -30,8 +30,8 @@ function getNext() {
     })
   })
   .finally(() => {
-    outputJSON(data, 'items.json');
-    outputJSON(errLog, 'itemsErr.json');
+    outputJSON(data, 'item.json');
+    outputJSON(errLog, 'itemErr.json');
     if (checkContinusErr()) {
       console.log('GG');
     } else {
