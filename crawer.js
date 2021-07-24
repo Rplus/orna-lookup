@@ -1,28 +1,51 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 
-let o_item = fs.readFileSync('./item.json', 'utf8') || [];
-let data = JSON.parse(o_item);
 let errLog = [];
+let data;
+let target = [
+  'item',
+  'skill',
+  'class',
+  'specialization',
+  'pet',
+  'monster',
+  'quest',
+  'achievement',
+  'npc',
+][1];
 
 getNext();
 
-function getNext() {
+function getData(type) {
+  console.log({type});
+  if (!data) {
+    try {
+      let o_data = fs.readFileSync(`./${type}.json`, 'utf8');
+      data = JSON.parse(o_data);
+    } catch (err) {
+      data = []
+    }
+  }
+}
+
+function getNext(type = target) {
+  getData(type);
   let start = data.length// || 1;
   console.log({start});
-  outputJSON(data, 'item.json');
+  outputJSON(data, `${type}.json`);
   Promise.all(
-    Array(10).fill(0).map((v, i) => {
-      return postData('https://orna.guide/api/v1/item', { id: i + start });
+    Array(50).fill(0).map((v, i) => {
+      return postData(`https://orna.guide/api/v1/${type}`, { id: i + start });
     })
   )
   .then(res => {
     if (!res) { return; }
     res.forEach((arrData, index) => {
-      let itemData = arrData[0];
-      if (itemData?.id) {
-        console.log(`Get: item-${itemData.id}, ${itemData.name}`);
-        data[itemData.id] = itemData;
+      let _data = arrData[0];
+      if (_data?.id) {
+        console.log(`Get: ${type}-${_data.id}, ${_data.name}`);
+        data[_data.id] = _data;
       } else {
         // err
         errLog.push([start + index, arrData])
@@ -30,20 +53,20 @@ function getNext() {
     })
   })
   .finally(() => {
-    outputJSON(data, 'item.json');
-    outputJSON(data, 'item.min.json', 0);
-    outputJSON(errLog, 'itemErr.json');
+    outputJSON(data, `${type}.json`);
+    outputJSON(data, `${type}.min.json`, 0);
+    outputJSON(errLog, `${type}.err.json`);
     if (checkContinusErr()) {
       console.log('GG');
     } else {
       console.log('___ keep going ___');
-      getNext();
+      getNext(target);
     }
   })
 }
 
 function checkContinusErr() {
-  return errLog.length > 20;
+  return errLog.length > 40;
 }
 
 function postData(url, data) {
