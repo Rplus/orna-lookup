@@ -27,7 +27,7 @@ function getData(type) {
   console.log({type});
   if (!data) {
     try {
-      let o_data = fs.readFileSync(`./raw-data/${type}.json`, 'utf8');
+      let o_data = fs.readFileSync(`./public/raw-data/${type}.json`, 'utf8');
       data = JSON.parse(o_data);
     } catch (err) {
       data = []
@@ -39,7 +39,7 @@ function getNext(type = target) {
   getData(type);
   let start = data.length// || 1;
   console.log({start});
-  outputJSON(data, `./raw-data/${type}.json`);
+  outputJSON(data, `./public/raw-data/${type}.json`);
   Promise.all(
     Array(50).fill(0).map((v, i) => {
       return postData(`https://orna.guide/api/v1/${type}`, { id: i + start });
@@ -59,9 +59,9 @@ function getNext(type = target) {
     })
   })
   .finally(() => {
-    outputJSON(data, `./raw-data/${type}.json`);
-    outputJSON(data, `./raw-data/${type}.min.json`, 0);
-    outputJSON(errLog, `./raw-data/${type}.err.json`);
+    outputJSON(data, `./public/raw-data/${type}.json`);
+    outputJSON(data, `./public/raw-data/${type}.min.json`, 0);
+    outputJSON(errLog, `./public/raw-data/${type}.err.json`);
     if (checkContinusErr()) {
       console.log('GG');
     } else {
