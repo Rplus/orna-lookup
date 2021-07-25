@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "crawer": "node crawer.js"
+    "crawer": "node ./task/crawer.js"
   },
   "devDependencies": {
     "node-fetch": "^2.6.1"
