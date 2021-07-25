@@ -1,19 +1,25 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 
+var args = process.argv.slice(2).reduce((all, i) => {
+  let pair = i.split('=');
+  all[pair[0]] = pair[1];
+  return all;
+}, {})
+
 let errLog = [];
 let data;
 let target = [
-  'item',
-  'skill',
-  'class',
-  'specialization',
-  'pet',
-  'monster',
-  'quest',
-  'achievement',
-  'npc',
-][1];
+  /* 0 */ 'item',
+  /* 1 */ 'skill',
+  /* 2 */ 'class',
+  /* 3 */ 'specialization',
+  /* 4 */ 'pet',
+  /* 5 */ 'monster',
+  /* 6 */ 'quest',
+  /* 7 */ 'achievement',
+  /* 8 */ 'npc',
+][args?.target || 0];
 
 getNext();
 
