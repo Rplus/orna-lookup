@@ -165,7 +165,8 @@
 <hr>
 
 <footer>
-  data & image source: <a href="https://orna.guide/" target="_blank">https://orna.guide/</a>
+  * data & image source: <a href="https://orna.guide/" target="_blank">https://orna.guide/</a> <br>
+  * repo: <a href="https://github.com/rplus/orna-lookup" target="_blank">Rplus/orna-lookup</a>
 </footer>
 
 
