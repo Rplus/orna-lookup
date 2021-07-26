@@ -21,7 +21,11 @@
       init = true;
       items = $data;
       allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
-      sortProp = allProps[0];
+      if (allProps.includes('tier')) {
+        sortProp = 'tier';
+      } else {
+        sortProp = allProps[0];
+      }
     }
   }
 
