@@ -1,6 +1,5 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
-const rp = require('request-promise');
 const cheerio = require('cheerio');
 
 let allItems = fs.readFileSync('./public/raw-data/item.json', 'utf8');
@@ -10,18 +9,21 @@ items = JSON.parse(items);
 
 // wget https://orna.guide/items?show={1..1369}
 
-// items.forEach((i, index) => checking(i.id))
-// outputJSON(items, `./public/raw-data/item.add.json`);
+items.forEach((i, index) => checking(i.id))
+outputJSON(items, `./public/raw-data/item.add.json`);
 
 items.forEach((i, index) => {
   let target = allItems.find(o => o?.id === i.id);
   for (let p in i) {
+    if (p !== 'name_zh' && p !== 'id') {
+      console.log(p);
+    }
     target[p] = i[p];
   }
 });
 
 outputJSON(allItems, `./public/raw-data/item.added.json`);
-outputJSON(allItems, `./public/raw-data/item.added.min.json`);
+outputJSON(allItems, `./public/raw-data/item.added.min.json`, 0);
 
 function checking(pid) {
   let page;

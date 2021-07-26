@@ -1247,7 +1247,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "匕首"
+    "name_zh": "匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Rusty Sword",
@@ -1608,7 +1609,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "藍色短刀"
+    "name_zh": "藍色短刀",
+    "causes": "Frozen"
   },
   {
     "name": "Blue Wand",
@@ -1646,7 +1648,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "藍魔杖"
+    "name_zh": "藍魔杖",
+    "causes": "Frozen"
   },
   {
     "name": "Claymore",
@@ -1674,7 +1677,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "寬刃劍"
+    "name_zh": "寬刃劍",
+    "causes": "Def ↓"
   },
   {
     "name": "Crossbow",
@@ -1734,7 +1738,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "蘇格蘭短劍"
+    "name_zh": "蘇格蘭短劍",
+    "causes": "Bleeding"
   },
   {
     "name": "Draconian Archistaff",
@@ -2012,7 +2017,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "墮落盜賊的匕首"
+    "name_zh": "墮落盜賊的匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Fallen Warrior's Sword",
@@ -2305,7 +2311,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "紅色短刀"
+    "name_zh": "紅色短刀",
+    "causes": "Burning, Bleeding"
   },
   {
     "name": "Ruby Wand",
@@ -2347,7 +2354,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "紅寶石魔杖"
+    "name_zh": "紅寶石魔杖",
+    "causes": "Burning"
   },
   {
     "name": "Scimitar",
@@ -2503,7 +2511,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "鱗之弓"
+    "name_zh": "鱗之弓",
+    "causes": "Frozen"
   },
   {
     "name": "Cutlass",
@@ -2571,7 +2580,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "惡魔刀刃"
+    "name_zh": "惡魔刀刃",
+    "causes": "Asleep"
   },
   {
     "name": "Fallen Archistaff",
@@ -2734,7 +2744,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "烈焰守衛"
+    "name_zh": "烈焰守衛",
+    "causes": "Burning"
   },
   {
     "name": "Frosty Daggers",
@@ -2773,7 +2784,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "霧之匕首"
+    "name_zh": "霧之匕首",
+    "causes": "Frozen"
   },
   {
     "name": "Jinn Staff",
@@ -2807,7 +2819,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "神燈精靈法杖"
+    "name_zh": "神燈精靈法杖",
+    "causes": "Paralyzed, Blind, Asleep, Stunned"
   },
   {
     "name": "Lizarr Blade",
@@ -2942,7 +2955,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "秘銀匕首"
+    "name_zh": "秘銀匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Mythril Hammer",
@@ -3030,7 +3044,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "鐮刀"
+    "name_zh": "鐮刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Silver Dagger",
@@ -3059,7 +3074,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "銀質匕首"
+    "name_zh": "銀質匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Silver Crossbow",
@@ -3117,7 +3133,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "狼之杖"
+    "name_zh": "狼之杖",
+    "causes": "Rot"
   },
   {
     "name": "Batwing Bow",
@@ -3151,7 +3168,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "蝙蝠翼弓"
+    "name_zh": "蝙蝠翼弓",
+    "causes": "Def ↓"
   },
   {
     "name": "Bonecrusher",
@@ -3185,7 +3203,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "碎骨者"
+    "name_zh": "碎骨者",
+    "causes": "Stunned"
   },
   {
     "name": "Dark Staff",
@@ -3263,7 +3282,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "大地權杖"
+    "name_zh": "大地權杖",
+    "causes": "Rot"
   },
   {
     "name": "Elven Sword",
@@ -3300,7 +3320,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "精靈劍"
+    "name_zh": "精靈劍",
+    "causes": "Bleeding"
   },
   {
     "name": "Fomorian Bow",
@@ -3411,7 +3432,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "弗摩爾族匕首"
+    "name_zh": "弗摩爾族匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Fomorian Sword",
@@ -3668,7 +3690,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "風暴權杖"
+    "name_zh": "風暴權杖",
+    "causes": "Paralyzed"
   },
   {
     "name": "Adamantine Staff",
@@ -3814,7 +3837,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "魔法箭"
+    "name_zh": "魔法箭",
+    "causes": "Paralyzed"
   },
   {
     "name": "Dragon Dagger",
@@ -3852,7 +3876,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "龍匕首"
+    "name_zh": "龍匕首",
+    "causes": "Burning, Bleeding"
   },
   {
     "name": "Dragon Sword",
@@ -3929,7 +3954,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "大地長矛"
+    "name_zh": "大地長矛",
+    "causes": "Def ↓, Rot"
   },
   {
     "name": "Elven Katana",
@@ -4044,7 +4070,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "霧刃"
+    "name_zh": "霧刃",
+    "causes": "Blind"
   },
   {
     "name": "Gazing Staff",
@@ -4121,7 +4148,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "冰河法杖"
+    "name_zh": "冰河法杖",
+    "causes": "Frozen"
   },
   {
     "name": "Great Jinn Staff",
@@ -4158,7 +4186,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "大神燈精靈法杖"
+    "name_zh": "大神燈精靈法杖",
+    "causes": "Paralyzed, Blind, Asleep, Stunned"
   },
   {
     "name": "Reaper's Scythe",
@@ -4196,7 +4225,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "死神的鐮刀"
+    "name_zh": "死神的鐮刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Royalty",
@@ -4276,7 +4306,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "灼燒者"
+    "name_zh": "灼燒者",
+    "causes": "Burning"
   },
   {
     "name": "Vajra",
@@ -4309,7 +4340,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "金剛杵"
+    "name_zh": "金剛杵",
+    "causes": "Paralyzed"
   },
   {
     "name": "Vampiric Blade",
@@ -4341,7 +4373,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "吸血鬼之刃"
+    "name_zh": "吸血鬼之刃",
+    "causes": "Bleeding, Asleep"
   },
   {
     "name": "Balor Dagger",
@@ -4382,7 +4415,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "巴羅爾匕首"
+    "name_zh": "巴羅爾匕首",
+    "causes": "Burning, Bleeding"
   },
   {
     "name": "Bow of Diana",
@@ -4460,7 +4494,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "螺旋劍"
+    "name_zh": "螺旋劍",
+    "causes": "Paralyzed"
   },
   {
     "name": "Carnwennan",
@@ -4497,7 +4532,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "白柄匕首"
+    "name_zh": "白柄匕首",
+    "causes": "Asleep"
   },
   {
     "name": "Dyrnwyn",
@@ -4533,7 +4569,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "白柄"
+    "name_zh": "白柄",
+    "causes": "Burning"
   },
   {
     "name": "Durandal",
@@ -4565,7 +4602,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "迪朗達爾"
+    "name_zh": "迪朗達爾",
+    "causes": "Bleeding"
   },
   {
     "name": "Fallen Mystic's Staff",
@@ -4728,7 +4766,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "飛龍長劍"
+    "name_zh": "飛龍長劍",
+    "causes": "Bleeding, Blight"
   },
   {
     "name": "Arisen Draconian Archistaff",
@@ -4832,7 +4871,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "提亞馬特的斧"
+    "name_zh": "提亞馬特的斧",
+    "causes": "Blight"
   },
   {
     "name": "Bow of Tiamat",
@@ -4873,7 +4913,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "提亞馬特之弓"
+    "name_zh": "提亞馬特之弓",
+    "causes": "Blight"
   },
   {
     "name": "Crucifix",
@@ -4988,7 +5029,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "提亞馬特的法杖"
+    "name_zh": "提亞馬特的法杖",
+    "causes": "Blight"
   },
   {
     "name": "Stone Dagger",
@@ -5025,7 +5067,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "石化匕首"
+    "name_zh": "石化匕首",
+    "causes": "Petrified"
   },
   {
     "name": "Hood",
@@ -16341,7 +16384,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "海之斧"
+    "name_zh": "海之斧",
+    "causes": "Frozen"
   },
   {
     "name": "Wyvern Hood",
@@ -16419,7 +16463,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生蝙蝠翼弓"
+    "name_zh": "重生蝙蝠翼弓",
+    "causes": "Def ↓"
   },
   {
     "name": "Arisen Staff of Wolves",
@@ -16454,7 +16499,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生群狼法杖"
+    "name_zh": "重生群狼法杖",
+    "causes": "Rot"
   },
   {
     "name": "Boots of Earth",
@@ -16905,7 +16951,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "魔弓"
+    "name_zh": "魔弓",
+    "causes": "T. Def ↓, T. Def ↓↓"
   },
   {
     "name": "Shiva's Bow",
@@ -16945,7 +16992,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "溼婆之弓"
+    "name_zh": "溼婆之弓",
+    "causes": "Frozen"
   },
   {
     "name": "Woodblade",
@@ -16990,7 +17038,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "木刀"
+    "name_zh": "木刀",
+    "causes": "Rot"
   },
   {
     "name": "Arisen Ankh",
@@ -17071,7 +17120,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "格里歐爾芙"
+    "name_zh": "格里歐爾芙",
+    "causes": "T. Res ↓, T. Res ↓↓"
   },
   {
     "name": "Pure Waterstone",
@@ -17237,7 +17287,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "狼之災"
+    "name_zh": "狼之災",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Halberd",
@@ -18747,7 +18798,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生鱗之弓"
+    "name_zh": "重生鱗之弓",
+    "causes": "Frozen"
   },
   {
     "name": "Leather Belt",
@@ -18889,7 +18941,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "林地法杖"
+    "name_zh": "林地法杖",
+    "causes": "Rot"
   },
   {
     "name": "Soul",
@@ -20117,7 +20170,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生巴羅爾匕首"
+    "name_zh": "重生巴羅爾匕首",
+    "causes": "Burning, Bleeding"
   },
   {
     "name": "Arcane Robe",
@@ -20283,7 +20337,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "墮落流浪漢的短刀"
+    "name_zh": "墮落流浪漢的短刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Colossal Armor",
@@ -20442,7 +20497,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "沙塵暴"
+    "name_zh": "沙塵暴",
+    "causes": "Rot"
   },
   {
     "name": "Sandstone",
@@ -21521,7 +21577,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "枯萎吊飾"
+    "name_zh": "枯萎吊飾",
+    "immunities": "Blight"
   },
   {
     "name": "Steady Pendant",
@@ -21546,7 +21603,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "堅毅吊飾"
+    "name_zh": "堅毅吊飾",
+    "immunities": "Stunned"
   },
   {
     "name": "Waking Pendant",
@@ -21571,7 +21629,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "清醒吊飾"
+    "name_zh": "清醒吊飾",
+    "immunities": "Asleep"
   },
   {
     "name": "Titan Helmet",
@@ -21633,7 +21692,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "解毒吊飾"
+    "name_zh": "解毒吊飾",
+    "immunities": "Poisoned"
   },
   {
     "name": "Titanium",
@@ -21857,7 +21917,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "巴羅爾武士刀"
+    "name_zh": "巴羅爾武士刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Balor Archistaff",
@@ -22233,7 +22294,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "牛斧"
+    "name_zh": "牛斧",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Venin",
@@ -22279,7 +22341,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "鼠毒棒"
+    "name_zh": "鼠毒棒",
+    "causes": "Poisoned"
   },
   {
     "name": "Great Orcish Axe",
@@ -22390,7 +22453,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "暮光之刃"
+    "name_zh": "暮光之刃",
+    "causes": "Asleep"
   },
   {
     "name": "Balorite",
@@ -22516,7 +22580,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "石頭吊飾"
+    "name_zh": "石頭吊飾",
+    "immunities": "Petrified"
   },
   {
     "name": "High Draconian Robe",
@@ -23206,7 +23271,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "弗摩爾法杖"
+    "name_zh": "弗摩爾法杖",
+    "immunities": "Burning, Frozen, Paralyzed"
   },
   {
     "name": "Spirit of the Wood",
@@ -23259,7 +23325,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "木之靈"
+    "name_zh": "木之靈",
+    "causes": "Poisoned, Rot"
   },
   {
     "name": "Gargouille's Dagger",
@@ -23296,7 +23363,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "石像鬼的匕首"
+    "name_zh": "石像鬼的匕首",
+    "causes": "Petrified"
   },
   {
     "name": "Dune Blade",
@@ -23374,7 +23442,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "堤豐的斧"
+    "name_zh": "堤豐的斧",
+    "causes": "Blight"
   },
   {
     "name": "Dokkalfar Gada",
@@ -23408,7 +23477,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "暗之精靈金剛杵"
+    "name_zh": "暗之精靈金剛杵",
+    "causes": "Stunned"
   },
   {
     "name": "Fomor Katana",
@@ -23448,7 +23518,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "弗摩爾武士刀"
+    "name_zh": "弗摩爾武士刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Fomor Sword",
@@ -23535,7 +23606,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "水晶劍"
+    "name_zh": "水晶劍",
+    "immunities": "Att ↓, Mag ↓, Def ↓, Def ↓↓, T. Def ↓, Res ↓↓, Res ↓"
   },
   {
     "name": "Bow of Typhon",
@@ -23573,7 +23645,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "堤豐之弓"
+    "name_zh": "堤豐之弓",
+    "causes": "Blight"
   },
   {
     "name": "Staff of Typhon",
@@ -23608,7 +23681,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "堤豐法杖"
+    "name_zh": "堤豐法杖",
+    "causes": "Blight"
   },
   {
     "name": "Crystal Staff",
@@ -24583,7 +24657,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "拉之手杖"
+    "name_zh": "拉之手杖",
+    "causes": "Blind"
   },
   {
     "name": "Arcane Wand",
@@ -24661,7 +24736,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "巴西利斯克之牙"
+    "name_zh": "巴西利斯克之牙",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Magic Defense Tonic",
@@ -24762,7 +24838,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生碎骨者"
+    "name_zh": "重生碎骨者",
+    "causes": "Stunned"
   },
   {
     "name": "Bandit's Hood",
@@ -24848,7 +24925,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "以斯拉之劍"
+    "name_zh": "以斯拉之劍",
+    "causes": "Frozen"
   },
   {
     "name": "Boreal's Staff",
@@ -24886,7 +24964,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "波蕾爾之杖"
+    "name_zh": "波蕾爾之杖",
+    "causes": "Frozen"
   },
   {
     "name": "Ring of Sacrifice",
@@ -24967,7 +25046,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "安溫短刀"
+    "name_zh": "安溫短刀",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Balin's Left",
@@ -25004,7 +25084,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "巴林左劍"
+    "name_zh": "巴林左劍",
+    "causes": "Mag ↓"
   },
   {
     "name": "Crooked Shotel",
@@ -25035,7 +25116,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "彎曲短刀"
+    "name_zh": "彎曲短刀",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Thor's Hammer",
@@ -25077,7 +25159,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "索爾之錘"
+    "name_zh": "索爾之錘",
+    "causes": "Paralyzed"
   },
   {
     "name": "Excalibur",
@@ -25120,7 +25203,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "誓約聖劍"
+    "name_zh": "誓約聖劍",
+    "immunities": "Bleeding"
   },
   {
     "name": "Gizmo",
@@ -25227,7 +25311,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "雞蛇胸甲"
+    "name_zh": "雞蛇胸甲",
+    "immunities": "Petrified"
   },
   {
     "name": "Ashen Hat",
@@ -25860,7 +25945,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "火槍"
+    "name_zh": "火槍",
+    "causes": "Burning"
   },
   {
     "name": "Carl's Dagger",
@@ -25905,7 +25991,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "卡爾的匕首"
+    "name_zh": "卡爾的匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Aldon's Hat",
@@ -25942,7 +26029,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "阿爾登的帽"
+    "name_zh": "阿爾登的帽",
+    "immunities": "Stunned"
   },
   {
     "name": "Pale Leggings",
@@ -26056,7 +26144,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "阿提菲斯金剛杵"
+    "name_zh": "阿提菲斯金剛杵",
+    "causes": "Mag ↓"
   },
   {
     "name": "Beatrice's Staff",
@@ -26132,7 +26221,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "博爾德博德"
+    "name_zh": "博爾德博德",
+    "causes": "Stunned, Rot"
   },
   {
     "name": "Carl's Ring",
@@ -26204,7 +26294,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "凱爾的長矛"
+    "name_zh": "凱爾的長矛",
+    "causes": "Paralyzed"
   },
   {
     "name": "Nolan's Staff",
@@ -27372,7 +27463,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "巴林右刃"
+    "name_zh": "巴林右刃",
+    "causes": "Att ↓"
   },
   {
     "name": "Coward's Cowl",
@@ -27450,7 +27542,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "路卡爾之劍"
+    "name_zh": "路卡爾之劍",
+    "causes": "Bleeding, Asleep"
   },
   {
     "name": "Lifeshaker",
@@ -27484,7 +27577,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "撼命者"
+    "name_zh": "撼命者",
+    "causes": "Stunned"
   },
   {
     "name": "King's Hood",
@@ -27751,7 +27845,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "遠古神燈精靈法杖"
+    "name_zh": "遠古神燈精靈法杖",
+    "causes": "Paralyzed, Blind, Asleep, Stunned"
   },
   {
     "name": "Annwn Rapier",
@@ -27787,7 +27882,9 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "安溫刺劍"
+    "name_zh": "安溫刺劍",
+    "causes": "T. Def ↓, T. Att ↓, T. Mag ↓, T. Res ↓",
+    "immunities": "Stunned"
   },
   {
     "name": "Dokkalfar Garb",
@@ -27967,7 +28064,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "毒匕首"
+    "name_zh": "毒匕首",
+    "causes": "Poisoned"
   },
   {
     "name": "Dokkalfar Sword",
@@ -28206,7 +28304,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "芬尼斯武士刀"
+    "name_zh": "芬尼斯武士刀",
+    "causes": "T. Def ↓, T. Att ↓, T. Mag ↓, T. Res ↓"
   },
   {
     "name": "X Elixir",
@@ -28291,7 +28390,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "刺"
+    "name_zh": "刺",
+    "causes": "Poisoned"
   },
   {
     "name": "Vulcan's Longsword",
@@ -28340,7 +28440,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "瓦肯的長劍"
+    "name_zh": "瓦肯的長劍",
+    "causes": "Burning"
   },
   {
     "name": "Thorns",
@@ -28377,7 +28478,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "荊棘"
+    "name_zh": "荊棘",
+    "causes": "Poisoned"
   },
   {
     "name": "Horror",
@@ -28927,7 +29029,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "刻耳柏洛斯之爪"
+    "name_zh": "刻耳柏洛斯之爪",
+    "causes": "Bleeding, Frozen"
   },
   {
     "name": "Demeter's Staff",
@@ -28969,7 +29072,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "狄蜜特法杖"
+    "name_zh": "狄蜜特法杖",
+    "causes": "Rot"
   },
   {
     "name": "Ogre Axe",
@@ -29384,7 +29488,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "酒精靈靈魂之刃"
+    "name_zh": "酒精靈靈魂之刃",
+    "causes": "Poisoned, Rot"
   },
   {
     "name": "Naggeneen's Hat",
@@ -29434,7 +29539,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "納根因的帽子"
+    "name_zh": "納根因的帽子",
+    "immunities": "Poisoned, Toxic"
   },
   {
     "name": "War-mage Boots",
@@ -29651,7 +29757,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "凱魯斯的腰帶"
+    "name_zh": "凱魯斯的腰帶",
+    "immunities": "Burning"
   },
   {
     "name": "Untamed Bull",
@@ -29699,7 +29806,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "桀驁公牛"
+    "name_zh": "桀驁公牛",
+    "causes": "Burning"
   },
   {
     "name": "Horned Helmet",
@@ -29837,7 +29945,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "暴怒公牛"
+    "name_zh": "暴怒公牛",
+    "causes": "Burning, Stunned"
   },
   {
     "name": "Fine Greatsword",
@@ -29983,7 +30092,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "瑪門之劍"
+    "name_zh": "瑪門之劍",
+    "causes": "T. Def ↓, T. Att ↓, T. Mag ↓, T. Res ↓"
   },
   {
     "name": "Fallen Boots",
@@ -31097,7 +31207,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "雪怪大衣"
+    "name_zh": "雪怪大衣",
+    "immunities": "Frozen, Def ↓, T. Def ↓"
   },
   {
     "name": "Whetstone",
@@ -31486,7 +31597,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "穿甲刺劍"
+    "name_zh": "穿甲刺劍",
+    "causes": "Bleeding, Stunned"
   },
   {
     "name": "Stilettos",
@@ -31530,7 +31642,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "彈簧刀"
+    "name_zh": "彈簧刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Gladiator's Sword",
@@ -31562,7 +31675,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "角鬥士之劍"
+    "name_zh": "角鬥士之劍",
+    "causes": "T. Att ↓, T. Mag ↓"
   },
   {
     "name": "Gladiator's Shotel",
@@ -31594,7 +31708,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "角鬥士短刀"
+    "name_zh": "角鬥士短刀",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Endbringer",
@@ -31671,7 +31786,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "宮廷之杖"
+    "name_zh": "宮廷之杖",
+    "causes": "T. Res ↓"
   },
   {
     "name": "Canon Waystone",
@@ -31779,7 +31895,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "龍之弓"
+    "name_zh": "龍之弓",
+    "causes": "Blight"
   },
   {
     "name": "Yeti Coat",
@@ -31836,7 +31953,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "雪怪外套"
+    "name_zh": "雪怪外套",
+    "immunities": "Frozen, Def ↓, T. Def ↓"
   },
   {
     "name": "Viper Dagger",
@@ -31873,7 +31991,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "蛇龍短刀"
+    "name_zh": "蛇龍短刀",
+    "causes": "Burning, Blight"
   },
   {
     "name": "Dioscuri Archistaff",
@@ -31914,7 +32033,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "狄奧斯庫洛伊權杖"
+    "name_zh": "狄奧斯庫洛伊權杖",
+    "causes": "Frozen"
   },
   {
     "name": "Dioscuri Greatbow",
@@ -31959,7 +32079,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "狄奧斯庫洛伊長弓"
+    "name_zh": "狄奧斯庫洛伊長弓",
+    "causes": "Frozen"
   },
   {
     "name": "Ranger's Greatbow",
@@ -32221,7 +32342,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "狄奧斯庫洛伊大斧"
+    "name_zh": "狄奧斯庫洛伊大斧",
+    "causes": "Frozen"
   },
   {
     "name": "Ascalon",
@@ -32259,7 +32381,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "阿斯卡隆聖劍"
+    "name_zh": "阿斯卡隆聖劍",
+    "causes": "Blind"
   },
   {
     "name": "Rapier",
@@ -32294,7 +32417,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "刺劍"
+    "name_zh": "刺劍",
+    "causes": "Bleeding, Stunned"
   },
   {
     "name": "Midnight Eye",
@@ -32429,7 +32553,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "千年龍詩"
+    "name_zh": "千年龍詩",
+    "causes": "Blight"
   },
   {
     "name": "Lute",
@@ -32604,7 +32729,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "蛇龍詠歌"
+    "name_zh": "蛇龍詠歌",
+    "causes": "Blight"
   },
   {
     "name": "Bonesong",
@@ -33485,7 +33611,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "墮落盾牌"
+    "name_zh": "墮落盾牌",
+    "immunities": "Cursed"
   },
   {
     "name": "Templar Shield",
@@ -33783,7 +33910,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "低語"
+    "name_zh": "低語",
+    "causes": "Bleeding"
   },
   {
     "name": "Crest of Avalon",
@@ -33946,7 +34074,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重箭矢"
+    "name_zh": "重箭矢",
+    "causes": "Stunned"
   },
   {
     "name": "Arch-Gizmo",
@@ -34040,7 +34169,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "提佐納"
+    "name_zh": "提佐納",
+    "causes": "Def ↓, Res ↓"
   },
   {
     "name": "Colada",
@@ -34083,7 +34213,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "科拉達"
+    "name_zh": "科拉達",
+    "causes": "Paralyzed, Att ↓, Mag ↓"
   },
   {
     "name": "Genius",
@@ -34138,7 +34269,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "吉尼爾斯"
+    "name_zh": "吉尼爾斯",
+    "causes": "Burning, Bleeding, Frozen, Paralyzed, Poisoned, Def ↓, Rot, Res ↓"
   },
   {
     "name": "Avalon Knight Helmet",
@@ -34571,7 +34703,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "瓦爾哈蘭之躍"
+    "name_zh": "瓦爾哈蘭之躍",
+    "causes": "Frozen, T. Def ↓, T. Res ↓"
   },
   {
     "name": "Valhallan Armor",
@@ -34654,7 +34787,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "淬毒箭矢"
+    "name_zh": "淬毒箭矢",
+    "causes": "Poisoned"
   },
   {
     "name": "Fire Arrows",
@@ -34697,7 +34831,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "火焰箭矢"
+    "name_zh": "火焰箭矢",
+    "causes": "Burning"
   },
   {
     "name": "Dracon Shield",
@@ -34902,7 +35037,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "以斯拉法杖"
+    "name_zh": "以斯拉法杖",
+    "causes": "Frozen"
   },
   {
     "name": "Demeter's Halberd",
@@ -34947,7 +35083,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "狄蜜特之戟"
+    "name_zh": "狄蜜特之戟",
+    "causes": "Rot"
   },
   {
     "name": "Atgeir",
@@ -34993,7 +35130,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "維京茅"
+    "name_zh": "維京茅",
+    "causes": "Bleeding"
   },
   {
     "name": "Perfect Baldur",
@@ -35089,7 +35227,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "海姆達爾之盾"
+    "name_zh": "海姆達爾之盾",
+    "immunities": "Stunned"
   },
   {
     "name": "Arcane Arrows",
@@ -35139,7 +35278,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "奧術箭矢"
+    "name_zh": "奧術箭矢",
+    "causes": "Burning, Frozen, Paralyzed, Rot"
   },
   {
     "name": "Blight Arrows",
@@ -35182,7 +35322,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "枯萎箭矢"
+    "name_zh": "枯萎箭矢",
+    "causes": "Blight"
   },
   {
     "name": "Thor's Arc",
@@ -35221,7 +35362,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "索爾之弓"
+    "name_zh": "索爾之弓",
+    "causes": "Paralyzed"
   },
   {
     "name": "Vulcan's Archistaff",
@@ -35260,7 +35402,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "瓦肯之權杖"
+    "name_zh": "瓦肯之權杖",
+    "causes": "Burning"
   },
   {
     "name": "Vulcan Helmet",
@@ -35507,7 +35650,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "蠟燭法杖"
+    "name_zh": "蠟燭法杖",
+    "causes": "Burning"
   },
   {
     "name": "Candle-pike",
@@ -35565,7 +35709,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "燭台"
+    "name_zh": "燭台",
+    "causes": "Burning"
   },
   {
     "name": "Vulcan Buckler",
@@ -35841,7 +35986,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "奧術卷軸"
+    "name_zh": "奧術卷軸",
+    "causes": "Burning, Frozen, Paralyzed, Rot"
   },
   {
     "name": "Mighty Griffin Shield",
@@ -35974,7 +36120,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "迅疾如風"
+    "name_zh": "迅疾如風",
+    "causes": "Stunned"
   },
   {
     "name": "Dragon Scroll",
@@ -36022,7 +36169,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "龍之卷軸"
+    "name_zh": "龍之卷軸",
+    "causes": "Blight"
   },
   {
     "name": "Reaping Sickle",
@@ -36068,7 +36216,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "死神鐮刀"
+    "name_zh": "死神鐮刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Imagination",
@@ -36153,7 +36302,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "颶風弓"
+    "name_zh": "颶風弓",
+    "causes": "Stunned"
   },
   {
     "name": "Griffin Crested Shield",
@@ -36233,7 +36383,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生女巫的卷軸"
+    "name_zh": "重生女巫的卷軸",
+    "causes": "Bleeding, Poisoned, Blight, Blind, Asleep, Drenched"
   },
   {
     "name": "Arisen Witch's Staff",
@@ -36374,7 +36525,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "大地卷軸"
+    "name_zh": "大地卷軸",
+    "causes": "Rot"
   },
   {
     "name": "Scroll of Fire",
@@ -36405,7 +36557,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "火焰卷軸"
+    "name_zh": "火焰卷軸",
+    "causes": "Burning"
   },
   {
     "name": "Witch's Scroll",
@@ -36446,7 +36599,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "女巫的卷軸"
+    "name_zh": "女巫的卷軸",
+    "causes": "Bleeding, Poisoned, Blight, Blind, Asleep, Drenched"
   },
   {
     "name": "Royal Shield",
@@ -36520,7 +36674,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "冰之卷軸"
+    "name_zh": "冰之卷軸",
+    "causes": "Frozen"
   },
   {
     "name": "Scroll of Poison",
@@ -36551,7 +36706,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "毒術卷軸"
+    "name_zh": "毒術卷軸",
+    "causes": "Poisoned"
   },
   {
     "name": "Scroll of Lightning",
@@ -36582,7 +36738,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "閃電卷軸"
+    "name_zh": "閃電卷軸",
+    "causes": "Paralyzed"
   },
   {
     "name": "Darkest Garb",
@@ -36693,7 +36850,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "大地箭矢"
+    "name_zh": "大地箭矢",
+    "causes": "Rot"
   },
   {
     "name": "Ice Arrows",
@@ -36736,7 +36894,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "寒冰箭矢"
+    "name_zh": "寒冰箭矢",
+    "causes": "Frozen"
   },
   {
     "name": "Storm Arrows",
@@ -36779,7 +36938,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "風暴箭矢"
+    "name_zh": "風暴箭矢",
+    "causes": "Paralyzed"
   },
   {
     "name": "Sorcerer's Scroll",
@@ -37172,7 +37332,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "γ梅爾丁"
+    "name_zh": "γ梅爾丁",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Merlin's Ring",
@@ -37305,7 +37466,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "ζ梅爾丁"
+    "name_zh": "ζ梅爾丁",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Delta Myrddin",
@@ -37349,7 +37511,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "δ梅爾丁"
+    "name_zh": "δ梅爾丁",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Beta Myrddin",
@@ -37397,7 +37560,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "β梅爾丁"
+    "name_zh": "β梅爾丁",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Beta Myrddin Cowl",
@@ -37992,7 +38156,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "梅林的卷軸"
+    "name_zh": "梅林的卷軸",
+    "causes": "T. Att ↓"
   },
   {
     "name": "Lady of the Lake",
@@ -38100,7 +38265,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "α梅爾丁"
+    "name_zh": "α梅爾丁",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Delta Myrddin Shield",
@@ -38476,7 +38642,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "岡格尼爾"
+    "name_zh": "岡格尼爾",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Acolyte Staff",
@@ -39171,7 +39338,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "蓋亞長袍"
+    "name_zh": "蓋亞長袍",
+    "immunities": "Rot"
   },
   {
     "name": "Lyonesse Shield",
@@ -39528,7 +39696,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "雙叉戟"
+    "name_zh": "雙叉戟",
+    "causes": "T. Mag ↓"
   },
   {
     "name": "Chimera Stacatto",
@@ -39683,7 +39852,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "王朝"
+    "name_zh": "王朝",
+    "causes": "Bleeding"
   },
   {
     "name": "Uchigatana",
@@ -39723,7 +39893,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "打刀"
+    "name_zh": "打刀",
+    "causes": "Bleeding"
   },
   {
     "name": "Lyonesse Cowl",
@@ -39998,7 +40169,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "阿特拉斯"
+    "name_zh": "阿特拉斯",
+    "immunities": "Stunned, Def ↓"
   },
   {
     "name": "Ifrit's Feet",
@@ -40054,7 +40226,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "伊夫利特之靴"
+    "name_zh": "伊夫利特之靴",
+    "immunities": "Burning"
   },
   {
     "name": "Leviathan Cuirass",
@@ -40098,7 +40271,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "利維坦胸甲"
+    "name_zh": "利維坦胸甲",
+    "immunities": "Frozen"
   },
   {
     "name": "Taranis Hood",
@@ -40132,7 +40306,8 @@
         "name": "Fallen Taranis"
       }
     ],
-    "name_zh": "塔拉尼斯兜帽"
+    "name_zh": "塔拉尼斯兜帽",
+    "immunities": "Paralyzed"
   },
   {
     "name": "Nekromancer's Staff",
@@ -40222,7 +40397,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生酒精靈之刃"
+    "name_zh": "重生酒精靈之刃",
+    "causes": "Poisoned, Rot"
   },
   null,
   {
@@ -40380,7 +40556,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "酒精靈箭矢"
+    "name_zh": "酒精靈箭矢",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Arisen Naggeneen's Hat",
@@ -40441,7 +40618,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生納根因的帽子"
+    "name_zh": "重生納根因的帽子",
+    "immunities": "Poisoned, Toxic"
   },
   {
     "name": "Arisen Ring",
@@ -40570,7 +40748,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "甘德林"
+    "name_zh": "甘德林",
+    "causes": "Bleeding"
   },
   {
     "name": "Kaladanda",
@@ -41059,7 +41238,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "白紙"
+    "name_zh": "白紙",
+    "immunities": "Asleep"
   },
   {
     "name": "Bag of Treats",
@@ -41129,7 +41309,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "驚奇袋"
+    "name_zh": "驚奇袋",
+    "causes": "Burning, Bleeding, Frozen, Paralyzed, Poisoned, Blight, Blind, Asleep, Stunned, Petrified, Rot, Drenched"
   },
   {
     "name": "Hallowed Monster Tome",
@@ -41205,7 +41386,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "萬聖女巫帽"
+    "name_zh": "萬聖女巫帽",
+    "immunities": "Burning, Frozen, Paralyzed, Rot"
   },
   {
     "name": "Hallowed Candle",
@@ -41278,7 +41460,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生狄蜜特法杖"
+    "name_zh": "重生狄蜜特法杖",
+    "causes": "Rot"
   },
   {
     "name": "Arisen Ithra's Staff",
@@ -41320,7 +41503,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生以斯拉法杖"
+    "name_zh": "重生以斯拉法杖",
+    "causes": "Frozen"
   },
   {
     "name": "Arisen Thor's Arc",
@@ -41362,7 +41546,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生索爾之弓"
+    "name_zh": "重生索爾之弓",
+    "causes": "Paralyzed"
   },
   {
     "name": "Arisen Vulcan's Longsword",
@@ -41411,7 +41596,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生的瓦肯長劍"
+    "name_zh": "重生的瓦肯長劍",
+    "causes": "Burning"
   },
   {
     "name": "Arisen Vulcan's Archistaff",
@@ -41453,7 +41639,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生瓦肯之權杖"
+    "name_zh": "重生瓦肯之權杖",
+    "causes": "Burning"
   },
   {
     "name": "Arisen Demeter's Halberd",
@@ -41498,7 +41685,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生狄蜜特之戟"
+    "name_zh": "重生狄蜜特之戟",
+    "causes": "Rot"
   },
   {
     "name": "Arisen Ithra's Blade",
@@ -41546,7 +41734,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生以斯拉之劍"
+    "name_zh": "重生以斯拉之劍",
+    "causes": "Frozen"
   },
   {
     "name": "Arisen Thor's Hammer",
@@ -41588,7 +41777,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生索爾之錘"
+    "name_zh": "重生索爾之錘",
+    "causes": "Paralyzed"
   },
   {
     "name": "Mirror",
@@ -41690,7 +41880,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "阿瓦隆王冠"
+    "name_zh": "阿瓦隆王冠",
+    "immunities": "Petrified, Cursed"
   },
   {
     "name": "Parrying Dagger",
@@ -41736,7 +41927,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "招架匕首"
+    "name_zh": "招架匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "High Fomorian Garb",
@@ -41908,7 +42100,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "老北族王冠"
+    "name_zh": "老北族王冠",
+    "immunities": "Att ↓, Mag ↓, T. Att ↓, T. Mag ↓, T. Att ↓↓, T. Mag ↓↓"
   },
   {
     "name": "Ring of Dawn",
@@ -42127,7 +42320,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "黎明之戒"
+    "name_zh": "黎明之戒",
+    "immunities": "Def ↓, Def ↓↓, T. Def ↓, T. Res ↓, Res ↓↓, Res ↓, T. Def ↓↓, T. Res ↓↓"
   },
   {
     "name": "Dawn Hood",
@@ -42348,7 +42542,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "破暮者 [sword]"
+    "name_zh": "破暮者 [sword]",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Duskbreaker [bow]",
@@ -42391,7 +42586,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "破暮者 [bow]"
+    "name_zh": "破暮者 [bow]",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Duskbreaker [staff]",
@@ -42428,7 +42624,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "破暮者 [staff]"
+    "name_zh": "破暮者 [staff]",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Cowl",
@@ -42465,7 +42662,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "薄暮風帽"
+    "name_zh": "薄暮風帽",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Hood",
@@ -42502,7 +42700,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "薄暮兜帽"
+    "name_zh": "薄暮兜帽",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Helmet",
@@ -42536,7 +42735,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "薄暮頭盔"
+    "name_zh": "薄暮頭盔",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Robe",
@@ -42573,7 +42773,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "薄暮長袍"
+    "name_zh": "薄暮長袍",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Armor",
@@ -42607,7 +42808,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "薄暮盔甲"
+    "name_zh": "薄暮盔甲",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Garb",
@@ -42641,7 +42843,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "薄暮皮甲"
+    "name_zh": "薄暮皮甲",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Dusk Boots",
@@ -42686,7 +42889,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "薄暮長靴"
+    "name_zh": "薄暮長靴",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Ring of Dusk",
@@ -42777,7 +42981,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "闇夜之戒"
+    "name_zh": "闇夜之戒",
+    "immunities": "Att ↓, Mag ↓, T. Att ↓, T. Mag ↓, T. Att ↓↓, T. Mag ↓↓"
   },
   {
     "name": "Dawn Cowl",
@@ -42892,7 +43097,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生狼之災"
+    "name_zh": "重生狼之災",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Ebon Top Hat",
@@ -43284,7 +43490,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "虹弓"
+    "name_zh": "虹弓",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Candy Cane",
@@ -43344,7 +43551,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "枴杖糖"
+    "name_zh": "枴杖糖",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Egg Nog",
@@ -43375,7 +43583,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "蛋奶酒"
+    "name_zh": "蛋奶酒",
+    "causes": "Dex ↑, Crit ↑"
   },
   {
     "name": "Sleighblade",
@@ -43427,7 +43636,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "雪橇刃"
+    "name_zh": "雪橇刃",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Caroling Lute",
@@ -43495,7 +43705,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "聖誕頌琴"
+    "name_zh": "聖誕頌琴",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "North Star",
@@ -43539,7 +43750,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "北方之星"
+    "name_zh": "北方之星",
+    "causes": "T. Res ↑, T. Att ↑, T. Def ↑, T. Mag ↑, T. Crit ↑"
   },
   {
     "name": "Ebon North Star",
@@ -43589,7 +43801,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "黑之北極星"
+    "name_zh": "黑之北極星",
+    "causes": "T. Crit ↑, T. Att ↑, T. Def ↑, T. Mag ↑, T. Res ↑"
   },
   {
     "name": "Ebon Reinbow",
@@ -43634,7 +43847,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "黑之虹弓"
+    "name_zh": "黑之虹弓",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Ebon Sleighblade",
@@ -43682,7 +43896,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "黑之雪橇刃"
+    "name_zh": "黑之雪橇刃",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Ebon Caroling Lute",
@@ -43738,7 +43953,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "黑之聖誕頌琴"
+    "name_zh": "黑之聖誕頌琴",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Ebon Candy Cane",
@@ -43786,7 +44002,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "黑之拐杖糖"
+    "name_zh": "黑之拐杖糖",
+    "causes": "Frozen, Rot"
   },
   {
     "name": "Mighty Ensemble",
@@ -43911,7 +44128,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "格鬥寶石"
+    "name_zh": "格鬥寶石",
+    "causes": "T. Att ↓"
   },
   {
     "name": "Jewel of Growth",
@@ -44063,7 +44281,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "奧術寶石"
+    "name_zh": "奧術寶石",
+    "causes": "Burning, Frozen, Paralyzed, Rot"
   },
   {
     "name": "Mammon's Teardrop",
@@ -44117,7 +44336,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "瑪門之淚"
+    "name_zh": "瑪門之淚",
+    "causes": "T. Att ↓, T. Mag ↓"
   },
   {
     "name": "Jewel of Fomoria",
@@ -44225,7 +44445,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "腐蝕寶石"
+    "name_zh": "腐蝕寶石",
+    "causes": "T. Res ↓"
   },
   {
     "name": "Jewel of Avalon",
@@ -44328,7 +44549,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "刺客寶石"
+    "name_zh": "刺客寶石",
+    "causes": "T. Def ↓, T. Def ↓↓"
   },
   {
     "name": "Jewel of Celestria",
@@ -44534,7 +44756,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生之盾"
+    "name_zh": "重生之盾",
+    "immunities": "Cursed"
   },
   {
     "name": "Arisen Kaladanda",
@@ -44961,7 +45184,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "不朽皮甲"
+    "name_zh": "不朽皮甲",
+    "immunities": "Blind"
   },
   {
     "name": "Immortal Hood",
@@ -45002,7 +45226,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "不朽兜帽"
+    "name_zh": "不朽兜帽",
+    "immunities": "Blind"
   },
   {
     "name": "Immortal Robe",
@@ -45046,7 +45271,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "不朽法袍"
+    "name_zh": "不朽法袍",
+    "immunities": "Blind"
   },
   {
     "name": "Satis Antlers",
@@ -45184,7 +45410,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "不朽武士刀"
+    "name_zh": "不朽武士刀",
+    "causes": "Bleeding, T. Def ↓"
   },
   {
     "name": "Jewel of Defense",
@@ -45334,7 +45561,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生瑪門之淚"
+    "name_zh": "重生瑪門之淚",
+    "causes": "T. Att ↓↓, T. Mag ↓↓"
   },
   {
     "name": "Orange Pinion",
@@ -45386,7 +45614,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "橙橘羽毛"
+    "name_zh": "橙橘羽毛",
+    "causes": "Burning"
   },
   {
     "name": "Jewel of Attrition",
@@ -45416,7 +45645,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "削弱寶石"
+    "name_zh": "削弱寶石",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Immortal's Ring",
@@ -45558,7 +45788,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "不朽長靴"
+    "name_zh": "不朽長靴",
+    "immunities": "Blind"
   },
   {
     "name": "Phoenixsong",
@@ -47169,7 +47400,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生甘德林"
+    "name_zh": "重生甘德林",
+    "causes": "Bleeding"
   },
   {
     "name": "Immortal Hat",
@@ -47210,7 +47442,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "不朽帽子"
+    "name_zh": "不朽帽子",
+    "immunities": "Blind"
   },
   {
     "name": "Jewel of Silencing",
@@ -47246,7 +47479,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "沉默寶石"
+    "name_zh": "沉默寶石",
+    "causes": "T. Mag ↓"
   },
   {
     "name": "Great Phoenician Garb",
@@ -47460,7 +47694,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "暴風寶石"
+    "name_zh": "暴風寶石",
+    "causes": "Paralyzed"
   },
   {
     "name": "Antlers",
@@ -47676,7 +47911,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "焰之寶石"
+    "name_zh": "焰之寶石",
+    "causes": "Burning"
   },
   {
     "name": "Jewel of Aqua",
@@ -47720,7 +47956,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "阿庫亞之珠"
+    "name_zh": "阿庫亞之珠",
+    "causes": "Frozen"
   },
   {
     "name": "Jewel of Ward",
@@ -47917,7 +48154,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "大自然的寶玉"
+    "name_zh": "大自然的寶玉",
+    "causes": "Rot"
   },
   {
     "name": "Apprentice Robe",
@@ -48220,7 +48458,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "尖銳的刻耳柏洛斯之爪"
+    "name_zh": "尖銳的刻耳柏洛斯之爪",
+    "causes": "Bleeding, Frozen"
   },
   {
     "name": "Pale Eye of Kerberos",
@@ -48383,7 +48622,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "刻耳柏洛斯面罩"
+    "name_zh": "刻耳柏洛斯面罩",
+    "immunities": "Frozen"
   },
   {
     "name": "Plagued Greaves",
@@ -48736,7 +48976,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "芭德布渡鴉"
+    "name_zh": "芭德布渡鴉",
+    "causes": "T. Dex ↓"
   },
   {
     "name": "Macha Pillar",
@@ -48780,7 +49021,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "瑪查支柱"
+    "name_zh": "瑪查支柱",
+    "causes": "Mag ↓"
   },
   {
     "name": "Neman Havoc",
@@ -48820,7 +49062,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "妮潘凶禍"
+    "name_zh": "妮潘凶禍",
+    "causes": "Att ↓"
   },
   {
     "name": "Raven Boots",
@@ -49144,7 +49387,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "摩莉甘的卷軸"
+    "name_zh": "摩莉甘的卷軸",
+    "causes": "T. Res ↓↓"
   },
   {
     "name": "Eye of the Morrigan",
@@ -49392,7 +49636,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "變異妮潘凶禍"
+    "name_zh": "變異妮潘凶禍",
+    "causes": "Att ↓"
   },
   {
     "name": "Fey Banshee Robe",
@@ -49625,7 +49870,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "變異芭德布渡鴉"
+    "name_zh": "變異芭德布渡鴉",
+    "causes": "T. Dex ↓"
   },
   {
     "name": "Fey Banshee Veil",
@@ -49711,7 +49957,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "變異瑪查支柱"
+    "name_zh": "變異瑪查支柱",
+    "causes": "Mag ↓"
   },
   {
     "name": "Fey Plagued Greaves",
@@ -49858,7 +50105,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "惡臭鞋子"
+    "name_zh": "惡臭鞋子",
+    "immunities": "Poisoned, Blight"
   },
   {
     "name": "Fairy's Scroll",
@@ -49950,7 +50198,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "渡鴉葬歌"
+    "name_zh": "渡鴉葬歌",
+    "causes": "Def ↓, Res ↓"
   },
   {
     "name": "Fey Crowsong",
@@ -50004,7 +50253,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "變異渡鴉葬歌"
+    "name_zh": "變異渡鴉葬歌",
+    "causes": "Def ↓, Res ↓"
   },
   {
     "name": "Ambrosia",
@@ -50796,7 +51046,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "安庫之戒"
+    "name_zh": "安庫之戒",
+    "immunities": "Asleep, Cursed"
   },
   {
     "name": "Briny Pendant",
@@ -50964,7 +51215,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "赫勒提克寶石"
+    "name_zh": "赫勒提克寶石",
+    "causes": "T. Res ↓, T. Res ↓↓"
   },
   {
     "name": "Hydra Staff",
@@ -51111,7 +51363,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "安溫之戒"
+    "name_zh": "安溫之戒",
+    "immunities": "Burning, Frozen, Paralyzed, Rot"
   },
   {
     "name": "Greater Attack Tonic",
@@ -51368,7 +51621,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "妖怪法杖"
+    "name_zh": "妖怪法杖",
+    "causes": "Res ↓"
   },
   {
     "name": "Leach",
@@ -51406,7 +51660,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "利奇"
+    "name_zh": "利奇",
+    "causes": "Burning, Bleeding"
   },
   {
     "name": "Crow's Feathers",
@@ -51519,7 +51774,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "夜幕降臨 [staff]"
+    "name_zh": "夜幕降臨 [staff]",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Arisen Hydra Staff",
@@ -52228,7 +52484,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "長笛"
+    "name_zh": "長笛",
+    "causes": "Asleep"
   },
   {
     "name": "Yeti Mightycoat",
@@ -52289,7 +52546,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "極暖雪人大衣"
+    "name_zh": "極暖雪人大衣",
+    "immunities": "Frozen, Def ↓, T. Def ↓"
   },
   {
     "name": "Daybreak [sword]",
@@ -52403,7 +52661,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生深海斧"
+    "name_zh": "重生深海斧",
+    "causes": "Frozen"
   },
   {
     "name": "Old Spear",
@@ -52622,7 +52881,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "夜幕降臨 [bow]"
+    "name_zh": "夜幕降臨 [bow]",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Nightbreak [sword]",
@@ -52667,7 +52927,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "夜幕降臨 [sword]"
+    "name_zh": "夜幕降臨 [sword]",
+    "immunities": "Blind, Asleep"
   },
   {
     "name": "Goblin Lord's Staff",
@@ -52874,7 +53135,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "土匪匕首"
+    "name_zh": "土匪匕首",
+    "causes": "Bleeding"
   },
   {
     "name": "Greater Wisp Staff",
@@ -54135,7 +54397,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "第二騎士的盔甲"
+    "name_zh": "第二騎士的盔甲",
+    "immunities": "Cursed, Att ↓"
   },
   {
     "name": "Second Horseman's Hood",
@@ -54295,7 +54558,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "最終騎士的披風"
+    "name_zh": "最終騎士的披風",
+    "immunities": "Cursed, Mag ↓"
   },
   {
     "name": "Final Horseman's Armor",
@@ -54345,7 +54609,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "最終騎士的盔甲"
+    "name_zh": "最終騎士的盔甲",
+    "immunities": "Cursed, Att ↓"
   },
   {
     "name": "Final Horseman's Hood",
@@ -54505,7 +54770,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "第二騎士的披風"
+    "name_zh": "第二騎士的披風",
+    "immunities": "Cursed, Mag ↓"
   },
   {
     "name": "Staff of the Chimera",
@@ -54807,7 +55073,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "變異雪怪大衣"
+    "name_zh": "變異雪怪大衣",
+    "immunities": "Frozen, T. Res ↓, Res ↓"
   },
   {
     "name": "Azure Pinion",
@@ -55038,7 +55305,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "第三騎士的盔甲"
+    "name_zh": "第三騎士的盔甲",
+    "immunities": "Cursed, Att ↓"
   },
   {
     "name": "Third Horseman's Cloak",
@@ -55084,7 +55352,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "第三騎士的披風"
+    "name_zh": "第三騎士的披風",
+    "immunities": "Cursed, Mag ↓"
   },
   {
     "name": "Crusading Armor",
@@ -55305,7 +55574,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "最終騎士的鐮刀"
+    "name_zh": "最終騎士的鐮刀",
+    "causes": "Cursed"
   },
   {
     "name": "Second Horseman's Staff",
@@ -55358,7 +55628,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "第二騎士的法杖"
+    "name_zh": "第二騎士的法杖",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Fey Eye",
@@ -55412,7 +55683,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "變異眼球"
+    "name_zh": "變異眼球",
+    "immunities": "Blind"
   },
   {
     "name": "Fey Gazing Staff",
@@ -55613,7 +55885,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "第三騎士的金剛杵"
+    "name_zh": "第三騎士的金剛杵",
+    "causes": "Stunned, Dex ↓"
   },
   {
     "name": "Arisen Surtr's Cuirass",
@@ -56090,7 +56363,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生史爾特爾的劍"
+    "name_zh": "重生史爾特爾的劍",
+    "causes": "Blind"
   },
   {
     "name": "Arisen Surtr's Shield",
@@ -56277,7 +56551,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "史爾特爾的劍"
+    "name_zh": "史爾特爾的劍",
+    "causes": "Blind"
   },
   null,
   {
@@ -56318,7 +56593,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "凍原之劍"
+    "name_zh": "凍原之劍",
+    "causes": "Bleeding"
   },
   {
     "name": "Omega Myrddin",
@@ -56366,7 +56642,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "Ω梅爾丁"
+    "name_zh": "Ω梅爾丁",
+    "causes": "T. Def ↓, T. Res ↓"
   },
   {
     "name": "Omega Myrddin Cowl",
@@ -56782,7 +57059,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生絲質十字弓"
+    "name_zh": "重生絲質十字弓",
+    "causes": "Poisoned"
   },
   {
     "name": "Arisen Oxen Axe",
@@ -56822,7 +57100,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生牛斧"
+    "name_zh": "重生牛斧",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Arisen Axe of Tiamat",
@@ -56857,7 +57136,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生提亞馬特的斧"
+    "name_zh": "重生提亞馬特的斧",
+    "causes": "Blight"
   },
   {
     "name": "Arisen Staff of Tiamat",
@@ -56895,7 +57175,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生提亞馬特的法杖"
+    "name_zh": "重生提亞馬特的法杖",
+    "causes": "Blight"
   },
   {
     "name": "Arisen Bow of Typhon",
@@ -56942,7 +57223,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生堤豐之弓"
+    "name_zh": "重生堤豐之弓",
+    "causes": "Blight"
   },
   {
     "name": "Baneblade",
@@ -56983,7 +57265,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "毀滅之刃"
+    "name_zh": "毀滅之刃",
+    "causes": "Cursed"
   },
   {
     "name": "Arisen Fog Blade",
@@ -57027,7 +57310,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生霧刃"
+    "name_zh": "重生霧刃",
+    "causes": "Blind, Asleep"
   },
   {
     "name": "Arisen Bow of Tiamat",
@@ -57068,7 +57352,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生提亞馬特的弓"
+    "name_zh": "重生提亞馬特的弓",
+    "causes": "Blight"
   },
   {
     "name": "Arisen Staff of Typhon",
@@ -57115,7 +57400,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生堤豐法杖"
+    "name_zh": "重生堤豐法杖",
+    "causes": "Blight"
   },
   {
     "name": "Arisen Axe of Typhon",
@@ -57156,7 +57442,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生堤豐之斧"
+    "name_zh": "重生堤豐之斧",
+    "causes": "Blight"
   },
   {
     "name": "Everlasting Torch",
@@ -57193,7 +57480,9 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "不滅火炬"
+    "name_zh": "不滅火炬",
+    "causes": "Burning",
+    "immunities": "Blind"
   },
   {
     "name": "Excalibur [mimic]",
@@ -57242,7 +57531,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "誓約聖劍 [mimic]"
+    "name_zh": "誓約聖劍 [mimic]",
+    "causes": "Asleep"
   },
   {
     "name": "Band of False Gods",
@@ -57328,7 +57618,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "卡爾之戒 [Mimic]"
+    "name_zh": "卡爾之戒 [Mimic]",
+    "immunities": "Lulled"
   },
   {
     "name": "Fey Yeti Horns",
@@ -57983,7 +58274,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生變異瑪查支柱"
+    "name_zh": "重生變異瑪查支柱",
+    "causes": "Mag ↓"
   },
   {
     "name": "Arisen Fey Crowsong",
@@ -58041,7 +58333,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生變異渡鴉葬歌"
+    "name_zh": "重生變異渡鴉葬歌",
+    "causes": "Def ↓, Res ↓"
   },
   {
     "name": "Arisen Raven Boots",
@@ -58135,7 +58428,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生變異芭德布渡鴉"
+    "name_zh": "重生變異芭德布渡鴉",
+    "causes": "T. Dex ↓"
   },
   {
     "name": "Arisen Raven Garb",
@@ -58220,7 +58514,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生芭德布渡鴉"
+    "name_zh": "重生芭德布渡鴉",
+    "causes": "T. Dex ↓"
   },
   {
     "name": "Arisen Banshee Robe",
@@ -58405,7 +58700,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生瑪查支柱"
+    "name_zh": "重生瑪查支柱",
+    "causes": "Mag ↓"
   },
   {
     "name": "Arisen Banshee Veil",
@@ -58593,7 +58889,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生變異妮潘凶禍"
+    "name_zh": "重生變異妮潘凶禍",
+    "causes": "Att ↓"
   },
   {
     "name": "Arisen Raven Veil",
@@ -58731,7 +59028,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生妮潘凶禍"
+    "name_zh": "重生妮潘凶禍",
+    "causes": "Att ↓"
   },
   {
     "name": "Arisen Crowsong",
@@ -58783,7 +59081,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生渡鴉葬歌"
+    "name_zh": "重生渡鴉葬歌",
+    "causes": "Def ↓, Res ↓"
   },
   {
     "name": "Arisen Fey Plagued Helmet",
@@ -59259,7 +59558,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "芭德布戰弓"
+    "name_zh": "芭德布戰弓",
+    "causes": "Dex ↓"
   },
   {
     "name": "Shaman's Charm",
@@ -59336,7 +59636,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "芭德布之羽"
+    "name_zh": "芭德布之羽",
+    "causes": "Poisoned, Rot"
   },
   {
     "name": "Badb Garb",
@@ -59654,7 +59955,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "瑪查征杖"
+    "name_zh": "瑪查征杖",
+    "causes": "Mag ↓"
   },
   {
     "name": "Neman's Protection",
@@ -59706,7 +60008,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "妮潘的加護"
+    "name_zh": "妮潘的加護",
+    "immunities": "Asleep"
   },
   {
     "name": "Fey Macha Warstaff",
@@ -59753,7 +60056,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "變異瑪查征杖"
+    "name_zh": "變異瑪查征杖",
+    "causes": "Mag ↓"
   },
   {
     "name": "Arisen Morrigan's Scroll",
@@ -59797,7 +60101,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生的摩莉甘卷軸"
+    "name_zh": "重生的摩莉甘卷軸",
+    "causes": "T. Res ↓↓"
   },
   {
     "name": "Neman Helmet",
@@ -59879,7 +60184,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "妮潘戰刃"
+    "name_zh": "妮潘戰刃",
+    "causes": "Att ↓"
   },
   {
     "name": "Neman Cuirass",
@@ -60042,7 +60348,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "變異芭德布戰弓"
+    "name_zh": "變異芭德布戰弓",
+    "causes": "Dex ↓"
   },
   {
     "name": "Fey Macha Robe",
@@ -60266,7 +60573,8 @@
         "name": "Arisen Kerberos"
       }
     ],
-    "name_zh": "黃褐色的刻耳柏洛斯之眼"
+    "name_zh": "黃褐色的刻耳柏洛斯之眼",
+    "causes": "Paralyzed"
   },
   {
     "name": "Feral Hood",
@@ -60346,7 +60654,8 @@
         "name": "Arisen Kerberos"
       }
     ],
-    "name_zh": "翠綠色的刻耳柏洛斯之眼"
+    "name_zh": "翠綠色的刻耳柏洛斯之眼",
+    "causes": "Rot"
   },
   {
     "name": "Blue Eye of Kerberos",
@@ -60381,7 +60690,8 @@
         "name": "Arisen Kerberos"
       }
     ],
-    "name_zh": "碧藍色的刻耳柏洛斯之眼"
+    "name_zh": "碧藍色的刻耳柏洛斯之眼",
+    "causes": "Frozen"
   },
   {
     "name": "Feral Claws",
@@ -60424,7 +60734,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "野性之爪"
+    "name_zh": "野性之爪",
+    "causes": "Bleeding"
   },
   {
     "name": "Feral Archistaff",
@@ -60520,7 +60831,8 @@
         "name": "Kerberos"
       }
     ],
-    "name_zh": "血紅色的刻耳柏洛斯之眼"
+    "name_zh": "血紅色的刻耳柏洛斯之眼",
+    "causes": "Burning"
   },
   {
     "name": "Arisen Feral Claws",
@@ -60563,7 +60875,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生野性之爪"
+    "name_zh": "重生野性之爪",
+    "causes": "Bleeding"
   },
   {
     "name": "Arisen Feral Archistaff",
@@ -60961,7 +61274,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "孢子"
+    "name_zh": "孢子",
+    "causes": "Poisoned, Blight, Asleep"
   },
   {
     "name": "Arisen Fairy's Wand",
@@ -61008,7 +61322,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生妖精的棒棒"
+    "name_zh": "重生妖精的棒棒",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Arisen Fairy's Tanto",
@@ -61063,7 +61378,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生妖精的小刀"
+    "name_zh": "重生妖精的小刀",
+    "causes": "Poisoned"
   },
   {
     "name": "Fairy's Tanto",
@@ -61118,7 +61434,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "妖精的小刀"
+    "name_zh": "妖精的小刀",
+    "causes": "Poisoned"
   },
   {
     "name": "Fairy's Wand",
@@ -61165,7 +61482,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "妖精的棒棒"
+    "name_zh": "妖精的棒棒",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Vandal's Veil",
@@ -61260,7 +61578,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "凱魯斯的護腰"
+    "name_zh": "凱魯斯的護腰",
+    "immunities": "Burning"
   },
   {
     "name": "Greater Bull's Eye",
@@ -61360,7 +61679,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "狂怒公牛"
+    "name_zh": "狂怒公牛",
+    "causes": "Burning, Stunned"
   },
   {
     "name": "Ferocious Bull's Eye",
@@ -61635,7 +61955,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "兇殘的公牛"
+    "name_zh": "兇殘的公牛",
+    "causes": "Burning"
   },
   {
     "name": "Ferocious Hood",
@@ -61874,7 +62195,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "域界荊棘"
+    "name_zh": "域界荊棘",
+    "causes": "Bleeding"
   },
   {
     "name": "Axe of Gilgamesh",
@@ -62105,7 +62427,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "卡斯托耳的權杖"
+    "name_zh": "卡斯托耳的權杖",
+    "causes": "Frozen"
   },
   {
     "name": "Azure Twinbow",
@@ -62157,7 +62480,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "蔚藍雙子弓"
+    "name_zh": "蔚藍雙子弓",
+    "causes": "Frozen"
   },
   {
     "name": "Pollux's Greataxe",
@@ -62195,7 +62519,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "波魯克斯的大斧"
+    "name_zh": "波魯克斯的大斧",
+    "causes": "Frozen"
   },
   {
     "name": "Azure Dioscuri Ring",
@@ -62354,7 +62679,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生科拉達"
+    "name_zh": "重生科拉達",
+    "causes": "Paralyzed, Att ↓, Mag ↓"
   },
   {
     "name": "Finesse's Shotel",
@@ -62402,7 +62728,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "芬尼斯的短刀"
+    "name_zh": "芬尼斯的短刀",
+    "causes": "T. Def ↓"
   },
   {
     "name": "Finesse's Katana",
@@ -62460,7 +62787,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "芬尼斯的武士刀"
+    "name_zh": "芬尼斯的武士刀",
+    "causes": "T. Def ↓, T. Att ↓, T. Mag ↓, T. Res ↓"
   },
   {
     "name": "Arisen Avalon Armor",
@@ -62661,7 +62989,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生新版小發明"
+    "name_zh": "重生新版小發明",
+    "immunities": "Def ↓, Def ↓↓, T. Def ↓, T. Res ↓, Res ↓↓, Res ↓, T. Def ↓↓, T. Res ↓↓, T. Def ↓↓↓"
   },
   {
     "name": "Arisen Arch-Gizmo",
@@ -62700,7 +63029,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生新版小玩意"
+    "name_zh": "重生新版小玩意",
+    "immunities": "Att ↓, Mag ↓, T. Att ↓, T. Mag ↓, T. Att ↓↓, T. Mag ↓↓, T. Dex ↓"
   },
   {
     "name": "Arisen Contraption",
@@ -62843,7 +63173,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生提佐納"
+    "name_zh": "重生提佐納",
+    "causes": "Def ↓, Res ↓"
   },
   {
     "name": "Arisen Genius",
@@ -62893,7 +63224,8 @@
         "name": "Warrior"
       }
     ],
-    "name_zh": "重生吉尼爾斯"
+    "name_zh": "重生吉尼爾斯",
+    "causes": "Burning, Bleeding, Frozen, Paralyzed, Poisoned, Def ↓, Res ↓, Rot"
   },
   {
     "name": "Finesse's Enchanted Epee",
@@ -62944,7 +63276,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "芬尼斯的迷人巨劍"
+    "name_zh": "芬尼斯的迷人巨劍",
+    "causes": "T. Res ↓↓"
   },
   null,
   null,
@@ -63542,7 +63875,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生阿斯克鞋"
+    "name_zh": "重生阿斯克鞋",
+    "immunities": "Stunned"
   },
   {
     "name": "Arisen Askr Cowl",
@@ -63827,7 +64161,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "重生安布拉鞋"
+    "name_zh": "重生安布拉鞋",
+    "immunities": "Stunned"
   },
   {
     "name": "Arisen Askr Armor",
@@ -63972,7 +64307,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生赫爾的羽毛"
+    "name_zh": "重生赫爾的羽毛",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Hel's Feathers",
@@ -64022,7 +64358,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "赫爾的羽毛"
+    "name_zh": "赫爾的羽毛",
+    "causes": "Poisoned, Blight"
   },
   {
     "name": "Helhest",
@@ -64081,7 +64418,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "海斯特"
+    "name_zh": "海斯特",
+    "immunities": "Blind"
   },
   {
     "name": "Arisen Helhest",
@@ -64140,7 +64478,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生海斯特"
+    "name_zh": "重生海斯特",
+    "immunities": "Blind"
   },
   {
     "name": "Arisen Hel's Garb",
@@ -64187,7 +64526,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生赫爾皮甲"
+    "name_zh": "重生赫爾皮甲",
+    "immunities": "Blind, Stunned"
   },
   {
     "name": "Hel's Boots",
@@ -64347,7 +64687,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "赫爾面罩"
+    "name_zh": "赫爾面罩",
+    "immunities": "T. Dex ↓"
   },
   {
     "name": "Hel's Garb",
@@ -64398,7 +64739,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "赫爾皮甲"
+    "name_zh": "赫爾皮甲",
+    "immunities": "Blind, Stunned"
   },
   {
     "name": "Arisen Hel's Veil",
@@ -64442,7 +64784,8 @@
         "name": "Thief"
       }
     ],
-    "name_zh": "重生赫爾面罩"
+    "name_zh": "重生赫爾面罩",
+    "immunities": "T. Dex ↓"
   },
   {
     "name": "Embla Shoes",
@@ -64481,7 +64824,8 @@
         "name": "Mage"
       }
     ],
-    "name_zh": "安布拉鞋"
+    "name_zh": "安布拉鞋",
+    "immunities": "Stunned"
   },
   {
     "name": "Embla Hood",
