@@ -46,6 +46,16 @@ export const filtersDef = [
     prop: 'context',
     type: 'text',
   },
+  {
+    prop: 'immunities',
+    type: 'text',
+    list: 'immunities',
+  },
+  {
+    prop: 'causes',
+    type: 'text',
+    list: 'causes',
+  },
   // {
   //   prop: 'stats',
   // },

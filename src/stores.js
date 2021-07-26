@@ -18,6 +18,8 @@ fetch(`raw-data/item.added.min.json`)
   filterLists.set({
     types: [...new Set(d.map(i => i.type))],
     tiers: [...new Set(d.map(i => i.tier))],
+    immunities: [...new Set(d.map(i => i.immunities?.split(', ')).flat())].filter(Boolean),
+    causes: [...new Set(d.map(i => i.causes?.split(', ')).flat())].filter(Boolean),
     equipped_by: [...new Set(d.map(i => i.equipped_by).flat().filter(Boolean))],
   });
 
