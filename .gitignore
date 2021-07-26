@@ -1,5 +1,6 @@
 /node_modules/
 /public/build/
+/task/items/
 
 .DS_Store
 *.err.json

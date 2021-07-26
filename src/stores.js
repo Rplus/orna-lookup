@@ -4,7 +4,7 @@ export const data = writable({ waiting: true });
 export const filterLists = writable({});
 // export const filters = writable([]);
 
-fetch(`raw-data/item.min.json`)
+fetch(`raw-data/item.added.min.json`)
 .then(r => r.json())
 .then(d => {
   d = d
