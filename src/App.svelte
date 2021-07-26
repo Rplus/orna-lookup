@@ -26,15 +26,9 @@
   }
 
   $: {
-    items = filterItems($filters);
-  }
-
-  $: {
+    sortProp;
     sortDirASC;
-    console.log({sortDirASC});
-    if (init) {
-      items = sortByProp(items);
-    }
+    items = filterItems($filters);
   }
 
   function filterItems(_filters) {
@@ -105,16 +99,15 @@
       switch (typeof a[sortProp]) {
         case 'string':
           return (a[sortProp][0].charCodeAt() - b[sortProp][0].charCodeAt()) * (sortDirASC ? 1: -1);
-        // case 'boolean':
-        //   return ;
-        default:
+        case 'number':
           return (a[sortProp] - b[sortProp]) * (sortDirASC ? 1: -1);
+        default:
+          return 0;
       }
     });
   }
 
   function addFilter() {
-    console.log('addFilter');
     filters.add({ timestamp: +new Date });
   }
 
