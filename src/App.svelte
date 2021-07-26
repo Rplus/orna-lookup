@@ -213,6 +213,7 @@
 <style>
   .item-list {
     list-style: none;
+    margin-right: max(10vw, 3em);
   }
 
   .item-list li {
@@ -231,6 +232,7 @@
     white-space: pre-wrap;
     font-size: 1.25em;
     margin-left: 5vw;
+    background-color: #ccc9;
   }
 
   .nav {
