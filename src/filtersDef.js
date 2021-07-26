@@ -33,13 +33,15 @@ export const filtersDef = [
     prop: 'arena',
     type: 'checkbox',
   },
-  {
-    prop: 'image',
-    type: 'text',
-  },
   // {
-  //   prop: 'equipped_by',
+  //   prop: 'image',
+  //   type: 'text',
   // },
+  {
+    prop: 'equipped_by',
+    type: 'text',
+    list: 'equipped_by',
+  },
   {
     prop: 'context',
     type: 'text',
