@@ -5,17 +5,11 @@
   import { filters, filterLists } from './stores.js';
   import { filtersDef } from './filtersDef.js';
 
-  $: {
-    // console.log(1131, {filters: $filters, filtersDef});
-    console.log(1111111, $filterLists);
-    // console.log({timestamp, rules});
-  }
-
   $: filterProp = 'name';
   $: filterDef = filtersDef.find(i => i.prop === filterProp);
   $: filterValue = null;
   $: filterComparators = '=';
-  console.log({filtersDef});
+  // console.log({filtersDef});
 
   $: {
     filters.update(timestamp, {

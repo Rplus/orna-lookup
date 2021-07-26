@@ -6,8 +6,10 @@
 
   let init = false;
   let oData = [];
-  let types = [];
   let items = [];
+  $: allProps = [];
+  let sortProp;
+  $: sortDirASC = true;
 
   $: maxItem = 30;
   $: maxDetailsItem = 5;
@@ -18,18 +20,25 @@
     if (!$data.waiting && !init) {
       init = true;
       items = $data;
+      allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
+      sortProp = allProps[0];
     }
   }
 
   $: {
-    filterItems($filters);
     items = filterItems($filters);
-    console.log({items});
+  }
+
+  $: {
+    sortDirASC;
+    console.log({sortDirASC});
+    if (init) {
+      items = sortByProp(items);
+    }
   }
 
   function filterItems(_filters) {
     let d = $data; // reset
-    console.log('filterItems', _filters);
 
     if (
       !_filters ||
@@ -47,7 +56,7 @@
       }
     });
 
-    return d;
+    return sortByProp(d);
   }
 
   function filterByRule(data, rule) {
@@ -91,6 +100,19 @@
     }
   }
 
+  function sortByProp(data = items) {
+    return data.sort((a, b) => {
+      switch (typeof a[sortProp]) {
+        case 'string':
+          return (a[sortProp][0].charCodeAt() - b[sortProp][0].charCodeAt()) * (sortDirASC ? 1: -1);
+        // case 'boolean':
+        //   return ;
+        default:
+          return (a[sortProp] - b[sortProp]) * (sortDirASC ? 1: -1);
+      }
+    });
+  }
+
   function addFilter() {
     console.log('addFilter');
     filters.add({ timestamp: +new Date });
@@ -121,11 +143,24 @@
 
   <div class="nav">
     <div>
-      auto show image below
-      <input type="number" min="1" max="50" bind:value={maxDetailsItem}>
+      sort by:
+      <select bind:value={sortProp}>
+        {#each allProps as p}
+          <option value={p} label={p} />
+        {/each}
+      </select>
+
+      <input id="sortDir" type="checkbox" bind:checked={sortDirASC}>
     </div>
+
     <div>
-      items:
+      show images below
+      <input type="number" min="1" max="50" bind:value={maxDetailsItem}>
+      items
+    </div>
+
+    <div>
+      list:
       <input type="number" min="5" max="2000" step="5" bind:value={maxItem}> / { items.length }
     </div>
   </div>
@@ -204,5 +239,16 @@
     font-family: serif;
     font-style: italic;
     padding: 2em .5em;
+  }
+
+  #sortDir {
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+  #sortDir::after {
+    content: '▼';
+  }
+  #sortDir:checked::after {
+    content: '▲';
   }
 </style>
