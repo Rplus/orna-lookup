@@ -11,8 +11,8 @@
   let sortProp;
   $: sortDirASC = true;
 
-  $: maxItem = 30;
-  $: maxDetailsItem = 20;
+  $: maxItem = 50;
+  $: maxDetailsItem = 30;
   $: showDetails = items.length <= maxDetailsItem;
 
   // init data
@@ -150,15 +150,18 @@
       <input id="sortDir" type="checkbox" bind:checked={sortDirASC}>
     </div>
 
-    <div>
-      <input type="number" min="1" max="50" bind:value={maxDetailsItem}>
-      數量以下秀圖
-    </div>
+    <details>
+      <summary>
+        顯示數量
+        <input type="number" min="5" max="2000" step="5" bind:value={maxItem}> / { items.length }
+      </summary>
 
-    <div>
-      顯示數量
-      <input type="number" min="5" max="2000" step="5" bind:value={maxItem}> / { items.length }
-    </div>
+      <div>
+        <input type="number" min="1" max="50" bind:value={maxDetailsItem}>
+        數量以下秀圖
+      </div>
+    </details>
+
   </div>
 
   <hr>
