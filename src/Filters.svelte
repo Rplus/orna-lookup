@@ -5,7 +5,7 @@
   import { filters, filterLists } from './stores.js';
   import { filtersDef } from './filtersDef.js';
 
-  $: filterProp = 'name';
+  $: filterProp = 'name_zh';
   $: filterDef = filtersDef.find(i => i.prop === filterProp);
   $: filterValue = null;
   $: filterComparators = '=';

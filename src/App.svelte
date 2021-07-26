@@ -169,8 +169,14 @@
     <li>
       <details>
         <summary>
-          {item.id} - {item.name} <sup>★{item.tier}</sup>
-          <a href="https://orna.guide/items?show={item.id}" target="orna.guide">🔗</a>
+          <!-- {item.id} -->
+          <ruby>
+            <rb>{item.name_zh}</rb>
+            <rt>{item.name}</rt>
+          </ruby>
+
+          <a href="https://orna.guide/items?show={item.id}" target="orna.guide"><sup>★{item.tier}</sup></a>
+
           {#if showDetails}
             <br>
             <img
@@ -247,5 +253,12 @@
   }
   #sortDir:checked::after {
     content: '▲';
+  }
+  ruby {
+    ruby-position: under;
+    ruby-align: center;
+  }
+  rt {
+    color: #999;
   }
 </style>

@@ -4,6 +4,10 @@ export const filtersDef = [
     type: 'text',
   },
   {
+    prop: 'name_zh',
+    type: 'text',
+  },
+  {
     prop: 'id',
     type: 'number',
     min: 0,
