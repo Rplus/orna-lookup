@@ -137,7 +137,7 @@
     <li>
       <details>
         <summary>
-          {item.id} - {item.name} <sup>T{item.tier}</sup>
+          {item.id} - {item.name} <sup>★{item.tier}</sup>
           <a href="https://orna.guide/items?show={item.id}" target="orna.guide">🔗</a>
           {#if showDetails}
             <br>
@@ -177,6 +177,10 @@
 
   .item-list li {
     margin-bottom: 1em;
+  }
+
+  .item-list sup {
+    color: #99c;
   }
 
   .item-list img {
