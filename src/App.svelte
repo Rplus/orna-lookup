@@ -124,7 +124,7 @@
 
 <div class="workspace">
   <aside>
-    <button on:click={ addFilter }>add new filter</button>
+    <button on:click={ addFilter }>+過濾條件</button>
     <ul>
       {#each $filters as filter (filter.timestamp)}
         <li>
@@ -140,7 +140,7 @@
 
   <div class="nav">
     <div>
-      sort by:
+      排序:
       <select bind:value={sortProp}>
         {#each allProps as p}
           <option value={p} label={p} />
@@ -151,13 +151,12 @@
     </div>
 
     <div>
-      show images below
       <input type="number" min="1" max="50" bind:value={maxDetailsItem}>
-      items
+      數量以下秀圖
     </div>
 
     <div>
-      list:
+      顯示數量
       <input type="number" min="5" max="2000" step="5" bind:value={maxItem}> / { items.length }
     </div>
   </div>

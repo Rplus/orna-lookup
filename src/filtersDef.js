@@ -1,26 +1,11 @@
 export const filtersDef = [
   {
-    prop: 'name',
-    type: 'text',
-  },
-  {
     prop: 'name_zh',
     type: 'text',
   },
   {
-    prop: 'id',
-    type: 'number',
-    min: 0,
-  },
-  {
-    prop: 'description',
+    prop: 'name',
     type: 'text',
-  },
-  {
-    prop: 'type',
-    type: 'text',
-    list: 'types',
-    // exact: true,
   },
   {
     prop: 'tier',
@@ -29,18 +14,6 @@ export const filtersDef = [
     min: 1,
     max: 10,
   },
-  {
-    prop: 'boss',
-    type: 'checkbox',
-  },
-  {
-    prop: 'arena',
-    type: 'checkbox',
-  },
-  // {
-  //   prop: 'image',
-  //   type: 'text',
-  // },
   {
     prop: 'equipped_by',
     type: 'text',
@@ -60,6 +33,33 @@ export const filtersDef = [
     type: 'text',
     list: 'causes',
   },
+  {
+    prop: 'id',
+    type: 'number',
+    min: 0,
+  },
+  {
+    prop: 'description',
+    type: 'text',
+  },
+  {
+    prop: 'type',
+    type: 'text',
+    list: 'types',
+    // exact: true,
+  },
+  {
+    prop: 'boss',
+    type: 'checkbox',
+  },
+  {
+    prop: 'arena',
+    type: 'checkbox',
+  },
+  // {
+  //   prop: 'image',
+  //   type: 'text',
+  // },
   // {
   //   prop: 'stats',
   // },
