@@ -9,6 +9,7 @@
   let items = [];
   $: allProps = [];
   let sortProp;
+  let openedItems = [];
   $: sortDirASC = true;
 
   $: maxItem = 50;
@@ -115,14 +116,18 @@
     filters.add({ timestamp: +new Date });
   }
 
+  function getImgSrc(imgPath) {
+    return `https://images.weserv.nl/?w=96&il&url=https://orna.guide/static/orna/img/${imgPath}`;
+  }
+
   // auto new one
   addFilter();
 
 </script>
 
-<h1><a href="https://playorna.com/" target="_blank">Orna</a> items Lookup tool</h1>
-
 <div class="workspace">
+  <h1 class="text-center"><a href="https://playorna.com/" target="_blank">Orna RPG</a> items lookup tool</h1>
+
   <aside>
     <button on:click={ addFilter }>+過濾條件</button>
     <ul>
@@ -153,12 +158,22 @@
     <details>
       <summary>
         顯示數量
-        <input type="number" min="5" max="2000" step="5" bind:value={maxItem}> / { items.length }
+        <input
+          class="text-center"
+          type="number" min="5" max="2000" step="5"
+          bind:value={maxItem}
+        >
+        / { items.length }
       </summary>
 
       <div>
-        <input type="number" min="1" max="50" bind:value={maxDetailsItem}>
-        數量以下秀圖
+        總數
+        <input
+          class="text-center"
+          type="number" min="1" max="50"
+          bind:value={maxDetailsItem}
+        >
+        以下秀圖
       </div>
     </details>
 
@@ -166,10 +181,10 @@
 
   <hr>
 
-  <ul class="item-list">
+  <ul class="items" class:showDetails>
   {#each items.slice(0, maxItem) as item (item.id)}
     <li>
-      <details>
+      <details class="item-details">
         <summary>
           <!-- {item.id} -->
           <ruby>
@@ -177,23 +192,21 @@
             <rt>{item.name}</rt>
           </ruby>
 
-          <a href="https://orna.guide/items?show={item.id}" target="orna.guide"><sup>★{item.tier}</sup></a>
+          <a href="https://orna.guide/items?show={item.id}" target="orna.guide">
+            <sup>★{item.tier}</sup>
+          </a>
 
-          {#if showDetails}
-            <br>
-            <img
-              src="https://images.weserv.nl/?w=96&il&url=https://orna.guide/static/orna/img/{item.image}"
-              alt=""
-              loading="lazy"
-              width="96"
-              height="96"
-            />
-          {/if}
+          <div
+            class="item-img-box"
+            style={`--bg: url(${getImgSrc(item.image)})`}
+          />
         </summary>
 
-        <pre class="item-pre">
-          { JSON.stringify({...item, context: null}, null, ' ') }
-        </pre>
+        <div class="item-more">
+          <pre class="item-pre">
+            { JSON.stringify({...item, context: null}, null, ' ') }
+          </pre>
+        </div>
       </details>
     </li>
   {/each}
@@ -211,34 +224,65 @@
 
 
 <style>
-  .item-list {
-    list-style: none;
+  .workspace {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .items {
     margin-right: max(10vw, 3em);
+    list-style: none;
   }
 
-  .item-list li {
+  .items summary {
+    position: relative;
+    z-index: 1;
+    cursor: copy;
+  }
+
+  .items li {
     margin-bottom: 1em;
+    background-color: #9991;
   }
 
-  .item-list sup {
+  .items sup {
     color: #99c;
   }
 
-  .item-list img {
+  .item-img-box {
+    display: block;
+    width: 96px;
     margin-left: 3vw;
   }
 
+  .items.showDetails .item-img-box,
+  .item-details[open] .item-img-box {
+    height: 96px;
+    background-image: var(--bg);
+    background-repeat: no-repeat;
+  }
+
   .item-pre {
-    white-space: pre-wrap;
-    font-size: 1.25em;
     margin-left: 5vw;
-    background-color: #ccc9;
+    padding: .5em 1em;
+    white-space: pre;
+    overflow: auto;
+    font-size: 1.25em;
+    background-color: #aaa3;
+  }
+
+  @media (min-width: 900px) {
+    .item-pre {
+      margin-top: -100px;
+      margin-left: 200px
+    }
   }
 
   .nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 40px;
   }
 
   footer {
