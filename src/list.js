@@ -51,37 +51,23 @@ export function getList(data) {
     causes: [...new Set(data.map(i => i.causes?.split(', ')).flat())],
     equipped_by: [...new Set(data.map(i => i.equipped_by).flat().filter(Boolean))],
   }
-  let gg = genLabelValue(obj);
 
-  console.log({xx});
-
-  return gg;
-
-  // return genLabelValue(obj);
+  return genLabelValue(obj);
 }
 
 function genLabelValue(obj) {
   for (let prop in obj) {
-    let gg = obj[prop]
+    obj[prop] = obj[prop]
     .filter(Boolean)
-    .map(i => {
-      if (!words[i]) {
-        xx.push(i);
-      }
-      return {
+    .map(i => (
+      {
         value: i,
         label: words[i] ? `${words[i]} ${i}` : i,
-      };
-    });
-    console.log(
-      gg.sort((a, b) => {
-        console.log(111, a.label[0]);
-        return a.label[0]?.charCodeAt() - b.label[0]?.charCodeAt();
-      })
+      }
+    ))
+    .sort((a, b) =>
+      a.label[0]?.charCodeAt() - b.label[0]?.charCodeAt()
     );
-    console.log(333, obj[prop]);
-
-    obj[prop] = gg;
   }
   return obj;
 }
