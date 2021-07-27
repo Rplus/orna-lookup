@@ -7,7 +7,7 @@
 
   let init = false;
   let items = [];
-  $: allProps = [];
+  $: sortableProps = [];
   let sortProp;
   $: sortDirASC = true;
 
@@ -20,11 +20,17 @@
     if (!$data.waiting && !init) {
       init = true;
       items = $data;
-      allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
-      if (allProps.includes('tier')) {
+      let allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
+      sortableProps = allProps.filter(p => {
+        let targetType = typeof items.find(i => i[p])?.[p];
+        return targetType !== 'object';
+      });
+      console.log({items});
+      if (sortableProps.includes('tier')) {
+        // default sort by tier
         sortProp = 'tier';
       } else {
-        sortProp = allProps[0];
+        sortProp = sortableProps[0];
       }
     }
   }
@@ -151,7 +157,7 @@
     <div>
       排序:
       <select bind:value={sortProp}>
-        {#each allProps as p}
+        {#each sortableProps as p}
           <option value={p} label={p} />
         {/each}
       </select>
