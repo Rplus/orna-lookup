@@ -12,7 +12,7 @@
   $: sortDirASC = true;
 
   $: maxItem = 50;
-  $: maxDetailsItem = 30;
+  $: maxDetailsItem = 20;
   $: showDetails = items.length <= maxDetailsItem || maxItem <= maxDetailsItem;
 
   // init data
