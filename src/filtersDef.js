@@ -72,9 +72,11 @@ export const filtersDef = [
   // {
   //   prop: 'quests',
   // },
-  // {
-  //   prop: 'element',
-  // },
+  {
+    prop: 'element',
+    type: 'text',
+    list: 'element',
+  },
   {
     prop: 'view_distance',
     type: 'checkbox',
