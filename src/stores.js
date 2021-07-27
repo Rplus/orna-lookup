@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import { getList } from './list.js';
 
 export const data = writable({ waiting: true });
 export const filterLists = writable({});
@@ -15,14 +16,7 @@ fetch(`raw-data/item.added.min.json`)
       return i;
     });
 
-  filterLists.set({
-    types: [...new Set(d.map(i => i.type))],
-    tiers: [...new Set(d.map(i => i.tier))],
-    element: [...new Set(d.map(i => i.element))].filter(Boolean),
-    immunities: [...new Set(d.map(i => i.immunities?.split(', ')).flat())].filter(Boolean),
-    causes: [...new Set(d.map(i => i.causes?.split(', ')).flat())].filter(Boolean),
-    equipped_by: [...new Set(d.map(i => i.equipped_by).flat().filter(Boolean))],
-  });
+  filterLists.set(getList(d));
 
   data.set(d);
 })
