@@ -249,6 +249,7 @@
     position: relative;
     z-index: 1;
     cursor: copy;
+    font-weight: bolder;
   }
 
   .items li {
@@ -342,6 +343,7 @@
     ruby-align: center;
   }
   rt {
+    font-weight: normal;
     color: #999;
   }
 </style>
