@@ -59,3 +59,17 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
+
+.text-center {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: .5em;
+  height: .5em;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+  background: #0001;
+}
