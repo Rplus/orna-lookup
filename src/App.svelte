@@ -14,7 +14,7 @@
 
   $: maxItem = 50;
   $: maxDetailsItem = 30;
-  $: showDetails = items.length <= maxDetailsItem;
+  $: showDetails = items.length <= maxDetailsItem || maxItem <= maxDetailsItem;
 
   // init data
   $: {
