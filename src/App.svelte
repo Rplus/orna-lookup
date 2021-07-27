@@ -2,14 +2,13 @@
   import { data, filters } from './stores.js';
   import Filters from './Filters.svelte';
   import { setContext } from 'svelte';
+  import { getImgSrc, checkingImg } from './image.js';
 
 
   let init = false;
-  let oData = [];
   let items = [];
   $: allProps = [];
   let sortProp;
-  let openedItems = [];
   $: sortDirASC = true;
 
   $: maxItem = 50;
@@ -116,9 +115,14 @@
     filters.add({ timestamp: +new Date });
   }
 
-  function getImgSrc(imgPath) {
-    return `https://images.weserv.nl/?w=96&il&url=https://orna.guide/static/orna/img/${imgPath}`;
-  }
+  // function checkProxyImg(item) {
+  //   checkingImg(item)
+  //   .then()
+  //   .catch(e => {
+  //     let index = items.findIndex(i => i.id == item.id);
+  //     items[index].deadProxyImage = true;
+  //   })
+  // }
 
   // auto new one
   addFilter();
@@ -198,7 +202,7 @@
 
           <div
             class="item-img-box"
-            style={`--bg: url(${getImgSrc(item.image)})`}
+            style={`--bg: url(${getImgSrc(item)})`}
           />
         </summary>
 
