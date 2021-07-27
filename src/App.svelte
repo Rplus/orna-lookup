@@ -204,6 +204,8 @@
             class="item-img-box"
             style={`--bg: url(${getImgSrc(item)})`}
           />
+
+          <div class="item-equipped" data-by={item.equipped_by} />
         </summary>
 
         <div class="item-more">
@@ -251,6 +253,30 @@
 
   .items sup {
     color: #99c;
+  }
+
+  .item-equipped {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1em;
+    width: 3.45em;
+    font-size: 1.5em;
+    background-image: var(--bg-mage, none), var(--bg-thief, none), var(--bg-warrior, none);
+    background-repeat: no-repeat;
+    background-position: 0 50%, 50% 50%, 100% 50%;
+    background-size: contain;
+    opacity: .3;
+  }
+
+  .item-equipped[data-by*="Warrior" i] {
+    --bg-mage: url('../images/Warrior.png');
+  }
+  .item-equipped[data-by*="Thief" i] {
+    --bg-thief: url('../images/Thief.png');
+  }
+  .item-equipped[data-by*="Mage" i] {
+    --bg-warrior: url('../images/Mage.png');
   }
 
   .item-img-box {
