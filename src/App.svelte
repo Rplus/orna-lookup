@@ -25,7 +25,6 @@
         let targetType = typeof items.find(i => i[p])?.[p];
         return targetType !== 'object';
       });
-      console.log({items});
       if (sortableProps.includes('tier')) {
         // default sort by tier
         sortProp = 'tier';
