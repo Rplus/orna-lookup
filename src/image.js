@@ -13,7 +13,7 @@ let imgs = {
 export function getImgSrc(item) {
   if (!item) { return; }
   return (
-    item.deadProxyImage
+    (item.deadProxyImage || true)
       ? getOriginImgSrc(item.image)
       : getProxyImgSrc(item.image)
   );
