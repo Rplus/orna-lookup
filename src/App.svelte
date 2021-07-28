@@ -207,7 +207,7 @@
 
           <div
             class="item-img-box"
-            style={`--bg: url(${getImgSrc(item)})`}
+            style={`--bg: url(${getImgSrc(item)}); --bg-fallback: url(${getImgSrc(item, 'small')})`}
           />
 
           <div class="item-equipped" data-by={item.equipped_by} />
@@ -294,7 +294,8 @@
   .items.showDetails .item-img-box,
   .item-details[open] .item-img-box {
     height: 96px;
-    background-image: var(--bg);
+    background-image: var(--bg, none), var(--bg-fallback, none);
+    background-size: contain;
     background-repeat: no-repeat;
   }
 

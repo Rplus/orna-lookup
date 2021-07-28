@@ -10,8 +10,13 @@ let imgs = {
   checing: [],
 };
 
-export function getImgSrc(item) {
+export function getImgSrc(item, thumbnail) {
   if (!item) { return; }
+
+  if (thumbnail) {
+    return getProxyImgSrc(item.image, 16);
+  }
+
   return (
     (item.deadProxyImage || true)
       ? getOriginImgSrc(item.image)
@@ -51,12 +56,12 @@ export function checkingImg(item) {
 
 }
 
-function getProxyImgSrc(imgPath) {
+function getProxyImgSrc(imgPath, size = 96) {
   // // debug for #1 item
   // if (imgPath === 'useables/small_health_potion.png') {
   //   return imgPath;
   // }
-  return `https://images.weserv.nl/?w=96&il&url=${getOriginImgSrc (imgPath)}`;
+  return `https://images.weserv.nl/?w=${size}&il&url=${getOriginImgSrc (imgPath)}`;
 }
 
 function getOriginImgSrc(imgPath) {
