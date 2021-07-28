@@ -5,8 +5,8 @@ html, body {
 }
 
 body {
-  color: #333;
-  background-color: #eee;
+  color: #d8c8bb;
+  background-color: #28231f;
   margin: 0;
   padding: 8px;
   overflow-y: scroll;
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: rgb(0,100,200);
+  color: #17a2b8;
   text-decoration: none;
 }
 
@@ -24,9 +24,19 @@ a:hover {
 }
 
 a:visited {
-  color: rgb(0,80,160);
+  color: #0f6674;
 }
 
+::marker {
+  color: #9999;
+  font-size: smaller;
+}
+
+hr {
+  border-color: #9999;
+  border-style: dotted;
+  margin: 2em 0;
+}
 
 input, button, select, textarea {
   font-family: inherit;
@@ -35,8 +45,16 @@ input, button, select, textarea {
   padding: 0.4em;
   margin: 0 0 0.5em 0;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc6;
   border-radius: 2px;
+
+  background-color: #2a2520;
+  color: inherit;
+}
+
+input {
+  background-color: #C4B5A5;
+  color: #2a2520;
 }
 
 input:disabled {
@@ -44,8 +62,8 @@ input:disabled {
 }
 
 button {
-  color: #333;
-  background-color: #f4f4f4;
+  color: #fef1e1;
+  background-color: #374E38;
   outline: none;
 }
 
@@ -54,11 +72,12 @@ button:disabled {
 }
 
 button:not(:disabled):active {
-  background-color: #ddd;
+  background-color: #324633;
 }
 
+button:hover,
 button:focus {
-  border-color: #666;
+  border-color: #ccca;
 }
 
 .text-center {

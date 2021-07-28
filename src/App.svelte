@@ -248,6 +248,7 @@
   .items summary {
     position: relative;
     z-index: 1;
+    padding: .5em;
     cursor: copy;
     font-weight: bolder;
   }
@@ -258,13 +259,13 @@
   }
 
   .items sup {
-    color: #99c;
+    color: #669;
   }
 
   .item-equipped {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: .5em;
+    right: .5em;
     height: 1em;
     width: 3.45em;
     font-size: 1.5em;
@@ -272,7 +273,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%, 50% 50%, 100% 50%;
     background-size: contain;
-    opacity: .3;
+    filter: sepia(1) brightness(.5);
   }
 
   .item-equipped[data-by*="Warrior" i] {
@@ -293,6 +294,7 @@
 
   .items.showDetails .item-img-box,
   .item-details[open] .item-img-box {
+    margin-top: 1em;
     height: 96px;
     background-image: var(--bg, none), var(--bg-fallback, none);
     background-size: contain;
@@ -305,7 +307,8 @@
     white-space: pre;
     overflow: auto;
     font-size: 1.25em;
-    background-color: #aaa3;
+    background-color: #6662;
+    color: #aaa;
   }
 
   @media (min-width: 900px) {
