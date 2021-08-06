@@ -65,9 +65,18 @@ function genLabelValue(obj) {
         label: words[i] ? `${words[i]} ${i}` : i,
       }
     ))
-    .sort((a, b) =>
-      a.label[0]?.charCodeAt() - b.label[0]?.charCodeAt()
-    );
+    .sort((a, b) => sortLables(a.label, b.label));
   }
   return obj;
+}
+
+function sortLables(label_1, label_2) {
+  switch (typeof label_1) {
+    case 'number':
+      return label_1 - label_2;
+    case 'string':
+      return label_1.toLowerCase().localeCompare(label_2.toLowerCase());
+    default:
+      return label_1 > label_12;
+  }
 }
