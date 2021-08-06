@@ -24,9 +24,9 @@ export const filtersDef = [
     type: 'text',
   },
   {
-    prop: 'immunities',
+    prop: 'prevents',
     type: 'text',
-    list: 'immunities',
+    list: 'prevents',
   },
   {
     prop: 'causes',

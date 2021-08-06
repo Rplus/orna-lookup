@@ -48,7 +48,8 @@ export function getList(data) {
     tiers: [...new Set(data.map(i => i.tier))],
     element: [...new Set(data.map(i => i.element))],
     immunities: [...new Set(data.map(i => i.immunities?.split(', ')).flat())],
-    causes: [...new Set(data.map(i => i.causes?.split(', ')).flat())],
+    causes: [...new Set(data.map(i => i.causes).flat())],
+    prevents: [...new Set(data.map(i => i.prevents).flat())],
     equipped_by: [...new Set(data.map(i => i.equipped_by).flat().filter(Boolean))],
   }
 
