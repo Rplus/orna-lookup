@@ -46,10 +46,6 @@
     ],
     "dropped_by": [
       {
-        "id": 6,
-        "name": "Ghost"
-      },
-      {
         "id": 7,
         "name": "Goblin"
       }
@@ -119,6 +115,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Poisoned"
     ]
   },
   {
@@ -306,10 +305,6 @@
     "image": "useables/panacea.png",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -360,10 +355,6 @@
       {
         "id": 428,
         "name": "Arisen Kerberos"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -379,6 +370,30 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "Res ↓↓",
+      "Res ↓",
+      "Att ↓↓",
+      "Mag ↓↓",
+      "Rot",
+      "Dex ↓"
     ]
   },
   {
@@ -744,10 +759,6 @@
       {
         "id": 142,
         "name": "Fenrir"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -837,6 +848,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Att ↑"
     ]
   },
   {
@@ -903,6 +917,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Def ↑"
     ]
   },
   {
@@ -949,6 +966,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -1023,6 +1043,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -1042,10 +1065,6 @@
       {
         "id": 431,
         "name": "Furious Cerus"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -1074,10 +1093,6 @@
     "image": "useables/great_remains.png",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -1092,10 +1107,6 @@
       {
         "id": 304,
         "name": "Mighty Mimic"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -1135,6 +1146,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Asleep"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -1219,6 +1236,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -1570,6 +1590,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -1607,6 +1630,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -1634,6 +1660,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓"
     ]
   },
   {
@@ -1692,6 +1721,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -1962,6 +1994,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -2246,6 +2281,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding"
     ]
   },
   {
@@ -2287,6 +2326,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -2439,6 +2481,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -2505,6 +2550,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Asleep"
     ]
   },
   {
@@ -2663,6 +2711,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -2701,6 +2752,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -2734,6 +2788,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ]
   },
   {
@@ -2865,6 +2925,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -2950,6 +3013,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -2978,6 +3044,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -3034,6 +3103,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -3067,6 +3139,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Def ↓"
     ]
   },
   {
@@ -3100,6 +3175,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -3176,6 +3254,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -3212,6 +3293,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -3320,6 +3404,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -3570,6 +3657,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -3712,6 +3802,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -3749,6 +3842,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding"
     ]
   },
   {
@@ -3824,6 +3921,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Rot"
     ]
   },
   {
@@ -3936,6 +4037,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blind"
     ]
   },
   {
@@ -4011,6 +4115,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -4047,6 +4154,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ]
   },
   {
@@ -4084,6 +4197,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -4162,6 +4278,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -4194,6 +4313,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -4225,6 +4347,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Asleep"
     ]
   },
   {
@@ -4265,6 +4391,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding"
     ]
   },
   {
@@ -4303,6 +4433,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -4341,6 +4474,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -4377,6 +4513,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Asleep"
     ]
   },
   {
@@ -4412,6 +4551,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -4443,6 +4585,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -4602,6 +4747,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Blight"
     ]
   },
   {
@@ -4703,6 +4852,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -4743,6 +4895,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -4855,6 +5010,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -4891,6 +5049,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Petrified"
     ]
   },
   {
@@ -9050,12 +9211,6 @@
         "base": 20
       }
     },
-    "dropped_by": [
-      {
-        "id": 20,
-        "name": "Goblin Lord"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -9080,12 +9235,6 @@
         "base": 20
       }
     },
-    "dropped_by": [
-      {
-        "id": 20,
-        "name": "Goblin Lord"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -10318,6 +10467,10 @@
         "name": "Fafnir"
       },
       {
+        "id": 322,
+        "name": "Arisen Fafnir"
+      },
+      {
         "id": 433,
         "name": "Nidhogg"
       }
@@ -10554,6 +10707,10 @@
         "name": "Arisen Surtr"
       },
       {
+        "id": 324,
+        "name": "Fallen Gaia"
+      },
+      {
         "id": 429,
         "name": "Fey Cactus"
       }
@@ -10734,6 +10891,10 @@
       {
         "id": 222,
         "name": "Fallen Ra, the Seer"
+      },
+      {
+        "id": 414,
+        "name": "Arisen Great Gazer"
       }
     ],
     "equipped_by": [
@@ -11074,6 +11235,10 @@
       {
         "id": 412,
         "name": "Arisen Surtr"
+      },
+      {
+        "id": 331,
+        "name": "Fallen Ifrit"
       }
     ],
     "quests": [
@@ -11720,6 +11885,10 @@
       {
         "id": 10,
         "name": "Gull"
+      },
+      {
+        "id": 385,
+        "name": "Lobster"
       },
       {
         "id": 21,
@@ -12966,6 +13135,14 @@
         "name": "Arisen Clurichaun Blade"
       },
       {
+        "id": 1399,
+        "name": "Arisen King's Crown"
+      },
+      {
+        "id": 1396,
+        "name": "Arisen King's Sceptre"
+      },
+      {
         "id": 839,
         "name": "Arisen Naggeneen's Hat"
       },
@@ -13028,6 +13205,14 @@
       {
         "id": 1053,
         "name": "Fairy's Scroll"
+      },
+      {
+        "id": 1398,
+        "name": "False King's Crown"
+      },
+      {
+        "id": 1397,
+        "name": "False King's Sceptre"
       },
       {
         "id": 1108,
@@ -15334,6 +15519,10 @@
       {
         "id": 412,
         "name": "Arisen Surtr"
+      },
+      {
+        "id": 332,
+        "name": "Fallen Leviathan"
       }
     ],
     "quests": [
@@ -16056,6 +16245,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -16132,6 +16324,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Def ↓"
     ]
   },
   {
@@ -16166,6 +16361,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -16610,6 +16808,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Def ↓↓"
     ]
   },
   {
@@ -16649,6 +16851,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -16693,6 +16898,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -16772,6 +16980,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Res ↓",
+      "T. Res ↓↓"
     ]
   },
   {
@@ -16849,10 +17061,6 @@
       {
         "id": 315,
         "name": "Arisen Cthulhu"
-      },
-      {
-        "id": 368,
-        "name": "Arisen Finfolk"
       }
     ],
     "equipped_by": [
@@ -16935,6 +17143,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -18409,6 +18620,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -18547,6 +18761,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -19654,6 +19871,10 @@
       {
         "id": 428,
         "name": "Arisen Kerberos"
+      },
+      {
+        "id": 335,
+        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -19769,6 +19990,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding"
     ]
   },
   {
@@ -19931,6 +20156,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -20086,6 +20314,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -21140,6 +21371,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blight"
     ]
   },
   {
@@ -21164,6 +21398,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -21188,6 +21425,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Asleep"
     ]
   },
   {
@@ -21248,6 +21488,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Poisoned"
     ]
   },
   {
@@ -21468,6 +21711,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -21835,6 +22081,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -21880,6 +22129,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -21988,6 +22240,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Asleep"
     ]
   },
   {
@@ -22112,6 +22367,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Petrified"
     ]
   },
   {
@@ -22785,6 +23043,11 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed"
     ]
   },
   {
@@ -22837,6 +23100,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Rot"
     ]
   },
   {
@@ -22873,6 +23140,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Petrified"
     ]
   },
   {
@@ -22949,6 +23219,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -22982,6 +23255,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -23021,6 +23297,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -23106,6 +23385,15 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "Res ↓↓",
+      "Res ↓"
     ]
   },
   {
@@ -23143,6 +23431,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -23177,6 +23468,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -23536,6 +23830,15 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Bleeding",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Rot"
     ]
   },
   {
@@ -23685,6 +23988,10 @@
         "name": "Arisen Fenrir"
       },
       {
+        "id": 446,
+        "name": "Arisen Meliodas"
+      },
+      {
         "id": 312,
         "name": "Arisen Merlin"
       },
@@ -23727,10 +24034,6 @@
       {
         "id": 428,
         "name": "Arisen Kerberos"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       },
       {
         "id": 412,
@@ -23811,12 +24114,12 @@
         "name": "Furious Cerus"
       },
       {
-        "id": 428,
-        "name": "Arisen Kerberos"
+        "id": 322,
+        "name": "Arisen Fafnir"
       },
       {
-        "id": 335,
-        "name": "Arisen Mimic King"
+        "id": 428,
+        "name": "Arisen Kerberos"
       }
     ],
     "equipped_by": [
@@ -24043,10 +24346,6 @@
     "image": "useables/berserk_mushroom.png",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -24077,10 +24376,6 @@
       {
         "id": 422,
         "name": "The Mightiest Mimic"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -24096,6 +24391,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "All ↑"
     ]
   },
   {
@@ -24133,6 +24431,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Blind"
     ]
   },
   {
@@ -24209,6 +24510,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -24275,6 +24580,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Res ↑"
     ]
   },
   {
@@ -24308,6 +24616,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -24392,6 +24703,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -24429,6 +24743,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -24508,6 +24825,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -24544,6 +24864,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Mag ↓"
     ]
   },
   {
@@ -24574,6 +24897,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -24615,6 +24941,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -24657,6 +24986,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Bleeding"
     ]
   },
   {
@@ -24762,6 +25094,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Petrified"
     ]
   },
   {
@@ -25111,6 +25446,22 @@
         "name": "Fallen Vulcan, the Red Knight"
       },
       {
+        "id": 343,
+        "name": "Arisen Demeter, The Earth Magus"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
+      },
+      {
+        "id": 350,
+        "name": "Arisen Thor, the Storm God"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
+      },
+      {
         "id": 320,
         "name": "Ortanite Golem"
       }
@@ -25385,6 +25736,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -25429,6 +25783,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -25465,6 +25822,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -25576,6 +25936,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Mag ↓"
     ]
   },
   {
@@ -25650,6 +26013,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned",
+      "Rot"
     ]
   },
   {
@@ -25720,6 +26087,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -26862,6 +27232,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Att ↓"
     ]
   },
   {
@@ -26938,6 +27311,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Asleep"
     ]
   },
   {
@@ -26971,6 +27348,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -27231,6 +27611,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ]
   },
   {
@@ -27266,6 +27652,15 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓"
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -27441,6 +27836,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -27674,6 +28072,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -27757,6 +28161,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -27805,6 +28212,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -27841,6 +28251,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -28377,6 +28790,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Frozen"
     ]
   },
   {
@@ -28418,6 +28835,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -28823,6 +29243,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Rot"
     ]
   },
   {
@@ -28872,6 +29296,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Poisoned",
+      "Toxic"
     ]
   },
   {
@@ -29084,6 +29512,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Burning"
     ]
   },
   {
@@ -29131,6 +29562,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -29266,6 +29700,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Stunned"
     ]
   },
   {
@@ -29409,6 +29847,18 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓"
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
     ]
   },
   {
@@ -30499,6 +30949,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Frozen",
+      "Def ↓",
+      "T. Def ↓"
     ]
   },
   {
@@ -30877,6 +31332,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Stunned"
     ]
   },
   {
@@ -30920,6 +31379,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -30951,6 +31413,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Att ↓",
+      "T. Mag ↓"
     ]
   },
   {
@@ -30982,6 +31448,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -31057,6 +31526,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Res ↓"
     ]
   },
   {
@@ -31161,6 +31633,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -31217,6 +31692,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Frozen",
+      "Def ↓",
+      "T. Def ↓"
     ]
   },
   {
@@ -31253,6 +31733,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Blight"
     ]
   },
   {
@@ -31293,6 +31777,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -31337,6 +31824,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -31517,6 +32007,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Crit ↑↑"
     ]
   },
   {
@@ -31592,6 +32085,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -31629,6 +32125,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blind"
     ]
   },
   {
@@ -31663,6 +32162,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Stunned"
     ]
   },
   {
@@ -31795,6 +32298,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
+    ],
+    "gives": [
+      "T. Mag ↑↑↑"
     ]
   },
   {
@@ -31827,6 +32336,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Mag ↑"
     ]
   },
   {
@@ -31865,6 +32378,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Def ↑",
+      "T. Res ↑"
     ]
   },
   {
@@ -31966,6 +32483,16 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Mag ↑",
+      "T. Def ↑↑",
+      "T. Res ↑↑",
+      "T. Crit ↑↑"
     ]
   },
   {
@@ -32010,6 +32537,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Crit ↑↑"
     ]
   },
   {
@@ -32418,6 +32948,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Res ↑",
+      "T. Res ↑↑"
     ]
   },
   {
@@ -32619,6 +33153,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Att ↑↑↑",
+      "T. Mag ↑↑↑"
     ]
   },
   {
@@ -32828,6 +33366,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Cursed"
     ]
   },
   {
@@ -33119,6 +33660,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -33278,6 +33822,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -33370,6 +33917,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Res ↓"
     ]
   },
   {
@@ -33412,6 +33963,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed",
+      "Att ↓",
+      "Mag ↓"
     ]
   },
   {
@@ -33466,6 +34022,16 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Def ↓",
+      "Rot",
+      "Res ↓"
     ]
   },
   {
@@ -33729,6 +34295,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
     ]
   },
   {
@@ -33889,6 +34461,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "T. Def ↓",
+      "T. Res ↓"
+    ],
+    "gives": [
+      "Gunnr"
     ]
   },
   {
@@ -33970,6 +34550,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -34012,6 +34595,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -34212,6 +34798,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -34256,6 +34845,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -34301,6 +34893,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -34395,6 +34990,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -34444,6 +35042,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -34486,6 +35090,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -34524,6 +35131,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -34562,6 +35172,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -34804,6 +35417,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -34861,6 +35477,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -35130,6 +35749,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -35260,6 +35885,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -35307,6 +35935,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -35352,6 +35983,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -35399,6 +36033,19 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "T. Res ↑",
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "Fire Def",
+      "Water Def",
+      "Earth Def",
+      "Lightning Def",
+      "Holy Def",
+      "Dark Def",
+      "All ↑"
     ]
   },
   {
@@ -35435,6 +36082,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Stunned"
     ]
   },
   {
@@ -35513,6 +36163,14 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Drenched"
     ]
   },
   {
@@ -35650,6 +36308,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -35680,6 +36341,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -35720,6 +36384,14 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Drenched"
     ]
   },
   {
@@ -35792,6 +36464,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -35822,6 +36497,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -35852,6 +36530,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -35960,6 +36641,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -36002,6 +36686,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -36044,6 +36731,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -36428,6 +37118,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -36511,6 +37205,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Fire Def",
+      "Water Def",
+      "Earth Def",
+      "Lightning Def",
+      "Holy Def",
+      "Dark Def"
     ]
   },
   {
@@ -36558,6 +37260,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -36601,6 +37307,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -36648,6 +37358,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -37020,6 +37734,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Mag ↑↑↑"
     ]
   },
   {
@@ -37229,6 +37946,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Att ↓"
     ]
   },
   {
@@ -37335,6 +38055,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -37702,6 +38426,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -38380,6 +39108,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Rot"
     ]
   },
   {
@@ -38728,6 +39459,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Mag ↓"
     ]
   },
   {
@@ -38776,6 +39510,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Def ↑↑",
+      "T. Res ↑↑",
+      "Dex ↑"
     ]
   },
   {
@@ -38880,6 +39619,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -38919,6 +39661,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -39187,6 +39932,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Stunned",
+      "Def ↓"
     ]
   },
   {
@@ -39242,6 +39991,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Burning"
     ]
   },
   {
@@ -39285,6 +40037,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Frozen"
     ]
   },
   {
@@ -39318,6 +40073,9 @@
         "id": 333,
         "name": "Fallen Taranis"
       }
+    ],
+    "prevents": [
+      "Paralyzed"
     ]
   },
   {
@@ -39406,6 +40164,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Rot"
     ]
   },
   null,
@@ -39454,6 +40216,19 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑",
+      "Fire Def",
+      "Water Def",
+      "Earth Def",
+      "Lightning Def",
+      "Holy Def",
+      "Dark Def",
+      "All ↑"
     ]
   },
   {
@@ -39561,6 +40336,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -39621,6 +40400,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Poisoned",
+      "Toxic"
     ]
   },
   {
@@ -39747,6 +40530,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -39847,6 +40633,17 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Mag ↑",
+      "Poisoned",
+      "Toxic",
+      "Rot",
+      "Dex ↑",
+      "Att ↑",
+      "Def ↑",
+      "Res ↑",
+      "Crit ↑"
     ]
   },
   {
@@ -40224,6 +41021,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Asleep"
     ]
   },
   {
@@ -40292,6 +41092,20 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot",
+      "Drenched"
     ]
   },
   {
@@ -40366,6 +41180,18 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -40437,6 +41263,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -40478,6 +41307,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -40519,6 +41351,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -40567,6 +41402,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -40608,6 +41446,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -40652,6 +41493,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -40699,6 +41543,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -40740,6 +41587,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -40840,6 +41690,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Petrified",
+      "Cursed"
     ]
   },
   {
@@ -40885,6 +41739,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -41053,6 +41910,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Att ↓",
+      "Mag ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓"
     ]
   },
   {
@@ -41267,6 +42132,16 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "Res ↓",
+      "T. Def ↓↓",
+      "T. Res ↓↓"
     ]
   },
   {
@@ -41482,6 +42357,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41524,6 +42403,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41560,6 +42443,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41596,6 +42483,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41632,6 +42523,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41665,6 +42560,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41701,6 +42600,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41734,6 +42637,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41767,6 +42674,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41811,6 +42722,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -41900,6 +42815,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Att ↓",
+      "Mag ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓"
     ]
   },
   {
@@ -42012,6 +42935,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -42396,6 +43322,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42455,6 +43385,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42485,6 +43419,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Dex ↑",
+      "Crit ↑"
     ]
   },
   {
@@ -42536,6 +43474,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42603,6 +43545,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42646,6 +43592,13 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Res ↑",
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Crit ↑"
     ]
   },
   {
@@ -42695,6 +43648,13 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Crit ↑",
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
     ]
   },
   {
@@ -42739,6 +43699,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42786,6 +43750,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42841,6 +43809,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -42888,6 +43860,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen",
+      "Rot"
     ]
   },
   {
@@ -43010,6 +43986,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Att ↓"
     ]
   },
   {
@@ -43022,10 +44001,6 @@
     "arena": false,
     "image": "jewels/33.png",
     "dropped_by": [
-      {
-        "id": 12,
-        "name": "Mimic"
-      },
       {
         "id": 33,
         "name": "Great Mimic"
@@ -43041,10 +44016,6 @@
       {
         "id": 304,
         "name": "Mighty Mimic"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -43076,12 +44047,6 @@
         "base": 4
       }
     },
-    "dropped_by": [
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -43158,6 +44123,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -43211,6 +44182,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Att ↓",
+      "T. Mag ↓"
     ]
   },
   {
@@ -43297,12 +44272,6 @@
         "base": 2
       }
     },
-    "dropped_by": [
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -43316,6 +44285,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Res ↓"
     ]
   },
   {
@@ -43376,10 +44348,6 @@
     "image": "jewels/26.png",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -43398,10 +44366,6 @@
       {
         "id": 304,
         "name": "Mighty Mimic"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -43417,6 +44381,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Def ↓↓"
     ]
   },
   {
@@ -43618,6 +44586,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Cursed"
     ]
   },
   {
@@ -44034,6 +45005,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -44074,6 +45048,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -44117,6 +45094,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -44252,6 +45232,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "T. Def ↓"
     ]
   },
   {
@@ -44268,12 +45252,6 @@
         "base": 4
       }
     },
-    "dropped_by": [
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -44398,6 +45376,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Att ↓↓",
+      "T. Mag ↓↓"
     ]
   },
   {
@@ -44449,6 +45431,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -44478,6 +45463,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -44617,6 +45605,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -44669,6 +45660,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Res ↑",
+      "T. Res ↑↑"
     ]
   },
   {
@@ -46196,6 +47191,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -46236,6 +47234,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -46252,12 +47253,6 @@
         "base": 2
       }
     },
-    "dropped_by": [
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -46271,6 +47266,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Mag ↓"
     ]
   },
   {
@@ -46378,6 +47376,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Res ↑",
+      "T. Res ↑↑"
     ]
   },
   {
@@ -46438,6 +47440,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Res ↑",
+      "T. Res ↑↑"
     ]
   },
   {
@@ -46451,10 +47457,6 @@
     "image": "jewels/22.png",
     "element": "Lightning",
     "dropped_by": [
-      {
-        "id": 12,
-        "name": "Mimic"
-      },
       {
         "id": 33,
         "name": "Great Mimic"
@@ -46481,6 +47483,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -46662,10 +47667,6 @@
     "element": "Fire",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -46691,6 +47692,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -46705,10 +47709,6 @@
     "element": "Water",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -46734,6 +47734,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -46896,10 +47899,6 @@
     "element": "Earthen",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -46925,6 +47924,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -47220,6 +48222,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding",
+      "Frozen"
     ]
   },
   {
@@ -47380,6 +48386,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Frozen"
     ]
   },
   {
@@ -47729,6 +48738,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Dex ↓"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -47772,6 +48787,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Mag ↓"
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -47811,6 +48832,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Att ↓"
+    ],
+    "gives": [
+      "Att ↑"
     ]
   },
   {
@@ -48127,6 +49154,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Res ↓↓"
     ]
   },
   {
@@ -48370,6 +49400,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Att ↓"
+    ],
+    "gives": [
+      "Att ↑"
     ]
   },
   {
@@ -48598,6 +49634,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Dex ↓"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -48682,6 +49724,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Mag ↓"
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -48826,6 +49874,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -48916,6 +49968,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Res ↓"
+    ],
+    "gives": [
+      "Def ↑",
+      "Res ↑"
     ]
   },
   {
@@ -48969,6 +50029,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Res ↓"
+    ],
+    "gives": [
+      "Def ↑",
+      "Res ↑"
     ]
   },
   {
@@ -48993,6 +50061,23 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "Res ↓",
+      "T. Def ↓↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Res ↓↓",
+      "Dex ↓"
     ]
   },
   {
@@ -49741,6 +50826,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Asleep",
+      "Cursed"
     ]
   },
   {
@@ -49771,6 +50860,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Poisoned",
+      "Blight",
+      "Toxic",
+      "Rot"
     ]
   },
   {
@@ -49868,10 +50963,6 @@
     "image": "jewels/27.png",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -49905,6 +50996,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Res ↓",
+      "T. Res ↓↓"
     ]
   },
   {
@@ -49938,6 +51033,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "Fire Def",
+      "Water Def",
+      "Earth Def",
+      "Lightning Def"
     ]
   },
   {
@@ -50048,6 +51149,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -50086,6 +51193,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Att ↑↑"
     ]
   },
   {
@@ -50124,6 +51234,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Mag ↑↑"
     ]
   },
   {
@@ -50298,6 +51411,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Res ↓"
     ]
   },
   {
@@ -50335,6 +51451,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding"
     ]
   },
   {
@@ -50445,6 +51565,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -50478,6 +51602,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "Fire Def",
+      "Water Def",
+      "Earth Def",
+      "Lightning Def"
     ]
   },
   {
@@ -51135,6 +52265,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Asleep"
     ]
   },
   {
@@ -51195,6 +52328,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Frozen",
+      "Def ↓",
+      "T. Def ↓"
     ]
   },
   {
@@ -51306,6 +52444,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -51519,6 +52660,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -51563,6 +52708,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -51658,6 +52807,12 @@
       {
         "id": 263,
         "name": "Iron"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 1,
+        "name": "Barbarian"
       }
     ],
     "equipped_by": [
@@ -51764,6 +52919,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -52102,7 +53260,7 @@
     "description": "A hood made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.",
     "type": "Head",
     "tier": 7,
-    "boss": false,
+    "boss": true,
     "arena": false,
     "image": "armor/wyvern_hood.png",
     "stats": {
@@ -53000,6 +54158,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Cursed",
+      "Att ↓"
     ]
   },
   {
@@ -53157,6 +54319,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Cursed",
+      "Mag ↓"
     ]
   },
   {
@@ -53206,6 +54372,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Cursed",
+      "Att ↓"
     ]
   },
   {
@@ -53363,6 +54533,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Cursed",
+      "Mag ↓"
     ]
   },
   {
@@ -53396,6 +54570,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "Dmg ↑"
     ]
   },
   {
@@ -53437,6 +54614,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Dmg ↑"
     ]
   },
   {
@@ -53473,6 +54653,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "gives": [
+      "Dmg ↑"
     ]
   },
   {
@@ -53659,6 +54842,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Frozen",
+      "T. Res ↓",
+      "Res ↓"
     ]
   },
   {
@@ -53885,6 +55073,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Cursed",
+      "Att ↓"
     ]
   },
   {
@@ -53930,6 +55122,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Cursed",
+      "Mag ↓"
     ]
   },
   {
@@ -54147,6 +55343,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Cursed"
     ]
   },
   {
@@ -54199,6 +55398,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -54252,6 +55455,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -54289,6 +55495,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -54341,6 +55550,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Crit ↑↑"
     ]
   },
   {
@@ -54449,6 +55661,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Stunned",
+      "Dex ↓"
     ]
   },
   {
@@ -54918,6 +56134,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blind"
     ]
   },
   {
@@ -55102,6 +56321,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blind"
     ]
   },
   null,
@@ -55142,6 +56364,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -55189,6 +56414,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -55317,6 +56546,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Fire Def",
+      "Water Def",
+      "Earth Def",
+      "Lightning Def",
+      "Holy Def",
+      "Dark Def"
     ]
   },
   {
@@ -55464,10 +56701,6 @@
     "image": "useables/chaos_scroll.png",
     "dropped_by": [
       {
-        "id": 12,
-        "name": "Mimic"
-      },
-      {
         "id": 33,
         "name": "Great Mimic"
       },
@@ -55498,10 +56731,6 @@
       {
         "id": 304,
         "name": "Mighty Mimic"
-      },
-      {
-        "id": 335,
-        "name": "Arisen Mimic King"
       }
     ],
     "equipped_by": [
@@ -55596,6 +56825,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -55635,6 +56867,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -55669,6 +56904,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -55706,6 +56944,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -55752,6 +56993,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -55792,6 +57036,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Cursed"
     ]
   },
   {
@@ -55835,6 +57082,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blind",
+      "Asleep"
     ]
   },
   {
@@ -55875,6 +57126,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -55921,6 +57175,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -55961,6 +57218,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Blight"
     ]
   },
   {
@@ -55997,6 +57257,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning"
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -56045,6 +57311,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Asleep"
     ]
   },
   {
@@ -56129,6 +57398,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Lulled"
     ]
   },
   {
@@ -56600,7 +57872,7 @@
         "base": 275
       },
       "dexterity": {
-        "base": 42
+        "base": 52
       },
       "resistance": {
         "base": 112
@@ -56762,6 +58034,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Mag ↓"
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -56819,6 +58097,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Res ↓"
+    ],
+    "gives": [
+      "Def ↑",
+      "Res ↑"
     ]
   },
   {
@@ -56911,6 +58197,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Dex ↓"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -56994,6 +58286,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Dex ↓"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -57175,6 +58473,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Mag ↓"
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -57359,6 +58663,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Att ↓"
+    ],
+    "gives": [
+      "Att ↑"
     ]
   },
   {
@@ -57494,6 +58804,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Att ↓"
+    ],
+    "gives": [
+      "Att ↑"
     ]
   },
   {
@@ -57545,6 +58861,14 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Res ↓"
+    ],
+    "gives": [
+      "Def ↑",
+      "Res ↑"
     ]
   },
   {
@@ -58011,6 +59335,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Dex ↓"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -58086,6 +59416,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Rot"
     ]
   },
   {
@@ -58397,6 +59731,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Mag ↓"
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -58448,6 +59788,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Asleep"
     ]
   },
   {
@@ -58494,6 +59837,12 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Mag ↓"
+    ],
+    "gives": [
+      "Mag ↑"
     ]
   },
   {
@@ -58537,6 +59886,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Res ↓↓"
     ]
   },
   {
@@ -58617,6 +59969,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Att ↓"
+    ],
+    "gives": [
+      "Att ↑"
     ]
   },
   {
@@ -58776,6 +60134,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Dex ↓"
+    ],
+    "gives": [
+      "Dex ↑"
     ]
   },
   {
@@ -58995,6 +60359,9 @@
         "id": 428,
         "name": "Arisen Kerberos"
       }
+    ],
+    "causes": [
+      "Paralyzed"
     ]
   },
   {
@@ -59073,6 +60440,9 @@
         "id": 428,
         "name": "Arisen Kerberos"
       }
+    ],
+    "causes": [
+      "Rot"
     ]
   },
   {
@@ -59107,6 +60477,9 @@
         "id": 428,
         "name": "Arisen Kerberos"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -59149,6 +60522,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -59242,6 +60618,9 @@
         "id": 275,
         "name": "Kerberos"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -59284,6 +60663,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
     ]
   },
   {
@@ -59543,6 +60925,13 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Poisoned",
+      "Blight",
+      "Att ↑↑",
+      "Mag ↑↑",
+      "Rot"
     ]
   },
   {
@@ -59577,6 +60966,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "Toxic",
+      "All ↑↑"
     ]
   },
   {
@@ -59673,6 +61066,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight",
+      "Asleep"
     ]
   },
   {
@@ -59719,6 +61117,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -59773,6 +61175,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -59827,6 +61232,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Poisoned"
     ]
   },
   {
@@ -59873,6 +61281,10 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -59966,6 +61378,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Burning"
     ]
   },
   {
@@ -60064,6 +61479,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Stunned"
     ]
   },
   {
@@ -60333,6 +61752,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Burning"
     ]
   },
   {
@@ -60566,6 +61988,12 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Bleeding"
+    ],
+    "gives": [
+      "T. Crit ↑"
     ]
   },
   {
@@ -60792,6 +62220,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -60843,6 +62274,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -60880,6 +62314,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Frozen"
     ]
   },
   {
@@ -60940,6 +62377,17 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑",
+      "T. Crit ↑"
     ]
   },
   {
@@ -60964,6 +62412,19 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Cursed"
     ]
   },
   {
@@ -60988,6 +62449,23 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "cures": [
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "Res ↓",
+      "T. Def ↓↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Res ↓↓",
+      "T. Dex ↓"
     ]
   },
   {
@@ -61034,6 +62512,11 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Paralyzed",
+      "Att ↓",
+      "Mag ↓"
     ]
   },
   {
@@ -61081,6 +62564,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "T. Def ↓"
     ]
   },
   {
@@ -61138,6 +62624,12 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓"
     ]
   },
   {
@@ -61335,6 +62827,17 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "Res ↓",
+      "T. Def ↓↓",
+      "T. Res ↓↓",
+      "T. Def ↓↓↓"
     ]
   },
   {
@@ -61373,6 +62876,15 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "prevents": [
+      "Att ↓",
+      "Mag ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Dex ↓"
     ]
   },
   {
@@ -61513,6 +63025,10 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Def ↓",
+      "Res ↓"
     ]
   },
   {
@@ -61562,6 +63078,16 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "causes": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Def ↓",
+      "Res ↓",
+      "Rot"
     ]
   },
   {
@@ -61612,6 +63138,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "causes": [
+      "T. Res ↓↓"
     ]
   },
   null,
@@ -62196,6 +63725,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -62431,6 +63963,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "gives": [
+      "T. All ↑"
     ]
   },
   {
@@ -62475,6 +64010,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -62522,6 +64060,9 @@
         "id": 1,
         "name": "Warrior"
       }
+    ],
+    "gives": [
+      "T. All ↑"
     ]
   },
   {
@@ -62617,6 +64158,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -62666,6 +64211,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "causes": [
+      "Poisoned",
+      "Blight"
     ]
   },
   {
@@ -62724,6 +64273,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -62782,6 +64334,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind"
     ]
   },
   {
@@ -62828,6 +64383,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Stunned"
     ]
   },
   {
@@ -62985,6 +64544,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "T. Dex ↓"
     ]
   },
   {
@@ -63035,6 +64597,10 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "Blind",
+      "Stunned"
     ]
   },
   {
@@ -63078,6 +64644,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "prevents": [
+      "T. Dex ↓"
     ]
   },
   {
@@ -63116,6 +64685,9 @@
         "id": 2,
         "name": "Mage"
       }
+    ],
+    "prevents": [
+      "Stunned"
     ]
   },
   {
@@ -63198,6 +64770,9 @@
         "id": 3,
         "name": "Thief"
       }
+    ],
+    "gives": [
+      "T. All ↑"
     ]
   },
   {
@@ -63267,6 +64842,195 @@
         "id": 1,
         "name": "Warrior"
       }
+    ]
+  },
+  {
+    "name": "Arisen King's Sceptre",
+    "id": 1396,
+    "description": "The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",
+    "type": "Weapon",
+    "tier": 9,
+    "boss": true,
+    "arena": false,
+    "image": "weapons/black_witch_staff.png",
+    "stats": {
+      "crit": {
+        "base": 1
+      },
+      "magic": {
+        "base": 229
+      },
+      "ward": {
+        "base": 8
+      }
+    },
+    "materials": [
+      {
+        "id": 268,
+        "name": "Perfect Runestone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 446,
+        "name": "Arisen Meliodas"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ],
+    "causes": [
+      "T. Res ↓"
+    ],
+    "prevents": [
+      "T. Mag ↓"
+    ]
+  },
+  {
+    "name": "False King's Sceptre",
+    "id": 1397,
+    "description": "The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",
+    "type": "Weapon",
+    "tier": 6,
+    "boss": true,
+    "arena": false,
+    "image": "weapons/black_witch_staff.png",
+    "stats": {
+      "magic": {
+        "base": 145
+      },
+      "ward": {
+        "base": 3
+      }
+    },
+    "materials": [
+      {
+        "id": 268,
+        "name": "Perfect Runestone"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ],
+    "causes": [
+      "T. Res ↓"
+    ],
+    "prevents": [
+      "T. Mag ↓"
+    ]
+  },
+  {
+    "name": "False King's Crown",
+    "id": 1398,
+    "description": "The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
+    "type": "Head",
+    "tier": 6,
+    "boss": true,
+    "arena": false,
+    "image": "armor/crown.png",
+    "stats": {
+      "defense": {
+        "base": 20
+      },
+      "hp": {
+        "base": 20
+      },
+      "mana": {
+        "base": 20
+      },
+      "resistance": {
+        "base": 20
+      },
+      "ward": {
+        "base": 2
+      }
+    },
+    "materials": [
+      {
+        "id": 268,
+        "name": "Perfect Runestone"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ],
+    "prevents": [
+      "Mag ↓",
+      "T. Mag ↓"
+    ]
+  },
+  {
+    "name": "Arisen King's Crown",
+    "id": 1399,
+    "description": "The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
+    "type": "Head",
+    "tier": 9,
+    "boss": true,
+    "arena": false,
+    "image": "armor/crown.png",
+    "stats": {
+      "defense": {
+        "base": 30
+      },
+      "hp": {
+        "base": 30
+      },
+      "mana": {
+        "base": 30
+      },
+      "resistance": {
+        "base": 30
+      },
+      "ward": {
+        "base": 4
+      }
+    },
+    "materials": [
+      {
+        "id": 268,
+        "name": "Perfect Runestone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 446,
+        "name": "Arisen Meliodas"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ],
+    "prevents": [
+      "Mag ↓",
+      "T. Mag ↓"
     ]
   }
 ]
