@@ -1,4 +1,4 @@
-const words = {
+export const words = {
   'Bleeding': '流血',
   'Frozen': '冰凍',
   'Burning': '燃燒',
@@ -29,15 +29,25 @@ const words = {
   'Off-hand': '副手',
   'Adornment': '裝飾品',
 
-  'Dark': '黑暗',
+  'Dark': '暗',
   'Water': '水',
   'Fire': '火',
-  'Physical': '物理',
-  'Holy': '神聖',
+  'Physical': '物',
+  'Holy': '聖',
   'Earthen': '地',
   'Lightning': '雷',
   'Dragon': '龍',
-  'Arcane': '奧術',
+  'Arcane': '奧',
+
+  'attack': '物攻',
+  'magic': '魔攻',
+  'defense': '物防',
+  'ward': '護盾',
+  'dexterity': '敏捷',
+  'mana': '魔力',
+  'crit': '暴擊',
+  'resistance': '魔防',
+  'hp': '血量',
 }
 
 let xx = [];

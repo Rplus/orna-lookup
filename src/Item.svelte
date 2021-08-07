@@ -1,12 +1,29 @@
 <script>
   export let item;
   import { getImgSrc, checkingImg } from './image.js';
+  import { words } from './list.js';
+  import { dialog } from './stores.js';
+
+  let stats = item.stats;
+  if (stats) {
+    stats = Object.keys(stats).map(i => ({
+      prop: i,
+      value: stats[i].base,
+    }))
+  }
+
+  function assess() {
+    console.log($dialog);
+    dialog.set({
+      open: true,
+      item: item,
+      stats: stats,
+    })
+  }
 </script>
 
-
-
 <details class="item-details">
-  <summary>
+  <summary class="summary">
     <!-- {item.id} -->
     <ruby>
       <rb>{item.name_zh}</rb>
@@ -17,25 +34,49 @@
       <sup>★{item.tier}</sup>
     </a>
 
-    <div
-      class="item-img-box"
-      style={`--bg: url(${getImgSrc(item)}); --bg-fallback: url(${getImgSrc(item, 'small')})`}
-    />
+    <div class="item-info" on:click|preventDefault>
+      <div
+        class="item-img-box"
+        style={`--bg: url(${getImgSrc(item)}); --bg-fallback: url(${getImgSrc(item, 'small')})`}
+      />
 
-    <div class="item-equipped" data-by={item.equipped_by} />
+      {#if stats}
+        <table>
+          {#each stats as stat}
+            <tr on:click={assess}>
+              <th>{words[stat.prop]}</th>
+              <td>{stat.value}</td>
+            </tr>
+          {/each}
+        </table>
+      {/if}
+    </div>
+
+    <div class="rt-box">
+      <div class="item-equipped" data-by={item.equipped_by} />
+      <div class="item-char">{words[item.element] ? `[${words[item.element]}]` : ''}</div>
+      <div class="item-char">{item.boss ? '👿' : ''}</div>
+      <div class="item-char">{item.arena ? '🏟️' : ''}</div>
+      <div class="item-char">{item.view_distance ? '👁️' : ''}</div>
+    </div>
   </summary>
 
-  <div class="item-more">
-    <pre class="item-pre">
-      { JSON.stringify({...item, context: null}, null, ' ') }
-    </pre>
+  <div>
+    <div class="item-more">
+    <details>
+      <summary class="text-right"></summary>
+      <pre class="item-pre">
+        { JSON.stringify({...item, context: null}, null, ' ') }
+      </pre>
+    </details>
+    </div>
   </div>
 </details>
 
 
-<style>
 
-.item-details summary {
+<style>
+.summary {
   position: relative;
   z-index: 1;
   padding: .5em;
@@ -43,13 +84,27 @@
   font-weight: bolder;
 }
 
-.item-equipped {
+.summary::after {
+  content: '';
+  display: block;
+}
+
+.rt-box {
   position: absolute;
-  top: .5em;
-  right: .5em;
-  height: 1em;
-  width: 3.45em;
-  font-size: 1.5em;
+  top: .75em;
+  right: .75em;
+  text-align: right;
+}
+
+.item-char:not(:empty) {
+  display: var(--item-icons--display, none);
+  margin-top: .5em;
+  font-weight: normal;
+}
+
+.item-equipped {
+  height: 1.5em;
+  width: 5.175em;
   background-image: var(--bg-mage, none), var(--bg-thief, none), var(--bg-warrior, none);
   background-repeat: no-repeat;
   background-position: 0 50%, 50% 50%, 100% 50%;
@@ -67,10 +122,25 @@
   --bg-warrior: url('../images/Mage.png');
 }
 
+.item-info {
+  display: var(--item-info--disply, none);
+  align-items: flex-start;
+  font-weight: normal;
+  font-size: smaller;
+  color: #fff9;
+}
+
+:global(.items.showDetails),
+.item-details[open] {
+  --item-info--disply: flex;
+  --item-icons--display: block;
+}
+
 .item-img-box {
   display: block;
   width: 96px;
   margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 :global(.items.showDetails) .item-img-box,
@@ -93,8 +163,7 @@
 }
 
 @media (min-width: 900px) {
-  .item-pre {
-    margin-top: -100px;
+  .item-more {
     margin-left: 200px
   }
 }
@@ -107,8 +176,10 @@ ruby {
   ruby-position: under;
   ruby-align: center;
 }
+
 rt {
   font-weight: normal;
   color: #999;
 }
+
 </style>

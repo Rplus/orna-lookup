@@ -4,6 +4,9 @@ import { getList } from './list.js';
 export const data = writable({ waiting: true });
 export const filterLists = writable({});
 // export const filters = writable([]);
+export const dialog = writable({
+  open: false,
+});
 
 fetch(`raw-data/item.added.min.json`)
 .then(r => r.json())
@@ -17,6 +20,8 @@ fetch(`raw-data/item.added.min.json`)
     });
 
   filterLists.set(getList(d));
+
+  window.d = d;
 
   data.set(d);
 })

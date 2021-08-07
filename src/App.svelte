@@ -2,6 +2,7 @@
   import { data, filters } from './stores.js';
   import Filter from './Filter.svelte';
   import Item from './Item.svelte';
+  import Dialog from './Dialog.svelte';
   import { filtersDef } from './filtersDef.js';
   import { setContext } from 'svelte';
   import { getImgSrc, checkingImg } from './image.js';
@@ -203,6 +204,8 @@
   </ul>
 {/if}
 
+<Dialog />
+
 </div>
 
 <hr>
@@ -220,7 +223,7 @@
   }
 
   .items {
-    margin-right: max(10vw, 3em);
+    padding: 0;
     list-style: none;
   }
 
