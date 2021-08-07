@@ -105,11 +105,13 @@
 
   function sortByProp(data = items) {
     return data.sort((a, b) => {
+      let dir = sortDirASC ? 1: -1;
       switch (typeof a[sortProp]) {
         case 'string':
-          return (a[sortProp][0].charCodeAt() - b[sortProp][0].charCodeAt()) * (sortDirASC ? 1: -1);
+          console.log(123, a[sortProp].localeCompare(b[sortProp]));
+          return a[sortProp].localeCompare(b[sortProp]) * dir;
         case 'number':
-          return (a[sortProp] - b[sortProp]) * (sortDirASC ? 1: -1);
+          return (a[sortProp] - b[sortProp]) * dir;
         default:
           return 0;
       }
