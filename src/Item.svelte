@@ -41,9 +41,9 @@
       />
 
       {#if stats}
-        <table>
+        <table on:click={assess} style="cursor: pointer;">
           {#each stats as stat}
-            <tr on:click={assess}>
+            <tr>
               <th>{words[stat.prop]}</th>
               <td>{stat.value}</td>
             </tr>
@@ -144,10 +144,15 @@
 
 .item-info {
   display: var(--item-info--disply, none);
-  align-items: flex-start;
+  align-items: flex-end;
   font-weight: normal;
-  font-size: smaller;
   color: #fff9;
+  font-family: monospace;
+}
+
+.item-info > * {
+  margin-right: min(1em, 2vw);
+  margin-left: min(1em, 2vw);
 }
 
 :global(.items.showDetails),
@@ -200,6 +205,10 @@ ruby {
 rt {
   font-weight: normal;
   color: #999;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 </style>

@@ -125,7 +125,8 @@
   z-index: 10;
   width: auto;
   min-height: 10em;
-  max-width: 85%;
+  max-width: 85vw;
+  max-height: 90vh;
   padding: 2em;
   overflow: auto;
   background-color: #28231f;
