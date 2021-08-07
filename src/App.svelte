@@ -1,6 +1,6 @@
 <script>
   import { data, filters } from './stores.js';
-  import Filters from './Filters.svelte';
+  import Filter from './Filter.svelte';
   import { setContext } from 'svelte';
   import { getImgSrc, checkingImg } from './image.js';
 
@@ -144,7 +144,7 @@
     <ul>
       {#each $filters as filter (filter.timestamp)}
         <li>
-          <Filters {...filter} />
+          <Filter {...filter} />
         </li>
       {/each}
     </ul>

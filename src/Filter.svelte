@@ -11,6 +11,8 @@
   $: filterComparators = '=';
   // console.log({filtersDef});
 
+  let select;
+
   $: {
     filters.update(timestamp, {
       prop: filterProp,
@@ -21,22 +23,21 @@
   }
 
   function resetFilter() {
-    // filterValue = null;
+    filterValue = null;
+
+    console.log({select});
+    select.quer
   }
 
   function removeFilter(timestamp) {
     filters.remove(timestamp);
-  }
-
-  function updateFilter(timestamp, rules) {
-    filters.update(timestamp, rules);
   }
 </script>
 
 <div class="filters">
   <button on:click={removeFilter(timestamp)}>x</button>
 
-  <select bind:value={filterProp} on:change={resetFilter}>
+  <select bind:value={filterProp} on:change={resetFilter} bind:this={select}>
     {#each filtersDef as filter}
       <option value={filter.prop}>{filter.prop}</option>
     {/each}}
