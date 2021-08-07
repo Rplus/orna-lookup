@@ -68,7 +68,7 @@
         </div>
       {/if}
       {#if item.prevents}
-        <div>
+        <div class="text-right">
           [ 🛡️ ]
           <br>
           ------
@@ -78,7 +78,7 @@
         </div>
       {/if}
       {#if item.causes}
-        <div>
+        <div class="text-right">
           [ 🗡️ ]
           <br>
           ------
