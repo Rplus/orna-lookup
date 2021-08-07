@@ -1,6 +1,7 @@
 <script>
   import { data, filters } from './stores.js';
   import Filter from './Filter.svelte';
+  import { filtersDef } from './filtersDef.js';
   import { setContext } from 'svelte';
   import { getImgSrc, checkingImg } from './image.js';
 
@@ -23,7 +24,8 @@
       let allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
       sortableProps = allProps.filter(p => {
         let targetType = typeof items.find(i => i[p])?.[p];
-        return targetType !== 'object';
+        let definedFilter = filtersDef.find(i => i.prop === p);
+        return targetType !== 'object' && definedFilter?.list;
       });
       if (sortableProps.includes('tier')) {
         // default sort by tier
@@ -108,7 +110,6 @@
       let dir = sortDirASC ? 1: -1;
       switch (typeof a[sortProp]) {
         case 'string':
-          console.log(123, a[sortProp].localeCompare(b[sortProp]));
           return a[sortProp].localeCompare(b[sortProp]) * dir;
         case 'number':
           return (a[sortProp] - b[sortProp]) * dir;
