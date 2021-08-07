@@ -9,8 +9,8 @@ items = JSON.parse(items);
 
 // wget https://orna.guide/items?show={1..1369}
 
-items.forEach((i, index) => checking(i.id))
-outputJSON(items, `./public/raw-data/item.add.json`);
+// items.forEach((i, index) => checking(i.id))
+// outputJSON(items, `./public/raw-data/item.add.json`);
 
 items.forEach((i, index) => {
   let target = allItems.find(o => o?.id === i.id);
