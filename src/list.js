@@ -35,7 +35,7 @@ export const words = {
   'Water': '水',
   'Fire': '火',
   'Physical': '物',
-  'Holy': '聖',
+  'Holy': '光',
   'Earthen': '地',
   'Lightning': '雷',
   'Dragon': '龍',
