@@ -83,6 +83,9 @@ button:focus {
 .text-center {
   text-align: center;
 }
+.text-right {
+  text-align: right;
+}
 
 ::-webkit-scrollbar {
   width: .5em;
