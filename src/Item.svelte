@@ -2,7 +2,9 @@
   export let item;
   import { getImgSrc, checkingImg } from './image.js';
   import { words } from './list.js';
+  import { getZh } from './u.js';
   import { dialog } from './stores.js';
+
 
   let stats = item.stats;
   if (stats) {
@@ -19,10 +21,6 @@
       item: item,
       stats: stats,
     })
-  }
-
-  function getZh(str) {
-    return words[str] || str;
   }
 
   // function checkProxyImg(item) {

@@ -1,16 +1,19 @@
 export const filtersDef = [
   {
     prop: 'name_zh',
+    label: 'name_zh',
     type: 'text',
     sort: true,
   },
   {
     prop: 'name',
+    label: 'name_en',
     type: 'text',
     sort: true,
   },
   {
     prop: 'tier',
+    label: 'Tier ★',
     type: 'number',
     list: 'tiers',
     min: 1,
@@ -19,46 +22,50 @@ export const filtersDef = [
   },
   {
     prop: 'equipped_by',
+    label: '穿戴者',
     type: 'text',
     list: 'equipped_by',
   },
   {
-    prop: 'context',
-    type: 'text',
-  },
-  {
     prop: 'prevents',
+    label: '免疫',
     type: 'text',
     list: 'prevents',
   },
   {
     prop: 'causes',
+    label: '造成',
     type: 'text',
     list: 'causes',
   },
   {
-    prop: 'id',
-    type: 'number',
-    min: 1,
-    sort: true,
-  },
-  {
-    prop: 'description',
-    type: 'text',
-  },
-  {
     prop: 'type',
+    label: '裝備位置',
     type: 'text',
     list: 'types',
     // exact: true,
     sort: true,
   },
   {
+    prop: 'element',
+    label: '元素',
+    type: 'text',
+    list: 'element',
+    sort: true,
+  },
+  {
     prop: 'boss',
+    label: '👿 BOSS',
     type: 'checkbox',
   },
   {
     prop: 'arena',
+    label: '🏟️ 競技場',
+    type: 'checkbox',
+  },
+  {
+    prop: 'view_distance',
+    label: '👁️ +視野',
     type: 'checkbox',
   },
   // {
@@ -78,58 +85,74 @@ export const filtersDef = [
   //   prop: 'quests',
   // },
   {
-    prop: 'element',
-    type: 'text',
-    list: 'element',
-    sort: true,
-  },
-  {
-    prop: 'view_distance',
-    type: 'checkbox',
-  },
-  {
     prop: 'stats.attack.base',
+    label: '.物攻',
     type: 'number',
     sort: true,
   },
   {
     prop: 'stats.magic.base',
+    label: '.魔攻',
     type: 'number',
     sort: true,
   },
   {
     prop: 'stats.defense.base',
-    type: 'number',
-    sort: true,
-  },
-  {
-    prop: 'stats.ward.base',
-    type: 'number',
-    sort: true,
-  },
-  {
-    prop: 'stats.dexterity.base',
-    type: 'number',
-    sort: true,
-  },
-  {
-    prop: 'stats.mana.base',
-    type: 'number',
-    sort: true,
-  },
-  {
-    prop: 'stats.crit.base',
+    label: '.物防',
     type: 'number',
     sort: true,
   },
   {
     prop: 'stats.resistance.base',
+    label: '.魔防',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.dexterity.base',
+    label: '.敏捷',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.crit.base',
+    label: '.暴擊',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.ward.base',
+    label: '.護盾',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.mana.base',
+    label: '.魔力',
     type: 'number',
     sort: true,
   },
   {
     prop: 'stats.hp.base',
+    label: '.血量',
     type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'context',
+    label: '全文搜索',
+    type: 'text',
+  },
+  {
+    prop: 'description',
+    label: '描述 (en)',
+    type: 'text',
+  },
+  {
+    prop: 'id',
+    label: 'id',
+    type: 'number',
+    min: 1,
     sort: true,
   },
 ];

@@ -36,7 +36,7 @@
 
   <select bind:value={filterProp} on:change={resetFilter} bind:this={select}>
     {#each filtersDef as filter}
-      <option value={filter.prop}>{filter.prop}</option>
+      <option value={filter.prop}>{filter.label}</option>
     {/each}}
   </select>
 

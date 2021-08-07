@@ -11,9 +11,7 @@
 
   let init = false;
   let items = [];
-  let sortableProps = filtersDef
-    .filter(i => i.sort)
-    .map(i => i.prop);
+  let sortableProps = filtersDef.filter(i => i.sort);
   let sortProp = 'tier';
   $: sortDirASC = true;
 
@@ -156,7 +154,7 @@
       排序:
       <select bind:value={sortProp}>
         {#each sortableProps as p}
-          <option value={p} label={p} />
+          <option value={p.prop} label={p.label} />
         {/each}
       </select>
 
