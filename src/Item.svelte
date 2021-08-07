@@ -24,6 +24,16 @@
   function getZh(str) {
     return words[str] || str;
   }
+
+  // function checkProxyImg(item) {
+  //   checkingImg(item)
+  //   .then()
+  //   .catch(e => {
+  //     let index = items.findIndex(i => i.id == item.id);
+  //     items[index].deadProxyImage = true;
+  //   })
+  // }
+
 </script>
 
 <details class="item-details">

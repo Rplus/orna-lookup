@@ -24,9 +24,6 @@
 
   function resetFilter() {
     filterValue = null;
-
-    console.log({select});
-    select.quer
   }
 
   function removeFilter(timestamp) {

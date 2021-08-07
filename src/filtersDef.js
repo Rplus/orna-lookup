@@ -2,10 +2,12 @@ export const filtersDef = [
   {
     prop: 'name_zh',
     type: 'text',
+    sort: true,
   },
   {
     prop: 'name',
     type: 'text',
+    sort: true,
   },
   {
     prop: 'tier',
@@ -13,6 +15,7 @@ export const filtersDef = [
     list: 'tiers',
     min: 1,
     max: 10,
+    sort: true,
   },
   {
     prop: 'equipped_by',
@@ -36,7 +39,8 @@ export const filtersDef = [
   {
     prop: 'id',
     type: 'number',
-    min: 0,
+    min: 1,
+    sort: true,
   },
   {
     prop: 'description',
@@ -47,6 +51,7 @@ export const filtersDef = [
     type: 'text',
     list: 'types',
     // exact: true,
+    sort: true,
   },
   {
     prop: 'boss',
@@ -76,9 +81,55 @@ export const filtersDef = [
     prop: 'element',
     type: 'text',
     list: 'element',
+    sort: true,
   },
   {
     prop: 'view_distance',
     type: 'checkbox',
+  },
+  {
+    prop: 'stats.attack.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.magic.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.defense.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.ward.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.dexterity.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.mana.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.crit.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.resistance.base',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'stats.hp.base',
+    type: 'number',
+    sort: true,
   },
 ];

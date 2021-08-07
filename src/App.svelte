@@ -4,14 +4,17 @@
   import Item from './Item.svelte';
   import Dialog from './Dialog.svelte';
   import { filtersDef } from './filtersDef.js';
+  import { getDeepProp } from './u.js';
   import { setContext } from 'svelte';
   import { getImgSrc, checkingImg } from './image.js';
 
 
   let init = false;
   let items = [];
-  $: sortableProps = [];
-  let sortProp;
+  let sortableProps = filtersDef
+    .filter(i => i.sort)
+    .map(i => i.prop);
+  let sortProp = 'tier';
   $: sortDirASC = true;
 
   $: maxItem = 50;
@@ -23,18 +26,7 @@
     if (!$data.waiting && !init) {
       init = true;
       items = $data;
-      let allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
-      sortableProps = allProps.filter(p => {
-        let targetType = typeof items.find(i => i[p])?.[p];
-        let definedFilter = filtersDef.find(i => i.prop === p);
-        return targetType !== 'object' && definedFilter?.list;
-      });
-      if (sortableProps.includes('tier')) {
-        // default sort by tier
-        sortProp = 'tier';
-      } else {
-        sortProp = sortableProps[0];
-      }
+      // let allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
     }
   }
 
@@ -90,13 +82,14 @@
         );
       case 'number':
         return data.filter(i => {
+          let targetValue = getDeepProp(i, prop);
           switch (comparator) {
             case '+':
-              return i[prop] >= value;
+              return targetValue >= value;
             case '-':
-              return i[prop] <= value;
+              return targetValue <= value;
             default:
-              return i[prop] === value;
+              return targetValue === value;
           }
         });
       case 'text':
@@ -110,11 +103,21 @@
   function sortByProp(data = items) {
     return data.sort((a, b) => {
       let dir = sortDirASC ? 1: -1;
-      switch (typeof a[sortProp]) {
+      let targetValueA = getDeepProp(a, sortProp);
+      let targetValueB = getDeepProp(b, sortProp);
+
+      if (typeof targetValueB === 'object') {
+        targetValueB = -9999;
+      }
+      if (typeof targetValueA === 'object') {
+        targetValueA = -9999;
+      }
+
+      switch (typeof targetValueA) {
         case 'string':
-          return a[sortProp].localeCompare(b[sortProp]) * dir;
+          return targetValueA.localeCompare(targetValueB) * dir;
         case 'number':
-          return (a[sortProp] - b[sortProp]) * dir;
+          return (targetValueA - targetValueB) * dir;
         default:
           return 0;
       }
@@ -124,15 +127,6 @@
   function addFilter() {
     filters.add({ timestamp: +new Date });
   }
-
-  // function checkProxyImg(item) {
-  //   checkingImg(item)
-  //   .then()
-  //   .catch(e => {
-  //     let index = items.findIndex(i => i.id == item.id);
-  //     items[index].deadProxyImage = true;
-  //   })
-  // }
 
   // auto new one
   addFilter();
