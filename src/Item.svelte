@@ -20,6 +20,10 @@
       stats: stats,
     })
   }
+
+  function getZh(str) {
+    return words[str] || str;
+  }
 </script>
 
 <details class="item-details">
@@ -41,32 +45,37 @@
       />
 
       {#if stats}
-        <table on:click={assess} style="cursor: pointer;">
-          {#each stats as stat}
-            <tr>
-              <th>{words[stat.prop]}</th>
-              <td>{stat.value}</td>
-            </tr>
-          {/each}
-        </table>
+        <div>
+          [ Stats ]
+          <br>
+          ---------
+          <table on:click={assess} style="cursor: pointer;">
+            {#each stats as stat}
+              <tr>
+                <th>{getZh(stat.prop)}</th>
+                <td>{stat.value}</td>
+              </tr>
+            {/each}
+          </table>
+        </div>
       {/if}
       {#if item.prevents}
-        <div class="text-center">
+        <div>
           [ 🛡️ ]
           <br>
           ------
           {#each item.prevents as p}
-            <div>{words[p]}</div>
+            <div>{getZh(p)}</div>
           {/each}
         </div>
       {/if}
       {#if item.causes}
-        <div class="text-center">
+        <div>
           [ 🗡️ ]
           <br>
           ------
           {#each item.causes as p}
-            <div>{words[p]}</div>
+            <div>{getZh(p)}</div>
           {/each}
         </div>
       {/if}
@@ -209,6 +218,10 @@ rt {
 
 table {
   border-collapse: collapse;
+}
+
+table th {
+  padding-right: 0.5em;
 }
 
 </style>
