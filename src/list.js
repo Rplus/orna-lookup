@@ -67,6 +67,7 @@ function genLabelValue(obj) {
       }
     ))
     .sort((a, b) => sortLables(a.label, b.label));
+    obj[prop].unshift({value: '', label: ''});
   }
   return obj;
 }
