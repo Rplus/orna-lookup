@@ -50,6 +50,26 @@
           {/each}
         </table>
       {/if}
+      {#if item.prevents}
+        <div class="text-center">
+          [ 🛡️ ]
+          <br>
+          ------
+          {#each item.prevents as p}
+            <div>{words[p]}</div>
+          {/each}
+        </div>
+      {/if}
+      {#if item.causes}
+        <div class="text-center">
+          [ 🗡️ ]
+          <br>
+          ------
+          {#each item.causes as p}
+            <div>{words[p]}</div>
+          {/each}
+        </div>
+      {/if}
     </div>
 
     <div class="rt-box">

@@ -12,6 +12,8 @@ export const words = {
   'Poisoned': '中毒',
   'Drenched': '濕滑',
   'Cursed': '詛咒',
+  'Toxic': '劇毒',
+  'Lulled': '安份',
 
   'Mage': '法師',
   'Thief': '盜賊',
