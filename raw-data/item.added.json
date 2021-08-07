@@ -66256,7 +66256,8 @@
     ],
     "prevents": [
       "T. Mag ↓"
-    ]
+    ],
+    "name_zh": "重生王者之權杖"
   },
   {
     "name": "False King's Sceptre",
@@ -66292,7 +66293,8 @@
     ],
     "prevents": [
       "T. Mag ↓"
-    ]
+    ],
+    "name_zh": "偽王之權杖"
   },
   {
     "name": "False King's Crown",
@@ -66343,7 +66345,8 @@
     "prevents": [
       "Mag ↓",
       "T. Mag ↓"
-    ]
+    ],
+    "name_zh": "偽王之冠"
   },
   {
     "name": "Arisen King's Crown",
@@ -66400,6 +66403,7 @@
     "prevents": [
       "Mag ↓",
       "T. Mag ↓"
-    ]
+    ],
+    "name_zh": "重生王者之冠"
   }
 ]
