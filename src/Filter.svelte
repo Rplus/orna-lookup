@@ -9,7 +9,6 @@
   $: filterDef = filtersDef.find(i => i.prop === filterProp);
   $: filterValue = null;
   $: filterComparators = '=';
-  // console.log({filtersDef});
 
   let select;
 
