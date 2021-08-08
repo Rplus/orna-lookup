@@ -28,15 +28,27 @@ export const filtersDef = [
   },
   {
     prop: 'prevents',
-    label: '免疫',
+    label: '-免疫(敵)',
     type: 'text',
     list: 'prevents',
   },
   {
+    prop: 'cures',
+    label: '-治癒(己)',
+    type: 'text',
+    list: 'cures',
+  },
+  {
     prop: 'causes',
-    label: '造成',
+    label: '+造成(敵)',
     type: 'text',
     list: 'causes',
+  },
+  {
+    prop: 'gives',
+    label: '+給予(己)',
+    type: 'text',
+    list: 'gives',
   },
   {
     prop: 'type',

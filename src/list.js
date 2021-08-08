@@ -31,15 +31,22 @@ export const words = {
   'Off-hand': '副手',
   'Adornment': '裝飾品',
 
-  'Dark': '暗',
+  'Dark': '闇',
   'Water': '水',
   'Fire': '火',
   'Physical': '物',
   'Holy': '光',
-  'Earthen': '地',
+  'Earthen': '土',
   'Lightning': '雷',
   'Dragon': '龍',
   'Arcane': '奧',
+
+  'Fire Def': '.火抗',
+  'Water Def': '.水抗',
+  'Earth Def': '.土抗',
+  'Lightning Def': '.雷抗',
+  'Holy Def': '.光抗',
+  'Dark Def': '.闇抗',
 
   'attack': '物攻',
   'magic': '魔攻',
@@ -62,6 +69,8 @@ export function getList(data) {
     immunities: [...new Set(data.map(i => i.immunities?.split(', ')).flat())],
     causes: [...new Set(data.map(i => i.causes).flat())],
     prevents: [...new Set(data.map(i => i.prevents).flat())],
+    gives: [...new Set(data.map(i => i.gives).flat())],
+    cures: [...new Set(data.map(i => i.cures).flat())],
     equipped_by: [...new Set(data.map(i => i.equipped_by).flat().filter(Boolean))],
   }
 

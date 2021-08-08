@@ -5,7 +5,12 @@
   import { getZh } from './u.js';
   import { dialog } from './stores.js';
 
-
+  let effectTypes = [
+    ['causes', '🗡️'],
+    ['prevents', '🛡️'],
+    ['gives', '🔋'],
+    ['cures', '❤️‍🩹'],
+  ];
   let stats = item.stats;
   if (stats) {
     stats = Object.keys(stats).map(i => ({
@@ -67,27 +72,20 @@
           </table>
         </div>
       {/if}
-      {#if item.prevents}
-        <div class="text-right">
-          [ 🛡️ ]
-          <br>
-          ------
-          {#each item.prevents as p}
-            <div>{getZh(p)}</div>
-          {/each}
-        </div>
-      {/if}
-      {#if item.causes}
-        <div class="text-right">
-          [ 🗡️ ]
-          <br>
-          ------
-          {#each item.causes as p}
-            <div>{getZh(p)}</div>
-          {/each}
-        </div>
-      {/if}
-    </div>
+
+      {#each effectTypes as effect}
+        {#if item[effect[0]]}
+          <div class="text-right">
+            <span title={effect[0]}>[ {effect[1]} ]</span>
+            <br>
+            -------
+            {#each item[effect[0]] as p}
+              <div>{getZh(p)}</div>
+            {/each}
+          </div>
+        {/if}
+      {/each}
+
 
     <div class="rt-box">
       <div class="item-equipped" data-by={item.equipped_by} />
