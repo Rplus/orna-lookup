@@ -1,8 +1,15 @@
 <script>
   import { dialog } from './stores.js';
   import { words } from './list.js';
+  import { numSort } from './u.js';
+  import Assess from './Assess.svelte';
 
   $: _stats = [];
+  $: assessData = null;
+
+  $: {
+    console.log({assessData});
+  }
 
   $: {
     if ($dialog && $dialog.stats) {
@@ -11,6 +18,7 @@
   }
 
   function close() {
+    assessData = null;
     // reset items
     $dialog = {
       open: false,
@@ -21,6 +29,7 @@
     _stats = stats.map(stat => {
       let [min, max] = [stat.value * 2, ~~(stat.value * .7)].sort(numSort);
       return {
+        oProp: stat.prop,
         prop: words[stat.prop] || stat.prop,
         value: stat.value,
         oValue: stat.value,
@@ -31,6 +40,8 @@
   }
 
   function reset() {
+    assessData = null;
+
     _stats = _stats.map(stat => {
       return {...stat, value: stat.oValue };
     });
@@ -41,8 +52,22 @@
     return `${q.toFixed(1)}%`;
   }
 
-  function assess() {
-    console.log(22, {_stats});
+  function assessAPI() {
+    assessData = null;
+    if (!_stats.length) { return; }
+
+    let firstStat = _stats[0];
+    let defaultData = {
+      id: $dialog.item.id,
+      [firstStat.oProp]: firstStat.oValue,
+    };
+
+    assessData = _stats.reduce((all, i) => {
+      if (i.value !== i.oValue) {
+        all[i.oProp] = i.value;
+      }
+      return all;
+    }, defaultData);
   }
 </script>
 
@@ -58,7 +83,7 @@
           <caption>
             品質試算
             <br />
-            [ {$dialog.item.name_zh} ]
+            [ {$dialog.item.name_zh} ] Lv.1
           </caption>
 
           {#each _stats as stat, index}
@@ -89,11 +114,15 @@
             Reset
           </button>
 
-          <button type="reset" on:click|preventDefault={assess}>
+          <button type="reset" on:click|preventDefault={assessAPI}>
             Assess
           </button>
         </div>
       </form>
+
+      {#if assessData}
+        <Assess assessData={assessData} />
+      {/if}
     {/if}
   </main>
 </div>

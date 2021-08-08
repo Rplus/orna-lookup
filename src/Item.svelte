@@ -20,7 +20,6 @@
   }
 
   function assess() {
-    console.log($dialog);
     dialog.set({
       open: true,
       item: item,

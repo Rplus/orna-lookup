@@ -24,6 +24,7 @@
     if (!$data.waiting && !init) {
       init = true;
       items = $data;
+      items = $data.slice(426, 430);
       // let allProps = [...new Set(items.map(i => Object.keys(i)).flat())];
     }
   }
