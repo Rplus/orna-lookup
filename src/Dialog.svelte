@@ -19,12 +19,13 @@
 
   function genStats(stats) {
     _stats = stats.map(stat => {
+      let [min, max] = [stat.value * 2, ~~(stat.value * .7)].sort(numSort);
       return {
         prop: words[stat.prop] || stat.prop,
         value: stat.value,
         oValue: stat.value,
-        max: stat.value * 2,
-        min: ~~(stat.value * .7),
+        max,
+        min,
       };
     })
   }

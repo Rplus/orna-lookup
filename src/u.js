@@ -8,3 +8,7 @@ export function getDeepProp(object, propChain) {
 export function getZh(str) {
   return words[str] || str;
 }
+
+export function numSort(a, b) {
+  return a - b;
+}
