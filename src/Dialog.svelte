@@ -40,6 +40,10 @@
     let q = 100 * stat.value / stat.oValue;
     return `${q.toFixed(1)}%`;
   }
+
+  function assess() {
+    console.log(22, {_stats});
+  }
 </script>
 
 
@@ -80,11 +84,13 @@
           {/each}
         </table>
 
-        <div class="text-right">
-          <button type="reset"
-            on:click|preventDefault={reset}
-          >
+        <div class="form-ctrl">
+          <button type="reset" on:click|preventDefault={reset}>
             Reset
+          </button>
+
+          <button type="reset" on:click|preventDefault={assess}>
+            Assess
           </button>
         </div>
       </form>
@@ -152,5 +158,12 @@
 .assess-table input {
   margin: 0;
   text-align: center;
+}
+
+.form-ctrl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-top: .5em;
 }
 </style>
