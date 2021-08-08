@@ -23,7 +23,7 @@
   }
 
   function resetFilter() {
-    filterValue = null;
+    filterValue = '';
   }
 
   function removeFilter(timestamp) {
