@@ -56,18 +56,23 @@
     assessData = null;
     if (!_stats.length) { return; }
 
-    let firstStat = _stats[0];
     let defaultData = {
       id: $dialog.item.id,
-      [firstStat.oProp]: firstStat.oValue,
     };
 
-    assessData = _stats.reduce((all, i) => {
+    let newData = _stats.reduce((all, i) => {
       if (i.value !== i.oValue) {
         all[i.oProp] = i.value;
       }
       return all;
     }, defaultData);
+
+    if (Object.keys(newData).length === 1) {
+      let firstStat = _stats[0];
+      newData[firstStat.oProp] = firstStat.oValue;
+    }
+
+    assessData = newData;
   }
 </script>
 
