@@ -68,4 +68,8 @@ blockquote {
   margin: 1em 0 0;
   padding: .5em;
 }
+
+td, th {
+  padding: .15em .25em;
+}
 </style>
