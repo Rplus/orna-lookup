@@ -8,10 +8,6 @@
   $: assessData = null;
 
   $: {
-    console.log({assessData});
-  }
-
-  $: {
     if ($dialog && $dialog.stats) {
       genStats($dialog.stats);
     }
