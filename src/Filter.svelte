@@ -1,6 +1,6 @@
 <script>
   export let timestamp;
-  export let rules;
+  export let rule;
 
   import { filters, filterLists } from './stores.js';
   import { filtersDef } from './filtersDef.js';
