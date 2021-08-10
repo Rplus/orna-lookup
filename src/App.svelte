@@ -42,12 +42,12 @@
     if (
       !_filters ||
       !_filters.length ||
-      (_filters.length === 1 && _filters[0].rules?.value == null)
+      (_filters.length === 1 && _filters[0].rule?.value == null)
     ) {
       return d;
     }
 
-    let rules = _filters.map(f => f.rules)
+    let rules = _filters.map(f => f.rule)
 
     rules.forEach((rule) => {
       if (rule) {

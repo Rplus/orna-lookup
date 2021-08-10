@@ -32,16 +32,16 @@ function createFilters() {
   return {
     subscribe,
     // add: (n) => update(arr => arr.push(n)),
-    add: (n) => update(arr => {
+    add: (n, rule = null) => update(arr => {
       arr[arr.length] = {
         timestamp: n.timestamp,
-        rules: null,
+        rule,
       };
       return arr;
     }),
-    update: (n, rules) => update(arr => {
+    update: (n, rule) => update(arr => {
       let index = arr.findIndex(i => i.timestamp === n);
-      arr[index].rules = rules;
+      arr[index].rule = rule;
       return arr;
     }),
     remove: (n) => update(arr => {
