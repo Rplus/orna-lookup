@@ -7,9 +7,15 @@
   $: _stats = [];
   $: assessData = null;
 
+  let dialogElm;
+
   $: {
     if ($dialog && $dialog.stats) {
       genStats($dialog.stats);
+
+      setTimeout(() => {
+        dialogElm.focus();
+      });
     }
   }
 
@@ -70,11 +76,22 @@
 
     assessData = newData;
   }
+
+  function _keydown(e) {
+    if (e.code === 'Escape') {
+      close();
+    }
+  }
 </script>
 
 
 
-<div class="dialog" hidden={!$dialog.open}>
+<div class="dialog"
+  hidden={!$dialog.open}
+  bind:this={dialogElm}
+  on:keydown={_keydown}
+  tabindex="-1"
+>
   <div class="overlay" on:click={close} />
 
   <main class="content">
