@@ -64,19 +64,10 @@
       return data;
     }
 
-    if (typeof value === 'string') {
-      value = value.toLowerCase();
-    }
-
-    // pre-transform value
-    if (type === 'checkbox') {
-      value = Boolean(+value);
-    }
-
     switch (type) {
       case 'checkbox':
         return (
-          value
+          Boolean(+value)
             ? data.filter(i => i[prop])
             : data.filter(i => !i[prop])
         );
@@ -93,8 +84,14 @@
           }
         });
       case 'text':
-        let reg = new RegExp(value, 'i');
-        return data.filter(i => reg.test(i[prop]));
+        let _define = filtersDef.find(i => i.prop === prop);
+        return data.filter(i => {
+          if (_define.list) {
+            return i[prop]?.includes(value);
+          }
+          let reg = new RegExp(value, 'i');
+          return reg.test(i[prop])
+        });
       default:
         return data;
     }
