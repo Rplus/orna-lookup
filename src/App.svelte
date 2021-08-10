@@ -31,7 +31,9 @@
   $: {
     sortProp;
     sortDirASC;
-    items = filterItems($filters);
+    if (init) {
+      items = filterItems($filters);
+    }
   }
 
   function filterItems(_filters) {
