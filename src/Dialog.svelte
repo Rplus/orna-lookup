@@ -14,7 +14,7 @@
       genStats($dialog.stats);
 
       setTimeout(() => {
-        dialogElm.focus();
+        dialogElm.querySelector('input')?.select();
       });
     }
   }
