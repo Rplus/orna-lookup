@@ -115,7 +115,7 @@
             Reset
           </button>
 
-          <button type="reset" on:click|preventDefault={assessAPI}>
+          <button type="submit" on:click|preventDefault={assessAPI}>
             Assess
           </button>
         </div>
