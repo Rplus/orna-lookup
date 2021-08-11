@@ -3,7 +3,7 @@
   import { getImgSrc, checkingImg } from './image.js';
   import { words } from './list.js';
   import { getZh } from './u.js';
-  import { dialog } from './stores.js';
+  import { dialog, data } from './stores.js';
 
   let effectTypes = [
     ['causes', '🗡️'],
@@ -35,6 +35,10 @@
   //     items[index].deadProxyImage = true;
   //   })
   // }
+
+  function getItemNameZh(name_en) {
+    return $data?.find(i => i.name === name_en)?.name_zh || name_en;
+  }
 
 </script>
 
@@ -97,12 +101,45 @@
 
   <div>
     <div class="item-more">
-    <details>
-      <summary class="text-right"></summary>
-      <pre class="item-pre">
-        { JSON.stringify({...item, context: null}, null, ' ') }
-      </pre>
-    </details>
+      <div class="dropped_by">
+        {#if item.dropped_by}
+          <details>
+            <summary>掉落方</summary>
+            <ul>
+              {#each item.dropped_by as monster}
+                <li>
+                  <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
+                    {monster.name}
+                  </a>
+                </li>
+              {/each}
+            </ul>
+          </details>
+        {/if}
+      </div>
+      <div class="materials">
+        {#if item.materials}
+          <details>
+            <summary>材料</summary>
+            <ul>
+              {#each item.materials as material}
+                <li>
+                  <a href="https://orna.guide/items?show={material.id}" target="orna.guide">
+                    {getItemNameZh(material.name)}
+                  </a>
+                </li>
+              {/each}
+            </ul>
+          </details>
+        {/if}
+      </div>
+
+      <details>
+        <summary class="text-right"></summary>
+        <pre class="item-pre">
+          { JSON.stringify({...item, context: null}, null, ' ') }
+        </pre>
+      </details>
     </div>
   </div>
 </details>
@@ -201,9 +238,16 @@
   color: #aaa;
 }
 
+.item-more {
+  margin-top: 1em;
+  margin-left: 2em;
+  line-height: 1.4;
+  font-size: smaller;
+}
+
 @media (min-width: 900px) {
   .item-more {
-    margin-left: 200px
+    margin-left: 163px
   }
 }
 
