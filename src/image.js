@@ -61,7 +61,7 @@ function getProxyImgSrc(imgPath, size = 96) {
   // if (imgPath === 'useables/small_health_potion.png') {
   //   return imgPath;
   // }
-  return `https://images.weserv.nl/?w=${size}&il&url=${getOriginImgSrc (imgPath)}`;
+  return `https://images.weserv.nl/?w=${size}&il&url=${getOriginImgSrc(imgPath)}`;
 }
 
 function getOriginImgSrc(imgPath) {
