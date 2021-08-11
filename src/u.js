@@ -18,7 +18,8 @@ export function fetchAssessData(assessData) {
   const loading = writable(false);
   const error = writable(false);
   const data = writable(null);
-  const url = 'https://cors-anywhere.herokuapp.com/https://orna.guide/api/v1/assess';;
+  // const url = 'https://cors-anywhere.herokuapp.com/https://orna.guide/api/v1/assess';
+  const url = 'https://orna.guide/api/v1/assess';
 
   async function get() {
     loading.set(true);
