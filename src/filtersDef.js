@@ -52,7 +52,7 @@ export const filtersDef = [
   },
   {
     prop: 'type',
-    label: '裝備位置',
+    label: '裝備類型',
     type: 'text',
     list: 'types',
     // exact: true,
