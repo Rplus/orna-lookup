@@ -40,6 +40,11 @@
     return $data?.find(i => i.name === name_en)?.name_zh || name_en;
   }
 
+  function getItemTier(id) {
+    const item = $data?.find(i => i.id === id);
+    return item?.tier ? `★${item?.tier}` : '';
+  }
+
 </script>
 
 <details class="item-details">
@@ -125,6 +130,9 @@
               {#each item.materials as material}
                 <li>
                   <a href="https://orna.guide/items?show={material.id}" target="orna.guide">
+                    <small>
+                      {getItemTier(material.id)} -
+                    </small>
                     {getItemNameZh(material.name)}
                   </a>
                 </li>
