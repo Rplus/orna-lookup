@@ -94,6 +94,10 @@
     ],
     "monsters_use": [
       {
+        "id": 325,
+        "name": "Fallen Arcanic"
+      },
+      {
         "id": 437,
         "name": "Fallen Beowulf"
       }
@@ -343,12 +347,20 @@
     "bought": false,
     "buffed_by": [
       {
+        "id": 17,
+        "name": "Spider"
+      },
+      {
         "id": 16,
         "name": "Snake"
       },
       {
-        "id": 17,
-        "name": "Spider"
+        "id": 10,
+        "name": "Gull"
+      },
+      {
+        "id": 23,
+        "name": "Bat"
       },
       {
         "id": 189,
@@ -357,14 +369,6 @@
       {
         "id": 2,
         "name": "Crow"
-      },
-      {
-        "id": 23,
-        "name": "Bat"
-      },
-      {
-        "id": 10,
-        "name": "Gull"
       },
       {
         "id": 154,
@@ -399,32 +403,32 @@
         "name": "Zu"
       },
       {
-        "id": 50,
-        "name": "Hellhound"
-      },
-      {
         "id": 126,
         "name": "Grey Wolfman"
       },
       {
-        "id": 267,
-        "name": "Dark Widow"
+        "id": 50,
+        "name": "Hellhound"
+      },
+      {
+        "id": 76,
+        "name": "Wolfman Warrior"
       },
       {
         "id": 190,
         "name": "Buzzard"
       },
       {
-        "id": 235,
-        "name": "Cobra"
-      },
-      {
         "id": 95,
         "name": "Great Bear"
       },
       {
-        "id": 76,
-        "name": "Wolfman Warrior"
+        "id": 267,
+        "name": "Dark Widow"
+      },
+      {
+        "id": 235,
+        "name": "Cobra"
       },
       {
         "id": 162,
@@ -439,28 +443,28 @@
         "name": "Naja"
       },
       {
-        "id": 113,
-        "name": "Great Ushi-Oni"
-      },
-      {
         "id": 114,
         "name": "Orthrus"
-      },
-      {
-        "id": 117,
-        "name": "Cerberus"
       },
       {
         "id": 243,
         "name": "Dark Wolfman"
       },
       {
-        "id": 132,
-        "name": "Arisen Minotaur"
+        "id": 117,
+        "name": "Cerberus"
+      },
+      {
+        "id": 113,
+        "name": "Great Ushi-Oni"
       },
       {
         "id": 244,
         "name": "Warg"
+      },
+      {
+        "id": 132,
+        "name": "Arisen Minotaur"
       },
       {
         "id": 155,
@@ -471,12 +475,12 @@
         "name": "Ratman"
       },
       {
-        "id": 237,
-        "name": "Garm"
-      },
-      {
         "id": 239,
         "name": "Infernal Bear"
+      },
+      {
+        "id": 237,
+        "name": "Garm"
       },
       {
         "id": 307,
@@ -487,12 +491,12 @@
         "name": "Nin-Kilim"
       },
       {
-        "id": 330,
-        "name": "Anubis"
-      },
-      {
         "id": 317,
         "name": "Chimera"
+      },
+      {
+        "id": 330,
+        "name": "Anubis"
       }
     ],
     "learned_by": [
@@ -865,6 +869,10 @@
         "name": "Bandit Lord"
       },
       {
+        "id": 1,
+        "name": "Barbarian"
+      },
+      {
         "id": 21,
         "name": "Minotaur"
       },
@@ -963,6 +971,10 @@
       {
         "id": 265,
         "name": "Odok Golem"
+      },
+      {
+        "id": 350,
+        "name": "Arisen Thor, the Storm God"
       }
     ]
   },
@@ -1802,6 +1814,10 @@
       {
         "id": 228,
         "name": "Ratman"
+      },
+      {
+        "id": 315,
+        "name": "Arisen Cthulhu"
       }
     ]
   },
@@ -2096,6 +2112,10 @@
       {
         "id": 353,
         "name": "Immortal Magus"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       }
     ]
   },
@@ -2245,6 +2265,10 @@
       {
         "id": 283,
         "name": "Castor"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -3136,6 +3160,10 @@
     ],
     "monsters_use": [
       {
+        "id": 1,
+        "name": "Barbarian"
+      },
+      {
         "id": 5,
         "name": "Fallen Warrior"
       },
@@ -3321,6 +3349,10 @@
       {
         "id": 220,
         "name": "Fallen Ithra, the White Knight"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -3478,6 +3510,10 @@
     ],
     "monsters_use": [
       {
+        "id": 385,
+        "name": "Lobster"
+      },
+      {
         "id": 266,
         "name": "Dracon"
       },
@@ -3540,6 +3576,10 @@
       {
         "id": 295,
         "name": "Frilled Naga Warrior"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -3939,6 +3979,10 @@
       }
     ],
     "monsters_use": [
+      {
+        "id": 272,
+        "name": "Sea Serpent"
+      },
       {
         "id": 213,
         "name": "Dokkalfar"
@@ -4467,6 +4511,10 @@
       }
     ],
     "monsters_use": [
+      {
+        "id": 1,
+        "name": "Barbarian"
+      },
       {
         "id": 122,
         "name": "Bear"
@@ -5147,6 +5195,10 @@
       {
         "id": 370,
         "name": "Arisen Hydra"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       }
     ]
   },
@@ -6153,6 +6205,10 @@
       {
         "id": 199,
         "name": "High Draconian Mage"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -6185,6 +6241,10 @@
       {
         "id": 232,
         "name": "Fallen Vulcan, the Red Knight"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       }
     ]
   },
@@ -6245,6 +6305,10 @@
       {
         "id": 390,
         "name": "Dark Pegasus"
+      },
+      {
+        "id": 374,
+        "name": "Pegasus"
       }
     ]
   },
@@ -6431,6 +6495,14 @@
     ],
     "monsters_use": [
       {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
         "id": 400,
         "name": "First Horseman"
       },
@@ -6449,6 +6521,14 @@
       {
         "id": 279,
         "name": "Apollyon"
+      },
+      {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
       },
       {
         "id": 185,
@@ -6600,6 +6680,10 @@
       {
         "id": 220,
         "name": "Fallen Ithra, the White Knight"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -7483,6 +7567,10 @@
       {
         "id": 271,
         "name": "Guivre"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       }
     ]
   },
@@ -7852,6 +7940,10 @@
         "name": "Fallen Realmshifter"
       },
       {
+        "id": 395,
+        "name": "Fjalar"
+      },
+      {
         "id": 374,
         "name": "Pegasus"
       }
@@ -7923,8 +8015,36 @@
     ],
     "monsters_use": [
       {
+        "id": 343,
+        "name": "Arisen Demeter, The Earth Magus"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
+      },
+      {
+        "id": 350,
+        "name": "Arisen Thor, the Storm God"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
+      },
+      {
         "id": 435,
         "name": "Fallen Gilgamesh"
+      },
+      {
+        "id": 331,
+        "name": "Fallen Ifrit"
+      },
+      {
+        "id": 333,
+        "name": "Fallen Taranis"
+      },
+      {
+        "id": 323,
+        "name": "Fallen Vanguard"
       }
     ]
   },
@@ -8039,6 +8159,10 @@
       {
         "id": 255,
         "name": "Balor Flame"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       }
     ]
   },
@@ -8093,6 +8217,10 @@
       {
         "id": 370,
         "name": "Arisen Hydra"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -8129,6 +8257,10 @@
       {
         "id": 221,
         "name": "Fallen Thor, the Storm God"
+      },
+      {
+        "id": 350,
+        "name": "Arisen Thor, the Storm God"
       }
     ]
   },
@@ -8174,6 +8306,10 @@
         "name": "Ancient Jinn"
       },
       {
+        "id": 343,
+        "name": "Arisen Demeter, The Earth Magus"
+      },
+      {
         "id": 370,
         "name": "Arisen Hydra"
       },
@@ -8211,6 +8347,10 @@
       {
         "id": 232,
         "name": "Fallen Vulcan, the Red Knight"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       },
       {
         "id": 314,
@@ -8273,6 +8413,10 @@
         "name": "Arisen Surtr"
       },
       {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
+      },
+      {
         "id": 439,
         "name": "Finesse"
       }
@@ -8331,6 +8475,10 @@
       {
         "id": 441,
         "name": "Arisen Balin"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       },
       {
         "id": 412,
@@ -8413,8 +8561,12 @@
         "name": "Arisen Balin"
       },
       {
-        "id": 329,
-        "name": "Fallen Freyja"
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       },
       {
         "id": 439,
@@ -8475,6 +8627,10 @@
         "name": "Arisen Naggeneen"
       },
       {
+        "id": 443,
+        "name": "Arisen Hel"
+      },
+      {
         "id": 428,
         "name": "Arisen Kerberos"
       }
@@ -8516,6 +8672,10 @@
       {
         "id": 138,
         "name": "Arcane Flame"
+      },
+      {
+        "id": 249,
+        "name": "Arcane Slime"
       },
       {
         "id": 273,
@@ -8989,6 +9149,10 @@
       {
         "id": 439,
         "name": "Finesse"
+      },
+      {
+        "id": 326,
+        "name": "Lyonesse Assassin"
       }
     ]
   },
@@ -9539,6 +9703,16 @@
         "level": 1,
         "specialization": false
       }
+    ],
+    "monsters_use": [
+      {
+        "id": 324,
+        "name": "Fallen Gaia"
+      },
+      {
+        "id": 323,
+        "name": "Fallen Vanguard"
+      }
     ]
   },
   {
@@ -9595,8 +9769,20 @@
     ],
     "monsters_use": [
       {
+        "id": 325,
+        "name": "Fallen Arcanic"
+      },
+      {
         "id": 437,
         "name": "Fallen Beowulf"
+      },
+      {
+        "id": 329,
+        "name": "Fallen Freyja"
+      },
+      {
+        "id": 333,
+        "name": "Fallen Taranis"
       }
     ]
   },
@@ -9708,6 +9894,10 @@
         "name": "The Fool (2019)"
       },
       {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
         "id": 362,
         "name": "The Fool (2020)"
       },
@@ -9734,6 +9924,10 @@
       {
         "id": 337,
         "name": "Arisen Naggeneen"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
       },
       {
         "id": 438,
@@ -10072,6 +10266,10 @@
         "name": "Fallen Merlin"
       },
       {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
         "id": 285,
         "name": "Pollux"
       },
@@ -10090,6 +10288,10 @@
       {
         "id": 312,
         "name": "Arisen Merlin"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
       },
       {
         "id": 319,
@@ -10148,10 +10350,6 @@
       {
         "id": 432,
         "name": "Ferocious Cerus"
-      },
-      {
-        "id": 319,
-        "name": "Mighty Slime"
       },
       {
         "id": 372,
@@ -10329,12 +10527,28 @@
         "name": "Fallen Merlin"
       },
       {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
         "id": 342,
         "name": "Pumpkinhead"
       },
       {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
         "id": 312,
         "name": "Arisen Merlin"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
       },
       {
         "id": 328,
@@ -10379,6 +10593,10 @@
       {
         "id": 330,
         "name": "Anubis"
+      },
+      {
+        "id": 315,
+        "name": "Arisen Cthulhu"
       },
       {
         "id": 314,
@@ -10459,6 +10677,10 @@
       {
         "id": 315,
         "name": "Arisen Cthulhu"
+      },
+      {
+        "id": 314,
+        "name": "Hades"
       }
     ]
   },
@@ -10903,8 +11125,16 @@
         "name": "Dark Pegasus"
       },
       {
+        "id": 401,
+        "name": "Final Horseman"
+      },
+      {
         "id": 439,
         "name": "Finesse"
+      },
+      {
+        "id": 374,
+        "name": "Pegasus"
       }
     ]
   },
@@ -11317,6 +11547,10 @@
       {
         "id": 10,
         "name": "Gull"
+      },
+      {
+        "id": 272,
+        "name": "Sea Serpent"
       },
       {
         "id": 19,
@@ -12026,6 +12260,10 @@
       {
         "id": 368,
         "name": "Arisen Finfolk"
+      },
+      {
+        "id": 349,
+        "name": "Arisen Ithra, the White Knight"
       }
     ]
   },
@@ -12213,6 +12451,10 @@
       {
         "id": 271,
         "name": "Guivre"
+      },
+      {
+        "id": 351,
+        "name": "Arisen Vulcan, the Red Knight"
       }
     ]
   },
@@ -12555,6 +12797,10 @@
       {
         "id": 280,
         "name": "Mammon"
+      },
+      {
+        "id": 352,
+        "name": "Arisen Mammon"
       }
     ]
   },
@@ -12611,6 +12857,10 @@
       {
         "id": 280,
         "name": "Mammon"
+      },
+      {
+        "id": 352,
+        "name": "Arisen Mammon"
       }
     ]
   },
@@ -12639,6 +12889,10 @@
       {
         "id": 280,
         "name": "Mammon"
+      },
+      {
+        "id": 352,
+        "name": "Arisen Mammon"
       },
       {
         "id": 423,
@@ -12681,6 +12935,10 @@
       {
         "id": 280,
         "name": "Mammon"
+      },
+      {
+        "id": 352,
+        "name": "Arisen Mammon"
       }
     ]
   },
@@ -13028,6 +13286,12 @@
         "id": 119,
         "name": "Carman"
       }
+    ],
+    "monsters_use": [
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      }
     ]
   },
   {
@@ -13295,6 +13559,10 @@
       {
         "id": 324,
         "name": "Fallen Gaia"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       },
       {
         "id": 316,
@@ -14012,6 +14280,12 @@
         "level": 90,
         "specialization": false
       }
+    ],
+    "monsters_use": [
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      }
     ]
   },
   {
@@ -14088,6 +14362,10 @@
       {
         "id": 304,
         "name": "Mighty Mimic"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       },
       {
         "id": 333,
@@ -14274,6 +14552,12 @@
         "level": 175,
         "specialization": false
       }
+    ],
+    "monsters_use": [
+      {
+        "id": 324,
+        "name": "Fallen Gaia"
+      }
     ]
   },
   {
@@ -14300,6 +14584,10 @@
       {
         "id": 322,
         "name": "Arisen Fafnir"
+      },
+      {
+        "id": 331,
+        "name": "Fallen Ifrit"
       }
     ]
   },
@@ -14403,12 +14691,24 @@
         "name": "Fallen Gaia"
       },
       {
+        "id": 331,
+        "name": "Fallen Ifrit"
+      },
+      {
         "id": 332,
         "name": "Fallen Leviathan"
       },
       {
         "id": 333,
         "name": "Fallen Taranis"
+      },
+      {
+        "id": 326,
+        "name": "Lyonesse Assassin"
+      },
+      {
+        "id": 328,
+        "name": "Lyonesse Knight"
       },
       {
         "id": 319,
@@ -14469,6 +14769,10 @@
       {
         "id": 336,
         "name": "King Gradlon"
+      },
+      {
+        "id": 328,
+        "name": "Lyonesse Knight"
       }
     ]
   },
@@ -14647,6 +14951,10 @@
         "name": "Arisen Merlin"
       },
       {
+        "id": 334,
+        "name": "Fallen Nekromancer"
+      },
+      {
         "id": 313,
         "name": "Odin"
       }
@@ -14691,6 +14999,10 @@
       {
         "id": 330,
         "name": "Anubis"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       },
       {
         "id": 401,
@@ -14739,12 +15051,20 @@
         "name": "Anubis"
       },
       {
+        "id": 315,
+        "name": "Arisen Cthulhu"
+      },
+      {
         "id": 368,
         "name": "Arisen Finfolk"
       },
       {
         "id": 414,
         "name": "Arisen Great Gazer"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       },
       {
         "id": 372,
@@ -15033,10 +15353,6 @@
     ],
     "monsters_use": [
       {
-        "id": 435,
-        "name": "Fallen Gilgamesh"
-      },
-      {
         "id": 323,
         "name": "Fallen Vanguard"
       },
@@ -15095,6 +15411,10 @@
       {
         "id": 323,
         "name": "Fallen Vanguard"
+      },
+      {
+        "id": 314,
+        "name": "Hades"
       },
       {
         "id": 336,
@@ -15318,6 +15638,10 @@
         "name": "Mighty Griffin"
       },
       {
+        "id": 329,
+        "name": "Fallen Freyja"
+      },
+      {
         "id": 319,
         "name": "Mighty Slime"
       }
@@ -15357,8 +15681,20 @@
         "name": "Mighty Griffin"
       },
       {
+        "id": 419,
+        "name": "Arisen Tiamat"
+      },
+      {
         "id": 417,
         "name": "Arisen Typhon"
+      },
+      {
+        "id": 329,
+        "name": "Fallen Freyja"
+      },
+      {
+        "id": 336,
+        "name": "King Gradlon"
       },
       {
         "id": 319,
@@ -15728,6 +16064,14 @@
     ],
     "monsters_use": [
       {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
         "id": 422,
         "name": "The Mightiest Mimic"
       },
@@ -15762,6 +16106,12 @@
         "name": "Freyr",
         "level": 0,
         "specialization": false
+      }
+    ],
+    "monsters_use": [
+      {
+        "id": 329,
+        "name": "Fallen Freyja"
       }
     ]
   },
@@ -16021,8 +16371,16 @@
         "name": "Anubis"
       },
       {
+        "id": 315,
+        "name": "Arisen Cthulhu"
+      },
+      {
         "id": 317,
         "name": "Chimera"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       },
       {
         "id": 313,
@@ -16338,6 +16696,14 @@
         "name": "Arisen Surtr"
       },
       {
+        "id": 331,
+        "name": "Fallen Ifrit"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
+      },
+      {
         "id": 313,
         "name": "Odin"
       }
@@ -16429,6 +16795,10 @@
     ],
     "monsters_use": [
       {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
+      },
+      {
         "id": 353,
         "name": "Immortal Magus"
       },
@@ -16443,6 +16813,10 @@
       {
         "id": 332,
         "name": "Fallen Leviathan"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       },
       {
         "id": 313,
@@ -16493,6 +16867,10 @@
         "name": "King Gradlon"
       },
       {
+        "id": 327,
+        "name": "Lyonesse Warlock"
+      },
+      {
         "id": 321,
         "name": "Mammon Acolyte"
       },
@@ -16521,12 +16899,20 @@
     ],
     "monsters_use": [
       {
+        "id": 315,
+        "name": "Arisen Cthulhu"
+      },
+      {
         "id": 428,
         "name": "Arisen Kerberos"
       },
       {
         "id": 423,
         "name": "Arisen Morrigan"
+      },
+      {
+        "id": 317,
+        "name": "Chimera"
       },
       {
         "id": 324,
@@ -16732,6 +17118,10 @@
       {
         "id": 436,
         "name": "Fallen Heretic"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       }
     ]
   },
@@ -16790,6 +17180,12 @@
         "name": "Titanguard",
         "level": 210,
         "specialization": false
+      }
+    ],
+    "monsters_use": [
+      {
+        "id": 435,
+        "name": "Fallen Gilgamesh"
       }
     ]
   },
@@ -16970,6 +17366,12 @@
         "level": 1,
         "specialization": false
       }
+    ],
+    "monsters_use": [
+      {
+        "id": 320,
+        "name": "Ortanite Golem"
+      }
     ]
   },
   {
@@ -16997,8 +17399,20 @@
     ],
     "monsters_use": [
       {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
         "id": 337,
         "name": "Arisen Naggeneen"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
       }
     ]
   },
@@ -17056,6 +17470,22 @@
       }
     ],
     "monsters_use": [
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
+      },
       {
         "id": 353,
         "name": "Immortal Magus"
@@ -17208,6 +17638,10 @@
       {
         "id": 324,
         "name": "Fallen Gaia"
+      },
+      {
+        "id": 334,
+        "name": "Fallen Nekromancer"
       }
     ]
   },
@@ -18710,6 +19144,10 @@
       {
         "id": 435,
         "name": "Fallen Gilgamesh"
+      },
+      {
+        "id": 320,
+        "name": "Ortanite Golem"
       }
     ]
   },
@@ -19021,6 +19459,10 @@
     ],
     "monsters_use": [
       {
+        "id": 423,
+        "name": "Arisen Morrigan"
+      },
+      {
         "id": 358,
         "name": "The Morrigan"
       }
@@ -19299,6 +19741,10 @@
       {
         "id": 421,
         "name": "Mimic King of Kings"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
       }
     ]
   },
@@ -19362,6 +19808,10 @@
       }
     ],
     "monsters_use": [
+      {
+        "id": 445,
+        "name": "Yggdrasil"
+      },
       {
         "id": 421,
         "name": "Mimic King of Kings"
@@ -19555,8 +20005,8 @@
         "name": "The Fool (2021)"
       },
       {
-        "id": 445,
-        "name": "Yggdrasil"
+        "id": 414,
+        "name": "Arisen Great Gazer"
       },
       {
         "id": 428,
@@ -20986,6 +21436,10 @@
     ],
     "monsters_use": [
       {
+        "id": 437,
+        "name": "Fallen Beowulf"
+      },
+      {
         "id": 433,
         "name": "Nidhogg"
       }
@@ -21172,6 +21626,12 @@
         "specialization": false
       }
     ],
+    "pets_use": [
+      {
+        "id": 122,
+        "name": "Lindworm"
+      }
+    ],
     "monsters_use": [
       {
         "id": 442,
@@ -21198,6 +21658,12 @@
         "name": "Battlemage",
         "level": 125,
         "specialization": false
+      }
+    ],
+    "pets_use": [
+      {
+        "id": 122,
+        "name": "Lindworm"
       }
     ],
     "monsters_use": [
@@ -21246,6 +21712,12 @@
         "level": 125,
         "specialization": false
       }
+    ],
+    "pets_use": [
+      {
+        "id": 122,
+        "name": "Lindworm"
+      }
     ]
   },
   {
@@ -21266,6 +21738,12 @@
         "name": "Grand Mystic",
         "level": 125,
         "specialization": false
+      }
+    ],
+    "pets_use": [
+      {
+        "id": 122,
+        "name": "Lindworm"
       }
     ]
   },
@@ -21530,6 +22008,10 @@
       {
         "id": 420,
         "name": "Age-Old Mimic"
+      },
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
       }
     ]
   },
@@ -21648,6 +22130,10 @@
       {
         "id": 367,
         "name": "Kelpie"
+      },
+      {
+        "id": 390,
+        "name": "Dark Pegasus"
       }
     ]
   },
@@ -21700,10 +22186,6 @@
       {
         "id": 408,
         "name": "Fey Cockatrice"
-      },
-      {
-        "id": 412,
-        "name": "Arisen Surtr"
       },
       {
         "id": 405,
@@ -22503,6 +22985,10 @@
         "name": "Arisen Hel"
       },
       {
+        "id": 412,
+        "name": "Arisen Surtr"
+      },
+      {
         "id": 439,
         "name": "Finesse"
       }
@@ -22638,6 +23124,130 @@
       {
         "id": 412,
         "name": "Arisen Surtr"
+      }
+    ]
+  },
+  {
+    "name": "Tree of Demise",
+    "id": 617,
+    "tier": 7,
+    "type": "Buff",
+    "description": "-",
+    "is_magic": false,
+    "bought": false,
+    "monsters_use": [
+      {
+        "id": 445,
+        "name": "Yggdrasil"
+      },
+      {
+        "id": 442,
+        "name": "Arisen Yggdrasil"
+      }
+    ]
+  },
+  {
+    "name": "Tree of Life",
+    "id": 618,
+    "tier": 7,
+    "type": "Buff",
+    "description": "-",
+    "is_magic": false,
+    "bought": false,
+    "monsters_use": [
+      {
+        "id": 445,
+        "name": "Yggdrasil"
+      },
+      {
+        "id": 442,
+        "name": "Arisen Yggdrasil"
+      }
+    ]
+  },
+  {
+    "name": "Lyon's Mark",
+    "id": 619,
+    "tier": 6,
+    "type": "Debuff",
+    "description": "-",
+    "is_magic": false,
+    "bought": false,
+    "causes": [
+      "Lyon's Mark"
+    ],
+    "pets_use": [
+      {
+        "id": 122,
+        "name": "Lindworm"
+      }
+    ],
+    "monsters_use": [
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
+      }
+    ]
+  },
+  {
+    "name": "Lyon's Execution",
+    "id": 620,
+    "tier": 6,
+    "type": "Attack",
+    "description": "-",
+    "is_magic": false,
+    "bought": false,
+    "mana_cost": 5,
+    "pets_use": [
+      {
+        "id": 122,
+        "name": "Lindworm"
+      }
+    ],
+    "monsters_use": [
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
+      },
+      {
+        "id": 448,
+        "name": "False King Meliodas"
+      },
+      {
+        "id": 446,
+        "name": "Arisen King Meliodas"
+      },
+      {
+        "id": 447,
+        "name": "Arisen Warlock Trevelyan"
+      }
+    ]
+  },
+  {
+    "name": "Brilliant Lights",
+    "id": 621,
+    "tier": 6,
+    "type": "Attack",
+    "description": "Unstable elementless magic that can blind an opponent while dealing damage thrice.",
+    "is_magic": true,
+    "bought": false,
+    "mana_cost": 1,
+    "monsters_use": [
+      {
+        "id": 449,
+        "name": "Fallen Warlock Trevelyan"
       }
     ]
   }
