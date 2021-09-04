@@ -221,16 +221,18 @@
 }
 
 .item-img-box {
+  --item-img-size: min(10vw, 96px);
+
   display: block;
-  width: 96px;
+  width: var(--item-img-size, 96px);
   margin-left: 3vw;
   margin-right: 3vw;
 }
 
 :global(.items.showDetails) .item-img-box,
 .item-details[open] .item-img-box {
-  margin-top: 1em;
-  height: 96px;
+  margin-top: 1rem;
+  height: var(--item-img-size, 96px);
   background-image: var(--bg, none), var(--bg-fallback, none);
   background-size: contain;
   background-repeat: no-repeat;
