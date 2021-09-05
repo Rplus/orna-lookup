@@ -4,7 +4,7 @@
   import Item from './Item.svelte';
   import Dialog from './Dialog.svelte';
   import { filtersDef } from './filtersDef.js';
-  import { getDeepProp } from './u.js';
+  import { getDeepProp, escapeRegExp } from './u.js';
   import { setContext } from 'svelte';
   import { getImgSrc, checkingImg } from './image.js';
 
@@ -89,7 +89,7 @@
           if (_define.list) {
             return i[prop]?.includes(value);
           }
-          let reg = new RegExp(value, 'i');
+          let reg = new RegExp(escapeRegExp(value), 'i');
           return reg.test(i[prop])
         });
       default:
