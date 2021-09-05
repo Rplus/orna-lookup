@@ -18,6 +18,19 @@
       value: stats[i].base,
     }))
   }
+  let materials = null;
+
+  $: {
+    if (item.materials) {
+      materials = item.materials
+        .map(m => {
+          m.tier = getItemTier(m.id);
+          m.name_zh = getItemNameZh(m.name);
+          return m;
+        })
+        .sort(sortByTier);
+    }
+  }
 
   function assess() {
     dialog.set({
@@ -25,6 +38,10 @@
       item: item,
       stats: stats,
     })
+  }
+
+  function sortByTier(a, b) {
+    return a.tier - b.tier;
   }
 
   // function checkProxyImg(item) {
@@ -42,7 +59,7 @@
 
   function getItemTier(id) {
     const item = $data?.find(i => i.id === id);
-    return item?.tier ? `★${item?.tier}` : '';
+    return item?.tier || '';
   }
 
 </script>
@@ -123,17 +140,17 @@
         {/if}
       </div>
       <div class="materials">
-        {#if item.materials}
+        {#if materials}
           <details>
             <summary>材料</summary>
             <ul>
-              {#each item.materials as material}
+              {#each materials as material}
                 <li>
                   <a href="https://orna.guide/items?show={material.id}" target="orna.guide">
                     <small>
-                      {getItemTier(material.id)} -
+                      ★{material.tier} -
                     </small>
-                    {getItemNameZh(material.name)}
+                    {material.name_zh}
                   </a>
                 </li>
               {/each}
