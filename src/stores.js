@@ -1,16 +1,13 @@
 import { writable } from 'svelte/store';
 import { getList } from './list.js';
-import { createNewTextFilter } from './u.js';
+import { createNewFilter, createNewTextFilter } from './u.js';
+import { filtersDef } from './filtersDef.js';
 
 export const data = writable({ waiting: true });
 export const filterLists = writable({});
 export const dialog = writable({
   open: false,
 });
-
-const initFilters = [
-  createNewTextFilter(new URLSearchParams(location.search).get('name_zh') || '')
-];
 
 fetch(`raw-data/item.added.min.json`)
 .then(r => r.json())
@@ -30,8 +27,17 @@ fetch(`raw-data/item.added.min.json`)
   data.set(d);
 })
 
+
+let initQuery = new URLSearchParams(location.search);
+let initFilterDef = filtersDef.find(filter => initQuery.get(filter.prop));
+let initFilter = initFilterDef ? createNewFilter({
+    prop: initFilterDef.prop,
+    type: initFilterDef.type,
+    value: initQuery.get(initFilterDef.prop),
+  }) : createNewTextFilter('');
+
 function createFilters() {
-  const { subscribe, set, update } = writable(initFilters);
+  const { subscribe, set, update } = writable([initFilter]);
 
   return {
     subscribe,

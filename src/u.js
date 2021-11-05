@@ -13,16 +13,36 @@ export function getZh(str) {
 export function numSort(a, b) {
   return a - b;
 }
-export function createNewTextFilter(text) {
+
+export function createNewFilter(option) {
   return {
     timestamp: +new Date(),
     rule: {
-      prop: 'name_zh',
-      value: text || '',
-      type: 'text',
+      prop: option.prop,
+      value: fixValueType(option.value, option.type),
+      type: option.type,
       comparator: '=',
     },
-  };
+  }
+}
+
+function fixValueType(value, type) {
+  switch (type) {
+    case 'number':
+      return +value;
+    case 'text':
+    default:
+      return String(value);
+  }
+  return value;
+}
+
+export function createNewTextFilter(text) {
+  return createNewFilter({
+    prop: 'name_zh',
+    value: text || '',
+    type: 'text',
+  });
 }
 
 export function fetchAssessData(assessData) {

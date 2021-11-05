@@ -1,6 +1,5 @@
 <script>
   import { data, filters } from './stores.js';
-  // import Filter from './Filter2.svelte';
   import Filters from './Filters.svelte';
   import List from './List.svelte';
   import Item from './Item.svelte';
@@ -26,15 +25,20 @@
 <div class="workspace">
   <h1 class="text-center"><a href="https://playorna.com/" target="_blank">Orna RPG</a> items lookup tool</h1>
 
-  <Filters />
-<hr />
+  {#if init}
+    <Filters />
 
-{#if items.length}
-  <List items={items} />
-{/if}
+    <hr />
 
-<Dialog />
+    <List items={items} />
 
+    <Dialog />
+  {:else}
+    <hr />
+    <hr />
+    <div class="text-center">Loading...</div>
+    <hr />
+  {/if}
 </div>
 
 <hr>
