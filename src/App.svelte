@@ -1,6 +1,8 @@
 <script>
   import { data, filters } from './stores.js';
-  import Filter from './Filter.svelte';
+  // import Filter from './Filter2.svelte';
+  import Filters from './Filters.svelte';
+  import List from './List.svelte';
   import Item from './Item.svelte';
   import Dialog from './Dialog.svelte';
   import { filtersDef } from './filtersDef.js';
@@ -32,8 +34,12 @@
     sortProp;
     sortDirASC;
     if (init) {
-      items = filterItems($filters);
+      // items = filterItems($filters);
     }
+  }
+
+  $: {
+    console.log('$filters @ App', $filters);
   }
 
   function filterItems(_filters) {
@@ -121,31 +127,17 @@
     });
   }
 
-  function addFilter() {
-    filters.add({ timestamp: +new Date });
-  }
-
-  // auto new one
-  addFilter();
-
 </script>
 
 <div class="workspace">
   <h1 class="text-center"><a href="https://playorna.com/" target="_blank">Orna RPG</a> items lookup tool</h1>
 
-  <aside>
-    <button on:click={ addFilter }>+過濾條件</button>
-    <ul>
-      {#each $filters as filter (filter.timestamp)}
-        <li>
-          <Filter {...filter} />
-        </li>
-      {/each}
-    </ul>
-  </aside>
-
+  <Filters />
 <hr />
 
+<List />
+
+<!--
 {#if items.length}
 
   <div class="nav">
@@ -194,6 +186,7 @@
   {/each}
   </ul>
 {/if}
+-->
 
 <Dialog />
 

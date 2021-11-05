@@ -13,6 +13,17 @@ export function getZh(str) {
 export function numSort(a, b) {
   return a - b;
 }
+export function createNewTextFilter(text) {
+  return {
+    timestamp: +new Date(),
+    rule: {
+      prop: 'name_zh',
+      value: text || '',
+      type: 'text',
+      comparator: '=',
+    },
+  };
+}
 
 export function fetchAssessData(assessData) {
   const loading = writable(false);

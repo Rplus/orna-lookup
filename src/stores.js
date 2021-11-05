@@ -1,12 +1,16 @@
 import { writable } from 'svelte/store';
 import { getList } from './list.js';
+import { createNewTextFilter } from './u.js';
 
 export const data = writable({ waiting: true });
 export const filterLists = writable({});
-// export const filters = writable([]);
 export const dialog = writable({
   open: false,
 });
+
+const initFilters = [
+  createNewTextFilter(new URLSearchParams(location.search).get('name_zh') || '')
+];
 
 fetch(`raw-data/item.added.min.json`)
 .then(r => r.json())
@@ -27,25 +31,18 @@ fetch(`raw-data/item.added.min.json`)
 })
 
 function createFilters() {
-  const { subscribe, set, update } = writable([]);
+  const { subscribe, set, update } = writable(initFilters);
 
   return {
     subscribe,
-    // add: (n) => update(arr => arr.push(n)),
-    add: (n, rule = null) => update(arr => {
-      arr[arr.length] = {
-        timestamp: n.timestamp,
-        rule,
-      };
+    set,
+    update,
+    add: (filter) => update(arr => {
+      arr[arr.length] = filter;
       return arr;
     }),
-    update: (n, rule) => update(arr => {
-      let index = arr.findIndex(i => i.timestamp === n);
-      arr[index].rule = rule;
-      return arr;
-    }),
-    remove: (n) => update(arr => {
-      let index = arr.findIndex(i => i.timestamp === n);
+    remove: (targetTs) => update(arr => {
+      let index = arr.findIndex(i => i.timestamp === targetTs);
       if (index !== -1) {
         arr.splice(index, 1);
       }

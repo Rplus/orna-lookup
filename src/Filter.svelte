@@ -1,55 +1,49 @@
 <script>
-  export let timestamp;
-  export let rule;
-
+  export let filter;
   import { filters, filterLists } from './stores.js';
   import { filtersDef } from './filtersDef.js';
 
-  $: filterProp = 'name_zh';
-  $: filterDef = filtersDef.find(i => i.prop === filterProp);
-  $: filterValue = null;
-  $: filterComparators = '=';
-
-  let select;
+  let filterDef = getFilterDef(filter.rule.prop);
 
   $: {
-    filters.update(timestamp, {
-      prop: filterProp,
-      type: filterDef.type,
-      value: filterValue,
-      comparator: filterComparators,
-    });
+    filterDef = getFilterDef(filter.rule.prop);
+    filter.rule.type = filterDef.type;
   }
 
   function resetFilter() {
-    filterValue = '';
+    filter.rule.value = '';
   }
 
   function removeFilter(timestamp) {
     filters.remove(timestamp);
   }
+
+  function getFilterDef(prop) {
+    return filtersDef.find(i => i.prop === prop);
+  }
 </script>
 
-<div class="filters">
-  <button on:click={removeFilter(timestamp)}>x</button>
 
-  <select bind:value={filterProp} on:change={resetFilter} bind:this={select}>
-    {#each filtersDef as filter}
-      <option value={filter.prop}>{filter.label}</option>
+<div class="filters">
+  <button on:click={removeFilter(filter.timestamp)}>x</button>
+
+  <select bind:value={filter.rule.prop} on:change={resetFilter}>
+    {#each filtersDef as _filter}
+      <option value={_filter.prop}>{_filter.label}</option>
     {/each}}
   </select>
 
   {#if filterDef.type === 'checkbox'}
     <label>
       T
-      <input type="radio" bind:group={filterValue} value="1" />
+      <input type="radio" bind:group={filter.rule.value} value="1" />
     </label>
     <label>
-      <input type="radio" bind:group={filterValue} value="0" />
+      <input type="radio" bind:group={filter.rule.value} value="0" />
       F
     </label>
   {:else if filterDef.list}
-    <select bind:value={filterValue}>
+    <select bind:value={filter.rule.value}>
       {#each $filterLists[filterDef.list] as item}
         <option value={item.value} label={item.label} />
       {/each}
@@ -57,19 +51,19 @@
   {:else if filterDef.type === 'number'}
     <input
       type="number"
-      bind:value={filterValue}
+      bind:value={filter.rule.value}
       min={filterDef.min}
       max={filterDef.max}
     />
   {:else if filterDef.type === 'text'}
     <input
       type="text"
-      bind:value={filterValue}
+      bind:value={filter.rule.value}
     />
   {/if}
 
   {#if filterDef.type === 'number'}
-    <select bind:value={filterComparators}>
+    <select bind:value={filter.rule.comparator}>
       <option value="=">=</option>
       <option value="+">+</option>
       <option value="-">-</option>
