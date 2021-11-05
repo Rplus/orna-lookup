@@ -55,6 +55,7 @@ input, button, select, textarea {
 input {
   background-color: #C4B5A5;
   color: #2a2520;
+  max-width: 70vw;
 }
 
 input:disabled {
