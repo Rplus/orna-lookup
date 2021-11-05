@@ -98,3 +98,10 @@ button:focus {
 ::-webkit-scrollbar-track {
   background: #0001;
 }
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-display: swap;
+  text-transform: capitalize;
+  font-size: 24px;
+}
