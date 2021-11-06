@@ -158,7 +158,7 @@
 
 
 <style>
-  #items {
+  .items {
     padding: 0;
     list-style: none;
   }
