@@ -1,0 +1,476 @@
+id,name,tier,type,boss,arena,view_distance,equipped_by,element,stats.attack,stats.magic,stats.defense,stats.resistance,stats.dexterity,stats.crit,stats.ward,stats.hp,stats.mana,prevents,causes,cures,gives,dropped_by,materials,quests,image
+1,Barbarian,1,,,,,,,,,,,,,,,,,,,,,,,monsters/barbarian.png
+2,Crow,1,,,,,,,,,,,,,,,,,,,,,,,monsters/crow.png
+3,Fallen Mage,1,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_mage.png
+4,Fallen Thief,1,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_thief.png
+5,Fallen Warrior,1,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_warrior.png
+6,Ghost,2,,,,,,,,,,,,,,,,,,,,,,,monsters/ghost.png
+7,Goblin,1,,,,,,,,,,,,,,,,,,,,,,"[{""id"":38,""name"":""Goblins""}]",monsters/goblin.png
+8,Goblin Mage,1,,,,,,,,,,,,,,,,,,,,,,"[{""id"":39,""name"":""Magic""}]",monsters/goblin_mage.png
+9,Green Slime,1,,,,,,,,,,,,,,,,,,,,,,,monsters/green_slime.png
+10,Gull,1,,,,,,,,,,,,,,,,,,,,,,,monsters/gull.png
+11,Jelly,1,,,,,,,,,,,,,,,,,,,,,,,monsters/jelly.png
+12,Mimic,1,,,,,,,,,,,,,,,,,,,,,,,monsters/mimic.png
+13,Red Slime,1,,,,,,,,,,,,,,,,,,,,,,,monsters/red_slime.png
+14,Skeleton,1,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton.png
+15,Blue Slime,1,,,,,,,,,,,,,,,,,,,,,,"[{""id"":37,""name"":""993 DCE""}]",monsters/slime.png
+16,Snake,1,,,,,,,,,,,,,,,,,,,,,,,monsters/snake.png
+17,Spider,1,,,,,,,,,,,,,,,,,,,,,,,monsters/spider.png
+18,Sprout,1,,,,,,,,,,,,,,,,,,,,,,,monsters/sprout.png
+19,Undead,1,,,,,,,,,,,,,,,,,,,,,,,monsters/undead.png
+20,Goblin Lord,1,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":41,""name"":""Lord of Goblins""}]",bosses/goblin_lord.png
+21,Minotaur,1,,1,,,,,,,,,,,,,,,,,,,,,bosses/minotaur.png
+22,Draconian,2,,,,,,,,,,,,,,,,,,,,,,"[{""id"":42,""name"":""The Draconians""}]",monsters/draco.png
+23,Bat,1,,,,,,,,,,,,,,,,,,,,,,,monsters/bat.png
+24,Black Widow,2,,,,,,,,,,,,,,,,,,,,,,,monsters/black_widow.png
+25,Demon,2,,,,,,,,,,,,,,,,,,,,,,,monsters/demon.png
+26,Draconian Mage,2,,,,,,,,,,,,,,,,,,,,,,"[{""id"":43,""name"":""Mages of Draconia""}]",monsters/draco_mage.png
+27,Evil Eye,2,,,,,,,,,,,,,,,,,,,,,,"[{""id"":7,""name"":""Eye for an Eye""}]",monsters/eye.png
+31,Flame,2,,,,,,,,,,,,,,,,,,,,,,,monsters/flame.png
+32,Goblin Warrior,2,,,,,,,,,,,,,,,,,,,,,,,monsters/goblin_warrior.png
+33,Great Mimic,3,,,,,,,,,,,,,,,,,,,,,,,monsters/great_mimic.png
+34,Greater Snake,2,,,,,,,,,,,,,,,,,,,,,,,monsters/greater_snake.png
+35,Living Armor,2,,,,,,,,,,,,,,,,,,,,,,,monsters/living_armor.png
+36,Lizarr Warrior,2,,,,,,,,,,,,,,,,,,,,,,,monsters/lizard_warrior.png
+38,Wolfman,2,,,,,,,,,,,,,,,,,,,,,,,monsters/werewolf.png
+39,Draconian Lord,2,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":44,""name"":""Lords of Draconia""}]",bosses/draco_lord.png
+40,Demon Prince,2,,1,,,,,,,,,,,,,,,,,,,,,bosses/demon_prince.png
+41,Blue Flame,3,,,,,,,,,,,,,,,,,,,,,,,monsters/blue_flame.png
+42,Draconian Acolyte,3,,,,,,,,,,,,,,,,,,,,,,,monsters/draco_acolyte.png
+43,Draconian Rogue,3,,,,,,,,,,,,,,,,,,,,,,,monsters/draco_rogue.png
+44,Evil Eyes,3,,,,,,,,,,,,,,,,,,,,,,,monsters/eyes.png
+45,Fallen Archmage,3,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_archmage.png
+46,Fallen Knight,3,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_knight.png
+47,Fallen Rogue,3,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_rogue.png
+48,Fallen Witch,3,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_witch.png
+49,Gazer,4,,,,,,,,,,,,,,,,,,,,,,,monsters/gazer.png
+50,Hellhound,3,,,,,,,,,,,,,,,,,,,,,,,monsters/hellhound.png
+51,Hobgoblin,3,,,,,,,,,,,,,,,,,,,,,,,monsters/hobgoblin.png
+52,Hobgoblin Mage,3,,,,,,,,,,,,,,,,,,,,,,,monsters/hobgoblin_mage.png
+53,Imp,3,,,,,,,,,,,,,,,,,,,,,,,monsters/imp.png
+54,Golem,3,,,,,,,,,,,,,,,,,,,,,,,monsters/golem.png
+55,Lizarr Knight,3,,,,,,,,,,,,,,,,,,,,,,,monsters/lizard_knight.png
+56,Magma Golem,4,,,,,,,,,,,,,,,,,,,,,,,monsters/metal_golem.png
+57,Mythril Armor,3,,,,,,,,,,,,,,,,,,,,,,"[{""id"":8,""name"":""A Hunt for Mythril""}]",monsters/mythril_armor.png
+58,Skeleton Warrior,3,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton_warrior.png
+59,Vampire,3,,,,,,,,,,,,,,,,,,,,,,"[{""id"":13,""name"":""Night Slayer""}]",monsters/vampire.png
+60,Walking Wood,3,,,,,,,,,,,,,,,,,,,,,,,monsters/walking_wood.png
+61,Wisp,3,,,,,,,,,,,,,,,,,,,,,,,monsters/wisp.png
+62,Cyclops,4,,,,,,,,,,,,,,,,,,,,,,,monsters/cyclops.png
+63,Dark Elf,4,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_elf.png
+64,Dark Mage,3,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton_mage.png
+65,Drake,4,,,,,,,,,,,,,,,,,,,,,,,monsters/drake.png
+66,Fomorian Mage,4,,,,,,,,,,,,,,,,,,,,,,"[{""id"":48,""name"":""The Fomorians""}]",monsters/fomorian_mage.png
+67,Fomorian Rogue,4,,,,,,,,,,,,,,,,,,,,,,,monsters/fomorian_rogue.png
+68,Fomorian Warrior,4,,,,,,,,,,,,,,,,,,,,,,"[{""id"":48,""name"":""The Fomorians""}]",monsters/fomorian_warrior.png
+69,Greater Vampire,4,,,,,,,,,,,,,,,,,,,,,,,monsters/greater_vampire.png
+70,Lesser Sluagh,3,,,,,,,,,,,,,,,,,,,,,,,monsters/lesser_sluagh.png
+71,Lich,4,,,,,,,,,,,,,,,,,,,,,,,monsters/lich.png
+72,Lizarr Lord,3,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":15,""name"":""Beast of the Sea""},{""id"":46,""name"":""King of Lizarr""}]",monsters/lizard_lord.png
+73,Lizarr Noble,3,,,,,,,,,,,,,,,,,,,,,,,monsters/lizard_noble.png
+74,Orc,4,,,,,,,,,,,,,,,,,,,,,,,monsters/orc.png
+75,Orc Brute,4,,,,,,,,,,,,,,,,,,,,,,,monsters/orc_brute.png
+76,Wolfman Warrior,4,,,,,,,,,,,,,,,,,,,,,,,monsters/wolfman_warrior.png
+77,Demon Knight,3,,1,,,,,,,,,,,,,,,,,,,,,bosses/demon_knight.png
+78,Lord of Wolves,3,,1,,,,,,,,,,,,,,,,,,,,,bosses/wolfman_lord.png
+80,Lost Pharaoh,3,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":47,""name"":""The Pharaoh""}]",bosses/pharaoh.png
+81,Camazotz,4,,1,,,,,,,,,,,,,,,,,,,,,bosses/camazotz.png
+84,Undead Golem,4,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":49,""name"":""The Undead Giant""}]",bosses/undead_golem.png
+85,Orc Lord,4,,1,,,,,,,,,,,,,,,,,,,,,bosses/orc_lord.png
+86,Troll,4,,1,,,,,,,,,,,,,,,,,,,,,bosses/troll.png
+87,Adamantine Knight,5,,,,,,,,,,,,,,,,,,,,,,,monsters/adam_knight.png
+88,Dark Elf Mage,5,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_elf_mage.png
+89,Dark Elf Rogue,5,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_elf_rogue.png
+90,Dark Slime,5,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_slime.png
+91,Darkest Demon,5,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_demon.png
+92,Greater Demon,3,,,,,,,,,,,,,,,,,,,,,,,monsters/greater_demon.png
+94,Frost Mage,5,,,,,,,,,,,,,,,,,,,,,,,classes/frost_mage/default_m.png
+95,Great Bear,4,,,,,,,,,,,,,,,,,,,,,,,monsters/black_bear.png
+96,Great Troll,5,,,,,,,,,,,,,,,,,,,,,,,monsters/greater_troll.png
+97,Greater Cyclops,5,,,,,,,,,,,,,,,,,,,,,,,monsters/greater_cyclops.png
+98,Harpy,5,,,,,,,,,,,,,,,,,,,,,,,monsters/harpy.png
+99,Legionnaire,5,,,,,,,,,,,,,,,,,,,,,,,classes/legionnaire/default_m.png
+100,Orc Marauder,5,,,,,,,,,,,,,,,,,,,,,,,monsters/orc_marauder.png
+101,Reaper,5,,,,,,,,,,,,,,,,,,,,,,"[{""id"":52,""name"":""Reapers of Ankou""}]",monsters/reaper.png
+102,Scorcher,5,,,,,,,,,,,,,,,,,,,,,,,classes/scorcher/default_m.png
+103,Sea Demon,5,,,,,,,,,,,,,,,,,,,,,,,monsters/water_demon.png
+104,Storm Knight,5,,,,,,,,,,,,,,,,,,,,,,,classes/storm_knight/default_m.png
+105,Ushi-Oni,5,,,,,,,,,,,,,,,,,,,,,,,monsters/ushi.png
+106,Will-O'-The-Wisp,5,,,,,,,,,,,,,,,,,,,,,,,monsters/will_wisp.png
+107,Carman's Gargoyle,4,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":50,""name"":""Carman's Pet""}]",bosses/gargoyle.png
+108,Great Gazer,5,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":59,""name"":""The Eyes of Ra""}]",bosses/great_gazer.png
+109,Great Jinn,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/great_jinn.png
+110,Sluagh,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/sluagh.png
+111,Vampire Lord,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/vampire_lord.png
+112,Great Wyvern,6,,,,,,,,,,,,,,,,,,,,,,,monsters/wyvern.png
+113,Great Ushi-Oni,6,,,,,,,,,,,,,,,,,,,,,,,monsters/great_ushi.png
+114,Orthrus,6,,,,,,,,,,,,,,,,,,,,,,"[{""id"":27,""name"":""A Hunt of Heads II""}]",monsters/orthrus.png
+115,Sea Wyvern,6,,,,,,,,,,,,,,,,,,,,,,,monsters/sea_dragon.png
+116,Carman,6,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":25,""name"":""Slayer of Artifice""},{""id"":58,""name"":""The Great Witch""}]",bosses/witch.png
+117,Cerberus,6,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":26,""name"":""A Hunt of Heads""},{""id"":53,""name"":""Hound of Balor""}]",bosses/cerberus.png
+118,Ronin,6,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":25,""name"":""Slayer of Artifice""}]",bosses/ronin.png
+119,Ankou,7,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":55,""name"":""Ankou""}]",bosses/grim_reaper.png
+120,Tiamat,7,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":29,""name"":""Tiamat""},{""id"":54,""name"":""Tiamat""}]",bosses/tiamat.png
+121,High Draconian Mystic,6,,,,,,,,,,,,,,,,,,,,,,"[{""id"":60,""name"":""Return of the Draconians""}]",monsters/draco_mystic.png
+122,Bear,2,,,,,,,,,,,,,,,,,,,,,,,monsters/bear.png
+123,Gnome,4,,,,,,,,,,,,,,,,,,,,,,,monsters/gnome.png
+124,Great Orc,7,,,,,,,,,,,,,,,,,,,,,,,monsters/great_orc.png
+125,Great Orc Marauder,7,,,,,,,,,,,,,,,,,,,,,,,monsters/great_orc_marauder.png
+126,Grey Wolfman,3,,,,,,,,,,,,,,,,,,,,,,,monsters/wolfman.png
+127,Jinn,3,,,,,,,,,,,,,,,,,,,,,,,monsters/jinn.png
+128,Small Dragon,5,,,,,,,,,,,,,,,,,,,,,,"[{""id"":51,""name"":""Of Dragons""}]",monsters/dragon.png
+129,Banshee,5,,,,,,,,,,,,,,,,,,,,,,,monsters/banshee.png
+130,Arisen Lord of Wolves,7,,,,,,,,,,,,,,,,,,,,,,"[{""id"":28,""name"":""The Arisen""}]",bosses/wolfman_lord.png
+131,Arisen Draconian Lord,7,,,,,,,,,,,,,,,,,,,,,,"[{""id"":28,""name"":""The Arisen""}]",bosses/draco_lord.png
+132,Arisen Minotaur,7,,,,,,,,,,,,,,,,,,,,,,"[{""id"":28,""name"":""The Arisen""}]",bosses/minotaur.png
+133,Arisen Orc Lord,7,,,,,,,,,,,,,,,,,,,,,,,bosses/orc_lord.png
+134,Arisen Camazotz,7,,,,,,,,,,,,,,,,,,,,,,,bosses/camazotz.png
+135,Finfolk,6,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":25,""name"":""Slayer of Artifice""}]",monsters/water_demon.png
+137,Arachne,2,,1,,,,,,,,,,,,,,,,,,,,,bosses/arachne.png
+138,Arcane Flame,6,,,,,,,,,,,,,,,,,,,,,,,monsters/arcane_flame.png
+139,Woodland Elf,6,,,,,,,,,,,,,,,,,,,,,,,monsters/wood_elf.png
+140,Frost Troll,6,,,,,,,,,,,,,,,,,,,,,,,monsters/ice_troll.png
+141,Arisen Lost Pharaoh,7,,,,,,,,,,,,,,,,,,,,,,,bosses/pharaoh.png
+142,Fenrir,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/fenrir.png
+143,Naga Mage,8,,,,,,,,,,,,,,,,,,,,,,,monsters/naga_mage.png
+144,Naga Warrior,8,,,,,,,,,,,,,,,,,,,,,,,monsters/naga_warrior.png
+145,Ljosalfar Mage,8,,,,,,,,,,,,,,,,,,,,,,"[{""id"":56,""name"":""The Ljosalfar""}]",monsters/ljosalfar_mage.png
+146,Gorgon,8,,,,,,,,,,,,,,,,,,,,,,,monsters/gorgon.png
+147,Ljosalfar,8,,,,,,,,,,,,,,,,,,,,,,"[{""id"":56,""name"":""The Ljosalfar""}]",monsters/ljosalfar.png
+148,Ljosalfar Knight,8,,,,,,,,,,,,,,,,,,,,,,"[{""id"":56,""name"":""The Ljosalfar""}]",monsters/ljosalfar_knight.png
+149,Fafnir,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/fafnir.png
+150,Ljosalfar Lord,8,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":61,""name"":""The Elven Lords""}]",monsters/ljosalfar_lord.png
+151,Arisen Lizarr Lord,8,,,,,,,,,,,,,,,,,,,,,,,monsters/lizard_lord.png
+153,Woodland Elf Mage,6,,,,,,,,,,,,,,,,,,,,,,,monsters/wood_elf_mage.png
+154,Gnat,2,,,,,,,,,,,,,,,,,,,,,,,monsters/gnat.png
+155,Arisen Cerberus,7,,,,,,,,,,,,,,,,,,,,,,,bosses/cerberus.png
+156,Zu,3,,,,,,,,,,,,,,,,,,,,,,,monsters/bluebird.png
+157,Balor Guardian,5,,,,,,,,,,,,,,,,,,,,,,,monsters/balor_guardian.png
+158,Rotten Slime,4,,,,,,,,,,,,,,,,,,,,,,,monsters/rotten_slime.png
+159,Deadwood,5,,,,,,,,,,,,,,,,,,,,,,,monsters/deadwood.png
+160,Death Worm,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/deathworm.png
+161,Fairy,4,,,,,,,,,,,,,,,,,,,,,,,monsters/fairy.png
+162,Firefly,4,,,,,,,,,,,,,,,,,,,,,,,monsters/firefly.png
+163,Skeleton Rogue,3,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton_rogue.png
+164,Arcane Dragon,6,,,,,,,,,,,,,,,,,,,,,,,monsters/arcane_dragon.png
+166,Gargoyle,6,,,,,,,,,,,,,,,,,,,,,,,monsters/gargoyle.png
+167,Fallen Wanderer,7,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_wanderer.png
+168,Kobold,8,,,,,,,,,,,,,,,,,,,,,,,monsters/kobold.png
+169,Kobold Mage,8,,,,,,,,,,,,,,,,,,,,,,,monsters/kobold_mage.png
+170,Colossus,7,,1,,,,,,,,,,,,,,,,,,,,,monsters/colossus.png
+174,Fomorian Druid,6,,,,,,,,,,,,,,,,,,,,,,,monsters/fomorian_druid.png
+176,Mimic King,4,,1,,,,,,,,,,,,,,,,,,,,,bosses/mimic_king.png
+177,Starlord,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/hobgoblin_lord.png
+178,Titan,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/titan.png
+179,Maelor,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/balor_knight.png
+180,Crimson Gazer,9,,,,,,,,,,,,,,,,,,,,,,,monsters/crimson_gazer.png
+181,Balor Warlock,9,,,,,,,,,,,,,,,,,,,,,,"[{""id"":62,""name"":""The Army of Balor""}]",monsters/balor_mage.png
+182,Balor Assassin,9,,,,,,,,,,,,,,,,,,,,,,"[{""id"":62,""name"":""The Army of Balor""}]",monsters/balor_rogue.png
+183,Balor Marauder,9,,,,,,,,,,,,,,,,,,,,,,"[{""id"":62,""name"":""The Army of Balor""}]",monsters/balor_warrior.png
+184,Sandstone Golem,9,,,,,,,,,,,,,,,,,,,,,,,monsters/sandstone_golem.png
+185,Skoll,9,,,,,,,,,,,,,,,,,,,,,,,monsters/solar_demon.png
+186,Hati,9,,,,,,,,,,,,,,,,,,,,,,,monsters/lunar_demon.png
+187,Balor King,9,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":63,""name"":""Balor""},{""id"":36,""name"":""Balor vs Annwn""}]",bosses/king_balor.png
+188,Twilight Knight,3,,1,,,,,,,,,,,,,,,,,,,,,bosses/twilight_knight.png
+189,Rat,1,,,,,,,,,,,,,,,,,,,,,,,monsters/rat.png
+190,Buzzard,4,,,,,,,,,,,,,,,,,,,,,,,monsters/greenbird.png
+191,Gheist,4,,,,,,,,,,,,,,,,,,,,,,,monsters/gheist.png
+192,Behemoth,6,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":25,""name"":""Slayer of Artifice""}]",bosses/behemoth.png
+193,Cockatrice,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/cockatrice.png
+194,Nin-Kilim,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/rat_king.png
+195,Ogre,3,,,,,,,,,,,,,,,,,,,,,,,monsters/ogre.png
+196,Carrion Crow,5,,,,,,,,,,,,,,,,,,,,,,,monsters/redbird.png
+197,Ogre Brute,5,,,,,,,,,,,,,,,,,,,,,,,monsters/ogre_brute.png
+198,High Draconian,6,,,,,,,,,,,,,,,,,,,,,,"[{""id"":60,""name"":""Return of the Draconians""}]",monsters/high_draco.png
+199,High Draconian Mage,6,,,,,,,,,,,,,,,,,,,,,,"[{""id"":60,""name"":""Return of the Draconians""}]",monsters/high_draco_mage.png
+201,Enlightened,7,,,,,,,,,,,,,,,,,,,,,,,monsters/enlightened.png
+202,Enlightened Guardian,7,,,,,,,,,,,,,,,,,,,,,,,monsters/enlightened_knight.png
+203,Enlightened Mage,7,,,,,,,,,,,,,,,,,,,,,,,monsters/enlightened_mage.png
+204,High Fomorian,7,,,,,,,,,,,,,,,,,,,,,,,monsters/high_fomorian.png
+205,High Fomorian Mage,7,,,,,,,,,,,,,,,,,,,,,,,monsters/high_fomorian_mage.png
+206,Orichalcum Knight,8,,,,,,,,,,,,,,,,,,,,,,,monsters/orichalcum_knight.png
+207,Fomor,4,,1,,,,,,,,,,,,,,,,,,,,,bosses/fomor.png
+208,Balor Worm,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/balor_worm.png
+209,Gargouille,4,,1,,,,,,,,,,,,,,,,,,,,,bosses/gargouille.png
+210,Enlightened Prince,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/enlightened_prince.png
+211,Great Cockatrice,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/great_cockatrice.png
+212,Typhon,7,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":30,""name"":""Typhon""}]",bosses/typhon.png
+213,Dokkalfar,8,,,,,,,,,,,,,,,,,,,,,,"[{""id"":32,""name"":""Dokkalfar Forces""},{""id"":57,""name"":""The Dokkalfar""}]",monsters/dokkalfar.png
+214,Dokkalfar Knight,8,,,,,,,,,,,,,,,,,,,,,,"[{""id"":33,""name"":""Dokkalfar Knights""},{""id"":57,""name"":""The Dokkalfar""}]",monsters/dokkalfar_knight.png
+216,Woodland Lord,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/wood_elf_lord.png
+217,Dokkalfar Lord,8,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":34,""name"":""Dokkalfar Lords""},{""id"":61,""name"":""The Elven Lords""}]",bosses/dokkalfar_lord.png
+219,Carman of the Underworld,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/carman2.png
+220,"Fallen Ithra, the White Knight",9,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":64,""name"":""Fallen Gods""}]",bosses/fallen_ithra.png
+221,"Fallen Thor, the Storm God",9,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":64,""name"":""Fallen Gods""}]",bosses/fallen_thor.png
+222,"Fallen Ra, the Seer",7,,1,,,,,,,,,,,,,,,,,,,,,npcs/ra.png
+224,Basilisk,6,,,,,,,,,,,,,,,,,,,,,,,monsters/basilisk.png
+225,Cavelord,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/dweller.png
+226,Seer,5,,,,,,,,,,,,,,,,,,,,,,,monsters/seer.png
+227,Vile Rat,3,,,,,,,,,,,,,,,,,,,,,,,monsters/vile_rat.png
+228,Ratman,8,,,,,,,,,,,,,,,,,,,,,,,monsters/rat_man.png
+229,Bandit Lord,1,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":4,""name"":""Hermes' Revenge""},{""id"":40,""name"":""Lord of the Bandits""}]",bosses/bandit_lord.png
+230,Bandit,1,,,,,,,,,,,,,,,,,,,,,,"[{""id"":1,""name"":""Carl's Revenge""}]",monsters/bandit.png
+231,Arisen Undead Golem,8,,,,,,,,,,,,,,,,,,,,,,,bosses/undead_golem.png
+232,"Fallen Vulcan, the Red Knight",9,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":64,""name"":""Fallen Gods""}]",bosses/fallen_vulcan.png
+233,"Fallen Demeter, the Earth Magus",9,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":64,""name"":""Fallen Gods""}]",bosses/fallen_demeter.png
+234,Fallen King Arthus,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/king_arthus.png
+235,Cobra,4,,,,,,,,,,,,,,,,,,,,,,,monsters/cobra.png
+236,Twilight Wisp,7,,,,,,,,,,,,,,,,,,,,,,,monsters/twilight_wisp.png
+237,Garm,8,,,,,,,,,,,,,,,,,,,,,,,monsters/garm.png
+238,Orichalcum Golem,8,,,,,,,,,,,,,,,,,,,,,,,monsters/orichalcum_golem.png
+239,Infernal Bear,8,,,,,,,,,,,,,,,,,,,,,,,monsters/fire_bear.png
+240,Great Sprout,2,,,,,,,,,,,,,,,,,,,,,,,monsters/sprout2.png
+241,Odok,5,,,,,,,,,,,,,,,,,,,,,,,monsters/odok.png
+242,Odok Brute,5,,,,,,,,,,,,,,,,,,,,,,,monsters/odok2.png
+243,Dark Wolfman,6,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_wolfman.png
+244,Warg,7,,,,,,,,,,,,,,,,,,,,,,,monsters/warg.png
+245,Ancient Draugr Lord,6,,1,,,,,,,,,,,,,,,,,,,,,monsters/ancient_draugr_lord.png
+246,Ancient Cyclops,6,,,,,,,,,,,,,,,,,,,,,,,monsters/ancient_cyclops.png
+247,Ancient Mimic,6,,,,,,,,,,,,,,,,,,,,,,,monsters/ancient_mimic.png
+248,Crimson Yokai,6,,,,,,,,,,,,,,,,,,,,,,,monsters/yokai3.png
+249,Arcane Slime,7,,,,,,,,,,,,,,,,,,,,,,,monsters/arcane_slime.png
+250,Dokkalfar Warlock,8,,,,,,,,,,,,,,,,,,,,,,"[{""id"":35,""name"":""Dokkalfar Magic""},{""id"":57,""name"":""The Dokkalfar""}]",monsters/dokkalfar_mage.png
+251,Dark Dragon,7,,,,,,,,,,,,,,,,,,,,,,,monsters/black_dragon.png
+252,Giant Red Basilisk,7,,1,,,,,,,,,,,,,,,,,,,,,monsters/red_basilisk.png
+253,Draugr Lord,3,,1,,,,,,,,,,,,,,,,,,,,,monsters/draugr_lord.png
+254,Ancient Jinn,9,,,,,,,,,,,,,,,,,,,,,,,monsters/ancient_jinn.png
+255,Balor Flame,9,,,,,,,,,,,,,,,,,,,,,,,monsters/balor_flame.png
+256,Seaweed,3,,,,,,,,,,,,,,,,,,,,,,,monsters/seaweed.png
+257,Great Eel,7,,,,,,,,,,,,,,,,,,,,,,,monsters/eel.png
+258,Sea Drake,4,,,,,,,,,,,,,,,,,,,,,,,monsters/sea_drake.png
+259,Greater Yokai,5,,,,,,,,,,,,,,,,,,,,,,,monsters/yokai2.png
+260,Great Odok,6,,1,,,,,,,,,,,,,,,,,,,,,monsters/odok3.png
+261,Dark Elf Lord,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/dark_elf_lord.png
+262,Red Basilisk,7,,,,,,,,,,,,,,,,,,,,,,,monsters/red_basilisk.png
+263,Dark Basilisk,8,,,,,,,,,,,,,,,,,,,,,,,monsters/black_basilisk.png
+264,Racul,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/drac.png
+265,Odok Golem,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/odok_golem.png
+266,Dracon,3,,1,,,,,,,,,,,,,,,,,,,,,bosses/dracon.png
+267,Dark Widow,4,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_widow.png
+268,Naja,5,,,,,,,,,,,,,,,,,,,,,,,monsters/brown_snake.png
+269,Cthulhu,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/cthulhu.png
+270,Cave Sprout,3,,,,,,,,,,,,,,,,,,,,,,,monsters/sprout3.png
+271,Guivre,9,,,,,,,,,,,,,,,,,,,,,,,monsters/guivre.png
+272,Sea Serpent,1,,,,,,,,,,,,,,,,,,,,,,,monsters/blue_snake.png
+273,Naggeneen,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/naggeneen.png
+274,Giant Basilisk,6,,1,,,,,,,,,,,,,,,,,,,,,monsters/basilisk.png
+275,Kerberos,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/kerberos.png
+276,The Fool (2019),5,,1,,,,,,,,,,,,,,,,,,,,,monsters/mimic.png
+277,Cerus,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/taurus.png
+278,Poison Wyvern,5,,,,,,,,,,,,,,,,,,,,,,,monsters/poison_wyvern.png
+279,Apollyon,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/abaddon.png
+280,Mammon,9,,1,,,,,,,,,,,,,,,,,,,,"[{""id"":65,""name"":""Mammon""}]",bosses/mammon.png
+281,Yeti,4,,,,,,,,,,,,,,,,,,,,,,,monsters/yeti.png
+282,Great Yeti,7,,,,,,,,,,,,,,,,,,,,,,,monsters/great_yeti.png
+283,Castor,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/castor.png
+284,Midnight Gazer,8,,,,,,,,,,,,,,,,,,,,,,,monsters/night_eye.png
+285,Pollux,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/pollux.png
+286,Earthworm,2,,,,,,,,,,,,,,,,,,,,,,,monsters/earthworm.png
+287,Headless,8,,,,,,,,,,,,,,,,,,,,,,,monsters/headless.png
+288,Ingenious Cade,5,,1,,,,,,,,,,,,,,,,,,,,,npcs/inventor.png
+289,Almighty Balin,8,,1,,,,,,,,,,,,,,,,,,,,,npcs/balin.png
+290,Ancient Gazer,6,,,,,,,,,,,,,,,,,,,,,,,monsters/ancient_gazer.png
+291,Nothren Berserker,8,,,,,,,,,,,,,,,,,,,,,,,monsters/nothren2.png
+292,Nothren Raider,8,,,,,,,,,,,,,,,,,,,,,,,monsters/nothren4.png
+293,Nothren Warlock,8,,,,,,,,,,,,,,,,,,,,,,,monsters/nothren3.png
+294,Nothren Valkyrie,9,,,,,,,,,,,,,,,,,,,,,,,monsters/nothren_valk.png
+295,Frilled Naga Warrior,9,,,,,,,,,,,,,,,,,,,,,,,monsters/great_naga_warrior.png
+296,Frilled Naga Mage,9,,,,,,,,,,,,,,,,,,,,,,,monsters/great_naga_mage.png
+297,Midnight Imp,5,,,,,,,,,,,,,,,,,,,,,,,monsters/dark_imp.png
+298,Heimdall,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/heimdall.png
+299,Frost Core,4,,,,,,,,,,,,,,,,,,,,,,,monsters/frost_core.png
+300,Fallen Knight Vulcan,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/fallen_vulcan.png
+301,Pyre,5,,1,,,,,,,,,,,,,,,,,,,,,npcs/pyre.png
+302,Storm Core,4,,,,,,,,,,,,,,,,,,,,,,,monsters/storm_core.png
+303,Earth Core,4,,,,,,,,,,,,,,,,,,,,,,,monsters/earth_core.png
+304,Mighty Mimic,9,,,,,,,,,,,,,,,,,,,,,,,monsters/mighty_mimic.png
+305,Arisen Carman,9,,,,,,,,,,,,,,,,,,,,,,,bosses/witch.png
+306,Arisen Ronin,9,,,,,,,,,,,,,,,,,,,,,,,bosses/ronin.png
+307,Mighty Griffin,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/great_griffin.png
+308,Griffin,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/griffin.png
+309,Great Reaper,8,,,,,,,,,,,,,,,,,,,,,,,monsters/great_reaper.png
+310,Arisen Ankou,9,,,,,,,,,,,,,,,,,,,,,,,bosses/grim_reaper.png
+311,Crimson Wood,8,,,,,,,,,,,,,,,,,,,,,,,monsters/crimson_wood.png
+312,Arisen Merlin,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/merlin.png
+313,Odin,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/odin.png
+314,Hades,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/hades.png
+315,Arisen Cthulhu,10,,,,,,,,,,,,,,,,,,,,,,,bosses/cthulhu.png
+316,Nothren Lord,10,,,,,,,,,,,,,,,,,,,,,,,monsters/nothren_lord.png
+317,Chimera,10,,,,,,,,,,,,,,,,,,,,,,,monsters/chimera.png
+318,Arcane Troll,10,,,,,,,,,,,,,,,,,,,,,,,monsters/arcane_troll.png
+319,Mighty Slime,10,,,,,,,,,,,,,,,,,,,,,,,monsters/mighty_slime.png
+320,Ortanite Golem,10,,,,,,,,,,,,,,,,,,,,,,,monsters/ortanite_golem.png
+321,Mammon Acolyte,10,,,,,,,,,,,,,,,,,,,,,,,monsters/mammon_acolyte.png
+322,Arisen Fafnir,10,,,,,,,,,,,,,,,,,,,,,,,bosses/fafnir.png
+323,Fallen Vanguard,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_vanguard.png
+324,Fallen Gaia,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_gaia.png
+325,Fallen Arcanic,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_arcanic.png
+326,Lyonesse Assassin,10,,,,,,,,,,,,,,,,,,,,,,,monsters/lyon_assassin.png
+327,Lyonesse Warlock,10,,,,,,,,,,,,,,,,,,,,,,,monsters/lyon_mage.png
+328,Lyonesse Knight,10,,,,,,,,,,,,,,,,,,,,,,,monsters/lyon_knight.png
+329,Fallen Freyja,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_freya.png
+330,Anubis,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/anubis.png
+331,Fallen Ifrit,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_ifrit.png
+332,Fallen Leviathan,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_leviathan.png
+333,Fallen Taranis,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_taranis.png
+334,Fallen Nekromancer,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fallen_necro.png
+335,Arisen Mimic King,10,,,,,,,,,,,,,,,,,,,,,,,bosses/mimic_king.png
+336,King Gradlon,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/gradlon.png
+337,Arisen Naggeneen,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/naggeneen.png
+338,Polar Bear,6,,,,,,,,,,,,,,,,,,,,,,,monsters/polar_bear.png
+339,Flame Core,4,,,,,,,,,,,,,,,,,,,,,,,monsters/flame_core.png
+340,Ancient Draugr,6,,,,,,,,,,,,,,,,,,,,,,,monsters/ancient_draugr.png
+341,Ancient Draugr Mage,6,,,,,,,,,,,,,,,,,,,,,,,monsters/ancient_draugr_mage.png
+342,Pumpkinhead,8,,1,,,,,,,,,,,,,,,,,,,,,packs/halloween/1_m.png
+343,"Arisen Demeter, the Earth Magus",10,,1,,,,,,,,,,,,,,,,,,,,,bosses/fallen_demeter.png
+344,King of Ljosalfar,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/lj_king.png
+345,Queen of Dokkalfar,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/dokk_queen.png
+346,Arisen Fenrir,9,,,,,,,,,,,,,,,,,,,,,,,bosses/fenrir.png
+347,Scruug,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/lesser_scruuge.png
+348,Ebon Scruug,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/scruuge.png
+349,"Arisen Ithra, the White Knight",10,,1,,,,,,,,,,,,,,,,,,,,,bosses/fallen_ithra.png
+350,"Arisen Thor, the Storm God",10,,1,,,,,,,,,,,,,,,,,,,,,bosses/fallen_thor.png
+351,"Arisen Vulcan, the Red Knight",10,,1,,,,,,,,,,,,,,,,,,,,,bosses/fallen_vulcan.png
+352,Arisen Mammon,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/mammon.png
+353,Immortal Magus,9,,,,,,,,,,,,,,,,,,,,,,,monsters/immortal_mage.png
+354,Immortal,9,,,,,,,,,,,,,,,,,,,,,,,monsters/immortal.png
+355,Immortal Lord,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/immortal_lord.png
+356,Phoenix,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/phoenix.png
+357,Succubus,8,,,,,,,,,,,,,,,,,,,,,,,monsters/succubus.png
+358,The Morrigan,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/morrigan.png
+359,Coral Serpent,8,,,,,,,,,,,,,,,,,,,,,,,monsters/coral_lizard_warrior.png
+360,Coral Varmint,8,,,,,,,,,,,,,,,,,,,,,,,monsters/coral_lizard_noble.png
+361,Coral Beast,8,,,,,,,,,,,,,,,,,,,,,,,monsters/coral_lizard_knight.png
+362,The Fool (2020),6,,1,,,,,,,,,,,,,,,,,,,,,npcs/man1.png
+363,Lizarr Marauder,4,,,,,,,,,,,,,,,,,,,,,,,monsters/lizard_knight.png
+364,Great Lizarr Warrior,6,,,,,,,,,,,,,,,,,,,,,,,monsters/great_lizard_warrior.png
+365,Draugr,3,,,,,,,,,,,,,,,,,,,,,,,monsters/draugr.png
+366,Little Wisp,1,,,,,,,,,,,,,,,,,,,,,,,monsters/little_wisp.png
+367,Kelpie,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/kelpie.png
+368,Arisen Finfolk,10,,,,,,,,,,,,,,,,,,,,,,,monsters/water_demon.png
+369,Rubbish,2,,,,,,,,,,,,,,,,,,,,,,,monsters/rubbish.png
+370,Arisen Hydra,10,,,,,,,,,,,,,,,,,,,,,,,bosses/hydra.png
+371,Greater Triton,9,,,,,,,,,,,,,,,,,,,,,,,monsters/blue_lobster.png
+372,Mighty Yeti,10,,,,,,,,,,,,,,,,,,,,,,,monsters/mighty_yeti.png
+373,Hydra,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/hydra.png
+374,Pegasus,10,,,,,,,,,,,,,,,,,,,,,,,bosses/pegasus.png
+375,Kraken,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/kraken.png
+376,Turul,8,,,,,,,,,,,,,,,,,,,,,,,monsters/turul.png
+377,Yokai,4,,,,,,,,,,,,,,,,,,,,,,,monsters/yokai.png
+378,Small Mollusc,4,,,,,,,,,,,,,,,,,,,,,,,monsters/mollusc.png
+379,Mollusc,5,,,,,,,,,,,,,,,,,,,,,,,monsters/mollusc.png
+380,Greater Lobster,5,,,,,,,,,,,,,,,,,,,,,,,monsters/green_lobster.png
+381,Hawk,2,,,,,,,,,,,,,,,,,,,,,,,monsters/hawk.png
+382,Wild Wolf,2,,,,,,,,,,,,,,,,,,,,,,,monsters/wolf.png
+383,Raven,4,,,,,,,,,,,,,,,,,,,,,,,monsters/raven.png
+384,Great Mollusc,7,,,,,,,,,,,,,,,,,,,,,,,monsters/mollusc.png
+385,Lobster,1,,,,,,,,,,,,,,,,,,,,,,,monsters/lobster.png
+386,Balor Gateway,7,,,,,,,,,,,,,,,,,,,,,,,monsters/gateway.png
+387,Triton,7,,,,,,,,,,,,,,,,,,,,,,,monsters/beige_lobster.png
+388,Buried,2,,,,,,,,,,,,,,,,,,,,,,,monsters/buried.png
+389,Draugr Mage,3,,,,,,,,,,,,,,,,,,,,,,,monsters/draugr_mage.png
+390,Dark Pegasus,10,,,,,,,,,,,,,,,,,,,,,,,bosses/dark_pegasus.png
+391,Feral Horse,2,,,,,,,,,,,,,,,,,,,,,,,monsters/horse.png
+392,Snow Elf Mage,6,,,,,,,,,,,,,,,,,,,,,,,monsters/snow_elf_mage.png
+393,Snow Elf Rogue,7,,,,,,,,,,,,,,,,,,,,,,,monsters/snow_elf_rogue.png
+394,Vampire (zzz),2,,,,,,,,,,,,,,,,,,,,,,,monsters/day_vampire.png
+395,Fjalar,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fjalar.png
+396,Snow Elf,5,,,,,,,,,,,,,,,,,,,,,,,monsters/snow_elf.png
+397,Great Lizarr Noble,6,,,,,,,,,,,,,,,,,,,,,,,monsters/great_lizard_noble.png
+398,Great Lizarr Knight,6,,,,,,,,,,,,,,,,,,,,,,,monsters/great_lizard_knight.png
+399,Fey Dragon,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/fey_dragon.png
+400,First Horseman,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/horseman_famine.png
+401,Final Horseman,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/horseman_death.png
+402,Second Horseman,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/horseman_pestilence.png
+403,Ashen Phoenix,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/ashen_phoenix.png
+404,Fey Yeti,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/fey_yeti.png
+405,Fey Chimera,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/fey_chimera.png
+406,Third Horseman,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/horseman_war.png
+407,Fey Gazer,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/fey_gazer.png
+408,Fey Cockatrice,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/fey_cockatrice.png
+409,Cactus,4,,,,,,,,,,,,,,,,,,,,,,,monsters/cactus.png
+410,Cave Bat,4,,,,,,,,,,,,,,,,,,,,,,,monsters/brown_bat.png
+411,Surtr,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/surtr.png
+412,Arisen Surtr,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/surtr.png
+413,Fallen Merlin,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/merlin.png
+414,Arisen Great Gazer,10,,,,,,,,,,,,,,,,,,,,,,,bosses/great_gazer.png
+415,Arisen Sluagh,10,,,,,,,,,,,,,,,,,,,,,,,bosses/sluagh.png
+416,Arisen Arachne,9,,,,,,,,,,,,,,,,,,,,,,,bosses/arachne.png
+417,Arisen Typhon,10,,,,,,,,,,,,,,,,,,,,,,,bosses/typhon.png
+418,Arisen Behemoth,9,,,,,,,,,,,,,,,,,,,,,,,bosses/behemoth.png
+419,Arisen Tiamat,10,,,,,,,,,,,,,,,,,,,,,,,bosses/tiamat.png
+420,Age-Old Mimic,5,,1,,,,,,,,,,,,,,,,,,,,,monsters/ancient_mimic.png
+421,Mimic King of Kings,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/mimic_king.png
+422,The Mightiest Mimic,9,,1,,,,,,,,,,,,,,,,,,,,,monsters/mighty_mimic.png
+423,Arisen Morrigan,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/arisen_morrigan.png
+424,Sister Neman,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/neman.png
+425,Sister Badb,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/badb.png
+426,Sister Macha,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/macha.png
+427,Arisen Phoenix,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/phoenix.png
+428,Arisen Kerberos,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/kerberos.png
+429,Fey Cactus,10,,,,,,,,,,,,,,,,,,,,,,,monsters/fey_cactus.png
+430,The Fool (2021),6,,1,,,,,,,,,,,,,,,,,,,,,npcs/man1.png
+431,Furious Cerus,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/taurus.png
+432,Ferocious Cerus,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/taurus.png
+433,Nidhogg,10,,,,,,,,,,,,,,,,,,,,,,,monsters/nidhogg.png
+434,Fallen Realmshifter,10,,1,,,,,,,,,,,,,,,,,,,,,classes/realmshifter/default_f.png
+435,Fallen Gilgamesh,10,,1,,,,,,,,,,,,,,,,,,,,,classes/gilgamesh/1_m.png
+436,Fallen Heretic,10,,1,,,,,,,,,,,,,,,,,,,,,classes/heretic/default_f.png
+437,Fallen Beowulf,10,,1,,,,,,,,,,,,,,,,,,,,,classes/beowulf/3_m.png
+438,The Dioscuri,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/castor_pollux.png
+439,Finesse,10,,1,,,,,,,,,,,,,,,,,,,,,npcs/finesse.png
+440,Arisen Cade,9,,1,,,,,,,,,,,,,,,,,,,,,npcs/inventor.png
+441,Arisen Balin,10,,1,,,,,,,,,,,,,,,,,,,,,npcs/balin.png
+442,Arisen Yggdrasil,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/yggdrasil.png
+443,Arisen Hel,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/hel.png
+444,Hel,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/hel.png
+445,Yggdrasil,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/yggdrasil.png
+446,Arisen King Meliodas,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/meliodas.png
+447,Arisen Warlock Trevelyan,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/trevelyan.png
+448,False King Meliodas,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/meliodas.png
+449,Fallen Warlock Trevelyan,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/trevelyan.png
+450,Glatisant,9,,1,,,,,,,,,,,,,,,,,,,,,monsters/coral_lizard_warrior.png
+451,Sapling,7,,,,,,,,,,,,,,,,,,,,,,,monsters/sapling.png
+452,Hobgoblin Lord,3,,1,,,,,,,,,,,,,,,,,,,,,bosses/hobgoblin_lord.png
+453,Terrifying Ghost,8,,1,,,,,,,,,,,,,,,,,,,,,monsters/ghost.png
+454,Grand Knight Lugus,7,,1,,,,,,,,,,,,,,,,,,,,,bosses/lugus.png
+455,Dagda,6,,1,,,,,,,,,,,,,,,,,,,,,bosses/dagda.png
+456,Elite Balor Marauder,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_balor_warrior.png
+457,Elite Balor Warlock,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_balor_mage.png
+458,Elite Balor Assassin,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_balor_rogue.png
+459,Elite Balor Guardian,5,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_balor_guardian.png
+460,Arisen Balor King,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/king_balor.png
+461,Arisen Dagda,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/dagda.png
+462,Arisen Alfar,8,,,,,,,,,,,,,,,,,,,,,,,monsters/alfar.png
+463,Alfar Mage,5,,,,,,,,,,,,,,,,,,,,,,,monsters/alfar_mage.png
+464,Alfar,4,,,,,,,,,,,,,,,,,,,,,,,monsters/alfar.png
+465,Scary Skeleton,1,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton.png
+466,Frightening Skeleton,4,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton.png
+467,Arisen Alfar Lord,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/alfar_lord.png
+468,Arisen Alfar Mage,9,,,,,,,,,,,,,,,,,,,,,,,monsters/alfar_mage.png
+469,Baldr,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/baldr.png
+470,Elite Fomorian,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_fomorian.png
+471,First Stable Keeper,7,,,,,,,,,,,,,,,,,,,,,,,monsters/stable_keeper.png
+472,Elite Fomorian Mage,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_fomorian_mage.png
+473,Elite Orc,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_orc.png
+474,Second Stable Keeper,8,,,,,,,,,,,,,,,,,,,,,,,monsters/stable_keeper.png
+475,Third Stable Keeper,9,,,,,,,,,,,,,,,,,,,,,,,monsters/stable_keeper.png
+476,Final Stable Keeper,10,,,,,,,,,,,,,,,,,,,,,,,monsters/stable_keeper.png
+477,Elite Orc Brute,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_orc_brute.png
+478,Very Scary Skeleton,8,,,,,,,,,,,,,,,,,,,,,,,monsters/skeleton.png
+479,Elite Nothren Berserker,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_nothren2.png
+480,Elite Nothren Raider,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_nothren.png
+481,Elite Balor Flame,9,,,,,,,,,,,,,,,,,,,,,,,monsters/balor_flame.png
+482,Elite Kobold,10,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_kobold.png
+483,Elite Nothren Valkyrie,10,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_nothren_valk.png
+484,Elite Kobold Mage,10,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_kobold_mage.png
+485,Elite Nothren Warlock,9,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_nothren3.png
+486,Elite Kobold Lord,10,,1,,,,,,,,,,,,,,,,,,,,,bosses/elite_kobold_lord.png
+487,Kobold Lord,8,,1,,,,,,,,,,,,,,,,,,,,,bosses/kobold_lord.png
+488,Elite Balor Worm,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/balor_worm.png
+489,Spooky Ghost,4,,1,,,,,,,,,,,,,,,,,,,,,monsters/ghost.png
+490,Alfar Lord,5,,1,,,,,,,,,,,,,,,,,,,,,bosses/alfar_lord.png
+491,Elite Orc Lord,9,,1,,,,,,,,,,,,,,,,,,,,,bosses/elite_orc_lord.png
+492,Elite Draconian,8,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_draco.png
+493,Elite Draconian Mage,8,,,,,,,,,,,,,,,,,,,,,,,monsters/elite_draco_mage.png
+494,Balor Gateway,9,,,,,,,,,,,,,,,,,,,,,,,monsters/gateway.png
