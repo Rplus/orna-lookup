@@ -8,8 +8,8 @@ var args = process.argv.slice(2).reduce((all, i) => {
   return all;
 }, {})
 
-let fileName = args?.filename || 'item.json';
-let data = fs.readFileSync(`./public/raw-data/${fileName}`, 'utf8');
+let type = (args?.type || 'item');
+let data = fs.readFileSync(`./public/raw-data/${type}.json`, 'utf8');
 
 let lang = [];
 
@@ -23,7 +23,7 @@ zh = zh.flat();
 
 data = clearData(data);
 
-saveCSV(data, `./public/raw-data/${fileName}.csv`, {
+saveCSV(data, `./public/raw-data/${type}.json.csv`, {
   emptyFieldValue: '',
   excludeKeys: ['description'],
   keys: [
@@ -63,7 +63,7 @@ saveCSV(data, `./public/raw-data/${fileName}.csv`, {
   ],
 });
 
-saveCSV(lang, `./public/raw-data/item.lang.csv`, {
+saveCSV(lang, `./public/raw-data/${type}.lang.csv`, {
   emptyFieldValue: '',
 })
 
