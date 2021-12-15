@@ -1,5 +1,6 @@
 import fs from 'fs';
 import converter from 'json-2-csv';
+import csv from "csvtojson";
 
 var args = process.argv.slice(2).reduce((all, i) => {
   let pair = i.split('=');
@@ -7,13 +8,22 @@ var args = process.argv.slice(2).reduce((all, i) => {
   return all;
 }, {})
 
-// let fileName = 'item.added.json';
-let fileName = args?.filename || 'item.added.json';
+let fileName = args?.filename || 'item.json';
 let data = fs.readFileSync(`./public/raw-data/${fileName}`, 'utf8');
+
+let lang = [];
+
+let zh = await Promise.all([
+  'orna-app-zh_Hant.csv',
+  'orna-archetypes-zh_Hant.csv',
+  'orna-base-zh_Hant.csv',
+  'orna-content-zh_Hant.csv',
+].map( fn => csv().fromFile(`./task/items/zh-tw/${fn}`) ));
+zh = zh.flat();
 
 data = clearData(data);
 
-converter.json2csvAsync(data, {
+saveCSV(data, `./public/raw-data/${fileName}.csv`, {
   emptyFieldValue: '',
   excludeKeys: ['description'],
   keys: [
@@ -51,19 +61,38 @@ converter.json2csvAsync(data, {
     'quests',
     'image',
   ],
+});
+
+saveCSV(lang, `./public/raw-data/item.lang.csv`, {
+  emptyFieldValue: '',
 })
-  .then((d) => {
-    fs.writeFile(`./public/raw-data/${fileName}.csv`, d, function(err) {
-      if (err) throw err;
-      console.log('file saved');
-    });
-  })
-  .catch((err) => console.log('ERROR: ' + err.message));
+
+function findZh(en) {
+  let str = zh.find(i => i.source === en)?.target;
+  if (!str) {
+    let m = en.match(/(.+)( \[\w+\])$/);
+    if (!m) { return; }
+
+    let _str = findZh(m[1]);
+    if (!_str) { return; }
+
+    str = _str + m[2];
+  }
+  return str || '';
+}
 
 function clearData(dd) {
   dd = JSON.parse(dd.replace(';', ',')).filter(Boolean);
   dd.forEach(_d => {
     // delete _d.description;
+
+    lang.push({
+      id: _d.id,
+      en: _d.name,
+      zh: findZh(_d.name),
+      info: _d.description || null,
+      info_zh: _d.description && findZh(_d.description),
+    });
 
     if (_d.equipped_by) {
       _d.equipped_by = _d.equipped_by.map(i => i.name)
@@ -80,3 +109,20 @@ function clearData(dd) {
   });
   return dd;
 }
+
+function saveCSV(data, fn, option) {
+  converter.json2csvAsync(data, option)
+    .then((d) => {
+      fs.writeFile(fn, d, function(err) {
+        if (err) throw err;
+        console.log('file saved', fn);
+      });
+    })
+    .catch((err) => console.log('ERROR: ' + err.message));
+}
+
+function outputJSON(json = {}, fileName, jsonSpace = 2) {
+  let fileContent = JSON.stringify(json, null, jsonSpace);
+  fs.writeFileSync(fileName, fileContent);
+  console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
+};
