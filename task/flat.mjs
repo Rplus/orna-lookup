@@ -23,49 +23,82 @@ zh = zh.flat();
 
 data = clearData(data);
 
-saveCSV(data, `./public/raw-data/${type}.json.csv`, {
-  emptyFieldValue: '',
-  excludeKeys: ['description'],
-  keys: [
-    'id',
-    'name',
-    'tier',
-    'type',
+const csvOptions = {
+  defalt: {
+    emptyFieldValue: '',
+  },
+  item: {
+    emptyFieldValue: '',
+    excludeKeys: ['description'],
+    keys: [
+      'id',
+      'name',
+      'tier',
+      'type',
 
-    'boss',
-    'arena',
-    'view_distance',
+      'boss',
+      'arena',
+      'view_distance',
 
-    'equipped_by',
+      'equipped_by',
 
-    'element',
+      'element',
 
-    { field: 'stats.attack.base', title: 'stats.attack', },
-    { field: 'stats.magic.base', title: 'stats.magic', },
-    { field: 'stats.defense.base', title: 'stats.defense', },
-    { field: 'stats.resistance.base', title: 'stats.resistance', },
-    { field: 'stats.dexterity.base', title: 'stats.dexterity', },
-    { field: 'stats.crit.base', title: 'stats.crit', },
-    { field: 'stats.ward.base', title: 'stats.ward', },
-    { field: 'stats.hp.base', title: 'stats.hp', },
-    { field: 'stats.mana.base', title: 'stats.mana', },
+      { field: 'stats.attack.base', title: 'stats.attack', },
+      { field: 'stats.magic.base', title: 'stats.magic', },
+      { field: 'stats.defense.base', title: 'stats.defense', },
+      { field: 'stats.resistance.base', title: 'stats.resistance', },
+      { field: 'stats.dexterity.base', title: 'stats.dexterity', },
+      { field: 'stats.crit.base', title: 'stats.crit', },
+      { field: 'stats.ward.base', title: 'stats.ward', },
+      { field: 'stats.hp.base', title: 'stats.hp', },
+      { field: 'stats.mana.base', title: 'stats.mana', },
 
-    'prevents',
-    'causes',
-    'cures',
-    'gives',
+      'prevents',
+      'causes',
+      'cures',
+      'gives',
 
-    'dropped_by',
-    'materials',
+      'dropped_by',
+      'materials',
 
-    'quests',
-    'image',
-  ],
-});
+      'quests',
+      'image',
+    ],
+  },
+  monster: {
+    emptyFieldValue: '',
+    keys: [
+      'id',
+      'name',
+      'tier',
+      'level',
+      'boss',
 
-saveCSV(lang, `./public/raw-data/${type}.lang.csv`, {
-  emptyFieldValue: '',
-})
+      'buffs',
+      'spawns',
+
+      'weak_to',
+      'immune_to',
+      'resistant_to',
+
+      'immune_to_status',
+      'vulnerable_to_status',
+
+      'skills',
+      'drops',
+
+      'quests',
+      'image',
+    ],
+  },
+};
+
+saveCSV(data, `./public/raw-data/${type}.json.csv`,
+  csvOptions[type] || csvOptions.defalt
+);
+
+saveCSV(lang, `./public/raw-data/${type}.lang.csv`, csvOptions.defalt);
 
 function findZh(en) {
   let str = zh.find(i => i.source === en)?.target;
@@ -86,26 +119,44 @@ function clearData(dd) {
   dd.forEach(_d => {
     // delete _d.description;
 
-    lang.push({
+    let langObj = {
       id: _d.id,
       en: _d.name,
       zh: findZh(_d.name),
-      info: _d.description || null,
-      info_zh: _d.description && findZh(_d.description),
+    };
+    if (type === 'item') {
+      if (_d.description) {
+        langObj.info = _d.description;
+        langObj.info_zh = findZh(_d.description);
+      }
+    }
+
+    lang.push(langObj);
+
+    // array retrun items' id
+    [
+      'dropped_by',
+      'materials',
+      'drops',
+      'skills',
+      'buffs',
+    ].forEach(prop => {
+      if (_d[prop]) {
+        _d[prop] = _d[prop].map(i => i.id);
+        console.log(123, _d[prop]);
+      }
     });
 
-    if (_d.equipped_by) {
-      _d.equipped_by = _d.equipped_by.map(i => i.name)
-    }
-    if (_d.dropped_by) {
-      _d.dropped_by = _d.dropped_by.map(i => i.id)
-    }
-    if (_d.materials) {
-      _d.materials = _d.materials.map(i => i.id)
-    }
-    _d.boss = _d.boss ? 1 : null;
-    _d.arena = _d.arena ? 1 : null;
-    _d.view_distance = _d.view_distance ? 1 : null;
+    // transform boolean
+    [
+      'boss',
+      'arena',
+      'view_distance',
+    ].forEach(prop => {
+      if (_d[prop] !== undefined) {
+        _d[prop] = _d[prop] ? 1 : null;
+      }
+    });
   });
   return dd;
 }
