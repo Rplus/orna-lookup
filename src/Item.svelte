@@ -6,9 +6,9 @@
   import { dialog, data } from './stores.js';
 
   let effectTypes = [
-    ['causes', '🗡️'],
+    ['causes', '🔪'],
     ['prevents', '🛡️'],
-    ['gives', '🔋'],
+    ['gives', '🎁'],
     ['cures', '❤️‍🩹'],
   ];
   let stats = item.stats;
