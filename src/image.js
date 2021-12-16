@@ -14,7 +14,8 @@ export function getImgSrc(item, thumbnail) {
   if (!item) { return; }
 
   if (thumbnail) {
-    return getProxyImgSrc(item.image, 16);
+    return getOrnaThumbImgSrc(item.image, 16);
+    // return getProxyImgSrc(item.image, 16);
   }
 
   return (
@@ -66,4 +67,8 @@ function getProxyImgSrc(imgPath, size = 96) {
 
 function getOriginImgSrc(imgPath) {
   return `https://orna.guide/static/orna/img/${imgPath}`;
+}
+
+function getOrnaThumbImgSrc(imgPath) {
+  return `https://playorna.com/static/img/${imgPath}`;
 }
