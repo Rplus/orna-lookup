@@ -19,3 +19,12 @@
     {/each}
   </ul>
 </aside>
+
+
+<style>
+@media (max-width: 500px) {
+  aside {
+    font-size: smaller;
+  }
+}
+</style>

@@ -205,7 +205,7 @@
   background-repeat: no-repeat;
   background-position: 0 50%, 50% 50%, 100% 50%;
   background-size: contain;
-  filter: sepia(1) brightness(.5);
+  filter: sepia(1) brightness(.6);
 }
 
 .item-equipped[data-by*="Warrior" i] {
@@ -250,6 +250,7 @@
 .item-details[open] .item-img-box {
   margin-top: 1rem;
   height: var(--item-img-size, 96px);
+  align-self: flex-start;
   background-image: var(--bg, none), var(--bg-fallback, none);
   background-size: contain;
   background-repeat: no-repeat;
