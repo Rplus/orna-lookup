@@ -26,10 +26,10 @@ export const words = {
   'Head': '. 頭部',
   'Armor': '.. 護甲',
   'Legs': '... 腿部',
-  'Accessory': '配件',
+  'Accessory': '... 配件',
   'Material': '材料',
   'Off-hand': '.. 副手',
-  'Adornment': '... 裝飾品',
+  'Adornment': '裝飾品',
 
   'Dark': '闇',
   'Water': '水',
