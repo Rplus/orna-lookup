@@ -70,6 +70,6 @@
     </select>
   {/if}
   {#if filter.rule.value}
-    <a href="./?{filter.rule.prop}={filter.rule.value}">🢅</a>
+    <a href="./?{filter.rule.prop}={filter.rule.value}">↗</a>
   {/if}
 </div>
