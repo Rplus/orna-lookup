@@ -57,7 +57,7 @@
     />
   {:else if filterDef.type === 'text'}
     <input
-      type="text"
+      type="search"
       bind:value={filter.rule.value}
     />
   {/if}
