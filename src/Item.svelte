@@ -113,7 +113,7 @@
 
 
     <div class="rt-box">
-      <div class="item-equipped" data-by={item.equipped_by} />
+      <div class="item-equipped" title={item.equipped_by} />
       <div class="item-char">{words[item.element] ? `[${words[item.element]}]` : ''}</div>
       <div class="item-char">{item.boss ? '👿' : ''}</div>
       <div class="item-char">{item.arena ? '🏟️' : ''}</div>
@@ -201,21 +201,27 @@
 .item-equipped {
   height: 1.5em;
   width: 5.175em;
-  background-image: var(--bg-mage, none), var(--bg-thief, none), var(--bg-warrior, none);
+  background-image:
+    var(--bg-mage, none),
+    var(--bg-thief, none),
+    var(--bg-warrior, none);
   background-repeat: no-repeat;
   background-position: 0 50%, 50% 50%, 100% 50%;
   background-size: contain;
   filter: sepia(1) brightness(.6);
 }
 
-.item-equipped[data-by*="Warrior" i] {
+.item-equipped[title*="Warrior" i] {
   --bg-mage: url('../images/Warrior.png');
+  --bg-mage: url('https://playorna.com/static/img/weapons/blue_flame.png');
 }
-.item-equipped[data-by*="Thief" i] {
+.item-equipped[title*="Thief" i] {
   --bg-thief: url('../images/Thief.png');
+  --bg-thief: url('https://playorna.com/static/img/weapons/bow.png');
 }
-.item-equipped[data-by*="Mage" i] {
+.item-equipped[title*="Mage" i] {
   --bg-warrior: url('../images/Mage.png');
+  --bg-warrior: url('https://playorna.com/static/img/weapons/cane.png');
 }
 
 .item-info {
