@@ -19,7 +19,7 @@ copy-monster:
 	rm -rf public/monster; \
 	cp -R Monster/public public/monster/
 
-dev-monser:
+dev-monster:
 	cd Monster; \
 	npm run dev;
 
