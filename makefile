@@ -10,3 +10,18 @@ dev: copy-assets
 copy-assets:
 	mkdir -p public; \
 	cp ./public/index.html ./public/404.html
+
+build-monster:
+	cd Monster; \
+	npm run build;
+
+copy-monster:
+	rm -rf public/monster; \
+	cp -R Monster/public public/monster/
+
+dev-monser:
+	cd Monster; \
+	npm run dev;
+
+deploy-monster: build-monster copy-monster
+	sh deploy.sh
