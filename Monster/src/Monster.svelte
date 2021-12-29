@@ -1,9 +1,9 @@
 <script>
 	export let monster;
-	import { getEffectTitle } from './name.js';
+	import { en2zh } from './name.js';
 
 	let debuffs = monster.debuffs
-		.map(i => ({ value: i, label: getEffectTitle(i), }))
+		.map(i => ({ value: i, label: en2zh(i), }))
 		.sort((a, b) => a.label.localeCompare(b.label));
 
 	let skillTypes = monster.skillTypes.sort().reduce((all, i) => {
@@ -23,9 +23,13 @@
 		['weak_to', '弱點'],
 		['immune_to', '免疫'],
 		['resistant_to', '抗性'],
+		['immune_to_status', '狀態免疫'],
 	].map(p => {
 		let value = monster.raw[p[0]];
 		if (!value) { return null; }
+		if (value.map) {
+			value = value.map(en2zh);
+		}
 		return {
 			prop: p[0],
 			name: p[1],
@@ -44,8 +48,11 @@
 		let state = skillProps.map(p => {
 			let value = s[p[0]];
 			if (!value) { return null; }
-			if (p[0] === 'causes') {
-				value = value.map(getEffectTitle);
+			console.log(value);
+			if (value.map) {
+				value = value.map(en2zh);
+			} else if (typeof value === 'string') {
+				value = en2zh(value);
 			}
 			return {
 				prop: p[0],

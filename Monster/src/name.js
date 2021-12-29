@@ -27,7 +27,7 @@ export const monsterNames = [
 '450,Glatisant,吠獸',
 ].map(i => i.split(','));
 
-const effectNames = {
+const en2zhMap = {
   'Bleeding': '流血',
   'Frozen': '冰凍',
   'Burning': '燃燒',
@@ -43,8 +43,18 @@ const effectNames = {
   'Cursed': '詛咒',
   'Toxic': '劇毒',
   'Lulled': '安份',
+
+  'Dark': '闇',
+  'Water': '水',
+  'Fire': '火',
+  'Physical': '物',
+  'Holy': '光',
+  'Earthen': '土',
+  'Lightning': '雷',
+  'Dragon': '龍',
+  'Arcane': '奧',
 };
 
-export function getEffectTitle(effect) {
-  return effectNames[effect] || effect;
+export function en2zh(effect) {
+  return en2zhMap[effect] || effect;
 }
