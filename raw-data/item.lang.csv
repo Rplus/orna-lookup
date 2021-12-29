@@ -1,0 +1,1479 @@
+id,en,zh,info,info_zh
+1,Small Health Potion,小生命藥水,Recovers 100 health points.,回復100生命值.
+2,Bow,弓,A hunter's bow.,一個獵人的弓.
+3,Small Mana Potion,小魔力藥水,Recovers 100 mana.,回復100點魔力值.
+4,Antidote,解毒劑,Cures poison.,解毒。
+5,Elixir,秘藥,Recovers 100 health points and 100 mana.,回復100生命值及100魔力值。
+6,Large Health Potion,大生命藥水,Recovers 250 health points.,回復250生命值.
+7,Large Mana Potion,大魔力藥水,Recovers 250 mana.,回復250魔力值.
+8,Large Elixir,大秘藥,Recovers 250 health points and 250 mana.,回復250點生命及法力值.
+9,Greater Health Potion,上級生命藥水,Recovers 500 health points.,回復500點生命值.
+10,Greater Mana Potion,上級魔力藥水,Recovers 500 mana.,回復500魔力值。
+11,Greater Elixir,上級秘藥,Recovers 500 health points and 500 mana.,回復500生命值及500魔力值。
+12,Panacea,萬靈藥,The universal remedy.,亂世中的唯一救贖。
+13,Lucky Coin,幸運金幣,"A shiny, lucky coin. Boosts gold earned for a period of time.",閃亮亮的幸運金幣.能在一定時間內提升獲得的金錢.
+14,Lucky Silver Coin,幸運銀幣,"A shiny, lucky, silver coin. Boosts orns earned for a period of time.",閃亮亮的幸運銀幣，可以在一段時間內增加獲得的歐幣。
+15,EXP Potion,經驗值藥水,A sour tasting elixir that doubles experience earned for a limited time.,聞起來有點可怕的藥水，它能暫時性提高經驗值獲取量。
+16,Dowsing Rod,探測棒,A strange apparatus suitable for finding that which cannot be easily found. Boosts item and discovery rate for a period of time.,常用於尋找隱藏物品的神奇的玩意兒。它能暫時性提高物品獲取率。
+17,Torch,火炬,Use it at night to increase visibility. You may attract more monsters as well.,在夜晚使用它以增加視野，並可能引來更多魔物。
+18,Occult Candle,玄妙蠟燭,A mysterious candle that draws more enemies to you for a limited time when lit.,點燃此神秘的蠟燭將在期間內引來更多敵人。
+19,Attack Tonic,物攻藥劑,A sour tonic that raises your attack in battle.,可於戰鬥中提升物攻的酸藥劑。
+20,Defense Tonic,物防藥劑,A sour tonic that raises your defense in battle.,可在戰鬥中提升物防的藥劑。
+21,Speed Tonic,速度藥水,A sour tonic that raises your speed in battle.,可在戰鬥中增加敏捷的酸化藥劑。
+22,Magic Tonic,魔力藥劑,A sour tonic that raises your magic in battle.,可以提升魔力的酸酸藥水.
+23,Monster Remains,魔物遺骸,Fragment remains of a fallen monster. Attracts a boss to your location when used.,
+24,Great Monster Remains,魔物遺骸加強版,Fragrant remains of a fallen monster. Attracts a (Berserk) boss to your location when used.,
+25,Coffee,咖啡,The nectar of the gods.,
+26,Broadsword,闊劍,A sword with a wide blade.,寬大刀刃的劍.
+27,Cane,杖,A wise mage's cane.,智者法杖。
+28,Dagger,匕首,A small blade ideal for close quartered combat.,近身作戰時很好用的短刀.
+29,Rusty Sword,生鏽的劍,"An old, rusty sword.",老舊生鏽的劍.
+30,Short Sword,短劍,"A trusty, yet short, sword.",一把可靠的短劍。
+31,Staff,法杖,A mage's staff.,法師之杖。
+32,Sword and Shield,劍盾,A simple sword and shield.,就是個劍和盾.
+33,Wooden Staff,木製法杖,A mage's staff crafted of enchanted wood.,魔法木製成的法杖。
+34,Axe,斧頭,A woodcutter's axe. Useful as a tool or as a weapon.,伐木工的斧頭.當工具或武器都好用.
+35,Axe of Night,夜之斧,An axe wielded by monsters of the night.  Enhanced with dark magic.,
+36,Battle Axe,戰斧,"A large, crushing axe.",巨大的破壞斧.
+37,Bearclaw,熊爪,A crude blade forged of the remains of a bear.,利用熊的遺骸所製作的粗製刀刃。
+38,Blue Dagger,藍色短刀,A small blade ideal for close quartered combat. This one in particular is imbued with ice.,適合用來近身作戰用的刀刃.特別附有冰之魔力.
+39,Blue Wand,藍魔杖,A wand for casting magic. This one is particular is imbued with ice.,
+40,Claymore,寬刃劍,A large cross-hilted weapon that is seen as a sign of distinction. It may break the enemy's defenses.,
+41,Crossbow,弩,A hunter's crossbow.,一把獵人之弩。
+42,Dirk,蘇格蘭短劍,A long thrusting dagger. Has a high chance to cause bleeding.,長穿刺匕首，有高機率使敵人流血。
+43,Draconian Archistaff,德肯尼亞族權杖,An archistaff granted to Draconian lords. Illuminates your path while carried.,被賞賜給德肯尼亞族領主的權杖.能照亮你眼前的道路.
+44,Draconian Bow,德肯尼亞族之弓,A bow of a Draconian forged by the Draconians.,德肯尼亞族打造的德肯尼亞之弓。
+45,Draconian Sceptre,德肯尼亞族之笏,A staff of a Draconian acolyte. High magic power.,德肯尼亞族追隨者的法杖.有頗高的魔法攻擊力.
+46,Draconian Sword,德肯尼亞族之劍,A sword of a Draconian blacksmith. The quality is quite surprising.,德肯尼亞族鐵匠鑄造之劍，品質令人讚嘆。
+47,Draconian Staff,德肯尼亞族法杖,A staff of a Draconian mage. Boasts above average magic power.,德肯尼亞族法師之杖，擁有超凡的魔法攻擊力。
+48,Falchion,寬刃刀,"A single edged sword with a curved blade, often used as a tool rather than in combat.","彎曲的單刃刀,比起戰鬥更常作為工具使用."
+49,Fallen Mage's Staff,墮落法師之杖,The trusty staff of a fallen mage.,墮落法師的法杖.
+50,Fallen Thief's Dagger,墮落盜賊的匕首,The trusty dagger of a fallen thief.,墮落盜賊的可靠的匕首.
+51,Fallen Warrior's Sword,墮落戰士之劍,The trusty sword of an unfortunately fallen warrior.,不幸墮落的戰士之劍.
+52,Great Staff,強大法杖,A staff favored by archmages of the olden times.,
+53,Greatsword,巨劍,"An extremely heavy sword, that must be wielded with all your might.",用盡全力才拿得起來的超重大劍.
+54,Iron Hammer,鐵鎚,A large hammer suitable for crushing blows.,適用於擊打的大錘子。
+55,Kunai,苦無,A simple pair of kunai.,就是一組苦無.
+56,Longsword,長劍,A trusty longsword.,一把可靠的長劍。
+57,Mace,狼牙棒,A blunt weapon suitable for heavy blows.,適合用來揮擊的鈍器.
+58,Minotaur Axe,牛頭怪斧,"A large, crushing axe used by a minotaur.",牛頭怪所使用的巨大雙面斧。
+59,Red Dagger,紅色短刀,A small blade ideal for close quartered combat. This one in particular is imbued with fire.,適合近身作戰的短刀.特別的是他上面有火焰的附魔.
+60,Ruby Wand,紅寶石魔杖,A wand for casting magic. This one in particular is imbued with fire.,用來釋放魔法的棍棒.這隻特別充滿了火焰.
+61,Scimitar,馬刀,"A short sword with a curved blade, designed for horseback combat.",專為騎馬打仗設計的彎曲刀片短劍。
+62,Steelguard,鐵衛,A sword and shield pairing made of hardened steel.,用淬硬鋼做的劍盾組.
+64,Ankh,生命之符,"A strange, ancient staff. It seems it can cast spells and also be used as a weapon.",奇怪的遠古法杖.似乎能用來施法或是物理攻擊用.
+65,Bow of Scales,鱗之弓,"Although the Lizarr seemed untrained in advanced weaponry, these fine bows have been found within their settlements. This bow is enchanted with the power of ice and water.",雖然蜥蜴人沒有受過先進的武器訓練，但在他們的居住地發現這些精美的弓箭，這把弓充滿了冰與水之力。
+66,Cutlass,彎刀,A curved blade often used by nautical warriors.,通常為航海戰士所使用的彎刀。
+67,Demonic Blade,惡魔刀刃,Blade of the wandering demon knights. Its thick obsidian blade is infused with the power of darkness and may cause an opponent to fall asleep.,流浪的惡魔騎士之劍，它厚厚的黑曜石刀片被注入黑暗之力，並有機率使敵人沉睡。
+68,Fallen Archistaff,墮落權杖,The archistaff of a powerful fallen mage.,強力的墮落法師之權杖.
+69,Fallen Knight's Axe,墮落騎士的斧,A large axe of a fallen knight.,墮落騎士的大斧頭.
+70,Fallen Rogue's Bow,墮落俠盜的弓,The longbow of a fallen rogue.,墮落俠盜的長弓.
+71,Flamberge,弗蘭伯基,"A large, undulating blade said to resemble that of flames.",一把巨大、具有波形的長刀，看似火焰一般。
+72,Flameguard,烈焰守衛,A sword and shield pairing enchanted with the power of fire.,附有火之力的劍盾組合.
+73,Frosty Daggers,霧之匕首,A pair of of daggers enchanted with the power of the cold.,
+74,Jinn Staff,神燈精靈法杖,Magical staff of a Jinn. This weapon may cause unexpected status effects.,神燈精靈的法杖.能造成無法預測的狀態異常.
+75,Lizarr Blade,蜥蜴人之刃,Crude blade of the Lizarr.,蜥蜴人的粗刃。
+76,Morning Star,晨星,A deadly spiked ball on a chain.,裝在鎖鏈上的致命鐵球.
+77,Mythril Bow,秘銀弓,A sturdy bow forged with mythril.,秘銀打造的結實大弓.
+78,Mythril Dagger,秘銀匕首,A fine dagger forged of mythril.,精巧的秘銀匕首.
+79,Mythril Hammer,秘銀錘,A large hammer made of mythril.,秘銀製成的大錘。
+80,Mythril Sword,秘銀劍,A fine sword forged of mythril.,用密銀打造的好劍.
+81,Scythe,鐮刀,A large tool quite suitable for cutting grass.,適合割草的大工具。
+82,Silver Dagger,銀質匕首,A silver dagger. Quite suitable when fighting the undead.,銀製匕首.適合拿來和不死者戰鬥.
+83,Silver Crossbow,銀質十字弓,A silver crossbow especially effective against the undead.,對不死者特別有效的銀質十字弓.
+84,Staff of Wolves,狼之杖,Staff of a wolfman mage. Imbued with earthen powers.,狼人法師的杖.附有大地魔法.
+85,Batwing Bow,蝙蝠翼弓,Bow forged of a great bat's remains. It may break an opponent's defenses.,用大蝙蝠的遺骸打造的弓.能破壞對手的防禦.
+86,Bonecrusher,碎骨者,"A terribly frightening axe, seemingly forged with the hardened bones of an undead. It has a great chance of stunning an opponent.",一把令人恐懼的斧頭，看似用不死生物的堅硬骨頭鍛造而成。它有很大的機會使對手暈眩。
+87,Dark Staff,黑暗法杖,A staff that harnesses the dark power of the underworld.,駕馭冥府暗黑魔力的法杖.
+88,Earthen Sceptre,大地權杖,A staff that harnesses the earthen power below the wielder.,聚集大地之力的法杖.
+89,Elven Sword,精靈劍,A highly decorative weapon wielded by Elven warriors.,精靈戰士所有的極具裝飾性的武器。
+90,Fomorian Bow,弗摩爾族之弓,A bow used by Fomorian hunters.,弗摩爾族獵人使用的弓.
+91,Fomorian Staff,弗摩爾族法杖,A staff of a Fomorian mage.,弗摩爾族法師的法杖.
+92,Fomorian Dagger,弗摩爾族匕首,A crude blade used by Fomorian rogues.,弗摩爾族俠盜使用的粗刃。
+93,Fomorian Sword,弗摩爾族長劍,A sword of a Fomorian warrior.,弗摩爾族戰士的劍.
+94,Lich's Staff,巫妖法杖,A seemingly ageless magical staff.,貌似永恆的法杖。
+95,Orcish Axe,半獸人的斧,Blunt axe of an Orcish warrior.,半獸人戰士的粗曠斧頭.
+96,Orcish Blade,半獸人刀鋒,Blunt blade of an Orcish warrior.,巨魔戰士的粗曠大劍.
+97,Rune Sword,符文劍,A blade of the spellsword.,魔劍士的劍.
+98,Silver Kris,銀質馬來短劍,Two sharp daggers made of the finest silver. Useful for hunting the undead.,
+99,Storm Sceptre,風暴權杖,A staff that harnesses the power lurking above the wielder.,能駕馭雲上之力的法杖.
+100,Adamantine Staff,精金法杖,"A staff crafted with adamantine. Surely, it will never break.",精金製成的法杖，當然，它永遠不會損壞。
+101,Black Witch Staff,黑女巫法杖,"Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned.",強大女巫的老舊黑暗法杖，可以稍微增加獲得的經驗值。
+102,Blood Sword,血劍,A fiery red blade used by the Fomorians.,弗摩爾族使用的赤紅刀刃.
+103,Bolt,魔法箭,A spear of a Stormforce warrior. Very few can wield this weapon without feeling a great shock.,風暴戰士之矛，很少有人揮舞它不會受到震盪。
+104,Dragon Dagger,龍匕首,A fine blade crafted of a Dragon's talon,使用龍爪打造的良質刀刃
+105,Dragon Sword,龍劍,A fine blade crafted of a Dragon's talon.,
+106,Earthen Pike,大地長矛,A pike of an Earth Legionnaire.,
+107,Elven Katana,精靈武士刀,A highly decorative weapon wielded by Elven warriors.,精靈戰士所有的極具裝飾性的武器。
+108,Elven Staff,精靈法杖,A highly decorative staff wielded by Elven mages.,精靈法師使用的華麗法杖.
+109,Fog Blade,霧刃,"A foggy, mysterious blade. It may blind an opponent.",霧濛濛的神秘之刃。可能會使對手致盲。
+110,Gazing Staff,凝視法杖,A powerful staff adorned with a crystal eye. Increases your ability to see.,鑲嵌水晶之眼的強力法杖，可以增加你的視野。
+111,Glacial Staff,冰河法杖,A staff of the Frozenguard that is eternally frozen.,永恆冰凍的寒霜守衛之杖.
+112,Great Jinn Staff,大神燈精靈法杖,Magic staff of a great Jinn. This weapon may cause unexpected status effects.,
+113,Reaper's Scythe,死神的鐮刀,"The followers of Ankou are fearsome,and this great scythe is their chosen weapon. It has a high chance of causing an opponent to bleed.",
+114,Royalty,王權,A sword and shield pairing fit for royal guards.,適合皇家守衛的劍盾組合.
+115,Scorcher,灼燒者,This sword of the Inferno Knights is eternally ablaze.,這把煉獄騎士的劍將永遠熾盛.
+116,Vajra,金剛杵,A powerful weapon of rain and thunder. Contains the power of lightning and may paralyze an opponent.,富含雷與暴雨之力的武器.能使對手麻痺.
+117,Vampiric Blade,吸血鬼之刃,An evil blade wielded by experienced vampires. Attacks with this weapon can slightly restore HP.,老練的吸血鬼使用的妖刀.攻擊時能稍微回復生命值.
+118,Balor Dagger,巴羅爾匕首,Dagger often carried as a sidearm by demon soldiers. Has the chance of both burning and causing an opponent to bleed.,惡魔士兵配戴的副手匕首，有機會使對手燃燒及流血。
+119,Bow of Diana,戴安娜之弓,Silver bow of a legendary huntress. It grants its wielder extra dexterity.,傳奇獵人的銀質長弓.能提升敏捷.
+120,Caladbolg,螺旋劍,"A blade with the power to cleave the tops from the hills. It may paralyze an opponent, while protecting its wielder from paralyzation.",開山刀，它可能會麻痺對手，並保護持有者免疫麻痺。
+121,Carnwennan,白柄匕首,A mythical dagger said to have the magical power to shroud its user in shadow. It may lull an opponent to sleep.,傳說中能將使用者壟罩在陰影之中的魔法匕首，它可能會使對手沉睡。
+122,Dyrnwyn,白柄,A legendary blade that blazes with fire when drawn.,出鞘時會燃燒的傳說之刃。
+123,Durandal,迪朗達爾,"A sword brought by an angel of God. Some say it is the sharpest sword in existence, easily causing an opponent to bleed.",神之使者帶來的劍，有人說這是世上最鋒利的劍，可以輕易使敵人流血。
+124,Fallen Mystic's Staff,墮落祕法師的杖,Staff of a fallen mystic.,墮落秘術士的法杖.
+125,Masamune,正宗,A beautiful blade that resemble stars in the night sky.,就像那夜空繁星般的美麗刀刃。
+126,Might,強力,An axe an shield pairing suitable of taking down great beasts.,
+127,Wyvern Blades,飛龍長劍,Crude blades made from the talons of a wyvern. These blades can cause your opponent to bleed.,用飛龍尖爪做的粗糙刀刃.它能讓你的對手流血.
+128,Arisen Draconian Archistaff,重生德肯尼亞族權杖,An archistaff granted to Draconian lords. Illuminates your path while carried.,被賞賜給德肯尼亞族領主的權杖.能照亮你眼前的道路.
+129,Arisen Minotaur Axe,重生的牛頭怪斧,"A large, crushing axe used by a minotaur.",牛頭怪所使用的巨大雙面斧。
+130,Axe of Tiamat,提亞馬特的斧,"A powerful axe forged by the remains of Tiamat, the great ancient dragon.",
+131,Bow of Tiamat,提亞馬特之弓,"A superb bow forged of the remains of Tiamat, the great ancient dragon.",使用遠古巨龍提亞馬特的遺骸打造的高超大弓.
+132,Crucifix,耶穌受難像,"A staff of the occult. Boasts strong magic power, but can also be used as a weapon. It heals its wielder when dealing damage. (heals 100HP when dealing damage)",
+133,Deathbringer,死亡使者,Blade taken from Ankou's deadly scythe. Increases orns and experience earned.,從安庫的死神鐮刀上取下的刀刃.能提升獲得的經驗和歐幣.
+134,Staff of Tiamat,提亞馬特的法杖,"A superb staff forged of the remains of Tiamat, the great ancient dragon.",使用遠古巨龍提亞馬特的遺骸打造的優良法杖.
+135,Stone Dagger,石化匕首,"A dagger, once a fixture upon a noble statue.  It has a small chance of petrifying an opponent.",
+136,Hood,兜帽,A simple hood.,就是個兜帽.
+137,Leather Hat,皮革帽子,A leather hat.,一頂皮革帽。
+138,Draconian Cowl,德肯尼亞族風帽,A cowl of a Draconian rogue.,德肯尼亞族俠盜風帽。
+139,Draconian Hood,德肯尼亞族兜帽,A hood of a Draconian mage,
+140,Iron Helmet,鐵頭盔,An old iron helmet,
+141,Rune Helmet,符文頭盔,Mystic armor that boasts higher magic defense,
+142,Snakeskin Cowl,蛇皮風帽,A cowl made of great snake's remains.,用大蛇遺骸製成的風帽.
+143,Count's Hood,伯爵的兜帽,"Hood of a count. It's quite stylish, really",
+144,Dark Mage Hood,暗黑法師兜帽,Blackened hood of an undead mage. Increases orns earned.,不死法師的染黑兜帽.增加獲得的歐幣.
+145,Hood of Wolves,群狼的兜帽,Hood of a wolfman. Offers decent physical defense.,狼人的兜帽.能提供可觀的物理防禦力.
+146,Mythril Helmet,秘銀頭盔,Silver armor that is quite protective.,可提供防護的銀色裝甲。
+147,Ancient Hood,遠古兜帽,A seemingly ageless yet pristine hood.,看起來很新的兜帽.
+148,Drake Helmet,龍獸頭盔,Heavy armor smithed of dragon scale.,覆蓋著龍鱗的厚重裝甲.
+149,Fomorian Hood,弗摩爾族兜帽,A hood worn by Fomorian mages.,弗摩爾族法師所穿戴的兜帽。
+150,Adamantine Helmet,精金頭盔,"A helmet smithed of adamantine. Surely, it will never break.",精金製成的頭盔，當然，它不會損壞。
+151,Dark Elf Cowl,黑暗精靈的風帽,Worn cowl of a dark elf.,黑暗精靈的破舊風帽.
+152,Dark Elf Hood,黑暗精靈兜帽,Worn hood of a dark elf.,黑暗精靈的破舊兜帽.
+153,Witch's Hat,女巫帽,"The symbolic headwear of Carman, the banished witch.",被放逐的女巫卡門的象徵性頭飾.
+154,Wyvern Helmet,飛龍頭盔,An exotic helmet made of wyvern skin.,用飛龍皮做的高級頭盔.
+155,Chainmail,鎖子甲,Armor made of chainmail,
+156,Dingy Robe,骯髒的長袍,A smelly old robe.,臭臭的舊法袍.
+157,Goblin Armor,哥布林盔甲,Light armor of a goblin.,哥布林的輕裝甲。
+158,Hard Leather Armor,重皮革盔甲,Light armor reinforced with hardened leather. Offers fair protection from the elements.,由硬化皮革加工而成的輕裝甲，對於元素攻擊提供直接地保護。
+159,Iron Armor,鐵甲,Heavy armor made of iron,
+160,Leather Jacket,皮外套,A simple leather jacket.,就是個皮革外套.
+161,Simple Robe,簡易的長袍,A simple mage's robe. Offers a small amount of magic protection.,就是個法師的長袍.稍微有點魔法防禦力.
+162,Bearskin,熊皮,Armor made of the hide of a bear.,由熊身上所取得的盔甲。
+163,Draconian Armor,德肯尼亞族盔甲,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+164,Draconian Garb,德肯尼亞族皮甲,Body coverings of a Draconian rogue.,德肯尼亞族俠盜罩衫。
+165,Draconian Robe,德肯尼亞族法袍,A robe of a Draconian mage.,德肯尼亞族法師長袍。
+166,Rune Armor,符文盔甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+167,Snakeskin Armor,蛇皮盔甲,Armor made of great snake's remains.,大蛇遺體製成的盔甲。
+168,Count's Garment,伯爵的服裝,"Cloak of a count. It's quite stylish, really.","伯爵的披風.蠻潮的,真的啦."
+169,Dark Garb,黑暗皮甲,Dark garb of an undead wanderer. Increases orns earned.,
+170,Dark Mage Robe,暗黑法師長袍,Blackened robe of an undead mage. Increases orns earned.,被不死族法師染黑的法袍.能增加獲得的歐幣.
+171,Fur Coat,毛皮大衣,Coat made of fur of a wild beast.,野獸毛皮大衣。
+172,Hobgoblin Armor,巨型哥布林盔甲,Light armor of a hobgoblin.,巨型哥布林的輕裝甲.
+173,Lizarr Armor,蜥蜴人盔甲,Armor of a Lizarr warrior.,蜥蜴人戰士的盔甲.
+174,Mythril Armor,秘銀盔甲,Silver armor that is quite protective.,可提供防護的銀色裝甲。
+175,Robe of Wolves,群狼的法袍,Robe of a wolfman.,狼人的法袍.
+176,Ancient Robe,遠古法袍,A seemingly ageless yet pristine robe.,看起來嶄新的法袍.
+177,Drake Armor,龍獸盔甲,Heavy armor smithed of a dragon scale.,
+178,Fomorian Armor,弗摩爾族盔甲,Heavy armor worn by Fomorian warriors.,弗摩爾族戰士穿的重裝甲.
+179,Fomorian Garb,弗摩爾族皮甲,Light armor worn by Fomorian warriors.,弗摩爾族戰士所穿的輕裝甲.
+180,Fomorian Robe,弗摩爾族長袍,A robe worn by Fomorian mages.,弗摩爾族法師所穿的法袍.
+181,Great Bearskin,完美的熊皮肩,Protective armor made of the hide of a great bear.,由強大的熊身上所取得的完美盔甲。
+182,Wolfskin,狼皮,Light armor crafted of a wolf's remains.,狼身製作而成的輕裝甲。
+183,Adamantine Armor,精金盔甲,"Armor smithed of adamantine. Surely, it will never break.","用精金精煉而成的盔甲.理所當然的,它恆久不壞."
+184,Dark Elf Garb,黑暗精靈皮甲,Worn garb of a dark elf.,黑暗精靈穿的破舊皮甲.
+185,Dark Elf Robe,黑暗精靈法袍,Worn robe of a dark elf.,黑暗精靈的破舊長袍.
+186,Harpy's Feathers,哈比的羽毛,"Crude armor made of the remains of a harpy.  Does not offer much defense, but raises your dexterity.",
+187,Wyvern Armor,飛龍盔甲,An exotic chest guard made of wyvern skin.,用飛龍皮做的高級胸甲.
+188,Wyvern Chestmail,飛龍鎖甲,An exotic chest guard made of wyvern skin.,用飛龍皮做的高級胸甲.
+189,Reaper's Robe,死神的法袍,"The blackened robe of Ankou, the henchman of Death. Slightly increases orns earned. It is most fitting for the most skilled of mages.",傳說中的死神安庫身上所攜帶暗到發黑的長袍。穿上它能稍微增加歐幣獲取，這件裝備很適合老練的法師穿戴。
+190,Wyvern Robe,飛龍法袍,An exotic robe made of wyvern skin.,用飛龍皮做的高級法袍.
+191,Chainmail Leggings,鎖子腿甲,Armor made of chainmail.,鎖鏈做的盔甲.
+192,Goblin Boots,哥布林長靴,Boots of a goblin.,哥布林的長靴.
+193,Hard Leather Boots,堅硬皮革長靴,Sturdy leather boots. Offers extra protection.,堅固的皮靴，提供額外的保護。
+194,Heavy Boots,重型長靴,"Heavy boots, made to endure most weather conditions.",做來面對各種天氣狀況的靴子.
+195,Leather Boots,皮靴,These boots were only made for walking.,只能用來走路的靴子.
+196,Draconian Boots,德肯尼亞族長靴,Boots of a Draconian rogue.,德肯尼亞族俠盜長靴。
+197,Mage's Boots,法師長靴,Stylish boots of a mage.,時髦的法師長靴。
+198,Rune Leggings,符文腿甲,Mystical armor that boasts higher magical defense.,
+199,Boots of Wolves,狼之長靴,Boots of a wolfman.,狼人長靴。
+200,Hobgoblin Boots,巨型哥布林長靴,Boots of a hobgoblin.,巨型哥布林的長靴.
+201,Lizarr Boots,蜥蜴人長靴,Boots of a Lizarr warrior.,蜥蜴人戰士的長靴.
+202,Lizarr Leggings,蜥蜴人腿甲,Armor of a Lizarr warrior.,蜥蜴人戰士的盔甲.
+203,Mythril Leggings,秘銀腿甲,Silver armor that is quite protective.,可提供防護的銀色裝甲。
+204,Ancient Boots,遠古長靴,A seemingly ageless yet pristine pair of boots.,看起來嶄新的靴子.
+205,Drake Boots,龍獸長靴,Heavy armor smithed of dragon scale.,覆蓋著龍鱗的厚重裝甲.
+206,Drake Leggings,龍獸腿甲,Heavy armor smithed of a dragon scale.,
+207,Fomorian Boots,弗摩爾族長靴,Boots worn by Fomorian mages.,弗摩爾族法師穿的長靴.
+208,Fomorian Leggings,弗摩爾族腿甲,Leg armor worn by Fomorian warriors,
+209,Adamantine Leggings,精金腿甲,"Leg armor smithed of adamantine. Surely, it will never break.",
+210,Dark Elf Boots,黑暗精靈長靴,Worn boots of a dark elf.,黑暗精靈的破舊長靴.
+211,Wyvern Boots,飛龍長靴,Exotic boots made of wyvern skin.,用飛龍皮做的高級長靴.
+212,Wyvern Leggings,飛龍腿甲,"Exotic, heavy leg armor made of wyvern skin.",用飛龍皮做的高級厚重腿甲.
+213,Wyvern Mage's Boots,飛龍法師的長靴,Exotic boots made of wyvern skin.,用飛龍皮做的高級長靴.
+214,Amulet,護身符,A simple amulet. Slightly raises attack power.,簡單的護身符，少量增加物攻。
+215,Belt,腰帶,A standard belt. Improves your dexterity.,很基本款的腰帶，稍微提高一點敏捷性。
+216,Iron Ring,鐵戒指,A standard ring. You feel slightly stronger while wearing it.  Slightly raises defense.,
+217,Blue Gem,藍寶石,An odd blue gem. Raises MP when equipped.,奇怪的藍色寶石.裝備時能提升魔力值.
+218,Green Gem,綠寶石,An odd green gem. Raises magic power when equipped.,奇怪的綠寶石.裝備它能提升魔攻.
+219,Monster Tome,魔物之典,A tome of common monsters. Slightly boosts experience earned.,普通的魔物之典.能稍微提升獲得的經驗值.
+220,Red Gem,紅寶石,An odd red gem. Raises HP when equipped.,奇怪的紅色寶石，裝備它會增加生命值。
+221,Silver Amulet,銀質護身符,"A shiny, silver amulet. Raises attack power.",閃亮亮的銀質護身符.能提升物攻.
+222,Steel Belt,鐵腰帶,A belt fashioned with steel. Improves your dexterity and defense.,鋼製腰帶，可以增加你的敏捷和物防。
+223,Steel Ring,鋼鐵之戒,A ring made of steel. Raises defense when worn.,用鋼製成的戒指.戴上它能提升物防.
+224,Blue Crystal,藍水晶,An odd blue crystal. Boosts MP when equipped.,一個奇怪的藍色水晶，裝備時可以增加魔力值。
+225,Coin Purse,零錢包,A bag for coins. Slightly raises gold earned.,裝零錢的袋子.能稍微提升獲得的金錢.
+226,Crystal Eye,水晶眼,A strange eye imbued with even stranger magic. Keeping this in your hand will slightly boost all stats.,有著詭異魔法加持的奇怪眼球.拿在手上能稍微提升身體素質.
+227,Green Crystal,綠水晶,An odd green crystal. Boosts magic power when equipped.,奇特的綠水晶.裝備時能提升魔力.
+228,Lantern,提燈,Keep this in your hand at night to increase visibility. You may attract more monsters as well.,拿在手上能增加視野. 也能吸引更多的怪物.
+229,Mythril Amulet,秘銀護身符,A rare amulet made of mythril. Raises attack power.,秘銀製成的稀有護身符，可以提升物攻。
+230,Mythril Ring,秘銀戒,A ring made of mythril. Raises defense when worn.,秘銀製成的戒指，穿戴時可以增加物防。
+231,Red Crystal,紅色水晶,An odd red crystal. Boosts HP when equipped.,一顆奇怪的紅色水晶，裝備它可以增加生命值。
+232,Earthen Belt,大地腰帶,Belt of Earthen Legion. Grants protection from earthen magic.,大地軍團的腰帶，保護穿戴者減免地屬性法術的傷害。
+234,Enchanted Skull,附魔顱骨,A skull enchanted with strange magic. Attracts more monsters to you when carried.,附有奇妙魔法的顱骨.戴上它能更多吸引怪物.
+235,Flame Belt,火焰腰帶,Belt of the Inferno Knights. Grants protection from fire.,煉獄騎士的腰帶.能抵禦烈火.
+236,Frost Belt,寒霜腰帶,Belt of the Frozenguard. Grants protection from ice.,寒霜守衛的腰帶.能抵擋寒氣.
+237,Mage's Ring,法師戒指,A strange magical ring. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magical power.,
+238,Platinum Amulet,白金護身符,A rare platinum amulet. Raises attack power.,罕見的白金護身符.能提升物理攻擊力.
+239,Storm Belt,風暴腰帶,Belt of Stormforce. Grants protection from lightning.,風暴之力的腰帶.能抵抗雷電.
+240,Troll's Charm,巨魔護符,Strange amulet of a troll. Boosts most stats.,巨魔的神奇護身符，可以增加許多屬性。
+241,Mystic's Ring,秘術士之戒,A strange magical ring. Those who do not possess physical strength can equip this ring to sacrifice magic for attack power.,適合弱雞的奇特魔戒，它會犧牲魔攻以換取物攻。
+242,Great Monster Tome,大魔物之典,A large tome of monster knowledge. Increases experience earned.,充滿魔物知識的巨著.能增加獲得的經驗值.
+243,Draconian Leggings,德肯尼亞族腿甲,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+244,Magician's Robe,魔法使的長袍,A simple robe worn by students of magic.,魔法學徒穿戴的簡易長袍。
+245,Magician's Hood,魔法使的兜帽,The hood of a student of magic.,魔法學徒的兜帽.
+246,Gnome's Hat,侏儒帽,A gnome's red hat.,侏儒的紅帽子.
+247,Adamantine,精金,An unbreakable chunk of adamantine. Used to craft extremely durable weapons and armor.,打不破的精金礦石.用來打造耐用的武器和裝甲.
+248,Ancient Stone,遠古之石,An extremely ancient stone. Useful for upgrading powerful weapons.,非常古老的石頭，它可以用來升級強大的武器。
+249,Bone,骨頭,A fragment of sturdy bone. Useful for crafting and upgrading weapons or armor.,堅硬的骨頭碎片，它可以用來製作與升級武器或防具。
+250,Broken Statue,破損雕像,A broken piece of a statue. It may be useful in upgrading rarer weapons.,殘破的雕像碎片。能用來升級稀有武器。
+251,Cavestone,洞穴石,Stone mined from an eerie cave. Useful for upgrading powerful weapons.,從陰森恐怖的洞穴中開採的石頭。對於升級強大的武器很有用。
+252,Darkstone,闇之石,A rare piece of darkstone. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的暗黑石，它可以用來製作與升級魔法武器或防具。
+253,Demonic Ore,惡魔礦石,Unrefined ore of the underworld. Useful for upgrading demonic weapons.,來自地底的原礦靈石.能用來強化惡魔的武器.
+254,Draconite,德肯靈石,A rare piece of draconite. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的德肯靈石，它可以用來製作與升級魔法武器或防具。
+255,Dragonite,龍靈石,A rare piece of dragonite. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的龍靈石，它可以用來製作與升級魔法武器或防具。
+256,Earthstone,地之石,A rare piece of earthstone. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的地石，它可以用來製作與升級魔法武器或防具。
+257,Elstone,精靈石,An odd stone often used to craft Elven weapons.,常用來打造精靈武器的奇怪石頭.
+258,Eyestone,眼石,Crystal eye fallen from a great gazer. Useful for upgrading powerful weapons.,巨大凝視者掉落的水晶眼球.能用來升級強力的武器.
+259,Firestone,火之石,A rare piece of firestone. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的火石，它可以用來製作與升級魔法武器或防具。
+260,Fogstone,霧之石,"Strange, transparent material. Useful for upgrading special weapons.",奇怪的透明材料。對於升級特殊武器很有用。
+261,Hardened Steel,硬化鋼,"Steel, yet seemingly more durable than usual. Useful in upgrading stronger weapons.",似乎比平常更耐用的鋼。在升級更強大的武器時很有用。
+262,Hide,獸皮,A small scrap of animal hide. Useful for crafting and upgrading weapons or armor.,一小塊動物皮碎片，它可以用來製作與升級武器或防具。
+263,Iron,鐵,A small piece of iron ore. Useful for crafting and upgrading weapons or armor.,一小塊鐵礦石，它可以用來製作與升級武器或防具。
+264,Leather,皮革,A small scrap of leather. Useful for crafting and upgrading weapons or armor.,一個皮革小碎片，它可以用來製作與升級武器或防具。
+265,Lightningstone,雷之石,A rare piece of lightningstone. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的雷石，它可以用來製作與升級魔法武器或防具。
+266,Mythril,秘銀,A small piece of mythril ore. Useful for crafting and upgrading weapons or armor.,一小塊秘銀礦石，它可以用來製作與升級武器或防具。
+267,Nightstone,夜之石,A hard stone that resembles the night sky.,與那夜空相似之石.
+268,Perfect Runestone,完美符文石,A flawless chunk of runestone. Useful for crafting and upgrading magical weapons or armor.,一大塊毫髮無傷的符文寶石.它可以用來製作與升級魔法武器或防具。
+269,Platinum,白金,A small piece of platinum ore. Useful for crafting and upgrading weapons or armor.,一小塊白金礦石，它可以用來製作與升級武器或防具。
+270,Pure Darkstone,純淨的暗黑石,Pure darkstone. Useful for upgrading extremely dark weapons.,純淨的暗黑石。升級暗黑武器很有用處。
+271,Pure Draconite,純淨的德肯靈石,A rare chunk of pure draconite. Useful for crafting and upgrading magical weapons or armor.,一大塊稀有的純淨德肯靈石，它可以用來製作與升級魔法武器或防具。
+272,Red Draconite,紅德肯靈石,A chunk of fiery draconite. Useful for upgrading powerful weapons.,大塊的德肯靈石.能用來升級強力的武器.
+273,Runestone,符文石,A rare piece of runestone. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的符文寶石.它可以用來製作與升級魔法武器或防具。
+274,Scalestone,鱗石,A chunk of nearly fossilized scales. Useful for upgrading rare weapons.,非常堅硬的鱗片.可用來強化稀有的武器.
+275,Silver,銀,A small piece of silver ore. Useful for crafting and upgrading weapons or armor.,一小塊銀礦石，它可以用來製作與升級武器或防具。
+276,Steel,鋼,A small piece of steel ore. Useful for crafting and upgrading weapons or armor.,一小塊鋼鐵礦石，它可以用來製作與升級武器或防具。
+277,Stone,石頭,A solid piece of stone. Useful for crafting and upgrading weapons or armor.,一塊堅固的石頭，它可以用來製作與升級武器或防具。
+278,Undead Bone,不死族之骨,Bones of the undead can rarely be so strong.,不死族的骨頭難得這麼強壯。
+279,Vampiric Ore,吸血鬼礦石,Ore seemingly treasured by the lords of the night. This can be used to upgrade weapons of theirs.,似乎是黑夜領主珍藏的礦石，可以用來升級武器。
+280,Waterstone,水之石,A rare piece of waterstone. Useful for crafting and upgrading magical weapons or armor.,一塊稀有的水石.它可以用來製作與升級魔法武器或防具。
+281,Witchstone,女巫石,Strange stone crafted by a great witch.,
+282,Wolf's Blood,狼之血,What a strange substance. What could it ever be for?,真是奇怪的東西。是能用來幹嘛？
+283,Wood,木頭,A solid piece of wood. Useful for crafting and upgrading weapons or armor.,一塊堅硬的木頭，它可以用來製作與升級武器或防具。
+284,Boots of Storm,風暴長靴,Boots of a mage who controlled the skies. Grants protection from lightning.,駕馭蒼穹的法師穿的靴子.能抵抗雷電.
+285,Boots of Fire,火靴,Boots of a mage who controlled the heat. Grants protection from fire.,控制熱能的魔法長靴，能抵抗火屬性。
+286,Rune Staff,符文法杖,‎,
+287,Sea Axe,海之斧,An axe enchanted with the power of the raging sea.,附有深海之力的斧頭.
+288,Wyvern Hood,飛龍兜帽,An exotic hood made of wyvern skin.,用飛龍皮做的高級兜帽.
+289,Arisen Batwing Bow,重生蝙蝠翼弓,Bow forged of a great bat's remains. It may break an opponent's defenses.,用大蝙蝠的遺骸打造的弓.能破壞對手的防禦.
+290,Arisen Staff of Wolves,重生群狼法杖,Staff of a wolfman mage. Imbued with earthen powers.,狼人法師的杖.附有大地魔法.
+291,Boots of Earth,大地長靴,Boots of a mage who controlled the ground below. Grants protection from earthen magic.,控制大地能量的魔法長靴，能抵抗地屬性。
+292,Boots of the Sea,海之長靴,Boots of a mage who controlled the tides. Grants protection from water & ice.,可控制潮汐的法師穿戴的靴子，它可以保護穿戴者免受水與冰的侵害。
+293,Longbow,長弓,A hunter's longbow.,一個獵人的長弓.
+294,Silk,絲,Silk of a great spider. Useful for upgrading rare weapons.,大蜘蛛製造的絲，可以用來升級稀有武器。
+295,Silk Crossbow,絲綢十字弓,A sturdy crossbow fastened with a thread of strong silk.,結實的絲線製成的堅固弩箭。
+296,Was,權杖,A symbol of control over the force of chaos.,
+297,Ichaival,魔弓,Bow of the underworld.,
+298,Shiva's Bow,溼婆之弓,A decorative bow enchanted with the power of ice. It can easily cause an opponent to freeze.,附有冰之魔力的裝飾弓.能輕易使對手凍結.
+299,Woodblade,木刀,A mystical sword made of hardened wood.,硬木製成的神秘之劍。
+300,Arisen Ankh,重生生命之符,"A strange, ancient staff. It seems it can cast spells and also be used as a weapon.",奇怪的遠古法杖.似乎能用來施法或是物理攻擊用.
+301,Grioarvolr,格里歐爾芙,A staff that brings down giants. It may break an opponents magical defenses.,打倒巨人的法杖，它可以突破對手的魔防。
+302,Pure Waterstone,純淨的水石,A rare chunk of pure waterstone. Useful for crafting and upgrading powerful magical weapons or armor.,一大塊稀有的純淨水石，它可以用來製作或升級強力的魔法武器或防具。
+303,Spear,茅,A blade fashioned upon an extended shaft of wood.,附在長木柄尖端上的刀片。
+304,Wolfbane,狼之災,A magical blade representing the unrelenting force of Fenrir the wolf. It can temporarily decrease your opponent's defense upon use.,展現魔狼芬里爾之力的魔法劍.能暫時降低對手的物防.
+305,Halberd,戟,An axe blade atop a long pole. Useful for keeping distance while striking.,有著長柄的斧頭。適用於保持距離作攻擊。
+306,Glaive,關刀,A curved blade fashioned upon an extended shaft of wood.,用木頭裝飾的彎刀.
+307,Grand Sword,大劍,A broad sword fit for a court's guard.,適合宮廷守衛的闊劍。
+308,Royal Hood,皇家兜帽,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+309,Grand Armor,大鎧,Armor fit for a court's guard.,適合宮廷守衛的盔甲.
+310,Warlock Robe,術士長袍,Robe of a wise warlock.,明智術士長袍。
+311,Royal Dagger,皇家匕首,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+312,Warlock Staff,術士法杖,"An oddly green staff, seemingly owned by a wise warlock.",奇怪的綠色法杖，似乎為一位明智的術士所擁有。
+313,Warlock Boots,術士長靴,Boots of a wise warlock.,明智術士長靴。
+314,Grand Leggings,高級腿甲,Leg armor fit for a court's guard.,適合宮廷守衛的腿甲.
+315,Battlemage Boots,戰鬥法師長靴,Some magic users are also skilled in combat. These are the boots of one.,有些法師也很擅長格鬥.這是他們的靴子.
+316,Royal Chestplate,皇家胸甲,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+317,Royal Boots,皇家長靴,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+318,Royal Helmet,皇家頭盔,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+319,Warlock Hat,術士帽,A large hat of a wise warlock.,明智術士的大帽子。
+320,Battlemage Armor,戰鬥法師盔甲,Some magic users are also skilled in combat. This is the armor of one.,有些魔法師也擅長格鬥.這就是他們的盔甲.
+321,Royal Longbow,皇家長弓,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+322,Battlemage Helmet,戰鬥法師頭盔,Some magic users are also skilled in combat. This is the helmet of one.,有些法師對格鬥也略知一二.這頭盔就是他們用的.
+323,Ljosalfar Boots,光之精靈長靴,Boots of a Ljosalfar warrior.,光之精靈戰士的長靴。
+324,Ljosalfar Staff,光之精靈法杖,Great staff of a Ljosalfar mage.,光之精靈法師強大的法杖.
+325,Lightstone,光之石,A glossy white material used in Ljosalfar weaponry.,光之精靈的兵器所使用的光滑原材.
+326,Ljosalfar Hood,光之精靈兜帽,Hood of a Ljosalfar mage.,光之精靈法師的兜帽.
+327,Ljosalfar Sword,光精靈之劍,A gleaming white blade of a Ljosalfar warrior.,光之精靈戰士的亮白長劍.
+328,Naga Halberd,那伽戟,Crude weapon of a Naga warrior,
+329,Ljosalfar Sceptre,光之精靈權杖,An extremely versatile magical Ljosalfar sceptre. Can be used as either a magic staff or weapon.,極為萬用的光之精靈權杖.做為法杖或是物理攻擊用都很適合.
+330,Pure Lightstone,純淨的光石,Rare white material used in Ljosalfar weaponry. Can be used to upgrade powerful weapons.,光之精靈的武裝所使用的雪白原石.可以用來升級強力的武器.
+331,Cursed Ring,詛咒之戒,A ring of the cursed Fafnir. Increases your attack and magic power at the expense of your longevity.,被詛咒的法夫納的戒指.能折損壽命來換取物理及魔法攻擊力的提升.
+332,Cursed Monster Tome,詛咒的魔物之典,A tome recounting the cursed stories of Fafnir. Increases experience earned at the expense of your potential.,訴說著邪龍法夫納被詛咒事蹟的巨典.降低你的潛能來換取經驗值的提升.
+333,Gorgon's Staff,戈爾貢之杖,A seemingly ageless magic staff.,
+334,Ljosalfar Armor,光之精靈盔甲,Chestplate of a Ljosalfar knight.,光之精靈騎士的護胸.
+335,Ljosalfar Cowl,光之精靈風帽,Cowl of a Ljosalfar rogue.,光之精靈俠盜的風帽.
+336,Ljosalfar Helmet,光之精靈頭盔,Helmet of a Ljosalfar warrior.,光之精靈戰士的頭盔.
+337,Ljosalfar Garb,光之精靈皮甲,Light armor of a Ljosalfar warrior.,光之精靈戰士的輕裝甲.
+338,Naga Staff,那伽法杖,Crude staff of a Naga mage.,那伽法師的殘暴法杖.
+339,Ljosalfar Robe,光之精靈法袍,Robe of a Ljosalfar mage.,光之精靈法師的法袍.
+340,Arisen Bow of Scales,重生鱗之弓,"Although the Lizarr seemed untrained in advanced weaponry, these fine bows have been found within their settlements. This bow is enchanted with the power of ice and water.",雖然蜥蜴人沒有受過先進的武器訓練，但在他們的居住地發現這些精美的弓箭，這把弓充滿了冰與水之力。
+341,Leather Belt,羽毛腰帶,A leather belt. Improves your dexterity.,皮革腰帶.能提升敏捷.
+342,Grand Helmet,大頭盔,A helmet fit for a court's guard.,適合宮廷守衛的頭盔.
+343,Wyvern Cowl,飛龍風帽,An exotic cowl made of wyvern skin.,用飛龍皮做的高級風帽.
+344,Woodland Staff,林地法杖,A mystical staff made of hardened wood.,硬木製成的神祕法杖。
+345,Soul,靈魂,Soul of a felled gladiator. Useful in upgrading rarer weapons and equipment.,墮落鬥士之魂.能升級稀有的武器和裝備.
+346,Greater Soul,強大靈魂,Soul of a great felled gladiator. Useful in upgrading rarer weapons and equipment.,強大的鬥士之魂.能用來升級稀有的武器和裝備.
+347,Arena Token,競技場代幣,A token permitting access to battle in the Arena.,允許進入競技場的代幣。
+348,Deadwood Staff,死木法杖,A staff forged of long dead wood.,用古早的死木打造的法杖.
+349,Balor Sword,巴羅爾之劍,A commonly used sword of knights of Balor.,巴羅爾騎士常使用的劍。
+350,Arisen Balor Dagger,重生巴羅爾匕首,Dagger often carried as a sidearm by demon soldiers.  Has the chance of both burning and causing an opponent to bleed.,
+351,Arcane Robe,奧術長袍,The robe of one who practices rare magic. Slightly raises total mana.,施展稀有魔法之人的法袍.能稍微提升魔力值.
+352,Arcane Hat,奧術帽,The hat of one who practices rare magic. Slightly raises total mana.,練習稀世魔法之人的帽子.能稍微提升魔力值.
+353,Arcane Boots,奧術長靴,The boots of one who practices rare magic. Slightly raises total mana.,練習稀世魔法之人的長靴.能稍微提升法力值.
+354,Fallen Wanderer's Dagger,墮落流浪漢的短刀,A sharp blade carried by wandering rogues. It has a great chance to cause an opponent to bleed.,遊蕩的俠盜持有的鋒利劍刃.有大機率造成對手流血.
+355,Colossal Armor,巨像盔甲,Armor forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense.,巨像殘骸製成的盔甲，它會犧牲魔防以增加大量的物防。
+356,Colossal Helmet,巨像頭盔,Helmet forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense.,巨像殘骸製成的頭盔，它會犧牲魔防以增加大量的物防。
+357,Colossal Leggings,巨像腿甲,Leg armor forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense.,巨像殘骸製成製成的腿甲，它會犧牲魔防以增加大量的物防。
+359,Sandstorm,沙塵暴,A rare scimitar of the sands. Slightly increases gold earned.,稀有的沙之彎刀。稍微增加賺取的金幣。
+360,Sandstone,沙之石,Material made of hardened sand. Useful for upgrading powerful weapons.,由堅硬的沙子所製成的材料，可用來升級強力的武器。
+362,Sun Hat,遮陽帽,Magic attire imbued with solar energy.,注入太陽之力的魔法裝。
+363,Solar Hood,太陽兜帽,Light armor imbued with celestial might.,灌輸天堂之力的輕裝甲。
+364,Solarite,太陽靈石,Rare chunk of solarite. Useful in upgrading powerful equipment.,太陽靈石.能用來升級強力的裝備.
+365,Sun Boots,陽光之靴,Magic attire imbued with solar energy.,注入太陽之力的魔法裝。
+366,Sun Robe,太陽法袍,Magic attire imbued with solar energy.,注入太陽之力的魔法裝。
+367,Sun Staff,太陽法杖,A staff imbued with celestial might.,附有天外之力的法杖.
+368,Meteor Armor,隕星盔甲,Exquisite armor forged of meteoric solarite.,用天降隕石打造的精美盔甲.
+369,Meteor Helmet,隕星頭盔,Exquisite armor forged of meteoric solarite.,用天降隕石打造的精美盔甲.
+370,Meteor Hammer,隕星錘,An exquisite hammer forged of meteoric solarite.,用天降隕石打造的精美大錘.
+371,Meteor Leggings,隕星腿甲,Exquisite armor forged of meteoric solarite.,用天降隕石打造的精美盔甲.
+372,Solar Garb,太陽皮甲,Light armor imbued with celestial might.,灌輸天堂之力的輕裝甲。
+373,Solar Bow,太陽弓,A bow imbued with celestial might.,灌輸天堂之力的弓。
+374,Lunar Dagger,太陰匕首,An azure dagger crafted of hard titanium.,用泰坦原石打造的蔚藍色匕首.
+375,Titan Axe,泰坦巨斧,An azure axe crafted of hard titanium.,用泰坦原石打造的蔚藍色巨斧.
+376,Moon Staff,月之杖,An azure staff crafted of hard titanium.,用泰坦原石打造的蔚藍色法杖.
+377,Lunar Garb,太陰皮甲,Azure light armor crafted of titanium.,用泰坦原石打造的蔚藍色輕裝甲.
+378,Titan Armor,泰坦裝甲,Azure armor crafted of hard titanium.,用泰坦原石打造的蔚藍色盔甲.
+379,Moon Robe,月亮長袍,Azure attire adorned with titanium.,用泰坦原石裝飾的衣服.
+380,Lunar Helmet,太陰頭盔,Azure light armor crafted of titanium.,用泰坦原石打造的蔚藍色輕裝甲.
+381,Moon Hat,月之帽,Azure attire adorned with titanium.,用泰坦原石裝飾的衣服.
+382,Moon Boots,月之長靴,Azure attire adorned with titanium.,用泰坦原石裝飾的衣服.
+383,Lunar Boots,太陰長靴,Azure light armor crafted of titanium.,用泰坦原石打造的蔚藍色輕裝甲.
+384,Titan Leggings,泰坦腿甲,Azure armor crafted of hard titanium.,用泰坦原石打造的蔚藍色盔甲.
+385,Blight Pendant,枯萎吊飾,A pendant often worn by dragoons. It protects its wearer from blight.,龍騎士都會有的吊飾.戴上它能防止被枯萎.
+386,Steady Pendant,堅毅吊飾,A sturdy pendant often worn by centurions. It protects its wearer from being stunned.,通常由百夫長穿戴的堅固吊飾，它可以讓穿戴者免疫眩暈。
+387,Waking Pendant,清醒吊飾,A magical pendant utilized by studious scholars. It prevents its wearer from falling asleep.,學者所配戴的魔法吊飾.戴上它能防止被睡.
+388,Titan Helmet,泰坦頭盔,Azure armor crafted of hard titanium.,用泰坦原石打造的蔚藍色盔甲.
+389,Antidote Pendant,解毒吊飾,A pendant utilized by hunters. It protects its wearer from poison.,獵人所使用的吊飾，它可以保護穿戴者免疫中毒。
+390,Titanium,泰坦原石,A large chunk of hardened titanium. Useful in upgrading powerful equipment.,碩大的堅固泰坦原石.用來升級強力的裝備.
+391,Golden Crystal,金水晶,Golden crystal of the sun. Increase physical prowess at the expense of magical ability.,
+392,Azure Crystal,蔚藍水晶,Azure crystal of the night. Increases magical ability at the expense of physical prowess.,
+393,Balor Katana,巴羅爾武士刀,Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed.,巴羅爾俠盜使用的武士刀，有高機率使敵人流血。
+394,Balor Archistaff,巴羅爾權杖,Staff wielded by Balor mages. It increases mana at the expense of health.,巴羅爾法師的法杖.能藉由犧牲體力來換取魔力.
+395,Balor Armor,巴羅爾盔甲,Heavy armor typically worn by Balor warriors.,巴羅爾戰士標配的重裝甲.
+396,Balor Robe,巴羅爾法袍,"A dark, dusty robe typically worn by Balor mages.",巴羅爾法師標配的暗黑法袍.
+397,Balor Helmet,巴羅爾頭盔,A heavy helmet typically worn by Balor warriors.,巴羅爾戰士所配戴的重型頭盔。
+398,Balor Crown,巴羅爾王冠,The fabled crown of King Balor.,傳說中的巴羅爾王冠。
+399,Balor Leggings,巴羅爾腿甲,Heavy leggings typically worn by Balor warriors,
+400,Lesser Balorite,低階巴羅爾石,A golden material useful in upgrading powerful equipment.,用來升級強力裝備的金色原石.
+401,Solar Boots,太陽靴,Light armor imbued with celestial might.,灌輸天堂之力的輕裝甲。
+402,Oxen Axe,牛斧,An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily.,貝西摩斯的斧和盾.用他的蠻力攻擊有機會暫時使對手的防禦力降低.
+403,Venin,鼠毒棒,Putrid spear of the Rat King.  It may cause poison while slightly boosting experience and orns earned.,
+404,Great Orcish Axe,強大的半獸人之斧,Blunt axe of an great Orcish warrior.,
+405,Great Orcish Blade,巨魔大劍,Blunt blade of an great Orcish warrior.,
+406,Twilight Blade,暮光之刃,Blade of the wandering twilight knights. Its thick obsidian blade is infused with the power of darkness and may cause an opponent to fall asleep.,"彌留在午夜中的騎士所持的劍.它那以黑曜石打造的刀刃充滿了暗黑的魔力,能有機會造成對手入睡."
+407,Balorite,巴爾羅靈石,A golden material useful in upgrading powerful equipment.,用來升級強力裝備的金色原石.
+408,Stone Pendant,石頭吊飾,A pendant often worn against the mighty cockatrice. It protects its wearer from petrification.,常被用來對抗雞蛇的吊飾.戴上它能防止被石化.
+409,High Draconian Robe,高等德肯尼亞族長袍,A robe of a Draconian mage.,德肯尼亞族法師長袍。
+410,High Fomorian Hood,高級弗摩爾族兜帽,A hood worn by Fomorian mages.,弗摩爾族法師所穿戴的兜帽。
+411,High Fomorian Leggings,高級弗摩爾族腿甲,Leg armor worn by Fomorian warriors.,弗摩爾族戰士穿的腿甲.
+412,High Fomorian Armor,高級弗摩爾族盔甲,Heavy armor worn by Fomorian warriors.,弗摩爾族戰士穿的重裝甲.
+413,High Fomorian Robe,高級弗摩爾族長袍,A robe worn by Fomorian mages.,弗摩爾族法師所穿的法袍.
+414,High Draconian Garb,高等德肯尼亞族皮甲,Body coverings of a Draconian rogue.,德肯尼亞族俠盜罩衫。
+415,High Draconian Armor,高等德肯尼亞族盔甲,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+416,High Draconian Cowl,高等德肯尼亞族風帽,A cowl of a Draconian rogue.,德肯尼亞族俠盜風帽。
+417,High Draconian Hood,高等德肯尼亞族兜帽,A hood of a Draconian mage,
+418,Crystal Halberd,水晶戟,A crystalline polearm carried by the most enlightened of travelers. It is well suited for adornment.,被啟蒙的旅行者所持的水晶長棍.很適合鑲嵌裝飾品.
+419,High Fomorian Sword,高等弗摩爾族之劍,A sword of a Fomorian warrior.,弗摩爾族戰士的劍.
+420,High Fomorian Staff,高級弗摩爾族法杖,A staff of a Fomorian mage.,弗摩爾族法師的法杖.
+421,Orichalcum Helmet,奧利哈鋼頭盔,A helmet made of solid orichalcum.,奧利哈鋼所製成的頭盔。
+422,Orichalcum Armor,奧利哈鋼盔甲,Armor made of solid orichalcum.,堅硬的奧利哈鋼製成的盔甲。
+423,Orichalcum Leggings,奧利哈鋼腿甲,Leg armor made of solid orichalcum.,用堅固的奧利哈鋼打造的腿甲.
+424,Orichalcum,奧利哈鋼,A solid chunk of orichalcum. Useful in upgrading hardened equipment.,堅固的奧利哈鋼礦石.能用來強化堅固的裝備.
+425,Fomor Staff,弗摩爾法杖,"A mystical staff of an elite Fomorian mage. Those who wield it cannot be burned, frozen, or paralyzed.",菁英弗摩爾族法師所持有的神祕法杖，它可以讓持有者免疫燃燒、冰凍或麻痺。
+426,Spirit of the Wood,木之靈,Ceremonial sword of a great woodland elf. It may poison an opponent.,高等林地精靈的彎刀.有機會使對手中毒.
+427,Gargouille's Dagger,石像鬼的匕首,"A dagger, once a fixture upon a noble statue. It has a small chance of petrifying an opponent.",曾經固定在高貴的雕像上的匕首.有小機率使對手石化.
+428,Dune Blade,沙丘之刃,A rare scimitar of the sands. Slightly increases gold earned.,稀有的沙之彎刀。稍微增加賺取的金幣。
+429,Axe of Typhon,堤豐的斧,"A powerful axe forged of the remains of Typhon, the great ancient dragon.",使用遠古巨龍堤豐的遺骸精心打造的強力大斧.
+430,Dokkalfar Gada,暗之精靈金剛杵,"A huge mace, favoured by esteemed Dokkalfar warriors. Has a very high chance of stunning an opponent.",
+431,Fomor Katana,弗摩爾武士刀,Katana of elite Fomorian rogues. It has a good chance of causing an opponent to bleed.,弗摩爾族精銳盜賊的武士刀.有高機率使對手流血.
+432,Fomor Sword,弗摩爾劍,A sturdy sword of an elite Fomorian warrior. One who wields it cannot have their attack power compromised.,弗摩爾族精銳戰士的劍.使用它的人攻擊力不會受到減損.
+433,Crystalis,水晶劍,A ceremonial sword of enlightened royalty. It can protect one from having their stats lowered and is well-suited for adornment.,
+434,Bow of Typhon,堤豐之弓,"A superb bow forged by the remains of Typhon, the great ancient dragon.",
+435,Staff of Typhon,堤豐法杖,"A superb staff forged by the remains of Typhon, the great ancient dragon.",
+436,Crystal Staff,水晶法杖,A magical crystalline staff carried by the most enlightened travelers. It is well suited for adornment.,歷經風霜的冒險者們都想來一把水晶棒，它的美是如此的無與倫比。
+437,High Draconian Leggings,高等德肯尼亞族腿甲,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+438,Shadow Boots,影子長靴,Dark armor of elite Balor rogues.,精銳巴羅爾暴徒的暗黑盔甲.
+439,Shadow Hood,影之兜帽,Dark armor of elite Balor rogues.,精銳巴羅爾暴徒的暗黑盔甲.
+440,Witch's Archistaff,女巫的權杖,"Old, decrepit, dark archistaff of a powerful witch. Slightly boosts experience earned.",強大女巫又老又破的暗黑權杖。略微提升了獲得的經驗。
+441,High Draconian Boots,高等德肯尼亞族長靴,Boots of a Draconian rogue.,德肯尼亞族俠盜長靴。
+442,Dalan's Robe,達藍長袍,"Crimson robe of Dalan, the exalted High Elf.",高級精靈達藍的緋紅法袍.
+443,Horus's Robe,荷魯斯的法袍,"Ivory robe of Horus, the winged protector of the skies.  What it lacks in defensive power is made up with dexterity.",
+444,Hermes' Coin Purse,愛馬仕的錢包,"A bag for coins, carried by Hermes the merchant. Slightly raises gold earned.",商人愛馬仕的零錢包.能稍微提升獲得的金錢.
+445,Cure-all,百寶丹,"A bitter green elixir that heals poison, bleeding, blight, frozen, burning, paralysis, sleep, blindness, or rot.",微苦的萬靈藥，能治癒中毒、流血、枯萎、凍結、燃燒、麻痺、入眠、致盲、腐爛。
+446,Gauntlet Key,地城鑰匙,One can use this key to enter a Gauntlet.,使用此鑰匙進入地城.
+447,Affinity Candle,引怪蠟燭,"When lit, this mysterious candle draws stronger enemies to you for a limited time.",點燃此神秘的蠟燭將在一段時間內引來更強的敵人。
+448,Super Elixir,高級秘藥,Recovers 2500 health points and 1000 mana.,回復2500生命值及1000魔力值。
+449,Super Health Potion,高級生命藥水,Recovers 2500 health points.,回復2500點生命值.
+450,Super Mana Potion,高級魔力藥水,Recovers 2500 mana.,回復2500魔力值。
+452,Shadow Katana,影刀,"A thin, pale blade granted to elite Balor warriors.",被授予給巴羅爾戰士的輕薄長劍.
+453,Jester's Outfit,小丑衣,Amusing outfit of a court jester. It increases gold earned.,有趣的宮廷小丑服，可以增加獲得的金幣。
+454,Berserk Mushroom,狂暴蘑菇,A mushroom of unknown origin. Eating it will cause one to enrage.,來路不明的磨菇.吃下它會讓人震怒.
+455,Ra's Cane,拉之手杖,"The trusty cane of Ra, the seer. Ra was obsessed with the senses of humans after losing much of his own. This staff increases your ability to see, while potentially binding your opponent.",
+456,Arcane Wand,奧術棍棒,Arcane wand of Annwn court wizards. Arcane magic was found to be particularly effective against the forces of Balor.,安溫皇室巫師的奧樹棒棒.他們發現奧術對巴羅爾的軍隊特別有效.
+457,Basilisk Tooth,巴西利斯克之牙,Thin sword forged of Baslisk remains. It has a chance to cause either poison or blight.,
+458,Magic Defense Tonic,魔防藥劑,A sour tonic that raises your magic defense in battle.,於戰鬥中提升魔防的酸藥劑。
+459,Arisen Bonecrusher,重生碎骨者,"A terribly frightening axe, seemingly forged with the hardened bones of an undead. It has a great chance of stunning an opponent.",一把令人恐懼的斧頭，看似用不死生物的堅硬骨頭鍛造而成。它有很大的機會使對手暈眩。
+460,Bandit's Hood,土匪兜帽,Heavy hood made of strong hide. Offers mild protection against the elements.,堅韌皮革製成的重型兜帽，保護穿戴者減免元素傷害。
+461,Ithra's Blade,以斯拉之劍,"Thin, cold blade of Ithra, the White Knght.  Ithra established the Frozenguard to combat the Draconian invasion.",
+462,Boreal's Staff,波蕾爾之杖,"Chilling staff of Boreal, a Frozenguard elite. It has a high chance of freezing an opponent.",寒霜守衛的菁英，波蕾爾的寒冰法杖，有高機率可以冰凍對手。
+463,Ring of Sacrifice,獻祭之戒,"A ring of certain evil. Wearing it attracts stronger monsters to you, but reduces your overall power.",毫無疑問是個邪惡的戒指。佩戴它會吸引更強大的怪物，但會降低你的整體能力。
+464,Annwn Shotel,安溫短刀,"A unique curved blade, specifically designed for escaping an opponent's defenses.",一把獨特的彎刀，特別設計來繞過對手的防禦。
+465,Balin's Left,巴林左劍,A heavy great sword carried in Sir Balin's left hand. A blow from this blade can lower an opponent's magic power when attacking.,巴林爵士拿在左手的厚重大劍.他的衝擊能降低對手的魔法攻擊力.
+466,Crooked Shotel,彎曲短刀,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This crooked shotel is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把彎刀正是其中之一.
+467,Thor's Hammer,索爾之錘,"Small, yet immensely heavy hammer of Thor.  Thor founded the Stormforce shortly before succumbing to the power of the Falling.  His hammer can easily paralyze an opponent",
+468,Excalibur,誓約聖劍,"The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding.",阿瓦隆王國亞瑟王的神兵，它可以保護持有者免疫流血。
+469,Gizmo,小玩意,"One of the concotions of Cade, the great inventor. This gizmo prevents one from having their physical or magical prowess lowered.",
+470,Cockatrice Mail,雞蛇胸甲,Chestplate forged of the remains of a mighty Cockatrice. It grants its wearer immunity from petrification.,雞蛇遺體製成的胸甲.穿上它能防止被石化.
+471,Ashen Hat,蒼白帽子,Pale attire of elite Balor mages.,精英巴羅爾法師的蒼白衣服。
+472,Coward's Boots,懦夫長靴,Boots worn by Avalon assassins. Some say the great King Arthus had a secretive hobby.,阿瓦隆刺客穿戴的長靴，謠傳亞瑟王有一些神秘的癖好.
+473,Ortanite,歐坦尼,The great blacksmith Creidhne created this alloy to forge the most powerful of weapons.,"由傳說中的鐵匠克雷迪內製造出來的材料,能打造最強力的武器."
+474,Paleblade,蒼白之刃,A pale blade often used by the most elite of Balor knights,
+475,Gadget,小發明,"One of the concoctions of Cade, the great inventor.  This gadget prevents one from having their defense lowered.",
+476,Dudley's Hammer,達利的錘,"A massive dwarven hammer, carried by Dudley the steadfast.",穩重如山的達利所持的大槌.
+477,King's Robe,國王的長袍,Format attire of a King.,
+478,Coward's Blade,懦夫刀刃,A hooked blade used by Avalon assassins. Some say the great King Arthus had a secretive hobby.,阿瓦隆刺客使用的鉤形刀，謠傳亞瑟王有一些神秘的癖好.
+479,Avalon Armor,阿瓦隆盔甲,Heavy armor of Avalon knights.,阿瓦隆騎士的重裝甲.
+480,Firepike,火槍,This pike of Pyre is eternally lit. Has a very high chance of causing an opponent to burn.,派磊的長茅永遠點燃著，它有高機率使敵人燃燒。
+481,Carl's Dagger,卡爾的匕首,"A simple yet sentimental dagger of the aloof one, Carl.",辣個男人—卡爾的簡單卻有故事的匕首。
+482,Aldon's Hat,阿爾登的帽,"The hat of Aldon, the eccentric. Aldon's balance has never faltered, and one cannot be stunned while wearing this hat.","怪人阿爾登的帽子.他平衡感極佳,戴上這帽子將不會暈眩."
+483,Pale Leggings,淡白腿甲,Pale armor of elite Balor warriors.,巴羅爾戰士的淡白盔甲。
+484,Draconian Amulet,德肯尼亞族護身符,Amulet of Draconian lords. It slightly extends one's health and mana.,德肯尼亞族領主的護身符，少量增加持有者的生命值與魔力值。
+485,Artifice Gada,阿提菲斯金剛杵,"The crippling weapon of Knight Artifice, the dragonslayer of Avalon. It can lower an opponent's magical potential.",阿瓦隆的屠龍者-騎士阿提菲斯的武器.可以降低對手的魔法能力.
+486,Beatrice's Staff,碧翠絲的法杖,"The staff of the aspiring sorceress, Beatrice.  It slightly boosts its wielder's mana.",
+487,Boulderbold,博爾德博德,"Earthen polearm of Boulder, the Earthen Legion elite.  It has a high chance of stunning an opponent.",
+488,Carl's Ring,卡爾之戒,"Iron ring of the aloof one, Carl. Slightly raises some stats.",辣個男人—卡爾的戒指，可以稍微增加一些狀態。
+489,Gale's Spear,凱爾的長矛,"Spear of Gale, the Stormforce elite. It has a high chance of paralyzing an opponent.",風暴軍團的精英凱爾的茅.有高機率使對手麻痺.
+490,Nolan's Staff,諾蘭之杖,"Staff o' the Gnome Master, Nolan. 'Ave one 'ver seen such a wonder?",侏儒大師諾蘭的法杖.有人看過拿~麼讚的東西嗎?
+491,Sala's Hood,莎拉的兜帽,"Ivory hood of Sala, the High Elf.",高等精靈莎拉的象牙兜帽。
+492,Thieve's Ring,神偷之戒,Lucky ring worn by bandits. Increases gold earned.,土匪的幸運戒指，可以增加獲得的金幣。
+493,Fail-not,不敗,"The bow of a long forgotten hero. It is now carried by Rouge, the crimson archer. Surely, one cannot miss a shot with this bow.","被人們遺忘的英雄的弓.現在為緋紅弓手-嫣紅所有.拿著它,你將箭無虛發."
+494,Fallen Druid's Staff,墮落德魯伊的法杖,Staff of fallen druid. It greatly increases mana.,
+495,High Draconian Sword,高等德肯尼亞族之劍,A sword of a Draconian blacksmith. The quality is quite surprising.,德肯尼亞族鐵匠鑄造之劍，品質令人讚嘆。
+496,High Draconian Staff,高等德肯尼亞族法杖,A staff of a Draconian mage. Boasts above average magic power.,德肯尼亞族法師之杖，擁有超凡的魔法攻擊力。
+497,Dalan's Hood,達藍的兜帽,"Ivory hood of Dalan, the exalted High Elf.",高等精靈達藍的象牙兜帽。
+498,Crimson Eye,緋紅之眼,A strange crimson eye imbued with even stranger crimson magic. Keeping this in your hand will slightly boost all stats.,
+499,Spelunking Staff,洞穴探求者之杖,Staff of a lost dungeon explorer. It seems to have developed quite some power while resting deep within the land.,迷失的地城探險者所持有的法杖，長眠在地底時，它似乎已發展出相當強大的力量。
+500,Ashen Staff,蒼白法杖,A pale staff granted to skilled Balor mages.,熟練的巴羅爾法師使用的蒼白法杖。
+501,Bandit's Cloak,土匪的披風,Heavy cloak of a bandit. Offers mild defense against the elements.,土匪的厚重披風.對元素魔力有一點抗性.
+502,Shadow Garb,影之皮甲,Dark armor of elite Balor rogues.,精銳巴羅爾暴徒的暗黑盔甲.
+512,Twilightstone,暮光石,A hard obsidian stone that resembles an empty night sky.,類似於夜空的硬質黑曜石.
+513,Avalon Ore,阿瓦隆礦石,A mighty alloy. It was used to craft Avalonian weapons and armor.,非凡的合金，可以用來製作阿瓦隆的武器及盔甲。
+514,Avalon Helmet,阿瓦隆頭盔,Heavy armor of Avalon knights.,阿瓦隆騎士的重裝甲.
+515,Coward's Cloak,懦夫披風,Cloak worn by Avalon assassins. Some say the great King Arthus had a secretive hobby.,阿瓦隆刺客所穿戴的披風.謠傳亞瑟王有一些神秘的癖好.
+516,Pale Armor,淡白盔甲,Pale armor of elite Balor warriors.,巴羅爾戰士的淡白盔甲。
+517,Avalon Leggings,阿瓦隆腿甲,Heavy armor of Avalon knights.,阿瓦隆騎士的重裝甲.
+518,King's Boots,王之長靴,Formal attire of a King.,國王的正式服裝。
+519,Ashen Boots,蒼白長靴,Pale attire of elite Balor mages.,精英巴羅爾法師的蒼白衣服。
+520,Pale Helmet,淡白頭盔,Pale armor of elite Balor warriors.,巴羅爾戰士的淡白盔甲。
+521,Balanced Epee,平衡銳劍,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This epee is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把西洋劍正是其中之一.
+522,Ashen Robe,蒼白法袍,Pale attire of elite Balor mages.,精英巴羅爾法師的蒼白衣服。
+523,Sala's Robe,莎拉的法袍,"Crimson robe of Sala, the High Elf.",高等精靈莎拉的赤紅長袍。
+524,Balin's Right,巴林右刃,A heavy great sword carried in Sir Balin's right hand.  A blow from this blade can lower an opponent's attack power.,
+525,Coward's Cowl,懦夫風帽,Headpiece worn by Avalon assassins. Some say the great King Arthus had a secretive hobby.,阿瓦隆刺客配戴的頭巾。謠傳亞瑟王有一些神秘的癖好。
+526,Racul Blade,路卡爾之劍,"An evil blade wielded by Racul, King of vampires. Attacks with this weapon can slightly restore HP.",吸血鬼之王路卡爾的邪惡刀刃.用它攻擊能稍微回復生命值.
+527,Lifeshaker,撼命者,"A terribly frightening axe, seemingly forged with the hardened bones of an odok undead. It has a great chance of stunning an opponent.",令人懼怕的斧頭，它是用亡骸的身軀所製成。攻擊有極大的機會造成暈眩效果。
+528,King's Hood,國王的兜帽,Formal attire of a King.,國王的正式服裝。
+529,Dracon Bow,德肯弓,"Bow of Dracon, the old Draconian king.",古老德肯尼亞王者之弓。
+530,Dracon Sword,德肯劍,"Sword of Dracon, the old Draconian king.",古老的德肯尼亞王者之劍。
+532,Rhongomiant,終焉聖槍,Great staff of Avalon court mages.,尊貴的阿瓦隆法師的法杖.
+533,Band of Gods,眾神之戒,"A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned.",古老元素神所穿戴的戒指，可以增加獲得的金幣、歐幣及經驗值。
+534,Dark Elven Katana,暗黑精靈武士刀,A highly decorative weapon wielded by Dark Elven lords,
+535,Ancient Jinn Staff,遠古神燈精靈法杖,Magical staff of a Jinn. This weapon may cause unexpected status effects.,神燈精靈的法杖.能造成無法預測的狀態異常.
+536,Annwn Rapier,安溫刺劍,"Sparring sword of Gwyn, the former King of Annwn. This weapon can temporarily weaken opponents with ease.",前安溫國王葛溫的陪練劍，此武器可以暫時削弱對手。
+537,Dokkalfar Garb,暗之精靈皮甲,Light armor of a Dokkalfar warrior.,暗之精靈戰士的輕裝甲.
+538,Dokkalfar Hood,暗之精靈兜帽,Hood of a Dokkalfar mage.,暗之精靈法師的兜帽.
+539,Dokkalfar Helmet,暗之精靈頭盔,Helmet of a Dokkalfar warrior.,暗之精靈戰士的頭盔.
+540,Dokkalfar Staff,暗之精靈法杖,Great staff of a Dokkalfar mage.,暗之精靈法師強大的法杖.
+541,Poison Dagger,毒匕首,"A simple dagger, encrusted in a thick poison.",塗滿毒藥的簡單匕首。
+542,Dokkalfar Sword,暗之精靈劍,An ebony blade of a Dokkalfar warrior.,暗之精靈戰士的漆黑刀刃.
+543,Dokkalfar Armor,暗之精靈盔甲,Chestplate of a Dokkalfar knight.,暗之精靈騎士的護胸.
+544,Dokkalfar Robe,暗之精靈法袍,Robe of a Dokkalfar mage.,暗之精靈法師的法袍.
+545,Dokkalfar Boots,暗之精靈長靴,Boots of a Dokkalfar warrior.,暗之精靈戰士的長靴.
+546,Dokkalfar Cowl,暗之精靈風帽,Cowl of a Dokkalfar rogue.,暗之精靈俠盜的風帽.
+547,Finesse Katana,芬尼斯武士刀,"The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This katana is his favourite, and can easy weaken an opponent.",
+548,X Elixir,X 秘藥,Recovers 5000 health points and 5000 mana.,恢復 5000 生命值與 5000 魔力值。
+549,Thorn,刺,Prickly blade of a woodland creature. It has a small chance to poison an opponent.,林中物種的帶刺刀刃.有小機率使對手中毒.
+550,Vulcan's Longsword,瓦肯的長劍,"A seemingly flawless blade wielded by Vulcan, the Red Knight. Vulcan formed the Knights of Inferno to fight alongside the forces of Annwn.",
+551,Thorns,荊棘,Prickly blades of a woodland creature. It has a small chance to poison an opponent.,林地物種的帶刺刀刃.有小機率使對手中毒.
+552,Horror,恐懼杖,An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more items.,由溺死旅人的屍體變造而成的可怕法杖，可能會使墮落的野獸掉落更多的物品。
+553,Viper Hood,蛇龍兜帽,An exotic hood made of guivre skin.,用蛇龍皮做成的兜帽.
+554,Viper Armor,蛇龍盔甲,An exotic chest guard made of guivre skin.,用蛇龍皮做成的胸甲.
+555,Viper Cowl,蛇龍風帽,An exotic cowl made of guivre skin.,用蛇龍皮做成的兜帽.
+556,Viper Chestmail,蛇龍鎖鏈甲,An exotic chest guard made of guivre skin.,用蛇龍皮做成的胸甲.
+557,Viper Mage's Boots,蛇龍法師的長靴,Exotic boots made of guivre skin.,用蛇龍皮做成的長靴.
+558,Viper Helmet,蛇龍頭盔,An exotic helmet made of guivre skin.,用蛇龍皮做成的頭盔.
+559,Viper Boots,蛇龍長靴,Exotic boots made of guivre skin.,用蛇龍皮做成的長靴.
+560,Viper Robe,蛇龍法袍,An exotic robe made of guivre skin.,用蛇龍皮做成的法袍.
+561,Viper Leggings,蛇龍腿甲,"Exotic, heavy leg armor made of guivre skin.",用蛇龍皮做成的厚重腿甲.
+562,Kerberos Sword,刻耳柏洛斯之劍,"Mighty sword, representative of the relentless Kerberos.",代表無情刻耳柏洛斯的強力之劍。
+563,Kerberos Hood,刻耳柏洛斯兜帽,A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen.,用刻耳柏洛斯遺骸打造的耐用兜帽.穿上它能防止被冰凍.
+564,Kerberos Staff,刻耳柏洛斯法杖,"Mighty staff, representative of the relentless Kerberos.",刻耳柏洛斯代表性的法杖.
+565,Kerberos Claws,刻耳柏洛斯之爪,"Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen.",由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。
+566,Demeter's Staff,狄蜜特法杖,"The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, his fate came long before any notion of normality.",
+567,Ogre Axe,食人魔之斧,A crude axe of an ogre.,食人魔的粗糙斧頭。
+568,Dracon Staff,德肯法杖,"Staff of Dracon, the old Draconian king.",古老德肯尼亞王者之杖。
+569,Sanguine Sword,血紅長劍,A simple sword wielded by kobold warriors.,地精戰士所持的劍.
+570,Sanguine Staff,血紅法杖,A simple staff wielded by kobold mages.,地精法師持有的簡易法杖.
+571,Kobold Armor,地精盔甲,Light armor of a kobold.,地精的輕裝甲.
+572,Kobold Cloak,地精披風,A simple cloak worn by kobold mages.,地精法師穿戴的簡易披風。
+573,Kobold Hood,地精兜帽,A simple hood worn by kobold mages.,地精法師穿的簡易兜帽.
+574,Kobold Boots,地精長靴,Boots of a kobold.,地精的長靴.
+575,Fairy's Ring,仙女戒指,An arcane ring often worn by a clurichaun. It increases both mana potential and dexterity.,小妖精穿戴的奧術戒指，它可以增加魔力值及敏捷。
+576,Clurichaun Soul Blade,酒精靈靈魂之刃,Fabled ceremonial blade of a forgotten clurichaun. It has a good chance of poisoning an opponent.,被遺忘的惡作劇小妖的儀式刀。有高機率使對手中毒。
+577,Naggeneen's Hat,納根因的帽子,"Headwear of the mischievous clurichaun, Naggeneen. It protects its wearer from both poison and toxicity.",淘氣妖精—納根因的頭飾，它可以保護穿戴者免疫中毒與劇毒。
+578,War-mage Boots,戰法長靴,Some magic users are also skilled in combat. These are the boots of one.,有些法師也很擅長格鬥.這是他們的靴子.
+579,War-mage Helmet,戰法頭盔,Some magic users are also skilled in combat. This is the helmet of one.,有些法師對格鬥也略知一二.這頭盔就是他們用的.
+580,X Health Potion,X 生命藥水,Recovers 5000 health points.,回復5000生命值.
+581,X Mana Potion,X 魔力藥水,Recovers 5000 mana.,回復5000魔力值。
+582,Belt of Cerus,凱魯斯的腰帶,"Enchanted belt of Cerus, the untamed. It protects one from burning while granting additional HP.",桀驁金牛凱魯斯的附魔腰帶.能防止被燃燒並提升生命值.
+583,Untamed Bull,桀驁公牛,"The powerful, fiery staff of Cerus, the untamed bull.",桀驁金牛凱魯斯的強力法杖.
+584,Horned Helmet,尖角頭盔,"Helmet of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment.",桀驁金牛凱魯斯的頭盔. 能減少技能和魔法的魔力消耗並且很適合鑲嵌裝飾.
+585,Horned Hood,有角的兜帽,"Hood of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment.",桀驁金牛凱魯斯的兜帽. 能減少技能和魔法的魔力消耗並且很適合鑲嵌裝飾.
+586,Raging Bull,暴怒公牛,"The powerful, fiery axe of Cerus, the untamed. It has a good chance of stunning or burning an opponent.",
+587,Fine Greatsword,精巧大劍,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This greatsword is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把大劍正是其中之一.
+588,War-mage Armor,戰法盔甲,Some magic users are also skilled in combat. This is the armor of one.,有些魔法師也擅長格鬥.這就是他們的盔甲.
+589,Mammon's Sword,瑪門之劍,"An ancient and decrepit blade carried by Mammon, the demon of hubris. It is of unknown use and is too worn to be used as any form of weapon.",傲慢的惡魔-瑪門持有的老舊刀刃.實在太破爛以至於不知道該怎麼當作武器使用.
+590,Fallen Boots,墮落長靴,"Boots worn by rogues of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的俠盜所穿的長靴.
+591,Fallen Cowl,墮落風帽,"Cowl worn by rogues of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的俠盜所戴的風帽.
+592,Fallen Shoes,墮落鞋子,"Shoes worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的追隨者所穿的鞋子.
+593,Fallen Leggings,墮落腿甲,"Leggings worn by knights of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的騎士所穿的腿甲.
+594,Fallen Robe,墮落法袍,"Robe worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔瑪門的追隨者所穿的法袍.
+595,Fallen Armor,墮落盔甲,"Heavy armor worn by knights of Mammon, the demon of hubris.",所屬於傲慢的惡魔瑪門的騎士所穿的重裝甲.
+596,Fallen Garb,墮落皮甲,"Light armor worn by rogues of Mammon, the demon of hubris.",所屬於傲慢的惡魔-瑪門的俠盜所穿的輕裝甲.
+597,Fallen Hood,墮落兜帽,"Hood worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的追隨者所穿的兜帽.
+598,Fallen Helmet,墮落頭盔,"Helmet worm by knights of Mammon, the demon of hubris.",
+599,Realm Ore,域界礦石,A strange dark and warm ore refined by Balor mystics. It is useful in upgrading equipment of the exiled.,巴羅爾秘術士精練的黑暗且溫暖的礦石，它可以用來升級流放者的裝備。
+600,Incarnate Robe,化身法袍,"Mystical robe crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的神秘法袍.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+601,Realm Boots,域界長靴,"Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫的輕裝甲.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+602,Realm Garb,域界皮甲,"Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫的輕裝甲.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+603,Abyssal Axe,深淵之斧,"Heavy axe crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的巨斧.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+604,Incarnate Hood,化身兜帽,"Mystical hood crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的神秘兜帽.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+605,Abyssal Armor,深淵盔甲,"Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的重裝甲.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+606,Incarnate Boots,化身長靴,"Mystical boots crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的神秘長靴.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+607,Incarnate Archistaff,化身權杖,"Heavy archistaff crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的厚重權杖.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+608,Abyssal Helmet,深淵頭盔,"Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的重裝甲.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+609,Realm Katana,域界武士刀,"Dark katana crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的暗黑武士刀.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+610,Abyssal Greaves,深淵護脛,"Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫所製的重裝甲.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+611,Realm Cowl,域界風帽,"Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches.","被流放的毀滅祕法師亞坡倫的輕裝甲.亞坡倫曾試圖摧毀土地以阻止墮落,之後便因其非正統的方法而被流放."
+612,Basilisk Talons,巴西利斯克之爪,"A pair of dark kunai, forged of a basilisk's claws.",用巴西利斯克的利爪打造的暗黑苦無.
+613,Yeti Overcoat,雪怪大衣,Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered.,讓人想起可怕雪人的大衣，它可以保護穿戴者免受冰凍及防禦力下降。
+614,Whetstone,磨刀石,A stone of quartz often used in the sharpening of blades. Using it will freely upgrade your equipped weapon to level 2.,石英磨刀石，使用它可以輕鬆地將武器提升到等級2。
+615,Fine Whetstone,良質磨刀石,A stone of quartz often used in the sharpening of blades. Using it will freely upgrade your equipped weapon from level 2 to 3.,石英磨刀石，使用它可以輕鬆地將武器從2級升到3級。
+616,Cursed Hood,詛咒兜帽,A seemingly ageless yet pristine hood.,看起來很新的兜帽.
+617,Arch-Rune Helmet,奧術符文頭盔,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+618,Cursed Robe,詛咒法袍,A seemingly ageless yet pristine robe.,看起來嶄新的法袍.
+619,Terra Boots,自然之靴,Great boots of a mage who controlled the ground below. Grants protection from earthen magic.,操控大地之力法師的長靴.能抵抗大地魔法.
+620,Oceanic Boots,海洋長靴,Great boots of a mage who controlled the tides. Grants protection from water & ice.,控制潮汐的大魔法師的長靴.能抵抗水及冰屬性.
+621,Arch-Rune Leggings,奧術符文腿甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+622,Cursed Boots,詛咒長靴,A seemingly ageless yet pristine pair of boots.,看起來嶄新的靴子.
+623,Arc,弧光,"A Greatbow of  Annwn, capable of loosing arcane arrows. It can cause a variety of status effects.",
+624,Estoc,穿甲刺劍,"A simple straight sword, useful for sparring. It has a great chance at catching an opponent off guard.",簡單的筆直長劍.能高機率抓住對手防禦的空檔.
+625,Stilettos,彈簧刀,A pair of unnecessarily sharp daggers. These will easily cause an opponent to bleed.,鋒利到不像話的匕首.能輕易使對手流血.
+626,Gladiator's Sword,角鬥士之劍,"A sword carried by a talented gladiator. Through its might, an opponent's stats can be lowered.",天賦極佳的角鬥士使用的劍.用它能使對手的身體能力降低.
+627,Gladiator's Shotel,角鬥士短刀,A shotel carried by a cunning gladiator. Shotels can easily piece of opponent's defenses.,
+628,Endbringer,終焉使者,A large unrefined blade of giant warriors.,巨人戰士的粗糙大劍。
+629,Court Staff,宮廷之杖,An archistaff of Avalon that is capable of lowering an opponent's resistance.,可以降低敵人魔防的阿瓦隆權杖。
+630,Canon Waystone,主線引路石,A stone imbued with the most helpful of magic. Use it to set a compass marker to story quest monster locations.,注入魔法的石頭，使用它可以指引任務怪所在的方位。
+631,Handy Waystone,便利引路石,A stone imbued with the most helpful of magic. Use it to set a compass marker to inn quest monster locations.,一塊充滿魔法的石頭。用它來設置指南針標記以搜尋旅館任務怪物位置。
+632,Memory Waystone,記憶引路石,A stone that can evoke memories of any location. Using it will place a temporary marker to your current location on your compass.,能讓你記憶任何地點的石頭.使用後會放下一個暫時的路標來指向你目前的地點.
+633,Dragon's Arc,龍之弓,A superb bow forged of the remains of a lost dragon. It has a good chance of causing blight.,使用失落巨龍遺骸打造的高超大弓.有高機率造成對手枯萎.
+634,Yeti Coat,雪怪外套,Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered.,讓人想起可怕雪人的大衣，它可以保護穿戴者免受冰凍及防禦力下降。
+635,Viper Dagger,蛇龍短刀,A fine blade crafted of a great dragon's talon,使用遠古巨龍的爪打造的良質刀刃
+636,Dioscuri Archistaff,狄奧斯庫洛伊權杖,"Azure staff of Castor, the Dioscuri magician. Castor and his twin brother seldomly leave the depths of the seas unless truly lacking in other hobbies.",魔法師卡斯托耳的法杖.卡斯托耳和其雙子弟弟除非閒到不行才會離開那深海.
+637,Dioscuri Greatbow,狄奧斯庫洛伊長弓,"Azure greatbow of Pollux, the Dioscuri berserker. Pollux and his twin brother seldomly leave the depth of the seas unless truly lacking in other hobbies.",
+638,Ranger's Greatbow,遊俠的大弓,"Large, precise bow often carried by rangers of the wood.",林間遊俠常使用的大弓.
+639,Infernal Boots,煉獄長靴,Great boots of a mage who controlled the heat. Grants protection from fire.,控制熱能的大魔法師的長靴.能抵抗火屬性。
+640,Tempest Boots,暴風長靴,Great boots of a mage who controlled the skies. Grants protection from lightning.,駕馭蒼穹的法師穿的靴子.能抵抗雷電.
+641,Arch-Rune Sword,奧術符文劍,A blade of the spellsword.,魔劍士的劍.
+642,Dioscuri Mead,狄奧斯庫洛伊蜂蜜酒,"For some reason, the Dioscuri love this terrible drink for its taste and not benefit. Consuming it will temporarily increase you critical hit rate.",
+643,Arch-Rune Armor,奧術符文盔甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+644,Dioscuri Greataxe,狄奧斯庫洛伊大斧,"Azure greataxe of Pollux, the Dioscuri berserker. Pollux and his twin brother seldomly leave the depths of the seas unless truly lacking in other hobbies.",狂戰士波魯克斯的大斧.波魯克斯和其雙子兄長除非閒到不行才會離開那深海.
+645,Ascalon,阿斯卡隆聖劍,An adorned sword forged of the most blessed of materials. It's great light can illuminate your path while blinding your opponents.,用最被祝福的材料鍛造的裝飾劍。強大的光線可以照亮你的道路，同時使對手盲目。
+646,Rapier,刺劍,"A simple rapier, useful for sparring. It has a great chance at catching an opponent off guard.",適合用來突刺的精簡刺劍.有高機率讓對手解除防衛.
+647,Midnight Eye,午夜之眼,A strange twilight eye imbued with even stranger magic. Keeping this in your hand will grand you more visibility at night while boosting HP and mana.,
+648,Lost Helmet,失落頭盔,"Lost, durable helmet of a now monstrous fallen warrior. Wearing it increases the amount of orns earned.",已淪為魔物的墮落勇士的頭盔.戴上它能提升獲得的歐幣.
+649,Dragonsong,千年龍詩,An instrument often used to sooth dragons. Its song has the rare chance to temporarily boost one's magical prowess.,常用來安撫龍的樂器.它的音色有時候能提升使用者的魔力.
+650,Lute,魯特琴,"A simple bard's lute, playing it in battle may temporarily boost one's attack or magic.",詩人用的簡易魯特琴，於戰鬥中彈奏可以暫時增加物攻或魔攻。
+651,Hardwood Lute,硬木魯特琴,"A talented bard's lute, playing it in battle may temporarily boost one's defenses.","詩人的魯特琴,有機會能暫時提升物理防禦."
+652,Dioscuri Ring,狄奧斯庫洛伊戒指,A strange magical ring of the Dioscuri. Those who do not possess physical strength can equip this ring to sacrifice magic for attack power.,狄奧斯庫洛伊兄弟的奇妙魔力戒指.不太擅長物理的人能戴上它用魔力換取物理攻擊力.
+653,Vipersong,蛇龍詠歌,An instrument often used to sooth the greatest of dragons. Its song has the rare chance to temporarily give useful statuses.,常用來安撫至高無上巨龍的樂器.它所演奏出的樂曲有極少的機率能短暫賦予有用的狀態影響.
+654,Bonesong,骨歌,An instrument of a long fallen Odok warrior. Its song has the rare chance to temporarily boost one's critical hit rate.,來自亡骸戰士的樂器。有機會暫時提升暴擊率。
+655,Dioscuri Magic Ring,狄奧斯庫洛伊魔法戒指,A strange magical ring of the Dioscuri. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power.,狄奧斯庫洛伊兄弟的詭異魔法戒指.不擅長魔法的人能戴上它用物理能力換取魔力.
+656,Nothren Greaves,北族護脛,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+657,Nothren Armor,北族盔甲,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+658,Nothren Helmet,北族頭盔,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+659,Nothren Cowl,北族風帽,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+660,Nothren Garb,北族皮甲,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+661,Nothren Boots,北族長靴,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+662,Nothren Robe,北族長袍,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+663,Nothren Shoes,北族之鞋,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+664,Avalon Melody,阿瓦隆旋律,Famed golden flute of an Avalon bard. Playing its songs can temporarily raise one's magical defense.,阿瓦隆詩人所持有的著名金色長笛，演奏時可以暫時增加魔防。
+665,Nothren Hood,北族兜帽,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+666,Baldur,巴德爾光石,"A chunk of Baldur, favoured by the raiders of Nothren.",
+667,Sempre Forte,重音吉他,A relic of Apollyon's less destructive years.,亞坡倫還沒開始搞破壞時的遺物。
+668,Wooden Shield,木盾,A simple shield made of hardened wood.,用堅固木頭打造的盾.
+669,Balor Shield,巴羅爾盾牌,A decorated shield often carried by Balor warriors.,巴羅爾戰士的裝飾盾.
+670,Arch-Rune Shield,奧術符文盾,Mystical shield that boasts extra magical defense.,
+671,Duke's Shield,公爵盾,A shield portraying the emblem of a great duke.,刻有大公國徽記的盾牌。
+672,Fallen Shield,墮落盾牌,"A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being Cursed.",所屬於傲慢的惡魔-瑪門的騎士所持的厚重盾牌.能免疫於被詛咒.
+673,Templar Shield,聖殿騎士盾,The shield of a mighty templar knight. It provides extra physical defense.,強大的聖殿騎士之盾。它提供了額外的物理防禦。
+674,Rune Shield,符文盾,Mystical shield that boasts extra magic defense.,能提升魔防的秘術盾牌.
+675,Tower Shield,塔盾,A gigantic shield that offers extra physical and magic defense at the expense of attack and magic.,犧牲攻擊力以換取額外防禦力的巨大盾牌。
+676,Side-arm,側臂,"A small dagger, carried in your off-hand. It slightly increases attack at the expense of ward.",
+677,Dragon Crested Shield,龍紋盾,A shield crested the image of a dragon. It protects one against Dragon attacks while boosting Ward.,
+678,Nothren Shield,北族之盾,Shield carried by berserkers of the Northern lands. It protects one from the cold.,北族領地的狂戰士使用的盾.能夠禦寒.
+679,Whisper,低語,"A sharp trusty dagger, carried in your off-hand.  It gives your attacks the chance to cause an opponent to bleed, at the expense of Ward.",
+680,Crest of Avalon,阿瓦隆的紋章,An easily recognizable shield depicting the crest of Avalon.,容易辨識的盾牌，上面印有阿瓦隆的紋章。
+681,Buckler,小盾,A simple buckler.,就是個小盾.
+682,Bone Shield,骨盾,A shield made of hardened monster bone.,用堅固的魔物之骨做的盾.
+683,Heavy Arrows,重箭矢,"A quiver of arrows that are immensely heavy. Carrying these arrows in your off-hand gives the greater chance to stun an opponent, at the expense of ward.",
+684,Arch-Gizmo,新版小玩意,"One of the concoctions of Cade, the great inventor. This gizmo prevents one from having their dexterity, physical or magical prowess lowered.","偉大發明家卡德的發明之一.這小東西能防止敏捷,物理或魔法攻擊被降低."
+685,Tizona,提佐納,"A greatsword often used in defensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical defenses.",全能的騎士巴林用來施展防衛劍術的大劍.他的斬擊能降低對手的物理或魔法防禦力.
+686,Colada,科拉達,"A greatsword often used in offensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical prowess.",全能的騎士巴林用來施展攻擊劍術的大劍.他的斬擊能降低對手的物理或魔法攻擊力.
+687,Genius,吉尼爾斯,"The easily recognizable pole-arm of Cade, the great Avalonian inventor. Its hidden features can cause a variety of status effects.",偉大的阿瓦隆發明家卡德廣為人知的長武器.能造成多種異常狀態.
+688,Avalon Knight Helmet,阿瓦隆騎士頭盔,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
+689,Avalon Knight Leggings,阿瓦隆騎士腿甲,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
+690,Avalon Knight Armor,阿瓦隆騎士盔甲,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
+691,Arisen Bone Shield,重生骨盾,A shield made of harden monster bone.,
+692,Arch-Gadget,新版小發明,"One of the concoctions of Cade, the great inventor. This gadget prevents one from having their physical or magical defense lowered.",偉大發明家卡德的發明之一.這小東西能防止物理或魔法防禦被降低.
+693,Rosewood Lute,紅木魯特琴,"A talented bard's lute, playing it in battle may temporarily boost one's stats.",天才詩人持有的魯特琴，於戰鬥中演奏可以暫時提昇持有者的狀態。
+694,Valhallan Greaves,瓦爾哈蘭護脛,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
+695,Valhallan Helmet,瓦爾哈蘭頭盔,Heavy armor of Nothren valkyries,
+696,Valhallan Shield,瓦爾哈蘭盾,Shield carried by valkyries of the Nothren lands.  It protects one from the cold.,
+697,Valhalla's Rise,瓦爾哈蘭之躍,"A rare blade carried by the most gifted of Nothren vaklyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses.",
+698,Valhallan Armor,瓦爾哈蘭盔甲,Heavy armor of Nothren valkyries,
+699,Poison Arrows,淬毒箭矢,"A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison an opponent, at the expense of Ward.",一袋塗抹劇毒的弓箭.裝備在副手時會犧牲護盾但獲得讓對手中毒的機會.
+700,Fire Arrows,火焰箭矢,"A quiver of arrows that are easily lit aflame. Carrying these arrows in your off-hand gives the chance to burn an opponent, at the expense of Ward.",一袋容易被點燃的弓箭.裝備在副手時會犧牲護盾但獲得讓對手燃燒的機會.
+701,Dracon Shield,德肯盾,A shield depicting the emblem of Draconia. It's not very well constructed.,繪有德肯尼亞徽章的盾牌。做工不太好。
+702,Fomor Shield,弗摩爾盾,A shield depicting the emblem of Fomoria.,刻有弗摩爾族印記的盾牌。
+703,Frilled Naga Staff,褶傘那伽法杖,Crude staff of a Frilled Naga mage.,褶傘那伽法師的殘暴法杖.
+704,Frilled Naga Halberd,褶傘那伽戟,Crude wearpon of a Frilled Naga warrior.,
+705,Ithra's Staff,以斯拉法杖,"Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion.",白騎士以斯拉的冷冽法杖.以斯拉建立了寒霜守衛來對抗德肯尼亞族的入侵.
+706,Demeter's Halberd,狄蜜特之戟,"The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality.","狄蜜特的棒棒.在墮落之後,狄蜜特創造了大地軍團來維持世界的平衡.不幸的是,在不久之後便迎來他們的命運."
+707,Atgeir,維京茅,"A deadly polearm carried by the fallen Heimdall, a lord of the Nothren.",墮落的北族領主海姆達爾持有的兇殘棒棒.
+708,Perfect Baldur,完美巴德爾光石,"A perfect chunk of Baldur, favoured by the raiders of Nothren. It is useful for upgrading powerful equipment.",
+709,Heimdall's Shield,海姆達爾之盾,Shield carried by the great Heimdall of the Nothren lands. It protects one from the cold.,
+710,Arcane Arrows,奧術箭矢,"A quiver of arrows that are imbued with Annwn magic. Carrying these arrows in your off-hand gives the chance to give many status effects to an opponent, at the expense of Ward.",安溫魔法加持過的弓箭.裝備在副手時會犧牲護盾但獲得讓對手遭受異常狀態的機會.
+711,Blight Arrows,枯萎箭矢,"A quiver of arrows that are imbued with dragonic powers. Carrying these arrows in your off-hand gives the chance to blight an opponent, at the expense of Ward.",一袋受龍之力量加持的弓箭。裝備在副手時會犧牲護盾，但有機會使對手陷入枯萎.
+712,Thor's Arc,索爾之弓,A masterfully crafted magical bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent.,索爾所持的至高魔弓.索爾建立了風暴之力不久後便屈服於墮落之力之下.他的魔弓能輕易的麻痺對手.
+713,Vulcan's Archistaff,瓦肯之權杖,"An embered Archistaff seldom wielded by Vulcan, the Red Knight. Vulcan formed the Knights of the Inferno to fight along side the forces of Annwn. His blade can easily burn an opponent.",
+714,Vulcan Helmet,瓦肯頭盔,"Helmet of Vulcan, the infamous Red Knight. It grants immunity from being burned.",惡名昭彰的赤騎瓦肯之頭盔.能防止被燃燒.
+715,Vulcan Cuirass,瓦肯胸甲,"Armor of Vulcan, the infamous Red Knight. It grants immunity from being burned.",惡名昭彰的赤騎瓦肯的盔甲.能防止被燃燒.
+716,Vulcan Boots,瓦肯長靴,"Footwear of Vulcan, the infamous Red Knight. It grants immunity from being burned.",惡名昭彰的赤騎瓦肯之鞋.能防止被燃燒.
+717,Vulcan Charm,瓦肯護符,"A yellow crystal carried by Vulcan, the Red Knight. It increases magic power and mana when carried.",瓦肯的黃色水晶.戴上它能增加魔力和魔力值.
+718,Candle-staff,蠟燭法杖,This staff of Pyre is eternally lit. Has a very high chance of causing an opponent to burn.,派磊的法杖永遠點燃著，它有高機率使敵人燃燒。
+719,Candle-pike,燭台,This pike of Pyre is eternally lit. Has a very high chance of causing an opponent to burn.,派磊的長茅永遠點燃著，它有高機率使敵人燃燒。
+720,Vulcan Buckler,瓦肯小盾,"Buckler of Vulcan, the infamous Red Knight. It grants immunity from being burned.",惡名昭彰的赤騎瓦肯之盾.能防止被燃燒.
+721,Vulcan's Brew,瓦肯之酒,A strong tonic brewed by Vulcan of the Inferno Knights. Consume it to slightly raise experience and items dropped for a limited time.,煉獄騎士瓦肯釀造的精力藥.喝下它能在一段時間內稍微提升獲得的經驗值及掉寶率.
+722,Arisen Masamune,重生正宗,A beautiful blade that resemble stars in the night sky.,就像那夜空繁星般的美麗刀刃。
+723,Arisen Witch's Hat,重生女巫之帽,"The symbolic headwear of Carman, the banished witch.",被放逐的女巫卡門的象徵性頭飾.
+724,Ring of Restraint,限制之戒,"A ring that inhibits growth, greatly reducing the amount of experience earned while slightly increasing orns, gold, and items found.","讓人不能長大的戒指,會大幅降低獲得的經驗值同時稍微提升獲得的歐幣,金幣和道具掉落率."
+725,Explorer's Waystone,探險者的引路石,A stone imbued with the most curious of magic. Using it may guide you to something interesting.,附有最奇妙魔法的石頭.使用它能引導你到一些有趣的東西.
+726,Arcane Scroll,奧術卷軸,"A scroll containing knowledge of arcane arts. It improves one's magic at the sacrifice of Ward, while adding a chance to burn, freeze, paralyze, or rot to spells.",含有奧術知識的卷軸，它會犧牲持有者的護盾以增加魔攻，並有機會施放燃燒、冰凍、麻痺或腐爛咒語。
+727,Mighty Griffin Shield,究極格里芬之盾,A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward.,描繪格里芬形象的盾.提升護盾的同時能抵抗龍系攻擊.
+728,Skystone,蒼穹石,Material imbued by the windy skies. Useful for upgrading powerful weapons.,富含暴風之力的礦石.能用來強化強力的武器.
+729,Mighty Tempest,迅疾如風,A bow signifying the great Griffin of the skies. Arrows shot from this bow can easily knock an opponent off-guard.,這把弓體現了強大的格里芬在天空奔馳的英姿。它所射出的箭，則如疾風一般殺個對手措手不及。
+730,Dragon Scroll,龍之卷軸,"A scroll containing knowledge of dragon arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance of blight to spells.","內含龍族知識的卷軸.能提升使用者的魔力及魔力值,並有機會造成對手枯萎,但會犧牲掉護盾."
+731,Reaping Sickle,死神鐮刀,"The followers of Apollyon are fearsome, and this great scythe is their chosen weapon. It has a high chance of causing an opponent to bleed.",這把巨大的鐮刀是令人生畏的亞坡倫追隨者所選用的武器。他有很高的機率使對手流血。
+732,Imagination,幻影,"An extremely odd staff, carried by a cryptid mimic. It can occasionally cause unpredicted status effects.",詭異的寶箱怪持有的奇妙法杖.偶爾能造成無法預期的異常狀態.
+733,Hurricane Arc,颶風弓,A bow signifying the great Griffin of the skies. Arrows shot from this bow can easily knock an opponent off-guard.,這把弓體現了強大的格里芬在天空奔馳的英姿。它所射出的箭，則如疾風一般殺個對手措手不及。
+734,Griffin Crested Shield,格里芬紋章盾,A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward.,描繪格里芬形象的盾.提升護盾的同時能抵抗龍系攻擊.
+735,Arisen Witch's Scroll,重生女巫的卷軸,"A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects. to spells.",
+736,Arisen Witch's Staff,重生女巫法杖,"Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned.",強大女巫的老舊黑暗法杖，可以稍微增加獲得的經驗值。
+737,Arisen Deathbringer,重生死亡使者,Blade taken from Ankou's deadly scythe. Increases orns and experience earned.,從安庫的死神鐮刀上取下的刀刃.能提升獲得的經驗和歐幣.
+738,Mage's Scroll,法師卷軸,A scroll containing knowledge of basic magic. It improves one's magic at the sacrifice of Ward.,內涵基礎魔法知識的卷軸.藉由犧牲護盾提升魔力.
+739,Scroll of Earth,大地卷軸,"A scroll containing knowledge of earthen. It Improves one's magic at the sacrifice of Ward, while adding a chance to rot to spells.",
+740,Scroll of Fire,火焰卷軸,"A scroll containing knowledge of fire. It improves one's magic at the sacrifice of Ward, while adding a chance to burn to spells.","具有火之知識的卷軸.藉著犧牲護盾能提升魔攻,施法時有機會造成燃燒."
+741,Witch's Scroll,女巫的卷軸,"A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects to spells.",包含女巫知識的捲軸。藉由犧牲護盾來提高法力值，同時在施法時有機會造成各種狀態異常。
+742,Royal Shield,皇家盾牌,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
+743,Scroll of Ice,冰之卷軸,"A scroll containing knowledge of ice & water. It improves one's magic at the sacrifice of Ward, while adding a chance to freeze to spells.",包含冰與水知識的卷軸，它會犧牲護盾以增加持有者的魔攻，並增加施展冰凍的機率。
+744,Scroll of Poison,毒術卷軸,"A scroll containing knowledge of poison arts. It improves one's magic at the sacrifice of Ward, while adding a chance to poison to spells.",包含毒知識的卷軸，犧牲持有者的護盾以換取魔攻，並增加施展毒咒的機率。
+745,Scroll of Lightning,閃電卷軸,"A scroll containing knowledge of lightning. It improves one's magic at the sacrifice of Ward, while adding a chance to paralyze to spells.","內含雷電知識的卷軸.藉由犧牲護盾提升魔力,施展法術時有機率麻痺對手."
+746,Darkest Garb,深淵皮甲,Dark armor of an undead wanderer. Increases orns earned.,不死流浪者所穿戴的黑暗盔甲，可以增加獲得的歐幣。
+750,Merchant's Waystone,商人的引路石,A stone imbued with the most curious of magic. Use it to set a compass marker to the nearest shop in the world.,附有神奇魔力的石頭.使用它能設置一個標記指向離你最近的商店.
+751,Earthen Arrows,大地箭矢,"A quiver of arrows that are charged with the power of the earth below. Carrying these arrows in your off-hand gives the chance to cause an opponent to rot, at the expense of Ward.",
+752,Ice Arrows,寒冰箭矢,"A quiver of arrows that are easily frozen. Carrying these arrows in your off-hand gives the chance to freeze an opponent, at the expense of Ward.",一袋易結凍的弓箭.裝備在副手時會犧牲護盾但獲得讓對手冰凍的機會.
+753,Storm Arrows,風暴箭矢,"A quiver of arrows that are charged with the power of the sky. Carrying these arrows in your off-hand gives the chance to paralyze an opponent, at the expense of Ward.",
+754,Sorcerer's Scroll,巫師的卷軸,A scroll containing knowledge of basic magic. It improves one's magic and mana at the sacrifice of Ward.,包含基礎魔法的卷軸，它會犧牲護盾以增加持有者的魔攻與魔力值。
+755,Alpha Myrddin Hood,α梅爾丁兜帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer",
+756,Gamma Myrddin Cloak,γ梅爾丁披風,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+757,Gamma Myrddin Cowl,γ梅爾丁風帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+758,Alpha Myrddin Cloak,α梅爾丁披風,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+759,Alpha Myrddin Shield,α梅爾丁盾,A relic of Merlin's eccentric collection.,梅林珍稀收藏中的聖物.
+760,Zeta Myrddin Hood,ζ梅爾丁兜帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+761,Zeta Myrddin Cloak,ζ梅爾丁披風,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+762,Gamma Myrddin,γ梅爾丁,"One of the notoriously recognizable archistaves of Merlin, the famed Avalon sorcerer. Spells cast by this staff can occasionally lower an opponent's defenses.",阿瓦隆王國著名的巫師梅林所有的顯眼權杖.用它施法能有機會降低對手的物理防禦.
+763,Merlin's Ring,梅林的戒指,"Magical ring of Merlin, the famed sorcerer of Avalon. Those who are not trained in the magical arts can equip this ring to sacrifice physical strength for magic power.",
+764,Myrddin Harp,梅爾丁豎琴,Harp found in Merlin's eccentric collection. It can grant elemental protection.,於梅林的珍稀收藏中的豎琴。會提供元素防禦。
+765,Zeta Myrddin,ζ梅爾丁,"One of the notoriously recognizable archistaves of Merlin, the famed Avalon sorcerer. Spells cast by this staff can occasionally lower an opponent's defenses.",阿瓦隆王國著名的巫師梅林所有的顯眼權杖.用它施法能有機會降低對手的物理防禦.
+766,Delta Myrddin,δ梅爾丁,"One of the notoriously recognizable archistaves of Merlin, the famed Avalon sorcerer. Spells cast by this staff can occasionally lower an opponent's defenses.",阿瓦隆王國著名的巫師梅林所有的顯眼權杖.用它施法能有機會降低對手的物理防禦.
+767,Beta Myrddin,β梅爾丁,"One of the notoriously recognizable archistaves of Merlin, the famed Avalon sorcerer. Spells cast by this staff can occasionally lower an opponent's defenses.",阿瓦隆王國著名的巫師梅林所有的顯眼權杖.用它施法能有機會降低對手的物理防禦.
+768,Beta Myrddin Cowl,β梅爾丁風帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+769,Beta Myrddin Hood,β梅爾丁兜帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+770,Delta Myrddin Hood,δ梅爾丁兜帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+771,Zeta Myrddin Cowl,ζ梅爾丁風帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+772,Alpha Myrddin Robe,α梅爾丁法袍,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+773,Gamma Myrddin Robe,γ梅爾丁法袍,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+774,Zeta Myrddin Robe,ζ梅爾丁法袍,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+775,Delta Myrddin Cloak,δ梅爾丁披風,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+776,Merlin's Concoction,梅林的魔劑,"One of the rare potions of Merlin, the famed Avalon sorcerer. It grants immense, but temporary, magical prowess.",
+777,Gamma Myrddin Hood,γ梅爾丁兜帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+778,Delta Myrddin Cowl,δ梅爾丁風帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+779,Beta Myrddin Shield,β梅爾丁盾,A relic of Merlin's eccentric collection.,梅林珍稀收藏中的聖物.
+780,Beta Myrddin Cloak,β梅爾丁披風,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+781,Merlin's Scroll,梅林的卷軸,"A scroll containing knowledge of a Merlin's lost arts. It improves one's mana at the sacrifice of Ward, while adding a chance to lower an opponent's attack power to spells.",
+782,Lady of the Lake,湖中妖女,"A relic of Merlin's eccentric collection, this sword grants increases to all stats at the expense of attack power.",
+783,Alpha Myrddin,α梅爾丁,"One of the notoriously recognizable archistaves of Merlin, the famed Avalon sorcerer. Spells cast by this staff can occasionally lower an opponent's defenses.",阿瓦隆王國著名的巫師梅林所有的顯眼權杖.用它施法能有機會降低對手的物理防禦.
+784,Delta Myrddin Shield,δ梅爾丁盾,A relic of Merlin's eccentric collection.,梅林珍稀收藏中的聖物.
+785,Lass of the Lake,湖中少女,"A relic of Merlin's eccentric collection, this dagger grants increased attack power at the expense of other stats.","梅林珍稀收藏中的聖物,這把匕首藉由犧牲其他能力來換取物理攻擊力的提升."
+786,Gamma Myrddin Shield,γ梅爾丁盾,A relic of Merlin's eccentric collection.,梅林珍稀收藏中的聖物.
+787,Zeta Myrddin Shield,ζ梅爾丁盾,A relic of Merlin's eccentric collection.,梅林珍稀收藏中的聖物.
+788,Delta Myrddin Robe,δ梅爾丁法袍,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+789,Beta Myrddin Robe,β梅爾丁法袍,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+790,Alpha Myrddin Cowl,α梅爾丁風帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+791,Greatbow,大弓,Large bow often carried by rangers of the wood.,林地遊俠經常會使用的大弓.
+792,Gungnir,岡格尼爾,"A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands.","北族主神奧丁打造的強力長矛.能輕易撕裂對手的防禦,但要用雙手才能揮舞它."
+793,Acolyte Staff,追隨者法杖,A knotted staff of a follower of Mammon.,瑪門的追隨者持有的法杖.
+794,Lyonesse Sword,里昂內斯之劍,Sword of a Lyonesse knight.,里昂內斯騎士的長劍.
+795,Lyonite,褐鐵礦,A golden ore favored in use of forging Lyonesse weapons and armor.,用來打造里昂內斯武器及盔甲的金黃色礦石.
+796,Lyonesse Staff,里昂內斯法杖,Staff of a Lyonesse warlock.,里昂內斯術士的法杖.
+797,Lost Art,失落的藝術,A thin blade favored by an Arcanic.,奧術劍士最愛的薄刃.
+798,Ortanite Helmet,歐坦尼頭盔,Helmet forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense.,用歐坦尼魔像遺骸製成的頭盔.犧牲魔法防禦來大幅強化物理防禦.
+799,Chimera Helmet,奇美拉頭盔,An exotic helmet made of Chimera remains.,利用奇美拉的殘骸所製作的頭盔。
+800,Lyonesse Helmet,里昂內斯頭盔,Helmet of a Lyonesse knight.,里昂內斯騎士的頭盔.
+801,Acolyte Hood,追隨者兜帽,A dusty hood of a follower of Mammon.,瑪門追隨者的灰黑兜帽.
+802,Lyonesse Hood,里昂內斯兜帽,Hood of a Lyonesse warlock.,里昂內斯術士的兜帽.
+803,Acolyte Robe,追隨者法袍,A dusty robe of a follower of Mammon.,瑪門追隨者的灰黑法袍.
+804,Chimera Armor,奇美拉盔甲,An exotic chest guard made of Chimera remains.,利用奇美拉的殘骸所製作的護甲。
+805,Ortanite Armor,歐坦尼盔甲,Armor forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense.,使用歐坦尼魔像遺骸製成的盔甲.犧牲魔法防禦來大幅強化物理防禦.
+806,Lyonesse Robe,里昂內斯長袍,Robe of a Lyonesse warlock.,里昂內斯術士的長袍.
+807,Lyonesse Cuirass,里昂內斯胸甲,Armor of a Lyonesse knight.,里昂內斯騎士的盔甲.
+808,Robe of the North,北方的法袍,"Magical attire of Nothren lords. It protects one from fire, the weakness of the Nothren people.",北方領主的魔法服.能抵抗北族人畏懼的火焰之力.
+809,Gaia Robe,蓋亞長袍,Adorned robe of an infamous Gaia of the Earthen Legion.,由大地軍團惡名昭彰的蓋亞所穿戴的長袍。
+810,Lyonesse Shield,里昂內斯盾,Shield of a Lyonesse knight.,里昂內斯騎士的盾.
+811,Acolyte Shoes,追隨者之鞋,Dusty footwear of a follower of Mammon.,瑪門追隨者的灰黑鞋子.
+812,Chimera Greaves,奇美拉護脛,"Exotic, heavy leg armor made of Chimeric remains.",用奇美拉遺骸做成的異國風厚腿甲.
+813,Ortanite Greaves,歐坦尼護脛,Leg armor forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense.,使用歐坦尼魔像遺骸製成的腿甲.犧牲魔法防禦來大幅強化物理防禦.
+814,Lyonesse Greaves,里昂內斯護脛,Leg armor of a Lyonesse knight.,里昂內斯騎士的腿甲.
+815,Lyonesse Shoes,里昂內斯之鞋,Footwear of a Lyonesse warlock.,里昂內斯術士的鞋子.
+816,Black Dragon Helmet,黑龍頭盔,"Helmet forged of the remains of the great dragon, Fafnir.",用邪龍法夫納遺骸打造的頭盔.
+817,Black Dragon Greaves,黑龍護脛,"Leg armor forged of the remains of the great dragon, Fafnir.",用邪龍法夫納遺骸打造的腿甲.
+818,Bident,雙叉戟,"A mighty pole-arm carried by Hades, the exiled guardian of the underworld.",流亡的冥府鎮守者-黑帝斯的長柄武器.
+819,Chimera Stacatto,奇美拉之符,An instrument often used to sooth the greatest of beasts.,用來安撫最強力猛獸的樂器.
+820,Lyonesse Crown,里昂內斯王冠,"The famed Crown of King Gradlon. Gradlon left Avalon to form the kingdom of Lyonesse a century ago. It is rumored that Lyonesse still stands, without their beloved king.",
+821,Dynasty,王朝,"An ancient, strange weapon of unknown origin. It is carried by Anubis, the jackal, and can cause an opponent to bleed simply by casting a spell.",
+822,Uchigatana,打刀,Katana of a Lyonesse assassin.,里昂內斯刺客的武士刀.
+823,Lyonesse Cowl,里昂內斯風帽,Light armor of a Lyonesse assassin.,里昂內斯刺客的輕裝甲.
+824,Lyonesse Garb,里昂內斯皮甲,Light armor of a Lyonesse assassin.,里昂內斯刺客的輕裝甲.
+825,Lyonesse Boots,里昂內斯長靴,Silent boots of a Lyonesse assassin.,里昂內斯刺客的長靴.
+826,Arisen Terror,重生恐慌杖,An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more gold and orns.,使用潛行於深海之物的遺骸打造的恐怖法杖.能讓怪物吐出更多金幣及歐幣.
+827,Arisen Horror,重生恐懼杖,An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more items.,由溺死旅人的屍體變造而成的可怕法杖，可能會使墮落的野獸掉落更多的物品。
+828,Arisen Monster Tome,重生魔物之典,A tome recounting the cursed stories of Fanir. Increases experience earned at the expense of the potential.,
+829,Atlas,阿特拉斯,Shield of a fallen Lyonesse Vanguard.,墮落里昂內斯先鋒的盾.
+830,Ifrit's Feet,伊夫利特之靴,Boots of an infamous Ifrit of the Inferno Knights.,惡名昭彰的煉獄騎士伊夫利特之靴.
+831,Leviathan Cuirass,利維坦胸甲,Heavy armor of an infamous Leviathan of the Frozenguard.,惡名昭彰的利維坦穿的重裝甲.
+832,Taranis Hood,塔拉尼斯兜帽,Hood of an infamous Taranis of Stormforce.,風暴之力惡名昭彰的塔拉尼斯兜帽。
+833,Nekromancer's Staff,死靈法師之杖,A staff often used in forbidden magic.,通常用在禁忌魔法的法杖。
+834,Arisen Clurichaun Blade,重生酒精靈之刃,Fabled ceremonial blade of a forgotten clurichaun. It has a good chance of poisoning an opponent.,被遺忘的惡作劇小妖的儀式刀。有高機率使對手中毒。
+836,Arisen Imagination,重生空想幻境,"An extremely odd staff, carried by a cryptid mimic. It can occasionally cause unpredicted status effects.",詭異的寶箱怪持有的奇妙法杖.偶爾能造成無法預期的異常狀態.
+837,Arisen Fairy's Ring,重生仙女之戒,An arcane ring often worn by a clurichaun. It increases both mana potential and dexterity.,小妖精穿戴的奧術戒指，它可以增加魔力值及敏捷。
+838,Clurichaun Arrows,酒精靈箭矢,A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison or blight an opponent.,一袋塗抹劇毒的弓箭。裝備在副手時會犧牲護盾但有機會讓對手陷入中毒或枯萎.
+839,Arisen Naggeneen's Hat,重生納根因的帽子,"Headwear of the mischievous clurichaun, Naggeneen. It protects its wearer from both poison and toxicity.",淘氣妖精—納根因的頭飾，它可以保護穿戴者免疫中毒與劇毒。
+840,Arisen Ring,重生的戒指,A ring of the arisen cursed Fafnir. Increases your attack and magic power at the expense of your longevity.,重生的受詛咒法夫納的戒指.能折損壽命來換取物理及魔法攻擊力的提升.
+841,Black Dragon Armor,黑龍盔甲,"Armor forged of the remains of the great dragon, Fafnir.",用邪龍法夫納遺骸打造的盔甲.
+842,Gandring,甘德林,"Daggers carried by Mammon, the demon of hubris.",傲慢的惡魔-瑪門所持的匕首.
+843,Kaladanda,閻摩魔杖,"Staff of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的法杖.
+844,Labrys,雙頭斧,"Axe of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的大斧.
+845,Naggeneen's Brew,納根因的精釀,"An incredibly foul drink Concocted by Naggeneen. It heavily poisons its consumer, but raises some stats.",
+846,Simple Shoes,簡單的鞋,A simple pair of trusty shoes.,一雙簡單可靠的鞋。
+847,Ancient Troll's Charm,遠古巨魔的護符,Strange amulet of a troll. Boosts most stats.,巨魔的神奇護身符，可以增加許多屬性。
+848,Apprentice Hood,學徒兜帽,Hood worn by a talented student of magic.,熟練的魔法師學徒戴的兜帽.
+849,Wading Boots,防水靴,Shoes made to navigate thick marshland.,做來穿越茂密沼澤的鞋子。
+850,Apprentice Shoes,學徒鞋子,Shoes worn by a talented student of magic.,天才魔法學徒所穿戴的鞋子。
+851,Aegis,神盾,An ageless golden shield capable of protecting one from petrification.,可以保護持有者免疫石化的永恆黃金盾。
+852,Ancient Eye,遠古之眼,A strange eye imbued with even stranger magic. Keeping this in your hand will slightly boost all stats.,有著詭異魔法加持的奇怪眼球.拿在手上能稍微提升身體素質.
+853,Old Hallowed Blade,遠古萬聖劍,An intricate sword of the great Pumpkinhead.  It offers immense attack power at the expense of Ward.,
+854,White Sheet,白紙,A simple white sheet that one could use to mock a spirit.  It protects one from falling asleep in battle.,
+855,Bag of Treats,零食袋,"A bag of treats of lore and luck.  Carrying it increases gold, orns, and experience earned.  You may also find more items.",
+856,Bag of Tricks,驚奇袋,A back of tricks of lore and luck.  Carrying it may add the chance for many status effects to your attacks and spells.,
+857,Hallowed Monster Tome,萬聖魔物之典,A large tome of monster knowledge. Increases experience earned.,充滿魔物知識的巨著.能增加獲得的經驗值.
+858,Hallowed Witch's Hat,萬聖女巫帽,The symbolic headwear of a nameless witch.  It can protect one from status effects caused by the four basic elements.,
+859,Hallowed Candle,萬聖蠟燭,"When lit, this mysterious candle draws stronger enemies to you for a limited time. Monsters defeated with this candle lit also give more experience.",點燃此神秘蠟燭會在期間內吸引更強的敵人，這段期間擊敗魔物將給予更多的經驗值。
+860,Arisen Demeter's Staff,重生狄蜜特法杖,"The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality.","狄蜜特的扭曲法杖.在墮落之後,狄蜜特創造了大地軍團來維持世界的平衡.不幸的是,在不久之後便迎來他們的命運."
+861,Arisen Ithra's Staff,重生以斯拉法杖,"Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconin invasion.",
+862,Arisen Thor's Arc,重生索爾之弓,A masterfully crafted magic bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent.,
+863,Arisen Vulcan's Longsword,重生的瓦肯長劍,,
+864,Arisen Vulcan's Archistaff,重生瓦肯之權杖,,
+865,Arisen Demeter's Halberd,重生狄蜜特之戟,"The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality.","狄蜜特的棒棒.在墮落之後,狄蜜特創造了大地軍團來維持世界的平衡.不幸的是,在不久之後便迎來他們的命運."
+866,Arisen Ithra's Blade,重生以斯拉之劍,"Thin, cold blade of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion.",白騎士以斯拉的冷冽長劍.以斯拉建立了寒霜守衛來對抗德肯尼亞族的入侵.
+867,Arisen Thor's Hammer,重生索爾之錘,"Small, yet immensely heavy hammer of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His hammer can easily paralyze an opponent.",索爾持有的小槌子.索爾建立了風暴之力不久後便屈服於墮落之力之下.他的槌子能輕易的麻痺對手.
+868,Mirror,鏡像,"A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana.","鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值."
+869,Avalon Crown,阿瓦隆王冠,"The fabled crown of King Arthus. Although it offers little in terms of defense, it can protect its wearer from being cursed or petrified.","亞瑟王的傳奇王冠.雖然防禦性能不高,但戴上它能免疫於被詛咒或石化."
+870,Parrying Dagger,招架匕首,An off-hand dagger used to parry an opponent's attacks. It boosts one's dexterity at the expense of Ward.,
+871,High Fomorian Garb,高級弗摩爾族皮甲,Heavy armor worn by Fomorian rogues.,弗摩爾族俠盜所穿的重裝甲.
+872,High Fomorian Cowl,高級弗摩爾族風帽,A hood worn by Fomorian rogues.,弗摩爾族俠盜所穿的兜帽.
+873,High Fomorian Boots,高等弗摩爾族長靴,Boots worn by Fomorian rogues.,弗摩爾族盜賊穿的靴子.
+874,Old Nothren Crown,老北族王冠,The crown of a former Nothren King. It protects one from having their magic or attack powers weakened.,前北族國王的王冠，它可以保護穿戴者免疫攻擊力下降。
+875,Ring of Dawn,破曉之戒,Ring of the King of Light. It helps one get a little extra step in the morning.,光之王的戒指.讓你在早晨時能多走幾步路.
+876,Dawnbreaker [sword],破曉者 [sword],A powerful magical sword of Ljosalfar royalty. It grants one immunity from burning and blindness.,光之精靈王族的魔法劍.能賦予持有者免疫於燃燒跟致盲的能力.
+877,Dawn Boots,破曉長靴,Boots of a royal Ljosalfar warrior.,皇家白精靈戰士的長靴.
+878,Dawn Armor,破曉盔甲,Chestplate of a royal Ljosalfar knight.,皇家光之精靈騎士的胸甲.
+879,Ring of Day,黎明之戒,Ring of the King of Light. It can protect one from having their defenses lowered.,光之王的戒指.戴上它能防止防禦降低.
+880,Dawn Hood,破曉兜帽,Hood of a royal Ljosalfar mage.,皇家光之精靈法師的兜帽.
+881,Dawnbreaker [bow],破曉者 [bow],A powerful magical greatbow of Ljosalfar royalty. It grants one immunity from burning and blindness.,光之精靈王族的魔法大弓.能賦予持有者免疫於燃燒跟致盲的能力.
+882,Dawnbreaker [staff],破曉者 [staff],A powerful magical archstaff of Ljosalfar royalty. It grants one immunity from burning and blindness.,光之精靈王族的強力魔法權杖.賦予持有者免疫於燃燒跟致盲的能力.
+883,Dawn Garb,破曉皮甲,Light armor of a royal Ljosalfar warrior.,皇家光之精靈的輕裝甲.
+884,Dawn Helmet,破曉頭盔,Helmet of a royal Ljosalfar warrior.,皇家光之精靈戰士的頭盔.
+885,Duskbreaker [sword],破暮者 [sword],A powerful magical sword of Dokkalfar royalty. It grants one immunity from blindness and falling asleep in battle.,暗之精靈王族的魔法劍.賦予持有者免疫於致盲跟入睡的能力.
+886,Duskbreaker [bow],破暮者 [bow],A powerful magical greatbow of Dokkalfar royalty. It grants one immunity from blindness and falling asleep in battle.,暗之精靈王族的魔法大弓.能賦予持有者免疫於致盲跟入睡的能力.
+887,Duskbreaker [staff],破暮者 [staff],A powerful magical archstaff of Dokkalfar royalty. It grants one immunity from blindness and falling asleep in battle.,暗之精靈王族的魔法權杖.賦予持有者免疫於致盲跟入睡的能力.
+888,Dusk Cowl,薄暮風帽,Cowl of a royal Dokkalfar assassin. It grants one immunity from blindness and falling asleep in battle.,皇家暗之精靈刺客的風帽.賦予持有者免疫於致盲跟入睡的能力.
+889,Dusk Hood,薄暮兜帽,Hood of a royal Dokkalfar mage. It grants one immunity from blindness and falling asleep in battle.,皇家暗之精靈法師的兜帽.賦予持有者免疫於致盲跟入睡的的能力.
+890,Dusk Helmet,薄暮頭盔,Helmet of a royal Dokkalfar warrior. It grants one immunity from blindness and falling asleep in battle.,皇家暗之精靈戰士的頭盔.賦予持有者免疫於致盲跟入睡的能力.
+891,Dusk Robe,薄暮長袍,Robe of a royal Dokkalfar mage. It grants one immunity from blindness and falling asleep in battle.,皇家暗之精靈法師的法袍.能賦予持有者免疫於致盲跟入睡的能力.
+892,Dusk Armor,薄暮盔甲,Armor of a royal Dokkalfar warrior. They grant one immunity from blindness and falling asleep in battle.,皇家暗之精靈戰士的裝甲.賦予持有者免疫於致盲跟入睡的能力.
+893,Dusk Garb,薄暮皮甲,Light armor of a royal Dokkalfar warrior. It grants one immunity from blindness and falling asleep in battle.,皇家暗之精靈戰士的輕裝甲.賦予持有者免疫於致盲跟入睡的能力.
+894,Dusk Boots,薄暮長靴,Boots of a royal Dokkalfar warrior. They grant one immunity from blindness and falling asleep in battle.,皇家暗之精靈戰士的長靴.能免疫致盲跟入睡.
+895,Ring of Dusk,薄暮之戒,Ring of the Queen of Darkness. It provides extra mana to help get through the night.,暗黑女王的戒指.能供應額外的魔力值讓你度過漫長黑夜.
+896,Ring of Night,闇夜之戒,Ring of the Queen of Darkness. It can protect one from having their physical or magical prowess decreased.,暗黑女王的戒指.能防止裝備者的物理或魔法攻擊力降低.
+897,Dawn Cowl,破曉風帽,Cowl of a royal Ljosalfar assassin.,皇家光之精靈的風帽.
+898,Dawn Robe,破曉長袍,Robe of a royal Ljosalfar mage.,皇家光之精靈的法袍.
+899,Arisen Wolfbane,重生狼之災,A magical blade representing the unrelenting force of Fenrir the wolf. It can temporarily decrease your opponent's defense upon use.,展現魔狼芬里爾之力的魔法劍.能暫時降低對手的物防.
+900,Ebon Top Hat,黑之高帽,"Boy, it is dapper!",潮到出水啦孩子們!
+901,Top Hat,高帽子,"Boy, it is dapper!",潮到出水啦孩子們!
+902,Presents!,禮物!,Gifts for you and me. Greatly boosts the chance for monsters to drop items.,給你和我的禮物.能大幅提升怪物掉落物品的機率.
+903,Fancy Belt,亮麗的腰帶,How could a piece of clothing make one so happy?,為什麼一件衣服就能使人開心呢?
+904,Lasting Lantern,持久的燈籠,A special lantern that can attract all sorts of beings.,一盞能吸引各式生物的燈籠。
+905,Jolly Stockings,歡樂長襪,Socks of a generous and plump man.,一個慷慨豐滿的男人的襪子。
+906,Ebon Jolly Stockings,黑之歡樂長襪,Socks of a generous and plump man.,一個慷慨豐滿的男人的襪子。
+907,Reinbow,虹弓,A great hunting bow carried by followers of Scruug.,守財奴史古基追隨者所持有的強力獵弓。
+908,Candy Cane,枴杖糖,A vibrant cane carried by followers of Scruug. Some say it is even pleasing to the taste.,史古基的追隨者持有的元氣拐杖糖.有人說味道還不錯.
+909,Egg Nog,蛋奶酒,A strange concoction of a lost civilization. Drinking it in battle can add a little spring to your step.,來自遺失文明的神奇調和飲料，在戰鬥中喝下它可使腳步變輕盈。
+910,Sleighblade,雪橇刃,A glistening sword carried by followers of Scruug. It is quite chilling to the touch.,守財奴史古基的追隨者攜帶的閃閃發光的劍。摸起來令人寒心。
+911,Caroling Lute,聖誕頌琴,A song is best sung with cheer.,最好唱開心點的歌.
+912,North Star,北方之星,A crystalline item capable of giving its carrier many temporary status effects.,
+913,Ebon North Star,黑之北極星,A crystalline item capable of giving its carrier many temporary effects.,可給予持有者多種暫時增益的水晶。
+914,Ebon Reinbow,黑之虹弓,A great hunting bow carried by followers of Scruug.,守財奴史古基追隨者所持有的強力獵弓。
+915,Ebon Sleighblade,黑之雪橇刃,A glistening sword carried by followers of Scruug. It is quite chilling to the touch,
+916,Ebon Caroling Lute,黑之聖誕頌琴,A song is best sung with cheer.,最好唱開心點的歌.
+917,Ebon Candy Cane,黑之拐杖糖,A vibrant cane carried by followers of Scruug.  Some say it is even pleasing to the taste.,
+918,Mighty Ensemble,強大的劍盾,Sword and shield pairing of the fabled Mighty Slime.,究極史萊姆持有的劍與盾。
+919,Jewel of the End,末日珠寶,A destructive adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,來自毀滅的裝飾品，它能為裝備帶來許多能力提升。
+920,Jewel of Sparring,格鬥寶石,A small adornment capable of granting the ability to lower an opponent's attack when adorned upon it.,鑲嵌在裝備上能降低對手攻擊的精巧飾品.
+921,Jewel of Growth,成長寶石,A small adornment capable of granting additional experience earned to a piece of equipment when adorned.,鑲嵌在武器上能提升經驗值的小裝飾品.
+922,Jewel of Strength,力之寶石,A small adornment capable of increasing the attack power of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升物攻的小飾品.
+923,Jewel of Titania,泰坦寶石,A small adornment of the Titans capable of increasing the defenses of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升防禦力的小小泰坦裝飾.
+924,Jewel of Arcana,奧術寶石,"A small adornment capable of granting the ability to paralyze, rot, burn, or freeze an opponent to a piece of equipment when adorned.",一種小裝飾品，鑲嵌在裝備上可以獲得麻痺、腐蝕、燃燒或冰凍對手的能力。
+925,Mammon's Teardrop,瑪門之淚,A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponents attack or magical power.,
+926,Jewel of Fomoria,弗摩爾寶石,A small adornment of Fomoria capable of increasing the magical defense of a piece of equipment when adorned upon it.,鑲嵌時能提升魔法防禦的弗摩爾族裝飾品.
+927,Jewel of Draconia,龍人寶石,A small adornment of Draconia capable of increasing the attack power of a piece of equipment when adorned upon it.,裝飾此德隆尼亞的小飾品可以提升物攻。
+928,Jewel of Erosion,腐蝕寶石,A small adornment capable of granting the ability to lower an opponent's magical defenses when adorned upon it.,鑲嵌在裝備上時能有機會降低對手魔防的小飾品.
+929,Jewel of Avalon,阿瓦隆寶石,A small adornment of Avalon capable of increasing many attributes of a piece of equipment when adorned upon it.,一個阿瓦隆的小裝飾品，他能夠為裝飾的裝備提升很多種屬性。
+930,Assassin's Jewel,刺客寶石,"An adornment of assassins. When Adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses.",
+931,Jewel of Celestria,天降寶石,A small adornment of the stars capable of increasing the magical power of a piece of equipment when adorned upon it.,鑲嵌在裝備上時能提升魔攻的星星裝飾品.
+932,Jewel of Pale,淡白寶石,A small adornment of Balor capable of increasing the dexterity and Ward of a piece of equipment when adorned upon it.,鑲嵌在裝備上石能提升敏捷和護盾的精巧巴羅爾裝飾品.
+933,Arisen Boots,重生的長靴,"Boots worn by rogues of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的俠盜所穿的長靴.
+934,Arisen Shoes,重生之鞋,"Shoes worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的追隨者所穿的鞋子.
+935,Arisen Shield,重生之盾,"A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed.",
+936,Arisen Kaladanda,重生閻摩魔杖,"Staff of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的法杖.
+937,Arisen Robe,重生法袍,"Robe worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔瑪門的追隨者所穿的法袍.
+938,Arisen Hood,重生兜帽,"Hood worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的追隨者所穿的兜帽.
+939,Arisen Helmet,重生頭盔,"Helmet worn by knights of Mammon, the demon of hubris.",所屬於傲慢的惡魔-瑪門的騎士所戴的頭盔.
+940,Arisen Greaves,重生護脛,"Leggings worn by knights of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的騎士所穿的腿甲.
+941,Arisen Armor,重生盔甲,"Heavy armor worn by knights of Mammon, the demon of hubris.",所屬於傲慢的惡魔瑪門的騎士所穿的重裝甲.
+942,Arisen Garb,重生皮甲,"Light armor worn by rogues of Mammon, the demon of hubris",
+943,Arisen Labrys,重生雙頭斧,"Axe of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的大斧.
+944,Jewel of Opportunity,機會寶石,A small adornment capable of increasing the critical attack rate of a weapon when adorned upon it.,鑲嵌在裝備上能提升爆擊率的精巧飾品.
+945,Jewel of Mana,瑪那寶石,A small adornment capable of increasing the mana granted by a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔力值的小飾品.
+946,Immortal Garb,不朽皮甲,Light armor of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight.,不朽戰士的輕裝甲.不朽者是來自偉大墮落帝國的戰士.他們的裝備能防止持有者失去目光.
+947,Immortal Hood,不朽兜帽,Hood of an Immortal mage. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight.,不朽法師的兜帽.不朽者是來自偉大墮落帝國的戰士.他們的裝備能防止持有者失去目光.
+948,Immortal Robe,不朽法袍,Robe of an Immortal mage. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight.,不朽法師的法袍.不朽者是來自偉大墮落帝國的戰士.他們的裝備能防止持有者失去目光.
+949,Satis Antlers,薩蒂斯鹿角盔,"This unique headwear does not offer much protection, but is well suited for adornment.",這個獨特的頭飾無法提供太多的保護，但它很適合鑲嵌。
+950,Great Antlers,強大的鹿角,"This unique headwear does not offer much protection, but is well suited for adornment.",這個獨特的頭飾無法提供太多的保護，但它很適合鑲嵌。
+951,Immortal Katana,不朽武士刀,The blade of an ageless warrior. It may pierce the defenses of an opponent.,一位永生戰士的劍刃。它可以刺穿對手的防禦。
+952,Jewel of Defense,物抗寶石,A small adornment capable of increasing the defense power of piece of equipment when adorned upon it.,
+953,Jewel of Speed,速之寶石,A small adornment capable of increasing the dexterity of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升敏捷的小飾品.
+954,Jewel of Wisdom,智慧寶石,A small adornment capable of increasing the magic power of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔攻的小飾品.
+955,Arisen Teardrop,重生瑪門之淚,A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponent's attack and magical powers.,
+956,Orange Pinion,橙橘羽毛,A fallen Feather of the great Phoenix. It can grant a weapon additional attributes when adorned upon it.,
+957,Jewel of Attrition,削弱寶石,A small adornment capable of granting the ability to lower an opponent's defenses when adorned upon it.,鑲嵌時能給予對手物理防禦降低的小裝飾品.
+958,Immortal's Ring,不朽之戒,An ageless ring of an Immortal Lord. It grants additional life at the expense of other stats.,不朽領主的永恆之戒.提升持有者的生命值但會降低其他的屬性.
+959,Immortal's Jewel,不朽寶石,An adornment capable of increasing the HP granted by a piece of equipment when adorned upon it.,鑲嵌上去能提升生命值的裝飾品.
+960,Immortal Boots,不朽長靴,Boots of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight.,不朽戰士的長靴.不朽者是來自偉大墮落帝國的戰士.他們的裝備能防止持有者失去目光.
+961,Phoenixsong,鳳曲,"A decorated flute often used to lull the great Phoenix. Although it seemingly has little power, it is well suited for adornment.","常用於歌頌偉大鳳凰的華美長笛.雖然看起來很脆弱,但很適合鑲嵌裝飾品."
+962,High Phoenician Helmet,高級鳳凰頭盔,Helmet of a worshipper of the mighty Phoenix.,鳳凰敬拜者的頭盔.
+963,Great Phoenician Hood,強大的鳳凰兜帽,Hood of a worshipper of the mighty Phoenix.,鳳凰敬拜者的兜帽。
+964,Great Phoenician Helmet,強大鳳凰頭盔,Helmet of a worshipper of the mighty Phoenix.,鳳凰敬拜者的頭盔.
+965,Phoenician Hood,鳳凰兜帽,Hood of a worshipper of the mighty Phoenix.,鳳凰敬拜者的兜帽。
+966,High Phoenician Cowl,高級鳳凰風帽,Headwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的頭帽.
+967,High Phoenician Hood,高級鳳凰兜帽,Hood of a worshipper of the mighty Phoenix.,鳳凰敬拜者的兜帽。
+968,Phoenician Cowl,鳳凰風帽,Headwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的頭帽.
+969,Phoenician Helmet,鳳凰頭盔,Helmet of a worshipper of the mighty Phoenix.,鳳凰敬拜者的頭盔.
+970,Great Phoenician Cowl,強大的鳳凰風帽,Headwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的頭帽.
+971,High Phoenician Cuirass,高級鳳凰胸甲,Heavy armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的盔甲.
+972,Phoenician Robe,鳳凰法袍,Robe of a worshipper of the mighty Phoenix.,鳳凰敬拜者的法袍.
+973,Great Phoenician Robe,強大的鳳凰法袍,Robe of a worshipper of the mighty Phoenix.,鳳凰敬拜者的法袍.
+974,Phoenician Garb,鳳凰皮甲,Light armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的輕裝甲.
+975,Phoenician Cuirass,鳳凰胸甲,Heavy armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的盔甲.
+976,Great Phoenician Cuirass,強大鳳凰胸甲,Heavy armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的盔甲.
+977,High Phoenician Garb,高級鳳凰皮甲,Light armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的輕裝甲.
+978,Great Phoenician Shield,強大的鳳凰盾,Decorated shield of a worshipper of the mighty Phoenix. It protects one from being blinded or lit ablaze.,鳳凰敬拜者的華麗盾牌.可以防止持有者被致盲或焚燒.
+979,Phoenician Shield,鳳凰的盾,Decorated shield of a worshipper of the mighty Phoenix. It protects one from being blinded or lit ablaze.,鳳凰敬拜者的華麗盾牌.可以防止持有者被致盲或焚燒.
+980,High Phoenician Shield,高級鳳凰的盾,Decorated shield of a worshipper of the mighty Phoenix. It protects one from being blinded or lit ablaze.,鳳凰敬拜者的華麗盾牌.可以防止持有者被致盲或焚燒.
+981,Phoenician Shoes,鳳凰的鞋,Footwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲。
+982,High Phoenician Boots,高級鳳凰長靴,Footwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲。
+983,Phoenician Boots,鳳凰長靴,Footwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲。
+984,Great Phoenician Shoes,強大鳳凰的鞋,Footwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲。
+985,Great Phoenician Boots,強大的鳳凰長靴,Footwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲。
+986,Great Phoenician Greaves,強大的鳳凰護脛,Heavy leg armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲.
+987,Phoenician Greaves,鳳凰護脛,Heavy leg armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲.
+988,High Phoenician Shoes,高級鳳凰的鞋,Footwear of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲。
+989,High Phoenician Greaves,高級鳳凰護脛,Heavy leg armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的腿甲.
+990,Red Pinion,紅羽毛,A fallen feather of the great Phoenix. It can grant a piece of armor additional attributes when adorned upon it.,強大鳳凰落下的羽毛.鑲嵌在防具上時能提供額外的屬性.
+991,Arisen Cowl,重生風帽,"Cowl worn by rogues of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的俠盜所戴的風帽.
+992,Arisen Gandring,重生甘德林,"Daggers carried by Mammon, the demon of hubris.",傲慢的惡魔-瑪門所持的匕首.
+993,Immortal Hat,不朽帽子,Infamous headwear of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight.,不朽戰士的頭帽.不朽者是來自偉大墮落帝國的戰士.他們的裝備能防止持有者失去目光.
+994,Jewel of Silencing,沉默寶石,A small adornment capable of granting a weapon the ability to lower an opponent's magic power when adorned upon it.,鑲嵌在武器上能有機會使對手魔法能力降低的小裝飾品.
+995,Great Phoenician Garb,強大的鳳凰皮甲,Light armor of a worshipper of the mighty Phoenix.,鳳凰敬拜者的輕裝甲.
+996,Great Phoenixsong,強大的鳳曲,"A decorated flute often used to lull the great Phoenix. Although it seemingly has little power, it is well suited for adornment.","常用於歌頌偉大鳳凰的華美長笛.雖然看起來很脆弱,但很適合鑲嵌裝飾品."
+997,High Phoenixsong,高級鳳曲,"A decorated flute often used to lull the great Phoenix. Although it seemingly has little power, it is well suited for adornment.","常用於歌頌偉大鳳凰的華美長笛.雖然看起來很脆弱,但很適合鑲嵌裝飾品."
+998,Jewel of Storma,暴風寶石,A small adornment capable of granting the ability to paralyze an opponent to a piece of equipment when adorned.,鑲嵌在裝備上時能造成對手麻痺的精巧飾品.
+999,Antlers,鹿角盔,"This unique headwear does not offer much protection, but is well suited for adornment.",這個獨特的頭飾無法提供太多的保護，但它很適合鑲嵌。
+1000,Adamantine Amulet,精金護身符,A rare platinum amulet. Raises attack power.,罕見的白金護身符.能提升物理攻擊力.
+1001,High Phoenician Robe,高級鳳凰法袍,Robe of a worshipper of the mighty Phoenix.,鳳凰敬拜者的法袍.
+1002,Lesser Jewel of Resistance,低階魔防寶石,A small adornment capable of increasing the magic defense of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔防的小飾品.
+1003,Lesser Jewel of Strength,低階力量寶石,A small adornment capable of increasing the attack power of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升物攻的小飾品.
+1004,Jewel of Fira,焰之寶石,A small adornment capable of granting the ability to burn an opponent to a piece of equipment when adorned.,鑲嵌在裝備上能使人燃燒的精巧飾品.
+1005,Jewel of Aqua,阿庫亞之珠,A small adornment capable of granting the ability to freeze an opponent when adorned.,
+1006,Jewel of Ward,護盾寶石,A small adornment capable of increasing the Ward provided by a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升護盾的精巧裝飾品.
+1007,Lesser Jewel of Wisdom,低階智慧寶石,A small adornment capable of increasing the magic power of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔攻的小飾品.
+1008,Lesser Jewel of Speed,低階速度寶石,A small adornment capable of increasing the dexterity of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升敏捷的小飾品.
+1009,Lesser Jewel of Defense,低階物防寶石,A small adornment capable of increasing the defense of a piece of equipment when adorned upon it.,
+1010,Lesser Jewel of Health,低階生命寶石,A small adornment capable of increasing the HP granted by a piece of equipment when adorned upon it.,一個小裝飾品，當鑲嵌在裝備上可以增加生命值。
+1011,Jewel of Natura,大自然的寶玉,A small adornment capable of granting the ability to rot an opponent to a piece of equipment when adorned.,鑲嵌在裝備上時能賦予使敵人陷入腐爛狀態的能力.
+1012,Apprentice Robe,學徒法袍,Robe worn by a talented student of magic.,有才華的魔法師學生穿的法袍.
+1013,Simple Hood,簡易兜帽,A simple mage's hood.,簡單的法師兜帽.
+1014,Steel Armor,鋼之盔,Armor made of hard steel.,硬鋼製成的盔甲。
+1015,Steel Leggings,鋼質腿甲,Armor made of hard steel.,硬鋼製成的盔甲。
+1017,Succubus Mantle,魅魔披風,"Crude armor made of the remains of a succubus. Does not offer much defense, but raises your dexterity.",魅魔殘骸製成的粗糙盔甲，只提供少量的物防，但可以增加敏捷。
+1018,Kerberos Greatsword,刻耳柏洛斯巨劍,"Mighty sword, representative of the relentless Kerberos.",代表無情刻耳柏洛斯的強力之劍。
+1019,Kerberos Archistaff,刻耳柏洛斯權杖,"Mighty staff, representative of the relentless Kerberos.",刻耳柏洛斯代表性的法杖.
+1020,Sharpened Kerberos Claws,尖銳的刻耳柏洛斯之爪,"Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen.",由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。
+1021,Pale Eye of Kerberos,蒼灰色的刻耳柏洛斯之眼,Crystallized eye of the icy Kerberos. It can grant a weapon additional properties when adorned upon it.,
+1022,Wolven Tower Shield,狼塔盾,A gigantic shield often used to protect one from the wildest of wolves. It offers additional defense at the expense of power.,保護持有者免受野狼群侵害的巨大盾牌，它會犧牲攻擊力以換取額外的物防。
+1023,Kerberos Veil,刻耳柏洛斯面罩,A durable hood forged of the remains of the relentless Kerberos. It protects it wearer from becoming frozen.,
+1024,Plagued Greaves,瘟疫護脛,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1025,Cursed Ortanite,詛咒的歐坦尼,,
+1026,Banshee Veil,報喪女妖面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1027,Badb Catha,芭德布渡鴉,"Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent.",摩莉甘的姊妹-芭德布的詛咒大弓.提升持有者的敏捷的同時能對敵人造成相對的影響.
+1028,Macha Pillar,瑪查支柱,"Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent.",摩莉甘的姊妹-瑪查的詛咒法杖.提升持有者魔法攻擊力的同時對敵人造成相對的影響.
+1029,Neman Havoc,妮潘凶禍,"Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",摩莉甘的姊妹-妮潘的詛咒長劍.提升持有者物理攻擊力的同時對敵人造成相對的影響.
+1030,Raven Boots,渡鴉長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1031,Raven Veil,渡鴉面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1032,Raven Garb,渡鴉皮甲,"Cursed light armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒輕裝甲.
+1033,Plagued Cuirass,瘟疫胸甲,"Cursed heavy armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒重裝甲.
+1034,Plagued Helmet,瘟疫頭盔,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1035,Banshee Boots,報喪女妖長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1036,Banshee Robe,報喪女妖法袍,"Cursed robe of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒法袍.
+1037,Morrigan's Scroll,摩莉甘的卷軸,"A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells.","滿載卑鄙美學知識的卷軸.藉由犧牲護盾來提升持有者的魔力及魔力值,並有機會大幅降低對手的魔法防禦力."
+1038,Eye of the Morrigan,摩莉甘之眼,A decaying adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升很多屬性的小裝飾品.
+1039,Realm Katar,域界卡塔拉,"A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornments.",
+1040,Fey Raven Garb,變異渡鴉皮甲,"Cursed light armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒輕裝甲.
+1041,Fey Banshee Boots,變異報喪女妖長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1042,Fey Neman Havoc,變異妮潘凶禍,"Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",摩莉甘的姊妹-妮潘的詛咒長劍.提升持有者物理攻擊力的同時對敵人造成相對的影響.
+1043,Fey Banshee Robe,變異報喪女妖法袍,"Cursed robe of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒法袍.
+1044,Fey Raven Veil,變異渡鴉面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1045,Fey Plagued Cuirass,變異瘟疫胸甲,"Cursed heavy armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒重裝甲.
+1046,Fey Plagued Helmet,變異瘟疫頭盔,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1047,Fey Badb Catha,變異芭德布渡鴉,"Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent.",摩莉甘的姊妹-芭德布的詛咒大弓.提升持有者的敏捷的同時能對敵人造成相對的影響.
+1048,Fey Banshee Veil,變異報喪女妖面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1049,Fey Macha Pillar,變異瑪查支柱,"Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent.",摩莉甘的姊妹-瑪查的詛咒法杖.提升持有者魔法攻擊力的同時對敵人造成相對的影響.
+1050,Fey Plagued Greaves,變異瘟疫護脛,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1051,Fey Raven Boots,變異渡鴉長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1052,Smelly Shoes,惡臭鞋子,"Foul shoes worn by the fairy Naggeneen. Oddly, they can protect their wearer from poison and blight.",矮妖納根因所穿的臭鞋子.怪的是它可以防止中毒跟枯萎.
+1053,Fairy's Scroll,仙女的卷軸,A worn scroll often carried by a clurichaun. It increases both mana potential and dexterity at the sacrifice of Ward.,小妖精持有的破舊卷軸，它會犧牲護盾以增加魔力值及敏捷。
+1054,Crowsong,渡鴉葬歌,Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent.,
+1055,Fey Crowsong,變異渡鴉葬歌,Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent.,摩莉甘的姊妹們使用的詛咒魯特琴.提升物理防禦的同時也能對敵人造成相對的影響.
+1056,Ambrosia,神之食,The brew of a terrible witch. It restores a moderate amount of HP and Mana while curing any negative status effects.,恐怖的女巫所釀的酒.能大幅回復生命值和魔力值並解除對身體素質的負面影響.
+1057,Great Lizarr Armor,強大蜥蜴人盔甲,Armor of a Lizarr warrior.,蜥蜴人戰士的盔甲.
+1058,Great Lizarr Boots,強大蜥蜴人長靴,Boots of a Lizarr warrior.,蜥蜴人戰士的長靴.
+1059,Great Lizarr Leggings,強大蜥蜴人的腿甲,Armor of a Lizarr warrior.,蜥蜴人戰士的盔甲.
+1060,Coral Boots,珊瑚長靴,"Boots of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses.",從深海而來的珊瑚長靴.能犧牲物防換取大量的魔防.
+1061,Coral Hood,珊瑚兜帽,"Hood of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses.",從深海捕到的珊瑚兜帽.藉由犧牲物防來大幅提升魔防.
+1062,Coral Armor,珊瑚盔甲,"Armor of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses.",取自遠洋的珊瑚盔甲，它會犧牲物防以增加大量魔防。
+1063,Coral Robe,珊瑚長袍,"Robe of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses.",珊瑚狀的長袍，來自深海中的稀品。它犧牲了物理防禦提供更強的魔法防禦力。
+1064,Coral Helmet,珊瑚頭盔,"Headwear of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defense.",
+1065,Coral Garb,珊瑚皮甲,"Armor of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses.",取自遠洋的珊瑚盔甲，它會犧牲物防以增加大量魔防。
+1066,Coral Cowl,珊瑚風帽,"Headwear of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses.",從深海而來的珊瑚帽子.藉由犧牲物理防禦來超絕強化魔法防禦.
+1067,Untamed Bull's Eye,桀驁公牛之眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1068,Raging Bull's Eye,憤怒的公牛眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1069,Bull's Eye,公牛之眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1070,Great Lizarr Blade,上級蜥蜴人寬劍,Crude blade of the Lizarr.,蜥蜴人的粗刃。
+1071,Lesser Jewel of Mana,低階瑪那寶石,A small adornment capable of increasing the mana granted by a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔力值的小飾品.
+1072,Jewel of Resistance,魔抗寶石,A small adornment capable of increasing the magic defense of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔防的小飾品.
+1073,Jewel of Health,健康寶石,A small adornment capable of increasing the HP granted by a piece of equipment when adorned upon it upon it.,
+1074,Magician's Shoes,魔法師鞋,Simple shoes worn by students of magic.,魔法學徒所穿的簡易鞋子.
+1075,Ankou's Ring,安庫之戒,"A ring crafted for certain slender fingers. It grants protection for the darkness, one cannot fall asleep or become cursed while wearing it.",
+1076,Briny Pendant,鹹濕的吊飾,"A pendant found within wreckage, deep within the sea. It protects its wearer from blight, poison, rot, and toxic.",於深海廢墟所發現的吊飾，它可以保護穿戴者免疫枯萎、中毒、腐爛及劇毒。
+1077,Jewel of the Deep,深海寶石,A small adornment of the deep sea capable of increasing the magical defenses of a piece of equipment when adorned upon it.,"深海的小飾物,鑲嵌在裝備上時能夠增強其魔法防禦力."
+1078,Phantom Blinders,幻影眼罩,Blinders often used to quell a Kelpie's restlessness. They increase dexterity and critical hit rate of those granted with extra concentration.,用來安撫凱爾皮的馬眼罩，它可以增加持有者的敏捷和爆擊率。
+1079,Heretic's Jewel,赫勒提克寶石,"An adornment of the blasphemous. When adorned upon a weapon, it grants the chance to inflict damage to an opponent's magical resistance",
+1080,Hydra Staff,九頭蛇之杖,Archistaff forged of the remains of a great hydra. It can provide many elemental resistances.,
+1081,Daybreak [bow],破曉 [bow],A powerful magical greatbow of unknown royalty. It grants one immunity from burning and blindness.,來自未知皇室的強力魔法長弓，它可以使持有者免疫燃燒與致盲。
+1082,Turul Feather,圖魯羽毛,A feather of a Turul. It can grant a piece of armor additional dexterity when adorned upon it.,
+1083,Ring of Annwn,安溫之戒,A ring of Annwn royalty. Its arcane enchantment grants immunity to element status conditions.,
+1084,Greater Attack Tonic,強力物攻藥劑,A sour tonic that raises your attack in battle.,可於戰鬥中提升物攻的酸藥劑。
+1085,Greater Magic Tonic,強力魔法藥劑,A sour tonic that raises your magic in battle.,可以提升魔力的酸酸藥水.
+1086,Wisp Staff,幽光法杖,Staff imbued with the power of a wisp.,附有幽光魔力的法杖.
+1087,Blue Feather,藍羽毛,A feather of a Zu. It can grant a piece of armor additional dexterity when adorned upon it.,
+1088,Red Feather,赤羽毛,A feather of a Carrion Crow. It can grant a piece of armor additional dexterity when adorned upon it.,
+1089,Green Feather,綠色羽毛,The feather of a Buzzard. It can grant a piece of armor additional dexterity when adorned upon it.,禿鷹的羽毛，鑲嵌在裝備上可以增加敏捷。
+1090,Yokai's Staff,妖怪法杖,The staff of the revered Yokai. It may lower an opponent's magical defenses.,
+1091,Leach,利奇,A fine blade crafted of a bat's remains. It slightly drains HP from an enemy with damage dealt.,
+1092,Crow's Feathers,烏鴉的羽毛,"Crude armor made of the remains of a crow. Does not offer much defense, but raises your dexterity.",烏鴉遺體製成的粗糙盔甲，雖只提供少量的物防，但可以增加你的敏捷。
+1093,Draugr Staff,屍鬼法杖,A staff of a draugr. Grants additional mana.,
+1094,Nightbreak [staff],夜幕降臨 [staff],A powerful dark archistaff of unknown royalty. It grants one immunity from blindness and falling asleep in battle.,來自無名皇室強大的黑暗權杖，它能讓持有者在戰鬥中免疫致盲及睡眠。
+1095,Arisen Hydra Staff,重生九頭蛇之杖,Archistaff forged of the remains of a great hydra. It can provide many elemental resistances.,
+1096,Leaches,滲透刃,A sharp pair of daggers. They slightly drain HP from an enemies with damage dealt.,一雙鋒利的匕首。它們會從造成的傷害量中吸取生命值。
+1097,Daybreak [staff],破曉 [staff],A powerful archistaff of unknown royalty. It grants one immunity from burning and blindness.,
+1098,Mana Bow,魔力弓,The bow of a mystic. It slightly raises your dexterity.,秘術士的弓.能稍微提升敏捷.
+1099,Argent Leggings,銀飾腿甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1100,Argent Shield,白銀盾,Mystical shield that boasts extra magic defense.,能提升魔防的秘術盾牌.
+1101,Polished Aegis,拋光神盾,An ageless golden shield capable of protecting one from petrification.,可以保護持有者免疫石化的永恆黃金盾。
+1102,Polished Mirror,拋光鏡,"A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana.","鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值."
+1103,Crusading Boots,運動長靴,Some magic users are also skilled in combat. These are the boots of one.,有些法師也很擅長格鬥.這是他們的靴子.
+1104,Court Jester's Outfit,宮廷小丑服,Amusing outfit of a court jester. It increases gold and orns earned.,有趣的宮廷小丑服裝。它能增加賺取的金幣和歐幣。
+1105,Oisin Crown,歐辛王冠,"This unique headwear does not offer much protection, but is well suited for adornment.",這個獨特的頭飾無法提供太多的保護，但它很適合鑲嵌。
+1106,Crusading Helmet,運動頭盔,Some magic users are also skilled in combat. This is the helmet of one.,有些法師對格鬥也略知一二.這頭盔就是他們用的.
+1107,Fey Arrows,變異箭矢,A quiver of arrows that are imbued with unknown magic. They greatly increase ones's attack power at the sacrifice of Ward.,
+1108,Fey Scroll,變異卷軸,A scroll containing knowledge of unstable magic. It improves one's magic at the sacrifice of Ward.,包含不穩定魔法知識的卷軸，它會犧牲護盾以增加持有者的魔法攻擊力。
+1109,Sage's Cane,賢者之杖,An old sage's cane.,老聖人的手杖。
+1110,Argent Armor,銀飾盔甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1111,Argent Helmet,銀飾頭盔,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1112,Archmage's Scroll,大法師的卷軸,A scroll containing knowledge of basic magic. It improves one's magic at the sacrifice of Ward.,內涵基礎魔法知識的卷軸.藉由犧牲護盾提升魔力.
+1113,Flute,長笛,A simple flute made of brass. It may lull an enemies to sleep.,
+1114,Yeti Mightycoat,極暖雪人大衣,Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered.,讓人想起可怕雪人的大衣，它可以保護穿戴者免受冰凍及防禦力下降。
+1115,Daybreak [sword],破曉 [sword],A powerful magical sword of unknown royalty. It grants one immunity from burning and blindness.,不知名皇家的魔法劍.能免疫於燃燒和致盲.
+1116,Iron Shield,鐵盾,A simple shield of iron.,一個簡單的鐵製盾牌。
+1117,Arisen Sea Axe,重生深海斧,An axe enchanted with the power of the raging sea.,附有深海之力的斧頭.
+1118,Old Spear,老槍,A blade fashioned upon an extended shaft of wood.,附在長木柄尖端上的刀片。
+1119,Scroll,卷軸,A scroll containing knowledge of basic magic. It improves one's magic at the sacrifice of Ward.,內涵基礎魔法知識的卷軸.藉由犧牲護盾提升魔力.
+1120,Needles,飛針,A sharp pair of daggers.,一對鋒利的匕首.
+1121,War Blinders,戰馬眼罩,Blinders often used to quell a wild horse's restlessness. They increase dexterity and critical hit rate of those granted with extra concentration.,常用來平息野馬躁動的眼罩。增加了你的專注力故能提升敏捷和暴擊率。
+1122,Tundric Staff,凍原法杖,A highly decorative weapon wielded by Elven warriors of the North. It boasts extra adornment slots.,由北方精靈戰士持有的華麗武器，它擁有額外的鑲嵌槽。
+1123,Nightbreak [bow],夜幕降臨 [bow],A powerful dark greatbow of unknown royalty. It grants one immunity from blindness and falling asleep in battle.,一把未知貴族的黑暗長弓。它能夠使裝備者在戰鬥中免疫致盲及入睡的效果。
+1124,Nightbreak [sword],夜幕降臨 [sword],A powerful dark sword of unknown royalty. It grants one immunity from blindness and falling asleep in battle.,來自未知皇室的強大黑暗之劍，它可以使持有者於戰鬥中免疫致盲及睡眠。
+1125,Goblin Lord's Staff,哥布林領主的法杖,The staff of the Goblin Lord. It slightly boosts its wielder's mana.,哥布林領主的法杖.能稍微提升魔力值.
+1126,Tundric Katana,凍原武士刀,A highly decorative weapon wielded by Elven warriors of the North. It boasts extra adornment slots.,由北方精靈戰士持有的華麗武器，它擁有額外的鑲嵌槽。
+1127,Old Mace,老舊的狼牙棒,A blunt weapon suitable for heavy blows.,適合用來揮擊的鈍器.
+1128,Hammer,錘,A large hammer suitable for crushing blows.,適用於擊打的大錘子。
+1129,Bandit's Axe,土匪之斧,A large axe carried by the mightiest bandits.,最兇惡的土匪持有的大斧。
+1130,Bandit's Dagger,土匪匕首,A small blade ideal for close quartered combat. It slightly increases dexterity.,適合用來近身戰的短刀.能稍微提升敏捷.
+1131,Greater Wisp Staff,上級幽光法杖,Staff imbued with the power of a wisp.,附有幽光魔力的法杖.
+1132,Fjalar Mantle,法亞拉披風,"Crude armor made of the remains of a Fjalar. Does not offer much defense, but raises your dexterity.",
+1133,Fey Dragon Cowl,變異龍風帽,A cowl made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的風帽.穿上它也許能讓你的跟隨者更常行動.
+1134,Fey Dragon Boots,變異龍靴,Boots made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的長靴.穿上它也許能讓你的跟隨者更常行動.
+1135,Fey Dragon Helmet,變異龍盔,A helmet made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的頭盔.穿上它也許能讓你的跟隨者更常行動.
+1136,Fey Dragon Leggings,變異龍腿甲,Heavy leg armor made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的厚重腿甲.穿上它也許能讓你的跟隨者更常行動.
+1137,Fey Dragon Armor,變異龍甲,A chest guard made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的胸甲.穿上它也許能讓你的跟隨者更常行動.
+1138,Fey Dragon Hood,變異龍兜帽,A hood made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的兜帽.穿上它也許能讓你的跟隨者更常行動.
+1139,Fey Dragon Chestmail,變異龍鎖鏈甲,A chest guard made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的胸甲.穿上它也許能讓你的跟隨者更常行動.
+1140,Fey Dragon Mage's Boots,變異龍法靴,Boots made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的長靴.穿上它也許能讓你的跟隨者更常行動.
+1141,Fey Dragon Robe,變異龍袍,A robe made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的法袍.穿上它也許能讓你的跟隨者更常行動.
+1142,Summoning Scroll,召喚卷軸,"A scroll containing the ancient Balor techniques of the summon. Reading it will summon a powerful Raid Boss to your nearby area, but the entity may only be visible to those who travel at a slower pace.",寫著遠古巴羅爾召喚技術的卷軸。閱讀它召喚神秘的遠古副本頭目到你附近的區域，但是僅有以較慢速度移動的人才能看見祂的存在。
+1143,First Horseman's Boots,第一騎士的長靴,"Boots of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第一騎士的長靴.能降低副本頭目究極攻擊的傷害.
+1144,First Horseman's Armor,第一騎士的盔甲,"Armor of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第一騎士的盔甲.能降低副本頭目究極攻擊的傷害.
+1145,First Horseman's Cloak,第一騎士的披風,"Cloak of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第一騎士的披風.能降低副本頭目究極攻擊的傷害.
+1146,First Horseman's Hood,第一騎士的兜帽,"Hood of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第一騎士的兜帽.能降低副本頭目究極攻擊的傷害.
+1147,Ashen Phoenician Shoes,蒼白鳳凰的鞋,Footwear of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的腿甲.穿上它時偶爾能抵抗異常狀態.
+1148,Ashen Phoenician Robe,蒼白鳳凰法袍,Robe of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的法袍.穿上它時偶爾能抵抗異常狀態.
+1149,Ashen Phoenician Hood,蒼白鳳凰兜帽,Hood of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的兜帽.穿上它時偶爾能抵抗異常狀態.
+1150,Ashen Phoenician Helmet,蒼白鳳凰頭盔,Helmet of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的頭盔.穿上它時偶爾能抵抗異常狀態.
+1151,Ashen Phoenician Greaves,蒼白鳳凰護脛,Heavy leg armor of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的重腿甲.穿上它時偶爾能抵抗異常狀態.
+1152,Ashen Phoenician Garb,蒼白鳳凰皮甲,Light armor of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的輕裝甲.穿上它時偶爾能抵抗異常狀態.
+1153,Ashen Phoenician Cowl,灰白鳳凰的風帽,Headwear of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的頭帽.穿上它時偶爾能抵抗異常狀態.
+1154,Ashen Phoenician Cuirass,蒼白鳳凰胸甲,Heavy armor of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的重裝甲.穿上它時偶爾能抵抗異常狀態.
+1155,Second Horseman's Armor,第二騎士的盔甲,"Armor of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第二騎士的盔甲.能降低副本頭目究極攻擊的傷害.
+1156,Second Horseman's Hood,第二騎士的兜帽,"Hood of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第二騎士的兜帽.能降低副本頭目究極攻擊的傷害.
+1157,Second Horseman's Boots,第二騎士的長靴,"Boots of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第二騎士的長靴.能降低副本頭目究極攻擊的傷害.
+1158,Final Horseman's Cloak,最終騎士的披風,"Cloak of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses.",最終騎士的披風.能降低副本頭目究極攻擊的傷害.
+1159,Final Horseman's Armor,最終騎士的盔甲,"Armor of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses.",最終騎士的盔甲.能降低副本頭目究極攻擊的傷害.
+1160,Final Horseman's Hood,最終騎士的兜帽,"Hood of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses.",最終騎士的兜帽.能降低副本頭目究極攻擊的傷害.
+1161,Final Horseman's Boots,最終騎士的長靴,"Boots of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses.",最終騎士的長靴.能降低副本頭目究極攻擊的傷害.
+1162,Second Horseman's Cloak,第二騎士的披風,"Cloak of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第二騎士的披風.能降低副本頭目究極攻擊的傷害.
+1163,Staff of the Chimera,奇美拉之杖,"A powerful staff forged of the remains of a Chimera. Using this weapon may cause one to fill with immense rage, inflicting the Berserk status.",利用奇美拉的殘骸所製作的杖。這把武器身上所纏繞的怨氣，可能會令使用者陷入狂暴狀態。
+1164,Axe of the Chimera,奇美拉之斧,"A powerful axe forged of the remains of a Chimera. Using this weapon may cause one to fill with immense rage, inflicting the Berserk status.",利用奇美拉的殘骸所製作的斧頭。這把武器身上所纏繞的怨氣，可能會令使用者陷入狂暴狀態。
+1165,Bow of the Chimera,奇美拉之弓,"A powerful bow forged of the remains of a Chimera. Using this weapon may cause one to fill with immense rage, inflicting the Berserk status.",利用奇美拉的殘骸所製作的弓。這把武器身上所纏繞的怨氣，可能會令使用者陷入狂暴狀態。
+1166,Third Horseman's Hood,第三騎士的兜帽,"Hood of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第三騎士的兜帽.能降低副本頭目究極攻擊的傷害.
+1167,Third Horseman's Boots,第三騎士的長靴,"Boots of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第三騎士的長靴.能降低副本頭目究極攻擊的傷害.
+1168,Fey Yeti Coat,變異雪怪大衣,Coat reminiscent of the cursed Yeti. It protects one from having their magical resistance lowered and reduces the damage taken from the ultimate attacks of Raid Bosses.,被詛咒雪怪的復古外套.穿上它能防止魔法防禦被降低並能減輕來自副本頭目究極攻擊的傷害.
+1169,Azure Pinion,蔚藍羽毛,A feather pulled from the remains of a cursed Cockatrice. It grants additional magic power at the expense of magical resistance.,
+1170,Gold Pinion,金羽毛,A feather pulled from the remains of a cursed Cockatrice. It grants additional physical defense at the expense of attack power.,從被詛咒的雞蛇身上拔下的羽毛.藉由降低物理攻擊來提升物理防禦.
+1171,Crimson Pinion,緋紅羽毛,A feather pulled from the remains of a cursed Cockatrice. It grants additional attack power at the expense of physical defense.,
+1172,Emerald Pinion,翡翠羽毛,A feather pulled from the remains of a cursed Cockatrice. It grants additional magic resistance at the expense of magical power..,
+1173,Third Horseman's Armor,第三騎士的盔甲,"Armor of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第三騎士的盔甲.能降低副本頭目究極攻擊的傷害.
+1174,Third Horseman's Cloak,第三騎士的披風,"Cloak of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第三騎士的披風.能降低副本頭目究極攻擊的傷害.
+1175,Crusading Armor,運動裝甲,Some magic users are also skilled in combat. This is the armor of one.,有些魔法師也擅長格鬥.這就是他們的盔甲.
+1176,Ashen Phoenician Shield,蒼白鳳凰的盾,Decorated shield of a worshipper of a fallen Phoenix. It protects one from being blinded and may occasionally protect you from other status effects.,墮落鳳凰的敬拜者的華美盾牌.穿上它時能免疫致盲且偶爾能抵抗其他異常狀態.
+1177,Contraption,新玩意兒,"A small, strange thing made by Cade, the great inventor. It can provide all sorts of benefits to a piece of armor when adorned upon it.",偉大發明家卡德所做的奇妙小物.鑲嵌到裝甲上能有很多好處.
+1178,Final Horseman's Scythe,最終騎士的鐮刀,"Scythe of the Fourth Horseman, often associated with untimely demise. It is suitable for both attacking and casting spells, reduces the damage taken from the ultimate attacks of Raid Bosses, and has a small chance to curse an opponent.","最終騎士的鐮刀.不論物理或魔法攻擊都能使用,同時能降低副本頭目究極攻擊的傷害,且有小機率能詛咒對手."
+1179,Second Horseman's Staff,第二騎士的法杖,"Staff of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses and can cause an opponent to be poisoned or blighted.",第二騎士的法杖.能降低副本頭目究極攻擊的傷害並能造成對手中毒或枯萎.
+1180,Fey Eye,變異眼球,A strange eye imbued with cursed magic. Keeping this in your hand will slightly boost all stats and protect you from blindness.,附著詛咒魔法的詭異眼球.帶著它能稍微提升身體素質並防止被盲目.
+1181,Fey Gazing Staff,變異凝視者法杖,A powerful staff adorned with a crystal eye. It increases your ability to see and may occasionally increase your dexterity in battle.,
+1182,Eye of the Feyger,變異凝視者之眼,Is it the thrill of the fight?,這就是戰慄的感覺嗎?
+1183,First Horseman's Spear,第一騎士的長矛,"Polearm of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses.",第一騎士的長矛.能降低副本頭目究極攻擊的傷害.
+1184,Third Horseman's Gada,第三騎士的金剛杵,"Blunt weapon of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses and can easily stun or decrease the dexterity of an opponent.",第三騎士的鈍器.能降低副本頭目究極攻擊的傷害並能輕易暈眩對手或降低其敏捷.
+1185,Arisen Surtr's Cuirass,重生史爾特爾的胸甲,"Light armor of Surtr, the wanderer. It grants its wearer additional Ward and is well suited for adornments.",
+1186,Surtr's Cuirass,史爾特爾的胸甲,"Light armor of Surtr, the wanderer. It grants its wearer additional Ward and is well suited for adornments.",
+1187,Arisen Surtr's Helmet,重生史爾特爾的頭盔,"Helmet of Surtr, the wanderer. It grants its wearer additional HP and is well suited for adornments.",
+1188,Surtr's Helmet,史爾特爾的頭盔,"Helmet of Surtr, the wanderer. It grants its wearer additional HP and is well suited for adornments.",
+1189,Saturn's Eye,薩圖恩之眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1190,Surtr's Shield,史爾特爾的盾,"Decorated shield of Surtr, the Southern wanderer. It increases defense and resistance at the expense of Ward.","南方流浪者-史爾特爾的華美盾牌.能提升物理及魔法防禦,其代價是降低護盾."
+1191,Surtr's Boots,史爾特爾的長靴,"Footwear of Surtr, the wanderer. They grant their wearer additional dexterity and are well suited for adornment.",南方流浪者-史爾特爾的腿甲.很適合鑲嵌裝飾品且能提升敏捷.
+1192,Arisen Surtr's Sword,重生史爾特爾的劍,"The extremely bright, decorative sword of Surtr. It can easily blind an opponent and will draw more monsters toward you with its bright, everlasting light.",
+1193,Arisen Surtr's Shield,重生史爾特爾的盾,"Decorated shield of Surtr, the Southern wanderer. It increases defense and resistance at the expense of Ward.","南方流浪者-史爾特爾的華美盾牌.能提升物理及魔法防禦,其代價是降低護盾."
+1194,Arisen Surtr's Boots,重生史爾特爾的長靴,"Footwear of Surtr, the wanderer. They grant their wearer additional dexterity and are well suited for adornment.",南方流浪者-史爾特爾的腿甲.很適合鑲嵌裝飾品且能提升敏捷.
+1195,Surtr's Sword,史爾特爾的劍,"The extremely bright, decorative sword of Surtr. It can easily blind an opponent and will draw more monsters toward you with its bright, everlasting light.",
+1197,Tundric Sword,凍原之劍,A highly decorative weapon wielded by Elven warriors of the North. It boasts extra adornment slots.,由北方精靈戰士持有的華麗武器，它擁有額外的鑲嵌槽。
+1198,Omega Myrddin,Ω梅爾丁,"One of the notoriously recognizable archistaves of Merlin, the famed Avalon sorcerer. Spells cast by this staff can occasionally lower an opponent's defenses.",阿瓦隆王國著名的巫師梅林所有的顯眼權杖.用它施法能有機會降低對手的物理防禦.
+1199,Omega Myrddin Cowl,Ω梅爾丁風帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+1200,Omega Myrddin Robe,Ω梅爾丁法袍,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+1201,Omega Myrddin Harp,Ω梅爾丁豎琴,Harp found in Merlin's eccentric collection. It can grant elemental protection.,於梅林的珍稀收藏中的豎琴。會提供元素防禦。
+1202,Omega Myrddin Cloak,Ω梅爾丁披風,"One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered.",阿瓦隆王國著名的巫師梅林持有的顯眼法袍.穿上它能防止自己的魔法防禦力被降低.
+1203,Omega Myrddin Hood,Ω梅爾丁兜帽,"One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer.",阿瓦隆王國著名的巫師梅林持有的顯眼兜帽.
+1204,Omega Myrddin Shield,Ω梅爾丁盾,A relic of Merlin's eccentric collection.,梅林珍稀收藏中的聖物.
+1205,Scroll of Chaos,混沌卷軸,"A scroll containing a terrible incantation that will turn the world crimson. Using this scroll will cause enemies of any habitat to show for a limited time, but may be more difficult to defeat.",使世界變為深紅色的混沌卷軸。使用它會在有限的時間內顯示任何棲息地的敵人，但他們可能會更難擊敗。
+1206,Arisen Gazing Staff,重生凝視法杖,A powerful staff adorned with a crystal eye. Increases your ability to see.,鑲嵌水晶之眼的強力法杖，可以增加你的視野。
+1207,Arisen Silk Crossbow,重生絲質十字弓,,
+1208,Arisen Oxen Axe,重生牛斧,An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily.,貝西摩斯的斧和盾.用他的蠻力攻擊有機會暫時使對手的防禦力降低.
+1209,Arisen Axe of Tiamat,重生提亞馬特的斧,"A powerful axe forged from the remains of Tiamat, the great ancient dragon.",
+1210,Arisen Staff of Tiamat,重生提亞馬特的法杖,"A superb staff forged of the remains of Tiamat, the great ancient dragon.",使用遠古巨龍提亞馬特的遺骸打造的優良法杖.
+1211,Arisen Bow of Typhon,重生堤豐之弓,"A superb bow forged of the remains of Typhon, the great ancient dragon.",利用古龍堤豐的遺骸所精心製作的弓。
+1212,Baneblade,毀滅之刃,Ceremonial blade of a long forgotten civilization. It has a small chance of cursing an opponent.,失落國度的儀式劍.有小機率能詛咒對手.
+1213,Arisen Fog Blade,重生霧刃,"A foggy, mysterious blade. It may blind an opponent.",霧濛濛的神秘之刃。可能會使對手致盲。
+1214,Arisen Bow of Tiamat,重生提亞馬特的弓,"A superb bow forged of the remains of Tiamat, the great ancient dragon.",使用遠古巨龍提亞馬特的遺骸打造的高超大弓.
+1215,Arisen Staff of Typhon,重生堤豐法杖,"A superb staff forged of the remains of Typhon, the great ancient dragon",
+1216,Arisen Axe of Typhon,重生堤豐之斧,"A powerful axe forged of the remains of Typhon, the great ancient dragon.",使用遠古巨龍堤豐的遺骸精心打造的強力大斧.
+1217,Everlasting Torch,不滅火炬,"A torch, carried in one's off-hand. It increases your sight, prevents blindness, and may cause an opponent to light aflame in battle.","副手能裝的火炬.能提升你的視野,防止被盲目,還能使對手像蠟燭一樣燒起來."
+1218,Excalibur [mimic],誓約聖劍 [mimic],???,???
+1219,Band of False Gods,偽神之戒,"A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned.",古老元素神所穿戴的戒指，可以增加獲得的金幣、歐幣及經驗值。
+1220,Carl's Ring [Mimic],卡爾之戒 [Mimic],"Iron ring of the aloof one, Carl. Slightly raises some stats.",辣個男人—卡爾的戒指，可以稍微增加一些狀態。
+1221,Fey Yeti Horns,變異雪怪角,Headwear decorated with the horns of a great Yeti. Healing items will recover more HP and mana while wearing these horns. They are also well suited for adornment.,用高等雪怪的角裝飾的頭盔.裝備它時回復藥品能回復更多.它也很適合鑲嵌裝飾品.
+1222,Fey Chimera Armor,變異奇美拉盔甲,An exotic chest made of Chimera remains. Wearing this item increases the power of your follower.,
+1223,Fey Chimera Greaves,變異奇美拉護脛,"Exotic, heavy leg armor made of Chimera remains. Wearing this item increases the power of your follower.",
+1224,Fey Chimera Helmet,變異奇美拉頭盔,An exotic helmet made of Chimera remains. Wearing this item increases the power of your follower.,利用奇美拉的殘骸所製作的盔甲。裝備此物品可提高追隨者的力量。
+1225,Runic Robe,盧恩法袍,The robe of a mage of a lost race known as the Runics. Wearing this item will slightly reduce the mana cost of spells. It is also well suited for adornment.,被稱為盧恩的失落民族的法師之袍. 穿上它會略微降低魔力消耗。它也非常適合做裝飾。
+1226,Runic Boots,盧恩長靴,The boots of a mage of a lost race known as the Runics. Wearing this item will slightly reduce the mana cost of spells. It is also well suited for adornment.,被稱為盧恩的失落民族的法師之靴. 穿上它會略微降低魔力消耗。它也非常適合做裝飾。
+1227,Runic Hat,盧恩帽子,The hat of a mage of a lost race known as the Runics. Wearing this item will slightly reduce the mana cost of spells. It is also well suited for adornment.,被稱為盧恩的失落民族的法師之帽. 戴上它會略微降低魔力消耗。它也非常適合做裝飾。
+1228,Fishing Line,釣魚線,"A simple line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing.",
+1229,Strong Fishing Line,強力釣魚線,"A stronger fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing.",
+1230,Great Fishing Line,強韌釣魚線,"A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing.",
+1231,Azure Carp,蔚藍鯉魚,A small fish.,小魚啦.
+1232,Balor Muskellunge,巴羅爾北美狗魚,"A quite rare fish, seemingly ascended from the Underworld.",
+1233,Crimson Snapper,緋紅鯛魚,Ouch! It bit you.,啊! 你被咬了.
+1234,Embered Snapper,灰燼鯛魚,A violent fish. Stories say these fish can bring down a mighty bear.,超狂的魚。傳說這隻魚一拳打死熊。
+1235,Emerald Trout,翡翠鱒魚,"A green-hued fish, slightly rarer than what one would usually see.","綠色的魚 , 比常見的魚稍微稀有一點."
+1236,Sea Bass,鱸魚,"A medium sized fish, often seen in larger bodies of water.",中型魚，通常在較大的水域中看到。
+1237,Unremarkable Fish,平凡的魚,A small fish.,小魚啦.
+1238,Ashen Phoenician Boots,蒼白鳳凰長靴,Footwear of a worshipper of a fallen Phoenix. Wearing this item may occasionally protect you from status effects.,墮落鳳凰的敬拜者的腿甲.穿上它時偶爾能抵抗異常狀態.
+1239,Mighty Fishing Line,究極釣魚線,"A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing.",
+1240,Freyja's Charm,弗蕾亞護符,Amulet often carried by highly ranking Nothren warriors. Wearing this item increases the power of your follower and may cause them to act more often.,
+1241,Dragoon's Charm,龍騎士的護符,Amulet often carried by highly ranked Dragoons. Wearing this item increases the power of your follower and may cause them to act more often.,高階龍騎士常會配戴的護身符.戴上它能強化你寵物的能力並促使他們更頻繁的行動.
+1242,Arisen Fey Macha Pillar,重生變異瑪查支柱,"Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent.",摩莉甘的姊妹-瑪查的詛咒法杖.提升持有者魔法攻擊力的同時對敵人造成相對的影響.
+1243,Arisen Fey Crowsong,重生變異渡鴉葬歌,Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent.,摩莉甘的姊妹們使用的詛咒魯特琴.提升物理防禦的同時也能對敵人造成相對的影響.
+1244,Arisen Raven Boots,重生渡鴉長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1245,Arisen Fey Badb Catha,重生變異芭德布渡鴉,"Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent.",摩莉甘的姊妹-芭德布的詛咒大弓.提升持有者的敏捷的同時能對敵人造成相對的影響.
+1246,Arisen Raven Garb,重生渡鴉皮甲,"Cursed light armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒輕裝甲.
+1247,Arisen Badb Catha,重生芭德布渡鴉,"Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent.",摩莉甘的姊妹-芭德布的詛咒大弓.提升持有者的敏捷的同時能對敵人造成相對的影響.
+1248,Arisen Banshee Robe,重生報喪女妖法袍,"Cursed robe of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒法袍.
+1249,Arisen Banshee Boots,重生報喪女妖長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1250,Arisen Fey Raven Veil,重生變異渡鴉面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1251,Arisen Macha Pillar,重生瑪查支柱,"Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent.",摩莉甘的姊妹-瑪查的詛咒法杖.提升持有者魔法攻擊力的同時對敵人造成相對的影響.
+1252,Arisen Banshee Veil,重生報喪女妖面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1253,Arisen Plagued Greaves,重生瘟疫護脛,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1254,Arisen Plagued Cuirass,重生瘟疫胸甲,"Cursed heavy armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒重裝甲.
+1255,Arisen Fey Neman Havoc,重生變異妮潘凶禍,"Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",摩莉甘的姊妹-妮潘的詛咒長劍.提升持有者物理攻擊力的同時對敵人造成相對的影響.
+1256,Arisen Raven Veil,重生渡鴉面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1257,Arisen Fey Plagued Cuirass,重生變異瘟疫胸甲,"Cursed heavy armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒重裝甲.
+1258,Arisen Neman Havoc,重生妮潘凶禍,"Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",摩莉甘的姊妹-妮潘的詛咒長劍.提升持有者物理攻擊力的同時對敵人造成相對的影響.
+1259,Arisen Crowsong,重生渡鴉葬歌,Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent.,
+1260,Arisen Fey Plagued Helmet,重生變異瘟疫頭盔,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1261,Arisen Fey Raven Boots,重生變異渡鴉長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1262,Arisen Fey Plagued Greaves,重生變異瘟疫護脛,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1263,Arisen Fey Raven Garb,重生變異渡鴉皮甲,"Cursed light armor of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒輕裝甲.
+1264,Arisen Fey Banshee Veil,重生變異報喪女妖面罩,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1265,Arisen Fey Banshee Robe,重生變異報喪女妖法袍,"Cursed robe of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒法袍.
+1266,Arisen Fey Banshee Boots,重生變異報喪女妖長靴,"Cursed legwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒腿甲.
+1267,Badb Boots,芭德布長靴,"Cursed legwear of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒腿甲.
+1268,Badb Veil,芭德布面罩,"Cursed headwear of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒頭帽.
+1269,Badb Warbow,芭德布戰弓,"Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent.",摩莉甘的姊妹-芭德布的詛咒大弓.提升持有者的敏捷的同時能對敵人造成相對的影響.
+1270,Shaman's Charm,薩滿護符,An amulet carried by most talented of healers. Wearing this item will increase the effectiveness of healing items.,最天賦異稟的治療師在用的護身符.戴上它能提升回復藥品的效果.
+1271,Badb's Feathers,芭德布之羽,"A quiver of arrows carried by Badb, the rogue witch. Carrying them will increase both attack power and dexterity, while potentially poisoning or causing an opponent to rot.","俠盜女巫-芭德布持有的箭筒.帶著它能提升物理攻擊力及敏捷,並有機會造成對手中毒或腐爛."
+1272,Badb Garb,芭德布皮甲,"Cursed light armor of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒輕裝甲.
+1273,Arisen Realm Katar,重生域界卡塔拉,"A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornments.",
+1274,Macha Boots,瑪查長靴,"Cursed legwear of a follower of Macha, the great witch.",偉大女巫-瑪查的追隨者的詛咒腿甲.
+1275,Macha's Scroll,瑪查之卷軸,"A scroll of Macha, offering secrets of her craft. It increases magic and mana, while protecting you from having your magical prowess weakened.","展現瑪查神秘工藝的卷軸.能提升魔法攻擊力及魔力值,並防止自身魔力被弱化."
+1276,Macha Veil,瑪查面罩,"Cursed headwear of a follower of Macha, the great witch.",偉大女巫-瑪查的追隨者的詛咒頭帽.
+1277,Fey Macha Veil,變異瑪查面罩,"Cursed headwear of a follower of Macha, the great witch.",偉大女巫-瑪查的追隨者的詛咒頭帽.
+1278,Macha Warstaff,瑪查征杖,"Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent.",摩莉甘的姊妹-瑪查的詛咒法杖.提升持有者魔法攻擊力的同時對敵人造成相對的影響.
+1279,Neman's Protection,妮潘的加護,"Cursed shield of a follower of Neman, the great witch. It offers protection from being put to sleep.",偉大女巫-妮潘的追隨者的詛咒之盾.能防止入睡.
+1280,Fey Macha Warstaff,變異瑪查征杖,"Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent.",摩莉甘的姊妹-瑪查的詛咒法杖.提升持有者魔法攻擊力的同時對敵人造成相對的影響.
+1281,Arisen Morrigan's Scroll,重生的摩莉甘卷軸,"A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells.","滿載卑鄙美學知識的卷軸.藉由犧牲護盾來提升持有者的魔力及魔力值,並有機會大幅降低對手的魔法防禦力."
+1282,Neman Helmet,妮潘頭盔,"Cursed headwear of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒頭帽.
+1283,Neman Warsword,妮潘戰刃,"Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",摩莉甘的姊妹-妮潘的詛咒長劍.提升持有者物理攻擊力的同時對敵人造成相對的影響.
+1284,Neman Cuirass,妮潘胸甲,"Cursed heavy armor of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒重裝甲.
+1285,Arisen Plagued Helmet,重生瘟疫頭盔,"Cursed headwear of a follower of Morrigan, the great witch.",偉大女巫-摩莉甘的追隨者的詛咒頭帽.
+1286,Perfect Fishing Line,完美釣魚線,"A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing.",
+1287,Fey Badb Warbow,變異芭德布戰弓,"Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent.",摩莉甘的姊妹-芭德布的詛咒大弓.提升持有者的敏捷的同時能對敵人造成相對的影響.
+1288,Fey Macha Robe,變異瑪查法袍,"Cursed robe of a follower of Macha, the great witch.",偉大女巫-瑪查的追隨者的詛咒法袍.
+1289,Fey Macha Boots,變異瑪查長靴,"Cursed legwear of a follower of Macha, the great witch.",偉大女巫-瑪查的追隨者的詛咒腿甲.
+1290,Fey Neman Helmet,變異妮潘頭盔,"Cursed headwear of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒頭帽.
+1291,Ashen Pinion,蒼白羽毛,A feather pulled from the remains of a fallen Phoenix.,從墮落鳳凰的遺骸取下的羽毛.
+1292,Yellow Eye of Kerberos,黃褐色的刻耳柏洛斯之眼,Crystallized eye of the Kerberos. It grants a high chance to paralyze an opponent.,地獄犬的結晶之眼。很大機率使攻擊造成癱瘓狀態。
+1293,Feral Hood,野性兜帽,A durable hood forged of the remains of the relentless Kerberos. It greatly increases the power of your follower.,刻耳柏洛斯代表性的耐用兜帽。它們大大提高了跟隨者的能力。
+1294,Green Eye of Kerberos,翠綠色的刻耳柏洛斯之眼,Crystallized eye of the Kerberos. It grants a high chance to cause an opponent to rot.,刻耳柏洛斯的結晶之眼。很大機率使攻擊造成腐爛狀態。
+1295,Blue Eye of Kerberos,碧藍色的刻耳柏洛斯之眼,Crystallized eye of the Kerberos. It grants a high chance to cause an opponent to freeze.,刻耳柏洛斯的結晶之眼。很大機率使攻擊造成冰凍狀態。
+1296,Feral Claws,野性之爪,"Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle.",由刻耳柏洛斯的爪鍛造的尖銳鋸齒刀刃。它們大大提高了跟隨者的行動率。
+1297,Feral Archistaff,野性權杖,"Mighty staff, representative of the feral Kerberos. It greatly increases the rate in which a follower may act in battle.",野性的刻耳柏洛斯最具代表性的法杖.能提升你的跟隨者的行動率.
+1298,Feral Warsword,野性戰刃,"Mighty sword, representative of the relentless Kerberos. It greatly increases the rate in which a follower may act in battle.",刻耳柏洛斯代表性的劍。它們大大提高了跟隨者的行動率。
+1299,Red Eye of Kerberos,血紅色的刻耳柏洛斯之眼,Crystallized eye of the Kerberos. It grants a high chance to cause an opponent to burn.,刻耳柏洛斯的結晶之眼。很大機率使攻擊造成燃燒狀態。
+1300,Arisen Feral Claws,重生野性之爪,"Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle.",由刻耳柏洛斯的爪鍛造的尖銳鋸齒刀刃。它們大大提高了跟隨者的行動率。
+1301,Arisen Feral Archistaff,重生野性權杖,"Mighty staff, representative of the feral Kerberos. It greatly increases the rate in which a follower may act in battle.",野性的刻耳柏洛斯最具代表性的法杖.能提升你的跟隨者的行動率.
+1302,Arisen Feral Warsword,重生野性戰刃,"Mighty sword, representative of the relentless Kerberos. It greatly increases the rate in which a follower may act in battle.",刻耳柏洛斯代表性的劍。它們大大提高了跟隨者的行動率。
+1303,Arisen Feral Hood,重生野性兜帽,A durable hood forged of the remains of the relentless Kerberos. It greatly increases the power of your follower.,刻耳柏洛斯代表性的耐用兜帽。它們大大提高了跟隨者的能力。
+1304,Arisen Wolven Tower Shield,重生狼塔盾,A gigantic shield often used to protect one from the wildest of wolves. It offers additional defense at the expense of power.,保護持有者免受野狼群侵害的巨大盾牌，它會犧牲攻擊力以換取額外的物防。
+1305,Fey Neman Cuirass,變異妮潘胸甲,"Cursed heavy armor of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒重裝甲.
+1306,Sour Mushroom,酸蘑菇,"A mushroom of Naggeneen's collection. Eating it will greaty increase one's attack and magic powers, but become afflicted with a variety of illnesses.",
+1307,Smelly Mushroom,臭香菇,"A mushroom of Naggeneen's collection. Eating it will cause one to enrage, but become afflicted with Toxic.","納根因收藏的蘑菇.吃下去的人會被激怒,但也會受劇毒之苦."
+1308,Arisen Vandal's Veil,重生汪達爾面罩,"A thick piece of fabric, often used to protect one's lungs. Wearing it makes one less likely to be afflicted with status effects.",常用於保護肺部的厚織物。戴上它可以減少遭受異常狀態的機會。
+1309,Spore,孢子,A spore of a toxic mushroom. Adorning it upon a weapon can add a variety of status effects to your attacks.,擁有劇毒的蘑菇袍子，鑲嵌在武器上會使你的攻擊造成各種負面狀態。
+1310,Arisen Fairy's Wand,重生妖精的棒棒,A curious wand carried by the foul Naggeneen. Spells cast with this wand may cause your opponent to become poisoned or blighted.,髒兮兮納根因的棒棒.使用它來施展法術能有機會造成對手中毒或枯萎.
+1311,Arisen Fairy's Tanto,重生妖精的小刀,,
+1312,Fairy's Tanto,妖精的小刀,An off-hand dagger carried by the foul Naggeneen. It is encased in a deadly poison.,髒兮兮納根因所持的短刀.能造成致命劇毒.
+1313,Fairy's Wand,妖精的棒棒,A curious wand carried by the foul Naggeneen. Spells cast with this wand may cause your opponent to become poisoned or blighted.,髒兮兮納根因的棒棒.使用它來施展法術能有機會造成對手中毒或枯萎.
+1314,Vandal's Veil,汪達爾面罩,"A thick piece of fabric, often used to protect one's lungs. Wearing it makes one less likely to be afflicted with status effects.",常用於保護肺部的厚織物。戴上它可以減少遭受異常狀態的機會。
+1318,Waistguard of Cerus,凱魯斯的護腰,"Enchanted belt of Cerus, the untamed. It protects one from burning while granting additional HP.",桀驁金牛凱魯斯的附魔腰帶.能防止被燃燒並提升生命值.
+1319,Greater Bull's Eye,巨大金牛之眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1320,Furious Bull,狂怒公牛,"The powerful, fiery axe of Cerus, the untamed bull. It has a good chance of stunning or burning an opponent.",桀驁金牛凱魯斯的勇猛斧頭.有高機率暈眩或燃燒對手.
+1321,Ferocious Bull's Eye,兇殘金牛之眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1322,Stardust,星塵,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1323,Furious Helmet,狂怒頭盔,"Helmet of Cerus, the raging bull. It reduces mana cost of skills or spells and is well suited for adornment.",
+1324,Furious Bull's Eye,狂怒金牛之眼,A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it.,鑲嵌此天堂的裝飾品可以為裝備增加許多性能。
+1325,Furious Cuirass,狂怒胸甲,"Armor of Cerus, the raging bull. It reduces the mana cost of skills or spells and is well suited for adornment.",暴怒金牛凱魯斯的鎧甲. 能減少技能和魔法的魔力消耗並且很適合鑲嵌裝飾.
+1326,Ferocious Bull,兇殘的公牛,"The powerful, fiery staff of Cerus, the untamed bull.",桀驁金牛凱魯斯的強力法杖.
+1327,Ferocious Hood,兇殘的兜帽,"Hood of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment.",桀驁金牛凱魯斯的兜帽. 能減少技能和魔法的魔力消耗並且很適合鑲嵌裝飾.
+1328,Symbol of Famine,飢荒象徵,Adornment of the First Horseman. Adorning upon a piece of armor will slightly protect one from status ailments.,
+1329,Symbol of Doom,厄運象徵,Adornment of the Final Horseman. Adorning it upon a weapon will increase the action rate and stats of your follower.,最終騎士的裝飾品，鑲嵌它在武器上可以提升跟隨者的行動率及屬性。
+1330,Symbol of Pestilence,瘟疫象徵,Adornment of the Second Horseman. Adorning it upon a piece of armor will moderately protect one from status ailments.,第二騎士的裝飾品，鑲嵌它在盔甲上可以適度保護穿戴者免受疾病影響。
+1331,Symbol of War,戰爭象徵,Adornment of the Third Horseman. Adorning upon a weapon will increase the distance that you can see.,
+1332,Realmspikes,域界荊棘,Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit.,域界易形者所持有的匕首，它可以增加暴擊的機率。
+1333,Axe of Gilgamesh,吉爾伽美什之斧,Heavy axe of the Gilgamesh.,吉爾伽美什重斧。
+1334,Heretic's Robe,赫勒提克法袍,"A decorated robe often worn by the Heretics. It grants additionally magic power, but spells cast will consume more mana.",
+1335,Beowulf's Charm,貝奧武夫護符,"Amulet often carried by the Beowulf. Wearing this item greatly increases the power of your follower, may cause them to act less often.",
+1336,Bestial Eye,兇殘之眼,Red eye of the Behemoth. Adorning it upon a weapon will increase the action rate and stats of your follower.,貝西摩斯的紅色眼球，鑲嵌它在武器上可以增加跟隨者的行動機率及屬性。
+1337,Castor's Archistaff,卡斯托耳的權杖,"Azure staff of Castor, the Dioscuri magician. Castor and his twin brother seldomly leave the depths of the seas unless truly lacking other hobbies.",
+1338,Azure Twinbow,蔚藍雙子弓,The Twinbow of a fused Dioscuri. It grants additional offensive power to those that prefer a more hybrid approach to combat.,融合的狄奧斯庫洛伊兄弟持有的雙子弓，它對於喜歡在戰鬥中使用混合方法作戰的人提供額外的攻擊力。
+1339,Pollux's Greataxe,波魯克斯的大斧,"Azure greataxe of Pollux, the Dioscuri berserker. Pollux and his twin brother seldomly leave the depths of the seas unless truly lacking in other hobbies.",狂戰士波魯克斯的大斧.波魯克斯和其雙子兄長除非閒到不行才會離開那深海.
+1340,Azure Dioscuri Ring,蔚藍狄奧斯庫洛伊之戒,The ring of a fused Dioscuri. It grants additional offensive power to those that prefer a more hybrid approach to combat.,融合的狄奧斯庫洛伊兄弟持有的戒指，它對於喜歡在戰鬥中使用混合方法作戰的人提供額外的攻擊力。
+1341,Spoiled Dioscuri Mead,臭酸的狄奧斯庫洛伊蜂蜜酒,Consume with caution.,古靈精怪槍!謹慎使用。
+1342,Nostrum,靈藥,Some say the Cure-all is a bit of snake oil. This concoction aims to cure its drinker of many ailments.,有人說百寶丹是由一點蛇油所製成，這個調和劑用來治療各種疾病。
+1343,Ichor,伊喬爾,A restorative elixir that removes any stat lowering ailments against you.,能移除任何降低屬性之異常狀態的恢復性秘藥。
+1344,Arisen Colada,重生科拉達,"A greatsword often used in offensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical prowess.",全能的騎士巴林用來施展攻擊劍術的大劍.他的斬擊能降低對手的物理或魔法攻擊力.
+1345,Finesse's Shotel,芬尼斯的短刀,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This crooked shotel is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把彎刀正是其中之一.
+1346,Finesse's Katana,芬尼斯的武士刀,"The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This katana is his favorite, and can easily weaken an opponent.",
+1347,Arisen Avalon Armor,重生阿瓦隆盔甲,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
+1348,Arisen Avalon Helmet,重生阿瓦隆頭盔,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
+1349,Arisen Avalon Leggings,重生阿瓦隆腿甲,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
+1350,Arisen Arch-Gadget,重生新版小發明,"One of the concoctions of Cade, the great inventor. This gadget prevents one from having their physical or magical defense lowered.",偉大發明家卡德的發明之一.這小東西能防止物理或魔法防禦被降低.
+1351,Arisen Arch-Gizmo,重生新版小玩意,"One of the concoctions of Cade, the great inventor. This gizmo prevents one from having their dexterity, physical or magical prowess lowered.","偉大發明家卡德的發明之一.這小東西能防止敏捷,物理或魔法攻擊被降低."
+1352,Arisen Contraption,重生新玩意兒,"A small, strange thing made by Cade, the great inventor. It can provide all sorts of benefits to a piece of armor when adorned upon it.",偉大發明家卡德所做的奇妙小物.鑲嵌到裝甲上能有很多好處.
+1353,Finesse's Greatsword,芬尼斯的巨劍,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This greatsword is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把大劍正是其中之一.
+1354,Arisen Tizona,重生提佐納,"A greatsword often used in defensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical defenses.",全能的騎士巴林用來施展防衛劍術的大劍.他的斬擊能降低對手的物理或魔法防禦力.
+1355,Arisen Genius,重生吉尼爾斯,"The easily recognizable pole-arm of Cade, the great Avalonian inventor. Its hidden features can cause a variety of status effects.",偉大的阿瓦隆發明家卡德廣為人知的長武器.能造成多種異常狀態.
+1356,Finesse's Enchanted Epee,芬尼斯的迷人巨劍,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This epee is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把西洋劍正是其中之一.
+1359,Seeker's Candle,探索者的蠟燭,"When lit, this candle is said to draw near monsters that you have accepted a quest for.",點燃此蠟燭會吸引任務怪靠近。
+1360,Arisen Qatvanga,重生的夸特班加,"Archistaff of Mammon, the demon of hubris.",傲慢的惡魔瑪門的權杖.
+1361,Huge Empty Bottle,巨型空瓶,"A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle.",適合用來裝釀造的藥劑、藥水或秘藥的大瓶子。拜訪藥劑師能裝滿它。
+1362,Super Empty Bottle,高級空瓶,"A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle.",適合用來裝釀造的藥劑、藥水或秘藥的大瓶子。拜訪藥劑師能裝滿它。
+1363,Great Empty Bottle,上級空瓶,"A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle.",適合用來裝釀造的藥劑、藥水或秘藥的大瓶子。拜訪藥劑師能裝滿它。
+1364,Large Empty Bottle,大空瓶,"A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle.",適合用來裝釀造的藥劑、藥水或秘藥的大瓶子。拜訪藥劑師能裝滿它。
+1365,Small Empty Bottle,小空瓶,"A small bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle.",適合用來裝釀造的藥劑、藥水或秘藥的小瓶子。拜訪藥劑師能裝滿它。
+1366,Silphium,羅盤草,A sprig of silphium. It is useful in crafting some potions at a herbalist.,羅盤草的嫩枝。能在藥劑師處用來調製藥水。
+1367,Nightshade,夜影,A stalk of nightshade. It is useful in crafting some potions at a herbalist.,夜影的梗。在藥劑師處能用來製作藥水。
+1368,Mandrake,曼德拉草,A single leaf of mandrake. It is useful in crafting some potions at a herbalist.,曼德拉草的葉子。在藥劑師處能用來調製藥水。
+1369,Dayleaf,日之葉,A stalk of dayleaf. It is useful in crafting some potions at a herbalist.,日之葉的梗，可以在藥劑師那裡製作一些藥水。
+1370,Qatvanga,夸特班加,"Archistaff of Mammon, the demon of hubris.",傲慢的惡魔瑪門的權杖.
+1371,Cracked Mirror,破裂的鏡子,"A mirrored shield. At the sacrifice of Ward, one should have been able to reflect on themselves and gain mana. But alas, it is cracked.","鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值.阿不過它是破的."
+1372,Arisen Askr Boots,重生阿斯克鞋,"Boot of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned.",
+1373,Arisen Askr Cowl,重生阿斯克風帽,"Cowl of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself.",
+1374,Arisen Askr Garb,重生阿斯克皮甲,"Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power.",
+1375,Arisen Askr Leggings,重生阿斯克腿甲,"Heavy leggings of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned.",
+1376,Arisen Embla Hood,重生安布拉兜帽,"Hood of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself.",
+1377,Arisen Embla Robe,重生安布拉法袍,"Robe of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power.",
+1378,Arisen Embla Shoes,重生安布拉鞋,"Robe of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned.",
+1379,Arisen Askr Armor,重生阿斯克盔甲,"Heavy of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power.",
+1380,Arisen Askr Helmet,重生阿斯克頭盔,"Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself.",
+1381,Arisen Hel's Feathers,重生赫爾的羽毛,"Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward.",
+1382,Hel's Feathers,赫爾的羽毛,"Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward.",
+1383,Helhest,海斯特,The mighty bow of Hel. Its loosened arrows will light your path while exploring the world.,
+1384,Arisen Helhest,重生海斯特,The mighty bow of Hel. Its loosened arrows will light your path while exploring the world.,
+1385,Arisen Hel's Garb,重生赫爾皮甲,"Light armor of Hel, the shadowed rogue. It grants its weather addition dexterity and status immunities. Additionally, it is well suited for adornment.",
+1386,Hel's Boots,赫爾之靴,"Footwear of Hel, the shadowed rogue. They grant their wearer additional dexterity and are well suited for adornment.",暗影俠盜赫爾的鞋子。穿戴它可以給予額外的敏捷並且適合鑲嵌。
+1387,Arisen Hel's Boots,重生赫爾之靴,"Footwear of Hel, the shadowed rogue. They grant their wearer additional dexterity and are well suited for adornment.",暗影俠盜赫爾的鞋子。穿戴它可以給予額外的敏捷並且適合鑲嵌。
+1388,Hel's Veil,赫爾面罩,"Headwear of Hel, the shadowed rogue. Wearing it may increase one's chance of landing a critical attack.",暗影俠盜赫爾的頭飾。穿戴它可能會增加爆擊率。
+1389,Hel's Garb,赫爾皮甲,"Light armor of Hel, the shadowed rogue. It grants its weather addition dexterity and status immunities. Additionally, it is well suited for adornment.",
+1390,Arisen Hel's Veil,重生赫爾面罩,"Headwear of Hel, the shadowed rogue. Wearing it may increase one's chance of landing a critical attack.",暗影俠盜赫爾的頭飾。穿戴它可能會增加爆擊率。
+1391,Embla Shoes,安布拉鞋,,
+1392,Embla Hood,安布拉兜帽,"Hood of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself.",
+1393,Askr Garb,阿斯克皮甲,"Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power.",
+1394,Askr Helmet,阿斯克頭盔,"Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself.",
+1395,Spellsword's Ring,魔劍士之戒,A strange magical ring. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power.,適合菜雞的奇特魔戒，它會犧牲物攻以換取魔攻。
+1396,Arisen King's Sceptre,,"The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",
+1397,False King's Sceptre,,"The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",
+1398,False King's Crown,,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
+1399,Arisen King's Crown,,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
+1400,Lyon's Penance,,An artifact capable of unmarking one from Lyonesse execution.,
+1401,Trevelyan's Shoes,,"Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",
+1402,Trevelyan's Hood,,"Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
+1403,Arisen Trevelyan's Shoes,,"Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",
+1404,Arisen Trevelyan's Hood,,"Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
+1405,Arch-Blessed Rune Helmet,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1406,Arisen Trevelyan's Archistaff,,"Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",
+1407,Blessed Rune Leggings,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1408,Blessed Rune Helmet,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1409,Trevelyan's Archistaff,,"Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",
+1410,Trevelyan's Robe,,"Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
+1411,Arisen Trevelyan's Robe,,"Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
+1412,Blessed Rune Armor,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1413,Arisen Trevelyan's Charm,,"Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",
+1414,Trevelyan's Charm,,"Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",
+1415,Arch-Blessed Rune Leggings,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1416,Arch-Blessed Rune Armor,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1417,Askr Leggings,阿斯克腿甲,"Heavy leggings of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned.",墮落的生命象徵，世界樹之重腿甲。穿戴它可以免疫暈眩。
+1418,Askr Armor,阿斯克盔甲,"Heavy armor of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power.",墮落的生命象徵，世界樹之重裝甲。穿戴它可能可以偶爾大幅增加你的力量。
+1419,Askr Cowl,阿斯克風帽,"Cowl of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself.",墮落的生命象徵，世界樹之風帽。穿戴它可能可以減少你對自己造成的傷害。
+1420,Embla Robe,安布拉法袍,,
+1421,Askr Boots,阿斯克長靴,"Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned.",墮落的生命象徵，世界樹之靴。穿戴它可以免疫暈眩。
+1422,Baldr Boots,,"War-mage's boots of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
+1423,Questing Bow,,"A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
+1424,Baldr Battlerobe,,"War-mage's robe of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
+1425,Baldr Hood,,"War-mage's hood of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
+1426,Questing Axe,,"A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
+1427,Questing Staff,,"A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
+1428,Elite Nothren Greaves,,Heavy armor of Nothren Berserkers,
+1429,Asgard Greaves,,Heavy Armor of Nothren valkyries,
+1430,Elite Nothren Boots,,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+1431,Elite Nothren Shoes,,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+1432,Elite Fomorian Boots,,Boots worn by Fomorian rogues.,弗摩爾族盜賊穿的靴子.
+1433,Elite Fomorian Leggings,,Leg armor worn by Fomorian warriors.,弗摩爾族戰士穿的腿甲.
+1434,Elite Nothren Shield,,Shield carried by berserkers of the Northern lands. It protects one from the cold.,北族領地的狂戰士使用的盾.能夠禦寒.
+1435,Asgard Shield,,Shield carried by valkyries of the Northern lands.  It protects one from the cold.,
+1436,Asgard Armor,,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
+1437,Elite Nothren Garb,,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+1438,Elite Draconian Garb,,Body coverings of a Draconian rogue.,德肯尼亞族俠盜罩衫。
+1439,Elite Draconian Armor,,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+1440,Elite Nothren Robe,,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+1441,Elite Nothren Armor,,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+1442,Elite Fomorian Armor,,Heavy armor worn by Fomorian warriors.,弗摩爾族戰士穿的重裝甲.
+1443,Elite Fomorian Robe,,A robe worn by Fomorian mages.,弗摩爾族法師所穿的法袍.
+1444,Elite Nothren Cowl,,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+1445,Elite Nothren Hood,,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+1446,Elite Draconian Hood,,A hood of a Draconian mage.,德肯尼亞族法師兜帽。
+1447,Elite Nothren Helmet,,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+1448,Elite Fomorian Cowl,,A hood worn by Fomorian rogues.,弗摩爾族俠盜所穿的兜帽.
+1449,Elite Fomorian Hood,,A hood worn by Fomorian mages.,弗摩爾族法師所穿戴的兜帽。
+1450,Elite Draconian Sword,,A sword of a Draconian blacksmith. The quality is quite surprising.,德肯尼亞族鐵匠鑄造之劍，品質令人讚嘆。
+1451,Elite Draconian Staff,,A staff of a Draconian mage. Boasts above average magic power.,德肯尼亞族法師之杖，擁有超凡的魔法攻擊力。
+1452,Elite Fomorian Sword,,A sword of a Fomorian warrior.,弗摩爾族戰士的劍.
+1453,Elite Fomorian Staff,,A staff of a Fomorian mage.,弗摩爾族法師的法杖.
+1454,Ectoplasm,,Remains of a very spooky ghost. Carrying it will attract additional monsters to you while providing protection from attacks of the physical element.,
+1455,Elite Draconian Leggings,,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+1456,Tarnished King's Crown,,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
+1457,Arisen Dagda Armor,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1458,Arisen Dagda Garb,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1459,Arisen Dagda Robe,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1460,Arisen Dagda Boots,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1461,Arisen Dagda Cowl,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1462,Arisen Balor Crown,,The fabled crown of king Balor.,
+1463,Arisen Dagda Helmet,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1464,Arisen Dagda Leggings,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1465,Arisen Dagda Shoes,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1466,Lugus Gauntlet,,Gauntlet of the Balor knight Lugus. Wearing it will provide a chance to greatly increase your offensive power.,
+1467,Arisen Dagda Hood,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1468,Dagda Boots,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1469,Dagda Garb,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1470,Dagda Helmet,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1471,Dagda Leggings,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1472,Dagda Armor,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1473,Dagda Hood,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1474,Dagda Robe,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1475,Dagda Cowl,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1476,Dagda Shoes,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1477,Asgard's Summit,,"A rare blade carried by the most gifted of Nothren valkyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses.",由最有天賦的北族女武神持有的稀有劍刃。它可能會給予古娜態勢，提高攻擊力但降低防禦力。
+1478,Elite Draconian Boots,,Boots of a Draconian rogue.,德肯尼亞族俠盜長靴。
+1479,Elite Draconian Cowl,,A cowl of a Draconian rogue.,德肯尼亞族俠盜風帽。
+1480,Elite Draconian Robe,,A robe of a Draconian mage.,德肯尼亞族法師長袍。
+1481,Elite Balor Robe,,"A dark, dusty robe typically worn by Balor mages.",巴羅爾法師標配的暗黑法袍.
+1482,Elite Balor Armor,,Heavy armor typically worn by Balor warriors.,巴羅爾戰士標配的重裝甲.
+1483,Elite Balor Helmet,,A heavy helmet typically worn by Balor warriors.,巴羅爾戰士所配戴的重型頭盔。
+1484,Elite Balor Leggings,,Heavy leggings typically worn by Balor warriors,
+1485,Elite Balor Shield,,A decorated shield often carried by Balor warriors.,巴羅爾戰士的裝飾盾.
+1486,Elite Balor Sword,,A commonly used sword of knights of Balor.,巴羅爾騎士常使用的劍。
+1487,Elite Balor Katana,,Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed.,巴羅爾俠盜使用的武士刀，有高機率使敵人流血。
+1488,Elite Balor Archistaff,,Staff wielded by Balor mages. It increases mana at the expense of health.,巴羅爾法師的法杖.能藉由犧牲體力來換取魔力.
+1489,Elite Dune Blade,,A rare scimitar of the sands. Slightly increases gold earned.,稀有的沙之彎刀。稍微增加賺取的金幣。
+1490,Neman Greaves,妮潘護脛,"Cursed legwear of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒腿甲.
+1491,Fey Neman Greaves,變異妮潘護脛,"Cursed legwear of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒腿甲.
+1492,Fey Neman Warsword,變異妮潘戰刃,"Cursed greatsword of Neman, sister of Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",
+1493,Fey Badb Boots,變異芭德布長靴,"Cursed legwear of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒腿甲.
+1494,Fey Badb Garb,變異芭德布皮甲,"Cursed light armor of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒輕裝甲.
+1495,Elite Fomorian Garb,,Heavy armor worn by Fomorian rogues.,弗摩爾族俠盜所穿的重裝甲.
+1496,Asgard Helmet,,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
+1497,Fey Badb Veil,變異芭德布面罩,"Cursed headwear of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒頭帽.
+1498,Stranger's Gift,,A gift for another. Open it to find out what it could be.,
+1499,Alfar Trinket,,A trinket carried by an Alfar. Using it will increase your chances of finding something rarer when opening Stranger's Gifts.,
+1500,Farsight,遠見,A tonic that improves eyesight. Consuming this item will increase your view distance for a limited time.,提升視野的藥水。喝下它能在一定時間內提升你的視野。
+1501,Beast's Blood,野獸之血,A simple concoction. Consuming it may attract extra monsters to you.,就是個調劑。用了它能吸引更多的怪物。
+1502,Bestial Potion,兇殘,A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time.,
+1503,All-seer's Gem,,An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see.,
+1504,Horned Armor,角鎧,"Armor of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment.",桀驁金牛凱魯斯的鎧甲. 能減少技能和魔法的魔力消耗並且很適合鑲嵌裝飾.

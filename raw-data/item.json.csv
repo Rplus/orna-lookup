@@ -1,0 +1,1479 @@
+id,name,tier,type,boss,arena,view_distance,equipped_by,element,stats.attack,stats.magic,stats.defense,stats.resistance,stats.dexterity,stats.crit,stats.ward,stats.hp,stats.mana,prevents,causes,cures,gives,dropped_by,materials,quests,image
+1,Small Health Potion,1,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/small_health_potion.png
+2,Bow,1,Weapon,,1,,"[""Thief""]",,15,,,,,,,,,,,,,[7],[283],,weapons/bow.png
+3,Small Mana Potion,1,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[143],,,useables/small_mana_potion.png
+4,Antidote,1,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Poisoned""]",,"[9,266]",,,useables/antidote.png
+5,Elixir,2,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/small_elixir.png
+6,Large Health Potion,2,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/large_health_potion.png
+7,Large Mana Potion,2,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/large_mana_potion.png
+8,Large Elixir,3,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,"[{""id"":12,""name"":""First Aid""}]",useables/large_elixir.png
+9,Greater Health Potion,4,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/greater_health_potion.png
+10,Greater Mana Potion,4,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/greater_mana_potion.png
+11,Greater Elixir,4,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/greater_elixir.png
+12,Panacea,4,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Att ↓"",""Mag ↓"",""Def ↓"",""Def ↓↓"",""Res ↓↓"",""Res ↓"",""Att ↓↓"",""Mag ↓↓"",""Rot"",""Dex ↓""]",,"[33,176,247,362,430,149,275,421,337,348,404,304,428]",,,useables/panacea.png
+13,Lucky Coin,2,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[20,21,40,39,77,266,452,72,78,81,176,85,86,160,109,110,111,116,117,454,487,491,194,335,486]",,"[{""id"":3,""name"":""A Handsome Trade""}]",useables/lucky_coin.png
+14,Lucky Silver Coin,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[229,20,21,40,39,77,266,452,72,78,81,85,86,160,109,110,111,116,117,454,487,491,194,335,486]",,,useables/silver_coin.png
+15,EXP Potion,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[266,275,421,432,431,428]",,,useables/exp_potion.png
+16,Dowsing Rod,3,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[207,176,177,178,454,179,273,275,337,428,335]",,,useables/dowsing_rod.png
+17,Torch,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/torch.png
+18,Occult Candle,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[266,420,142]",,,useables/candle.png
+19,Attack Tonic,2,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Att ↑""]","[266,444,347,411,362,430,275,440,348,431,443,428,412]",,,useables/attack_tonic.png
+20,Defense Tonic,2,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Def ↑""]","[266,444,411,362,430,275,440,348,443,428,412]",,,useables/defense_tonic.png
+21,Speed Tonic,3,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Dex ↑""]","[362,430,275,440,428]",,,useables/speed_tonic.png
+22,Magic Tonic,2,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Mag ↑""]","[266,444,347,411,413,362,430,275,440,312,348,443,428,412]",,,useables/magic_tonic.png
+23,Monster Remains,3,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[432,431]",,,useables/remains.png
+24,Great Monster Remains,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[33,176,247,304]",,,useables/great_remains.png
+25,Coffee,1,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Asleep""]","[""Dex ↑""]",,,,useables/coffee.png
+26,Broadsword,1,Weapon,,,,"[""Warrior""]",,15,,,,,,,,,,,,,,[263],,weapons/long_sword.png
+27,Cane,1,Weapon,,,,"[""Mage""]",,2,15,,,,,,,,,,,,,[283],,weapons/cane.png
+28,Dagger,1,Weapon,,,,"[""Thief""]",,10,,,,,,,,,,"[""Bleeding""]",,,[7],[263],,weapons/dagger.png
+29,Rusty Sword,1,Weapon,,,,"[""Warrior""]",,5,,,,,,,,,,,,,[14],[263],,weapons/small_sword.png
+30,Short Sword,1,Weapon,,,,"[""Warrior""]",,10,,,,,,,,,,,,,[32],[276],,weapons/small_sword.png
+31,Staff,1,Weapon,,,,"[""Mage""]",,1,5,,,,,,,,,,,,[8],[283],,weapons/staff.png
+32,Sword and Shield,1,Weapon,,,,"[""Warrior""]",,15,,5,,,,2,,,,,,,[58],[263],,weapons/sword_and_shield.png
+33,Wooden Staff,1,Weapon,,1,,"[""Mage""]",,4,22,,,,,,,,,,,,,[345],,weapons/wooden_staff.png
+34,Axe,2,Weapon,,,,"[""Warrior""]",,25,,,,,,,,,,,,,[1],[263],,weapons/axe.png
+35,Axe of Night,2,Weapon,1,,,"[""Warrior""]",Dark,31,8,,,,,,,,,,,,[40],[253],,weapons/axe.png
+36,Battle Axe,2,Weapon,,,,"[""Warrior""]",,24,,,,,,,,,,,,,,[263],,weapons/battle_axe.png
+37,Bearclaw,2,Weapon,,,,"[""Thief"",""Warrior""]",,24,12,,,,,,,,,,,,[122],[249],,weapons/bearclaw.png
+38,Blue Dagger,2,Weapon,,,,"[""Thief""]",Water,26,5,,,,,,,,,"[""Frozen""]",,,[41],[280],,weapons/blue_dagger.png
+39,Blue Wand,2,Weapon,,,,"[""Mage""]",Water,5,25,,,,,,,,,"[""Frozen""]",,,[41],[280],,weapons/blue_wand.png
+40,Claymore,2,Weapon,,,,"[""Warrior""]",,30,,,,,,,,,,"[""Def ↓""]",,,,[276],,weapons/great_sword.png
+41,Crossbow,2,Weapon,,,,"[""Thief""]",,20,,,,,,,,,,,,,,[283],,weapons/crossbow.png
+42,Dirk,2,Weapon,,1,,"[""Thief""]",,35,,,,,,,,,,"[""Bleeding""]",,,,"[345,276]",,weapons/dagger.png
+43,Draconian Archistaff,2,Weapon,1,,1,"[""Mage""]",,8,48,,,,,,,,,,,,[39],[271],,weapons/draco_archistaff.png
+44,Draconian Bow,2,Weapon,,,,"[""Thief""]",,25,,,,,,,,,,,,,,[254],,weapons/draco_bow.png
+45,Draconian Sceptre,2,Weapon,,,,"[""Mage""]",,5,50,,,,,,,,,,,,[42],[254],,weapons/draco_sceptre.png
+46,Draconian Sword,2,Weapon,,,,"[""Warrior""]",,30,,,,,,,,,,,,,"[22,43]",[254],,weapons/draco_sword.png
+47,Draconian Staff,2,Weapon,,,,"[""Mage""]",,3,30,,,,,,,,,,,,[26],[254],,weapons/wooden_staff.png
+48,Falchion,2,Weapon,,,,"[""Thief""]",,25,,,,,,,,,,,,,,[276],,weapons/falchion.png
+49,Fallen Mage's Staff,2,Weapon,,,,"[""Mage""]",,,50,,,,,,,,,,,,"[3,48]",[283],,weapons/wooden_staff.png
+50,Fallen Thief's Dagger,2,Weapon,,,,"[""Thief""]",,50,,,,,,,,,,"[""Bleeding""]",,,[4],[263],,weapons/small_sword.png
+51,Fallen Warrior's Sword,2,Weapon,,,,"[""Warrior""]",,50,,,,,,,,,,,,,[5],[276],,weapons/great_sword.png
+52,Great Staff,2,Weapon,,1,,"[""Mage""]",,5,42,,,,,,,,,,,,,[346],,weapons/great_staff.png
+53,Greatsword,2,Weapon,,,,"[""Warrior""]",,45,,,,,,,,,,,,,[78],[276],,weapons/great_sword.png
+54,Iron Hammer,2,Weapon,,,,"[""Warrior""]",,30,,,,,,,,,,,,,,[263],,weapons/hammer.png
+55,Kunai,2,Weapon,,1,,"[""Thief""]",,40,,-5,,,,2,,,,,,,,[345],,weapons/kunai.png
+56,Longsword,2,Weapon,,,,"[""Warrior""]",,27,,,,,,,,,,,,,,[276],,weapons/long_sword.png
+57,Mace,2,Weapon,,,,"[""Warrior""]",,27,,,,,,,,,,,,,,[276],,weapons/mace.png
+58,Minotaur Axe,2,Weapon,1,,,"[""Warrior""]",,44,,,,,,,,,,,,,[21],[261],,weapons/battle_axe.png
+59,Red Dagger,2,Weapon,,,,"[""Thief""]",Fire,30,5,,,,,,,,,"[""Burning"",""Bleeding""]",,,"[31,41]",[259],,weapons/red_dagger.png
+60,Ruby Wand,2,Weapon,,,,"[""Mage""]",Fire,5,20,,,,,,,,,"[""Burning""]",,,"[31,41]",[259],,weapons/red_wand.png
+61,Scimitar,2,Weapon,,,,"[""Thief""]",,28,,,,,,,,,,,,,,[276],,weapons/falchion.png
+62,Steelguard,2,Weapon,,1,,"[""Warrior""]",,30,,10,,,,4,,,,,,,,"[345,276]",,weapons/steel_guard.png
+64,Ankh,3,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,70,70,,,,,,,,,,,,[80],[248],"[{""id"":11,""name"":""A Study of Artifacts""}]",weapons/ankh.png
+65,Bow of Scales,3,Weapon,1,,,"[""Thief""]",Water,60,22,,,,,,,,,"[""Frozen""]",,,[72],[274],,weapons/lizarr_bow.png
+66,Cutlass,3,Weapon,,,,"[""Thief""]",Physical,49,,,,,,,,,,,,,,[276],,weapons/falchion.png
+67,Demonic Blade,3,Weapon,1,,,"[""Warrior""]",Dark,78,,,,,,,,,,"[""Asleep""]",,,"[77,91]",[253],,weapons/demonic_blade.png
+68,Fallen Archistaff,3,Weapon,,,,"[""Mage""]",,,75,,,,,,,,,,,,[45],[273],,weapons/archistaff.png
+69,Fallen Knight's Axe,3,Weapon,,,,"[""Warrior""]",,75,,,,,,,,,,,,,[46],[276],,weapons/battle_axe.png
+70,Fallen Rogue's Bow,3,Weapon,,,,"[""Thief""]",,75,,,,,,,,,,,,,[47],,,weapons/longbow.png
+71,Flamberge,3,Weapon,,,,"[""Warrior""]",,60,,,,,,,,,,,,,,[276],,weapons/flamberge.png
+72,Flameguard,3,Weapon,,1,,"[""Warrior""]",Fire,60,,20,,,,3,,,,"[""Burning""]",,,,"[259,345]",,weapons/flame_guard.png
+73,Frosty Daggers,3,Weapon,,1,,"[""Thief""]",Water,70,,-15,,,,4,,,,"[""Frozen""]",,,,"[345,280]",,weapons/frost_daggers.png
+74,Jinn Staff,3,Weapon,,,,"[""Mage""]",,,60,,,,,,,,,"[""Paralyzed"",""Blind"",""Asleep"",""Stunned""]",,,[127],[273],,weapons/draco_sceptre.png
+75,Lizarr Blade,3,Weapon,,,,"[""Warrior""]",,55,,,,,,,,,,,,,"[36,55,73,363]",[276],,weapons/lizarr_blade.png
+76,Morning Star,3,Weapon,,,,"[""Warrior""]",,55,,,,,,,,,,,,,,[263],,weapons/morning_star.png
+77,Mythril Bow,3,Weapon,,,,"[""Thief""]",Physical,60,,,,,,,,,,,,,,[266],,weapons/mythril_bow.png
+78,Mythril Dagger,3,Weapon,,,,"[""Thief""]",,48,,,,,,,,,,"[""Bleeding""]",,,,[266],,weapons/silver_dagger.png
+79,Mythril Hammer,3,Weapon,,,,"[""Warrior""]",,60,,,,,,,,,,,,,,[266],,weapons/hammer.png
+80,Mythril Sword,3,Weapon,,,,"[""Warrior""]",,45,,,,,,,,,,,,,,[266],,weapons/long_sword.png
+81,Scythe,3,Weapon,,,,"[""Thief"",""Warrior""]",,55,,,,,,,,,,"[""Bleeding""]",,,,[276],,weapons/scythe.png
+82,Silver Dagger,3,Weapon,,,,"[""Thief""]",Holy,60,,,,,,,,,,"[""Bleeding""]",,,,[275],,weapons/silver_dagger.png
+83,Silver Crossbow,3,Weapon,,,,"[""Thief""]",Holy,55,,,,,,,,,,,,,,[275],,weapons/silver_crossbow.png
+84,Staff of Wolves,3,Weapon,,,,"[""Mage""]",Earthen,,68,,,,,,,,,"[""Rot""]",,,[78],[282],,weapons/wolf_staff.png
+85,Batwing Bow,4,Weapon,1,,,"[""Thief""]",,77,12,,,8,,,,,,"[""Def ↓""]",,,[81],[251],,weapons/batwing_bow.png
+86,Bonecrusher,4,Weapon,1,,,"[""Warrior""]",,102,,,,,,,,,,"[""Stunned""]",,,[84],[278],,weapons/bonecrusher.png
+87,Dark Staff,4,Weapon,,1,,"[""Mage""]",Dark,5,90,,,,,,,,,,,,[91],"[252,345]",,weapons/dark_staff.png
+88,Earthen Sceptre,4,Weapon,,1,,"[""Mage""]",Earthen,8,70,,,,,,,,,"[""Rot""]",,,,"[256,345]",,weapons/earth_staff.png
+89,Elven Sword,4,Weapon,,,,"[""Warrior""]",,87,,,,10,,,,,,"[""Bleeding""]",,,[63],[257],,weapons/elven_sword.png
+90,Fomorian Bow,4,Weapon,,,,"[""Thief""]",,72,,,,,,,,,,,,,,"[266,283]",,weapons/draco_bow.png
+91,Fomorian Staff,4,Weapon,,,,"[""Mage""]",,10,80,,,,,,,,,,,,[66],"[266,283]",,weapons/draco_archistaff.png
+92,Fomorian Dagger,4,Weapon,,,,"[""Thief""]",,78,,,,,,,,,,"[""Bleeding""]",,,[67],"[266,283]",,weapons/dagger.png
+93,Fomorian Sword,4,Weapon,,,,"[""Warrior""]",,81,,,,,,,,,,,,,[68],"[266,283]",,weapons/draco_sword.png
+94,Lich's Staff,4,Weapon,,,,"[""Mage""]",Dark,10,85,,,,,,,50,,,,,[71],[252],,weapons/lich_staff.png
+95,Orcish Axe,4,Weapon,,,,"[""Warrior""]",,76,,,,,,,,,,,,,"[74,75]",[276],,weapons/axe.png
+96,Orcish Blade,4,Weapon,,,,"[""Thief""]",,82,,,,,,,,,,,,,[100],[276],,weapons/falchion.png
+97,Rune Sword,4,Weapon,,1,,"[""Warrior""]",,70,70,,,,,,,,,,,,,[273],,weapons/blue_flame.png
+98,Silver Kris,4,Weapon,,1,,"[""Thief""]",Holy,95,,-24,,,,5,,,,,,,,"[346,275]",,weapons/kris.png
+99,Storm Sceptre,4,Weapon,,1,,"[""Mage""]",Lightning,8,70,,,,,,,,,"[""Paralyzed""]",,,,"[265,345]",,weapons/storm_staff.png
+100,Adamantine Staff,5,Weapon,,,,"[""Mage""]",,30,105,,,,,,,,,,,,[87],[247],,weapons/adam_staff.png
+101,Black Witch Staff,6,Weapon,1,,,"[""Mage""]",Dark,15,140,,,,,,,,,,,,[116],[281],,weapons/black_witch_staff.png
+102,Blood Sword,5,Weapon,,,,"[""Warrior""]",Dark,102,,,,,,,,,,,,,,[252],,weapons/bloodsword.png
+103,Bolt,5,Weapon,,,,"[""Warrior""]",Lightning,122,20,,,,,,,,,"[""Paralyzed""]",,,[104],"[265,266]",,weapons/bolt.png
+104,Dragon Dagger,5,Weapon,,,,"[""Thief""]",,120,,,,,,,,,,"[""Burning"",""Bleeding""]",,,"[128,251]",[255],,weapons/dragon_dagger.png
+105,Dragon Sword,5,Weapon,,,,"[""Warrior""]",,110,,,,,,,,,,,,,"[128,251]",[255],,weapons/dragon_sword.png
+106,Earthen Pike,5,Weapon,,,,"[""Warrior""]",Earthen,130,,,,,,,,,,"[""Def ↓"",""Rot""]",,,[99],"[256,266]",,weapons/earth_pike.png
+107,Elven Katana,5,Weapon,,,,"[""Thief""]",,110,,,,10,1,,,,,,,,[89],[257],,weapons/katana.png
+108,Elven Staff,5,Weapon,,,,"[""Mage""]",,20,105,,,,,,,,,,,,[88],[257],,weapons/elven_staff.png
+109,Fog Blade,5,Weapon,1,,,"[""Warrior""]",Dark,90,20,,,,,,,,,"[""Blind""]",,,[110],[260],,weapons/fog_blade.png
+110,Gazing Staff,5,Weapon,1,,1,"[""Mage""]",,,120,,,,,,,,,,,,[108],[258],,weapons/gazing_eye.png
+111,Glacial Staff,5,Weapon,,,,"[""Mage""]",Water,20,122,,,,,,,,,"[""Frozen""]",,,[94],"[266,280]",,weapons/glacial_staff.png
+112,Great Jinn Staff,5,Weapon,1,,,"[""Mage""]",,25,115,,,,,,,,,"[""Paralyzed"",""Blind"",""Asleep"",""Stunned""]",,,[109],[268],,weapons/draco_sceptre.png
+113,Reaper's Scythe,5,Weapon,,,,"[""Thief"",""Warrior""]",,115,,,,,,,,,,"[""Bleeding""]",,,[101],[266],,weapons/scythe.png
+114,Royalty,5,Weapon,,1,,"[""Warrior""]",,105,,25,,,,15,,,,,,,,"[346,266]",,weapons/royalty.png
+115,Scorcher,5,Weapon,,,,"[""Thief""]",Fire,90,80,,,,,,,,,"[""Burning""]",,,[102],"[259,266]",,weapons/scorcher.png
+116,Vajra,5,Weapon,,,,"[""Warrior""]",Lightning,125,,,,,,,,,,"[""Paralyzed""]",,,,"[247,265]",,weapons/vajra.png
+117,Vampiric Blade,5,Weapon,1,,,"[""Thief""]",Holy,112,24,,,,,,,,,"[""Bleeding"",""Blind"",""Asleep""]",,,[111],[279],,weapons/vampire_sword.png
+118,Balor Dagger,6,Weapon,1,,,"[""Thief""]",Fire,140,20,,,10,,,,,,"[""Burning"",""Bleeding""]",,,[117],[253],,weapons/hell_dagger.png
+119,Bow of Diana,6,Weapon,,1,,"[""Thief""]",,145,,,,52,,,,,,,,"[""Dex ↑""]",,"[346,262,275]",,weapons/diana_bow.png
+120,Caladbolg,6,Weapon,,1,,"[""Thief""]",,120,70,,,,,,,,,"[""Paralyzed""]",,,,"[346,266,275]",,weapons/caladbolg.png
+121,Carnwennan,6,Weapon,,1,,"[""Thief""]",Dark,148,,,,,,,,,,"[""Asleep""]",,,,"[247,252,346]",,weapons/carnwennan.png
+122,Dyrnwyn,6,Weapon,,1,,"[""Warrior""]",Fire,130,50,,,,,,,,,"[""Burning""]",,,,"[259,269]",,weapons/dyrnwyn.png
+123,Durandal,6,Weapon,1,1,,"[""Thief""]",,140,,,,,,,,,,"[""Bleeding""]",,,,"[346,269]",,weapons/durandal.png
+124,Fallen Mystic's Staff,6,Weapon,,,,"[""Mage""]",,,115,,,24,,,,,,,,,[121],"[266,273]",,weapons/draco_archistaff.png
+125,Masamune,6,Weapon,1,,,"[""Thief""]",,110,110,,,,,,,,,,,,[118],[267],,weapons/masamune.png
+126,Might,6,Weapon,,,,"[""Warrior""]",,118,,30,-10,,,17,,,,,,,[114],"[262,276]",,weapons/might.png
+127,Wyvern Blades,6,Weapon,,,,"[""Thief""]",Dragon,148,,-40,,10,,10,,,,"[""Bleeding"",""Blight""]",,,[115],[254],,weapons/wyvern_blades.png
+128,Arisen Draconian Archistaff,7,Weapon,1,,1,"[""Mage""]",,,160,,,,,,,,,,,,[131],[271],,weapons/draco_archistaff.png
+129,Arisen Minotaur Axe,7,Weapon,1,,,"[""Warrior""]",,155,,,,,,,,,,,,,[132],[261],,weapons/battle_axe.png
+130,Axe of Tiamat,7,Weapon,1,,,"[""Warrior""]",Dragon,170,,,,,,,,,,"[""Blight""]",,,[120],[272],,weapons/axe_of_tiamat.png
+131,Bow of Tiamat,7,Weapon,1,,,"[""Thief""]",Dragon,170,55,,,10,,,,,,"[""Blight""]",,,[120],[272],,weapons/bow_of_tiamat.png
+132,Crucifix,7,Weapon,,1,,"[""Mage""]",,50,155,,,,,,,,,,,,,"[252,346,266]",,weapons/crucifix.png
+133,Deathbringer,7,Weapon,1,,,"[""Thief""]",Dark,180,20,,,5,,,,,,,,,[119],[270],,weapons/deathbringer.png
+134,Staff of Tiamat,7,Weapon,1,,,"[""Mage""]",Dragon,,170,,,,,,,,,"[""Blight""]",,,[120],[272],,weapons/staff_of_tiamat.png
+135,Stone Dagger,4,Weapon,1,,,"[""Thief""]",,88,,,,10,,,,,,"[""Petrified""]",,,[107],[250],,weapons/stone_dagger.png
+136,Hood,1,Head,,,,"[""Mage"",""Thief"",""Warrior""]",,,,5,5,,,,,,,,,,"[4,8]",[262],,armor/hood.png
+137,Leather Hat,1,Head,,,,"[""Thief""]",,,,5,2,,,,,,,,,,"[465,14]",[264],,armor/leather_hat.png
+138,Draconian Cowl,2,Head,,,,"[""Thief""]",,,,10,10,2,,,,,,,,,"[22,43]",[254],,armor/draco_hood.png
+139,Draconian Hood,2,Head,,,,"[""Mage""]",,,,20,20,,,,,,,,,,"[26,42,43]",[254],,armor/draco_hood.png
+140,Iron Helmet,1,Head,,,,"[""Warrior""]",,,,10,5,,,,,,,,,,"[1,5]",[263],,armor/iron_helmet.png
+141,Rune Helmet,2,Head,,,,"[""Warrior""]",,,,25,30,,,,,,,,,,[35],[273],,armor/rune_helmet.png
+142,Snakeskin Cowl,2,Head,,,,"[""Thief""]",,,,10,8,1,,,,,,,,,[34],[264],,armor/snakeskin_cowl.png
+143,Count's Hood,3,Head,,,,"[""Mage""]",,,,40,60,,,,,,,,,,"[59,69,111]",[275],,armor/count_hood.png
+144,Dark Mage Hood,3,Head,,,,"[""Mage""]",,,,32,42,,,,,,,,,,[64],[252],,armor/dark_hood.png
+145,Hood of Wolves,3,Head,,,,"[""Mage""]",,,,45,52,,,,,,,,,,[126],[262],,armor/wolf_hood.png
+146,Mythril Helmet,3,Head,,,,"[""Warrior""]",,,,55,,,,,,,,,,,[57],[266],,armor/mythril_helmet.png
+147,Ancient Hood,4,Head,,,,"[""Mage""]",,,,38,58,,,,,,,,,,[71],[252],,armor/ancient_hood.png
+148,Drake Helmet,4,Head,,,,"[""Warrior""]",,,,75,20,,,,,,,,,,"[258,112]",[255],,armor/drake_helmet.png
+149,Fomorian Hood,4,Head,,,,"[""Mage""]",,,,70,15,,,,,,,,,,"[66,67]","[249,275]",,armor/fomorian_hood.png
+150,Adamantine Helmet,5,Head,,,,"[""Warrior""]",,,,96,30,,,,,,,,,,[87],[247],,armor/adam_helmet.png
+151,Dark Elf Cowl,5,Head,,,,"[""Thief""]",,,,60,60,,,,,,,,,,"[63,261,89]","[257,262]",,armor/dark_elf_cowl.png
+152,Dark Elf Hood,5,Head,,,,"[""Mage""]",,,,40,80,,,,,,,,,,[88],"[257,262]",,armor/dark_elf_cowl.png
+153,Witch's Hat,6,Head,,,,"[""Mage""]",,,,70,75,,,,,,,,,,[116],"[262,281]",,armor/witch_hat.png
+154,Wyvern Helmet,6,Head,,,,"[""Warrior""]",Dragon,,,60,80,,,,,,,,,,"[112,115]",[255],,armor/wyvern_helm.png
+155,Chainmail,1,Armor,,,,"[""Thief"",""Warrior""]",,,,5,1,,,,,,,,,,,[263],,armor/chain_mail.png
+156,Dingy Robe,1,Armor,,,,"[""Mage""]",,,,5,5,,,,,,,,,,,[262],,armor/robe.png
+157,Goblin Armor,1,Armor,,,,"[""Thief""]",,,,12,8,1,,,,,,,,,"[7,32]",[264],,armor/goblin_armor.png
+158,Hard Leather Armor,1,Armor,,,,"[""Thief""]",,,,9,7,1,,,,,,,,,"[4,465,14,58]",[264],,armor/goblin_armor.png
+159,Iron Armor,1,Armor,,,,"[""Warrior""]",,,,10,5,,,,,,,,,,[5],[263],,armor/iron_armor.png
+160,Leather Jacket,1,Armor,,,,"[""Thief"",""Warrior""]",,,,5,2,,,,,,,,,,"[465,14]",[264],,armor/jacket.png
+161,Simple Robe,1,Armor,,,,"[""Mage""]",,,,4,7,,,,,,,,,,"[3,8]",[262],,armor/robe.png
+162,Bearskin,2,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",,,,45,,,,,,,,,,,"[122,114]",[262],,armor/fur_coat.png
+163,Draconian Armor,2,Armor,,,,"[""Warrior""]",,,,25,15,,,,,,,,,,[22],[254],,armor/draco_armor.png
+164,Draconian Garb,2,Armor,,,,"[""Thief""]",,,,16,12,3,,,,,,,,,"[42,43]",[254],,armor/draco_garb.png
+165,Draconian Robe,2,Armor,,,,"[""Mage""]",,,,15,25,,,,,,,,,,"[26,42]",[254],,armor/draco_robe.png
+166,Rune Armor,2,Armor,,,,"[""Warrior""]",,,,25,30,,,,,,,,,,[35],[273],,armor/rune_armor.png
+167,Snakeskin Armor,2,Armor,,,,"[""Thief""]",,,,12,12,2,,,,,,,,,[34],[264],,armor/snakeskin_armor.png
+168,Count's Garment,3,Armor,,,,"[""Mage""]",,,,40,60,,,,,,,,,,"[59,69,111]",[275],,armor/count_garment.png
+169,Dark Garb,3,Armor,,,,"[""Thief""]",,,,38,24,6,,,,,,,,,"[101,119]",[252],,armor/dark_garb.png
+170,Dark Mage Robe,3,Armor,,,,"[""Mage""]",,,,32,42,,,,,,,,,,[64],[252],,armor/dark_robe.png
+171,Fur Coat,3,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,2,,,,,,,,,[50],[262],,armor/fur_coat.png
+172,Hobgoblin Armor,3,Armor,,,,"[""Thief""]",,,,36,,2,,,,,,,,,"[51,52]",[264],,armor/goblin_armor.png
+173,Lizarr Armor,3,Armor,,,,"[""Warrior""]",,,,55,6,,,,,,,,,,"[55,73,363]","[262,276]",,armor/lizarr_armor.png
+174,Mythril Armor,3,Armor,,,,"[""Warrior""]",,,,55,,,,,,,,,,,[57],[266],,armor/mythril_armor.png
+175,Robe of Wolves,3,Armor,,,,"[""Mage""]",,,,47,55,,,,,,,,,,[126],[262],,armor/wolf_robe.png
+176,Ancient Robe,4,Armor,,,,"[""Mage""]",,,,40,75,,,,,,,,,,[71],[252],,armor/ancient_robe.png
+177,Drake Armor,4,Armor,,,,"[""Warrior""]",,,,55,20,,,,,,,,,,"[65,258,128]",[255],,armor/drake_mail.png
+178,Fomorian Armor,4,Armor,,,,"[""Warrior""]",,,,70,15,,,,,,,,,,[68],"[249,275]",,armor/fomorian_armor.png
+179,Fomorian Garb,4,Armor,,,,"[""Thief""]",,,,60,20,10,,,,,,,,,[67],"[249,275]",,armor/fomorian_armor.png
+180,Fomorian Robe,4,Armor,,,,"[""Mage""]",,,,40,70,,,,,,,,,,[66],"[249,275]",,armor/fomorian_robe.png
+181,Great Bearskin,4,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",,,,95,,,,,,,,,,,[95],[262],,armor/fur_coat.png
+182,Wolfskin,4,Armor,,,,"[""Thief""]",,,,55,10,10,,,,,,,,,"[126,76]",[262],,armor/wolfskin.png
+183,Adamantine Armor,5,Armor,,,,"[""Warrior""]",,,,102,32,,,,,,,,,,[87],[247],,armor/adam_armor.png
+184,Dark Elf Garb,5,Armor,,,,"[""Thief""]",,,,60,60,10,,,,,,,,,[261],"[257,262]",,armor/dark_elf_garb.png
+185,Dark Elf Robe,5,Armor,,,,"[""Mage""]",,,,60,60,10,,,,,,,,,[88],,,armor/dark_elf_robe.png
+186,Harpy's Feathers,5,Armor,,,,"[""Thief""]",,,,55,40,30,,,,,,,,,[98],[262],,armor/harpy_feathers.png
+187,Wyvern Armor,6,Armor,,,,"[""Thief""]",Dragon,,,60,80,30,,,,,,,,,"[115,120]",[255],,armor/wyvern_plate.png
+188,Wyvern Chestmail,6,Armor,,,,"[""Warrior""]",Dragon,,,60,80,,,,,,,,,,"[112,115,120]",[255],,armor/wyvern_plate.png
+189,Reaper's Robe,7,Armor,1,,,"[""Mage""]",,,,70,100,,,,,,,,,,[119],[270],,armor/reaper_robe.png
+190,Wyvern Robe,6,Armor,,,,"[""Mage""]",Dragon,,,40,100,,,,,,,,,,"[115,120]",[255],,armor/wyvern_robe.png
+191,Chainmail Leggings,1,Legs,,,,"[""Thief"",""Warrior""]",,,,5,1,,,,,,,,,,,[263],,armor/chain_leggings.png
+192,Goblin Boots,1,Legs,,,,"[""Thief""]",,,,10,8,1,,,,,,,,,"[7,32]",[264],,armor/goblin_boots.png
+193,Hard Leather Boots,1,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,8,5,,,,,,,,,,"[4,5,58]",[264],,armor/boots.png
+194,Heavy Boots,1,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,5,5,,,,,,,,,,,[264],,armor/heavy_boots.png
+195,Leather Boots,1,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,5,2,,,,,,,,,,"[1,465,14]",[264],,armor/boots.png
+196,Draconian Boots,2,Legs,,,,"[""Thief""]",,,,14,12,2,,,,,,,,,"[42,43]",[254],,armor/draco_boots.png
+197,Mage's Boots,2,Legs,,,,"[""Mage""]",,,,15,30,,,,,,,,,,,[273],,armor/mages_boots.png
+198,Rune Leggings,2,Legs,,,,"[""Warrior""]",,,,25,30,,,,,,,,,,[35],[273],,armor/rune_leggings.png
+199,Boots of Wolves,3,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,24,20,,,,,,,,,,[126],[262],,armor/wolf_boots.png
+200,Hobgoblin Boots,3,Legs,,,,"[""Thief""]",,,,30,20,2,,,,,,,,,"[51,52]",[264],,armor/boots.png
+201,Lizarr Boots,3,Legs,,,,"[""Thief""]",,,,24,20,3,,,,,,,,,"[36,73,363]",[262],,armor/lizarr_boots.png
+202,Lizarr Leggings,3,Legs,,,,"[""Warrior""]",,,,55,4,,,,,,,,,,"[73,363]",[262],,armor/lizarr_leggings.png
+203,Mythril Leggings,3,Legs,,,,"[""Warrior""]",,,,55,,,,,,,,,,,[57],[266],,armor/mythril_leggings.png
+204,Ancient Boots,4,Legs,,,,"[""Mage""]",,,,25,62,,,,,,,,,,[71],[252],,armor/ancient_boots.png
+205,Drake Boots,4,Legs,,,,"[""Thief""]",,,,38,32,,,,,,,,,,"[65,258,128,112]",[255],,armor/drake_boots.png
+206,Drake Leggings,4,Legs,,,,"[""Warrior""]",,,,75,20,,,,,,,,,,"[65,258,128]",[255],,armor/drake_leggings.png
+207,Fomorian Boots,4,Legs,,,,"[""Mage""]",,,,70,15,,,,,,,,,,,"[249,275]",,armor/fomorian_boots.png
+208,Fomorian Leggings,4,Legs,,,,"[""Warrior""]",,,,70,15,,,,,,,,,,[67],"[249,275]",,armor/fomorian_leggings.png
+209,Adamantine Leggings,5,Legs,,,,"[""Warrior""]",,,,96,32,,,,,,,,,,[87],[247],,armor/adam_leggings.png
+210,Dark Elf Boots,5,Legs,,,,"[""Thief""]",,,,60,60,10,,,,,,,,,"[63,261,88]","[257,262]",,armor/dark_elf_boots.png
+211,Wyvern Boots,6,Legs,,,,"[""Thief""]",Dragon,,,60,75,30,,,,,,,,,[115],[255],,armor/wyvern_boots.png
+212,Wyvern Leggings,6,Legs,,,,"[""Warrior""]",Dragon,,,60,80,,,,,,,,,,"[112,115,120]",[255],,armor/wyvern_leggings.png
+213,Wyvern Mage's Boots,6,Legs,,,,"[""Mage""]",Dragon,,,30,90,20,,,,,,,,,[115],[255],,armor/wyvern_boots.png
+214,Amulet,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,10,,,,,,,,,,,,,,,,acc/amulet.png
+215,Belt,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,15,,,,,,,,,,,,acc/belt.png
+216,Iron Ring,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,10,,,,,,,,,,,,,,acc/ring.png
+217,Blue Gem,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,25,,,,,"[41,44]",,,acc/blue_gem.png
+218,Green Gem,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,10,,,,,,,,,,,,[44],,,acc/green_gem.png
+219,Monster Tome,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[39,26]",,"[{""id"":10,""name"":""A Monstrous Study""}]",acc/monster_tome.png
+220,Red Gem,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,25,,,,,,"[31,41,44,59]",,,acc/red_gem.png
+221,Silver Amulet,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,20,,,,,,,,,,,,,,,,acc/amulet.png
+222,Steel Belt,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,10,,40,,,,,,,,,,,,acc/steel_belt.png
+223,Steel Ring,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,10,,,,,,,,,,,,,,acc/ring.png
+224,Blue Crystal,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,50,,,,,,,,acc/blue_crystal.png
+225,Coin Purse,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,acc/money_bag.png
+226,Crystal Eye,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,2,2,2,2,,,,10,10,,,,,"[27,44,49]",,,acc/crystal_eye.png
+227,Green Crystal,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,25,,,,,,,,,,,,[49],,,acc/green_crystal.png
+228,Lantern,2,Accessory,,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,acc/lantern.png
+229,Mythril Amulet,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,30,,,,,,,,,,,,,,,,acc/amulet.png
+230,Mythril Ring,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,40,,,,,,,,,,,,,,acc/ring.png
+231,Red Crystal,3,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,50,,,,,,"[69,111]",,,acc/red_crystal.png
+232,Earthen Belt,4,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",Earthen,,,,,,,,,,,,,,[99],,,acc/earthen_belt.png
+234,Enchanted Skull,4,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[84],,,acc/skull.png
+235,Flame Belt,4,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",Fire,,,,,,,,,,,,,,[102],,,acc/flame_belt.png
+236,Frost Belt,4,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,,,,,,,,,,,,[94],,,acc/frost_belt.png
+237,Mage's Ring,4,Accessory,,,,"[""Thief"",""Warrior""]",,-100,50,,,,,,,,,,,,"[71,146]",,,acc/mage_ring.png
+238,Platinum Amulet,4,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,40,,,,,,,,,,,,,,,,acc/amulet.png
+239,Storm Belt,4,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",Lightning,,,,,,,,,,,,,,[104],,,acc/storm_belt.png
+240,Troll's Charm,4,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,20,20,20,20,5,,,50,20,,,,,[86],,,acc/troll_pendant.png
+241,Mystic's Ring,4,Accessory,,,,"[""Mage""]",,50,-100,,,,,,,,,,,,"[105,113]",,,acc/warrior_ring.png
+242,Great Monster Tome,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[66],,"[{""id"":22,""name"":""A Tome of Knowledge""}]",acc/great_monster_tome.png
+243,Draconian Leggings,2,Legs,,,,"[""Warrior""]",,,,25,15,,,,,,,,,,[22],[254],,armor/draco_pants.png
+244,Magician's Robe,1,Armor,,1,,"[""Mage""]",,,,7,20,,,,,,,,,,,,,armor/magic_robe.png
+245,Magician's Hood,1,Head,,1,,"[""Mage""]",,,,6,20,,,,,,,,,,,,,armor/magic_hood.png
+246,Gnome's Hat,4,Head,,,,"[""Mage""]",,,,20,48,,,,,,,,,,[123],[262],"[{""id"":23,""name"":""Lost and Found""}]",armor/gnome_hat.png
+247,Adamantine,4,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[87],"[183,150,209,100,536,899,121,628,547,1356,1353,1346,1345,301,297,116,296,304]",,materials/adamantine.png
+248,Ancient Stone,3,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[80,141]","[64,300,1433]",,materials/stone.png
+249,Bone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[465,14,163,58,84,241,242,101,204,205,478]","[999,395,397,399,396,669,37,1062,1060,1066,1065,1064,1061,1063,1482,1483,1484,1481,1485,1442,1432,1448,1495,1449,1433,1443,1182,1221,178,207,179,149,208,180,703,950,404,405,412,873,872,871,410,411,413,328,338,1105,949]",,materials/bone.png
+250,Broken Statue,3,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[107,209]","[427,135]",,materials/iron.png
+251,Cavestone,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[81,134,225]","[289,85,499]",,materials/iron.png
+252,Darkstone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[25,6,64,77,92,53,59,71,489,377,91,90,297,138,248,119,249,236,453]","[204,147,535,176,349,612,102,121,629,132,622,616,618,534,746,169,144,170,87,1093,1486,1159,1161,1158,1160,1178,1144,1143,1145,1146,1183,333,1504,297,94,731,1155,1157,1162,1156,1179,1173,1167,1174,1184,1166,1090]","[{""id"":20,""name"":""Stuff""}]",materials/dark_stone.png
+253,Demonic Ore,2,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[40,77,188,117,155]","[350,35,118,67,406]",,materials/demonstone.png
+254,Draconite,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[39,26,266,42,43,198,199]","[163,196,44,138,164,139,243,165,45,47,46,1439,1478,1479,1438,1446,1455,1480,1451,1450,415,441,416,414,417,437,409,496,495,127]",,materials/draconite.png
+255,Dragonite,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[65,258,128,164,224,112,251,262,149,322,433]","[1333,841,817,816,711,804,812,799,677,104,633,730,649,105,177,205,148,206,1222,1223,1224,1137,1134,1139,1133,1135,1138,1136,1140,1141,554,559,556,555,635,558,553,561,557,560,653,187,211,188,343,154,288,212,213,190]",,materials/dragonite.png
+256,Earthstone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[60,303,444,99,411,139,153,311,228,254,494,443,412,324,429]","[726,1379,1372,1373,1374,1380,1375,865,860,1376,1377,1378,1381,1418,1421,1419,1393,1394,1417,291,487,706,566,751,106,88,1392,1420,1391,1305,1491,1290,1492,1168,1382,589,1284,1490,1282,1279,1283,739,744,426,619,299,344]","[{""id"":18,""name"":""A Rocky Past""},{""id"":24,""name"":""Nolan's Hues""}]",materials/earth_stone.png
+257,Elstone,4,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[63,261,88,89,392,139,153,393]","[836,210,151,184,152,534,107,108,89,732,1126,1122,1197]",,materials/elstone.png
+258,Eyestone,5,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[108,222,414]","[1206,1182,1181,110,455]",,materials/eye.png
+259,Firestone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[31,339,444,102,411,138,248,386,239,254,255,494,443,412,331]","[726,864,863,1238,1153,1154,1152,1151,1150,1149,1148,1176,1147,285,719,718,122,700,480,72,985,970,976,995,986,964,963,973,978,984,996,982,966,971,977,989,962,967,980,988,997,830,639,589,983,968,975,974,987,969,965,972,979,981,961,59,60,115,740,716,720,715,714,713,550]","[{""id"":16,""name"":""A Candle Like No Other""},{""id"":24,""name"":""Nolan's Hues""}]",materials/fire_stone.png
+260,Fogstone,5,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[70,110,415]","[1213,109,833]",,materials/fogstone.png
+261,Hardened Steel,1,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[21,192,132,418]","[1347,1348,1349,1344,129,1208,1194,1185,1187,1354,1326,1327,1221,1159,1161,1158,1160,1178,1144,1143,1145,1146,1183,1320,1325,1323,1386,1389,1504,584,585,797,58,853,402,586,1155,1157,1162,1156,1179,1191,1186,1188,1173,1167,1174,1184,1166,583,403]",,materials/steel.png
+262,Hide,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[23,2,10,385,21,122,381,36,382,38,126,50,78,227,190,81,410,62,95,383,86,76,196,89,97,96,98,268,105,174,140,114,387,244,237,228,371,318]","[999,848,1012,850,1381,723,501,460,162,199,119,804,812,799,838,470,1092,497,442,210,151,184,152,156,906,900,1222,1223,1224,1168,1221,1132,171,246,950,181,1057,1058,1059,858,186,1382,136,145,443,830,960,946,993,947,948,905,1091,173,201,202,126,1105,699,808,175,491,523,949,1013,161,1052,1017,901,854,153,182,634,1114,613]",,materials/hide.png
+263,Iron,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[5,22,32,394,295]","[999,34,1129,1130,36,26,681,481,155,191,28,50,704,306,950,1131,1128,159,54,140,1116,1091,1096,76,328,567,1105,1127,318,29,949,676,32,679,1086]","[{""id"":2,""name"":""Iron Carl""},{""id"":20,""name"":""Stuff""},{""id"":21,""name"":""Things""}]",materials/iron.png
+264,Leather,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[4,272,16,391,34,126,78,235,86,76,105,113]","[482,1308,1104,900,1132,157,192,158,193,194,1334,172,200,951,574,195,137,160,1078,846,167,142,1314,849,1121,1114]",,materials/leather.png
+265,Lightningstone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[49,302,104,386,494,333]","[726,862,867,103,284,489,589,745,753,99,640,712,467,116]","[{""id"":19,""name"":""A Windy Day""},{""id"":24,""name"":""Nolan's Hues""}]",materials/lightning_stone.png
+266,Mythril,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[57,197,198,167,204,205,492,182]","[464,1311,1355,1384,1387,1381,1385,1390,1194,1185,1187,1193,1192,1304,1333,521,395,397,393,399,669,818,103,120,466,132,433,476,106,900,1482,1483,1487,1484,1485,1439,1478,1479,1438,1446,1455,1480,1450,1453,1452,624,1218,493,1312,124,354,587,547,90,92,91,93,431,702,425,432,687,111,627,626,309,342,314,307,792,1383,1386,1382,1389,1388,420,419,960,946,993,947,951,948,571,574,572,573,782,648,918,174,77,78,79,146,203,80,853,870,646,1332,113,731,114,570,569,115,298,426,625,1191,1186,1188,1190,1195,673,901,675,1022]","[{""id"":9,""name"":""A Need for Mythril""}]",materials/mythril.png
+267,Nightstone,6,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[118,306]","[722,1326,1327,1320,1325,1323,584,585,125,1037,1123,1094,1124,586,583]",,materials/nightstone.png
+268,Perfect Runestone,5,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[109,413,449,210,312,447]","[783,758,790,755,772,1416,1405,1415,834,1399,1396,839,1406,1404,1411,1403,767,780,768,769,789,1412,1408,1407,576,433,766,775,778,770,788,821,913,1053,1398,1397,1108,762,756,757,777,773,112,782,764,577,1198,1202,1199,1201,1203,1200,1204,1226,1227,1225,1456,1409,1402,1410,1401,765,761,771,760,774,787]",,materials/runestone.png
+269,Platinum,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[56],"[1384,1193,1192,485,645,465,524,123,122,996,1383,997,918,961,1332,1190,1195]","[{""id"":20,""name"":""Stuff""},{""id"":21,""name"":""Things""}]",materials/steel.png
+270,Pure Darkstone,7,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[119,310]","[737,133,189]",,materials/dark_stone.png
+271,Pure Draconite,2,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[39,266,131]","[128,529,43,701,568,530]",,materials/draconite.png
+272,Red Draconite,6,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[120,212,419,417]","[1209,1216,1214,1211,1210,1215,1164,130,429,841,817,816,1165,131,434,1426,1423,1427,1163,134,435]",,materials/demonstone.png
+273,Runestone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[35,394,386,170,494,181,318]","[801,803,811,793,535,623,710,353,352,351,456,1112,643,617,621,670,641,1110,1111,1099,1100,1310,1355,394,1212,320,315,322,486,719,718,908,911,470,355,356,357,629,1175,1103,1106,418,433,436,442,534,730,671,917,916,906,913,914,915,1488,1313,68,494,124,1107,1113,703,687,333,301,1334,74,905,797,197,738,1098,338,490,907,693,166,141,198,674,286,97,523,570,1119,910,754,653,588,578,579,296]","[{""id"":21,""name"":""Things""}]",materials/runestone.png
+274,Scalestone,3,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[72,274,252,151]","[340,457,65]",,materials/scalestone.png
+275,Silver,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[126,59,161,69,76,111,243,174,204,205]","[801,803,811,793,758,790,755,772,710,353,352,351,456,836,1194,1185,1187,1238,1153,1154,1152,1151,1150,1149,1148,1176,1147,396,780,768,769,789,119,120,719,718,819,470,168,143,1104,497,775,778,770,788,913,900,1481,1442,1432,1448,1495,1449,1433,1443,1218,1107,1137,1134,1139,1133,1135,1138,1136,1140,1141,1168,1159,1161,1158,1160,1178,1144,1143,1145,1146,1183,1132,178,207,179,149,208,180,756,757,777,773,985,970,976,995,986,964,963,973,978,984,1389,1334,412,873,872,871,410,411,413,982,966,971,977,989,962,967,980,988,443,732,453,1202,1199,1203,1200,983,968,975,974,987,969,965,972,979,981,1332,317,316,311,308,321,742,1226,1227,1225,491,1155,1157,1162,1156,1179,83,82,98,426,1017,1191,1186,1188,1173,1167,1174,1184,1166,901,716,720,715,714,1114,761,771,760,774]","[{""id"":5,""name"":""For the Love of Commerce""}]",materials/silver.png
+276,Steel,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[56],"[1311,40,66,42,821,1312,48,69,51,71,1057,1070,404,405,53,305,683,173,75,293,56,57,126,95,96,870,541,1332,61,81,30,1014,62,1015,1121]","[{""id"":20,""name"":""Stuff""},{""id"":21,""name"":""Things""}]",materials/steel.png
+277,Stone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[388,286,369,54,195,107,197,170,193]","[908,911,470,355,356,357,917,916,914,915,687,907,910]",,materials/stone.png
+278,Undead Bone,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[253,84,245,260,231,265]","[459,691,86,654,527]",,materials/bone.png
+279,Vampiric Ore,5,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[111,264]","[526,117]",,materials/vampiric_ore.png
+280,Waterstone,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[10,11,36,73,299,94,444,103,411,140,397,291,292,293,254,494,479,480,485,443,412,332]","[726,866,861,1406,1404,1411,1403,38,39,292,462,908,911,1062,1060,1066,1065,1064,1061,1063,917,916,914,915,73,111,752,461,705,589,620,907,743,298,910,1409,1402,1410,1401,634,1114,613]","[{""id"":17,""name"":""A Snowy Day""},{""id"":24,""name"":""Nolan's Hues""}]",materials/water_stone.png
+281,Witchstone,6,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[116,219,386,305,494]","[723,735,736,101,853,403,440,153,741]",,materials/dark_stone.png
+282,Wolf's Blood,3,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[78,130,142,275,346,428]","[1301,1300,1303,1302,290,899,1304,819,1297,1296,1293,1298,1019,565,1018,563,564,562,1023,1020,84,304,1022]",,materials/wolf_blood.png
+283,Wood,1,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[3,4,5,18,240,369,394,270,266,195,60,86,159,197,311]","[793,783,464,710,485,1333,1271,486,767,818,711,2,719,718,27,838,41,348,766,649,821,751,1451,1453,1452,493,494,49,1107,700,90,92,91,93,425,703,762,687,1125,791,792,305,651,683,420,419,752,293,650,328,338,490,1118,1198,699,638,731,693,1109,569,303,426,31,753,549,551,653,299,668,344,765]",,materials/wood.png
+284,Boots of Storm,2,Legs,,1,,"[""Mage""]",Lightning,,,5,22,,,,,,,,,,,"[265,345]",,armor/boots_storm.png
+285,Boots of Fire,3,Legs,,1,,"[""Mage""]",Fire,,,10,44,,,,,,,,,,,"[259,345]",,armor/boots_fire.png
+286,Rune Staff,3,Weapon,,,,"[""Mage""]",,7,55,,,,,,,,,,,,,[273],,weapons/rune_staff.png
+287,Sea Axe,6,Weapon,1,,,"[""Warrior""]",Water,115,48,,,,,,,,,"[""Frozen""]",,,[135],[302],,weapons/sea_axe.png
+288,Wyvern Hood,6,Head,,,,"[""Mage""]",Dragon,,,55,75,,,,,,,,,,[115],[255],,armor/wyvern_hood.png
+289,Arisen Batwing Bow,7,Weapon,1,,,"[""Thief""]",,155,25,,,20,,,,,,"[""Def ↓""]",,,[134],[251],,weapons/batwing_bow.png
+290,Arisen Staff of Wolves,7,Weapon,1,,,"[""Mage""]",Earthen,,170,,,,,,,,,"[""Rot""]",,,[130],[282],,weapons/wolf_staff.png
+291,Boots of Earth,4,Legs,,1,,"[""Mage""]",Earthen,,,15,66,,,,,,,,,,,"[256,345]",,armor/boots_earth.png
+292,Boots of the Sea,4,Legs,,1,,"[""Mage""]",Water,,,28,88,,,,,,,,,,,"[345,280]",,armor/boots_ice.png
+293,Longbow,2,Weapon,,,,"[""Thief""]",,25,,,,,,,,,,,,,,"[276,283]",,weapons/longbow.png
+294,Silk,1,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[137,386,416,494,429]","[1207,1238,1153,1154,1152,1151,1150,1149,1148,1176,1147,1182,1132,985,970,976,995,986,964,963,973,978,984,996,982,966,971,977,989,962,967,980,988,997,983,968,975,974,987,969,965,972,979,981,961,295]",,materials/silk.png
+295,Silk Crossbow,2,Weapon,1,,,"[""Thief""]",,28,5,,,3,,,,,,,,,[137],[294],,weapons/silk_crossbow.png
+296,Was,8,Weapon,1,1,,"[""Mage""]",,50,205,,,,,,,55,,,,,,"[247,346,273]",,weapons/was.png
+297,Ichaival,8,Weapon,,1,,"[""Thief""]",,180,,,,,,,,,,"[""T. Def ↓"",""T. Def ↓↓""]",,,,"[247,252,346]",,weapons/diana_bow.png
+298,Shiva's Bow,6,Weapon,,1,,"[""Thief""]",Water,130,30,,,,,,,,,"[""Frozen""]",,,,"[346,266,280]",,weapons/draco_bow.png
+299,Woodblade,6,Weapon,,,,"[""Thief""]",Earthen,128,15,,,10,,,,,,"[""Rot""]",,,[139],"[256,283]",,weapons/wooden_sword.png
+300,Arisen Ankh,7,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,150,150,,,,,,,,,,,,[141],[248],,weapons/ankh.png
+301,Grioarvolr,8,Weapon,,1,,"[""Mage""]",,,180,,,,,,,,,"[""T. Res ↓"",""T. Res ↓↓""]",,,,"[247,346,273]",,weapons/adam_staff.png
+302,Pure Waterstone,6,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[283,135,373,269,367,315]","[827,1095,1117,826,1338,1337,636,644,637,552,1080,1078,1339,287]",,materials/water_stone.png
+303,Spear,2,Weapon,,,,"[""Warrior""]",,26,,,,,,,,,,,,,,[283],,weapons/spear.png
+304,Wolfbane,7,Weapon,1,,,"[""Warrior""]",,172,55,,,,,,,,,"[""T. Def ↓""]",,,[142],"[247,282]",,weapons/wolfbane.png
+305,Halberd,3,Weapon,,,,"[""Warrior""]",,78,,,,5,,,,,,,,,,"[276,283]",,weapons/halberd.png
+306,Glaive,2,Weapon,,,,"[""Thief""]",,32,,,,3,,,,,,,,,,[263],,weapons/spear.png
+307,Grand Sword,5,Weapon,,1,,"[""Warrior""]",,105,,,,,,,,,,,,,,"[346,266]",,weapons/grand_sword.png
+308,Royal Hood,3,Head,,1,,"[""Thief""]",,,,32,32,10,,,,,,,,,,"[275,345]",,armor/royal_hood.png
+309,Grand Armor,5,Armor,,1,,"[""Warrior""]",,,,86,24,,,,,,,,,,,"[346,266]",,armor/grand_armor.png
+310,Warlock Robe,3,Armor,,1,,"[""Mage""]",,,,12,60,,,,,,,,,,,[345],,armor/warlock_robe.png
+311,Royal Dagger,3,Weapon,,1,,"[""Thief""]",,70,,,,15,,,,,,,,,,"[275,345]",,weapons/royal_dagger.png
+312,Warlock Staff,3,Weapon,,1,,"[""Mage""]",,,58,,,,,,,,,,,,,[346],,weapons/warlock_staff.png
+313,Warlock Boots,3,Legs,,1,,"[""Mage""]",,,,12,60,,,,,,,,,,,[345],,armor/warlock_boots.png
+314,Grand Leggings,5,Legs,,1,,"[""Warrior""]",,,,82,22,,,,,,,,,,,"[346,266]",,armor/grand_leggings.png
+315,Battlemage Boots,5,Legs,,1,,"[""Mage""]",,,,82,20,,,,,,,,,,,"[346,273]",,armor/battlemage_boots.png
+316,Royal Chestplate,3,Armor,,1,,"[""Thief""]",,,,32,32,10,,,,,,,,,,"[275,345]",,armor/royal_chestplate.png
+317,Royal Boots,3,Legs,,1,,"[""Thief""]",,,,32,32,10,,,,,,,,,,"[275,345]",,armor/royal_boots.png
+318,Royal Helmet,2,Head,,1,,"[""Warrior""]",,,,40,,,,,,,,,,,,"[263,345]",,armor/royal_helm.png
+319,Warlock Hat,3,Head,,1,,"[""Mage""]",,,,12,60,,,,,,,,,,,[345],,armor/warlock_hat.png
+320,Battlemage Armor,5,Armor,,1,,"[""Mage""]",,,,102,20,,,,,,,,,,,"[346,273]",,armor/battlemage_armor.png
+321,Royal Longbow,3,Weapon,,1,,"[""Thief""]",,72,,,,10,,,,,,,,,,"[275,345]",,weapons/royal_longbow.png
+322,Battlemage Helmet,5,Head,,1,,"[""Mage""]",,,,82,20,,,,,,,,,,,"[346,273]",,armor/battlemage_helm.png
+323,Ljosalfar Boots,8,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,88,88,,,,,,,,,,"[147,148,145]",[325],,armor/ljosalfar_boots.png
+324,Ljosalfar Staff,8,Weapon,,,,"[""Mage""]",Holy,,177,,,,,,,25,,,,,[145],[325],,weapons/ljosalfar_staff.png
+325,Lightstone,8,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[344,411,147,148,145,254,443,412]","[851,836,543,545,546,537,539,538,544,540,542,732,334,323,335,337,336,326,339,324,327,1101]","[{""id"":56,""name"":""The Ljosalfar""}]",materials/lightstone.png
+326,Ljosalfar Hood,8,Head,,,,"[""Mage""]",,,,30,155,,,,,,,,,,"[147,145]",[325],,armor/ljosalfar_hood.png
+327,Ljosalfar Sword,8,Weapon,,,,"[""Thief"",""Warrior""]",,170,20,,,,,,,,,,,,"[147,148]",[325],,weapons/ljosalfar_sword.png
+328,Naga Halberd,8,Weapon,,,,"[""Warrior""]",,176,,,,,,,,,,,,,[144],"[249,263,283]",,weapons/halberd.png
+329,Ljosalfar Sceptre,8,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,155,170,,,,,,200,50,,,,,[150],[330],,weapons/ljosalfar_sceptre.png
+330,Pure Lightstone,8,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[344,217,150]","[881,882,876,1081,1097,1115,430,886,887,885,329]",,materials/lightstone.png
+331,Cursed Ring,8,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,50,50,-100,-100,,,,,,,,,,[149],,,acc/cursed_ring.png
+332,Cursed Monster Tome,8,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,-25,-25,-25,-25,,,,-100,-100,,,,,[149],,,acc/cursed_monster_tome.png
+333,Gorgon's Staff,8,Weapon,,,,"[""Mage""]",,,172,,,,,,,80,,,,,[146],"[252,273]",,weapons/lich_staff.png
+334,Ljosalfar Armor,8,Armor,,,,"[""Warrior""]",,,,185,,,,,,,,,,,[148],[325],,armor/ljosalfar_armor.png
+335,Ljosalfar Cowl,8,Head,,,,"[""Thief""]",,,,160,,15,,,,,,,,,[147],[325],,armor/ljosalfar_hood.png
+336,Ljosalfar Helmet,8,Head,,,,"[""Warrior""]",,,,177,,,,,,,,,,,[148],[325],,armor/ljosalfar_helm.png
+337,Ljosalfar Garb,8,Armor,,,,"[""Thief""]",,,,160,,25,,,,,,,,,[147],[325],,armor/ljosalfar_armor.png
+338,Naga Staff,8,Weapon,,,,"[""Mage""]",,12,176,,,,,,,,,,,,[143],"[249,273,283]",,weapons/draco_sceptre.png
+339,Ljosalfar Robe,8,Armor,,,,"[""Mage""]",,,,33,157,,,,,,,,,,[145],[325],,armor/ljosalfar_robe.png
+340,Arisen Bow of Scales,8,Weapon,1,,,"[""Thief""]",Water,170,60,,,20,,,,,,"[""Frozen""]",,,[151],[274],,weapons/lizarr_bow.png
+341,Leather Belt,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,30,,,,,,,,,,,,acc/buckle_belt.png
+342,Grand Helmet,5,Head,,1,,"[""Warrior""]",,,,85,20,,,,,,,,,,,"[346,266]",,armor/grand_helm.png
+343,Wyvern Cowl,6,Head,,,,"[""Thief""]",Dragon,,,65,75,,,,,,,,,,[115],[255],,armor/wyvern_hood.png
+344,Woodland Staff,6,Weapon,,,,"[""Mage""]",Earthen,,128,,,,,,,,,"[""Rot""]",,,[153],"[256,283]",,weapons/woodland_staff.png
+345,Soul,1,Material,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[429],"[643,617,621,1110,1111,1099,1379,1372,1373,1374,1380,1375,1376,1377,1378,1310,1193,1192,1308,1418,1421,1419,1393,1394,1417,1164,1271,1212,291,285,284,292,1165,629,622,616,618,87,42,633,88,1392,1420,1391,628,624,1313,1137,1134,1139,1133,1135,1138,1136,1140,1141,1168,72,73,627,626,1383,1382,639,55,1074,1120,620,646,317,316,311,318,308,321,742,1163,62,625,99,1190,1195,640,673,619,675,1314,313,319,310,33]","[{""id"":6,""name"":""A Soul's Worth""},{""id"":45,""name"":""The Arena""}]",materials/soul.png
+346,Greater Soul,2,Material,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,"[851,623,641,1247,1249,1248,1252,834,1259,1245,1266,1265,1264,1243,1242,1255,1257,1262,1260,1261,1263,1250,1384,1387,1381,1385,1390,1251,1281,839,1258,1254,1253,1285,1244,1246,1256,1273,645,1238,1153,1154,1151,1150,1149,1148,1176,1147,1164,1267,1272,1268,1269,1212,320,315,322,119,1165,120,121,576,1371,132,1175,1103,1106,123,1053,1493,1494,1497,1287,1289,1288,1277,1280,1168,1159,1161,1158,1160,1178,1144,1143,1145,1146,1183,309,342,314,307,52,301,1386,1388,297,1274,1275,1276,1278,868,577,1101,1102,114,1155,1157,1162,1156,1179,298,98,1052,1163,1173,1167,1174,1184,1166,312,588,578,579,296]",,materials/greater_soul.png
+347,Arena Token,1,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[229,3,4,5,20,21,137,40,39,77,45,46,47,48,452,72,78,80,81,107,176,85,86,84,160,108,109,110,111,192,116,117,413,135,118,362,430,119,170,142,273,120,193,149,275,487,150,440,346,337,187,491,432,431,194,428,335,486]",,,useables/arena_token.png
+348,Deadwood Staff,5,Weapon,,,,"[""Mage""]",,,105,,,,,,,,,,,,[159],[283],,weapons/draco_archistaff.png
+349,Balor Sword,5,Weapon,,,,"[""Warrior""]",,105,,,,,,,,,,,,,[157],[252],,weapons/bloodsword.png
+350,Arisen Balor Dagger,7,Weapon,1,,,"[""Thief""]",Fire,165,65,,,20,,,,,,"[""Burning"",""Bleeding""]",,,[155],[253],,weapons/hell_dagger.png
+351,Arcane Robe,6,Armor,,,,"[""Mage""]",,,,45,60,,,,,30,,,,,[164],"[273,275]",,armor/arcane_robe.png
+352,Arcane Hat,6,Head,,,,"[""Mage""]",,,,45,55,,,,,20,,,,,[164],"[273,275]",,armor/arcane_hat.png
+353,Arcane Boots,6,Legs,,,,"[""Mage""]",,,,45,55,,,,,20,,,,,[164],"[273,275]",,armor/arcane_boots.png
+354,Fallen Wanderer's Dagger,7,Weapon,,,,"[""Thief""]",,148,,,,,,,,,,"[""Bleeding""]",,,[167],[266],,weapons/dagger.png
+355,Colossal Armor,7,Armor,,,,"[""Warrior""]",,,,180,-40,,,,,,,,,,[170],"[273,277]",,armor/colossal_armor.png
+356,Colossal Helmet,7,Head,,,,"[""Warrior""]",,,,180,-40,,,,,,,,,,[170],"[273,277]",,armor/colossal_helm.png
+357,Colossal Leggings,7,Legs,,,,"[""Warrior""]",,,,180,-40,,,,,,,,,,[170],"[273,277]",,armor/colossal_leggings.png
+359,Sandstorm,5,Weapon,1,,,"[""Thief""]",Earthen,110,,,,,,,,,,"[""Rot""]",,,[160],[360],,weapons/sandstorm.png
+360,Sandstone,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[208,160]","[428,1489,359]",,materials/sandstone.png
+362,Sun Hat,5,Head,1,,,"[""Mage""]",,,,30,100,,,,,30,,,,,[177],[364],,armor/sun_hat.png
+363,Solar Hood,5,Head,1,,,"[""Thief""]",,,,100,30,30,,,,,,,,,[177],[364],,armor/solar_hood.png
+364,Solarite,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[177],"[1379,1372,1373,1374,1380,1375,1376,1377,1378,1384,1192,1418,1421,1419,1393,1394,1417,1392,1420,1391,1383,368,370,369,371,401,373,372,363,365,362,366,367,1195]",,materials/solarite.png
+365,Sun Boots,5,Legs,1,,,"[""Mage""]",,,,30,100,,,,,30,,,,,[177],[364],,armor/sun_boots.png
+366,Sun Robe,5,Armor,1,,,"[""Mage""]",,,,30,100,,,,,30,,,,,[177],[364],,armor/sun_robe.png
+367,Sun Staff,5,Weapon,1,,,"[""Mage""]",,,130,,,,,,,40,,,,,[177],[364],,weapons/sun_staff.png
+368,Meteor Armor,5,Armor,1,,,"[""Warrior""]",,10,,130,,,,,40,,,,,,[177],[364],,armor/meteor_armor.png
+369,Meteor Helmet,5,Head,1,,,"[""Warrior""]",,10,,130,,,,,,,,,,,[177],[364],,armor/meteor_helm.png
+370,Meteor Hammer,5,Weapon,1,,,"[""Warrior""]",,130,20,,,,,,50,,,,,,[177],[364],,weapons/meteor_hammer.png
+371,Meteor Leggings,5,Legs,1,,,"[""Warrior""]",,10,,130,,,,,,,,,,,[177],[364],,armor/meteor_leggings.png
+372,Solar Garb,5,Armor,1,,,"[""Thief""]",,,,100,30,30,,,,,,,,,[177],[364],,armor/solar_garb.png
+373,Solar Bow,5,Weapon,1,,,"[""Thief""]",,130,20,,,,,,,40,,,,,[177],[364],,weapons/solar_bow.png
+374,Lunar Dagger,6,Weapon,1,,,"[""Thief""]",,150,,,,25,,,,10,,,,,[178],[390],,weapons/lunar_dagger.png
+375,Titan Axe,6,Weapon,1,,,"[""Warrior""]",,150,,10,,,,,,,,,,,[178],[390],,weapons/titan_axe.png
+376,Moon Staff,6,Weapon,1,,,"[""Mage""]",,,150,,,,,,,40,,,,,[178],[390],,weapons/moon_staff.png
+377,Lunar Garb,6,Armor,1,,,"[""Thief""]",,20,,120,30,,,,,,,,,,[178],[390],,armor/lunar_armor.png
+378,Titan Armor,6,Armor,1,,,"[""Warrior""]",,,,150,,,,,50,,,,,,[178],[390],,armor/titan_armor.png
+379,Moon Robe,6,Armor,1,,,"[""Mage""]",,,,60,90,,,,,40,,,,,[178],[390],,armor/moon_robe.png
+380,Lunar Helmet,6,Head,1,,,"[""Thief""]",,30,,120,30,,,,,,,,,,[178],[390],,armor/lunar_helm.png
+381,Moon Hat,6,Head,1,,,"[""Mage""]",,,,60,90,,,,,40,,,,,[178],[390],,armor/moon_hat.png
+382,Moon Boots,6,Legs,1,,,"[""Mage""]",,,,60,90,,,,,40,,,,,[178],[390],,armor/moon_boots.png
+383,Lunar Boots,6,Legs,1,,,"[""Thief""]",,20,,130,20,,,,,,,,,,[178],[390],,armor/lunar_boots.png
+384,Titan Leggings,6,Legs,1,,,"[""Warrior""]",,,,150,,,,,50,,,,,,[178],[390],,armor/titan_leggings.png
+385,Blight Pendant,6,Accessory,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Blight""]",,,,,,,acc/blight_pendant.png
+386,Steady Pendant,4,Accessory,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Stunned""]",,,,,,,acc/steady_pendant.png
+387,Waking Pendant,4,Accessory,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Asleep""]",,,,,,,acc/waking_pendant.png
+388,Titan Helmet,6,Head,1,,,"[""Warrior""]",,,,150,,,,,50,,,,,,[178],[390],,armor/titan_helmet.png
+389,Antidote Pendant,3,Accessory,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Poisoned""]",,,,,,,acc/antidote_pendant.png
+390,Titanium,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[178],"[1305,1491,1290,1492,383,374,377,380,382,381,379,376,1284,1490,1282,1279,1283,378,375,388,384]",,materials/titanium.png
+391,Golden Crystal,9,Accessory,,,,,,50,-50,50,-50,,,,,,,,,,[185],,,acc/golden_crystal.png
+392,Azure Crystal,9,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,-50,50,-50,50,,,,,,,,,,[186],,,acc/azure_crystal.png
+393,Balor Katana,9,Weapon,,,,"[""Thief""]",,205,,-40,,10,1,,,,,"[""Bleeding""]",,,[182],[266],,weapons/katana.png
+394,Balor Archistaff,9,Weapon,,,,"[""Mage""]",,,205,,,,,,-100,100,,,,,[181],[273],,weapons/balor_staff.png
+395,Balor Armor,9,Armor,,,,"[""Warrior""]",,,,205,20,,,,,,,,,,[183],"[249,266]",,armor/pale_armor.png
+396,Balor Robe,9,Armor,,,,"[""Mage""]",,,,20,205,,,,,,,,,,[181],"[249,275]",,armor/ashen_robe.png
+397,Balor Helmet,9,Head,,,,"[""Warrior""]",,,,205,19,,,,,,,,,,[183],"[249,266]",,armor/pale_helm.png
+398,Balor Crown,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,200,200,,,,,,,,,,[187],[400],"[{""id"":66,""name"":""A Symbol of Royalty""}]",armor/crown.png
+399,Balor Leggings,9,Legs,,,,"[""Warrior""]",,,,205,18,,,,,,,,,,[183],"[249,266]",,armor/pale_leggings.png
+400,Lesser Balorite,4,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[187,460]","[1462,398,818]",,materials/balorite.png
+401,Solar Boots,5,Legs,1,,,"[""Thief""]",,,,100,30,30,,,,,,,,,[177],[364],,armor/solar_boots.png
+402,Oxen Axe,6,Weapon,1,,,"[""Warrior""]",,140,,22,,,,18,,,,"[""T. Def ↓""]",,,[192],[261],,weapons/oxen_axe.png
+403,Venin,9,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,205,,,,,,,,,,"[""Poisoned""]",,,[194],"[261,281]",,weapons/poison_spear.png
+404,Great Orcish Axe,7,Weapon,,,,"[""Warrior""]",,152,,,,,,,,,,,,,[124],"[249,276]",,weapons/axe.png
+405,Great Orcish Blade,7,Weapon,,,,"[""Thief""]",,152,,,,,,,,,,,,,[125],"[249,276]",,weapons/falchion.png
+406,Twilight Blade,3,Weapon,1,,,"[""Warrior""]",Dark,88,,,,,,,,,,"[""Asleep""]",,,[188],[253],,weapons/twilight_blade.png
+407,Balorite,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[454],"[519,471,522,500,1267,1272,1268,1269,1493,1494,1497,1287,516,474,520,483,438,502,439,452]",,materials/balorite.png
+408,Stone Pendant,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Petrified""]",,,,[193],,,acc/stone_pendant.png
+409,High Draconian Robe,6,Armor,,,,"[""Mage""]",,,,82,20,,,,,,,,,,[199],[254],,armor/draco_robe.png
+410,High Fomorian Hood,7,Head,,,,"[""Mage""]",,,,15,155,,,,,,,,,,[205],"[249,275]",,armor/fomorian_hood.png
+411,High Fomorian Leggings,7,Legs,,,,"[""Warrior""]",,,,155,15,,,,,,,,,,[204],"[249,275]",,armor/fomorian_leggings.png
+412,High Fomorian Armor,7,Armor,,,,"[""Warrior""]",,,,155,15,,,,,,,,,,[204],"[249,275]",,armor/fomorian_armor.png
+413,High Fomorian Robe,7,Armor,,,,"[""Mage""]",,,,40,155,,,,,,,,,,[205],"[249,275]",,armor/fomorian_robe.png
+414,High Draconian Garb,6,Armor,,,,"[""Thief""]",,,,90,15,15,,,,,,,,,[121],[254],,armor/draco_garb.png
+415,High Draconian Armor,6,Armor,,,,"[""Warrior""]",,,,128,,,,,,,,,,,[198],[254],,armor/draco_armor.png
+416,High Draconian Cowl,6,Head,,,,"[""Thief""]",,,,90,15,15,,,,,,,,,[121],[254],,armor/draco_hood.png
+417,High Draconian Hood,6,Head,,,,"[""Mage""]",,,,20,82,,,,,,,,,,[199],[254],,armor/draco_hood.png
+418,Crystal Halberd,7,Weapon,,,,"[""Warrior""]",,92,80,,,,,,,,,,,,[202],[273],,weapons/crystal_halberd.png
+419,High Fomorian Sword,7,Weapon,,,,"[""Warrior""]",,160,,,,,,,,,,,,,[204],"[266,283]",,weapons/draco_sword.png
+420,High Fomorian Staff,7,Weapon,,,,"[""Mage""]",,10,155,,,,,,,,,,,,[205],"[266,283]",,weapons/draco_archistaff.png
+421,Orichalcum Helmet,8,Head,,,,"[""Warrior""]",,,-25,192,22,,,,,,,,,,"[238,206]",[424],,armor/orichalcum_helm.png
+422,Orichalcum Armor,8,Armor,,,,"[""Warrior""]",,,-25,192,22,,,,,,,,,,"[238,206]",[424],,armor/orichalcum_armor.png
+423,Orichalcum Leggings,8,Legs,,,,"[""Warrior""]",,,-25,192,22,,,,,,,,,,"[238,206]",[424],,armor/orichalcum_leggings.png
+424,Orichalcum,8,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[238,206]","[422,421,423]",,materials/orichalcum.png
+425,Fomor Staff,4,Weapon,1,,,"[""Mage""]",,,90,,15,,,,,,"[""Burning"",""Frozen"",""Paralyzed""]",,,,[207],"[266,283]",,weapons/draco_archistaff.png
+426,Spirit of the Wood,6,Weapon,1,,,"[""Thief""]",Earthen,140,65,,,10,,,,,,"[""Poisoned"",""Rot""]",,,[216],"[256,266,275,283]",,weapons/wooden_sword.png
+427,Gargouille's Dagger,4,Weapon,1,,,"[""Thief""]",,98,,,,10,,,,,,"[""Petrified""]",,,[209],[250],,weapons/stone_dagger.png
+428,Dune Blade,5,Weapon,1,,,"[""Thief""]",,110,,,,10,,,,,,,,,[208],[360],,weapons/sandstorm.png
+429,Axe of Typhon,7,Weapon,1,,,"[""Warrior""]",Dragon,180,,-10,-10,,,,,,,"[""Blight""]",,,[212],[272],,weapons/axe_of_typhon.png
+430,Dokkalfar Gada,8,Weapon,1,,,"[""Warrior""]",,198,,,,,,,,,,"[""Stunned""]",,,[217],[330],,weapons/dokkalfar_mace.png
+431,Fomor Katana,4,Weapon,1,,,"[""Thief""]",,90,,-10,,20,,,,,,"[""Bleeding""]",,,[207],[266],,weapons/katana.png
+432,Fomor Sword,4,Weapon,1,,,"[""Warrior""]",,90,,,,,,,,,,,,,[207],[266],,weapons/draco_sword.png
+433,Crystalis,7,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,160,100,,,,,,,,"[""Att ↓"",""Mag ↓"",""Def ↓"",""Def ↓↓"",""T. Def ↓"",""Res ↓↓"",""Res ↓""]",,,,[210],"[266,268,273]",,weapons/crystalis.png
+434,Bow of Typhon,7,Weapon,1,,,"[""Thief""]",Dragon,180,-40,,,,,,,,,"[""Blight""]",,,[212],[272],,weapons/bow_of_typhon.png
+435,Staff of Typhon,7,Weapon,1,,,"[""Mage""]",Dragon,,180,,,,,,,,,"[""Blight""]",,,[212],[272],,weapons/staff_of_typhon.png
+436,Crystal Staff,7,Weapon,,,,"[""Mage""]",,,156,,15,,,,,,,,,,[203],[273],,weapons/crystal_staff.png
+437,High Draconian Leggings,6,Legs,,,,"[""Warrior""]",,,,128,,,,,,,,,,,[198],[254],,armor/draco_pants.png
+438,Shadow Boots,7,Legs,1,,,"[""Thief""]",,,,156,40,20,,,,,,,,,"[454,179]",[407],,armor/shadow_boots.png
+439,Shadow Hood,7,Head,1,,,"[""Thief""]",,,,156,40,20,,,,,,,,,"[454,179]",[407],,armor/shadow_hood.png
+440,Witch's Archistaff,6,Weapon,1,,,"[""Mage""]",Dark,,155,,,,,,,,,,,,[219],[281],,weapons/black_witch_staff.png
+441,High Draconian Boots,6,Legs,,,,"[""Thief""]",,,,90,15,15,,,,,,,,,[121],[254],,armor/draco_boots.png
+442,Dalan's Robe,3,Armor,,,,"[""Mage""]",,,18,,80,,,,,,,,,,[276],"[262,273]",,armor/high_elf_robe.png
+443,Horus's Robe,7,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",,,,72,72,55,,,,,,,,,,"[262,275]",,armor/fomorian_robe.png
+444,Hermes' Coin Purse,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,acc/money_bag.png
+445,Cure-all,3,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Bleeding"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Rot""]",,[266],,"[{""id"":14,""name"":""A Cure for All""}]",useables/cure_all.png
+446,Gauntlet Key,3,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[77,253,33,188,107,209,420,208,160,308,444,288,177,411,245,116,219,413,362,430,178,386,210,373,179,273,120,212,193,269,234,275,478,440,346,312,337,348,432,431,367,307,304,315,443,428,412,336,313]",,,useables/gauntlet_key.png
+447,Affinity Candle,5,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[420,362,430,142,454,275,279,440,346,432,431,322,428]",,,useables/affinity_candle.png
+448,Super Elixir,6,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[348],,,useables/super_elixir.png
+449,Super Health Potion,6,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[444,347,411,348,443,412]",,,useables/super_health_potion.png
+450,Super Mana Potion,6,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[347,348]",,,useables/super_mana_potion.png
+452,Shadow Katana,7,Weapon,1,,,"[""Thief""]",,188,25,,,20,1,,,25,,,,,"[454,179]",[407],,weapons/shadow_katana.png
+453,Jester's Outfit,4,Armor,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,45,45,,,,,,,,,,,[275],,armor/jester_outfit.png
+454,Berserk Mushroom,4,Other,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""All ↑""]","[33,176,420,247,273,337,304,422]",,,useables/berserk_mushroom.png
+455,Ra's Cane,7,Weapon,1,,1,"[""Mage""]",,24,155,,,,,,,,,"[""Blind""]",,,[222],[258],,weapons/cane.png
+456,Arcane Wand,8,Weapon,,1,,"[""Mage""]",Arcane,,178,,,,,,,,,,,,,"[273,275]",,weapons/arcane_wand.png
+457,Basilisk Tooth,6,Weapon,1,,,"[""Thief"",""Warrior""]",,165,,,,,2,,,,,"[""Poisoned"",""Blight""]",,,"[274,252]",[274],,weapons/katana.png
+458,Magic Defense Tonic,2,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Res ↑""]","[266,444,411,362,430,275,440,348,443,428,412]",,,useables/magic_defense_tonic.png
+459,Arisen Bonecrusher,8,Weapon,1,,,"[""Warrior""]",,190,,,,,,,,,,"[""Stunned""]",,,[231],[278],,weapons/bonecrusher.png
+460,Bandit's Hood,1,Head,1,,,"[""Mage""]",,,,6,16,,,,,,,,,,"[230,229]",[262],,armor/bandit_hood.png
+461,Ithra's Blade,9,Weapon,1,,,"[""Thief""]",Water,250,45,,,100,1,,,,,"[""Frozen""]",,,[220],"[473,280]",,weapons/ithra_katana.png
+462,Boreal's Staff,4,Weapon,,,,"[""Mage""]",Water,,90,,,,,,,15,,"[""Frozen""]",,,[276],[280],,weapons/glacial_staff.png
+463,Ring of Sacrifice,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,-25,-25,-25,-25,,,,-100,-100,,,,,,,,acc/sacrifice_ring.png
+464,Annwn Shotel,8,Weapon,1,,,"[""Thief""]",Arcane,178,,,,24,,,,,,"[""T. Def ↓""]",,,,"[266,283]",,weapons/shotel.png
+465,Balin's Left,7,Off-hand,1,,,"[""Warrior""]",,12,,,,,,18,,,,"[""Mag ↓""]",,,[276],[269],,wards/balins_left.png
+466,Crooked Shotel,8,Weapon,1,,,"[""Thief""]",,178,,,,34,,,,,,"[""T. Def ↓""]",,,,[266],,weapons/shotel.png
+467,Thor's Hammer,9,Weapon,1,,,"[""Warrior""]",Lightning,250,,,,,,,50,,,"[""Paralyzed""]",,,[221],"[265,473]",,weapons/thor_hammer.png
+468,Excalibur,8,Weapon,1,,,"[""Warrior""]",,190,77,,,,,,25,25,"[""Bleeding""]",,,,[234],[513],,weapons/excalibur.png
+469,Gizmo,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,10,,,,,,,,"[""Att ↓"",""Mag ↓"",""T. Att ↓"",""T. Mag ↓""]",,,,"[288,276,440]",,,acc/gizmo.png
+470,Cockatrice Mail,8,Armor,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,182,24,,,,,,"[""Petrified""]",,,,[211],"[262,273,275,277]","[{""id"":31,""name"":""A Hunt for a Hen""}]",armor/cockatrice_mail.png
+471,Ashen Hat,7,Head,1,,,"[""Mage""]",,,,60,100,,,,,60,,,,,"[454,179]",[407],,armor/ashen_hat.png
+472,Coward's Boots,8,Legs,1,,,"[""Thief""]",,,,180,45,45,,,,,,,,,[234],[513],,armor/shadow_boots.png
+473,Ortanite,9,Material,,,,,,,,,,,,,,,,,,,"[362,430,233,220,221,232,343,349,350,351,320]","[941,933,991,865,860,992,942,940,939,938,866,861,936,943,1360,937,935,934,862,867,864,863,706,566,595,590,591,596,598,597,593,594,672,592,1356,1353,1346,1345,809,842,830,461,705,843,844,831,820,589,874,805,813,798,1370,832,712,467,713,550]",,materials/ortanite.png
+474,Paleblade,7,Weapon,1,,,"[""Warrior""]",,185,32,,,,,,20,,,,,,"[454,179]",[407],,weapons/paleblade.png
+475,Gadget,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,10,10,,,,,,"[""Def ↓↓"",""T. Def ↓"",""T. Def ↓↓"",""Def ↓""]",,,,"[288,276,440]",,,acc/gadget.png
+476,Dudley's Hammer,3,Weapon,1,,,"[""Warrior""]",,65,,,,,,,,,,,,,[276],[266],,weapons/hammer.png
+477,King's Robe,8,Armor,1,,,"[""Mage""]",,,,45,196,,,,,20,,,,,[234],[513],,armor/royal_robe.png
+478,Coward's Blade,8,Weapon,1,,,"[""Thief""]",,190,,,,50,,,25,25,,,,,[234],[513],,weapons/shotel.png
+479,Avalon Armor,8,Armor,1,,,"[""Warrior""]",,,,196,45,,,,,,,,,,[234],[513],,armor/pale_armor.png
+480,Firepike,4,Weapon,1,,1,"[""Thief"",""Warrior""]",Fire,90,18,,,,,,,,,"[""Burning""]",,,,[259],,weapons/firepike.png
+481,Carl's Dagger,1,Weapon,,,,"[""Thief""]",,22,,,,,9,,,,,"[""Bleeding""]",,,"[276,362,430]",[263],,weapons/small_sword.png
+482,Aldon's Hat,2,Head,,,,"[""Thief""]",,,,35,8,,,,,,"[""Stunned""]",,,,[276],[264],,armor/leather_hat.png
+483,Pale Leggings,7,Legs,1,,,"[""Warrior""]",,,,182,,,,,50,,,,,,"[454,179]",[407],,armor/pale_leggings.png
+484,Draconian Amulet,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,30,20,,,,,,,,acc/draco_amulet.png
+485,Artifice Gada,6,Weapon,1,,,"[""Warrior""]",,142,,,,,,,,,,"[""Mag ↓""]",,,[276],"[269,283]",,weapons/gada.png
+486,Beatrice's Staff,2,Weapon,,,,"[""Mage""]",,,45,,,,,,,10,,,,,[276],"[273,283]",,weapons/draco_sceptre.png
+487,Boulderbold,4,Weapon,1,,,"[""Warrior""]",Earthen,90,,,,,,,,,,"[""Stunned"",""Rot""]",,,[276],[256],,weapons/earth_pike.png
+488,Carl's Ring,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,5,,5,,,,,10,10,,,,,,,,acc/ring.png
+489,Gale's Spear,4,Weapon,1,,,"[""Thief"",""Warrior""]",Lightning,90,,,,,,,,,,"[""Paralyzed""]",,,,[265],,weapons/bolt.png
+490,Nolan's Staff,5,Weapon,,,,"[""Mage""]",,,110,,,,,,,40,,,,,,"[273,283]",,weapons/draco_archistaff.png
+491,Sala's Hood,3,Head,,,,"[""Thief"",""Warrior""]",,18,,80,,,,,,,,,,,[276],"[262,275]",,armor/high_elf_hood.png
+492,Thieve's Ring,1,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,acc/thieves_ring.png
+493,Fail-not,6,Weapon,1,,,"[""Thief""]",,130,,,,33,,,,,,,,,[276],"[266,283]",,weapons/royal_longbow.png
+494,Fallen Druid's Staff,6,Weapon,,,,"[""Mage""]",,,118,,,,,,,100,,,,,[174],"[273,283]",,weapons/druid_staff.png
+495,High Draconian Sword,6,Weapon,,,,"[""Warrior""]",,128,,,,,,,,,,,,,,[254],,weapons/draco_sword.png
+496,High Draconian Staff,6,Weapon,,,,"[""Mage""]",,,128,,,,,,,,,,,,,[254],,weapons/wooden_staff.png
+497,Dalan's Hood,3,Head,,,,"[""Mage""]",,,18,,80,,,,,,,,,,[276],"[262,275]",,armor/high_elf_hood.png
+498,Crimson Eye,9,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,30,30,30,30,10,,,50,25,,,,,[180],,,acc/crimson_eye.png
+499,Spelunking Staff,7,Weapon,1,,,"[""Mage""]",,,168,,,,,,,15,,,,,[225],[251],,weapons/earth_staff.png
+500,Ashen Staff,7,Weapon,1,,,"[""Mage""]",,,182,,,,,,,100,,,,,"[454,179]",[407],,weapons/ashen_staff.png
+501,Bandit's Cloak,1,Armor,1,,,"[""Mage""]",,,,5,18,,,,,,,,,,"[230,229]",[262],,armor/bandit_cloak.png
+502,Shadow Garb,7,Armor,1,,,"[""Thief""]",,,,156,40,20,,,,,,,,,"[454,179]",[407],,armor/shadow_garb.png
+512,Twilightstone,6,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,"[1457,1460,1461,1458,1463,1467,1464,1459,1465,1472,1468,1475,1469,1470,1473,1471,1474,1476,1123,1094,1124]",,materials/nightstone.png
+513,Avalon Ore,8,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[413,289,234,441]","[1347,1348,1349,1344,1354,479,869,514,690,688,689,517,664,686,478,472,515,525,680,468,1289,1288,1277,1280,1356,1353,1346,1345,518,528,477,1274,1276,1278,764,1198,1201,1204,532,685,765,787]",,materials/lightstone.png
+514,Avalon Helmet,8,Head,1,,,"[""Warrior""]",,,,196,45,,,,,,,,,,[234],[513],,armor/pale_helm.png
+515,Coward's Cloak,8,Armor,1,,,"[""Thief""]",,,,180,45,45,,,,,,,,,[234],[513],,armor/shadow_garb.png
+516,Pale Armor,7,Armor,1,,,"[""Warrior""]",,,,182,,,,,50,,,,,,"[454,179]",[407],,armor/pale_armor.png
+517,Avalon Leggings,8,Legs,1,,,"[""Warrior""]",,,,196,45,,,,,,,,,,[234],[513],,armor/pale_leggings.png
+518,King's Boots,8,Legs,1,,,"[""Mage""]",,,,45,196,,,,,20,,,,,[234],[513],,armor/royal_boots.png
+519,Ashen Boots,7,Legs,1,,,"[""Mage""]",,,,65,116,,,,,60,,,,,"[454,179]",[407],,armor/ashen_boots.png
+520,Pale Helmet,7,Head,1,,,"[""Warrior""]",,,,182,,,,,50,,,,,,"[454,179]",[407],,armor/pale_helm.png
+521,Balanced Epee,8,Weapon,1,,,"[""Thief""]",,182,,,,36,,,,,,,,,[276],[266],,weapons/epee.png
+522,Ashen Robe,7,Armor,1,,,"[""Mage""]",,,,60,116,,,,,60,,,,,"[454,179]",[407],,armor/ashen_robe.png
+523,Sala's Robe,3,Armor,,,,"[""Thief"",""Warrior""]",,18,,80,,,,,,,,,,,,"[262,273]",,armor/high_elf_robe.png
+524,Balin's Right,7,Weapon,1,,,"[""Warrior""]",,164,,,,,,,,,,"[""Att ↓""]",,,[276],[269],,weapons/avalon_great_sword.png
+525,Coward's Cowl,8,Head,1,,,"[""Thief""]",,,,180,45,45,,,,,,,,,[234],[513],,armor/shadow_hood.png
+526,Racul Blade,8,Weapon,1,,,"[""Thief""]",Holy,190,56,,,,,,,,,"[""Bleeding"",""Asleep""]",,,[264],[279],,weapons/vampire_sword.png
+527,Lifeshaker,9,Weapon,1,,,"[""Warrior""]",,204,,,,,,,,,,"[""Stunned""]",,,[265],[278],,weapons/bonecrusher.png
+528,King's Hood,8,Head,1,,,"[""Mage""]",,,,45,196,,,,,20,,,,,[234],[513],,armor/royal_hood.png
+529,Dracon Bow,3,Weapon,1,,,"[""Thief""]",,77,,,,20,,,,,,,,,[266],[271],,weapons/draco_bow.png
+530,Dracon Sword,3,Weapon,1,,,"[""Warrior""]",,77,12,,,,,,20,,,,,,[266],[271],,weapons/draco_sword.png
+532,Rhongomiant,8,Weapon,1,,,"[""Mage""]",,,190,,,,,,,100,,,,,[234],[513],,weapons/rune_staff.png
+533,Band of Gods,9,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,,,,,,,,,,,acc/gods_band.png
+534,Dark Elven Katana,5,Weapon,1,,,"[""Thief""]",,110,,,,10,1,,,,,,,,[261],"[252,257,273]",,weapons/katana.png
+535,Ancient Jinn Staff,9,Weapon,,,,"[""Mage""]",,,204,,,,,,,,,"[""Paralyzed"",""Blind"",""Asleep"",""Stunned""]",,,[254],"[252,273]",,weapons/archistaff.png
+536,Annwn Rapier,9,Weapon,1,,,"[""Thief"",""Warrior""]",Arcane,214,,,,30,,,,,"[""Stunned""]","[""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓""]",,,,[247],,weapons/epee.png
+537,Dokkalfar Garb,8,Armor,,,,"[""Thief""]",,,,165,,30,,,,,,,,,[213],[325],,armor/dokkalfar_armor.png
+538,Dokkalfar Hood,8,Head,,,,"[""Mage""]",,,,40,165,,,,,,,,,,[250],[325],,armor/dokkalfar_hood.png
+539,Dokkalfar Helmet,8,Head,,,,"[""Warrior""]",,,,182,,,,,,,,,,,[214],[325],,armor/dokkalfar_helm.png
+540,Dokkalfar Staff,8,Weapon,,,,"[""Mage""]",Dark,,185,,,,,,,30,,,,,[250],[325],,weapons/ljosalfar_staff.png
+541,Poison Dagger,4,Weapon,,,,"[""Thief""]",,78,,,,,,,,,,"[""Poisoned""]",,,[278],[276],,weapons/dagger.png
+542,Dokkalfar Sword,8,Weapon,,,,"[""Thief"",""Warrior""]",Dark,175,,,,,,,,,,,,,"[213,214]",[325],,weapons/ljosalfar_sword.png
+543,Dokkalfar Armor,8,Armor,,,,"[""Warrior""]",,,,190,,,,,,,,,,,[214],[325],,armor/dokkalfar_armor.png
+544,Dokkalfar Robe,8,Armor,,,,"[""Mage""]",,,,40,165,,,,,,,,,,[250],[325],,armor/dokkalfar_robe.png
+545,Dokkalfar Boots,8,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,95,95,,,,,,,,,,"[214,250]",[325],,armor/dokkalfar_boots.png
+546,Dokkalfar Cowl,8,Head,,,,"[""Thief""]",,,,165,,25,,,,,,,,,,[325],,armor/dokkalfar_hood.png
+547,Finesse Katana,8,Weapon,1,,,"[""Thief"",""Warrior""]",,190,,,,,3,,50,25,,"[""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓""]",,,,"[247,266]",,weapons/katana.png
+548,X Elixir,7,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[273,337,427,348,404,422]",,,useables/x_elixir.png
+549,Thorn,2,Weapon,,,,"[""Thief""]",,35,,,,,,,,,,"[""Poisoned""]",,,[240],[283],,weapons/thorn.png
+550,Vulcan's Longsword,9,Weapon,1,,,"[""Thief"",""Warrior""]",Fire,250,120,,120,,,,,,,"[""Burning""]",,,[232],"[259,473]",,weapons/vulcan_sword.png
+551,Thorns,3,Weapon,,,,"[""Thief""]",,68,,,,,,5,,,,"[""Poisoned""]",,,[270],[283],,weapons/thorns.png
+552,Horror,8,Weapon,1,,,"[""Mage""]",,,192,,,,,,,80,,,,,[269],[302],,weapons/horror_staff.png
+553,Viper Hood,9,Head,,,,"[""Mage""]",Dragon,,,100,100,,,,,,,,,,[271],[255],,armor/wyvern_hood.png
+554,Viper Armor,9,Armor,,,,"[""Thief""]",Dragon,,,100,100,30,,,,,,,,,[271],[255],,armor/wyvern_plate.png
+555,Viper Cowl,9,Head,,,,"[""Thief""]",Dragon,,,100,100,,,,,,,,,,[271],[255],,armor/wyvern_hood.png
+556,Viper Chestmail,9,Armor,,,,"[""Warrior""]",Dragon,,,100,100,,,,,,,,,,[271],[255],,armor/wyvern_plate.png
+557,Viper Mage's Boots,9,Legs,,,,"[""Mage""]",Dragon,,,100,100,20,,,,,,,,,[271],[255],,armor/wyvern_boots.png
+558,Viper Helmet,9,Head,,,,"[""Warrior""]",Dragon,,,100,100,,,,,,,,,,[271],[255],,armor/wyvern_helm.png
+559,Viper Boots,9,Legs,,,,"[""Thief""]",Dragon,,,100,100,30,,,,,,,,,[271],[255],,armor/wyvern_boots.png
+560,Viper Robe,9,Armor,,,,"[""Mage""]",Dragon,,,100,100,,,,,40,,,,,[271],[255],,armor/wyvern_robe.png
+561,Viper Leggings,9,Legs,,,,"[""Warrior""]",Dragon,,,100,100,,,,,,,,,,[271],[255],,armor/wyvern_leggings.png
+562,Kerberos Sword,6,Weapon,1,,,"[""Warrior""]",,155,35,-10,,20,,,100,,,,,,,[282],,weapons/kerberos_sword.png
+563,Kerberos Hood,6,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,155,70,,,,,,,,,,[421],[282],,armor/kerberos_hood.png
+564,Kerberos Staff,6,Weapon,1,,,"[""Mage""]",,,155,-10,,20,,,,40,,,,,,[282],,weapons/kerberos_staff.png
+565,Kerberos Claws,6,Weapon,1,,,"[""Thief""]",,155,,-10,,20,,8,,,,"[""Bleeding"",""Frozen""]",,,,[282],,weapons/kerberos_claws.png
+566,Demeter's Staff,9,Weapon,1,,,"[""Mage""]",Earthen,,250,,,,,,,200,,"[""Rot""]",,,[233],"[256,473]",,weapons/demeter_staff.png
+567,Ogre Axe,3,Weapon,,,,"[""Warrior""]",,55,,,,,,,,,,,,,[195],[263],,weapons/axe.png
+568,Dracon Staff,3,Weapon,1,,,"[""Mage""]",,,77,,,,,,,20,,,,,[266],[271],,weapons/draco_archistaff.png
+569,Sanguine Sword,8,Weapon,,,,"[""Thief"",""Warrior""]",,177,,,,,,,75,,,,,,[168],"[266,283]",,weapons/draco_sword.png
+570,Sanguine Staff,8,Weapon,,,,"[""Mage""]",,,177,,,,,,75,,,,,,[169],"[266,273]",,weapons/draco_sceptre.png
+571,Kobold Armor,8,Armor,,,,"[""Thief"",""Warrior""]",,,,155,25,2,,,,,,,,,[168],[266],,armor/goblin_armor.png
+572,Kobold Cloak,8,Armor,,,,"[""Mage""]",,,,,177,,,,,,,,,,[169],[266],,armor/bandit_cloak.png
+573,Kobold Hood,8,Head,,,,"[""Mage""]",,,,,177,,,,,,,,,,[169],[266],,armor/bandit_hood.png
+574,Kobold Boots,8,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,155,20,,,,,,,,,,"[168,169]","[264,266]",,armor/goblin_boots.png
+575,Fairy's Ring,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,64,,,,200,,,,,"[430,273]",,,acc/fairy_ring.png
+576,Clurichaun Soul Blade,7,Weapon,1,,,"[""Thief"",""Warrior""]",Earthen,180,-60,,,,,,,-60,,"[""Poisoned"",""Rot""]",,,[273],"[346,268]",,weapons/nag_sword.png
+577,Naggeneen's Hat,7,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",Earthen,,,155,80,,,,,,"[""Poisoned"",""Toxic""]",,,,[273],"[346,268]",,armor/green_gnome_hat.png
+578,War-mage Boots,8,Legs,,1,,"[""Mage""]",,,,142,30,,,,,,,,,,,"[346,273]",,armor/battlemage_boots.png
+579,War-mage Helmet,8,Head,,1,,"[""Mage""]",,,,122,60,,,,,,,,,,,"[346,273]",,armor/battlemage_helm.png
+580,X Health Potion,7,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[273,421,337,427,348,404,422]",,,useables/x_health_potion.png
+581,X Mana Potion,7,Curative,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[273,421,337,348,404,422]",,,useables/x_mana_potion.png
+582,Belt of Cerus,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Fire,,,,,,,,100,,"[""Burning""]",,,,"[277,421]",,,acc/taurus_belt.png
+583,Untamed Bull,6,Weapon,1,,,"[""Mage""]",Fire,-24,155,,-24,,,,,120,,"[""Burning""]",,,[277],"[261,267]",,weapons/staff_of_taurus.png
+584,Horned Helmet,6,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,80,80,,,,,,,,,,[277],"[261,267]",,armor/horned_helm.png
+585,Horned Hood,6,Head,1,,,"[""Mage""]",,,,70,90,,,,,,,,,,[277],"[261,267]",,armor/horned_hood.png
+586,Raging Bull,6,Weapon,1,,,"[""Warrior""]",Fire,155,,24,-24,,,,65,,,"[""Burning"",""Stunned""]",,,[277],"[261,267]",,weapons/axe_of_taurus.png
+587,Fine Greatsword,8,Weapon,1,,,"[""Warrior""]",,190,,,,,,,,,,,,,[276],[266],,weapons/great_sword.png
+588,War-mage Armor,8,Armor,,1,,"[""Mage""]",,,,142,30,,,,,,,,,,,"[346,273]",,armor/battlemage_armor.png
+589,Mammon's Sword,9,Off-hand,1,,1,"[""Mage"",""Thief"",""Warrior""]",,32,32,32,32,32,2,6,50,50,,"[""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓""]",,"[""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""T. Res ↑""]",,"[256,259,265,473,280]",,useables/mammon_sword.png
+590,Fallen Boots,9,Legs,1,,,"[""Thief""]",,,,222,64,24,,,,,,,,,[280],[473],,armor/fallen_boots.png
+591,Fallen Cowl,9,Head,1,,,"[""Thief""]",,,,222,64,24,,,,,,,,,[280],[473],,armor/fallen_hood.png
+592,Fallen Shoes,9,Legs,1,,,"[""Mage""]",,,,64,222,,,,,24,,,,,[280],[473],,armor/fallen_boots.png
+593,Fallen Leggings,9,Legs,1,,,"[""Warrior""]",,,,222,64,,,,64,,,,,,[280],[473],,armor/fallen_leggings.png
+594,Fallen Robe,9,Armor,1,,,"[""Mage""]",,,,64,222,,,,,24,,,,,[280],[473],,armor/fallen_robe.png
+595,Fallen Armor,9,Armor,1,,,"[""Warrior""]",,,,222,64,,,,64,,,,,,[280],[473],,armor/fallen_armor.png
+596,Fallen Garb,9,Armor,1,,,"[""Thief""]",,,,222,64,24,,,,,,,,,[280],[473],,armor/fallen_armor.png
+597,Fallen Hood,9,Head,1,,,"[""Mage""]",,,,64,222,,,,,24,,,,,[280],[473],,armor/fallen_hood.png
+598,Fallen Helmet,9,Head,1,,,"[""Warrior""]",,,,222,64,,,,64,,,,,,[280],[473],,armor/fallen_helm.png
+599,Realm Ore,9,Material,,,,,,,,,,,,,,,,,,,[279],"[605,603,610,608,607,606,604,600,601,611,602,609,1039,667]",,materials/realm_ore.png
+600,Incarnate Robe,9,Armor,1,,,"[""Mage""]",Arcane,12,12,75,220,,,3,,55,,,,,[279],[599],,armor/incarnate_robe.png
+601,Realm Boots,9,Legs,1,,,"[""Thief""]",Dark,12,12,220,75,55,,3,,,,,,,[279],[599],,armor/realm_boots.png
+602,Realm Garb,9,Armor,1,,,"[""Thief""]",Arcane,12,12,220,75,55,,3,,,,,,,[279],[599],,armor/realm_garb.png
+603,Abyssal Axe,9,Weapon,1,,,"[""Warrior""]",,220,,55,,,,9,60,,,,,,[279],[599],,weapons/abyssal_axe.png
+604,Incarnate Hood,9,Head,1,,,"[""Mage""]",Holy,12,12,75,220,,,3,,55,,,,,[279],[599],,armor/incarnate_hood.png
+605,Abyssal Armor,9,Armor,1,,,"[""Warrior""]",Arcane,12,12,220,55,,,3,60,,,,,,[279],[599],,armor/abyssal_armor.png
+606,Incarnate Boots,9,Legs,1,,,"[""Mage""]",Dark,12,12,75,220,,,3,,55,,,,,[279],[599],,armor/incarnate_boots.png
+607,Incarnate Archistaff,9,Weapon,1,,,"[""Mage""]",,55,220,,,32,,3,,98,,,,,[279],[599],,weapons/incarnate_archistaff.png
+608,Abyssal Helmet,9,Head,1,,,"[""Warrior""]",Holy,12,12,220,55,,,3,60,,,,,,[279],[599],,armor/abyssal_helm.png
+609,Realm Katana,9,Weapon,1,,,"[""Thief""]",,220,32,,,90,,3,,55,,,,,[279],[599],,weapons/realm_katana.png
+610,Abyssal Greaves,9,Legs,1,,,"[""Warrior""]",Dark,12,12,220,55,,,3,60,,,,,,[279],[599],,armor/abyssal_leggings.png
+611,Realm Cowl,9,Head,1,,,"[""Thief""]",Holy,12,12,220,75,55,,3,,,,,,,[279],[599],,armor/incarnate_hood.png
+612,Basilisk Talons,8,Weapon,,,,"[""Thief""]",,180,,,,,,5,,,,,,,[263],[252],,weapons/kunai.png
+613,Yeti Overcoat,7,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,160,160,,,,40,,"[""Frozen"",""Def ↓"",""T. Def ↓""]",,,,"[282,404]","[262,280]",,armor/great_yeti_armor.png
+614,Whetstone,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/whetstone.png
+615,Fine Whetstone,3,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/fine_whetstone.png
+616,Cursed Hood,8,Head,,1,,"[""Mage""]",Dark,-40,-40,100,190,,,,,,,,,,,"[252,345]",,armor/ancient_hood.png
+617,Arch-Rune Helmet,7,Head,,1,,"[""Warrior""]",,,,45,140,,,,,,,,,,,"[273,345]",,armor/rune_helmet.png
+618,Cursed Robe,8,Armor,,1,,"[""Mage""]",Dark,-40,-40,100,190,,,,,,,,,,,"[252,345]",,armor/ancient_robe.png
+619,Terra Boots,6,Legs,,1,,"[""Mage""]",Earthen,,,45,132,,,,,,,,,,,"[256,345]",,armor/boots_earth.png
+620,Oceanic Boots,6,Legs,,1,,"[""Mage""]",Water,,,45,132,,,,,,,,,,,"[345,280]",,armor/boots_ice.png
+621,Arch-Rune Leggings,7,Legs,,1,,"[""Warrior""]",,,,45,140,,,,,,,,,,,"[273,345]",,armor/rune_leggings.png
+622,Cursed Boots,8,Legs,,1,,"[""Mage""]",Dark,-40,-40,100,190,,,,,,,,,,,"[252,345]",,armor/ancient_boots.png
+623,Arc,6,Weapon,,1,,"[""Thief""]",Arcane,132,,,,10,,,,,,,,,,"[346,273]",,weapons/longbow.png
+624,Estoc,6,Weapon,,1,,"[""Thief""]",,142,,,,40,,,,,,"[""Bleeding"",""Stunned""]",,,,"[266,345]",,weapons/epee.png
+625,Stilettos,7,Weapon,,1,,"[""Thief""]",,162,,-22,-22,22,,7,,,,"[""Bleeding""]",,,,"[266,345]",,weapons/kunai.png
+626,Gladiator's Sword,7,Weapon,,1,,"[""Warrior""]",,162,,,,,,,,,,"[""T. Att ↓"",""T. Mag ↓""]",,,,"[266,345]",,weapons/draco_sword.png
+627,Gladiator's Shotel,7,Weapon,,1,,"[""Thief""]",,162,,,,,,,,,,"[""T. Def ↓""]",,,,"[266,345]",,weapons/shotel.png
+628,Endbringer,9,Weapon,,1,,"[""Warrior""]",,210,,40,40,,,9,,,,,,,,"[247,345]",,weapons/bearclaw.png
+629,Court Staff,7,Weapon,,1,,"[""Mage""]",,,164,,,,,,,,,"[""T. Res ↓""]",,,,"[252,273,345]",,weapons/archistaff.png
+630,Canon Waystone,2,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/canon_waystone.png
+631,Handy Waystone,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/handy_waystone.png
+632,Memory Waystone,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/waystone.png
+633,Dragon's Arc,8,Weapon,,1,,"[""Thief""]",Dragon,188,,,,,,,,,,"[""Blight""]",,,,"[255,345]",,weapons/bow_of_typhon.png
+634,Yeti Coat,4,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,90,90,,,,40,,"[""Frozen"",""Def ↓"",""T. Def ↓""]",,,,"[281,404]","[262,280]",,armor/yeti_armor.png
+635,Viper Dagger,9,Weapon,,,,"[""Thief""]",,210,,,,24,,,,,,"[""Burning"",""Blight""]",,,[271],[255],,weapons/wyvern_dagger.png
+636,Dioscuri Archistaff,5,Weapon,1,,,"[""Mage""]",,,122,,20,20,,,,20,,"[""Frozen""]",,,"[283,438]",[302],,weapons/tidal_staff.png
+637,Dioscuri Greatbow,8,Weapon,1,,,"[""Thief""]",Water,,202,,,20,,,,20,,"[""Frozen""]",,,"[285,438]",[302],,weapons/tidal_bow.png
+638,Ranger's Greatbow,5,Weapon,,,,"[""Thief""]",,105,,,,12,,,,,,,,,,[283],,weapons/bow.png
+639,Infernal Boots,6,Legs,,1,,"[""Mage""]",Fire,,,45,132,,,,,,,,,,,"[259,345]",,armor/boots_fire.png
+640,Tempest Boots,6,Legs,,1,,"[""Mage""]",Lightning,,,45,132,,,,,,,,,,,"[265,345]",,armor/boots_storm.png
+641,Arch-Rune Sword,7,Weapon,,1,,"[""Warrior""]",,140,140,,,,,,,,,,,,,"[346,273]",,weapons/blue_flame.png
+642,Dioscuri Mead,3,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""T. Crit ↑↑""]","[283,362,430,285,438]",,,useables/speed_tonic.png
+643,Arch-Rune Armor,7,Armor,,1,,"[""Warrior""]",,,,45,140,,,,,,,,,,,"[273,345]",,armor/rune_armor.png
+644,Dioscuri Greataxe,8,Weapon,1,,,"[""Warrior""]",Water,202,,20,,,,,,,,"[""Frozen""]",,,"[285,438]",[302],,weapons/tidal_axe.png
+645,Ascalon,7,Weapon,,1,1,"[""Thief"",""Warrior""]",Holy,170,,,,,,,,,,"[""Blind""]",,,,"[346,269]",,weapons/durandal.png
+646,Rapier,5,Weapon,,1,,"[""Thief""]",,110,,,,32,,,,,,"[""Bleeding"",""Stunned""]",,,,"[266,345]",,weapons/epee.png
+647,Midnight Eye,8,Accessory,,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,50,50,,,,,[284],,,acc/midnight_eye.png
+648,Lost Helmet,8,Head,,,,"[""Mage"",""Thief"",""Warrior""]",,,,172,45,,,,,,,,,,[287],[266],,armor/lost_helm.png
+649,Dragonsong,7,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",Dragon,142,142,,,,,,,,,"[""Blight""]",,"[""T. Mag ↑↑↑""]",[251],"[255,283]",,weapons/dragon_lute.png
+650,Lute,1,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",,4,4,,,,,,,,,,,"[""T. Att ↑"",""T. Mag ↑""]",,[283],,weapons/lute.png
+651,Hardwood Lute,2,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",,18,18,,,,,,,,,,,"[""T. Def ↑"",""T. Res ↑""]",,[283],,weapons/lute2.png
+652,Dioscuri Ring,5,Accessory,1,,,"[""Mage""]",,100,-100,,-50,,,,,-50,,,,,"[362,430,285,438]",,,acc/warrior_ring.png
+653,Vipersong,9,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",Dragon,190,190,,,,,,,,,"[""Blight""]",,"[""T. Att ↑"",""T. Mag ↑"",""T. Def ↑↑"",""T. Res ↑↑"",""T. Crit ↑↑""]",[271],"[255,273,283]",,weapons/viper_lute.png
+654,Bonesong,6,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,118,118,,,,,,,,,,,"[""T. Crit ↑↑""]",[260],[278],,weapons/bone_lute.png
+655,Dioscuri Magic Ring,5,Accessory,1,,,"[""Thief"",""Warrior""]",,-100,100,-50,,,,,-50,,,,,,"[283,362,430,438]",,,acc/mage_ring.png
+656,Nothren Greaves,8,Legs,,,,"[""Warrior""]",,,,180,40,,,,22,,,,,,[291],[666],,armor/nothren_leggings.png
+657,Nothren Armor,8,Armor,,,,"[""Warrior""]",,,,180,40,,,,22,,,,,,[291],[666],,armor/nothren_armor.png
+658,Nothren Helmet,8,Head,,,,"[""Warrior""]",,,,180,40,,,,22,,,,,,[291],[666],,armor/nothren_helm.png
+659,Nothren Cowl,8,Head,,,,"[""Thief""]",,,,180,40,15,,,,,,,,,[292],[666],,armor/nothren_hood.png
+660,Nothren Garb,8,Armor,,,,"[""Thief""]",,,,180,40,15,,,,,,,,,[292],[666],,armor/nothren_armor.png
+661,Nothren Boots,8,Legs,,,,"[""Thief""]",,,,180,40,15,,,,,,,,,[292],[666],,armor/nothren_boots.png
+662,Nothren Robe,8,Armor,,,,"[""Mage""]",,,,180,40,,,,,30,,,,,[293],[666],,armor/nothren_robe.png
+663,Nothren Shoes,8,Legs,,,,"[""Mage""]",,,,180,40,,,,,30,,,,,[293],[666],,armor/nothren_boots.png
+664,Avalon Melody,8,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,170,170,,,,,,,,,,,"[""T. Res ↑"",""T. Res ↑↑""]",[234],[513],,weapons/gold_flute.png
+665,Nothren Hood,8,Head,,,,"[""Mage""]",,,,180,40,,,,,30,,,,,[293],[666],,armor/nothren_hood.png
+666,Baldur,8,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[291,292,293,479,480,485,294,483,316]","[1436,1429,1496,1435,1477,1441,1430,1444,1437,1428,1447,1445,1440,1434,1431,657,661,659,660,656,658,665,662,678,663,808,698,694,695,696,697]",,materials/baldur.png
+667,Sempre Forte,9,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,198,198,,,,,,24,24,,,,"[""T. Att ↑↑↑"",""T. Mag ↑↑↑""]",[279],[599],,weapons/sempre_forte.png
+668,Wooden Shield,2,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,5,,,,,,,"[465,14]",[283],,wards/wooden_shield.png
+669,Balor Shield,9,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,25,,,,,,,[183],"[249,266]",,wards/balor_shield.png
+670,Arch-Rune Shield,7,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,55,,,17,,,,,,,,[273],,wards/rune_shield.png
+671,Duke's Shield,4,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,12,,,,,,,,[273],,wards/dukes_shield.png
+672,Fallen Shield,9,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,12,12,,,33,24,,"[""Cursed""]",,,,[280],[473],,wards/fallen_shield.png
+673,Templar Shield,6,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,32,,,,17,,,,,,,,"[266,345]",,wards/templar_shield.png
+674,Rune Shield,2,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,16,,,4,,,,,,,[35],[273],,wards/rune_shield.png
+675,Tower Shield,6,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,-20,-20,40,40,,,17,,,,,,,,"[266,345]",,wards/tower_shield.png
+676,Side-arm,2,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,8,,,,,,-10,,,,,,,,[263],,wards/sidearm.png
+677,Dragon Crested Shield,5,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",Dragon,,,,,,,15,,,,,,,,[255],,wards/dragon_shield.png
+678,Nothren Shield,8,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,,,,,22,,,,,,,[291],[666],,wards/nothren_shield.png
+679,Whisper,4,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,32,,,,,,-25,,,,"[""Bleeding""]",,,,[263],,wards/whisper.png
+680,Crest of Avalon,8,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,27,,,,,,,[234],[513],,wards/avalon_shield.png
+681,Buckler,3,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,9,,,,,,,,[263],,wards/buckler.png
+682,Bone Shield,4,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,24,,,,12,24,,,,,,[84],,,wards/bone_shield.png
+683,Heavy Arrows,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,12,,,,,,-25,,,,"[""Stunned""]",,,,"[276,283]",,wards/heavy_arrows.png
+684,Arch-Gizmo,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,10,,,,,,,,"[""Att ↓"",""Mag ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Att ↓↓"",""T. Mag ↓↓"",""T. Dex ↓""]",,,,"[420,288,362,430,440]",,,acc/gizmo.png
+685,Tizona,8,Off-hand,1,,,"[""Warrior""]",,,,,,,,30,,,,"[""Def ↓"",""Res ↓""]",,,"[289,422,441]",[513],,wards/balins_left.png
+686,Colada,8,Weapon,1,,,"[""Warrior""]",Lightning,199,,,,,,,,,,"[""Paralyzed"",""Att ↓"",""Mag ↓""]",,,"[289,422,441]",[513],,weapons/avalon_great_sword.png
+687,Genius,5,Weapon,1,,,"[""Thief"",""Warrior""]",Lightning,128,,,,,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Def ↓"",""Rot"",""Res ↓""]",,,"[288,440]","[266,273,277,283]",,weapons/earth_pike.png
+688,Avalon Knight Helmet,8,Head,1,,,"[""Warrior""]",,,,202,52,,,,,,,,,,"[289,441]",[513],,armor/pale_helm.png
+689,Avalon Knight Leggings,8,Legs,1,,,"[""Warrior""]",,,,202,52,,,,,,,,,,"[289,441]",[513],,armor/pale_leggings.png
+690,Avalon Knight Armor,8,Armor,1,,,"[""Warrior""]",,,,202,52,,,,,,,,,,"[289,441]",[513],,armor/pale_armor.png
+691,Arisen Bone Shield,8,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,48,,,,18,48,,,,,,[231],[278],,wards/bone_shield.png
+692,Arch-Gadget,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,10,10,,,,,,"[""Def ↓"",""Def ↓↓"",""T. Def ↓"",""T. Res ↓"",""Res ↓↓"",""Res ↓""]",,,,"[420,288,362,430,440]",,,acc/gadget.png
+693,Rosewood Lute,4,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",,70,70,,,,,,,,,,,"[""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""T. Res ↑""]",,"[273,283]",,weapons/lute3.png
+694,Valhallan Greaves,9,Legs,,,,"[""Warrior""]",,,,210,40,,,,28,,,,,,[294],[666],,armor/nothren_leggings.png
+695,Valhallan Helmet,9,Head,,,,"[""Warrior""]",,,,210,40,,,,28,,,,,,[294],[666],,armor/nothren_helm.png
+696,Valhallan Shield,9,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,,,,,26,,,,,,,[294],[666],,wards/nothren_shield.png
+697,Valhalla's Rise,9,Weapon,,,,"[""Warrior""]",Water,210,,,48,,,,,48,,"[""Frozen"",""T. Def ↓"",""T. Res ↓""]",,"[""Gunnr""]",[294],[666],,weapons/blue_flame.png
+698,Valhallan Armor,9,Armor,,,,"[""Warrior""]",,,,210,40,,,,22,,,,,,[294],[666],,armor/nothren_armor.png
+699,Poison Arrows,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,12,,,,,,-25,,,,"[""Poisoned""]",,,,"[262,283]",,wards/poison_arrows.png
+700,Fire Arrows,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,12,,,,,,-25,,,,"[""Burning""]",,,,"[259,283]",,wards/fire_arrows.png
+701,Dracon Shield,3,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,9,,,,,,,[266],[271],,wards/dracon_shield.png
+702,Fomor Shield,4,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,12,,,,,,,[207],[266],,wards/fomor_shield.png
+703,Frilled Naga Staff,9,Weapon,,,,"[""Mage""]",,12,201,,,,,,,,,,,,[296],"[249,273,283]",,weapons/draco_sceptre.png
+704,Frilled Naga Halberd,9,Weapon,,,,"[""Warrior""]",,201,,,,,,,,,,,,,[295],[263],,weapons/halberd.png
+705,Ithra's Staff,9,Weapon,1,,,"[""Mage""]",Water,,250,,,100,,,,,,"[""Frozen""]",,,[220],"[473,280]",,weapons/ithra_staff.png
+706,Demeter's Halberd,9,Weapon,1,,,"[""Warrior""]",Earthen,250,,,,32,,3,,,,"[""Rot""]",,,[233],"[256,473]",,weapons/demeter_halberd.png
+707,Atgeir,8,Weapon,1,,,"[""Warrior""]",,178,,24,24,24,,3,,,,"[""Bleeding""]",,,[298],[708],,weapons/atgeir.png
+708,Perfect Baldur,8,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[298,313]","[707,1424,1422,1425,792,709,874]",,materials/baldur.png
+709,Heimdall's Shield,8,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,,,,,26,,,"[""Stunned""]",,,,[298],[708],,wards/nothren_shield.png
+710,Arcane Arrows,5,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,24,,,3,,,-50,,,,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,,,"[273,275,283]",,wards/arcane_arrows.png
+711,Blight Arrows,5,Off-hand,1,1,,"[""Mage"",""Thief"",""Warrior""]",,24,,,,,,-25,,,,"[""Blight""]",,,,"[255,283]",,wards/blight_arrows.png
+712,Thor's Arc,9,Weapon,1,,,"[""Mage""]",Lightning,,250,,,,,,,,,"[""Paralyzed""]",,,[221],"[265,473]",,weapons/thor_bow.png
+713,Vulcan's Archistaff,9,Weapon,1,,,"[""Mage""]",Fire,,250,,,,,,,,,"[""Burning""]",,,[232],"[259,473]",,weapons/vulcan_staff.png
+714,Vulcan Helmet,8,Head,1,,,"[""Thief"",""Warrior""]",,,,196,56,,,,,,,,,,[300],"[259,275]",,armor/royal_helm.png
+715,Vulcan Cuirass,8,Armor,1,,,"[""Thief"",""Warrior""]",,,,196,56,,,,,,,,,,"[300,421]","[259,275]",,armor/royal_chestplate.png
+716,Vulcan Boots,8,Legs,1,,,"[""Thief"",""Warrior""]",,,,196,56,10,,,,,,,,,"[300,421]","[259,275]",,armor/royal_boots.png
+717,Vulcan Charm,8,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,48,,,,,,,180,,,,,"[430,300,421]",,,acc/golden_crystal.png
+718,Candle-staff,5,Weapon,1,,1,"[""Mage""]",Fire,42,118,,,24,,,,,,"[""Burning""]",,,[301],"[259,273,275,283]",,weapons/firepike.png
+719,Candle-pike,5,Weapon,1,,1,"[""Thief"",""Warrior""]",Fire,118,42,,,12,,,,,,"[""Burning""]",,,[301],"[259,273,275,283]",,weapons/firepike.png
+720,Vulcan Buckler,8,Off-hand,1,,,"[""Thief"",""Warrior""]",,,,,56,,,21,,,,,,,"[430,300,421]","[259,275]",,wards/buckler.png
+721,Vulcan's Brew,6,Item,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[430,300,421]",,,useables/large_health_potion.png
+722,Arisen Masamune,9,Weapon,1,,,"[""Thief""]",,220,220,,,,,,,,,,,,[306],[267],,weapons/masamune.png
+723,Arisen Witch's Hat,9,Head,1,,,"[""Mage""]",,,,182,202,40,,,,,,,,,[305],"[262,281]",,armor/witch_hat.png
+724,Ring of Restraint,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[362,430]",,,acc/sacrifice_ring.png
+725,Explorer's Waystone,3,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/explorers_waystone.png
+726,Arcane Scroll,6,Off-hand,,1,,"[""Mage""]",,,24,,,,,-10,,,,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,,,"[256,259,265,280]",,wards/scroll_purple.png
+727,Mighty Griffin Shield,9,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Dragon,,,,,,,28,,,,,,,[307],[728],,wards/griffin_shield.png
+728,Skystone,4,Material,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[308,307]","[734,733,727,729]",,materials/sandstone.png
+729,Mighty Tempest,9,Weapon,1,,,"[""Thief""]",,218,,,,78,,,,,,"[""Stunned""]",,,[307],[728],,weapons/griffin_arc.png
+730,Dragon Scroll,8,Off-hand,1,,,"[""Mage""]",,,48,,,,,-50,,80,,"[""Blight""]",,,"[149,322]","[255,273]",,wards/scroll_dragon.png
+731,Reaping Sickle,8,Weapon,,,,"[""Thief"",""Warrior""]",,182,,,,,,,,,,"[""Bleeding""]",,,[309],"[252,266,283]",,weapons/scythe.png
+732,Imagination,9,Weapon,,,,"[""Mage""]",,,210,,,,,,24,24,,,,"[""T. Res ↑"",""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""Fire Def"",""Water Def"",""Earth Def"",""Lightning Def"",""Holy Def"",""Dark Def"",""All ↑""]",[304],"[257,325,275]",,weapons/imagination.png
+733,Hurricane Arc,5,Weapon,1,,,"[""Thief""]",,118,,,,24,,,,,,"[""Stunned""]",,,[308],[728],,weapons/griffin_arc.png
+734,Griffin Crested Shield,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Dragon,,,,,,,15,,,,,,,[308],[728],,wards/griffin_shield.png
+735,Arisen Witch's Scroll,9,Off-hand,1,,,"[""Mage""]",,,,,,,,-50,,120,,"[""Bleeding"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Drenched""]",,,[305],[281],,wards/scroll_purple.png
+736,Arisen Witch's Staff,9,Weapon,1,,,"[""Mage""]",Dark,15,220,,,,,,,,,,,,[305],[281],,weapons/black_witch_staff.png
+737,Arisen Deathbringer,9,Weapon,1,,,"[""Thief""]",Dark,216,66,,,15,,,,,,,,,[310],[270],,weapons/deathbringer.png
+738,Mage's Scroll,3,Off-hand,,1,,"[""Mage""]",,,12,,,,,-5,,,,,,,,[273],,wards/scroll.png
+739,Scroll of Earth,3,Off-hand,,1,,"[""Mage""]",,,12,,,,,-5,,,,"[""Rot""]",,,,[256],,wards/scroll_green.png
+740,Scroll of Fire,3,Off-hand,,1,,"[""Mage""]",,,12,,,,,-5,,,,"[""Burning""]",,,,[259],,wards/scroll_red.png
+741,Witch's Scroll,6,Off-hand,1,,,"[""Mage""]",,,,,,,,-25,,80,,"[""Bleeding"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Drenched""]",,,"[116,219]",[281],,wards/scroll_purple.png
+742,Royal Shield,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,10,,9,,,,,,,,"[275,345]",,wards/royal_shield.png
+743,Scroll of Ice,3,Off-hand,,1,,"[""Mage""]",,,12,,,,,-5,,,,"[""Frozen""]",,,,[280],,wards/scroll_blue.png
+744,Scroll of Poison,3,Off-hand,,1,,"[""Mage""]",,,12,,,,,-5,,,,"[""Poisoned""]",,,,[256],,wards/scroll_green.png
+745,Scroll of Lightning,3,Off-hand,,1,,"[""Mage""]",,,12,,,,,-5,,,,"[""Paralyzed""]",,,,[265],,wards/scroll_yellow.png
+746,Darkest Garb,8,Armor,,,,"[""Thief""]",,,,168,52,6,,,,,,,,,[309],[252],,armor/dark_garb.png
+750,Merchant's Waystone,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/explorers_waystone.png
+751,Earthen Arrows,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,12,,,,,,-25,,,,"[""Rot""]",,,,"[256,283]",,wards/earthen_arrows.png
+752,Ice Arrows,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,12,,,,,,-25,,,,"[""Frozen""]",,,,"[280,283]",,wards/ice_arrows.png
+753,Storm Arrows,3,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,12,,,,,,-25,,,,"[""Paralyzed""]",,,,"[265,283]",,wards/storm_arrows.png
+754,Sorcerer's Scroll,5,Off-hand,,1,,"[""Mage""]",,,24,,,,,-15,,80,,,,,,[273],,wards/scroll_blue.png
+755,Alpha Myrddin Hood,5,Head,1,,,"[""Mage""]",,,,24,117,,,,,20,,,,,"[413,312]","[268,275]",,armor/royal_hood.png
+756,Gamma Myrddin Cloak,8,Armor,1,,,"[""Thief""]",,,,190,130,60,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+757,Gamma Myrddin Cowl,8,Head,1,,,"[""Thief""]",,,,192,,56,,,,56,,,,,[312],"[268,275]",,armor/royal_hood.png
+758,Alpha Myrddin Cloak,5,Armor,1,,,"[""Thief""]",,,,115,55,24,,,,,,,,,"[413,312]","[268,275]",,armor/arcane_robe.png
+759,Alpha Myrddin Shield,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,16,88,,,,,,"[413,312]",,,wards/avalon_shield.png
+760,Zeta Myrddin Hood,9,Head,1,,,"[""Mage""]",,,,124,217,,,,,68,,,,,[312],"[268,275]",,armor/royal_hood.png
+761,Zeta Myrddin Cloak,9,Armor,1,,,"[""Thief""]",,,,215,155,72,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+762,Gamma Myrddin,8,Weapon,1,,,"[""Mage""]",,,193,,,,,,60,76,,"[""T. Def ↓"",""T. Res ↓""]",,,[312],"[268,283]",,weapons/black_witch_staff.png
+763,Merlin's Ring,4,Accessory,1,,,"[""Thief"",""Warrior""]",,-110,64,,,,,,,24,,,,,"[413,312]",,,acc/mage_ring.png
+764,Myrddin Harp,8,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,172,172,,,,,,,,,,,"[""Fire Def"",""Water Def"",""Earth Def"",""Lightning Def"",""Holy Def"",""Dark Def""]","[413,312]","[513,268]",,weapons/gold_harp.png
+765,Zeta Myrddin,9,Weapon,1,,,"[""Mage""]",,,218,,,,,,72,88,,"[""T. Def ↓"",""T. Res ↓""]",,,[312],"[513,268,283]",,weapons/black_witch_staff.png
+766,Delta Myrddin,7,Weapon,1,,,"[""Mage""]",,,168,,,,,,48,64,,"[""T. Def ↓"",""T. Res ↓""]",,,[312],"[268,283]",,weapons/black_witch_staff.png
+767,Beta Myrddin,6,Weapon,1,,,"[""Mage""]",,,143,,,,,,36,52,,"[""T. Def ↓"",""T. Res ↓""]",,,"[413,312]","[268,283]",,weapons/black_witch_staff.png
+768,Beta Myrddin Cowl,6,Head,1,,,"[""Thief""]",,,,142,,32,,,,32,,,,,"[413,312]","[268,275]",,armor/royal_hood.png
+769,Beta Myrddin Hood,6,Head,1,,,"[""Mage""]",,,,49,142,,,,,32,,,,,"[413,312]","[268,275]",,armor/royal_hood.png
+770,Delta Myrddin Hood,7,Head,1,,,"[""Mage""]",,,,74,167,,,,,44,,,,,[312],"[268,275]",,armor/royal_hood.png
+771,Zeta Myrddin Cowl,9,Head,1,,,"[""Thief""]",,,,217,,68,,,,68,,,,,[312],"[268,275]",,armor/royal_hood.png
+772,Alpha Myrddin Robe,5,Armor,1,,,"[""Mage""]",,,,,118,,,,,,,,,,"[413,312]","[268,275]",,armor/arcane_robe.png
+773,Gamma Myrddin Robe,8,Armor,1,,,"[""Mage""]",,,,,193,,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+774,Zeta Myrddin Robe,9,Armor,1,,,"[""Mage""]",,,,,218,,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+775,Delta Myrddin Cloak,7,Armor,1,,,"[""Thief""]",,,,165,105,48,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+776,Merlin's Concoction,3,Other,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""T. Mag ↑↑↑""]","[413,312]",,,useables/magic_tonic.png
+777,Gamma Myrddin Hood,8,Head,1,,,"[""Mage""]",,,,99,192,,,,,56,,,,,[312],"[268,275]",,armor/royal_hood.png
+778,Delta Myrddin Cowl,7,Head,1,,,"[""Thief""]",,,,167,,44,,,,44,,,,,[312],"[268,275]",,armor/royal_hood.png
+779,Beta Myrddin Shield,6,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,19,100,,,,,,"[413,312]",,,wards/avalon_shield.png
+780,Beta Myrddin Cloak,6,Armor,1,,,"[""Thief""]",,,,140,80,36,,,,,,,,,"[413,312]","[268,275]",,armor/arcane_robe.png
+781,Merlin's Scroll,6,Off-hand,1,,,"[""Mage""]",,,,,,,,-25,,80,,"[""T. Att ↓""]",,,"[413,312]",,,wards/scroll_purple.png
+782,Lady of the Lake,7,Weapon,1,,,"[""Warrior""]",,120,44,44,44,44,,2,,44,,,,,"[312,439]","[266,268]",,weapons/blue_flame.png
+783,Alpha Myrddin,5,Weapon,1,,,"[""Mage""]",,,118,,,,,,24,40,,"[""T. Def ↓"",""T. Res ↓""]",,,"[413,312]","[268,283]",,weapons/black_witch_staff.png
+784,Delta Myrddin Shield,7,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,22,112,,,,,,[312],,,wards/avalon_shield.png
+785,Lass of the Lake,6,Off-hand,1,,,"[""Thief"",""Warrior""]",,22,-12,-12,-12,,,-12,,,,,,,"[312,439]",,,wards/rune_dagger.png
+786,Gamma Myrddin Shield,8,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,25,124,,,,,,[312],,,wards/avalon_shield.png
+787,Zeta Myrddin Shield,9,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,28,136,,,,,,[312],"[513,268]",,wards/avalon_shield.png
+788,Delta Myrddin Robe,7,Armor,1,,,"[""Mage""]",,,,,168,,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+789,Beta Myrddin Robe,6,Armor,1,,,"[""Mage""]",,,,,143,,,,,,,,,,"[413,312]","[268,275]",,armor/arcane_robe.png
+790,Alpha Myrddin Cowl,5,Head,1,,,"[""Thief""]",,,,117,,20,,,,20,,,,,"[413,312]","[268,275]",,armor/royal_hood.png
+791,Greatbow,1,Weapon,,1,,"[""Thief""]",,19,,,,,,,,,,,,,,[283],,weapons/bow.png
+792,Gungnir,10,Weapon,1,,,"[""Warrior""]",,290,,,,,,35,,,,"[""T. Def ↓"",""T. Res ↓""]",,,[313],"[266,708,283]",,weapons/gungnir.png
+793,Acolyte Staff,10,Weapon,,,,"[""Mage""]",,,242,,,,,,,,,,,,[321],"[273,275,283]",,weapons/acolyte_staff.png
+794,Lyonesse Sword,10,Weapon,,,,"[""Warrior""]",,244,,,,,,,,,,,,,[328],[795],,weapons/lyon_sword.png
+795,Lyonite,10,Material,,,,,,,,,,,,,,,,,,,,"[829,825,823,820,807,824,814,800,802,806,810,815,796,794,822]",,materials/lyonite.png
+796,Lyonesse Staff,10,Weapon,,,,"[""Mage""]",,,244,,,,,,,,,,,,[327],[795],,weapons/lyon_staff.png
+797,Lost Art,10,Weapon,,,,"[""Thief""]",,272,,,,65,,,,,,,,,[325],"[261,273]",,weapons/shadow_katana.png
+798,Ortanite Helmet,10,Head,,,,"[""Warrior""]",,,,280,-22,,,,,,,,,,[320],[473],,armor/ortanite_helm.png
+799,Chimera Helmet,10,Head,,,,"[""Warrior""]",,,,242,115,,,,,,,,,,[317],"[255,262]",,armor/wyvern_helm.png
+800,Lyonesse Helmet,10,Head,,,,"[""Warrior""]",,,,235,55,,,,,,,,,,[328],[795],,armor/lyon_helm.png
+801,Acolyte Hood,10,Head,,,,"[""Mage""]",,,,95,242,,,,,,,,,,[321],"[273,275]",,armor/acolyte_hood.png
+802,Lyonesse Hood,10,Head,,,,"[""Mage""]",,,,55,235,,,,,,,,,,[327],[795],,armor/lyon_hood.png
+803,Acolyte Robe,10,Armor,,,,"[""Mage""]",,,,95,242,,,,,,,,,,[321],"[273,275]",,armor/acolyte_robe.png
+804,Chimera Armor,10,Armor,,,,"[""Warrior""]",,,,242,115,,,,,,,,,,[317],"[255,262]",,armor/wyvern_plate.png
+805,Ortanite Armor,10,Armor,,,,"[""Warrior""]",,,,280,-22,,,,,,,,,,[320],[473],,armor/ortanite_armor.png
+806,Lyonesse Robe,10,Armor,,,,"[""Mage""]",,,,55,235,,,,,,,,,,[327],[795],,armor/lyon_robe.png
+807,Lyonesse Cuirass,10,Armor,,,,"[""Warrior""]",,,,235,55,,,,,,,,,,[328],[795],,armor/lyon_armor.png
+808,Robe of the North,10,Armor,,,,"[""Mage""]",Fire,,,280,122,,,,,,,,,,[316],"[666,262]",,armor/north_robe.png
+809,Gaia Robe,10,Armor,,,,"[""Mage""]",,,,56,285,,,,60,60,"[""Rot""]",,,,[324],[473],,armor/gaia_robe.png
+810,Lyonesse Shield,10,Off-hand,,,,"[""Warrior""]",,,,,,,,29,,,,,,,[328],[795],,wards/lyon_shield.png
+811,Acolyte Shoes,10,Legs,,,,"[""Mage""]",,,,95,242,,,,,,,,,,[321],"[273,275]",,armor/acolyte_boots.png
+812,Chimera Greaves,10,Legs,,,,"[""Warrior""]",,,,242,115,,,,,,,,,,[317],"[255,262]",,armor/wyvern_leggings.png
+813,Ortanite Greaves,10,Legs,,,,"[""Warrior""]",,,,280,-22,,,,,,,,,,[320],[473],,armor/ortanite_leggings.png
+814,Lyonesse Greaves,10,Legs,,,,"[""Warrior""]",,,,235,55,,,,,,,,,,[328],[795],,armor/lyon_leggings.png
+815,Lyonesse Shoes,10,Legs,,,,"[""Mage""]",,,,55,235,,,,,,,,,,[327],[795],,armor/lyon_boots.png
+816,Black Dragon Helmet,10,Head,,,,"[""Warrior""]",,,,270,120,,,,,,,,,,[322],"[255,272]",,armor/colossal_helm.png
+817,Black Dragon Greaves,10,Legs,,,,"[""Warrior""]",,,,270,120,,,,,,,,,,[322],"[255,272]",,armor/colossal_leggings.png
+818,Bident,10,Weapon,1,,,"[""Thief""]",,272,,,,95,4,,,,,"[""T. Mag ↓""]",,,[314],"[400,266,283]",,weapons/bident.png
+819,Chimera Stacatto,10,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",,275,275,,,,,,,,,,,"[""T. Def ↑↑"",""T. Res ↑↑"",""Dex ↑""]",[329],"[275,282]",,weapons/dragon_lute.png
+820,Lyonesse Crown,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,265,235,,,,32,44,,,,,[336],"[795,473]","[{""id"":66,""name"":""A Symbol of Royalty""}]",armor/lyon_crown.png
+821,Dynasty,10,Weapon,1,,,"[""Mage""]",,49,272,,,,,,,,,"[""Bleeding""]",,,[330],"[268,276,283]",,weapons/dynasty.png
+822,Uchigatana,10,Weapon,,,,"[""Thief""]",,245,,-40,,22,,,,,,"[""Bleeding""]",,,[326],[795],,weapons/katana.png
+823,Lyonesse Cowl,10,Head,,,,"[""Thief""]",,,,225,55,55,,,,,,,,,[326],[795],,armor/lyon_hood.png
+824,Lyonesse Garb,10,Armor,,,,"[""Thief""]",,,,225,55,55,,,,,,,,,[326],[795],,armor/lyon_garb.png
+825,Lyonesse Boots,10,Legs,,,,"[""Thief""]",,,,225,55,55,,,,,,,,,[326],[795],,armor/lyon_boots.png
+826,Arisen Terror,10,Weapon,1,,,"[""Mage""]",,,272,,,,,,,160,,,,,[315],[302],,weapons/horror_staff.png
+827,Arisen Horror,10,Weapon,1,,,"[""Mage""]",,,272,,,,,,,160,,,,,[315],[302],,weapons/horror_staff.png
+828,Arisen Monster Tome,10,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,-125,-125,-125,-125,,,,-200,-200,,,,,[322],,,acc/cursed_monster_tome.png
+829,Atlas,10,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,39,,,"[""Stunned"",""Def ↓""]",,,,[323],[795],,wards/lyon_shield.png
+830,Ifrit's Feet,10,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,265,265,20,,,,,"[""Burning""]",,,,[331],"[259,262,473]",,armor/ifrit_feet.png
+831,Leviathan Cuirass,10,Armor,,,,"[""Thief"",""Warrior""]",,,,285,56,,,,120,,"[""Frozen""]",,,,[332],[473],,armor/leviathan_mail.png
+832,Taranis Hood,10,Head,,,,,,,,265,265,20,,,,,"[""Paralyzed""]",,,,[333],[473],,armor/taranis_hood.png
+833,Nekromancer's Staff,10,Weapon,,,,"[""Mage""]",,,272,,,,,,,232,,,,,[334],[260],,weapons/black_witch_staff.png
+834,Arisen Clurichaun Blade,7,Weapon,1,,,"[""Thief"",""Warrior""]",Earthen,190,-60,,,,,,,-60,,"[""Poisoned"",""Rot""]",,,"[421,337]","[346,268]",,weapons/nag_sword.png
+836,Arisen Imagination,10,Weapon,1,,,"[""Mage""]",,,290,,,,,,24,24,,,,"[""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""T. Res ↑"",""Fire Def"",""Water Def"",""Earth Def"",""Lightning Def"",""Holy Def"",""Dark Def"",""All ↑""]",[335],"[257,325,275]",,weapons/imagination.png
+837,Arisen Fairy's Ring,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,48,,,,220,,,,,"[362,430,337,422]",,,acc/fairy_ring.png
+838,Clurichaun Arrows,7,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,24,24,,,,,,,,,"[""Poisoned"",""Blight""]",,,"[362,430,337]","[262,283]",,wards/poison_arrows.png
+839,Arisen Naggeneen's Hat,7,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",Earthen,,,165,88,,,,-22,,"[""Poisoned"",""Toxic""]",,,,"[421,337,422]","[346,268]",,armor/green_gnome_hat.png
+840,Arisen Ring,10,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,100,100,-200,-200,,,,,,,,,,[322],,,acc/cursed_ring.png
+841,Black Dragon Armor,10,Armor,,,,"[""Warrior""]",,,,270,120,,,,,,,,,,[322],"[255,272]",,armor/colossal_armor.png
+842,Gandring,9,Weapon,1,,,"[""Thief""]",,222,,,,60,4,-3,,,,"[""Bleeding""]",,,[280],[473],,weapons/fallen_daggers.png
+843,Kaladanda,9,Weapon,1,,,"[""Mage""]",,,220,,,,,,,220,,,,,[280],[473],,weapons/fallen_staff.png
+844,Labrys,9,Weapon,1,,,,,222,,,,,,24,,,,,,,[280],[473],,weapons/fallen_axe.png
+845,Naggeneen's Brew,5,Other,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Mag ↑"",""Poisoned"",""Toxic"",""Rot"",""Dex ↑"",""Att ↑"",""Def ↑"",""Res ↑"",""Crit ↑""]","[421,337]",,,useables/defense_tonic.png
+846,Simple Shoes,1,Legs,,,,"[""Mage""]",,,,8,10,,,,,,,,,,[3],[264],,armor/boots.png
+847,Ancient Troll's Charm,6,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,25,25,25,25,8,,,55,25,,,,,[246],,,acc/troll_pendant.png
+848,Apprentice Hood,2,Head,,,,"[""Mage""]",,,,7,27,,,,,,,,,,,[262],,armor/ancient_hood.png
+849,Wading Boots,2,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,24,24,,,,,,,,,,,[264],,armor/lizarr_boots.png
+850,Apprentice Shoes,2,Legs,,,,"[""Mage""]",,,,7,27,,,,,,,,,,,[262],,armor/ancient_boots.png
+851,Aegis,9,Off-hand,,1,,"[""Thief"",""Warrior""]",,,,12,,,,29,48,,"[""Petrified""]",,,,,"[346,325]",,wards/aegis.png
+852,Ancient Eye,6,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,8,8,8,8,,,,22,22,,,,,[290],,,acc/crystal_eye.png
+853,Old Hallowed Blade,10,Weapon,1,,,"[""Thief"",""Warrior""]",,370,,,,,,-50,,333,,,,,"[430,342]","[261,266,281]",,weapons/hallowed_blade.png
+854,White Sheet,8,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,172,198,,,,,,"[""Asleep""]",,,,[342],[262],,armor/white_sheet.png
+855,Bag of Treats,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[430,342]",,,acc/bag_of_treats.png
+856,Bag of Tricks,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot"",""Drenched""]",,,"[430,342]",,,acc/bag_of_tricks.png
+857,Hallowed Monster Tome,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[342],,,acc/hallowed_tome.png
+858,Hallowed Witch's Hat,4,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,72,72,,,,,,"[""Rot"",""Burning"",""Frozen"",""Paralyzed""]",,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,[342],[262],,armor/witch_hat.png
+859,Hallowed Candle,5,Item,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[342],,,useables/hallowed_candle.png
+860,Arisen Demeter's Staff,10,Weapon,1,,,"[""Mage""]",Earthen,,295,,,,,,,326,,"[""Rot""]",,,[343],"[256,473]",,weapons/demeter_staff.png
+861,Arisen Ithra's Staff,10,Weapon,1,,,"[""Mage""]",Water,,292,,,220,,,,,,"[""Frozen""]",,,[349],"[473,280]",,weapons/ithra_staff.png
+862,Arisen Thor's Arc,10,Weapon,1,,,"[""Mage""]",Lightning,,290,,120,,,,,,,"[""Paralyzed""]",,,[350],"[265,473]",,weapons/thor_bow.png
+863,Arisen Vulcan's Longsword,10,Weapon,1,,,"[""Thief"",""Warrior""]",Fire,292,167,,167,,,,,,,"[""Burning""]",,,[351],"[259,473]",,weapons/vulcan_sword.png
+864,Arisen Vulcan's Archistaff,10,Weapon,1,,,"[""Mage""]",Fire,,290,,,,,,,80,,"[""Burning""]",,,[351],"[259,473]",,weapons/vulcan_staff.png
+865,Arisen Demeter's Halberd,10,Weapon,1,,,"[""Warrior""]",Earthen,295,,,,32,,5,,,,"[""Rot""]",,,[343],"[256,473]",,weapons/demeter_halberd.png
+866,Arisen Ithra's Blade,10,Weapon,1,,,"[""Thief""]",Water,290,85,,,215,1,,,,,"[""Frozen""]",,,[349],"[473,280]",,weapons/ithra_katana.png
+867,Arisen Thor's Hammer,10,Weapon,1,,,"[""Warrior""]",Lightning,290,,,,,,,92,,,"[""Paralyzed""]",,,[350],"[265,473]",,weapons/thor_hammer.png
+868,Mirror,5,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,-100,,240,,,,,,[346],,wards/mirror.png
+869,Avalon Crown,8,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,22,22,22,22,2,,2,,,"[""Petrified"",""Cursed""]",,,,[234],[513],"[{""id"":66,""name"":""A Symbol of Royalty""}]",armor/crown.png
+870,Parrying Dagger,5,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,32,2,-25,,,,"[""Bleeding""]",,,,"[266,276]",,wards/whisper.png
+871,High Fomorian Garb,7,Armor,,,,"[""Thief""]",,,,155,,33,,,,,,,,,[204],"[249,275]",,armor/fomorian_armor.png
+872,High Fomorian Cowl,7,Head,,,,"[""Thief""]",,,,155,33,,,,,,,,,,[204],"[249,275]",,armor/fomorian_hood.png
+873,High Fomorian Boots,7,Legs,,,,"[""Thief""]",,,,155,,33,,,,,,,,,[204],"[249,275]",,armor/fomorian_boots.png
+874,Old Nothren Crown,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,303,303,,,3,,75,"[""Att ↓"",""Mag ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Att ↓↓"",""T. Mag ↓↓""]",,,,,"[473,708]",,armor/nothren_crown.png
+875,Ring of Dawn,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,122,,,,,,,,,"[420,344,362,430]",,,acc/warrior_ring.png
+876,Dawnbreaker [sword],5,Weapon,1,,,"[""Warrior""]",,130,,,,,,,25,25,"[""Burning"",""Blind""]",,,,"[420,344]",[330],,weapons/dawnbreaker.png
+877,Dawn Boots,5,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,56,56,12,,,12,,,,,,[344],,,armor/dawn_boots.png
+878,Dawn Armor,5,Armor,1,,,"[""Warrior""]",,,12,132,22,,,,22,,,,,,[344],,,armor/dawn_armor.png
+879,Ring of Day,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,10,10,,,,,,"[""Def ↓"",""Def ↓↓"",""T. Def ↓"",""T. Res ↓"",""Res ↓↓"",""Res ↓"",""T. Def ↓↓"",""T. Res ↓↓""]",,,,"[420,344,362,430]",,,acc/warrior_ring.png
+880,Dawn Hood,5,Head,1,,,"[""Mage""]",,,,30,130,12,,,,22,,,,,[344],,,armor/dawn_hood.png
+881,Dawnbreaker [bow],5,Weapon,1,,,"[""Thief""]",,130,20,,,60,,,,12,"[""Burning"",""Blind""]",,,,"[420,344]",[330],,weapons/dawn_bow.png
+882,Dawnbreaker [staff],5,Weapon,1,,,"[""Mage""]",,,130,,,,,,,50,"[""Burning"",""Blind""]",,,,"[420,344]",[330],,weapons/dawn_staff.png
+883,Dawn Garb,5,Armor,1,,,"[""Thief""]",,,,130,,33,,,,12,,,,,[344],,,armor/dawn_armor.png
+884,Dawn Helmet,5,Head,1,,,"[""Warrior""]",,,,130,22,,,,22,,,,,,[344],,,armor/dawn_helm.png
+885,Duskbreaker [sword],8,Weapon,1,,,"[""Warrior""]",,199,,,,,,,25,25,"[""Blind"",""Asleep""]",,,,[345],[330],,weapons/dawnbreaker.png
+886,Duskbreaker [bow],8,Weapon,1,,,"[""Thief""]",,199,20,,,60,,,,12,"[""Blind"",""Asleep""]",,,,[345],[330],,weapons/dawn_bow.png
+887,Duskbreaker [staff],8,Weapon,1,,,"[""Mage""]",,,199,,,,,,,50,"[""Blind"",""Asleep""]",,,,[345],[330],,weapons/dawn_staff.png
+888,Dusk Cowl,8,Head,1,,,"[""Thief""]",,,,199,22,22,,,,22,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_hood.png
+889,Dusk Hood,8,Head,1,,,"[""Mage""]",,,,30,199,12,,,,22,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_hood.png
+890,Dusk Helmet,8,Head,1,,,"[""Warrior""]",,,,199,22,,,,22,,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_helm.png
+891,Dusk Robe,8,Armor,1,,,"[""Mage""]",,,,33,199,12,,,,32,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_robe.png
+892,Dusk Armor,8,Armor,1,,,"[""Warrior""]",,,,199,22,,,,22,,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_armor.png
+893,Dusk Garb,8,Armor,1,,,"[""Thief""]",,,,199,,33,,,,12,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_armor.png
+894,Dusk Boots,8,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,96,96,12,,,12,,"[""Blind"",""Asleep""]",,,,[345],,,armor/dawn_boots.png
+895,Ring of Dusk,8,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,180,,,,,"[347,362,430,345]",,,acc/cursed_ring.png
+896,Ring of Night,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Att ↓"",""Mag ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Att ↓↓"",""T. Mag ↓↓""]",,,,"[347,362,430,345]",,,acc/cursed_ring.png
+897,Dawn Cowl,5,Head,1,,,"[""Thief""]",,,,130,22,22,,,,22,,,,,[344],,,armor/dawn_hood.png
+898,Dawn Robe,5,Armor,1,,,"[""Mage""]",,,,33,130,12,,,,32,,,,,[344],,,armor/dawn_robe.png
+899,Arisen Wolfbane,9,Weapon,1,,,"[""Warrior""]",,222,55,,,,,,,,,"[""T. Def ↓""]",,,[346],"[247,282]",,weapons/wolfbane.png
+900,Ebon Top Hat,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,199,199,,,,-90,90,,,,,[348],"[262,264,266,275]",,armor/top_hat.png
+901,Top Hat,5,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,112,112,,,,,30,,,,,"[347,362,430,348]","[262,266,275]",,armor/top_hat.png
+902,Presents!,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[347,348]",,,acc/presents.png
+903,Fancy Belt,5,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,90,45,,,,,[348],,,acc/fancy_belt.png
+904,Lasting Lantern,5,Accessory,,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[347,348]",,,acc/lantern.png
+905,Jolly Stockings,5,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,102,102,,,,,,,,,,"[347,348]","[262,273]",,armor/jolly_boots.png
+906,Ebon Jolly Stockings,9,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,190,190,,,,,,,,,,[348],"[262,273]",,armor/jolly_boots.png
+907,Reinbow,5,Weapon,1,,,"[""Thief""]",,132,,,,99,,,,,,"[""Frozen"",""Rot""]",,,"[347,348]","[273,277,280]",,weapons/reinbow.png
+908,Candy Cane,5,Weapon,1,,,"[""Mage""]",,,132,,,45,,,,45,,"[""Frozen"",""Rot""]",,,"[347,362,430,348]","[273,277,280]",,weapons/candy_cane.png
+909,Egg Nog,5,Other,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Dex ↑"",""Crit ↑""]",[348],,,useables/energy_potion.png
+910,Sleighblade,5,Weapon,1,,,"[""Warrior""]",,132,,,,45,,,,45,,"[""Frozen"",""Rot""]",,,"[347,348]","[273,277,280]",,weapons/sleighblade.png
+911,Caroling Lute,5,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,122,122,,,70,,,,,,"[""Frozen"",""Rot""]",,,"[347,362,430,348]","[273,277,280]",,weapons/carol_lute.png
+912,North Star,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,3,,,,"[""T. Res ↑"",""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""T. Crit ↑""]",,,"[347,430,348]",,,useables/canon_waystone.png
+913,Ebon North Star,9,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,12,,,,"[""T. Crit ↑"",""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""T. Res ↑""]",,,[348],"[268,273,275]",,useables/canon_waystone.png
+914,Ebon Reinbow,9,Weapon,1,,,"[""Thief""]",,231,,,,198,,,,,,"[""Frozen"",""Rot""]",,,[348],"[273,277,280]",,weapons/reinbow.png
+915,Ebon Sleighblade,9,Weapon,1,,,"[""Warrior""]",,231,,,,48,,,,144,,"[""Frozen"",""Rot""]",,,[348],"[273,277,280]",,weapons/sleighblade.png
+916,Ebon Caroling Lute,9,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,221,221,,,92,,,,,,"[""Frozen"",""Rot""]",,,[348],"[273,277,280]",,weapons/carol_lute.png
+917,Ebon Candy Cane,9,Weapon,1,,,"[""Mage""]",,,231,,,74,,,,74,,"[""Frozen"",""Rot""]",,,[348],"[273,277,280]",,weapons/candy_cane.png
+918,Mighty Ensemble,10,Weapon,,,,"[""Warrior""]",,238,,10,,,,29,96,,,,,,[319],"[266,269]",,weapons/steel_guard.png
+919,Jewel of the End,9,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,8,8,,,1,16,16,,,,,[279],,,jewels/34.png
+920,Jewel of Sparring,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,2,,,,,,,,,,"[""T. Att ↓""]",,,,,,jewels/18.png
+921,Jewel of Growth,5,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[33,176,247,304]",,,jewels/33.png
+922,Jewel of Strength,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,4,,,,,,,,,,,,,,,,jewels/11.png
+923,Jewel of Titania,6,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,6,6,,,,,,,,,,[178],,,jewels/36.png
+924,Jewel of Arcana,6,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,,,,,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,,,,,jewels/20.png
+925,Mammon's Teardrop,9,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,8,8,6,6,12,1,1,,,,"[""T. Att ↓"",""T. Mag ↓""]",,,[280],,,jewels/31.png
+926,Jewel of Fomoria,4,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,6,,,,,,,,,,[207],,,jewels/46.png
+927,Jewel of Draconia,3,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,4,,,,,,,,,,,,,[266],,,jewels/38.png
+928,Jewel of Erosion,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,2,,,,,,,,,"[""T. Res ↓""]",,,,,,jewels/29.png
+929,Jewel of Avalon,8,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,8,8,,,16,,1,,8,,,,,[234],,,jewels/38.png
+930,Assassin's Jewel,7,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,"[""T. Def ↓"",""T. Def ↓↓""]",,,"[33,176,247,386,304]",,,jewels/26.png
+931,Jewel of Celestria,5,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,6,,,,,,,,,,,,[177],,,jewels/28.png
+932,Jewel of Pale,7,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,13,,1,,,,,,,"[454,179]",,,jewels/46.png
+933,Arisen Boots,10,Legs,1,,,"[""Thief""]",,,,302,64,24,,,,,,,,,[352],[473],,armor/fallen_boots.png
+934,Arisen Shoes,10,Legs,1,,,"[""Mage""]",,,,64,302,,,,,24,,,,,[352],[473],,armor/fallen_boots.png
+935,Arisen Shield,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,22,22,,,39,24,,"[""Cursed""]",,,,[352],[473],,wards/fallen_shield.png
+936,Arisen Kaladanda,10,Weapon,1,,,"[""Mage""]",,,302,,,,,,,220,,,,,[352],[473],,weapons/fallen_staff.png
+937,Arisen Robe,10,Armor,1,,,"[""Mage""]",,,,64,302,,,3,,24,,,,,[352],[473],,armor/fallen_robe.png
+938,Arisen Hood,10,Head,1,,,"[""Mage""]",,,,64,302,,,,,24,,,,,[352],[473],,armor/fallen_hood.png
+939,Arisen Helmet,10,Head,1,,,"[""Warrior""]",,,,302,64,,,,64,,,,,,[352],[473],,armor/fallen_helm.png
+940,Arisen Greaves,10,Legs,1,,,"[""Warrior""]",,,,302,64,,,,64,,,,,,[352],[473],,armor/fallen_leggings.png
+941,Arisen Armor,10,Armor,1,,,"[""Warrior""]",,,,302,64,,,4,64,,,,,,[352],[473],,armor/fallen_armor.png
+942,Arisen Garb,10,Armor,1,,,"[""Thief""]",,,,302,64,24,,3,,,,,,,[352],[473],,armor/fallen_armor.png
+943,Arisen Labrys,10,Weapon,1,,,"[""Warrior""]",,302,,,,,,28,,,,,,,[352],[473],,weapons/fallen_axe.png
+944,Jewel of Opportunity,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,1,,,,,,,,,,,jewels/46.png
+945,Jewel of Mana,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,12,,,,,,,,jewels/29.png
+946,Immortal Garb,9,Armor,,,,"[""Thief""]",,,,180,180,10,,,,,"[""Blind""]",,,,[354],"[262,266]",,armor/immortal_armor.png
+947,Immortal Hood,9,Head,,,,"[""Mage""]",,,,105,192,,,,,,"[""Blind""]",,,,[353],"[262,266]",,armor/immortal_hat.png
+948,Immortal Robe,9,Armor,,,,"[""Mage""]",,,,105,192,10,,,400,,"[""Blind""]",,,,[353],"[262,266]",,armor/immortal_robe.png
+949,Satis Antlers,9,Head,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,142,142,,,,,,,,,,,"[249,262,263]",,armor/antlers.png
+950,Great Antlers,7,Head,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,112,112,,,,,,,,,,,"[249,262,263]",,armor/antlers.png
+951,Immortal Katana,9,Weapon,,,,"[""Thief""]",,216,,,,10,2,,,,,"[""Bleeding"",""T. Def ↓""]",,,[354],"[264,266]",,weapons/katana.png
+952,Jewel of Defense,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,4,,,,,,,,,,,,,,jewels/12.png
+953,Jewel of Speed,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,4,,,,,,,,,,,,jewels/13.png
+954,Jewel of Wisdom,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,4,,,,,,,,,,,,,,,jewels/14.png
+955,Arisen Teardrop,10,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,9,9,7,7,16,1,1,,,,"[""T. Att ↓↓"",""T. Mag ↓↓""]",,,[352],,,jewels/31.png
+956,Orange Pinion,5,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,3,3,,,3,1,,,12,,"[""Burning""]",,,"[356,427]",,,jewels/49.png
+957,Jewel of Attrition,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,2,,,,,,,,,,"[""T. Def ↓""]",,,,,,jewels/19.png
+958,Immortal's Ring,9,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,-24,-24,-24,-24,-24,1,1,500,-90,,,,,[355],,,acc/fairy_ring.png
+959,Immortal's Jewel,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,100,,,,,,[355],,,acc/red_crystal.png
+960,Immortal Boots,9,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,116,160,10,,,,,"[""Blind""]",,,,[354],"[262,266]",,armor/fomorian_boots.png
+961,Phoenixsong,5,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,72,72,,,,,,,,,,,"[""T. Res ↑"",""T. Res ↑↑""]",[356],"[259,269,294]",,weapons/gold_flute.png
+962,High Phoenician Helmet,7,Head,1,,,"[""Warrior""]",,,,162,63,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_helm.png
+963,Great Phoenician Hood,9,Head,1,,,"[""Mage""]",,,,112,211,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_hood.png
+964,Great Phoenician Helmet,9,Head,1,,,"[""Warrior""]",,,,211,112,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_helm.png
+965,Phoenician Hood,5,Head,1,,,"[""Mage""]",,,,14,113,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_hood.png
+966,High Phoenician Cowl,7,Head,1,,,"[""Thief""]",,,,162,63,30,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_hood.png
+967,High Phoenician Hood,7,Head,1,,,"[""Mage""]",,,,63,162,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_hood.png
+968,Phoenician Cowl,5,Head,1,,,"[""Thief""]",,,,113,14,18,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_hood.png
+969,Phoenician Helmet,5,Head,1,,,"[""Warrior""]",,,,113,14,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_helm.png
+970,Great Phoenician Cowl,9,Head,1,,,"[""Thief""]",,,,211,112,36,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_hood.png
+971,High Phoenician Cuirass,7,Armor,1,,,"[""Warrior""]",,,,162,63,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_armor.png
+972,Phoenician Robe,5,Armor,1,,,"[""Mage""]",,,,14,113,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_robe.png
+973,Great Phoenician Robe,9,Armor,1,,,"[""Mage""]",,,,112,211,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_robe.png
+974,Phoenician Garb,5,Armor,1,,,"[""Thief""]",,,,113,14,18,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_garb.png
+975,Phoenician Cuirass,5,Armor,1,,,"[""Warrior""]",,,,113,14,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_armor.png
+976,Great Phoenician Cuirass,9,Armor,1,,,"[""Warrior""]",,,,211,112,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_armor.png
+977,High Phoenician Garb,7,Armor,1,,,"[""Thief""]",,,,162,63,30,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_garb.png
+978,Great Phoenician Shield,9,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,31,,,,,,,"[356,427]","[259,294,275]",,wards/phoenix_shield.png
+979,Phoenician Shield,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,18,,,,,,,"[356,427]","[259,294,275]",,wards/phoenix_shield.png
+980,High Phoenician Shield,7,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,22,,,,,,,"[356,427]","[259,294,275]",,wards/phoenix_shield.png
+981,Phoenician Shoes,5,Legs,1,,,"[""Mage""]",,,,14,113,,,,,12,,,,,"[356,427]","[259,294,275]",,armor/phoenix_boots.png
+982,High Phoenician Boots,7,Legs,1,,,"[""Thief""]",,,,162,63,30,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_boots.png
+983,Phoenician Boots,5,Legs,1,,,"[""Thief""]",,,,113,14,18,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_boots.png
+984,Great Phoenician Shoes,9,Legs,1,,,"[""Mage""]",,,,112,211,,,,,60,,,,,"[356,427]","[259,294,275]",,armor/phoenix_boots.png
+985,Great Phoenician Boots,9,Legs,1,,,"[""Thief""]",,,,211,112,36,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_boots.png
+986,Great Phoenician Greaves,9,Legs,1,,,"[""Warrior""]",,,,211,112,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_leggings.png
+987,Phoenician Greaves,5,Legs,1,,,"[""Warrior""]",,,,113,14,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_leggings.png
+988,High Phoenician Shoes,7,Legs,1,,,"[""Mage""]",,,,63,162,,,,,36,,,,,"[356,427]","[259,294,275]",,armor/phoenix_boots.png
+989,High Phoenician Greaves,7,Legs,1,,,"[""Warrior""]",,,,162,63,,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_leggings.png
+990,Red Pinion,5,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,6,6,12,,1,12,,,,,,"[356,427]",,,jewels/48.png
+991,Arisen Cowl,10,Head,1,,,"[""Thief""]",,,,302,64,24,,,,,,,,,[352],[473],,armor/fallen_hood.png
+992,Arisen Gandring,10,Weapon,1,,,"[""Thief""]",,302,,,,60,5,-3,,,,"[""Bleeding""]",,,[352],[473],,weapons/fallen_daggers.png
+993,Immortal Hat,9,Head,,,,"[""Thief""]",,,,180,180,,,,400,,"[""Blind""]",,,,[354],"[262,266]",,armor/immortal_hat.png
+994,Jewel of Silencing,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,2,,,,,,,,,"[""T. Mag ↓""]",,,,,,jewels/16.png
+995,Great Phoenician Garb,9,Armor,1,,,"[""Thief""]",,,,211,112,36,,,,,,,,,"[356,427]","[259,294,275]",,armor/phoenix_garb.png
+996,Great Phoenixsong,9,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,185,185,,,,,,,,,,,"[""T. Res ↑"",""T. Res ↑↑""]","[356,422]","[259,269,294]",,weapons/gold_flute.png
+997,High Phoenixsong,7,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,112,112,,,,,,,,,,,"[""T. Res ↑"",""T. Res ↑↑""]","[362,430,356]","[259,269,294]",,weapons/gold_flute.png
+998,Jewel of Storma,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",Lightning,,,,,,,,,,,"[""Paralyzed""]",,,"[33,247,304]",,,jewels/22.png
+999,Antlers,5,Head,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,62,62,,,,,,,,,,,"[249,262,263]",,armor/antlers.png
+1000,Adamantine Amulet,6,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,60,,,,,,,,,,,,,,,,acc/amulet.png
+1001,High Phoenician Robe,7,Armor,1,,,"[""Mage""]",,,,63,162,,,,,,,,,,"[356,427]",,,armor/phoenix_robe.png
+1002,Lesser Jewel of Resistance,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,2,,,,,,,,,,,,,jewels/15.png
+1003,Lesser Jewel of Strength,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,2,,,,,,,,,,,,,,,,jewels/11.png
+1004,Jewel of Fira,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",Fire,,,,,,,,,,,"[""Burning""]",,,"[33,247,304]",,,jewels/21.png
+1005,Jewel of Aqua,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,,,,,,,,,"[""Frozen""]",,,"[33,247,304]",,,jewels/30.png
+1006,Jewel of Ward,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,2,,,,1,,,,,,,,,,jewels/10.png
+1007,Lesser Jewel of Wisdom,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,2,,,,,,,,,,,,,,,jewels/14.png
+1008,Lesser Jewel of Speed,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,2,,,,,,,,,,,,jewels/13.png
+1009,Lesser Jewel of Defense,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,2,,,,,,,,,,,,,,jewels/12.png
+1010,Lesser Jewel of Health,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,8,,,,,,,,,jewels/18.png
+1011,Jewel of Natura,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",Earthen,,,,,,,,,,,"[""Rot""]",,,"[33,247,304]",,,jewels/23.png
+1012,Apprentice Robe,2,Armor,,,,"[""Mage""]",,,,7,27,,,,,,,,,,,[262],,armor/ancient_robe.png
+1013,Simple Hood,1,Head,,,,"[""Mage""]",,,,5,7,,,,,,,,,,[3],[262],,armor/hood.png
+1014,Steel Armor,2,Armor,,,,"[""Thief"",""Warrior""]",,,,26,4,,,,,,,,,,,[276],,armor/chain_mail.png
+1015,Steel Leggings,2,Legs,,,,"[""Thief"",""Warrior""]",,,,26,4,,,,,,,,,,,[276],,armor/chain_leggings.png
+1017,Succubus Mantle,8,Armor,,,,"[""Thief""]",,,,142,92,96,,,,,,,,,[357],"[262,275]",,armor/harpy_feathers.png
+1018,Kerberos Greatsword,8,Weapon,1,,,"[""Warrior""]",,205,35,-10,,20,,,100,,,,,,,[282],,weapons/kerberos_sword.png
+1019,Kerberos Archistaff,8,Weapon,1,,,"[""Mage""]",,,205,-10,,20,,,,40,,,,,,[282],,weapons/kerberos_staff.png
+1020,Sharpened Kerberos Claws,8,Weapon,1,,,"[""Thief""]",,205,,-10,,20,,8,,,,"[""Bleeding"",""Frozen""]",,,[421],[282],,weapons/kerberos_claws.png
+1021,Pale Eye of Kerberos,5,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,4,1,1,24,24,,,,,"[275,421,428]",,,jewels/12.png
+1022,Wolven Tower Shield,8,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,-40,-40,80,80,,,21,,,,,,,"[275,428]","[266,282]",,wards/templar_shield.png
+1023,Kerberos Veil,8,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,205,90,,,,,,"[""Frozen""]",,,,[421],[282],,armor/kerberos_hood.png
+1024,Plagued Greaves,10,Legs,1,,,"[""Warrior""]",,,,310,122,,,1,48,,,,,,[358],[1025],,armor/cursed_leggings.png
+1025,Cursed Ortanite,10,Material,1,,,,,,,,,,,,,,,,,,,"[1247,1249,1248,1252,1259,1245,1266,1265,1264,1243,1242,1255,1257,1262,1260,1261,1263,1250,1251,1281,1258,1254,1253,1285,1244,1246,1256,1273,1027,1035,1036,1026,1054,1047,1041,1043,1048,1055,1049,1042,1045,1050,1046,1051,1040,1044,1028,1037,1029,1033,1024,1034,1032,1031,1039]",,materials/cursed_ortanite.png
+1026,Banshee Veil,10,Head,1,,,"[""Mage""]",,,,122,310,,,,,48,,,,,[358],[1025],,armor/cursed_hood.png
+1027,Badb Catha,10,Weapon,1,,,"[""Thief""]",,310,,,,32,,,,,,"[""T. Dex ↓""]",,"[""Dex ↑""]",[358],[1025],,weapons/cursed_bow.png
+1028,Macha Pillar,10,Weapon,1,,,"[""Mage""]",,,310,,,,,,32,32,,"[""Mag ↓""]",,"[""Mag ↑""]",[358],[1025],,weapons/cursed_staff.png
+1029,Neman Havoc,10,Weapon,1,,,"[""Warrior""]",,310,,,,,,,32,32,,"[""Att ↓""]",,"[""Att ↑""]",[358],[1025],,weapons/cursed_blade.png
+1030,Raven Boots,10,Legs,1,,,"[""Thief""]",,,,310,122,48,,,,,,,,,[358],,,armor/cursed_boots.png
+1031,Raven Veil,10,Head,1,,,"[""Thief""]",,,,310,122,48,,,,,,,,,[358],[1025],,armor/cursed_hood.png
+1032,Raven Garb,10,Armor,1,,,"[""Thief""]",,,,310,122,48,,,,,,,,,[358],[1025],,armor/cursed_armor.png
+1033,Plagued Cuirass,10,Armor,1,,,"[""Warrior""]",,,,310,122,,,1,48,,,,,,[358],[1025],,armor/cursed_armor.png
+1034,Plagued Helmet,10,Head,1,,,"[""Warrior""]",,,,310,122,,,1,48,,,,,,[358],[1025],,armor/cursed_helm.png
+1035,Banshee Boots,10,Legs,1,,,"[""Mage""]",,,,122,310,,,,,48,,,,,[358],[1025],,armor/cursed_boots.png
+1036,Banshee Robe,10,Armor,1,,,"[""Mage""]",,,,122,310,,,,,48,,,,,[358],[1025],,armor/cursed_robe.png
+1037,Morrigan's Scroll,10,Off-hand,1,,,"[""Mage""]",,,64,,,,,-50,,130,,"[""T. Res ↓↓""]",,,[358],"[1025,267]",,wards/scroll_yellow.png
+1038,Eye of the Morrigan,10,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,12,12,8,8,8,2,,,,,,,,"[423,358]",,,jewels/35.png
+1039,Realm Katar,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,12,12,,,12,1,,,,,,,,[358],"[1025,599]",,wards/katar.png
+1040,Fey Raven Garb,10,Armor,1,,,"[""Thief""]",,,,335,290,96,,-3,-250,-250,,,,,[358],[1025],,armor/cursed_armor.png
+1041,Fey Banshee Boots,10,Legs,1,,,"[""Mage""]",,,,290,335,,,,-250,-250,,,,,[358],[1025],,armor/cursed_boots.png
+1042,Fey Neman Havoc,10,Weapon,1,,,"[""Warrior""]",,335,96,,,,,-1,-250,-250,,"[""Att ↓""]",,"[""Att ↑""]",[358],[1025],,weapons/cursed_blade.png
+1043,Fey Banshee Robe,10,Armor,1,,,"[""Mage""]",,,,290,335,,,-1,-250,-250,,,,,[358],[1025],,armor/cursed_robe.png
+1044,Fey Raven Veil,10,Head,1,,,"[""Thief""]",,,,335,290,96,,-3,-250,-250,,,,,[358],[1025],,armor/cursed_hood.png
+1045,Fey Plagued Cuirass,10,Armor,1,,,"[""Warrior""]",,,,335,290,,,3,-250,-250,,,,,[358],[1025],,armor/cursed_armor.png
+1046,Fey Plagued Helmet,10,Head,1,,,"[""Warrior""]",,,,335,290,,,3,-250,-250,,,,,[358],[1025],,armor/cursed_helm.png
+1047,Fey Badb Catha,10,Weapon,1,,,"[""Thief""]",,342,,,,96,2,,-250,-250,,"[""T. Dex ↓""]",,"[""Dex ↑""]",[358],[1025],,weapons/cursed_bow.png
+1048,Fey Banshee Veil,10,Head,1,,,"[""Mage""]",,,,290,335,,,,-250,-250,,,,,[358],[1025],,armor/cursed_hood.png
+1049,Fey Macha Pillar,10,Weapon,1,,,"[""Mage""]",,,342,,,,,-1,-250,-250,,"[""Mag ↓""]",,"[""Mag ↑""]",[358],[1025],,weapons/cursed_staff.png
+1050,Fey Plagued Greaves,10,Legs,1,,,"[""Warrior""]",,,,335,290,,,3,-250,-250,,,,,[358],[1025],,armor/cursed_leggings.png
+1051,Fey Raven Boots,10,Legs,1,,,"[""Thief""]",,,,335,290,96,,-3,-250,-250,,,,,[358],[1025],,armor/cursed_boots.png
+1052,Smelly Shoes,8,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,88,182,1,,,,,"[""Poisoned"",""Blight""]",,,,[273],"[346,262]",,armor/boots.png
+1053,Fairy's Scroll,7,Off-hand,1,,,"[""Mage""]",,,,,,64,,-22,,182,,,,,[273],"[346,268]",,wards/scroll_green.png
+1054,Crowsong,10,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,272,272,,,32,,,,,,"[""Def ↓"",""Res ↓""]",,"[""Def ↑"",""Res ↑""]",[358],[1025],,weapons/cursed_lute.png
+1055,Fey Crowsong,10,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,322,322,,,32,,,-250,-250,,"[""Def ↓"",""Res ↓""]",,"[""Def ↑"",""Res ↑""]",[358],[1025],,weapons/cursed_lute.png
+1056,Ambrosia,8,Curative,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Att ↓"",""Mag ↓"",""Def ↓"",""Def ↓↓"",""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓"",""Res ↓↓"",""Res ↓"",""T. Def ↓↓"",""T. Att ↓↓"",""T. Mag ↓↓"",""T. Res ↓↓"",""Dex ↓""]",,"[423,358]",,,useables/ambrosia.png
+1057,Great Lizarr Armor,6,Armor,,,,"[""Warrior""]",,,,130,6,,,,,,,,,,"[398,397]","[262,276]",,armor/lizarr_armor.png
+1058,Great Lizarr Boots,6,Legs,,,,"[""Thief""]",,,,96,88,3,,,,,,,,,"[397,364]",[262],,armor/lizarr_boots.png
+1059,Great Lizarr Leggings,6,Legs,,,,"[""Warrior""]",,,,130,12,,,,,,,,,,[397],[262],,armor/lizarr_leggings.png
+1060,Coral Boots,8,Legs,,,,"[""Mage"",""Thief"",""Warrior""]",,,,-175,202,,,,,,,,,,"[361,359,360]","[249,280]",,armor/coral_boots.png
+1061,Coral Hood,8,Head,,,,"[""Mage""]",,,,-175,202,,,,,,,,,,[360],"[249,280]",,armor/coral_hood.png
+1062,Coral Armor,8,Armor,,,,"[""Warrior""]",,,,-175,202,,,,,,,,,,[361],"[249,280]",,armor/coral_mail.png
+1063,Coral Robe,8,Armor,,,,"[""Mage""]",,,,-175,202,,,,,,,,,,[360],"[249,280]",,armor/coral_robe.png
+1064,Coral Helmet,8,Head,,,,"[""Warrior""]",,,,-175,202,,,,,,,,,,[361],"[249,280]",,armor/coral_helmet.png
+1065,Coral Garb,8,Armor,,,,"[""Thief""]",,,,-175,202,,,,,,,,,,[359],"[249,280]",,armor/coral_mail.png
+1066,Coral Cowl,8,Head,,,,"[""Thief""]",,,,-175,202,,,,,,,,,,[359],"[249,280]",,armor/coral_hood.png
+1067,Untamed Bull's Eye,6,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,8,8,,,,2,,,32,,,,,"[277,421]",,,jewels/34.png
+1068,Raging Bull's Eye,6,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,8,8,,,,,1,,,,,,,[277],,,jewels/34.png
+1069,Bull's Eye,6,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,4,4,,,1,32,,,,,,[277],,,jewels/34.png
+1070,Great Lizarr Blade,6,Weapon,,,,"[""Warrior""]",,130,,,,,1,,,,,,,,"[398,397,364]",[276],,weapons/lizarr_blade.png
+1071,Lesser Jewel of Mana,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,8,,,,,,,,jewels/29.png
+1072,Jewel of Resistance,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,4,,,,,,,,,,,,,jewels/15.png
+1073,Jewel of Health,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,12,,,,,,,,,jewels/18.png
+1074,Magician's Shoes,1,Legs,,1,,"[""Mage""]",,,,7,20,,,,,,,,,,,[345],,armor/mages_boots.png
+1075,Ankou's Ring,7,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Dark,,,,,,,,,,"[""Asleep"",""Cursed""]",,,,"[119,310]",,,acc/sacrifice_ring.png
+1076,Briny Pendant,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Rot"",""Toxic"",""Poisoned"",""Blight""]",,,,[375],,,acc/blight_pendant.png
+1077,Jewel of the Deep,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,18,,,,,30,,,,,[375],,,jewels/36.png
+1078,Phantom Blinders,9,Head,1,,,"[""Thief""]",,,,205,165,90,2,,,,,,,,[367],"[264,302]",,armor/blue_blinders.png
+1079,Heretic's Jewel,7,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,"[""T. Res ↓"",""T. Res ↓↓""]",,,"[33,176,247,386,304]",,,jewels/27.png
+1080,Hydra Staff,7,Weapon,1,,,"[""Mage""]",,,162,,,,,,,,,,,"[""Fire Def"",""Water Def"",""Earth Def"",""Lightning Def""]",[373],[302],,weapons/hydra_staff.png
+1081,Daybreak [bow],10,Weapon,1,,,"[""Thief""]",,260,20,,,60,,,,12,,,,,[374],[330],,weapons/dawn_bow.png
+1082,Turul Feather,8,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,22,1,,,,,,,,[376],,,jewels/50.png
+1083,Ring of Annwn,7,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,"[""Rot"",""Burning"",""Frozen"",""Paralyzed""]",,,,[222],,,acc/cursed_ring.png
+1084,Greater Attack Tonic,4,Other,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Att ↑↑""]","[277,432,431]",,,useables/attack_tonic.png
+1085,Greater Magic Tonic,4,Other,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Mag ↑↑""]","[277,432,431]",,,useables/magic_tonic.png
+1086,Wisp Staff,1,Weapon,,,,"[""Mage""]",,,22,,,,,,12,,,,,,[366],[263],,weapons/rune_staff.png
+1087,Blue Feather,3,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,8,,,,,,,,,[156],,,jewels/47.png
+1088,Red Feather,5,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,16,,,,,,,,,[196],,,jewels/48.png
+1089,Green Feather,4,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,12,,,,,,,,,[190],,,jewels/50.png
+1090,Yokai's Staff,4,Weapon,,,,"[""Mage""]",,,86,,,,,,,,,"[""Res ↓""]",,,[377],[252],,weapons/dark_staff.png
+1091,Leach,1,Weapon,,,,"[""Thief""]",,12,,,,,,,,,,"[""Burning"",""Bleeding""]",,,[23],"[262,263]",,weapons/dragon_dagger.png
+1092,Crow's Feathers,1,Armor,,,,"[""Thief""]",,,,5,7,12,,,,,,,,,[2],[262],,armor/harpy_feathers.png
+1093,Draugr Staff,3,Weapon,,,,"[""Mage""]",,,68,,,,,,,28,,,,,[389],[252],,weapons/dark_staff.png
+1094,Nightbreak [staff],10,Weapon,1,,,"[""Mage""]",Dark,,280,,,,,,,50,"[""Blind"",""Asleep""]",,,,[390],"[267,512]",,weapons/dawn_staff.png
+1095,Arisen Hydra Staff,10,Weapon,1,,,"[""Mage""]",,,242,,,,,,,,,,,"[""Fire Def"",""Water Def"",""Earth Def"",""Lightning Def""]",[370],[302],,weapons/hydra_staff.png
+1096,Leaches,2,Weapon,,,,"[""Thief""]",,28,,-5,,,,2,,,,,,,[154],[263],,weapons/kunai.png
+1097,Daybreak [staff],10,Weapon,1,,,"[""Mage""]",,,260,,,,,,,50,,,,,[374],[330],,weapons/dawn_staff.png
+1098,Mana Bow,1,Weapon,,,,"[""Mage""]",,,18,,,6,,,,,,,,,[366],[273],,weapons/draco_bow.png
+1099,Argent Leggings,10,Legs,,1,,"[""Warrior""]",,,,45,240,,,,,,,,,,,"[273,345]",,armor/rune_leggings.png
+1100,Argent Shield,10,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,155,,,21,,,,,,,,[273],,wards/rune_shield.png
+1101,Polished Aegis,10,Off-hand,,1,,"[""Thief"",""Warrior""]",,,,18,,,,34,64,,"[""Petrified""]",,,,,"[346,325]",,wards/aegis.png
+1102,Polished Mirror,10,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,-100,,360,,,,,,[346],,wards/mirror.png
+1103,Crusading Boots,10,Legs,,1,,"[""Mage""]",,,,244,30,,,,,,,,,,,"[346,273]",,armor/battlemage_boots.png
+1104,Court Jester's Outfit,10,Armor,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,85,85,,,,,,,,,,,"[264,275]",,armor/jester_outfit.png
+1105,Oisin Crown,10,Head,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,178,178,,,,,,,,,,,"[249,262,263]",,armor/antlers.png
+1106,Crusading Helmet,10,Head,,1,,"[""Mage""]",,,,244,60,,,,,,,,,,,"[346,273]",,armor/battlemage_helm.png
+1107,Fey Arrows,10,Off-hand,,1,,"[""Mage"",""Thief"",""Warrior""]",,96,,,3,,,-75,,,,,,,,"[273,275,283]",,wards/arcane_arrows.png
+1108,Fey Scroll,10,Off-hand,,1,,"[""Mage""]",,,56,,,,,-25,,,,,,,,[268],,wards/scroll_purple.png
+1109,Sage's Cane,1,Weapon,,1,,"[""Mage""]",,,18,,,,,,,6,,,,,,[283],,weapons/cane.png
+1110,Argent Armor,10,Armor,,1,,"[""Warrior""]",,,,45,240,,,,,,,,,,,"[273,345]",,armor/rune_armor.png
+1111,Argent Helmet,10,Head,,1,,"[""Warrior""]",,,,45,240,,,,,,,,,,,"[273,345]",,armor/rune_helmet.png
+1112,Archmage's Scroll,4,Off-hand,,1,,"[""Mage""]",,,17,,,,,-7,,,,,,,,[273],,wards/scroll.png
+1113,Flute,1,Weapon,,,,"[""Mage"",""Thief"",""Warrior""]",,11,11,,,,,,,,,"[""Asleep""]",,,,[273],,weapons/gold_flute.png
+1114,Yeti Mightycoat,10,Armor,,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,260,260,,,,80,,"[""Frozen"",""Def ↓"",""T. Def ↓""]",,,,[372],"[262,264,275,280]",,armor/great_yeti_armor.png
+1115,Daybreak [sword],10,Weapon,1,,,"[""Warrior""]",,260,,,,,,,25,25,,,,,[374],[330],,weapons/dawnbreaker.png
+1116,Iron Shield,2,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,5,,,,,,,,[263],,wards/buckler.png
+1117,Arisen Sea Axe,10,Weapon,1,,,"[""Warrior""]",Water,235,172,,,,,,,,,"[""Frozen""]",,,[368],[302],,weapons/sea_axe.png
+1118,Old Spear,1,Weapon,,,,"[""Warrior""]",,13,,,,,,,,,,,,,,[283],,weapons/spear.png
+1119,Scroll,2,Off-hand,,1,,"[""Mage""]",,,6,,,,,-1,,,,,,,,[273],,wards/scroll.png
+1120,Needles,1,Weapon,,1,,"[""Thief""]",,20,,-5,,,,2,,,,,,,,[345],,weapons/kunai.png
+1121,War Blinders,5,Head,,,,"[""Thief""]",,,,115,,32,2,,,,,,,,,"[264,276]",,armor/blinders.png
+1122,Tundric Staff,6,Weapon,,,,"[""Mage""]",,,145,,,12,,,,32,,,,,[392],[257],,weapons/elven_staff.png
+1123,Nightbreak [bow],10,Weapon,1,,,"[""Thief""]",Dark,280,20,,,60,,,,12,"[""Blind"",""Asleep""]",,,,[390],"[267,512]",,weapons/dawn_bow.png
+1124,Nightbreak [sword],10,Weapon,1,,,"[""Warrior""]",Dark,280,,,,,,,25,25,"[""Blind"",""Asleep""]",,,,[390],"[267,512]",,weapons/dawnbreaker.png
+1125,Goblin Lord's Staff,1,Weapon,1,,,"[""Mage""]",,,25,,,,,,,10,,,,,[20],[283],,weapons/archistaff.png
+1126,Tundric Katana,7,Weapon,,,,"[""Thief""]",,165,,,,45,2,,,,,,,,[393],[257],,weapons/katana.png
+1127,Old Mace,1,Weapon,,,,"[""Warrior""]",,14,,,,,,,,,,,,,[1],[263],,weapons/mace.png
+1128,Hammer,1,Weapon,,,,"[""Warrior""]",,18,,,,,,,,,,,,,,[263],,weapons/hammer.png
+1129,Bandit's Axe,1,Weapon,1,,,"[""Warrior""]",,22,,5,,,,,,,,,,,[229],[263],,weapons/battle_axe.png
+1130,Bandit's Dagger,1,Weapon,,,,"[""Thief""]",,12,,,,4,,,,,,"[""Bleeding""]",,,[230],[263],,weapons/dagger.png
+1131,Greater Wisp Staff,3,Weapon,,,,"[""Mage""]",,,68,,,,,,40,,,,,,[61],[263],,weapons/rune_staff.png
+1132,Fjalar Mantle,10,Armor,,,,"[""Thief""]",,,,222,134,172,,,,,,,,,[395],"[262,264,294,275]",,armor/harpy_feathers.png
+1133,Fey Dragon Cowl,7,Head,,,,"[""Thief""]",Dragon,,,85,105,42,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_hood.png
+1134,Fey Dragon Boots,7,Legs,,,,"[""Thief""]",Dragon,,,82,105,42,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_boots.png
+1135,Fey Dragon Helmet,7,Head,1,,,"[""Warrior""]",Dragon,,,82,112,32,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_helm.png
+1136,Fey Dragon Leggings,7,Legs,,,,"[""Warrior""]",Dragon,,,82,112,32,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_leggings.png
+1137,Fey Dragon Armor,7,Armor,1,,,"[""Thief""]",Dragon,,,78,102,42,1,,,,,,,,[399],"[255,275,345]",,armor/wyvern_plate.png
+1138,Fey Dragon Hood,7,Head,1,,,"[""Mage""]",Dragon,,,72,105,42,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_hood.png
+1139,Fey Dragon Chestmail,7,Armor,,,,"[""Warrior""]",Dragon,,,82,102,32,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_plate.png
+1140,Fey Dragon Mage's Boots,7,Legs,,,,"[""Mage""]",Dragon,,,55,112,42,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_boots.png
+1141,Fey Dragon Robe,7,Armor,,,,"[""Mage""]",Dragon,,,62,122,,,,,,,,,,[399],"[255,275,345]",,armor/wyvern_robe.png
+1142,Summoning Scroll,7,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[386,494,404]",,,useables/summoning_scroll.png
+1143,First Horseman's Boots,7,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,165,165,,,,,,,,,,[400],"[252,346,261,275]",,armor/horseman_boots.png
+1144,First Horseman's Armor,7,Armor,1,,,"[""Thief"",""Warrior""]",,,,195,,,,,,,,,,,[400],"[252,346,261,275]",,armor/horseman_armor.png
+1145,First Horseman's Cloak,7,Armor,1,,,"[""Mage""]",,,,,195,,,,,,,,,,[400],"[252,346,261,275]",,armor/horseman_robe.png
+1146,First Horseman's Hood,7,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,165,165,,,,,,,,,,[400],"[252,346,261,275]",,armor/horseman_hood.png
+1147,Ashen Phoenician Shoes,10,Legs,1,,,"[""Mage""]",,,,112,275,,,3,,99,,,,,[403],"[259,346,294,275]",,armor/phoenix_boots.png
+1148,Ashen Phoenician Robe,10,Armor,1,,,"[""Mage""]",,,,112,275,,,3,,99,,,,,[403],"[259,346,294,275]",,armor/phoenix_robe.png
+1149,Ashen Phoenician Hood,10,Head,1,,,"[""Mage""]",,,,112,275,,,3,,99,,,,,[403],"[259,346,294,275]",,armor/phoenix_hood.png
+1150,Ashen Phoenician Helmet,10,Head,1,,,"[""Warrior""]",,,,275,112,,,3,99,,,,,,[403],"[259,346,294,275]",,armor/phoenix_helm.png
+1151,Ashen Phoenician Greaves,10,Legs,1,,,"[""Warrior""]",,,,275,112,,,3,99,,,,,,[403],"[259,346,294,275]",,armor/phoenix_leggings.png
+1152,Ashen Phoenician Garb,10,Armor,1,,,"[""Thief""]",,,,275,112,52,,3,,,,,,,[403],"[259,294,275]",,armor/phoenix_garb.png
+1153,Ashen Phoenician Cowl,10,Head,1,,,"[""Thief""]",,,,275,112,52,,3,,,,,,,[403],"[259,346,294,275]",,armor/phoenix_hood.png
+1154,Ashen Phoenician Cuirass,10,Armor,1,,,"[""Warrior""]",,,,275,112,,,3,99,,,,,,[403],"[259,346,294,275]",,armor/phoenix_armor.png
+1155,Second Horseman's Armor,8,Armor,1,,,"[""Thief"",""Warrior""]",,,,222,,,,,,,"[""Cursed"",""Att ↓""]",,,,[402],"[252,346,261,275]",,armor/horseman_armor.png
+1156,Second Horseman's Hood,8,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,195,195,,,,,,,,,,[402],"[252,346,261,275]",,armor/horseman_hood.png
+1157,Second Horseman's Boots,8,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,195,195,,,,,,,,,,[402],"[252,346,261,275]",,armor/horseman_boots.png
+1158,Final Horseman's Cloak,10,Armor,1,,,"[""Mage""]",,,,,299,,,,,,"[""Cursed"",""Mag ↓""]",,,,[401],"[252,346,261,275]",,armor/horseman_robe.png
+1159,Final Horseman's Armor,10,Armor,1,,,"[""Thief"",""Warrior""]",,,,299,,,,,,,"[""Cursed"",""Att ↓""]",,,,[401],"[252,346,261,275]",,armor/horseman_armor.png
+1160,Final Horseman's Hood,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,265,265,,,,,,,,,,[401],"[252,346,261,275]",,armor/horseman_hood.png
+1161,Final Horseman's Boots,10,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,265,265,,,,,,,,,,[401],"[252,346,261,275]",,armor/horseman_boots.png
+1162,Second Horseman's Cloak,8,Armor,1,,,"[""Mage""]",,,,,222,,,,,,"[""Cursed"",""Mag ↓""]",,,,[402],"[252,346,261,275]",,armor/horseman_robe.png
+1163,Staff of the Chimera,10,Weapon,1,,,"[""Mage""]",,,232,,,,,,,,,,,"[""Dmg ↑""]",[405],"[346,272,345]",,weapons/staff_of_tiamat.png
+1164,Axe of the Chimera,10,Weapon,1,,,"[""Warrior""]",,232,,,,,,,,,,,,"[""Dmg ↑""]",[405],"[346,272,345]",,weapons/axe_of_tiamat.png
+1165,Bow of the Chimera,10,Weapon,1,,,"[""Thief""]",,232,,,,26,,,,,,,,"[""Dmg ↑""]",[405],"[346,272,345]",,weapons/bow_of_tiamat.png
+1166,Third Horseman's Hood,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,215,215,,,,,,,,,,[406],"[252,346,261,275]",,armor/horseman_hood.png
+1167,Third Horseman's Boots,9,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,215,215,,,,,,,,,,[406],"[252,346,261,275]",,armor/horseman_boots.png
+1168,Fey Yeti Coat,9,Armor,1,,,"[""Mage"",""Thief"",""Warrior""]",Water,,,212,212,,,5,120,120,"[""Frozen"",""T. Res ↓"",""Res ↓""]",,,,"[404,422]","[256,346,262,275,345]",,armor/yeti_armor.png
+1169,Azure Pinion,8,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,24,,-40,,,,,-40,,,,,"[408,422]",,,jewels/47.png
+1170,Gold Pinion,8,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,-60,3,40,,,,,,,,,,,"[408,422]",,,jewels/49.png
+1171,Crimson Pinion,8,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,24,,-40,,,,,,-40,,,,,"[408,422]",,,jewels/48.png
+1172,Emerald Pinion,8,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,-60,,40,,,,,,,,,,"[408,422]",,,jewels/50.png
+1173,Third Horseman's Armor,9,Armor,1,,,"[""Thief"",""Warrior""]",,,,255,,,,,,,"[""Cursed"",""Att ↓""]",,,,[406],"[252,346,261,275]",,armor/horseman_armor.png
+1174,Third Horseman's Cloak,9,Armor,1,,,"[""Mage""]",,,,,255,,,,,,"[""Cursed"",""Mag ↓""]",,,,[406],"[252,346,261,275]",,armor/horseman_robe.png
+1175,Crusading Armor,10,Armor,,1,,"[""Mage""]",,,,244,30,,,,,,,,,,,"[346,273]",,armor/battlemage_armor.png
+1176,Ashen Phoenician Shield,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,35,,,,,,,[403],"[259,346,294,275]",,wards/phoenix_shield.png
+1177,Contraption,5,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,2,2,2,2,2,,1,8,8,,,,,"[420,288,440]",,,acc/gizmo.png
+1178,Final Horseman's Scythe,10,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,286,286,,,,4,,-70,-70,,"[""Cursed""]",,,[401],"[252,346,261,275]",,weapons/horseman_scythe.png
+1179,Second Horseman's Staff,8,Weapon,1,,,"[""Mage""]",,,217,,,,,,-70,,,"[""Poisoned"",""Blight""]",,,"[402,422]","[252,346,261,275]",,weapons/horseman_staff.png
+1180,Fey Eye,6,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,14,14,14,14,14,,,32,32,"[""Blind""]",,,,[407],,,acc/crystal_eye.png
+1181,Fey Gazing Staff,6,Weapon,1,,1,"[""Mage""]",,,148,,,24,,,,,,,,"[""Dex ↑""]",[407],[258],,weapons/gazing_eye.png
+1182,Eye of the Feyger,6,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,152,152,,,,,,,,,,,"[""T. Crit ↑↑""]",[407],"[249,258,294]",,weapons/bone_lute.png
+1183,First Horseman's Spear,7,Weapon,1,,,"[""Thief"",""Warrior""]",,200,,,,,,,-70,,,,,,[400],"[252,346,261,275]",,weapons/horseman_spear.png
+1184,Third Horseman's Gada,9,Weapon,1,,,"[""Thief"",""Warrior""]",,244,,,,,,,-70,,,"[""Stunned"",""Dex ↓""]",,,"[422,406]","[252,346,261,275]",,weapons/horseman_gada.png
+1185,Arisen Surtr's Cuirass,10,Armor,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,220,220,,,8,,,,,,,[412],"[261,266,275]",,armor/royal_chestplate.png
+1186,Surtr's Cuirass,5,Armor,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,98,98,,,7,,,,,,,"[411,412]","[261,266,275]",,armor/royal_chestplate.png
+1187,Arisen Surtr's Helmet,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,220,220,,,,400,,,,,,[412],"[261,266,275]",,armor/royal_helm.png
+1188,Surtr's Helmet,5,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,98,98,,,,120,,,,,,"[411,412]","[261,266,275]",,armor/royal_helm.png
+1189,Saturn's Eye,6,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,6,6,6,6,,,1,8,8,,,,,"[411,412]",,,jewels/34.png
+1190,Surtr's Shield,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,78,78,,,-50,,,,,,,"[411,412]","[266,269,345]",,wards/phoenix_shield.png
+1191,Surtr's Boots,5,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,98,98,78,,,,,,,,,"[411,412]","[261,266,275]",,armor/royal_boots.png
+1192,Arisen Surtr's Sword,10,Weapon,1,,1,"[""Mage"",""Thief"",""Warrior""]",,244,244,,,56,2,,,60,,"[""Blind""]",,,[412],"[266,269,364,345]",,weapons/durandal.png
+1193,Arisen Surtr's Shield,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,198,198,,,-75,,,,,,,[412],"[266,269,345]",,wards/phoenix_shield.png
+1194,Arisen Surtr's Boots,10,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,220,220,152,,,,,,,,,[412],"[261,266,275]",,armor/royal_boots.png
+1195,Surtr's Sword,5,Weapon,1,,1,"[""Mage"",""Thief"",""Warrior""]",,122,122,,,36,2,,,60,,"[""Blind""]",,,"[411,430,412]","[266,269,364,345]",,weapons/durandal.png
+1197,Tundric Sword,5,Weapon,,,,"[""Warrior""]",,119,,,,30,1,,,,,"[""Bleeding""]",,,[396],[257],,weapons/elven_sword.png
+1198,Omega Myrddin,10,Weapon,1,,,"[""Mage""]",,,292,,,,,,92,160,,"[""T. Def ↓"",""T. Res ↓""]",,,[312],"[513,268,283]",,weapons/black_witch_staff.png
+1199,Omega Myrddin Cowl,10,Head,1,,,"[""Thief""]",,,,265,,82,,,,68,,,,,[312],"[268,275]",,armor/royal_hood.png
+1200,Omega Myrddin Robe,10,Armor,1,,,"[""Mage""]",,,,,265,,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+1201,Omega Myrddin Harp,10,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,270,270,,,,,,,,,,,"[""Fire Def"",""Water Def"",""Earth Def"",""Lightning Def"",""Holy Def"",""Dark Def""]",[312],"[513,268]",,weapons/gold_harp.png
+1202,Omega Myrddin Cloak,10,Armor,1,,,"[""Thief""]",,,,265,165,82,,,,,,,,,[312],"[268,275]",,armor/arcane_robe.png
+1203,Omega Myrddin Hood,10,Head,1,,,"[""Mage""]",,,,144,265,,,,,88,,,,,[312],"[268,275]",,armor/royal_hood.png
+1204,Omega Myrddin Shield,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,31,180,,,,,,[312],"[513,268]",,wards/avalon_shield.png
+1205,Scroll of Chaos,4,Item,,1,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[33,176,347,247,386,348,404,304]",,,useables/chaos_scroll.png
+1206,Arisen Gazing Staff,10,Weapon,1,,1,"[""Mage""]",,,260,,96,,,,,,,,,,[414],[258],,weapons/gazing_eye.png
+1207,Arisen Silk Crossbow,9,Weapon,1,,,"[""Thief""]",,222,96,,,48,2,,,,,"[""Poisoned""]",,,[416],[294],,weapons/silk_crossbow.png
+1208,Arisen Oxen Axe,9,Weapon,1,,,"[""Warrior""]",,192,,232,,,,21,,,,"[""T. Def ↓""]",,,[418],[261],,weapons/oxen_axe.png
+1209,Arisen Axe of Tiamat,10,Weapon,1,,,"[""Warrior""]",Dragon,270,,,,,,,,,,"[""Blight""]",,,[419],[272],,weapons/axe_of_tiamat.png
+1210,Arisen Staff of Tiamat,10,Weapon,1,,,"[""Mage""]",Dragon,,270,,,,,,,270,,"[""Blight""]",,,[419],[272],,weapons/staff_of_tiamat.png
+1211,Arisen Bow of Typhon,10,Weapon,1,,,"[""Thief""]",Dragon,290,,-80,-80,122,2,,,,,"[""Blight""]",,,[417],[272],,weapons/bow_of_typhon.png
+1212,Baneblade,9,Weapon,,1,,"[""Thief"",""Warrior""]",Dark,205,,,,,,,,,,"[""Cursed""]",,,,"[346,273,345]",,weapons/nag_sword.png
+1213,Arisen Fog Blade,10,Weapon,1,,,"[""Warrior""]",Dark,290,,-48,-48,,1,,,,,"[""Blind"",""Asleep""]",,,[415],[260],,weapons/fog_blade.png
+1214,Arisen Bow of Tiamat,10,Weapon,1,,,"[""Thief""]",Dragon,270,155,,,98,,,,,,"[""Blight""]",,,[419],[272],,weapons/bow_of_tiamat.png
+1215,Arisen Staff of Typhon,10,Weapon,1,,,"[""Mage""]",Dragon,,290,-40,-40,22,,,,290,,"[""Blight""]",,,[417],[272],,weapons/staff_of_typhon.png
+1216,Arisen Axe of Typhon,10,Weapon,1,,,"[""Warrior""]",Dragon,290,,-40,-40,,,,,,,"[""Blight""]",,,[417],[272],,weapons/axe_of_typhon.png
+1217,Everlasting Torch,4,Off-hand,,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,2,,,"[""Blind""]","[""Burning""]",,,[420],,,useables/torch.png
+1218,Excalibur [mimic],5,Weapon,1,,,"[""Thief"",""Warrior""]",,121,,,,,1,,,,,"[""Asleep""]",,,"[420,430]","[266,275]",,weapons/ljosalfar_sword.png
+1219,Band of False Gods,9,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",Arcane,,,,,,,,,,,,,,[422],,,acc/gods_band.png
+1220,Carl's Ring [Mimic],10,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,72,72,36,36,24,,,200,200,"[""Lulled""]",,,,[422],,,acc/ring.png
+1221,Fey Yeti Horns,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,197,197,,,3,,,,,,,[404],"[249,261,262]",,armor/antlers.png
+1222,Fey Chimera Armor,10,Armor,1,,,"[""Warrior""]",,,,262,115,,2,,,,,,,,[405],"[255,262]",,armor/wyvern_plate.png
+1223,Fey Chimera Greaves,10,Legs,1,,,"[""Warrior""]",,,,262,115,,2,,,,,,,,[405],"[255,262]",,armor/wyvern_leggings.png
+1224,Fey Chimera Helmet,10,Head,1,,,"[""Warrior""]",,,,262,115,,2,,,,,,,,[405],"[255,262]",,armor/wyvern_helm.png
+1225,Runic Robe,6,Armor,,,,"[""Mage""]",,,,45,60,,,,,30,,,,,[407],"[268,275]",,armor/arcane_robe.png
+1226,Runic Boots,6,Legs,,,,"[""Mage""]",,,,45,55,,,,,20,,,,,[407],"[268,275]",,armor/arcane_boots.png
+1227,Runic Hat,6,Head,,,,"[""Mage""]",,,,50,60,,,,,30,,,,,[407],"[268,275]",,armor/arcane_hat.png
+1228,Fishing Line,1,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/fishing_line.png
+1229,Strong Fishing Line,3,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/strong_fishing_line.png
+1230,Great Fishing Line,5,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/great_fishing_line.png
+1231,Azure Carp,1,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish1.png
+1232,Balor Muskellunge,6,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish3.png
+1233,Crimson Snapper,3,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish3.png
+1234,Embered Snapper,5,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish3.png
+1235,Emerald Trout,2,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish2.png
+1236,Sea Bass,3,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish2.png
+1237,Unremarkable Fish,1,Other,,,,,,,,,,,,,,,,,,,,,,materials/fish1.png
+1238,Ashen Phoenician Boots,10,Legs,1,,,"[""Thief""]",,,,275,112,52,,3,,,,,,,[403],"[259,346,294,275]",,armor/phoenix_boots.png
+1239,Mighty Fishing Line,7,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/strong_fishing_line.png
+1240,Freyja's Charm,10,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[329],,,acc/draco_amulet.png
+1241,Dragoon's Charm,5,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,acc/draco_amulet.png
+1242,Arisen Fey Macha Pillar,10,Weapon,1,,,"[""Mage""]",,,376,,,,,-1,-275,-275,,"[""Mag ↓""]",,"[""Mag ↑""]",[423],"[1025,346]",,weapons/cursed_staff.png
+1243,Arisen Fey Crowsong,10,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,354,354,,,35,,,-275,-275,,"[""Def ↓"",""Res ↓""]",,"[""Def ↑"",""Res ↑""]",[423],"[1025,346]",,weapons/cursed_lute.png
+1244,Arisen Raven Boots,10,Legs,1,,,"[""Thief""]",,,,341,122,52,,,,,,,,,[423],"[1025,346]",,armor/cursed_boots.png
+1245,Arisen Fey Badb Catha,10,Weapon,1,,,"[""Thief""]",,376,,,,105,4,,-275,-275,,"[""T. Dex ↓""]",,"[""Dex ↑""]",[423],"[1025,346]",,weapons/cursed_bow.png
+1246,Arisen Raven Garb,10,Armor,1,,,"[""Thief""]",,,,341,122,52,,,,,,,,,[423],"[1025,346]",,armor/cursed_armor.png
+1247,Arisen Badb Catha,10,Weapon,1,,,"[""Thief""]",,341,,,,35,,,,,,"[""T. Dex ↓""]",,"[""Dex ↑""]",[423],"[1025,346]",,weapons/cursed_bow.png
+1248,Arisen Banshee Robe,10,Armor,1,,,"[""Mage""]",,,,134,310,,,,,52,,,,,[423],"[1025,346]",,armor/cursed_robe.png
+1249,Arisen Banshee Boots,10,Legs,1,,,"[""Mage""]",,,,134,310,,,,,52,,,,,[423],"[1025,346]",,armor/cursed_boots.png
+1250,Arisen Fey Raven Veil,10,Head,1,,,"[""Thief""]",,,,368,290,105,,-3,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_hood.png
+1251,Arisen Macha Pillar,10,Weapon,1,,,"[""Mage""]",,,341,,,,,,35,35,,"[""Mag ↓""]",,"[""Mag ↑""]",[423],"[1025,346]",,weapons/cursed_staff.png
+1252,Arisen Banshee Veil,10,Head,1,,,"[""Mage""]",,,,134,310,,,,,52,,,,,[423],"[1025,346]",,armor/cursed_hood.png
+1253,Arisen Plagued Greaves,10,Legs,1,,,"[""Warrior""]",,,,341,122,,,1,52,,,,,,[423],"[1025,346]",,armor/cursed_leggings.png
+1254,Arisen Plagued Cuirass,10,Armor,1,,,"[""Warrior""]",,,,341,122,,,1,52,,,,,,[423],"[1025,346]",,armor/cursed_armor.png
+1255,Arisen Fey Neman Havoc,10,Weapon,1,,,"[""Warrior""]",,368,115,,,,,-1,-275,-275,,"[""Att ↓""]",,"[""Att ↑""]",[423],"[1025,346]",,weapons/cursed_blade.png
+1256,Arisen Raven Veil,10,Head,1,,,"[""Thief""]",,,,341,122,52,,,,,,,,,[423],"[1025,346]",,armor/cursed_hood.png
+1257,Arisen Fey Plagued Cuirass,10,Armor,1,,,"[""Warrior""]",,,,368,290,,,3,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_armor.png
+1258,Arisen Neman Havoc,10,Weapon,1,,,"[""Warrior""]",,341,,,,,,,35,35,,"[""Att ↓""]",,"[""Att ↑""]",[423],"[1025,346]",,weapons/cursed_blade.png
+1259,Arisen Crowsong,10,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",,299,299,,,35,,,,,,"[""Def ↓"",""Res ↓""]",,"[""Def ↑"",""Res ↑""]",[423],"[1025,346]",,weapons/cursed_lute.png
+1260,Arisen Fey Plagued Helmet,10,Head,1,,,"[""Warrior""]",,,,368,290,,,3,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_helm.png
+1261,Arisen Fey Raven Boots,10,Legs,1,,,"[""Thief""]",,,,368,290,105,,-3,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_boots.png
+1262,Arisen Fey Plagued Greaves,10,Legs,1,,,"[""Warrior""]",,,,368,290,,,3,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_leggings.png
+1263,Arisen Fey Raven Garb,10,Armor,1,,,"[""Thief""]",,,,368,290,105,,-3,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_armor.png
+1264,Arisen Fey Banshee Veil,10,Head,1,,,"[""Mage""]",,,,319,335,,,,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_hood.png
+1265,Arisen Fey Banshee Robe,10,Armor,1,,,"[""Mage""]",,,,319,335,,,-1,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_robe.png
+1266,Arisen Fey Banshee Boots,10,Legs,1,,,"[""Mage""]",,,,319,335,,,,-275,-275,,,,,[423],"[1025,346]",,armor/cursed_boots.png
+1267,Badb Boots,7,Legs,1,,,"[""Thief""]",,,,182,72,32,,,,,,,,,[425],"[407,346]",,armor/cursed_boots.png
+1268,Badb Veil,7,Head,1,,,"[""Thief""]",,,,182,72,32,,,,,,,,,[425],"[407,346]",,armor/cursed_hood.png
+1269,Badb Warbow,7,Weapon,1,,,"[""Thief""]",,182,,,,32,,,,,,"[""Dex ↓""]",,"[""Dex ↑""]",[425],"[407,346]",,weapons/cursed_bow.png
+1270,Shaman's Charm,2,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,acc/troll_pendant.png
+1271,Badb's Feathers,7,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,24,,,,24,1,,,,,"[""Poisoned"",""Rot""]",,,[425],"[345,283]",,wards/arcane_arrows.png
+1272,Badb Garb,7,Armor,1,,,"[""Thief""]",,,,182,72,32,,,,,,,,,[425],"[407,346]",,armor/cursed_armor.png
+1273,Arisen Realm Katar,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,13,14,,,13,3,,,,,,,,[423],"[1025,346]",,wards/katar.png
+1274,Macha Boots,8,Legs,1,,,"[""Mage""]",,,,72,198,,,,,48,,,,,[426],"[513,346]",,armor/cursed_boots.png
+1275,Macha's Scroll,8,Off-hand,1,,,"[""Mage""]",,,64,,64,,,,,64,,,,,[426],[346],,wards/scroll_dragon.png
+1276,Macha Veil,8,Head,1,,,"[""Mage""]",,,,72,198,,,,,48,,,,,[426],"[513,346]",,armor/cursed_hood.png
+1277,Fey Macha Veil,8,Head,1,,,"[""Mage""]",,,,140,210,,,,-150,-150,,,,,[426],"[513,346]",,armor/cursed_hood.png
+1278,Macha Warstaff,8,Weapon,1,,,"[""Mage""]",,,198,,,,,,32,32,,"[""Mag ↓""]",,"[""Mag ↑""]",[426],"[513,346]",,weapons/cursed_staff.png
+1279,Neman's Protection,6,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,48,48,,,22,,,"[""Asleep""]",,,,[424],"[256,390]",,wards/bone_shield.png
+1280,Fey Macha Warstaff,8,Weapon,1,,,"[""Mage""]",,,210,,,,,-1,-150,-150,,"[""Mag ↓""]",,"[""Mag ↑""]",[426],"[513,346]",,weapons/cursed_staff.png
+1281,Arisen Morrigan's Scroll,10,Off-hand,1,,,"[""Mage""]",,,77,,,,,-55,,143,,"[""T. Res ↓↓""]",,,[423],"[1025,346]",,wards/scroll_yellow.png
+1282,Neman Helmet,6,Head,1,,,,,,,148,72,,,1,,,,,,,[424],"[256,390]",,armor/cursed_helm.png
+1283,Neman Warsword,6,Weapon,1,,,"[""Warrior""]",,148,,,,,,,32,32,,"[""Att ↓""]",,"[""Att ↑""]",[424],"[256,390]",,weapons/cursed_blade.png
+1284,Neman Cuirass,6,Armor,1,,,"[""Warrior""]",,,,148,72,,,1,48,,,,,,[424],"[256,390]",,armor/cursed_armor.png
+1285,Arisen Plagued Helmet,10,Head,1,,,"[""Warrior""]",,,,341,122,,,1,52,,,,,,[423],"[1025,346]",,armor/cursed_helm.png
+1286,Perfect Fishing Line,9,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/great_fishing_line.png
+1287,Fey Badb Warbow,7,Weapon,1,,,"[""Thief""]",,195,,,,64,2,,-75,-75,,"[""Dex ↓""]",,"[""Dex ↑""]",[425],"[407,346]",,weapons/cursed_bow.png
+1288,Fey Macha Robe,8,Armor,1,,,"[""Mage""]",,,,140,210,,,-1,-150,-150,,,,,[426],"[513,346]",,armor/cursed_robe.png
+1289,Fey Macha Boots,8,Legs,1,,,"[""Mage""]",,,,140,210,,,,-150,-150,,,,,[426],"[513,346]",,armor/cursed_boots.png
+1290,Fey Neman Helmet,6,Head,,,,"[""Warrior""]",,,,165,96,,,3,-50,-50,,,,,[424],"[256,390]",,armor/cursed_helm.png
+1291,Ashen Pinion,10,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,-40,-40,-40,-40,12,4,1,,,,,,,[403],,,jewels/54.png
+1292,Yellow Eye of Kerberos,5,Adornment,,,,,,,,,,4,1,,24,24,,"[""Paralyzed""]",,,"[275,428]",,,jewels/13.png
+1293,Feral Hood,8,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,155,155,,,,,,,,,,[275],[282],,armor/kerberos_hood.png
+1294,Green Eye of Kerberos,5,Adornment,,,,,,,,,,4,1,,24,24,,"[""Rot""]",,,"[275,428]",,,jewels/14.png
+1295,Blue Eye of Kerberos,5,Adornment,,,,,,,,,,4,1,,24,24,,"[""Frozen""]",,,"[275,428]",,,jewels/15.png
+1296,Feral Claws,8,Weapon,1,,,"[""Thief""]",,192,,,,66,2,14,,,,"[""Bleeding""]",,,[275],[282],,weapons/kerberos_claws.png
+1297,Feral Archistaff,8,Weapon,1,,,"[""Mage""]",,,192,,,,,,,40,,,,,[275],[282],,weapons/kerberos_staff.png
+1298,Feral Warsword,8,Weapon,1,,,"[""Warrior""]",,192,35,,,,,,100,,,,,,[275],[282],,weapons/kerberos_sword.png
+1299,Red Eye of Kerberos,5,Adornment,,,,,,,,,,4,1,,24,24,,"[""Burning""]",,,[275],,,jewels/11.png
+1300,Arisen Feral Claws,10,Weapon,1,,,"[""Thief""]",,272,,,,88,2,22,,,,"[""Bleeding""]",,,[428],[282],,weapons/kerberos_claws.png
+1301,Arisen Feral Archistaff,10,Weapon,1,,,"[""Mage""]",,,262,,,,,3,,40,,,,,[428],[282],,weapons/kerberos_staff.png
+1302,Arisen Feral Warsword,10,Weapon,1,,,"[""Warrior""]",,262,,,,,,,440,,,,,,[428],[282],,weapons/kerberos_sword.png
+1303,Arisen Feral Hood,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,233,233,,,,,,,,,,[428],[282],,armor/kerberos_hood.png
+1304,Arisen Wolven Tower Shield,10,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,-80,-80,160,160,,,27,,,,,,,[428],"[266,282]",,wards/templar_shield.png
+1305,Fey Neman Cuirass,6,Armor,1,,,"[""Warrior""]",,,,125,96,,,3,-50,-50,,,,,[424],"[256,390]",,armor/cursed_armor.png
+1306,Sour Mushroom,7,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Poisoned"",""Blight"",""Att ↑↑"",""Mag ↑↑"",""Rot""]","[273,337]",,,useables/berserk_mushroom.png
+1307,Smelly Mushroom,7,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""Toxic"",""All ↑↑""]","[273,337]",,,useables/berserk_mushroom.png
+1308,Arisen Vandal's Veil,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,192,192,44,,,,,,,,,[337],"[264,345]",,armor/acolyte_hood.png
+1309,Spore,7,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,2,2,,8,,,,,,,"[""Poisoned"",""Blight"",""Asleep""]",,,"[273,337]",,,useables/berserk_mushroom.png
+1310,Arisen Fairy's Wand,9,Weapon,1,,,"[""Mage""]",,,220,,,,2,3,,90,,"[""Poisoned"",""Blight""]",,,[337],"[273,345]",,weapons/arcane_wand.png
+1311,Arisen Fairy's Tanto,9,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,48,,,,48,2,-33,,,,"[""Poisoned""]",,,[337],"[266,276]",,wards/whisper.png
+1312,Fairy's Tanto,7,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,24,,,,24,2,-25,,,,"[""Poisoned""]",,,[273],"[266,276]",,wards/whisper.png
+1313,Fairy's Wand,7,Weapon,1,,,"[""Mage""]",,,170,,,32,,2,,60,,"[""Poisoned"",""Blight""]",,,[273],"[273,345]",,weapons/arcane_wand.png
+1314,Vandal's Veil,7,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,132,132,22,,,,,,,,,[273],"[264,345]",,armor/acolyte_hood.png
+1318,Waistguard of Cerus,9,Accessory,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,200,,"[""Burning""]",,,,"[432,431]",,,acc/taurus_belt.png
+1319,Greater Bull's Eye,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,6,6,,,1,40,,,,,,"[432,431]",,,jewels/34.png
+1320,Furious Bull,9,Weapon,1,,,"[""Warrior""]",Fire,220,,24,-24,,,8,90,,,"[""Burning"",""Stunned""]",,,[431],"[261,267]",,weapons/axe_of_taurus.png
+1321,Ferocious Bull's Eye,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,12,12,,,,4,,,60,,,,,[432],,,jewels/34.png
+1322,Stardust,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,-30,-30,30,30,,,1,,,,,,,"[432,431]",,,jewels/44.png
+1323,Furious Helmet,9,Head,1,,,"[""Warrior""]",,,,210,40,,,,,,,,,,[431],"[261,267]",,armor/horned_helm.png
+1324,Furious Bull's Eye,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,12,12,,,,,1,,,,,,,[431],,,jewels/34.png
+1325,Furious Cuirass,9,Armor,1,,,"[""Warrior""]",,22,,210,72,,,3,,,,,,,[431],"[261,267]",,armor/adam_armor.png
+1326,Ferocious Bull,9,Weapon,1,,,"[""Mage""]",Fire,-24,220,,,,,3,,120,,"[""Burning""]",,,[432],"[261,267]",,weapons/staff_of_taurus.png
+1327,Ferocious Hood,9,Head,1,,,"[""Mage""]",,,,40,210,,,,,,,,,,[432],"[261,267]",,armor/horned_hood.png
+1328,Symbol of Famine,7,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[400],,,jewels/55.png
+1329,Symbol of Doom,10,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,-50,-50,,,,,[401],,,jewels/55.png
+1330,Symbol of Pestilence,8,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,3,3,,,,20,,,,,,[402],,,jewels/55.png
+1331,Symbol of War,9,Adornment,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[406],,,jewels/55.png
+1332,Realmspikes,10,Weapon,1,,,"[""Thief""]",,280,,,,50,11,26,,,,"[""Bleeding""]",,"[""T. Crit ↑""]",[434],"[266,269,275,276]",,weapons/kris.png
+1333,Axe of Gilgamesh,10,Weapon,1,,,"[""Warrior""]",,240,,,,-32,1,10,70,,,,,,[435],"[255,266,283]",,weapons/axe.png
+1334,Heretic's Robe,10,Armor,,,,"[""Mage""]",,,180,,130,,,,,,,,,,[436],"[264,273,275]",,armor/heretic_robe.png
+1335,Beowulf's Charm,10,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,60,60,,,,,[437],,,jewels/53.png
+1336,Bestial Eye,6,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,-25,-25,,,,-25,-25,,,,,"[192,418]",,,jewels/11.png
+1337,Castor's Archistaff,9,Weapon,1,,,"[""Mage""]",Water,,212,,20,20,,,,60,,"[""Frozen""]",,,[438],[302],,weapons/tidal_staff.png
+1338,Azure Twinbow,9,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",Water,212,212,,,,,,20,20,,"[""Frozen""]",,,[438],[302],,weapons/tidal_bow.png
+1339,Pollux's Greataxe,9,Weapon,1,,,"[""Warrior""]",Water,226,,60,,,,,,,,"[""Frozen""]",,,[438],[302],,weapons/tidal_axe.png
+1340,Azure Dioscuri Ring,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[438],,,acc/mage_ring.png
+1341,Spoiled Dioscuri Mead,9,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓"",""T. Att ↑"",""T. Def ↑"",""T. Mag ↑"",""T. Res ↑"",""T. Crit ↑""]",[438],,,useables/speed_tonic.png
+1342,Nostrum,4,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed""]",,,,,useables/nostrum.png
+1343,Ichor,4,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Att ↓"",""Mag ↓"",""Def ↓"",""Def ↓↓"",""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓"",""Res ↓↓"",""Res ↓"",""T. Def ↓↓"",""T. Att ↓↓"",""T. Mag ↓↓"",""T. Res ↓↓"",""T. Dex ↓""]",,,,,useables/ichor.png
+1344,Arisen Colada,9,Weapon,1,,,"[""Warrior""]",,222,,50,50,,,6,,,,"[""Paralyzed"",""Att ↓"",""Mag ↓""]",,,[441],"[513,261]",,weapons/avalon_great_sword.png
+1345,Finesse's Shotel,10,Weapon,1,,,"[""Thief""]",,278,,,,64,,4,,,,"[""T. Def ↓""]",,,[439],"[247,513,473]",,weapons/shotel.png
+1346,Finesse's Katana,10,Weapon,1,,,"[""Thief"",""Warrior""]",,290,,,,,3,4,50,25,,"[""T. Def ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Res ↓""]",,,[439],"[247,513,473]",,weapons/katana.png
+1347,Arisen Avalon Armor,9,Armor,1,,,"[""Warrior""]",,12,12,212,192,,,6,,,,,,,"[441,439]","[513,261]",,armor/pale_armor.png
+1348,Arisen Avalon Helmet,9,Head,1,,,"[""Warrior""]",,12,12,212,192,,,6,,,,,,,"[441,439]","[513,261]",,armor/pale_helm.png
+1349,Arisen Avalon Leggings,9,Legs,1,,,"[""Warrior""]",,12,12,212,192,,,6,,,,,,,"[441,439]","[513,261]",,armor/pale_leggings.png
+1350,Arisen Arch-Gadget,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,90,90,,,,,,"[""T. Def ↓↓↓"",""Def ↓"",""Def ↓↓"",""T. Def ↓"",""T. Res ↓"",""Res ↓↓"",""Res ↓"",""T. Def ↓↓"",""T. Res ↓↓""]",,,,[440],,,acc/gadget.png
+1351,Arisen Arch-Gizmo,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,90,90,,,,,,,,"[""Att ↓"",""Mag ↓"",""T. Att ↓"",""T. Mag ↓"",""T. Dex ↓"",""T. Att ↓↓"",""T. Mag ↓↓""]",,,,[440],,,acc/gizmo.png
+1352,Arisen Contraption,9,Adornment,1,,,"[""Mage"",""Thief"",""Warrior""]",,4,4,4,4,,,1,,,,,,,[440],,,acc/gizmo.png
+1353,Finesse's Greatsword,10,Weapon,1,,,"[""Warrior""]",,300,,,,,,4,,,,,,,[439],"[247,513,473]",,weapons/great_sword.png
+1354,Arisen Tizona,9,Off-hand,1,,,"[""Warrior""]",,-50,-50,-50,-50,,,36,,,,"[""Def ↓"",""Res ↓""]",,,[441],"[513,261]",,wards/balins_left.png
+1355,Arisen Genius,9,Weapon,1,,,"[""Mage"",""Thief"",""Warrior""]",Lightning,222,222,,,,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Def ↓"",""Res ↓"",""Rot""]",,,[440],"[266,273]",,weapons/earth_pike.png
+1356,Finesse's Enchanted Epee,10,Weapon,1,,,"[""Mage""]",,,300,,,72,,4,,90,,"[""T. Res ↓↓""]",,,[439],"[247,513,473]",,weapons/epee.png
+1359,Seeker's Candle,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/hallowed_candle.png
+1360,Arisen Qatvanga,10,Weapon,1,,,"[""Mage""]",,,325,,,,,23,,160,,,,,[352],[473],,weapons/fallen_staff.png
+1361,Huge Empty Bottle,7,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[373,233,220,221,232,355,280,343,349,352,350,351]",,,useables/x_bottle.png
+1362,Super Empty Bottle,6,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[116,219,445,442]",,,useables/super_bottle.png
+1363,Great Empty Bottle,4,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[445,491,442]",,,useables/greater_bottle.png
+1364,Large Empty Bottle,3,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/large_bottle.png
+1365,Small Empty Bottle,2,Other,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/small_bottle.png
+1366,Silphium,2,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[116,219,445,305,442]",,,materials/silphium.png
+1367,Nightshade,2,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[116,219,445,305,442]",,,materials/nightshade.png
+1368,Mandrake,2,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[48,116,219,445,305,442]",,,materials/mandrake.png
+1369,Dayleaf,2,Material,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[48,116,219,445,305,442]",,,materials/dayleaf.png
+1370,Qatvanga,9,Weapon,1,,,"[""Mage""]",,,240,,,,,19,,160,,,,,[280],[473],,weapons/fallen_staff.png
+1371,Cracked Mirror,5,Off-hand,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,-100,,-240,,,,,[344],[346],,wards/mirror.png
+1372,Arisen Askr Boots,10,Legs,1,,,"[""Thief""]",,35,,286,70,32,,,,,"[""Stunned""]",,,,[442],"[256,364,345]",,armor/askr_boots.png
+1373,Arisen Askr Cowl,10,Head,1,,,"[""Thief""]",,35,,286,70,32,,,,,,,,,[442],"[256,364,345]",,armor/askr_hood.png
+1374,Arisen Askr Garb,10,Armor,1,,,"[""Thief""]",,35,,286,70,32,,,,,,,,,[442],"[256,364,345]",,armor/askr_garb.png
+1375,Arisen Askr Leggings,10,Legs,1,,,"[""Warrior""]",,35,,297,35,,,,,,,,,,[442],"[256,364,345]",,armor/askr_leggings.png
+1376,Arisen Embla Hood,10,Head,1,,,"[""Mage""]",,,35,,297,,,,,,,,,,[442],"[256,364,345]",,armor/askr_hood.png
+1377,Arisen Embla Robe,10,Armor,1,,,"[""Mage""]",,,35,,297,,,,,,,,,"[""T. All ↑""]",[442],"[256,364,345]",,armor/askr_robe.png
+1378,Arisen Embla Shoes,10,Legs,1,,,"[""Mage""]",,,35,,297,,,,,,"[""Stunned""]",,,,[442],"[256,364,345]",,armor/askr_boots.png
+1379,Arisen Askr Armor,10,Armor,1,,,"[""Warrior""]",,35,,297,35,,,,,,,,,"[""T. All ↑""]",[442],"[256,364,345]",,armor/askr_armor.png
+1380,Arisen Askr Helmet,10,Armor,1,,,"[""Warrior""]",,35,,297,35,,,,,,,,,,[442],"[256,364,345]",,armor/askr_helm.png
+1381,Arisen Hel's Feathers,10,Off-hand,1,,,"[""Thief""]",,,,,,,2,24,,,,"[""Poisoned"",""Blight""]",,,[443],"[256,346,262,266]",,wards/heavy_arrows.png
+1382,Hel's Feathers,5,Off-hand,1,,,"[""Thief""]",,,,,,,,11,,,,"[""Poisoned"",""Blight""]",,,"[444,443]","[256,262,266,345]",,wards/heavy_arrows.png
+1383,Helhest,5,Weapon,1,,1,"[""Thief""]",,132,80,,,40,3,,,60,"[""Blind""]",,,,"[444,443]","[266,269,364,345]",,weapons/reinbow.png
+1384,Arisen Helhest,10,Weapon,1,,1,"[""Thief""]",,284,80,,,80,4,,,60,"[""Blind""]",,,,[443],"[346,266,269,364]",,weapons/reinbow.png
+1385,Arisen Hel's Garb,10,Armor,1,,,"[""Thief""]",,,,220,220,120,,3,,,"[""Blind"",""Stunned""]",,,,[443],"[346,266]",,armor/nothren_armor.png
+1386,Hel's Boots,5,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,70,70,108,,,,,,,,,"[444,443]","[346,261,266]",,armor/nothren_boots.png
+1387,Arisen Hel's Boots,10,Legs,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,190,190,164,,,,,,,,,[443],"[346,266]",,armor/nothren_boots.png
+1388,Hel's Veil,5,Head,1,,,"[""Thief""]",,,,98,45,,3,,,,"[""T. Dex ↓""]",,,,"[444,443]","[346,266]",,armor/nothren_hood.png
+1389,Hel's Garb,5,Armor,1,,,"[""Thief""]",,,,98,98,60,,2,,,"[""Blind"",""Stunned""]",,,,"[444,443]","[261,266,275]",,armor/nothren_armor.png
+1390,Arisen Hel's Veil,10,Head,1,,,"[""Thief""]",,,,220,105,,4,,,,"[""T. Dex ↓""]",,,,[443],"[346,266]",,armor/nothren_hood.png
+1391,Embla Shoes,7,Legs,1,,,"[""Mage""]",,,13,,187,,,,,,"[""Stunned""]",,,,[445],"[256,364,345]",,armor/askr_boots.png
+1392,Embla Hood,7,Head,1,,,"[""Mage""]",,,13,,187,,,,,,,,,,[445],"[256,364,345]",,armor/askr_hood.png
+1393,Askr Garb,7,Armor,1,,,"[""Thief""]",,13,,176,35,12,,,,,,,,"[""T. All ↑""]",[445],"[256,364,345]",,armor/askr_garb.png
+1394,Askr Helmet,7,Head,1,,,"[""Warrior""]",,13,,187,22,,,,,,,,,,[445],"[256,364,345]",,armor/askr_helm.png
+1395,Spellsword's Ring,4,Accessory,,,,"[""Thief"",""Warrior""]",,-100,50,,,,,,,,,,,,,,,acc/mage_ring.png
+1396,Arisen King's Sceptre,9,Weapon,1,,,"[""Mage""]",,,229,,,,1,8,,,"[""T. Mag ↓""]","[""T. Res ↓""]",,,[446],[268],,weapons/black_witch_staff.png
+1397,False King's Sceptre,6,Weapon,1,,,"[""Mage""]",,,145,,,,,3,,,"[""T. Mag ↓""]","[""T. Res ↓""]",,,[448],[268],,weapons/black_witch_staff.png
+1398,False King's Crown,6,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,20,20,,,2,20,20,"[""Mag ↓"",""T. Mag ↓""]",,,,[448],[268],,armor/crown.png
+1399,Arisen King's Crown,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,,,4,30,30,"[""Mag ↓"",""T. Mag ↓""]",,,,,[268],,armor/crown.png
+1400,Lyon's Penance,5,Curative,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Lyon's Mark""]",,"[449,448,446,447]",,,jewels/30.png
+1401,Trevelyan's Shoes,6,Legs,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_boots.png
+1402,Trevelyan's Hood,6,Head,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_hood.png
+1403,Arisen Trevelyan's Shoes,9,Legs,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_boots.png
+1404,Arisen Trevelyan's Hood,9,Head,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_hood.png
+1405,Arch-Blessed Rune Helmet,9,Head,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_helmet.png
+1406,Arisen Trevelyan's Archistaff,9,Weapon,1,,,"[""Mage""]",,,232,,,,2,24,,80,,,,,[447],"[268,280]",,weapons/trev_staff.png
+1407,Blessed Rune Leggings,6,Legs,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_leggings.png
+1408,Blessed Rune Helmet,6,Head,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_helmet.png
+1409,Trevelyan's Archistaff,6,Weapon,1,,,"[""Mage""]",,,177,,,,2,17,,40,,,,,"[449,447]","[268,280]",,weapons/trev_staff.png
+1410,Trevelyan's Robe,6,Armor,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_robe.png
+1411,Arisen Trevelyan's Robe,9,Armor,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_robe.png
+1412,Blessed Rune Armor,6,Armor,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_armor.png
+1413,Arisen Trevelyan's Charm,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[447],,,acc/draco_amulet.png
+1414,Trevelyan's Charm,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[449,447]",,,acc/draco_amulet.png
+1415,Arch-Blessed Rune Leggings,9,Legs,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_leggings.png
+1416,Arch-Blessed Rune Armor,9,Armor,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_armor.png
+1417,Askr Leggings,7,Legs,,,,"[""Warrior""]",,13,,187,22,,,,,,"[""Stunned""]",,,,[445],"[256,364,345]",,armor/askr_leggings.png
+1418,Askr Armor,7,Armor,,,,"[""Warrior""]",,13,,187,22,,,,,,,,,"[""T. All ↑""]",[445],"[256,364,345]",,armor/askr_armor.png
+1419,Askr Cowl,7,Head,,,,"[""Thief""]",,13,,176,35,12,,,,,,,,,[445],"[256,364,345]",,armor/askr_hood.png
+1420,Embla Robe,7,Armor,,,,"[""Mage""]",,,13,,187,,,,,,,,,"[""T. All ↑""]",[445],"[256,364,345]",,armor/askr_robe.png
+1421,Askr Boots,7,Legs,,,,"[""Thief""]",,13,,176,35,12,,,,,"[""Stunned""]",,,,[445],"[256,364,345]",,armor/askr_boots.png
+1422,Baldr Boots,10,Legs,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_boots.png
+1423,Questing Bow,9,Weapon,1,,,"[""Thief""]",Dragon,198,,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/bow_of_tiamat.png
+1424,Baldr Battlerobe,10,Armor,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_robe.png
+1425,Baldr Hood,10,Head,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_hood.png
+1426,Questing Axe,9,Weapon,1,,,"[""Warrior""]",Dragon,198,,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/axe_of_tiamat.png
+1427,Questing Staff,9,Weapon,1,,,"[""Mage""]",Dragon,,215,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/staff_of_tiamat.png
+1428,Elite Nothren Greaves,9,Legs,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_leggings.png
+1429,Asgard Greaves,10,Legs,,,,"[""Warrior""]",,,,233,44,,,,31,,,,,,[483],[666],,armor/elite_nothren_boots.png
+1430,Elite Nothren Boots,9,Legs,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_boots.png
+1431,Elite Nothren Shoes,9,Legs,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_boots.png
+1432,Elite Fomorian Boots,9,Legs,,,,"[""Thief""]",,,,199,42,,,,,,,,,,[470],"[249,275]",,armor/fomorian_boots.png
+1433,Elite Fomorian Leggings,9,Legs,,,,"[""Warrior""]",,,,199,19,,,,,,,,,,[470],"[248,249,275]",,armor/fomorian_leggings.png
+1434,Elite Nothren Shield,9,Off-hand,,,,,Water,,,,,,,24,,,,,,,[479],[666],,wards/elite_nothren_shield.png
+1435,Asgard Shield,10,Off-hand,,,,,Water,,,,,,,28,,,,,,,[483],[666],,wards/elite_nothren_shield.png
+1436,Asgard Armor,10,Armor,,,,"[""Warrior""]",,,,233,44,,,,24,,,,,,[483],[666],,armor/elite_nothren_armor.png
+1437,Elite Nothren Garb,9,Armor,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_armor.png
+1438,Elite Draconian Garb,8,Armor,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_garb.png
+1439,Elite Draconian Armor,8,Armor,,,,"[""Warrior""]",Dragon,,,168,,,,,100,,,,,,[492],"[254,266]",,armor/draco_armor.png
+1440,Elite Nothren Robe,9,Armor,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_robe.png
+1441,Elite Nothren Armor,9,Armor,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_armor.png
+1442,Elite Fomorian Armor,9,Armor,,,,,,,,199,19,,,,,,,,,,[470],"[249,275]",,armor/fomorian_armor.png
+1443,Elite Fomorian Robe,9,Armor,,,,"[""Mage""]",,,,51,199,,,,,,,,,,[472],"[249,275]",,armor/fomorian_robe.png
+1444,Elite Nothren Cowl,9,Head,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_hood.png
+1445,Elite Nothren Hood,9,Head,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_hood.png
+1446,Elite Draconian Hood,8,Head,,,,"[""Mage""]",Dragon,,,48,168,,,,,,,,,,[493],"[254,266]",,armor/draco_hood.png
+1447,Elite Nothren Helmet,9,Head,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_helm.png
+1448,Elite Fomorian Cowl,9,Head,,,,"[""Thief""]",,,,199,42,,,,,,,,,,[470],"[249,275]",,armor/fomorian_hood.png
+1449,Elite Fomorian Hood,9,Head,,,,"[""Mage""]",,,,19,199,,,,,,,,,,[472],"[249,275]",,armor/fomorian_hood.png
+1450,Elite Draconian Sword,8,Weapon,,,,"[""Warrior""]",,178,,,,32,,,,,,,,,[492],"[254,266]",,weapons/draco_sword.png
+1451,Elite Draconian Staff,8,Weapon,,,,"[""Mage""]",,,178,,,30,,,,,,,,,[493],"[254,283]",,weapons/wooden_staff.png
+1452,Elite Fomorian Sword,9,Weapon,,,,"[""Warrior""]",,205,,,,,,,,,,,,,[470],"[266,283]",,weapons/draco_sword.png
+1453,Elite Fomorian Staff,9,Weapon,,,,"[""Mage""]",,12,199,,,,,,,,,,,,[472],"[266,283]",,weapons/draco_archistaff.png
+1454,Ectoplasm,4,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Physical,-40,-40,-40,-40,,,,,,,,,"[""Asleep""]","[489,453]",,,materials/dark_stone.png
+1455,Elite Draconian Leggings,8,Legs,,,,,,,,178,,30,,,82,,,,,,[492],"[254,266]",,armor/draco_pants.png
+1456,Tarnished King's Crown,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,,,2,30,30,"[""Mag ↓"",""T. Mag ↓""]",,,,[446],[268],,armor/crown.png
+1457,Arisen Dagda Armor,10,Armor,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_armor.png
+1458,Arisen Dagda Garb,10,Armor,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_garb.png
+1459,Arisen Dagda Robe,10,Armor,1,,,"[""Mage""]",Arcane,,,45,280,,,1,,,,,,,[461],[512],,armor/dagda_robe.png
+1460,Arisen Dagda Boots,10,Legs,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_boots.png
+1461,Arisen Dagda Cowl,10,Head,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_hood.png
+1462,Arisen Balor Crown,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,240,240,,,,,,"[""Cursed""]",,,,[460],[400],,armor/crown.png
+1463,Arisen Dagda Helmet,10,Head,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_helm.png
+1464,Arisen Dagda Leggings,10,Legs,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_leggings.png
+1465,Arisen Dagda Shoes,10,Legs,,,,"[""Mage""]",Arcane,,,45,280,,,1,,,,,,,[461],[512],,armor/dagda_boots.png
+1466,Lugus Gauntlet,7,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""T. Att ↑↑↑"",""T. Mag ↑↑↑""]",[454],,,acc/black_glove.png
+1467,Arisen Dagda Hood,10,Head,1,,,"[""Mage""]",Arcane,,,45,280,,,,,,,,,,[461],[512],,armor/dagda_hood.png
+1468,Dagda Boots,6,Legs,,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_boots.png
+1469,Dagda Garb,6,Armor,1,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_garb.png
+1470,Dagda Helmet,6,Head,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_helm.png
+1471,Dagda Leggings,6,Legs,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_leggings.png
+1472,Dagda Armor,6,Armor,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_armor.png
+1473,Dagda Hood,6,Head,1,,,"[""Mage""]",Arcane,,,45,140,,,1,,,,,,,[455],[512],,armor/dagda_hood.png
+1474,Dagda Robe,6,Armor,1,,,"[""Mage""]",Arcane,,,45,140,,,1,,,,,,,[455],[512],,armor/dagda_robe.png
+1475,Dagda Cowl,6,Head,1,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_hood.png
+1476,Dagda Shoes,6,Legs,,,,"[""Mage""]",Arcane,,,45,138,,,1,,,,,,,[455],[512],,armor/dagda_boots.png
+1477,Asgard's Summit,10,Weapon,,,,"[""Warrior""]",Water,233,,,53,,,,,53,,"[""Frozen"",""T. Def ↓"",""T. Res ↓""]",,"[""Gunnr""]",[483],[666],,weapons/blue_flame.png
+1478,Elite Draconian Boots,8,Legs,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_boots.png
+1479,Elite Draconian Cowl,8,Head,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_hood.png
+1480,Elite Draconian Robe,8,Armor,,,,"[""Mage""]",Dragon,,,48,168,,,,,100,,,,,[493],"[254,266]",,armor/draco_robe.png
+1481,Elite Balor Robe,9,Armor,,,,"[""Mage""]",,,,23,235,,,,,,,,,,[457],"[249,275]",,armor/ashen_robe.png
+1482,Elite Balor Armor,9,Armor,,,,"[""Warrior""]",,,,235,23,,,,,,,,,,[456],"[249,266]",,armor/pale_armor.png
+1483,Elite Balor Helmet,9,Head,,,,"[""Warrior""]",,,,235,21,,,,,,,,,,[456],"[249,266]",,armor/pale_helm.png
+1484,Elite Balor Leggings,9,Legs,,,,"[""Warrior""]",,,,235,20,,,,,,,,,,[456],"[249,266]",,armor/pale_leggings.png
+1485,Elite Balor Shield,9,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,25,,,,,,,[456],"[249,266]",,wards/balor_shield.png
+1486,Elite Balor Sword,5,Weapon,,,,"[""Warrior""]",,120,,,,,,,,,,,,,,[252],,weapons/bloodsword.png
+1487,Elite Balor Katana,9,Weapon,,,,"[""Thief""]",,235,,-46,,10,1,,,,,"[""Bleeding""]",,,[458],[266],,weapons/katana.png
+1488,Elite Balor Archistaff,9,Weapon,,,,"[""Mage""]",,,235,,,,,,-114,114,,,,,[457],[273],,weapons/balor_staff.png
+1489,Elite Dune Blade,5,Weapon,,,,"[""Thief""]",,126,,,,10,,,,,,,,,[488],[360],,weapons/sandstorm.png
+1490,Neman Greaves,6,Legs,,,,"[""Warrior""]",,,,148,72,,,1,48,,,,,,[424],"[256,390]",,armor/cursed_leggings.png
+1491,Fey Neman Greaves,6,Legs,,,,"[""Warrior""]",,,,165,96,,,3,-50,-50,,,,,[424],"[256,390]",,armor/cursed_leggings.png
+1492,Fey Neman Warsword,6,Weapon,,,,"[""Warrior""]",,165,32,,,,,-1,-50,-50,,"[""Att ↓""]",,"[""Att ↑""]",[424],"[256,390]",,weapons/cursed_blade.png
+1493,Fey Badb Boots,7,Legs,,,,"[""Thief""]",,,,195,96,32,,-3,-75,-75,,,,,[425],"[407,346]",,armor/cursed_boots.png
+1494,Fey Badb Garb,7,Armor,,,,"[""Thief""]",,,,195,96,32,,-3,-75,-75,,,,,[425],"[407,346]",,armor/cursed_armor.png
+1495,Elite Fomorian Garb,9,Armor,,,,"[""Thief""]",,,,199,,42,,,,,,,,,[470],"[249,275]",,armor/fomorian_armor.png
+1496,Asgard Helmet,10,Head,,,,"[""Warrior""]",,,,233,44,,,,31,,,,,,[483],[666],,armor/elite_nothren_helm.png
+1497,Fey Badb Veil,7,Head,,,,"[""Thief""]",,,,195,96,32,,-3,-75,-75,,,,,[425],"[407,346]",,armor/cursed_hood.png
+1498,Stranger's Gift,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[464,490,463,462,467,468]",,,useables/present.png
+1499,Alfar Trinket,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[464,490,463,462,467,468]",,,useables/elven_trinket.png
+1500,Farsight,5,Item,,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/eye_potion.png
+1501,Beast's Blood,2,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/beast_blood.png
+1502,Bestial Potion,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/bestial_potion.png
+1503,All-seer's Gem,6,Adornment,1,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[407],,,acc/crystal_eye.png
+1504,Horned Armor,6,Armor,,,,"[""Warrior""]",,12,,122,,,,1,,,,,,,[277],"[252,261]",,armor/adam_armor.png
