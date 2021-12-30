@@ -166,7 +166,7 @@
           "id": 134,
           "name": "Arrowstorm",
           "level": 105,
-          "type": "AoE Attack"
+          "type": "Attack"
         },
         {
           "id": 133,
@@ -297,14 +297,8 @@
       "passives": [],
       "learns": [
         {
-          "id": 118,
-          "name": "Flame III",
-          "level": 100,
-          "type": "Magic"
-        },
-        {
-          "id": 112,
-          "name": "Tremor III",
+          "id": 117,
+          "name": "Frost III",
           "level": 100,
           "type": "Magic"
         },
@@ -315,44 +309,20 @@
           "type": "Magic"
         },
         {
-          "id": 117,
-          "name": "Frost III",
+          "id": 112,
+          "name": "Tremor III",
           "level": 100,
           "type": "Magic"
         },
         {
-          "id": 633,
-          "name": "Winter Wind",
-          "level": 110,
-          "type": "AoE Magic"
-        },
-        {
-          "id": 634,
-          "name": "Chain Lightning",
-          "level": 110,
-          "type": "AoE Magic"
-        },
-        {
-          "id": 635,
-          "name": "Natura",
-          "level": 110,
-          "type": "AoE Magic"
-        },
-        {
-          "id": 632,
-          "name": "Wildfire",
-          "level": 110,
+          "id": 118,
+          "name": "Flame III",
+          "level": 100,
           "type": "Magic"
         },
         {
-          "id": 114,
-          "name": "Imbue Ice",
-          "level": 120,
-          "type": "Buff"
-        },
-        {
-          "id": 115,
-          "name": "Imbue Fire",
+          "id": 113,
+          "name": "Imbue Lightning",
           "level": 120,
           "type": "Buff"
         },
@@ -363,8 +333,14 @@
           "type": "Buff"
         },
         {
-          "id": 113,
-          "name": "Imbue Lightning",
+          "id": 115,
+          "name": "Imbue Fire",
+          "level": 120,
+          "type": "Buff"
+        },
+        {
+          "id": 114,
+          "name": "Imbue Ice",
           "level": 120,
           "type": "Buff"
         }
@@ -699,30 +675,6 @@
         }
       ],
       "learns": [
-        {
-          "id": 628,
-          "name": "Winter Wind II",
-          "level": 150,
-          "type": "AoE Magic"
-        },
-        {
-          "id": 629,
-          "name": "Wildfire II",
-          "level": 150,
-          "type": "Magic"
-        },
-        {
-          "id": 631,
-          "name": "Natura II",
-          "level": 150,
-          "type": "AoE Magic"
-        },
-        {
-          "id": 630,
-          "name": "Chain Lightning II",
-          "level": 150,
-          "type": "AoE Magic"
-        },
         {
           "id": 241,
           "name": "Great Meditation",
@@ -1313,7 +1265,7 @@
           "id": 445,
           "name": "Arrowstorm II",
           "level": 150,
-          "type": "AoE Attack"
+          "type": "Attack"
         },
         {
           "id": 139,
@@ -1506,118 +1458,5 @@
         "value": 15
       }
     ]
-  },
-  {
-    "id": 85,
-    "name": "Chronomancer",
-    "female_name": "Chronomancer",
-    "cost": "",
-    "price": "200000.00",
-    "cost_type": 1,
-    "cost_type_str": "orns",
-    "description": "A master of the magical arts that control time. Chronomancers can alter the flow of battle when battling with a party",
-    "tier": 9,
-    "images": [
-      "subclasses/chronomancer/default_f.png",
-      "subclasses/chronomancer/default_m.png"
-    ],
-    "skills": {
-      "passives": [],
-      "learns": [
-        {
-          "id": 638,
-          "name": "Lacuna II",
-          "level": 200,
-          "type": "Magic"
-        },
-        {
-          "id": 637,
-          "name": "Slow",
-          "level": 200,
-          "type": "Debuff"
-        },
-        {
-          "id": 636,
-          "name": "Haste",
-          "level": 200,
-          "type": "Buff"
-        },
-        {
-          "id": 639,
-          "name": "Lacunus II",
-          "level": 220,
-          "type": "AoE Magic"
-        },
-        {
-          "id": 641,
-          "name": "Slow+",
-          "level": 225,
-          "type": "AoE Debuff"
-        },
-        {
-          "id": 640,
-          "name": "Haste+",
-          "level": 225,
-          "type": "AoE Buff"
-        }
-      ],
-      "slots": 0
-    },
-    "boosts": []
-  },
-  {
-    "id": 86,
-    "name": "High Cleric",
-    "female_name": "High Cleric",
-    "cost": "",
-    "price": "200000.00",
-    "cost_type": 1,
-    "cost_type_str": "orns",
-    "description": "An advanced magic user that can cast healing and defensive spells. Learns healing and holy magic.",
-    "tier": 9,
-    "images": [
-      "subclasses/highcleric/default_f.png",
-      "subclasses/highcleric/default_m.png"
-    ],
-    "skills": {
-      "passives": [],
-      "learns": [],
-      "slots": 0
-    },
-    "boosts": []
-  },
-  {
-    "id": 87,
-    "name": "Time Mage",
-    "female_name": "Time Mage",
-    "cost": "",
-    "price": "50000.00",
-    "cost_type": 1,
-    "cost_type_str": "orns",
-    "description": "A master of the magical arts that control time. Chronomancers can alter the flow of battle when battling with a party",
-    "tier": 7,
-    "images": [
-      "subclasses/timemage/default_f.png",
-      "subclasses/timemage/default_m.png"
-    ],
-    "skills": {
-      "passives": [],
-      "learns": [
-        {
-          "id": 636,
-          "name": "Haste",
-          "level": 150,
-          "type": "Buff"
-        },
-        {
-          "id": 637,
-          "name": "Slow",
-          "level": 150,
-          "type": "Debuff"
-        }
-      ],
-      "slots": 0
-    },
-    "boosts": []
   }
 ]

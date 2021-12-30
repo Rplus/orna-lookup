@@ -100,10 +100,6 @@
       {
         "id": 9,
         "name": "Green Slime"
-      },
-      {
-        "id": 266,
-        "name": "Dracon"
       }
     ],
     "equipped_by": [
@@ -431,14 +427,6 @@
         "name": "Demon Knight"
       },
       {
-        "id": 266,
-        "name": "Dracon"
-      },
-      {
-        "id": 452,
-        "name": "Hobgoblin Lord"
-      },
-      {
         "id": 72,
         "name": "Lizarr Lord"
       },
@@ -487,28 +475,12 @@
         "name": "Cerberus"
       },
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
-        "id": 487,
-        "name": "Kobold Lord"
-      },
-      {
-        "id": 491,
-        "name": "Elite Orc Lord"
-      },
-      {
         "id": 194,
         "name": "Nin-Kilim"
       },
       {
         "id": 335,
         "name": "Arisen Mimic King"
-      },
-      {
-        "id": 486,
-        "name": "Elite Kobold Lord"
       }
     ],
     "quests": [
@@ -567,14 +539,6 @@
         "name": "Demon Knight"
       },
       {
-        "id": 266,
-        "name": "Dracon"
-      },
-      {
-        "id": 452,
-        "name": "Hobgoblin Lord"
-      },
-      {
         "id": 72,
         "name": "Lizarr Lord"
       },
@@ -619,28 +583,12 @@
         "name": "Cerberus"
       },
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
-        "id": 487,
-        "name": "Kobold Lord"
-      },
-      {
-        "id": 491,
-        "name": "Elite Orc Lord"
-      },
-      {
         "id": 194,
         "name": "Nin-Kilim"
       },
       {
         "id": 335,
         "name": "Arisen Mimic King"
-      },
-      {
-        "id": 486,
-        "name": "Elite Kobold Lord"
       }
     ],
     "equipped_by": [
@@ -668,10 +616,6 @@
     "arena": false,
     "image": "useables/exp_potion.png",
     "dropped_by": [
-      {
-        "id": 266,
-        "name": "Dracon"
-      },
       {
         "id": 275,
         "name": "Kerberos"
@@ -735,12 +679,8 @@
         "name": "Titan"
       },
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       },
       {
         "id": 273,
@@ -813,10 +753,6 @@
     "image": "useables/candle.png",
     "dropped_by": [
       {
-        "id": 266,
-        "name": "Dracon"
-      },
-      {
         "id": 420,
         "name": "Age-Old Mimic"
       },
@@ -850,10 +786,6 @@
     "arena": false,
     "image": "useables/attack_tonic.png",
     "dropped_by": [
-      {
-        "id": 266,
-        "name": "Dracon"
-      },
       {
         "id": 444,
         "name": "Hel"
@@ -931,10 +863,6 @@
     "arena": false,
     "image": "useables/defense_tonic.png",
     "dropped_by": [
-      {
-        "id": 266,
-        "name": "Dracon"
-      },
       {
         "id": 444,
         "name": "Hel"
@@ -1054,10 +982,6 @@
     "image": "useables/magic_tonic.png",
     "dropped_by": [
       {
-        "id": 266,
-        "name": "Dracon"
-      },
-      {
         "id": 444,
         "name": "Hel"
       },
@@ -1088,10 +1012,6 @@
       {
         "id": 440,
         "name": "Arisen Cade"
-      },
-      {
-        "id": 312,
-        "name": "Arisen Merlin"
       },
       {
         "id": 348,
@@ -1278,12 +1198,6 @@
         "base": 15
       }
     },
-    "materials": [
-      {
-        "id": 283,
-        "name": "Wood"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -1489,6 +1403,12 @@
       {
         "id": 345,
         "name": "Soul"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 60,
+        "name": "Walking Wood"
       }
     ],
     "equipped_by": [
@@ -2906,6 +2826,10 @@
         "name": "Lizarr Knight"
       },
       {
+        "id": 72,
+        "name": "Lizarr Lord"
+      },
+      {
         "id": 73,
         "name": "Lizarr Noble"
       },
@@ -3168,12 +3092,6 @@
       }
     },
     "element": "Earthen",
-    "materials": [
-      {
-        "id": 282,
-        "name": "Wolf's Blood"
-      }
-    ],
     "dropped_by": [
       {
         "id": 78,
@@ -3210,12 +3128,6 @@
         "base": 12
       }
     },
-    "materials": [
-      {
-        "id": 251,
-        "name": "Cavestone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 81,
@@ -4424,12 +4336,6 @@
       }
     },
     "element": "Holy",
-    "materials": [
-      {
-        "id": 279,
-        "name": "Vampiric Ore"
-      }
-    ],
     "dropped_by": [
       {
         "id": 111,
@@ -4444,7 +4350,6 @@
     ],
     "causes": [
       "Bleeding",
-      "Blind",
       "Asleep"
     ]
   },
@@ -4742,12 +4647,6 @@
         "base": 110
       }
     },
-    "materials": [
-      {
-        "id": 267,
-        "name": "Nightstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 118,
@@ -5227,10 +5126,6 @@
       }
     ],
     "dropped_by": [
-      {
-        "id": 465,
-        "name": "Scary Skeleton"
-      },
       {
         "id": 14,
         "name": "Skeleton"
@@ -6058,10 +5953,6 @@
         "name": "Fallen Thief"
       },
       {
-        "id": 465,
-        "name": "Scary Skeleton"
-      },
-      {
         "id": 14,
         "name": "Skeleton"
       },
@@ -6137,10 +6028,6 @@
       }
     ],
     "dropped_by": [
-      {
-        "id": 465,
-        "name": "Scary Skeleton"
-      },
       {
         "id": 14,
         "name": "Skeleton"
@@ -7035,6 +6922,10 @@
     ],
     "dropped_by": [
       {
+        "id": 38,
+        "name": "Wolfman"
+      },
+      {
         "id": 126,
         "name": "Grey Wolfman"
       },
@@ -7563,10 +7454,6 @@
         "name": "Barbarian"
       },
       {
-        "id": 465,
-        "name": "Scary Skeleton"
-      },
-      {
         "id": 14,
         "name": "Skeleton"
       }
@@ -7853,6 +7740,10 @@
       }
     ],
     "dropped_by": [
+      {
+        "id": 72,
+        "name": "Lizarr Lord"
+      },
       {
         "id": 73,
         "name": "Lizarr Noble"
@@ -8488,12 +8379,12 @@
     "image": "acc/monster_tome.png",
     "dropped_by": [
       {
-        "id": 39,
-        "name": "Draconian Lord"
+        "id": 22,
+        "name": "Draconian"
       },
       {
-        "id": 26,
-        "name": "Draconian Mage"
+        "id": 39,
+        "name": "Draconian Lord"
       }
     ],
     "quests": [
@@ -9514,10 +9405,6 @@
       {
         "id": 300,
         "name": "Arisen Ankh"
-      },
-      {
-        "id": 1433,
-        "name": "Elite Fomorian Leggings"
       }
     ],
     "dropped_by": [
@@ -9610,54 +9497,6 @@
       {
         "id": 1063,
         "name": "Coral Robe"
-      },
-      {
-        "id": 1482,
-        "name": "Elite Balor Armor"
-      },
-      {
-        "id": 1483,
-        "name": "Elite Balor Helmet"
-      },
-      {
-        "id": 1484,
-        "name": "Elite Balor Leggings"
-      },
-      {
-        "id": 1481,
-        "name": "Elite Balor Robe"
-      },
-      {
-        "id": 1485,
-        "name": "Elite Balor Shield"
-      },
-      {
-        "id": 1442,
-        "name": "Elite Fomorian Armor"
-      },
-      {
-        "id": 1432,
-        "name": "Elite Fomorian Boots"
-      },
-      {
-        "id": 1448,
-        "name": "Elite Fomorian Cowl"
-      },
-      {
-        "id": 1495,
-        "name": "Elite Fomorian Garb"
-      },
-      {
-        "id": 1449,
-        "name": "Elite Fomorian Hood"
-      },
-      {
-        "id": 1433,
-        "name": "Elite Fomorian Leggings"
-      },
-      {
-        "id": 1443,
-        "name": "Elite Fomorian Robe"
       },
       {
         "id": 1182,
@@ -9754,10 +9593,6 @@
     ],
     "dropped_by": [
       {
-        "id": 465,
-        "name": "Scary Skeleton"
-      },
-      {
         "id": 14,
         "name": "Skeleton"
       },
@@ -9792,10 +9627,6 @@
       {
         "id": 205,
         "name": "High Fomorian Mage"
-      },
-      {
-        "id": 478,
-        "name": "Very Scary Skeleton"
       }
     ],
     "equipped_by": [
@@ -9872,10 +9703,6 @@
         "name": "Arisen Batwing Bow"
       },
       {
-        "id": 85,
-        "name": "Batwing Bow"
-      },
-      {
         "id": 499,
         "name": "Spelunking Staff"
       }
@@ -9934,10 +9761,6 @@
       {
         "id": 176,
         "name": "Ancient Robe"
-      },
-      {
-        "id": 349,
-        "name": "Balor Sword"
       },
       {
         "id": 612,
@@ -10000,10 +9823,6 @@
         "name": "Draugr Staff"
       },
       {
-        "id": 1486,
-        "name": "Elite Balor Sword"
-      },
-      {
         "id": 1159,
         "name": "Final Horseman's Armor"
       },
@@ -10046,10 +9865,6 @@
       {
         "id": 333,
         "name": "Gorgon's Staff"
-      },
-      {
-        "id": 1504,
-        "name": "Horned Armor"
       },
       {
         "id": 297,
@@ -10110,12 +9925,12 @@
     ],
     "dropped_by": [
       {
-        "id": 25,
-        "name": "Demon"
-      },
-      {
         "id": 6,
         "name": "Ghost"
+      },
+      {
+        "id": 25,
+        "name": "Demon"
       },
       {
         "id": 64,
@@ -10140,10 +9955,6 @@
       {
         "id": 71,
         "name": "Lich"
-      },
-      {
-        "id": 489,
-        "name": "Spooky Ghost"
       },
       {
         "id": 377,
@@ -10180,10 +9991,6 @@
       {
         "id": 236,
         "name": "Twilight Wisp"
-      },
-      {
-        "id": 453,
-        "name": "Terrifying Ghost"
       }
     ],
     "quests": [
@@ -10330,42 +10137,6 @@
         "name": "Draconian Sword"
       },
       {
-        "id": 1439,
-        "name": "Elite Draconian Armor"
-      },
-      {
-        "id": 1478,
-        "name": "Elite Draconian Boots"
-      },
-      {
-        "id": 1479,
-        "name": "Elite Draconian Cowl"
-      },
-      {
-        "id": 1438,
-        "name": "Elite Draconian Garb"
-      },
-      {
-        "id": 1446,
-        "name": "Elite Draconian Hood"
-      },
-      {
-        "id": 1455,
-        "name": "Elite Draconian Leggings"
-      },
-      {
-        "id": 1480,
-        "name": "Elite Draconian Robe"
-      },
-      {
-        "id": 1451,
-        "name": "Elite Draconian Staff"
-      },
-      {
-        "id": 1450,
-        "name": "Elite Draconian Sword"
-      },
-      {
         "id": 415,
         "name": "High Draconian Armor"
       },
@@ -10414,10 +10185,6 @@
       {
         "id": 26,
         "name": "Draconian Mage"
-      },
-      {
-        "id": 266,
-        "name": "Dracon"
       },
       {
         "id": 42,
@@ -10786,28 +10553,12 @@
         "name": "Arisen Hel's Feathers"
       },
       {
-        "id": 1418,
-        "name": "Askr Armor"
-      },
-      {
-        "id": 1421,
-        "name": "Askr Boots"
-      },
-      {
-        "id": 1419,
-        "name": "Askr Cowl"
-      },
-      {
         "id": 1393,
         "name": "Askr Garb"
       },
       {
         "id": 1394,
         "name": "Askr Helmet"
-      },
-      {
-        "id": 1417,
-        "name": "Askr Leggings"
       },
       {
         "id": 291,
@@ -10842,10 +10593,6 @@
         "name": "Embla Hood"
       },
       {
-        "id": 1420,
-        "name": "Embla Robe"
-      },
-      {
         "id": 1391,
         "name": "Embla Shoes"
       },
@@ -10854,16 +10601,8 @@
         "name": "Fey Neman Cuirass"
       },
       {
-        "id": 1491,
-        "name": "Fey Neman Greaves"
-      },
-      {
         "id": 1290,
         "name": "Fey Neman Helmet"
-      },
-      {
-        "id": 1492,
-        "name": "Fey Neman Warsword"
       },
       {
         "id": 1168,
@@ -10880,10 +10619,6 @@
       {
         "id": 1284,
         "name": "Neman Cuirass"
-      },
-      {
-        "id": 1490,
-        "name": "Neman Greaves"
       },
       {
         "id": 1282,
@@ -10962,10 +10697,6 @@
       {
         "id": 254,
         "name": "Ancient Jinn"
-      },
-      {
-        "id": 494,
-        "name": "Balor Gateway"
       },
       {
         "id": 443,
@@ -11498,10 +11229,6 @@
         "name": "Balor Flame"
       },
       {
-        "id": 494,
-        "name": "Balor Gateway"
-      },
-      {
         "id": 443,
         "name": "Arisen Hel"
       },
@@ -11712,10 +11439,6 @@
       {
         "id": 1389,
         "name": "Hel's Garb"
-      },
-      {
-        "id": 1504,
-        "name": "Horned Armor"
       },
       {
         "id": 584,
@@ -12172,10 +11895,6 @@
         "name": "Minotaur"
       },
       {
-        "id": 122,
-        "name": "Bear"
-      },
-      {
         "id": 381,
         "name": "Hawk"
       },
@@ -12485,7 +12204,7 @@
       },
       {
         "id": 394,
-        "name": "Vampire (zzz)"
+        "name": "Vampire (day)"
       },
       {
         "id": 295,
@@ -12642,10 +12361,6 @@
         "name": "Fallen Thief"
       },
       {
-        "id": 272,
-        "name": "Sea Serpent"
-      },
-      {
         "id": 16,
         "name": "Snake"
       },
@@ -12783,10 +12498,6 @@
       },
       {
         "id": 386,
-        "name": "Balor Gateway"
-      },
-      {
-        "id": 494,
         "name": "Balor Gateway"
       },
       {
@@ -12948,66 +12659,6 @@
       {
         "id": 900,
         "name": "Ebon Top Hat"
-      },
-      {
-        "id": 1482,
-        "name": "Elite Balor Armor"
-      },
-      {
-        "id": 1483,
-        "name": "Elite Balor Helmet"
-      },
-      {
-        "id": 1487,
-        "name": "Elite Balor Katana"
-      },
-      {
-        "id": 1484,
-        "name": "Elite Balor Leggings"
-      },
-      {
-        "id": 1485,
-        "name": "Elite Balor Shield"
-      },
-      {
-        "id": 1439,
-        "name": "Elite Draconian Armor"
-      },
-      {
-        "id": 1478,
-        "name": "Elite Draconian Boots"
-      },
-      {
-        "id": 1479,
-        "name": "Elite Draconian Cowl"
-      },
-      {
-        "id": 1438,
-        "name": "Elite Draconian Garb"
-      },
-      {
-        "id": 1446,
-        "name": "Elite Draconian Hood"
-      },
-      {
-        "id": 1455,
-        "name": "Elite Draconian Leggings"
-      },
-      {
-        "id": 1480,
-        "name": "Elite Draconian Robe"
-      },
-      {
-        "id": 1450,
-        "name": "Elite Draconian Sword"
-      },
-      {
-        "id": 1453,
-        "name": "Elite Fomorian Staff"
-      },
-      {
-        "id": 1452,
-        "name": "Elite Fomorian Sword"
       },
       {
         "id": 624,
@@ -13332,10 +12983,6 @@
         "name": "High Fomorian Mage"
       },
       {
-        "id": 492,
-        "name": "Elite Draconian"
-      },
-      {
         "id": 182,
         "name": "Balor Assassin"
       }
@@ -13402,10 +13049,6 @@
       {
         "id": 585,
         "name": "Horned Hood"
-      },
-      {
-        "id": 125,
-        "name": "Masamune"
       },
       {
         "id": 1037,
@@ -13488,18 +13131,6 @@
         "name": "Alpha Myrddin Robe"
       },
       {
-        "id": 1416,
-        "name": "Arch-Blessed Rune Armor"
-      },
-      {
-        "id": 1405,
-        "name": "Arch-Blessed Rune Helmet"
-      },
-      {
-        "id": 1415,
-        "name": "Arch-Blessed Rune Leggings"
-      },
-      {
         "id": 834,
         "name": "Arisen Clurichaun Blade"
       },
@@ -13514,22 +13145,6 @@
       {
         "id": 839,
         "name": "Arisen Naggeneen's Hat"
-      },
-      {
-        "id": 1406,
-        "name": "Arisen Trevelyan's Archistaff"
-      },
-      {
-        "id": 1404,
-        "name": "Arisen Trevelyan's Hood"
-      },
-      {
-        "id": 1411,
-        "name": "Arisen Trevelyan's Robe"
-      },
-      {
-        "id": 1403,
-        "name": "Arisen Trevelyan's Shoes"
       },
       {
         "id": 767,
@@ -13550,18 +13165,6 @@
       {
         "id": 789,
         "name": "Beta Myrddin Robe"
-      },
-      {
-        "id": 1412,
-        "name": "Blessed Rune Armor"
-      },
-      {
-        "id": 1408,
-        "name": "Blessed Rune Helmet"
-      },
-      {
-        "id": 1407,
-        "name": "Blessed Rune Leggings"
       },
       {
         "id": 576,
@@ -13644,10 +13247,6 @@
         "name": "Lady of the Lake"
       },
       {
-        "id": 764,
-        "name": "Myrddin Harp"
-      },
-      {
         "id": 577,
         "name": "Naggeneen's Hat"
       },
@@ -13692,26 +13291,6 @@
         "name": "Runic Robe"
       },
       {
-        "id": 1456,
-        "name": "Tarnished King's Crown"
-      },
-      {
-        "id": 1409,
-        "name": "Trevelyan's Archistaff"
-      },
-      {
-        "id": 1402,
-        "name": "Trevelyan's Hood"
-      },
-      {
-        "id": 1410,
-        "name": "Trevelyan's Robe"
-      },
-      {
-        "id": 1401,
-        "name": "Trevelyan's Shoes"
-      },
-      {
         "id": 765,
         "name": "Zeta Myrddin"
       },
@@ -13746,20 +13325,8 @@
         "name": "Fallen Merlin"
       },
       {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
         "id": 210,
         "name": "Enlightened Prince"
-      },
-      {
-        "id": 312,
-        "name": "Arisen Merlin"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
       }
     ],
     "equipped_by": [
@@ -14070,18 +13637,6 @@
         "name": "Bow of Typhon"
       },
       {
-        "id": 1426,
-        "name": "Questing Axe"
-      },
-      {
-        "id": 1423,
-        "name": "Questing Bow"
-      },
-      {
-        "id": 1427,
-        "name": "Questing Staff"
-      },
-      {
         "id": 1163,
         "name": "Staff of the Chimera"
       },
@@ -14354,10 +13909,6 @@
         "name": "Ebon Sleighblade"
       },
       {
-        "id": 1488,
-        "name": "Elite Balor Archistaff"
-      },
-      {
         "id": 1313,
         "name": "Fairy's Wand"
       },
@@ -14512,20 +14063,12 @@
         "name": "Living Armor"
       },
       {
-        "id": 394,
-        "name": "Vampire (zzz)"
-      },
-      {
         "id": 386,
         "name": "Balor Gateway"
       },
       {
         "id": 170,
         "name": "Colossus"
-      },
-      {
-        "id": 494,
-        "name": "Balor Gateway"
       },
       {
         "id": 181,
@@ -14814,38 +14357,6 @@
       {
         "id": 900,
         "name": "Ebon Top Hat"
-      },
-      {
-        "id": 1481,
-        "name": "Elite Balor Robe"
-      },
-      {
-        "id": 1442,
-        "name": "Elite Fomorian Armor"
-      },
-      {
-        "id": 1432,
-        "name": "Elite Fomorian Boots"
-      },
-      {
-        "id": 1448,
-        "name": "Elite Fomorian Cowl"
-      },
-      {
-        "id": 1495,
-        "name": "Elite Fomorian Garb"
-      },
-      {
-        "id": 1449,
-        "name": "Elite Fomorian Hood"
-      },
-      {
-        "id": 1433,
-        "name": "Elite Fomorian Leggings"
-      },
-      {
-        "id": 1443,
-        "name": "Elite Fomorian Robe"
       },
       {
         "id": 1218,
@@ -15762,10 +15273,6 @@
       {
         "id": 526,
         "name": "Racul Blade"
-      },
-      {
-        "id": 117,
-        "name": "Vampiric Blade"
       }
     ],
     "dropped_by": [
@@ -15814,22 +15321,6 @@
       {
         "id": 861,
         "name": "Arisen Ithra's Staff"
-      },
-      {
-        "id": 1406,
-        "name": "Arisen Trevelyan's Archistaff"
-      },
-      {
-        "id": 1404,
-        "name": "Arisen Trevelyan's Hood"
-      },
-      {
-        "id": 1411,
-        "name": "Arisen Trevelyan's Robe"
-      },
-      {
-        "id": 1403,
-        "name": "Arisen Trevelyan's Shoes"
       },
       {
         "id": 38,
@@ -15944,22 +15435,6 @@
         "name": "Sleighblade"
       },
       {
-        "id": 1409,
-        "name": "Trevelyan's Archistaff"
-      },
-      {
-        "id": 1402,
-        "name": "Trevelyan's Hood"
-      },
-      {
-        "id": 1410,
-        "name": "Trevelyan's Robe"
-      },
-      {
-        "id": 1401,
-        "name": "Trevelyan's Shoes"
-      },
-      {
         "id": 634,
         "name": "Yeti Coat"
       },
@@ -15982,8 +15457,12 @@
         "name": "Jelly"
       },
       {
-        "id": 36,
-        "name": "Lizarr Warrior"
+        "id": 55,
+        "name": "Lizarr Knight"
+      },
+      {
+        "id": 72,
+        "name": "Lizarr Lord"
       },
       {
         "id": 73,
@@ -16032,22 +15511,6 @@
       {
         "id": 254,
         "name": "Ancient Jinn"
-      },
-      {
-        "id": 494,
-        "name": "Balor Gateway"
-      },
-      {
-        "id": 479,
-        "name": "Elite Nothren Berserker"
-      },
-      {
-        "id": 480,
-        "name": "Elite Nothren Raider"
-      },
-      {
-        "id": 485,
-        "name": "Elite Nothren Warlock"
       },
       {
         "id": 443,
@@ -16150,10 +15613,6 @@
       {
         "id": 305,
         "name": "Arisen Carman"
-      },
-      {
-        "id": 494,
-        "name": "Balor Gateway"
       }
     ],
     "equipped_by": [
@@ -16226,10 +15685,6 @@
         "name": "Feral Hood"
       },
       {
-        "id": 1298,
-        "name": "Feral Warsword"
-      },
-      {
         "id": 1019,
         "name": "Kerberos Archistaff"
       },
@@ -16260,10 +15715,6 @@
       {
         "id": 1020,
         "name": "Sharpened Kerberos Claws"
-      },
-      {
-        "id": 84,
-        "name": "Staff of Wolves"
       },
       {
         "id": 304,
@@ -16382,10 +15833,6 @@
         "name": "Candle-staff"
       },
       {
-        "id": 27,
-        "name": "Cane"
-      },
-      {
         "id": 838,
         "name": "Clurichaun Arrows"
       },
@@ -16412,18 +15859,6 @@
       {
         "id": 751,
         "name": "Earthen Arrows"
-      },
-      {
-        "id": 1451,
-        "name": "Elite Draconian Staff"
-      },
-      {
-        "id": 1453,
-        "name": "Elite Fomorian Staff"
-      },
-      {
-        "id": 1452,
-        "name": "Elite Fomorian Sword"
       },
       {
         "id": 493,
@@ -16516,10 +15951,6 @@
       {
         "id": 293,
         "name": "Longbow"
-      },
-      {
-        "id": 650,
-        "name": "Lute"
       },
       {
         "id": 328,
@@ -16637,15 +16068,7 @@
       },
       {
         "id": 394,
-        "name": "Vampire (zzz)"
-      },
-      {
-        "id": 270,
-        "name": "Cave Sprout"
-      },
-      {
-        "id": 266,
-        "name": "Dracon"
+        "name": "Vampire (day)"
       },
       {
         "id": 195,
@@ -17253,10 +16676,6 @@
         "name": "Arisen Arachne"
       },
       {
-        "id": 494,
-        "name": "Balor Gateway"
-      },
-      {
         "id": 429,
         "name": "Fey Cactus"
       }
@@ -17578,10 +16997,6 @@
     "image": "materials/water_stone.png",
     "materials": [
       {
-        "id": 827,
-        "name": "Arisen Horror"
-      },
-      {
         "id": 1095,
         "name": "Arisen Hydra Staff"
       },
@@ -17590,20 +17005,12 @@
         "name": "Arisen Sea Axe"
       },
       {
-        "id": 826,
-        "name": "Arisen Terror"
-      },
-      {
         "id": 1338,
         "name": "Azure Twinbow"
       },
       {
         "id": 1337,
         "name": "Castor's Archistaff"
-      },
-      {
-        "id": 636,
-        "name": "Dioscuri Archistaff"
       },
       {
         "id": 644,
@@ -17646,10 +17053,6 @@
       {
         "id": 373,
         "name": "Hydra"
-      },
-      {
-        "id": 269,
-        "name": "Cthulhu"
       },
       {
         "id": 367,
@@ -18766,18 +18169,6 @@
     "image": "materials/lightstone.png",
     "materials": [
       {
-        "id": 881,
-        "name": "Dawnbreaker [bow]"
-      },
-      {
-        "id": 882,
-        "name": "Dawnbreaker [staff]"
-      },
-      {
-        "id": 876,
-        "name": "Dawnbreaker [sword]"
-      },
-      {
         "id": 1081,
         "name": "Daybreak [bow]"
       },
@@ -19462,28 +18853,12 @@
         "name": "Arisen Vandal's Veil"
       },
       {
-        "id": 1418,
-        "name": "Askr Armor"
-      },
-      {
-        "id": 1421,
-        "name": "Askr Boots"
-      },
-      {
-        "id": 1419,
-        "name": "Askr Cowl"
-      },
-      {
         "id": 1393,
         "name": "Askr Garb"
       },
       {
         "id": 1394,
         "name": "Askr Helmet"
-      },
-      {
-        "id": 1417,
-        "name": "Askr Leggings"
       },
       {
         "id": 1164,
@@ -19512,10 +18887,6 @@
       {
         "id": 292,
         "name": "Boots of the Sea"
-      },
-      {
-        "id": 1165,
-        "name": "Bow of the Chimera"
       },
       {
         "id": 629,
@@ -19552,10 +18923,6 @@
       {
         "id": 1392,
         "name": "Embla Hood"
-      },
-      {
-        "id": 1420,
-        "name": "Embla Robe"
       },
       {
         "id": 1391,
@@ -19688,10 +19055,6 @@
       {
         "id": 742,
         "name": "Royal Shield"
-      },
-      {
-        "id": 1163,
-        "name": "Staff of the Chimera"
       },
       {
         "id": 62,
@@ -20024,10 +19387,6 @@
         "name": "Bow of Diana"
       },
       {
-        "id": 1165,
-        "name": "Bow of the Chimera"
-      },
-      {
         "id": 120,
         "name": "Caladbolg"
       },
@@ -20066,18 +19425,6 @@
       {
         "id": 1053,
         "name": "Fairy's Scroll"
-      },
-      {
-        "id": 1493,
-        "name": "Fey Badb Boots"
-      },
-      {
-        "id": 1494,
-        "name": "Fey Badb Garb"
-      },
-      {
-        "id": 1497,
-        "name": "Fey Badb Veil"
       },
       {
         "id": 1287,
@@ -20248,10 +19595,6 @@
         "name": "Smelly Shoes"
       },
       {
-        "id": 1163,
-        "name": "Staff of the Chimera"
-      },
-      {
         "id": 1173,
         "name": "Third Horseman's Armor"
       },
@@ -20374,10 +19717,6 @@
         "name": "Fallen Witch"
       },
       {
-        "id": 452,
-        "name": "Hobgoblin Lord"
-      },
-      {
         "id": 72,
         "name": "Lizarr Lord"
       },
@@ -20498,10 +19837,6 @@
         "name": "Kerberos"
       },
       {
-        "id": 487,
-        "name": "Kobold Lord"
-      },
-      {
         "id": 150,
         "name": "Ljosalfar Lord"
       },
@@ -20522,10 +19857,6 @@
         "name": "Balor King"
       },
       {
-        "id": 491,
-        "name": "Elite Orc Lord"
-      },
-      {
         "id": 432,
         "name": "Ferocious Cerus"
       },
@@ -20544,10 +19875,6 @@
       {
         "id": 335,
         "name": "Arisen Mimic King"
-      },
-      {
-        "id": 486,
-        "name": "Elite Kobold Lord"
       }
     ],
     "equipped_by": [
@@ -20612,12 +19939,6 @@
         "base": 105
       }
     },
-    "materials": [
-      {
-        "id": 252,
-        "name": "Darkstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 157,
@@ -21013,10 +20334,6 @@
         "name": "Dune Blade"
       },
       {
-        "id": 1489,
-        "name": "Elite Dune Blade"
-      },
-      {
         "id": 359,
         "name": "Sandstorm"
       }
@@ -21180,18 +20497,6 @@
         "name": "Arisen Surtr's Sword"
       },
       {
-        "id": 1418,
-        "name": "Askr Armor"
-      },
-      {
-        "id": 1421,
-        "name": "Askr Boots"
-      },
-      {
-        "id": 1419,
-        "name": "Askr Cowl"
-      },
-      {
         "id": 1393,
         "name": "Askr Garb"
       },
@@ -21200,16 +20505,8 @@
         "name": "Askr Helmet"
       },
       {
-        "id": 1417,
-        "name": "Askr Leggings"
-      },
-      {
         "id": 1392,
         "name": "Embla Hood"
-      },
-      {
-        "id": 1420,
-        "name": "Embla Robe"
       },
       {
         "id": 1391,
@@ -22211,16 +21508,8 @@
         "name": "Fey Neman Cuirass"
       },
       {
-        "id": 1491,
-        "name": "Fey Neman Greaves"
-      },
-      {
         "id": 1290,
         "name": "Fey Neman Helmet"
-      },
-      {
-        "id": 1492,
-        "name": "Fey Neman Warsword"
       },
       {
         "id": 383,
@@ -22257,10 +21546,6 @@
       {
         "id": 1284,
         "name": "Neman Cuirass"
-      },
-      {
-        "id": 1490,
-        "name": "Neman Greaves"
       },
       {
         "id": 1282,
@@ -22691,10 +21976,6 @@
     "image": "materials/balorite.png",
     "materials": [
       {
-        "id": 1462,
-        "name": "Arisen Balor Crown"
-      },
-      {
         "id": 398,
         "name": "Balor Crown"
       },
@@ -22707,10 +21988,6 @@
       {
         "id": 187,
         "name": "Balor King"
-      },
-      {
-        "id": 460,
-        "name": "Arisen Balor King"
       }
     ],
     "equipped_by": [
@@ -23011,18 +22288,6 @@
         "name": "Badb Warbow"
       },
       {
-        "id": 1493,
-        "name": "Fey Badb Boots"
-      },
-      {
-        "id": 1494,
-        "name": "Fey Badb Garb"
-      },
-      {
-        "id": 1497,
-        "name": "Fey Badb Veil"
-      },
-      {
         "id": 1287,
         "name": "Fey Badb Warbow"
       },
@@ -23057,12 +22322,6 @@
       {
         "id": 452,
         "name": "Shadow Katana"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 454,
-        "name": "Grand Knight Lugus"
       }
     ],
     "equipped_by": [
@@ -24311,12 +23570,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -24354,12 +23609,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -24560,12 +23811,6 @@
     "boss": false,
     "arena": false,
     "image": "useables/cure_all.png",
-    "dropped_by": [
-      {
-        "id": 266,
-        "name": "Dracon"
-      }
-    ],
     "quests": [
       {
         "id": 14,
@@ -24691,6 +23936,10 @@
         "name": "Titan"
       },
       {
+        "id": 179,
+        "name": "Balor Elite"
+      },
+      {
         "id": 386,
         "name": "Balor Gateway"
       },
@@ -24701,10 +23950,6 @@
       {
         "id": 373,
         "name": "Hydra"
-      },
-      {
-        "id": 179,
-        "name": "Maelor"
       },
       {
         "id": 273,
@@ -24735,16 +23980,16 @@
         "name": "Kerberos"
       },
       {
-        "id": 478,
-        "name": "Very Scary Skeleton"
-      },
-      {
         "id": 440,
         "name": "Arisen Cade"
       },
       {
         "id": 346,
         "name": "Arisen Fenrir"
+      },
+      {
+        "id": 446,
+        "name": "Arisen Meliodas"
       },
       {
         "id": 312,
@@ -24843,10 +24088,6 @@
       {
         "id": 142,
         "name": "Fenrir"
-      },
-      {
-        "id": 454,
-        "name": "Grand Knight Lugus"
       },
       {
         "id": 275,
@@ -25045,12 +24286,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -25290,10 +24527,6 @@
     "image": "useables/magic_defense_tonic.png",
     "dropped_by": [
       {
-        "id": 266,
-        "name": "Dracon"
-      },
-      {
         "id": 444,
         "name": "Hel"
       },
@@ -25440,9 +24673,6 @@
     "stats": {
       "attack": {
         "base": 250
-      },
-      "crit": {
-        "base": 1
       },
       "dexterity": {
         "base": 100
@@ -25645,7 +24875,7 @@
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This crooked shotel is one of them.",
     "type": "Weapon",
     "tier": 8,
-    "boss": true,
+    "boss": false,
     "arena": false,
     "image": "weapons/shotel.png",
     "stats": {
@@ -25802,12 +25032,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Att ↓",
-      "Mag ↓",
-      "T. Att ↓",
-      "T. Mag ↓"
     ]
   },
   {
@@ -25903,12 +25127,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -26227,7 +25447,7 @@
       },
       {
         "id": 343,
-        "name": "Arisen Demeter, the Earth Magus"
+        "name": "Arisen Demeter, The Earth Magus"
       },
       {
         "id": 349,
@@ -26275,12 +25495,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -26334,12 +25550,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Def ↓↓",
-      "T. Def ↓",
-      "T. Def ↓↓",
-      "Def ↓"
     ]
   },
   {
@@ -26642,12 +25852,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -26674,6 +25880,12 @@
         "base": 20
       }
     },
+    "dropped_by": [
+      {
+        "id": 39,
+        "name": "Draconian Lord"
+      }
+    ],
     "equipped_by": [
       {
         "id": 2,
@@ -27270,12 +26482,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -27353,12 +26561,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -27387,78 +26591,6 @@
     "arena": false,
     "image": "materials/nightstone.png",
     "materials": [
-      {
-        "id": 1457,
-        "name": "Arisen Dagda Armor"
-      },
-      {
-        "id": 1460,
-        "name": "Arisen Dagda Boots"
-      },
-      {
-        "id": 1461,
-        "name": "Arisen Dagda Cowl"
-      },
-      {
-        "id": 1458,
-        "name": "Arisen Dagda Garb"
-      },
-      {
-        "id": 1463,
-        "name": "Arisen Dagda Helmet"
-      },
-      {
-        "id": 1467,
-        "name": "Arisen Dagda Hood"
-      },
-      {
-        "id": 1464,
-        "name": "Arisen Dagda Leggings"
-      },
-      {
-        "id": 1459,
-        "name": "Arisen Dagda Robe"
-      },
-      {
-        "id": 1465,
-        "name": "Arisen Dagda Shoes"
-      },
-      {
-        "id": 1472,
-        "name": "Dagda Armor"
-      },
-      {
-        "id": 1468,
-        "name": "Dagda Boots"
-      },
-      {
-        "id": 1475,
-        "name": "Dagda Cowl"
-      },
-      {
-        "id": 1469,
-        "name": "Dagda Garb"
-      },
-      {
-        "id": 1470,
-        "name": "Dagda Helmet"
-      },
-      {
-        "id": 1473,
-        "name": "Dagda Hood"
-      },
-      {
-        "id": 1471,
-        "name": "Dagda Leggings"
-      },
-      {
-        "id": 1474,
-        "name": "Dagda Robe"
-      },
-      {
-        "id": 1476,
-        "name": "Dagda Shoes"
-      },
       {
         "id": 1123,
         "name": "Nightbreak [bow]"
@@ -27634,10 +26766,6 @@
         "name": "Macha Warstaff"
       },
       {
-        "id": 764,
-        "name": "Myrddin Harp"
-      },
-      {
         "id": 1198,
         "name": "Omega Myrddin"
       },
@@ -27799,12 +26927,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -27917,12 +27041,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -27957,12 +27077,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -28036,12 +27152,8 @@
     ],
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -32650,12 +31762,6 @@
         "base": 20
       }
     },
-    "materials": [
-      {
-        "id": 302,
-        "name": "Pure Waterstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 283,
@@ -33217,12 +32323,6 @@
         "base": 4
       }
     },
-    "materials": [
-      {
-        "id": 283,
-        "name": "Wood"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -33904,66 +33004,6 @@
     "image": "materials/baldur.png",
     "materials": [
       {
-        "id": 1436,
-        "name": "Asgard Armor"
-      },
-      {
-        "id": 1429,
-        "name": "Asgard Greaves"
-      },
-      {
-        "id": 1496,
-        "name": "Asgard Helmet"
-      },
-      {
-        "id": 1435,
-        "name": "Asgard Shield"
-      },
-      {
-        "id": 1477,
-        "name": "Asgard's Summit"
-      },
-      {
-        "id": 1441,
-        "name": "Elite Nothren Armor"
-      },
-      {
-        "id": 1430,
-        "name": "Elite Nothren Boots"
-      },
-      {
-        "id": 1444,
-        "name": "Elite Nothren Cowl"
-      },
-      {
-        "id": 1437,
-        "name": "Elite Nothren Garb"
-      },
-      {
-        "id": 1428,
-        "name": "Elite Nothren Greaves"
-      },
-      {
-        "id": 1447,
-        "name": "Elite Nothren Helmet"
-      },
-      {
-        "id": 1445,
-        "name": "Elite Nothren Hood"
-      },
-      {
-        "id": 1440,
-        "name": "Elite Nothren Robe"
-      },
-      {
-        "id": 1434,
-        "name": "Elite Nothren Shield"
-      },
-      {
-        "id": 1431,
-        "name": "Elite Nothren Shoes"
-      },
-      {
         "id": 657,
         "name": "Nothren Armor"
       },
@@ -34042,24 +33082,8 @@
         "name": "Nothren Warlock"
       },
       {
-        "id": 479,
-        "name": "Elite Nothren Berserker"
-      },
-      {
-        "id": 480,
-        "name": "Elite Nothren Raider"
-      },
-      {
-        "id": 485,
-        "name": "Elite Nothren Warlock"
-      },
-      {
         "id": 294,
         "name": "Nothren Valkyrie"
-      },
-      {
-        "id": 483,
-        "name": "Elite Nothren Valkyrie"
       },
       {
         "id": 316,
@@ -34156,10 +33180,6 @@
       }
     ],
     "dropped_by": [
-      {
-        "id": 465,
-        "name": "Scary Skeleton"
-      },
       {
         "id": 14,
         "name": "Skeleton"
@@ -34856,15 +33876,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Att ↓",
-      "Mag ↓",
-      "T. Att ↓",
-      "T. Mag ↓",
-      "T. Att ↓↓",
-      "T. Mag ↓↓",
-      "T. Dex ↓"
     ]
   },
   {
@@ -35242,14 +34253,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Def ↓",
-      "Def ↓↓",
-      "T. Def ↓",
-      "T. Res ↓",
-      "Res ↓↓",
-      "Res ↓"
     ]
   },
   {
@@ -35908,18 +34911,6 @@
       {
         "id": 707,
         "name": "Atgeir"
-      },
-      {
-        "id": 1424,
-        "name": "Baldr Battlerobe"
-      },
-      {
-        "id": 1422,
-        "name": "Baldr Boots"
-      },
-      {
-        "id": 1425,
-        "name": "Baldr Hood"
       },
       {
         "id": 792,
@@ -38191,16 +37182,6 @@
         "base": 172
       }
     },
-    "materials": [
-      {
-        "id": 513,
-        "name": "Avalon Ore"
-      },
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 413,
@@ -40819,12 +39800,6 @@
         "base": 160
       }
     },
-    "materials": [
-      {
-        "id": 302,
-        "name": "Pure Waterstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 315,
@@ -40855,12 +39830,6 @@
         "base": 160
       }
     },
-    "materials": [
-      {
-        "id": 302,
-        "name": "Pure Waterstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 315,
@@ -41535,7 +40504,7 @@
         "base": 222
       },
       "crit": {
-        "base": 4
+        "base": 2
       },
       "dexterity": {
         "base": 60
@@ -41903,9 +40872,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Petrified"
     ]
   },
   {
@@ -42222,10 +41188,10 @@
       "Rot"
     ],
     "prevents": [
-      "Rot",
       "Burning",
       "Frozen",
-      "Paralyzed"
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -42289,7 +41255,7 @@
     "dropped_by": [
       {
         "id": 343,
-        "name": "Arisen Demeter, the Earth Magus"
+        "name": "Arisen Demeter, The Earth Magus"
       }
     ],
     "equipped_by": [
@@ -42519,7 +41485,7 @@
     "dropped_by": [
       {
         "id": 343,
-        "name": "Arisen Demeter, the Earth Magus"
+        "name": "Arisen Demeter, The Earth Magus"
       }
     ],
     "equipped_by": [
@@ -43021,12 +41987,6 @@
         "base": 25
       }
     },
-    "materials": [
-      {
-        "id": 330,
-        "name": "Pure Lightstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 420,
@@ -43042,10 +42002,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Burning",
-      "Blind"
     ]
   },
   {
@@ -43247,12 +42203,6 @@
         "base": 12
       }
     },
-    "materials": [
-      {
-        "id": 330,
-        "name": "Pure Lightstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 420,
@@ -43268,10 +42218,6 @@
         "id": 3,
         "name": "Thief"
       }
-    ],
-    "prevents": [
-      "Burning",
-      "Blind"
     ]
   },
   {
@@ -43291,12 +42237,6 @@
         "base": 50
       }
     },
-    "materials": [
-      {
-        "id": 330,
-        "name": "Pure Lightstone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 420,
@@ -43312,10 +42252,6 @@
         "id": 2,
         "name": "Mage"
       }
-    ],
-    "prevents": [
-      "Burning",
-      "Blind"
     ]
   },
   {
@@ -43724,7 +42660,7 @@
         "base": 33
       },
       "mana": {
-        "base": 12
+        "base": 14
       }
     },
     "dropped_by": [
@@ -44484,7 +43420,7 @@
         "name": "Warrior"
       }
     ],
-    "gives": [
+    "causes": [
       "Dex ↑",
       "Crit ↑"
     ]
@@ -45505,12 +44441,8 @@
     },
     "dropped_by": [
       {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      },
-      {
         "id": 179,
-        "name": "Maelor"
+        "name": "Balor Elite"
       }
     ],
     "equipped_by": [
@@ -46137,9 +45069,6 @@
       "dexterity": {
         "base": 10
       },
-      "hp": {
-        "base": 400
-      },
       "resistance": {
         "base": 192
       }
@@ -46558,11 +45487,8 @@
       "defense": {
         "base": -24
       },
-      "dexterity": {
-        "base": -24
-      },
       "hp": {
-        "base": 500
+        "base": 300
       },
       "magic": {
         "base": -24
@@ -46572,9 +45498,6 @@
       },
       "resistance": {
         "base": -24
-      },
-      "ward": {
-        "base": 1
       }
     },
     "dropped_by": [
@@ -46609,7 +45532,7 @@
     "image": "acc/red_crystal.png",
     "stats": {
       "hp": {
-        "base": 100
+        "base": 24
       }
     },
     "dropped_by": [
@@ -48286,9 +47209,6 @@
       "defense": {
         "base": 180
       },
-      "hp": {
-        "base": 400
-      },
       "resistance": {
         "base": 180
       }
@@ -49854,6 +48774,10 @@
     ],
     "dropped_by": [
       {
+        "id": 426,
+        "name": "Sister Macha"
+      },
+      {
         "id": 358,
         "name": "The Morrigan"
       }
@@ -51124,16 +50048,6 @@
     "boss": true,
     "arena": false,
     "image": "useables/ambrosia.png",
-    "dropped_by": [
-      {
-        "id": 423,
-        "name": "Arisen Morrigan"
-      },
-      {
-        "id": 358,
-        "name": "The Morrigan"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -51823,7 +50737,7 @@
   {
     "name": "Jewel of Health",
     "id": 1073,
-    "description": "A small adornment capable of increasing the HP granted by a piece of equipment when adorned upon it upon it.",
+    "description": "A small adornment capable of increasing the HP granted by a piece of equipment when adorned upon it.upon it.",
     "type": "Adornment",
     "tier": 3,
     "boss": false,
@@ -51882,7 +50796,7 @@
   {
     "name": "Ankou's Ring",
     "id": 1075,
-    "description": "A ring crafted for certain slender fingers. It grants protection for the darkness, one cannot fall asleep or become cursed while wearing it.",
+    "description": "A ring crafted for certain slender fingers. It grants protection for the darkness; one cannot fall asleep or become cursed while wearing it.",
     "type": "Accessory",
     "tier": 7,
     "boss": true,
@@ -51947,11 +50861,11 @@
         "name": "Warrior"
       }
     ],
-    "prevents": [
-      "Rot",
-      "Toxic",
+    "cures": [
       "Poisoned",
-      "Blight"
+      "Blight",
+      "Toxic",
+      "Rot"
     ]
   },
   {
@@ -52237,10 +51151,10 @@
       }
     ],
     "prevents": [
-      "Rot",
       "Burning",
       "Frozen",
-      "Paralyzed"
+      "Paralyzed",
+      "Rot"
     ]
   },
   {
@@ -52605,12 +51519,6 @@
         "name": "Darkstone"
       }
     ],
-    "dropped_by": [
-      {
-        "id": 389,
-        "name": "Draugr Mage"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -52726,12 +51634,6 @@
       {
         "id": 263,
         "name": "Iron"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 154,
-        "name": "Gnat"
       }
     ],
     "equipped_by": [
@@ -52924,9 +51826,6 @@
         "id": 1,
         "name": "Warrior"
       }
-    ],
-    "prevents": [
-      "Petrified"
     ]
   },
   {
@@ -54214,7 +53113,7 @@
     "description": "A helmet made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.",
     "type": "Head",
     "tier": 7,
-    "boss": true,
+    "boss": false,
     "arena": false,
     "image": "armor/wyvern_helm.png",
     "stats": {
@@ -54310,7 +53209,7 @@
     "description": "A chest guard made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.",
     "type": "Armor",
     "tier": 7,
-    "boss": true,
+    "boss": false,
     "arena": false,
     "image": "armor/wyvern_plate.png",
     "stats": {
@@ -54556,10 +53455,6 @@
     "dropped_by": [
       {
         "id": 386,
-        "name": "Balor Gateway"
-      },
-      {
-        "id": 494,
         "name": "Balor Gateway"
       },
       {
@@ -55660,16 +54555,8 @@
     },
     "materials": [
       {
-        "id": 346,
-        "name": "Greater Soul"
-      },
-      {
         "id": 272,
         "name": "Red Draconite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
       }
     ],
     "dropped_by": [
@@ -55751,16 +54638,8 @@
     },
     "materials": [
       {
-        "id": 346,
-        "name": "Greater Soul"
-      },
-      {
         "id": 272,
         "name": "Red Draconite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
       }
     ],
     "dropped_by": [
@@ -60261,9 +59140,6 @@
       },
       "resistance": {
         "base": 335
-      },
-      "ward": {
-        "base": -1
       }
     },
     "materials": [
@@ -61253,12 +60129,6 @@
         "name": "Greater Soul"
       }
     ],
-    "dropped_by": [
-      {
-        "id": 425,
-        "name": "Sister Badb"
-      }
-    ],
     "equipped_by": [
       {
         "id": 3,
@@ -61308,12 +60178,6 @@
         "name": "Greater Soul"
       }
     ],
-    "dropped_by": [
-      {
-        "id": 426,
-        "name": "Sister Macha"
-      }
-    ],
     "equipped_by": [
       {
         "id": 2,
@@ -61352,12 +60216,6 @@
       {
         "id": 346,
         "name": "Greater Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 426,
-        "name": "Sister Macha"
       }
     ],
     "equipped_by": [
@@ -61725,18 +60583,6 @@
         "base": 35
       }
     },
-    "materials": [
-      {
-        "id": 282,
-        "name": "Wolf's Blood"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 275,
-        "name": "Kerberos"
-      }
-    ],
     "equipped_by": [
       {
         "id": 1,
@@ -63983,7 +62829,6 @@
       }
     ],
     "prevents": [
-      "T. Def ↓↓↓",
       "Def ↓",
       "Def ↓↓",
       "T. Def ↓",
@@ -63991,7 +62836,8 @@
       "Res ↓↓",
       "Res ↓",
       "T. Def ↓↓",
-      "T. Res ↓↓"
+      "T. Res ↓↓",
+      "T. Def ↓↓↓"
     ]
   },
   {
@@ -64036,9 +62882,9 @@
       "Mag ↓",
       "T. Att ↓",
       "T. Mag ↓",
-      "T. Dex ↓",
       "T. Att ↓↓",
-      "T. Mag ↓↓"
+      "T. Mag ↓↓",
+      "T. Dex ↓"
     ]
   },
   {
@@ -64302,7 +63148,7 @@
   {
     "name": "Seeker's Candle",
     "id": 1359,
-    "description": "When lit, this candle is said to draw near monsters that you have accepted a quest for.",
+    "description": "Whenn lit, this candle is said to draw near monsters that you have accepted a quest for.",
     "type": "Item",
     "tier": 4,
     "boss": false,
@@ -64402,7 +63248,7 @@
       },
       {
         "id": 343,
-        "name": "Arisen Demeter, the Earth Magus"
+        "name": "Arisen Demeter, The Earth Magus"
       },
       {
         "id": 349,
@@ -64455,10 +63301,6 @@
         "name": "Carman of the Underworld"
       },
       {
-        "id": 445,
-        "name": "Yggdrasil"
-      },
-      {
         "id": 442,
         "name": "Arisen Yggdrasil"
       }
@@ -64491,10 +63333,6 @@
       {
         "id": 445,
         "name": "Yggdrasil"
-      },
-      {
-        "id": 491,
-        "name": "Elite Orc Lord"
       },
       {
         "id": 442,
@@ -64850,16 +63688,16 @@
     "image": "armor/askr_boots.png",
     "stats": {
       "attack": {
-        "base": 35
+        "base": 32
       },
       "defense": {
-        "base": 286
+        "base": 260
       },
       "dexterity": {
         "base": 32
       },
       "resistance": {
-        "base": 70
+        "base": 64
       }
     },
     "materials": [
@@ -64903,16 +63741,16 @@
     "image": "armor/askr_hood.png",
     "stats": {
       "attack": {
-        "base": 35
+        "base": 32
       },
       "defense": {
-        "base": 286
+        "base": 260
       },
       "dexterity": {
         "base": 32
       },
       "resistance": {
-        "base": 70
+        "base": 64
       }
     },
     "materials": [
@@ -64953,16 +63791,16 @@
     "image": "armor/askr_garb.png",
     "stats": {
       "attack": {
-        "base": 35
+        "base": 32
       },
       "defense": {
-        "base": 286
+        "base": 260
       },
       "dexterity": {
         "base": 32
       },
       "resistance": {
-        "base": 70
+        "base": 64
       }
     },
     "materials": [
@@ -65003,13 +63841,13 @@
     "image": "armor/askr_leggings.png",
     "stats": {
       "attack": {
-        "base": 35
+        "base": 32
       },
       "defense": {
-        "base": 297
+        "base": 270
       },
       "resistance": {
-        "base": 35
+        "base": 32
       }
     },
     "materials": [
@@ -65050,10 +63888,10 @@
     "image": "armor/askr_hood.png",
     "stats": {
       "magic": {
-        "base": 35
+        "base": 32
       },
       "resistance": {
-        "base": 297
+        "base": 270
       }
     },
     "materials": [
@@ -65094,10 +63932,10 @@
     "image": "armor/askr_robe.png",
     "stats": {
       "magic": {
-        "base": 35
+        "base": 32
       },
       "resistance": {
-        "base": 297
+        "base": 270
       }
     },
     "materials": [
@@ -65141,10 +63979,10 @@
     "image": "armor/askr_boots.png",
     "stats": {
       "magic": {
-        "base": 35
+        "base": 32
       },
       "resistance": {
-        "base": 297
+        "base": 270
       }
     },
     "materials": [
@@ -65188,13 +64026,13 @@
     "image": "armor/askr_armor.png",
     "stats": {
       "attack": {
-        "base": 35
+        "base": 32
       },
       "defense": {
-        "base": 297
+        "base": 270
       },
       "resistance": {
-        "base": 35
+        "base": 32
       }
     },
     "materials": [
@@ -65238,13 +64076,13 @@
     "image": "armor/askr_helm.png",
     "stats": {
       "attack": {
-        "base": 35
+        "base": 32
       },
       "defense": {
-        "base": 297
+        "base": 270
       },
       "resistance": {
-        "base": 35
+        "base": 32
       }
     },
     "materials": [
@@ -65425,10 +64263,6 @@
       }
     ],
     "dropped_by": [
-      {
-        "id": 444,
-        "name": "Hel"
-      },
       {
         "id": 443,
         "name": "Arisen Hel"
@@ -65756,10 +64590,6 @@
       {
         "id": 444,
         "name": "Hel"
-      },
-      {
-        "id": 443,
-        "name": "Arisen Hel"
       }
     ],
     "equipped_by": [
@@ -65830,10 +64660,10 @@
     "image": "armor/askr_boots.png",
     "stats": {
       "magic": {
-        "base": 13
+        "base": 12
       },
       "resistance": {
-        "base": 187
+        "base": 170
       }
     },
     "materials": [
@@ -65848,12 +64678,6 @@
       {
         "id": 345,
         "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
       }
     ],
     "equipped_by": [
@@ -65877,10 +64701,10 @@
     "image": "armor/askr_hood.png",
     "stats": {
       "magic": {
-        "base": 13
+        "base": 12
       },
       "resistance": {
-        "base": 187
+        "base": 170
       }
     },
     "materials": [
@@ -65895,12 +64719,6 @@
       {
         "id": 345,
         "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
       }
     ],
     "equipped_by": [
@@ -65921,16 +64739,16 @@
     "image": "armor/askr_garb.png",
     "stats": {
       "attack": {
-        "base": 13
+        "base": 12
       },
       "defense": {
-        "base": 176
+        "base": 160
       },
       "dexterity": {
         "base": 12
       },
       "resistance": {
-        "base": 35
+        "base": 32
       }
     },
     "materials": [
@@ -65945,12 +64763,6 @@
       {
         "id": 345,
         "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
       }
     ],
     "equipped_by": [
@@ -65974,13 +64786,13 @@
     "image": "armor/askr_helm.png",
     "stats": {
       "attack": {
-        "base": 13
+        "base": 12
       },
       "defense": {
-        "base": 187
+        "base": 170
       },
       "resistance": {
-        "base": 22
+        "base": 20
       }
     },
     "materials": [
@@ -65995,12 +64807,6 @@
       {
         "id": 345,
         "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
       }
     ],
     "equipped_by": [
@@ -66067,7 +64873,7 @@
     "dropped_by": [
       {
         "id": 446,
-        "name": "Arisen King Meliodas"
+        "name": "Arisen Meliodas"
       }
     ],
     "equipped_by": [
@@ -66104,12 +64910,6 @@
       {
         "id": 268,
         "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 448,
-        "name": "False King Meliodas"
       }
     ],
     "equipped_by": [
@@ -66155,12 +64955,6 @@
       {
         "id": 268,
         "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 448,
-        "name": "False King Meliodas"
       }
     ],
     "equipped_by": [
@@ -66214,2388 +65008,10 @@
         "name": "Perfect Runestone"
       }
     ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "prevents": [
-      "Mag ↓",
-      "T. Mag ↓"
-    ]
-  },
-  {
-    "name": "Lyon's Penance",
-    "id": 1400,
-    "description": "An artifact capable of unmarking one from Lyonesse execution.",
-    "type": "Curative",
-    "tier": 5,
-    "boss": true,
-    "arena": false,
-    "image": "jewels/30.png",
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 448,
-        "name": "False King Meliodas"
-      },
-      {
-        "id": 446,
-        "name": "Arisen King Meliodas"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "cures": [
-      "Lyon's Mark"
-    ]
-  },
-  {
-    "name": "Trevelyan's Shoes",
-    "id": 1401,
-    "description": "Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/lyon_boots.png",
-    "stats": {
-      "crit": {
-        "base": 1
-      },
-      "mana": {
-        "base": 20
-      },
-      "resistance": {
-        "base": 148
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Trevelyan's Hood",
-    "id": 1402,
-    "description": "Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-    "type": "Head",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/lyon_hood.png",
-    "stats": {
-      "crit": {
-        "base": 1
-      },
-      "mana": {
-        "base": 20
-      },
-      "resistance": {
-        "base": 148
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Trevelyan's Shoes",
-    "id": 1403,
-    "description": "Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-    "type": "Legs",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/lyon_boots.png",
-    "stats": {
-      "crit": {
-        "base": 1
-      },
-      "mana": {
-        "base": 40
-      },
-      "resistance": {
-        "base": 220
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Trevelyan's Hood",
-    "id": 1404,
-    "description": "Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-    "type": "Head",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/lyon_hood.png",
-    "stats": {
-      "crit": {
-        "base": 1
-      },
-      "mana": {
-        "base": 40
-      },
-      "resistance": {
-        "base": 220
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Arch-Blessed Rune Helmet",
-    "id": 1405,
-    "description": "Mystical armor that boasts higher magic defense.",
-    "type": "Head",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/rune_helmet.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 230
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Trevelyan's Archistaff",
-    "id": 1406,
-    "description": "Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "weapons/trev_staff.png",
-    "stats": {
-      "crit": {
-        "base": 2
-      },
-      "magic": {
-        "base": 232
-      },
-      "mana": {
-        "base": 80
-      },
-      "ward": {
-        "base": 24
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Blessed Rune Leggings",
-    "id": 1407,
-    "description": "Mystical armor that boasts higher magic defense.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/rune_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 115
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Blessed Rune Helmet",
-    "id": 1408,
-    "description": "Mystical armor that boasts higher magic defense.",
-    "type": "Head",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/rune_helmet.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 115
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Trevelyan's Archistaff",
-    "id": 1409,
-    "description": "Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",
-    "type": "Weapon",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "weapons/trev_staff.png",
-    "stats": {
-      "crit": {
-        "base": 2
-      },
-      "magic": {
-        "base": 177
-      },
-      "mana": {
-        "base": 40
-      },
-      "ward": {
-        "base": 17
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Trevelyan's Robe",
-    "id": 1410,
-    "description": "Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-    "type": "Armor",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/lyon_robe.png",
-    "stats": {
-      "crit": {
-        "base": 1
-      },
-      "mana": {
-        "base": 20
-      },
-      "resistance": {
-        "base": 148
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Trevelyan's Robe",
-    "id": 1411,
-    "description": "Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/lyon_robe.png",
-    "stats": {
-      "crit": {
-        "base": 1
-      },
-      "mana": {
-        "base": 40
-      },
-      "resistance": {
-        "base": 220
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      },
-      {
-        "id": 280,
-        "name": "Waterstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Blessed Rune Armor",
-    "id": 1412,
-    "description": "Mystical armor that boasts higher magic defense.",
-    "type": "Armor",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/rune_armor.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 115
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Trevelyan's Charm",
-    "id": 1413,
-    "description": "Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",
-    "type": "Accessory",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "acc/draco_amulet.png",
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Trevelyan's Charm",
-    "id": 1414,
-    "description": "Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",
-    "type": "Accessory",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "acc/draco_amulet.png",
-    "dropped_by": [
-      {
-        "id": 449,
-        "name": "Fallen Warlock Trevelyan"
-      },
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arch-Blessed Rune Leggings",
-    "id": 1415,
-    "description": "Mystical armor that boasts higher magic defense.",
-    "type": "Legs",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/rune_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 230
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arch-Blessed Rune Armor",
-    "id": 1416,
-    "description": "Mystical armor that boasts higher magic defense.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/rune_armor.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 230
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 447,
-        "name": "Arisen Warlock Trevelyan"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Askr Leggings",
-    "id": 1417,
-    "description": "Heavy leggings of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned.",
-    "type": "Legs",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/askr_leggings.png",
-    "stats": {
-      "attack": {
-        "base": 13
-      },
-      "defense": {
-        "base": 187
-      },
-      "resistance": {
-        "base": 22
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 364,
-        "name": "Solarite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "prevents": [
-      "Stunned"
-    ]
-  },
-  {
-    "name": "Askr Armor",
-    "id": 1418,
-    "description": "Heavy armor of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power.",
-    "type": "Armor",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/askr_armor.png",
-    "stats": {
-      "attack": {
-        "base": 13
-      },
-      "defense": {
-        "base": 187
-      },
-      "resistance": {
-        "base": 22
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 364,
-        "name": "Solarite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "gives": [
-      "T. All ↑"
-    ]
-  },
-  {
-    "name": "Askr Cowl",
-    "id": 1419,
-    "description": "Cowl of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself.",
-    "type": "Head",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/askr_hood.png",
-    "stats": {
-      "attack": {
-        "base": 13
-      },
-      "defense": {
-        "base": 176
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 35
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 364,
-        "name": "Solarite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Embla Robe",
-    "id": 1420,
-    "description": null,
-    "type": "Armor",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/askr_robe.png",
-    "stats": {
-      "magic": {
-        "base": 13
-      },
-      "resistance": {
-        "base": 187
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 364,
-        "name": "Solarite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ],
-    "gives": [
-      "T. All ↑"
-    ]
-  },
-  {
-    "name": "Askr Boots",
-    "id": 1421,
-    "description": "Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned.",
-    "type": "Legs",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/askr_boots.png",
-    "stats": {
-      "attack": {
-        "base": 13
-      },
-      "defense": {
-        "base": 176
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 35
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 364,
-        "name": "Solarite"
-      },
-      {
-        "id": 345,
-        "name": "Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 445,
-        "name": "Yggdrasil"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ],
-    "prevents": [
-      "Stunned"
-    ]
-  },
-  {
-    "name": "Baldr Boots",
-    "id": 1422,
-    "description": "War-mage's boots of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
-    "type": "Legs",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/baldr_boots.png",
-    "stats": {
-      "defense": {
-        "base": 92
-      },
-      "hp": {
-        "base": 300
-      },
-      "resistance": {
-        "base": 275
-      },
-      "ward": {
-        "base": 3
-      }
-    },
-    "materials": [
-      {
-        "id": 708,
-        "name": "Perfect Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 469,
-        "name": "Baldr"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ],
-    "prevents": [
-      "Cursed"
-    ]
-  },
-  {
-    "name": "Questing Bow",
-    "id": 1423,
-    "description": "A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "weapons/bow_of_tiamat.png",
-    "stats": {
-      "attack": {
-        "base": 198
-      },
-      "ward": {
-        "base": 4
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 272,
-        "name": "Red Draconite"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 450,
-        "name": "Glatisant"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ],
-    "causes": [
-      "Blight"
-    ]
-  },
-  {
-    "name": "Baldr Battlerobe",
-    "id": 1424,
-    "description": "War-mage's robe of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
-    "type": "Armor",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/baldr_robe.png",
-    "stats": {
-      "defense": {
-        "base": 92
-      },
-      "hp": {
-        "base": 300
-      },
-      "resistance": {
-        "base": 275
-      },
-      "ward": {
-        "base": 3
-      }
-    },
-    "materials": [
-      {
-        "id": 708,
-        "name": "Perfect Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 469,
-        "name": "Baldr"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ],
-    "prevents": [
-      "Cursed"
-    ]
-  },
-  {
-    "name": "Baldr Hood",
-    "id": 1425,
-    "description": "War-mage's hood of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
-    "type": "Head",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/baldr_hood.png",
-    "stats": {
-      "defense": {
-        "base": 92
-      },
-      "hp": {
-        "base": 300
-      },
-      "resistance": {
-        "base": 275
-      },
-      "ward": {
-        "base": 3
-      }
-    },
-    "materials": [
-      {
-        "id": 708,
-        "name": "Perfect Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 469,
-        "name": "Baldr"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ],
-    "prevents": [
-      "Cursed"
-    ]
-  },
-  {
-    "name": "Questing Axe",
-    "id": 1426,
-    "description": "A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "weapons/axe_of_tiamat.png",
-    "stats": {
-      "attack": {
-        "base": 198
-      },
-      "ward": {
-        "base": 4
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 272,
-        "name": "Red Draconite"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 450,
-        "name": "Glatisant"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "causes": [
-      "Blight"
-    ]
-  },
-  {
-    "name": "Questing Staff",
-    "id": 1427,
-    "description": "A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "weapons/staff_of_tiamat.png",
-    "stats": {
-      "magic": {
-        "base": 215
-      },
-      "ward": {
-        "base": 4
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 272,
-        "name": "Red Draconite"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 450,
-        "name": "Glatisant"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ],
-    "causes": [
-      "Blight"
-    ]
-  },
-  {
-    "name": "Elite Nothren Greaves",
-    "id": 1428,
-    "description": "Heavy armor of Nothren Berserkers",
-    "type": "Legs",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "hp": {
-        "base": 24
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 479,
-        "name": "Elite Nothren Berserker"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Asgard Greaves",
-    "id": 1429,
-    "description": "Heavy Armor of Nothren valkyries",
-    "type": "Legs",
-    "tier": 10,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_boots.png",
-    "stats": {
-      "defense": {
-        "base": 233
-      },
-      "hp": {
-        "base": 31
-      },
-      "resistance": {
-        "base": 44
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 483,
-        "name": "Elite Nothren Valkyrie"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Boots",
-    "id": 1430,
-    "description": "Light armor of Nothren raiders.",
-    "type": "Legs",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_boots.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "dexterity": {
-        "base": 15
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 480,
-        "name": "Elite Nothren Raider"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Shoes",
-    "id": 1431,
-    "description": "Magical attire of Nothren warlocks.",
-    "type": "Legs",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_boots.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "mana": {
-        "base": 33
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 485,
-        "name": "Elite Nothren Warlock"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Boots",
-    "id": 1432,
-    "description": "Boots worn by Fomorian rogues.",
-    "type": "Legs",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_boots.png",
-    "stats": {
-      "defense": {
-        "base": 199
-      },
-      "resistance": {
-        "base": 42
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 470,
-        "name": "Elite Fomorian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Leggings",
-    "id": 1433,
-    "description": "Leg armor worn by Fomorian warriors.",
-    "type": "Legs",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 199
-      },
-      "resistance": {
-        "base": 19
-      }
-    },
-    "materials": [
-      {
-        "id": 248,
-        "name": "Ancient Stone"
-      },
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 470,
-        "name": "Elite Fomorian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Shield",
-    "id": 1434,
-    "description": "Shield carried by berserkers of the Northern lands. It protects one from the cold.",
-    "type": "Off-hand",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "wards/elite_nothren_shield.png",
-    "stats": {
-      "ward": {
-        "base": 24
-      }
-    },
-    "element": "Water",
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 479,
-        "name": "Elite Nothren Berserker"
-      }
-    ]
-  },
-  {
-    "name": "Asgard Shield",
-    "id": 1435,
-    "description": "Shield carried by valkyries of the Northern lands.  It protects one from the cold.",
-    "type": "Off-hand",
-    "tier": 10,
-    "boss": false,
-    "arena": false,
-    "image": "wards/elite_nothren_shield.png",
-    "stats": {
-      "ward": {
-        "base": 28
-      }
-    },
-    "element": "Water",
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 483,
-        "name": "Elite Nothren Valkyrie"
-      }
-    ]
-  },
-  {
-    "name": "Asgard Armor",
-    "id": 1436,
-    "description": "Heavy armor of Nothren valkyries.",
-    "type": "Armor",
-    "tier": 10,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_armor.png",
-    "stats": {
-      "defense": {
-        "base": 233
-      },
-      "hp": {
-        "base": 24
-      },
-      "resistance": {
-        "base": 44
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 483,
-        "name": "Elite Nothren Valkyrie"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Garb",
-    "id": 1437,
-    "description": "Light armor of Nothren raiders.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_armor.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "dexterity": {
-        "base": 15
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 480,
-        "name": "Elite Nothren Raider"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Garb",
-    "id": 1438,
-    "description": "Body coverings of a Draconian rogue.",
-    "type": "Armor",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_garb.png",
-    "stats": {
-      "defense": {
-        "base": 168
-      },
-      "dexterity": {
-        "base": 30
-      },
-      "resistance": {
-        "base": 48
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 492,
-        "name": "Elite Draconian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Armor",
-    "id": 1439,
-    "description": "Armor of a Draconian warrior.",
-    "type": "Armor",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_armor.png",
-    "stats": {
-      "defense": {
-        "base": 168
-      },
-      "hp": {
-        "base": 100
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 492,
-        "name": "Elite Draconian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Robe",
-    "id": 1440,
-    "description": "Magical attire of Nothren warlocks.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_robe.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "mana": {
-        "base": 33
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 485,
-        "name": "Elite Nothren Warlock"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Armor",
-    "id": 1441,
-    "description": "Heavy armor of Nothren berserkers.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_armor.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "hp": {
-        "base": 24
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 479,
-        "name": "Elite Nothren Berserker"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Armor",
-    "id": 1442,
-    "description": "Heavy armor worn by Fomorian warriors.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_armor.png",
-    "stats": {
-      "defense": {
-        "base": 199
-      },
-      "resistance": {
-        "base": 19
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 470,
-        "name": "Elite Fomorian"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Robe",
-    "id": 1443,
-    "description": "A robe worn by Fomorian mages.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_robe.png",
-    "stats": {
-      "defense": {
-        "base": 51
-      },
-      "resistance": {
-        "base": 199
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 472,
-        "name": "Elite Fomorian Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Cowl",
-    "id": 1444,
-    "description": "Light armor of Nothren raiders.",
-    "type": "Head",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_hood.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "dexterity": {
-        "base": 15
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 480,
-        "name": "Elite Nothren Raider"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Hood",
-    "id": 1445,
-    "description": "Magical attire of Nothren warlocks.",
-    "type": "Head",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_hood.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "mana": {
-        "base": 33
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 485,
-        "name": "Elite Nothren Warlock"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Hood",
-    "id": 1446,
-    "description": "A hood of a Draconian mage.",
-    "type": "Head",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_hood.png",
-    "stats": {
-      "defense": {
-        "base": 48
-      },
-      "resistance": {
-        "base": 168
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 493,
-        "name": "Elite Draconian Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Nothren Helmet",
-    "id": 1447,
-    "description": "Heavy armor of Nothren berserkers.",
-    "type": "Head",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_helm.png",
-    "stats": {
-      "defense": {
-        "base": 202
-      },
-      "hp": {
-        "base": 24
-      },
-      "resistance": {
-        "base": 45
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 479,
-        "name": "Elite Nothren Berserker"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Cowl",
-    "id": 1448,
-    "description": "A hood worn by Fomorian rogues.",
-    "type": "Head",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_hood.png",
-    "stats": {
-      "defense": {
-        "base": 199
-      },
-      "resistance": {
-        "base": 42
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 470,
-        "name": "Elite Fomorian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Hood",
-    "id": 1449,
-    "description": "A hood worn by Fomorian mages.",
-    "type": "Head",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_hood.png",
-    "stats": {
-      "defense": {
-        "base": 19
-      },
-      "resistance": {
-        "base": 199
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 472,
-        "name": "Elite Fomorian Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Sword",
-    "id": 1450,
-    "description": "A sword of a Draconian blacksmith. The quality is quite surprising.",
-    "type": "Weapon",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/draco_sword.png",
-    "stats": {
-      "attack": {
-        "base": 178
-      },
-      "dexterity": {
-        "base": 32
-      }
-    },
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 492,
-        "name": "Elite Draconian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Staff",
-    "id": 1451,
-    "description": "A staff of a Draconian mage. Boasts above average magic power.",
-    "type": "Weapon",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/wooden_staff.png",
-    "stats": {
-      "dexterity": {
-        "base": 30
-      },
-      "magic": {
-        "base": 178
-      }
-    },
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 283,
-        "name": "Wood"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 493,
-        "name": "Elite Draconian Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Sword",
-    "id": 1452,
-    "description": "A sword of a Fomorian warrior.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/draco_sword.png",
-    "stats": {
-      "attack": {
-        "base": 205
-      }
-    },
-    "materials": [
-      {
-        "id": 266,
-        "name": "Mythril"
-      },
-      {
-        "id": 283,
-        "name": "Wood"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 470,
-        "name": "Elite Fomorian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Staff",
-    "id": 1453,
-    "description": "A staff of a Fomorian mage.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/draco_archistaff.png",
-    "stats": {
-      "attack": {
-        "base": 12
-      },
-      "magic": {
-        "base": 199
-      }
-    },
-    "materials": [
-      {
-        "id": 266,
-        "name": "Mythril"
-      },
-      {
-        "id": 283,
-        "name": "Wood"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 472,
-        "name": "Elite Fomorian Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Ectoplasm",
-    "id": 1454,
-    "description": "Remains of a very spooky ghost. Carrying it will attract additional monsters to you while providing protection from attacks of the physical element.",
-    "type": "Accessory",
-    "tier": 4,
-    "boss": true,
-    "arena": false,
-    "image": "materials/dark_stone.png",
-    "stats": {
-      "attack": {
-        "base": -40
-      },
-      "defense": {
-        "base": -40
-      },
-      "magic": {
-        "base": -40
-      },
-      "resistance": {
-        "base": -40
-      }
-    },
-    "element": "Physical",
-    "dropped_by": [
-      {
-        "id": 489,
-        "name": "Spooky Ghost"
-      },
-      {
-        "id": 453,
-        "name": "Terrifying Ghost"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "gives": [
-      "Asleep"
-    ]
-  },
-  {
-    "name": "Elite Draconian Leggings",
-    "id": 1455,
-    "description": "Armor of a Draconian warrior.",
-    "type": "Legs",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_pants.png",
-    "stats": {
-      "defense": {
-        "base": 178
-      },
-      "dexterity": {
-        "base": 30
-      },
-      "hp": {
-        "base": 82
-      }
-    },
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 492,
-        "name": "Elite Draconian"
-      }
-    ]
-  },
-  {
-    "name": "Tarnished King's Crown",
-    "id": 1456,
-    "description": "The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
-    "type": "Head",
-    "tier": 9,
-    "boss": true,
-    "arena": false,
-    "image": "armor/crown.png",
-    "stats": {
-      "defense": {
-        "base": 30
-      },
-      "hp": {
-        "base": 30
-      },
-      "mana": {
-        "base": 30
-      },
-      "resistance": {
-        "base": 30
-      },
-      "ward": {
-        "base": 2
-      }
-    },
-    "materials": [
-      {
-        "id": 268,
-        "name": "Perfect Runestone"
-      }
-    ],
     "dropped_by": [
       {
         "id": 446,
-        "name": "Arisen King Meliodas"
+        "name": "Arisen Meliodas"
       }
     ],
     "equipped_by": [
@@ -68615,1986 +65031,6 @@
     "prevents": [
       "Mag ↓",
       "T. Mag ↓"
-    ]
-  },
-  {
-    "name": "Arisen Dagda Armor",
-    "id": 1457,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Armor",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_armor.png",
-    "stats": {
-      "defense": {
-        "base": 280
-      },
-      "resistance": {
-        "base": 45
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Dagda Garb",
-    "id": 1458,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Armor",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_garb.png",
-    "stats": {
-      "defense": {
-        "base": 212
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 212
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Dagda Robe",
-    "id": 1459,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Armor",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_robe.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 280
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Dagda Boots",
-    "id": 1460,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Legs",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_boots.png",
-    "stats": {
-      "defense": {
-        "base": 212
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 212
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Dagda Cowl",
-    "id": 1461,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Head",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_hood.png",
-    "stats": {
-      "defense": {
-        "base": 212
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 212
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Balor Crown",
-    "id": 1462,
-    "description": "The fabled crown of king Balor.",
-    "type": "Head",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/crown.png",
-    "stats": {
-      "defense": {
-        "base": 240
-      },
-      "resistance": {
-        "base": 240
-      }
-    },
-    "materials": [
-      {
-        "id": 400,
-        "name": "Lesser Balorite"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 460,
-        "name": "Arisen Balor King"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "prevents": [
-      "Cursed"
-    ]
-  },
-  {
-    "name": "Arisen Dagda Helmet",
-    "id": 1463,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Head",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_helm.png",
-    "stats": {
-      "defense": {
-        "base": 280
-      },
-      "resistance": {
-        "base": 45
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Dagda Leggings",
-    "id": 1464,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Legs",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 280
-      },
-      "resistance": {
-        "base": 45
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Arisen Dagda Shoes",
-    "id": 1465,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Legs",
-    "tier": 10,
-    "boss": false,
-    "arena": false,
-    "image": "armor/dagda_boots.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 280
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Lugus Gauntlet",
-    "id": 1466,
-    "description": "Gauntlet of the Balor knight Lugus. Wearing it will provide a chance to greatly increase your offensive power.",
-    "type": "Accessory",
-    "tier": 7,
-    "boss": true,
-    "arena": false,
-    "image": "acc/black_glove.png",
-    "dropped_by": [
-      {
-        "id": 454,
-        "name": "Grand Knight Lugus"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "gives": [
-      "T. Att ↑↑↑",
-      "T. Mag ↑↑↑"
-    ]
-  },
-  {
-    "name": "Arisen Dagda Hood",
-    "id": 1467,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Head",
-    "tier": 10,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_hood.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 280
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 461,
-        "name": "Arisen Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Boots",
-    "id": 1468,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": false,
-    "arena": false,
-    "image": "armor/dagda_boots.png",
-    "stats": {
-      "defense": {
-        "base": 110
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 110
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Garb",
-    "id": 1469,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Armor",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_garb.png",
-    "stats": {
-      "defense": {
-        "base": 110
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 110
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Helmet",
-    "id": 1470,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Head",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_helm.png",
-    "stats": {
-      "defense": {
-        "base": 140
-      },
-      "resistance": {
-        "base": 45
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Leggings",
-    "id": 1471,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 140
-      },
-      "resistance": {
-        "base": 45
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Armor",
-    "id": 1472,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Armor",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_armor.png",
-    "stats": {
-      "defense": {
-        "base": 140
-      },
-      "resistance": {
-        "base": 45
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Hood",
-    "id": 1473,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Head",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_hood.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 140
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Robe",
-    "id": 1474,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Armor",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_robe.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 140
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Cowl",
-    "id": 1475,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Head",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "armor/dagda_hood.png",
-    "stats": {
-      "defense": {
-        "base": 110
-      },
-      "dexterity": {
-        "base": 12
-      },
-      "resistance": {
-        "base": 110
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Dagda Shoes",
-    "id": 1476,
-    "description": "Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": false,
-    "arena": false,
-    "image": "armor/dagda_boots.png",
-    "stats": {
-      "defense": {
-        "base": 45
-      },
-      "resistance": {
-        "base": 138
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "element": "Arcane",
-    "materials": [
-      {
-        "id": 512,
-        "name": "Twilightstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 455,
-        "name": "Dagda"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Asgard's Summit",
-    "id": 1477,
-    "description": "A rare blade carried by the most gifted of Nothren valkyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses.",
-    "type": "Weapon",
-    "tier": 10,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/blue_flame.png",
-    "stats": {
-      "attack": {
-        "base": 233
-      },
-      "mana": {
-        "base": 53
-      },
-      "resistance": {
-        "base": 53
-      }
-    },
-    "element": "Water",
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 483,
-        "name": "Elite Nothren Valkyrie"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "causes": [
-      "Frozen",
-      "T. Def ↓",
-      "T. Res ↓"
-    ],
-    "gives": [
-      "Gunnr"
-    ]
-  },
-  {
-    "name": "Elite Draconian Boots",
-    "id": 1478,
-    "description": "Boots of a Draconian rogue.",
-    "type": "Legs",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_boots.png",
-    "stats": {
-      "defense": {
-        "base": 168
-      },
-      "dexterity": {
-        "base": 30
-      },
-      "resistance": {
-        "base": 48
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 492,
-        "name": "Elite Draconian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Cowl",
-    "id": 1479,
-    "description": "A cowl of a Draconian rogue.",
-    "type": "Head",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_hood.png",
-    "stats": {
-      "defense": {
-        "base": 168
-      },
-      "dexterity": {
-        "base": 30
-      },
-      "resistance": {
-        "base": 48
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 492,
-        "name": "Elite Draconian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Draconian Robe",
-    "id": 1480,
-    "description": "A robe of a Draconian mage.",
-    "type": "Armor",
-    "tier": 8,
-    "boss": false,
-    "arena": false,
-    "image": "armor/draco_robe.png",
-    "stats": {
-      "defense": {
-        "base": 48
-      },
-      "mana": {
-        "base": 100
-      },
-      "resistance": {
-        "base": 168
-      }
-    },
-    "element": "Dragon",
-    "materials": [
-      {
-        "id": 254,
-        "name": "Draconite"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 493,
-        "name": "Elite Draconian Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Robe",
-    "id": 1481,
-    "description": "A dark, dusty robe typically worn by Balor mages.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/ashen_robe.png",
-    "stats": {
-      "defense": {
-        "base": 23
-      },
-      "resistance": {
-        "base": 235
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 457,
-        "name": "Elite Balor Warlock"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Armor",
-    "id": 1482,
-    "description": "Heavy armor typically worn by Balor warriors.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/pale_armor.png",
-    "stats": {
-      "defense": {
-        "base": 235
-      },
-      "resistance": {
-        "base": 23
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 456,
-        "name": "Elite Balor Marauder"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Helmet",
-    "id": 1483,
-    "description": "A heavy helmet typically worn by Balor warriors.",
-    "type": "Head",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/pale_helm.png",
-    "stats": {
-      "defense": {
-        "base": 235
-      },
-      "resistance": {
-        "base": 21
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 456,
-        "name": "Elite Balor Marauder"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Leggings",
-    "id": 1484,
-    "description": "Heavy leggings typically worn by Balor warriors",
-    "type": "Legs",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/pale_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 235
-      },
-      "resistance": {
-        "base": 20
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 456,
-        "name": "Elite Balor Marauder"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Shield",
-    "id": 1485,
-    "description": "A decorated shield often carried by Balor warriors.",
-    "type": "Off-hand",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "wards/balor_shield.png",
-    "stats": {
-      "ward": {
-        "base": 25
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 456,
-        "name": "Elite Balor Marauder"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Sword",
-    "id": 1486,
-    "description": "A commonly used sword of knights of Balor.",
-    "type": "Weapon",
-    "tier": 5,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/bloodsword.png",
-    "stats": {
-      "attack": {
-        "base": 120
-      }
-    },
-    "materials": [
-      {
-        "id": 252,
-        "name": "Darkstone"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Elite Balor Katana",
-    "id": 1487,
-    "description": "Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/katana.png",
-    "stats": {
-      "attack": {
-        "base": 235
-      },
-      "crit": {
-        "base": 1
-      },
-      "defense": {
-        "base": -46
-      },
-      "dexterity": {
-        "base": 10
-      }
-    },
-    "materials": [
-      {
-        "id": 266,
-        "name": "Mythril"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 458,
-        "name": "Elite Balor Assassin"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ],
-    "causes": [
-      "Bleeding"
-    ]
-  },
-  {
-    "name": "Elite Balor Archistaff",
-    "id": 1488,
-    "description": "Staff wielded by Balor mages. It increases mana at the expense of health.",
-    "type": "Weapon",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/balor_staff.png",
-    "stats": {
-      "hp": {
-        "base": -114
-      },
-      "magic": {
-        "base": 235
-      },
-      "mana": {
-        "base": 114
-      }
-    },
-    "materials": [
-      {
-        "id": 273,
-        "name": "Runestone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 457,
-        "name": "Elite Balor Warlock"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      }
-    ]
-  },
-  {
-    "name": "Elite Dune Blade",
-    "id": 1489,
-    "description": "A rare scimitar of the sands. Slightly increases gold earned.",
-    "type": "Weapon",
-    "tier": 5,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/sandstorm.png",
-    "stats": {
-      "attack": {
-        "base": 126
-      },
-      "dexterity": {
-        "base": 10
-      }
-    },
-    "materials": [
-      {
-        "id": 360,
-        "name": "Sandstone"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 488,
-        "name": "Elite Balor Worm"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Neman Greaves",
-    "id": 1490,
-    "description": "Cursed legwear of a follower of Neman, the great witch.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": false,
-    "arena": false,
-    "image": "armor/cursed_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 148
-      },
-      "hp": {
-        "base": 48
-      },
-      "resistance": {
-        "base": 72
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 390,
-        "name": "Titanium"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 424,
-        "name": "Sister Neman"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Fey Neman Greaves",
-    "id": 1491,
-    "description": "Cursed legwear of a follower of Neman, the great witch.",
-    "type": "Legs",
-    "tier": 6,
-    "boss": false,
-    "arena": false,
-    "image": "armor/cursed_leggings.png",
-    "stats": {
-      "defense": {
-        "base": 165
-      },
-      "hp": {
-        "base": -50
-      },
-      "mana": {
-        "base": -50
-      },
-      "resistance": {
-        "base": 96
-      },
-      "ward": {
-        "base": 3
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 390,
-        "name": "Titanium"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 424,
-        "name": "Sister Neman"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Fey Neman Warsword",
-    "id": 1492,
-    "description": "Cursed greatsword of Neman, sister of Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",
-    "type": "Weapon",
-    "tier": 6,
-    "boss": false,
-    "arena": false,
-    "image": "weapons/cursed_blade.png",
-    "stats": {
-      "attack": {
-        "base": 165
-      },
-      "hp": {
-        "base": -50
-      },
-      "magic": {
-        "base": 32
-      },
-      "mana": {
-        "base": -50
-      },
-      "ward": {
-        "base": -1
-      }
-    },
-    "materials": [
-      {
-        "id": 256,
-        "name": "Earthstone"
-      },
-      {
-        "id": 390,
-        "name": "Titanium"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 424,
-        "name": "Sister Neman"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ],
-    "causes": [
-      "Att ↓"
-    ],
-    "gives": [
-      "Att ↑"
-    ]
-  },
-  {
-    "name": "Fey Badb Boots",
-    "id": 1493,
-    "description": "Cursed legwear of a follower of Badb, the great witch.",
-    "type": "Legs",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/cursed_boots.png",
-    "stats": {
-      "defense": {
-        "base": 195
-      },
-      "dexterity": {
-        "base": 32
-      },
-      "hp": {
-        "base": -75
-      },
-      "mana": {
-        "base": -75
-      },
-      "resistance": {
-        "base": 96
-      },
-      "ward": {
-        "base": -3
-      }
-    },
-    "materials": [
-      {
-        "id": 407,
-        "name": "Balorite"
-      },
-      {
-        "id": 346,
-        "name": "Greater Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 425,
-        "name": "Sister Badb"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Fey Badb Garb",
-    "id": 1494,
-    "description": "Cursed light armor of a follower of Badb, the great witch.",
-    "type": "Armor",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/cursed_armor.png",
-    "stats": {
-      "defense": {
-        "base": 195
-      },
-      "dexterity": {
-        "base": 32
-      },
-      "hp": {
-        "base": -75
-      },
-      "mana": {
-        "base": -75
-      },
-      "resistance": {
-        "base": 96
-      },
-      "ward": {
-        "base": -3
-      }
-    },
-    "materials": [
-      {
-        "id": 407,
-        "name": "Balorite"
-      },
-      {
-        "id": 346,
-        "name": "Greater Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 425,
-        "name": "Sister Badb"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Elite Fomorian Garb",
-    "id": 1495,
-    "description": "Heavy armor worn by Fomorian rogues.",
-    "type": "Armor",
-    "tier": 9,
-    "boss": false,
-    "arena": false,
-    "image": "armor/fomorian_armor.png",
-    "stats": {
-      "defense": {
-        "base": 199
-      },
-      "dexterity": {
-        "base": 42
-      }
-    },
-    "materials": [
-      {
-        "id": 249,
-        "name": "Bone"
-      },
-      {
-        "id": 275,
-        "name": "Silver"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 470,
-        "name": "Elite Fomorian"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Asgard Helmet",
-    "id": 1496,
-    "description": "Heavy armor of Nothren valkyries.",
-    "type": "Head",
-    "tier": 10,
-    "boss": false,
-    "arena": false,
-    "image": "armor/elite_nothren_helm.png",
-    "stats": {
-      "defense": {
-        "base": 233
-      },
-      "hp": {
-        "base": 31
-      },
-      "resistance": {
-        "base": 44
-      }
-    },
-    "materials": [
-      {
-        "id": 666,
-        "name": "Baldur"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 483,
-        "name": "Elite Nothren Valkyrie"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Fey Badb Veil",
-    "id": 1497,
-    "description": "Cursed headwear of a follower of Badb, the great witch.",
-    "type": "Head",
-    "tier": 7,
-    "boss": false,
-    "arena": false,
-    "image": "armor/cursed_hood.png",
-    "stats": {
-      "defense": {
-        "base": 195
-      },
-      "dexterity": {
-        "base": 32
-      },
-      "hp": {
-        "base": -75
-      },
-      "mana": {
-        "base": -75
-      },
-      "resistance": {
-        "base": 96
-      },
-      "ward": {
-        "base": -3
-      }
-    },
-    "materials": [
-      {
-        "id": 407,
-        "name": "Balorite"
-      },
-      {
-        "id": 346,
-        "name": "Greater Soul"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 425,
-        "name": "Sister Badb"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 3,
-        "name": "Thief"
-      }
-    ]
-  },
-  {
-    "name": "Stranger's Gift",
-    "id": 1498,
-    "description": "A gift for another. Open it to find out what it could be.",
-    "type": "Item",
-    "tier": 4,
-    "boss": false,
-    "arena": false,
-    "image": "useables/present.png",
-    "dropped_by": [
-      {
-        "id": 464,
-        "name": "Alfar"
-      },
-      {
-        "id": 490,
-        "name": "Alfar Lord"
-      },
-      {
-        "id": 463,
-        "name": "Alfar Mage"
-      },
-      {
-        "id": 462,
-        "name": "Arisen Alfar"
-      },
-      {
-        "id": 467,
-        "name": "Arisen Alfar Lord"
-      },
-      {
-        "id": 468,
-        "name": "Arisen Alfar Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Alfar Trinket",
-    "id": 1499,
-    "description": "A trinket carried by an Alfar. Using it will increase your chances of finding something rarer when opening Stranger's Gifts.",
-    "type": "Item",
-    "tier": 4,
-    "boss": false,
-    "arena": false,
-    "image": "useables/elven_trinket.png",
-    "dropped_by": [
-      {
-        "id": 464,
-        "name": "Alfar"
-      },
-      {
-        "id": 490,
-        "name": "Alfar Lord"
-      },
-      {
-        "id": 463,
-        "name": "Alfar Mage"
-      },
-      {
-        "id": 462,
-        "name": "Arisen Alfar"
-      },
-      {
-        "id": 467,
-        "name": "Arisen Alfar Lord"
-      },
-      {
-        "id": 468,
-        "name": "Arisen Alfar Mage"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Farsight",
-    "id": 1500,
-    "description": "A tonic that improves eyesight. Consuming this item will increase your view distance for a limited time.",
-    "type": "Item",
-    "tier": 5,
-    "boss": false,
-    "arena": false,
-    "image": "useables/eye_potion.png",
-    "view_distance": true,
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Beast's Blood",
-    "id": 1501,
-    "description": "A simple concoction. Consuming it may attract extra monsters to you.",
-    "type": "Item",
-    "tier": 2,
-    "boss": false,
-    "arena": false,
-    "image": "useables/beast_blood.png",
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Bestial Potion",
-    "id": 1502,
-    "description": "A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time.",
-    "type": "Item",
-    "tier": 4,
-    "boss": false,
-    "arena": false,
-    "image": "useables/bestial_potion.png",
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "All-seer's Gem",
-    "id": 1503,
-    "description": "An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see.",
-    "type": "Adornment",
-    "tier": 6,
-    "boss": true,
-    "arena": false,
-    "image": "acc/crystal_eye.png",
-    "view_distance": true,
-    "dropped_by": [
-      {
-        "id": 407,
-        "name": "Fey Gazer"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 2,
-        "name": "Mage"
-      },
-      {
-        "id": 3,
-        "name": "Thief"
-      },
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
-    ]
-  },
-  {
-    "name": "Horned Armor",
-    "id": 1504,
-    "description": "Armor of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment.",
-    "type": "Armor",
-    "tier": 6,
-    "boss": false,
-    "arena": false,
-    "image": "armor/adam_armor.png",
-    "stats": {
-      "attack": {
-        "base": 12
-      },
-      "defense": {
-        "base": 122
-      },
-      "ward": {
-        "base": 1
-      }
-    },
-    "materials": [
-      {
-        "id": 252,
-        "name": "Darkstone"
-      },
-      {
-        "id": 261,
-        "name": "Hardened Steel"
-      }
-    ],
-    "dropped_by": [
-      {
-        "id": 277,
-        "name": "Cerus"
-      }
-    ],
-    "equipped_by": [
-      {
-        "id": 1,
-        "name": "Warrior"
-      }
     ]
   }
 ]
