@@ -1,3 +1,6 @@
+deploy-all: build build-monster copy-assets copy-monster
+	sh deploy.sh
+
 deploy: copy-assets build
 	sh deploy.sh
 
