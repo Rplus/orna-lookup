@@ -33,6 +33,7 @@ const csvOptions = {
     keys: [
       'id',
       'name',
+      'zh',
       'tier',
       'type',
 
@@ -71,6 +72,7 @@ const csvOptions = {
     keys: [
       'id',
       'name',
+      'zh',
       'tier',
       'level',
       'boss',
@@ -90,6 +92,34 @@ const csvOptions = {
 
       'quests',
       'image',
+    ],
+  },
+  skill: {
+    emptyFieldValue: '',
+    keys: [
+      'id',
+      'name',
+      'zh',
+      'tier',
+
+      'type',
+      'element',
+      'is_magic',
+
+      'bought',
+      'cost',
+      'mana_cost',
+
+      'cures',
+      'gives',
+      'causes',
+
+      'buffed_by',
+      'pets_use',
+      'monsters_use',
+      'learned_by',
+
+      'description',
     ],
   },
 };
@@ -118,20 +148,31 @@ function clearData(dd) {
   dd = JSON.parse(dd.replace(';', ',')).filter(Boolean);
   dd.forEach(_d => {
     // delete _d.description;
+    let zh = findZh(_d.name);
+    _d.zh = zh;
 
     let langObj = {
       id: _d.id,
       en: _d.name,
-      zh: findZh(_d.name),
+      zh,
     };
-    if (type === 'item') {
-      if (_d.description) {
-        langObj.info = _d.description;
-        langObj.info_zh = findZh(_d.description);
-      }
+
+    if (_d.description) {
+      langObj.info = _d.description;
+      langObj.info_zh = findZh(_d.description);
     }
 
     lang.push(langObj);
+
+    // array retrun items' name
+    [
+      // item
+      'equipped_by',
+    ].forEach(prop => {
+      if (_d[prop]) {
+        _d[prop] = _d[prop].map(i => i.name);
+      }
+    });
 
     // array retrun items' id
     [
@@ -140,18 +181,29 @@ function clearData(dd) {
       'drops',
       'skills',
       'buffs',
+
+      // skill
+      'buffed_by',
+      'pets_use',
+      'monsters_use',
     ].forEach(prop => {
       if (_d[prop]) {
         _d[prop] = _d[prop].map(i => i.id);
-        console.log(123, _d[prop]);
+        // console.log(123, _d[prop]);
       }
     });
 
     // transform boolean
     [
+      // item
       'boss',
       'arena',
       'view_distance',
+
+      // skill
+      'is_magic',
+      'bought',
+
     ].forEach(prop => {
       if (_d[prop] !== undefined) {
         _d[prop] = _d[prop] ? 1 : null;
