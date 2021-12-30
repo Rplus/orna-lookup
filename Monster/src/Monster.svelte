@@ -48,7 +48,6 @@
 		let state = skillProps.map(p => {
 			let value = s[p[0]];
 			if (!value) { return null; }
-			console.log(value);
 			if (value.map) {
 				value = value.map(en2zh);
 			} else if (typeof value === 'string') {
