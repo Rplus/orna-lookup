@@ -24,6 +24,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "chartist": "^0.11.4",
     "sirv-cli": "^1.0.0"
   }
 }

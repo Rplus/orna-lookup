@@ -1,200 +1,131 @@
 <script>
-	export let monster;
-	import { en2zh } from './name.js';
+  export let monster;
+  export let skills;
+  import { en2zh } from './name.js';
+  import Skill from './Skill.svelte';
+  import Chart from './Chart.svelte';
 
-	let debuffs = monster.debuffs
-		.map(i => ({ value: i, label: en2zh(i), }))
-		.sort((a, b) => a.label.localeCompare(b.label));
+  $: m_skills = monster.skills?.map(sid => skills.find(s => s.id === sid)) || [];
 
-	let skillTypes = monster.skillTypes.sort().reduce((all, i) => {
-		all[i] = (all[i] || 0) + 1;
-		return all;
-	}, {});
+  $: skill_types = m_skills.map(s => s.type);
 
-	skillTypes = Object.keys(skillTypes).map(type => ({
-		type: type,
-		count: skillTypes[type],
-	}))
-	.sort((a, b) => {
-		return b.count - a.count;
-	});
-
-	let bodyState = [
-		['weak_to', '弱點'],
-		['immune_to', '免疫'],
-		['resistant_to', '抗性'],
-		['immune_to_status', '狀態免疫'],
-	].map(p => {
-		let value = monster.raw[p[0]];
-		if (!value) { return null; }
-		if (value.map) {
-			value = value.map(en2zh);
-		}
-		return {
-			prop: p[0],
-			name: p[1],
-			value,
-		}
-	}).filter(Boolean);
-
-	let skillProps = [
-		['causes', '造成'],
-		['element', '元素'],
-		['type', '類別'],
-		['gives', '附與'],
-	];
-
-	let skills = monster.allSkills.map(s => {
-		let state = skillProps.map(p => {
-			let value = s[p[0]];
-			if (!value) { return null; }
-			if (value.map) {
-				value = value.map(en2zh);
-			} else if (typeof value === 'string') {
-				value = en2zh(value);
-			}
-			return {
-				prop: p[0],
-				name: p[1],
-				value,
-			};
-		}).filter(Boolean);
-
-		return {
-			id: s.id,
-			name: s.name,
-			state,
-		}
-	})
-
-	let pieChartOption = {
-		type: 'outlabeledPie',
-		data: {
-			labels: skillTypes.map(i => i.type),
-			datasets: [
-				{
-					data: skillTypes.map(i => i.count),
-					backgroundColor: ['%23003f5c', '%232f4b7c', '%23665191', '%23a05195', '%23d45087', '%23f95d6a', '%23ff7c43', '%23ffa600',],
-				}
-			],
-		},
-		options: {
-			plugins: {
-				legend: false,
-				outlabels: {
-					text: encodeURIComponent('%l %v'),
-					stretch: 35,
-					font: {
-						resizable: true,
-						minSize: 12,
-						maxSize: 18
-					}
-				}
-			}
-		}
-	};
+  let spec = [
+    'weak_to',
+    'immune_to',
+    'resistant_to',
+    'immune_to_status',
+  ].map(p => {
+    let value = monster[p];
+    if (!value) { return null; }
+    if (value.map) {
+      value = value.map(en2zh);
+    }
+    return {
+      prop: p,
+      name: en2zh(p),
+      value,
+    }
+  }).filter(Boolean);
 </script>
 
+
+
 <section>
-	<a href="https://orna.guide/monsters?show={monster.id}" target="guide">
-		{monster.id} - {monster.name}
-	</a>
-	<div class="info">
-		<div>
-			<br />
-			<br />
-			<img
-				class="avatar"
-				src="https://playorna.com/static/img/{monster.img}"
-				alt={monster.name}
-				title={monster.name}
-			/>
+  <header class="mb1">
+    #{monster.id} -
+    <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
+      <ruby>
+        <rb>{monster.zh}</rb>
+        <rt>{monster.name}</rt>
+      </ruby>
+    </a>
+    <sup>
+      ★{monster.tier}
+    </sup>
+  </header>
 
-			<dl>
-				{#each bodyState as point}
-					<dt>{point.name}</dt>
-					<dd>
-						{#each point.value as _type}
-							{_type}
-							<br>
-						{/each}
-					</dd>
-				{/each}
-			</dl>
-		</div>
+  <img class="avatar" src="https://playorna.com/static/img/{monster.image}" alt={monster.zh}>
 
-		<ul>
-			<li>
-				Debuff:<hr>
-			</li>
-			{#each debuffs as debuff}
-				<li>
-					<label>
-						<input type="checkbox" />
-						{debuff.label}
-						<a href="https://rplus.github.io/orna-lookup/?prevents={debuff.value}" target="ornagle">
-							↗
-						</a>
-					</label>
-				</li>
-			{/each}
-		</ul>
-	</div>
-	<img src="https://quickchart.io/chart?format=svg&w=350&c={JSON.stringify(pieChartOption)}" alt="" />
+  <div class="info flex text-start">
+    <dl>
+      {#each spec as point}
+        <dt>{point.name}</dt>
+        <dd>
+          {#each point.value as _type}
+            {_type}
+            <br>
+          {/each}
+        </dd>
+      {/each}
+    </dl>
 
-	<hr>
-	<details open>
-		<dl>
+    <ul>
+      <li>
+        Debuffs
+        <hr>
+      </li>
+      {#if monster.skills_effect}
+        {#each monster.skills_effect as debuff}
+          <li>
+            <label>
+              <input type="checkbox" />
+              {debuff.label}
+              <a href="https://rplus.github.io/orna-lookup/?prevents={debuff.value}" target="ornagle">↗</a>
+            </label>
+          </li>
+        {/each}
+      {/if}
+    </ul>
+  </div>
 
-			{#each skills as skill}
-				<dt>
-					<a href="https://orna.guide/skills?show={skill.id}" target="guide">{skill.name}</a>
-				</dt>
-				<dd>
-					{#each skill.state as _state}
-						{_state.name}: {_state.value}
-						<br>
-					{/each}
-				</dd>
-			{/each}
+  <Chart types={skill_types} />
 
-		</dl>
-	</details>
+  <hr>
 
-	<hr>
+  {#if monster.skills}
+    <details open class="mb1">
+      <summary>Skill Details</summary>
+      <div>
+        {#each m_skills as skill}
+          <Skill skill={skill} />
+        {/each}
+      </div>
+    </details>
+  {/if}
 
-	<details>
-		<summary>RAW DATA</summary>
-		<pre>
-			<details>
-				<summary>monster</summary>{JSON.stringify(monster.raw, null, 2)}
-			</details>
-			<details>
-				<summary>skills</summary>{JSON.stringify(monster.allSkills, null, 2)}
-			</details>
-		</pre>
-	</details>
+  <details>
+    <pre>
+    { JSON.stringify(monster, null, 2)}
+    </pre>
+  </details>
 </section>
 
+
+
 <style>
-	img.avatar {
-		width: 96px;
-		aspect-ratio: 1;
-		image-rendering: pixelated;
-	}
-	.info {
-		display: flex;
-		justify-content: center;
-		gap: 1em;
-		text-align: start;
-	}
-	dd ~ dt {
-		margin-top: 0.5em;
-	}
-	li {
-		list-style: none;
-	}
-	label a {
-		margin-left: .5em;
-	}
+  img.avatar {
+    width: 96px;
+    aspect-ratio: 1;
+    image-rendering: pixelated;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    text-align: start;
+  }
+  .info {
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  dd ~ dt {
+    margin-top: 0.5em;
+  }
+  li {
+    list-style: none;
+  }
+  label a {
+    margin-left: .5em;
+  }
 </style>

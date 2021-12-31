@@ -1,33 +1,5 @@
-export const monsterNames = [
-'177,Starlord,星爵',
-'273,Naggeneen,納根因',
-'279,Apollyon,亞坡倫',
-'289,Almighty Balin,全能的巴林',
-'337,Arisen Naggeneen,重生納根因',
-'352,Arisen Mammon,重生瑪門',
-'358,The Morrigan,摩莉甘',
-'399,Fey Dragon,變異巨龍',
-'400,First Horseman,第一騎士',
-'401,Final Horseman,終末騎士',
-'402,Second Horseman,第二騎士',
-'403,Ashen Phoenix,蒼白鳳凰',
-'404,Fey Yeti,變異雪怪',
-'405,Fey Chimera,變異奇美拉',
-'406,Third Horseman,第三騎士',
-'407,Fey Gazer,變異凝視者',
-'408,Fey Cockatrice,變異雞蛇',
-'412,Arisen Surtr,重生的史爾特爾',
-'423,Arisen Morrigan,重生的摩莉甘',
-'439,Finesse,芬尼斯',
-'441,Arisen Balin,重生巴林',
-'442,Arisen Yggdrasil,重生世界樹',
-'442,Arisen Yggdrasil,重生世界樹',
-'443,Arisen Hel,重生赫爾',
-'445,Yggdrasil,世界樹',
-'450,Glatisant,吠獸',
-].map(i => i.split(','));
-
 const en2zhMap = {
+  // debuffs
   'Bleeding': '流血',
   'Frozen': '冰凍',
   'Burning': '燃燒',
@@ -44,6 +16,7 @@ const en2zhMap = {
   'Toxic': '劇毒',
   'Lulled': '安份',
 
+  // element
   'Dark': '闇',
   'Water': '水',
   'Fire': '火',
@@ -53,8 +26,27 @@ const en2zhMap = {
   'Lightning': '雷',
   'Dragon': '龍',
   'Arcane': '奧',
+
+  // spec
+  'weak_to': '弱點',
+  'immune_to': '免疫',
+  'resistant_to': '抗性',
+  'immune_to_status': '狀態免疫',
+
+  // skill
+  'type': '類別',
+  'gives': '附與',
+  'causes': '造成',
+  'element': '元素',
 };
 
-export function en2zh(effect) {
-  return en2zhMap[effect] || effect;
+export function en2zh(en) {
+  return en2zhMap[en] || en;
+}
+
+export function optionEnZh(en) {
+  return {
+    value: en,
+    label: en2zh(en),
+  };
 }
