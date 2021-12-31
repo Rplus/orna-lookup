@@ -10,7 +10,7 @@ body {
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	text-align: center;
-	max-width: 600px;
+	max-width: 500px;
 	margin: 0 auto;
 	background-color: #28231F;
 	color: #D8C8BB;
@@ -83,4 +83,70 @@ pre {
 input	{
 	max-width: 15em;
 	background-color: #C4B5A5;
+}
+
+.avatar {
+	width: 96px;
+	aspect-ratio: 1;
+	image-rendering: pixelated;
+}
+
+.flex {
+	display: flex;
+}
+
+dl, ul {
+	margin: 0;
+}
+
+.text-start {
+	text-align: start;
+}
+
+.form {
+	position: sticky;
+	top: 0;
+}
+
+dd {
+	margin-left: 1.5em;
+}
+
+dt ~ dt {
+	margin-top: 1em;
+}
+
+.skill-details {
+	font-size: small;
+	opacity: 0.3;
+	margin-left: 1em;
+	transition: opacity .3s;
+}
+
+.skill-details:hover {
+	opacity: 0.8;
+}
+
+.skill-details summary {
+	text-align: right;
+}
+
+hr {
+	border-color: #fff3;
+	border-style: dotted;
+}
+
+.mb1 {
+	margin-bottom: 1em;
+}
+
+rt {
+	opacity: 0.7;
+}
+
+/* chartist */
+.ct-label {
+	font-size: unset;
+	text-shadow: 1px 1px #000;
+	background-color: #0003;
 }
