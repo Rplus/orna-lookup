@@ -9,7 +9,7 @@
 
   $: skill_types = m_skills.map(s => s.type);
 
-  let spec = [
+  $: spec = [
     'weak_to',
     'immune_to',
     'resistant_to',
