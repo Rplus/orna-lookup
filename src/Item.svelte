@@ -257,9 +257,11 @@
   margin-top: 1rem;
   height: var(--item-img-size, 96px);
   align-self: flex-start;
-  background-image: var(--bg, none), var(--bg-fallback, none);
+  /* background-image: var(--bg, none), var(--bg-fallback, none); */
+  background-image: var(--bg-fallback, none);
   background-size: contain;
   background-repeat: no-repeat;
+  image-rendering: pixelated;
 }
 
 .item-pre {
