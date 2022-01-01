@@ -15,7 +15,7 @@
   $: {
     if (monster) {
       historyId.unshift(monster.id);
-      historyId = [...new Set(historyId)].slice(-5);
+      historyId = [...new Set(historyId)].slice(0, 5);
       history = historyId.map(mid => queryMonsterById(mid));
     }
   }
