@@ -71,5 +71,6 @@
     max-width: 85%;
     /* aspect-ratio: 1; */
     margin: 0 auto;
+    filter: sepia(0.6) brightness(0.8);
   }
 </style>
