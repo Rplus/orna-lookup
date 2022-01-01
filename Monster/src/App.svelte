@@ -43,9 +43,9 @@
   }
 
   function handleSubmit() {
-    console.log(queryId. monsterId);
-    if (queryId) {
-      monsterId = +queryId;
+    let id = !isNaN(queryId) && +queryId;
+    if (id) {
+      monsterId = id;
     }
   }
 </script>
