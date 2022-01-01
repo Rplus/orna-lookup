@@ -1,22 +1,27 @@
 <script>
 	import Monster from './Monster.svelte';
 	import { en2zh } from './name.js';
-  import { handleData } from './u.js';
+  import { handleData, saveItem, getItem } from './u.js';
 
-	let monsterId = +(new URLSearchParams(location.search).get('id') || 404);
+  let historyId = getItem('historyId') || [];
+  $: history = genHistory(historyId);
+
+	let monsterId = +(new URLSearchParams(location.search).get('id') || historyId[0] || 404);
   let queryId = monsterId;
 
   let skills = [];
   $: monsters = [];
   $: monster = queryMonsterById(+monsterId, monsters);
-  let historyId = [];
-  let history = [];
 
   $: {
     if (monster) {
       historyId.unshift(monster.id);
       historyId = [...new Set(historyId)].slice(0, 5);
-      history = historyId.map(mid => queryMonsterById(mid));
+
+      saveItem({
+        key: 'historyId',
+        value: historyId,
+      });
     }
   }
 
@@ -63,6 +68,10 @@
 
   function handleClickHistory(mid) {
     monsterId = mid;
+  }
+
+  function genHistory(monster_ids) {
+    return monster_ids.map(mid => queryMonsterById(mid));
   }
 </script>
 
