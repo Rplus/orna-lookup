@@ -33,7 +33,7 @@
       <rt class="op-5">{skill.name}</rt>
     </ruby>
   </a>
-  <sup>★{skill.tier}</sup>
+  <sup class="op-5">★{skill.tier}</sup>
 </dt>
 
 <dd>
