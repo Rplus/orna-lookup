@@ -30,7 +30,7 @@
       <rb>
         {skill.zh}
       </rb>
-      <rt>{skill.name}</rt>
+      <rt class="op-5">{skill.name}</rt>
     </ruby>
   </a>
   <sup>★{skill.tier}</sup>
@@ -39,11 +39,12 @@
 <dd>
   {#each skillSpec as spec}
     <div>
-      {spec.prop}: {spec.value}
+      <sup class="op-5">{spec.prop}:</sup>
+      {spec.value}
     </div>
   {/each}
 
-  <details class="skill-details">
+  <details class="skill-details op-5">
     <pre>
       {JSON.stringify(skill, null, 2)}
     </pre>

@@ -38,11 +38,12 @@
 
 <section>
   <header class="mb1">
+    <a href="./?id={monster.id}">⚓</a>
     #{monster.id} -
     <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
       <ruby>
         <rb>{monster.zh}</rb>
-        <rt>{monster.name}</rt>
+        <rt class="op-5">{monster.name}</rt>
       </ruby>
     </a>
     <sup>
@@ -99,7 +100,10 @@
     </details>
   {/if}
 
-  <details>
+  <hr>
+
+  <details class="op-5">
+  	<summary>RAW DATA</summary>
     <pre>
     { JSON.stringify(monster, null, 2)}
     </pre>
