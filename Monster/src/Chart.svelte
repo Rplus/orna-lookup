@@ -1,9 +1,7 @@
 <script>
   export let types = [];
   import { onMount } from 'svelte';
-  import Chartist from 'chartist';
 
-  console.log(types);
   let typesCount = {};
   let chartDiv;
   let chart;
