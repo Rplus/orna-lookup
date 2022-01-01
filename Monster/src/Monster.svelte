@@ -5,7 +5,9 @@
   import Skill from './Skill.svelte';
   import Chart from './Chart.svelte';
 
-  $: m_skills = monster.skills?.map(sid => skills.find(s => s.id === sid)) || [];
+  $: m_skills = monster.skills?.map(
+  	sid => skills.find(s => s.id === sid)
+	).sort(skillSort) || [];
 
   $: skill_types = m_skills.map(s => s.type);
 
@@ -26,6 +28,10 @@
       value,
     }
   }).filter(Boolean);
+
+  function skillSort(a, b) {
+  	return b.tier - a.tier;
+  }
 </script>
 
 
