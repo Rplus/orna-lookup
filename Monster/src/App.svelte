@@ -8,11 +8,23 @@
 
   let skills = [];
   $: monsters = [];
-  $: monster = monsters.find(m => m.id === +monsterId);
+  $: monster = queryMonsterById(+monsterId, monsters);
+  let historyId = [];
+  let history = [];
 
-  $: console.log({monsterId, monster});
+  $: {
+    if (monster) {
+      historyId.unshift(monster.id);
+      historyId = [...new Set(historyId)].slice(-5);
+      history = historyId.map(mid => queryMonsterById(mid));
+    }
+  }
 
   let promise = getData();
+
+  function queryMonsterById(mid, arr = monsters) {
+    return arr.find(m => m.id === +mid);
+  }
 
   async function getData() {
     const raw_monsters = await fetchJSON('./monster.json');
@@ -48,6 +60,10 @@
       monsterId = id;
     }
   }
+
+  function handleClickHistory(mid) {
+    monsterId = mid;
+  }
 </script>
 
 <h2>Monsters Strategy | Orna RPG</h2>
@@ -55,7 +71,6 @@
 {#await promise}
   <p>...waiting</p>
 {:then monsters}
-
   <form class="form" on:submit|preventDefault={handleSubmit}>
     <input
       list="monster_name"
@@ -66,15 +81,31 @@
     />
     <datalist id="monster_name">
       {#each monsters as monster}
-        <option value={monster.id}>{monster.name} - {monster.zh}</option>
+        <option value={monster.id}>
+          {monster.zh} - {monster.name} / T{monster.tier}
+        </option>
       {/each}
     </datalist>
     <input type="submit" value="Q" />
   </form>
 
+  <aside class="history">
+    <details>
+      <summary>History</summary>
+      <ul>
+        {#each history as i}
+          <li>
+            <a href="./?id={i.id}" on:click|preventDefault={() => handleClickHistory(i.id)}>{i.id} - {i.zh}</a>
+          </li>
+        {/each}
+      </ul>
+    </details>
+  </aside>
+
   <hr>
 
   <Monster monster={monster} skills={skills} />
+
 {:catch error}
   <p style="color: red">{error.message}</p>
 {/await}
