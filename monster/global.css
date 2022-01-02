@@ -80,7 +80,7 @@ pre {
 	white-space: pre-wrap;
 }
 
-input	{
+input, select	{
 	max-width: 15em;
 	background-color: #C4B5A5;
 }
@@ -110,7 +110,7 @@ dl, ul {
 }
 
 dd {
-	margin-left: 1.5em;
+	margin-left: 1em;
 }
 
 dt ~ dt {
@@ -125,16 +125,6 @@ dt ~ dt {
 	opacity: 0.7;
 }
 
-.skill-details {
-	font-size: small;
-	opacity: 0.3;
-	margin-left: 1em;
-}
-
-.skill-details summary {
-	text-align: right;
-}
-
 hr {
 	border-color: #fff3;
 	border-style: dotted;
@@ -147,6 +137,14 @@ hr {
 .history {
 	max-width: 270px;
 	margin: auto;
+}
+
+.arr-item {
+	display: inline-block;
+}
+
+.arr-item + .arr-item::before {
+  content: ', ';
 }
 
 /* chartist */
