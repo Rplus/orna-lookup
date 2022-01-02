@@ -74,7 +74,7 @@
             <label>
               <input type="checkbox" readonly />
               {$_(debuff)}
-              <a href="https://rplus.github.io/orna-lookup/?prevents={debuff.value}" target="ornagle">↗</a>
+              <a href="https://rplus.github.io/orna-lookup/?prevents={debuff}" target="ornagle">↗</a>
             </label>
           </dd>
         {/each}
