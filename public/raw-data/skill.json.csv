@@ -590,26 +590,26 @@ id,name,zh,tier,type,element,is_magic,bought,cost,mana_cost,cures,gives,causes,b
 616,Ragnarok,諸神黃昏,5,Multi-round Attack,,,,,,,,,,,"[444,411,443,412]",,Cleanses debuffs.
 617,Tree of Demise,絕命之樹,7,Buff,,,,,,,,,,,"[445,442]",,-
 618,Tree of Life,生命之樹,7,Buff,,,,,,,,,,,"[445,442]",,-
-619,Lyon's Mark,,6,Debuff,,,,,,,,"[""Lyon's Mark""]",,[122],"[449,448,446,447]",,-
-620,Lyon's Execution,,6,Attack,,,,,5,,,,,[122],"[449,448,446,447]",,-
-621,Brilliant Lights,,6,Magic,,1,,,1,,,,,,[449],,Unstable elementless magic that can blind an opponent while dealing damage thrice.
+619,Lyon's Mark,里昂的標記,6,Debuff,,,,,,,,"[""Lyon's Mark""]",,[122],"[449,448,446,447]",,-
+620,Lyon's Execution,里昂的處決,6,Attack,,,,,5,,,,,[122],"[449,448,446,447]",,-
+621,Brilliant Lights,輝煌之光,6,Magic,,1,,,1,,,,,,[449],,Unstable elementless magic that can blind an opponent while dealing damage thrice.
 622,Fright,震懾,6,Debuff,,1,,,,,,"[""Blind"",""Stunned"",""Lulled""]",,"[124,123,125]",,,Frighten an opponent. Stunning it and potentially blinding or lulling it with fear.
-623,Wildfire III,,9,Attack,Fire,1,,,200,,,,,,"[446,461]",,Deals fire damage to all opponents in battle.
-624,Winter Wind III,,9,AoE Magic,Water,1,,,200,,,,,,"[467,468,446]",,Deals ice damage to all opponents in battle.
-625,Chain Lightning III,,9,AoE Magic,Lightning,1,,,200,,,,,,,,Deals lightning damage to all opponents in battle.
-626,Natura III,,9,AoE Magic,Earthen,1,,,200,,,,,,,,Deals earthen damage to all opponents in battle.
+623,Wildfire III,野火 III,9,Attack,Fire,1,,,200,,,,,,"[446,461]",,Deals fire damage to all opponents in battle.
+624,Winter Wind III,冬風 III,9,AoE Magic,Water,1,,,200,,,,,,"[467,468,446]",,Deals ice damage to all opponents in battle.
+625,Chain Lightning III,連鎖閃電 III,9,AoE Magic,Lightning,1,,,200,,,,,,,,Deals lightning damage to all opponents in battle.
+626,Natura III,天然魔法 III,9,AoE Magic,Earthen,1,,,200,,,,,,,,Deals earthen damage to all opponents in battle.
 627,Bastion II,堡壘 II,6,Ward,,,,,,,,,,,,,Grants temporary defenses and grants Ward for 4 turns.
-628,Winter Wind II,,7,AoE Magic,Water,1,,,100,,,"[""Frozen""]",,[129],,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals ice damage to all opponents in battle.
-629,Wildfire II,,8,Magic,Fire,1,,,100,,,"[""Burning""]",,,,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals fire damage to all opponents in battle.
-630,Chain Lightning II,,7,AoE Magic,Lightning,1,,,100,,,"[""Paralyzed""]",,,,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals lightning damage to all opponents in battle.
-631,Natura II,,7,AoE Magic,Earthen,1,,,100,,,"[""Rot""]",,,,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals earthen damage to all opponents in battle.
-632,Wildfire,,5,Magic,Fire,1,,,70,,,"[""Burning""]",,,,"[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals fire damage to all opponents in battle.
-633,Winter Wind,,5,AoE Magic,Water,1,,,70,,,"[""Frozen""]",,,"[490,463]","[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals ice damage to all opponents in battle.
-634,Chain Lightning,,5,AoE Magic,Lightning,1,,,70,,,"[""Paralyzed""]",,,,"[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals lightning damage to all opponents in battle.
-635,Natura,,5,AoE Magic,Earthen,1,,,70,,,"[""Rot""]",,,,"[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals earthen damage to all opponents in battle.
+628,Winter Wind II,冬風 II,7,AoE Magic,Water,1,,,100,,,"[""Frozen""]",,[129],,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals ice damage to all opponents in battle.
+629,Wildfire II,野火 II,8,Magic,Fire,1,,,100,,,"[""Burning""]",,,,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals fire damage to all opponents in battle.
+630,Chain Lightning II,連鎖閃電 II,7,AoE Magic,Lightning,1,,,100,,,"[""Paralyzed""]",,,,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals lightning damage to all opponents in battle.
+631,Natura II,天然魔法 II,7,AoE Magic,Earthen,1,,,100,,,"[""Rot""]",,,,"[{""id"":45,""name"":""Magus"",""level"":150,""specialization"":true}]",Deals earthen damage to all opponents in battle.
+632,Wildfire,野火,5,Magic,Fire,1,,,70,,,"[""Burning""]",,,,"[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals fire damage to all opponents in battle.
+633,Winter Wind,冬風,5,AoE Magic,Water,1,,,70,,,"[""Frozen""]",,,"[490,463]","[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals ice damage to all opponents in battle.
+634,Chain Lightning,連鎖閃電,5,AoE Magic,Lightning,1,,,70,,,"[""Paralyzed""]",,,,"[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals lightning damage to all opponents in battle.
+635,Natura,天然魔法,5,AoE Magic,Earthen,1,,,70,,,"[""Rot""]",,,,"[{""id"":28,""name"":""Scholar"",""level"":110,""specialization"":true}]",Deals earthen damage to all opponents in battle.
 636,Haste,急速,9,Buff,,1,,,40,,"[""Foresight ↑""]",,,,,"[{""id"":87,""name"":""Time Mage"",""level"":150,""specialization"":true},{""id"":85,""name"":""Chronomancer"",""level"":200,""specialization"":true}]",Temporarily increases a party member's foresight.
 637,Slow,減速,9,Debuff,,1,,,40,,,"[""Foresight ↓""]",,,,"[{""id"":87,""name"":""Time Mage"",""level"":150,""specialization"":true},{""id"":85,""name"":""Chronomancer"",""level"":200,""specialization"":true}]",Temporarily decreases the foresight of an opponent.
-638,Lacuna II,,9,Magic,,1,,,80,,,"[""Stasis""]",,,,"[{""id"":85,""name"":""Chronomancer"",""level"":200,""specialization"":true}]",Deals non-elemental magic damage and may suspend an enemy in time.
-639,Lacunus II,,9,AoE Magic,,1,,,240,,,"[""Stasis""]",,,,"[{""id"":85,""name"":""Chronomancer"",""level"":220,""specialization"":true}]",Deals non-elemental magic damage to all enemies and may suspend an enemy in time.
+638,Lacuna II,時空間隙 II,9,Magic,,1,,,80,,,"[""Stasis""]",,,,"[{""id"":85,""name"":""Chronomancer"",""level"":200,""specialization"":true}]",Deals non-elemental magic damage and may suspend an enemy in time.
+639,Lacunus II,時空斷裂 II,9,AoE Magic,,1,,,240,,,"[""Stasis""]",,,,"[{""id"":85,""name"":""Chronomancer"",""level"":220,""specialization"":true}]",Deals non-elemental magic damage to all enemies and may suspend an enemy in time.
 640,Haste+,急速+,10,AoE Buff,,1,,,200,,"[""Foresight ↑""]",,,,,"[{""id"":85,""name"":""Chronomancer"",""level"":225,""specialization"":true}]",Temporarily increases all party member's foresight.
 641,Slow+,減速+,10,AoE Debuff,,1,,,200,,,"[""Foresight ↓""]",,,"[462,468]","[{""id"":85,""name"":""Chronomancer"",""level"":225,""specialization"":true}]",Temporarily decreases the foresight of all opponents.

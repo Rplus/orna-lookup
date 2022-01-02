@@ -590,26 +590,26 @@ id,en,zh,info,info_zh
 616,Ragnarok,諸神黃昏,Cleanses debuffs.,
 617,Tree of Demise,絕命之樹,-,
 618,Tree of Life,生命之樹,-,
-619,Lyon's Mark,,-,
-620,Lyon's Execution,,-,
-621,Brilliant Lights,,Unstable elementless magic that can blind an opponent while dealing damage thrice.,
+619,Lyon's Mark,里昂的標記,-,
+620,Lyon's Execution,里昂的處決,-,
+621,Brilliant Lights,輝煌之光,Unstable elementless magic that can blind an opponent while dealing damage thrice.,不穩定的無屬性法術，發動時造成三次傷害，並使對手目盲。
 622,Fright,震懾,Frighten an opponent. Stunning it and potentially blinding or lulling it with fear.,震懾對手。讓對方陷入暈眩，並有可能因畏懼而陷入盲目或安份。
-623,Wildfire III,,Deals fire damage to all opponents in battle.,
-624,Winter Wind III,,Deals ice damage to all opponents in battle.,
-625,Chain Lightning III,,Deals lightning damage to all opponents in battle.,
-626,Natura III,,Deals earthen damage to all opponents in battle.,
+623,Wildfire III,野火 III,Deals fire damage to all opponents in battle.,對所有對手造成火屬性傷害。
+624,Winter Wind III,冬風 III,Deals ice damage to all opponents in battle.,對所有對手造成冰屬性傷害。
+625,Chain Lightning III,連鎖閃電 III,Deals lightning damage to all opponents in battle.,對所有對手造成雷屬性傷害。
+626,Natura III,天然魔法 III,Deals earthen damage to all opponents in battle.,對所有對手造成地屬性傷害。
 627,Bastion II,堡壘 II,Grants temporary defenses and grants Ward for 4 turns.,暫時提升防禦並獲得4回合護盾.
-628,Winter Wind II,,Deals ice damage to all opponents in battle.,
-629,Wildfire II,,Deals fire damage to all opponents in battle.,
-630,Chain Lightning II,,Deals lightning damage to all opponents in battle.,
-631,Natura II,,Deals earthen damage to all opponents in battle.,
-632,Wildfire,,Deals fire damage to all opponents in battle.,
-633,Winter Wind,,Deals ice damage to all opponents in battle.,
-634,Chain Lightning,,Deals lightning damage to all opponents in battle.,
-635,Natura,,Deals earthen damage to all opponents in battle.,
+628,Winter Wind II,冬風 II,Deals ice damage to all opponents in battle.,對所有對手造成冰屬性傷害。
+629,Wildfire II,野火 II,Deals fire damage to all opponents in battle.,對所有對手造成火屬性傷害。
+630,Chain Lightning II,連鎖閃電 II,Deals lightning damage to all opponents in battle.,對所有對手造成雷屬性傷害。
+631,Natura II,天然魔法 II,Deals earthen damage to all opponents in battle.,對所有對手造成地屬性傷害。
+632,Wildfire,野火,Deals fire damage to all opponents in battle.,對所有對手造成火屬性傷害。
+633,Winter Wind,冬風,Deals ice damage to all opponents in battle.,對所有對手造成冰屬性傷害。
+634,Chain Lightning,連鎖閃電,Deals lightning damage to all opponents in battle.,對所有對手造成雷屬性傷害。
+635,Natura,天然魔法,Deals earthen damage to all opponents in battle.,對所有對手造成地屬性傷害。
 636,Haste,急速,Temporarily increases a party member's foresight.,暫時提升一位隊友的預知能力。
-637,Slow,減速,Temporarily decreases the foresight of an opponent.,
-638,Lacuna II,,Deals non-elemental magic damage and may suspend an enemy in time.,
-639,Lacunus II,,Deals non-elemental magic damage to all enemies and may suspend an enemy in time.,
+637,Slow,減速,Temporarily decreases the foresight of an opponent.,暫時降低一位對手的預知能力。
+638,Lacuna II,時空間隙 II,Deals non-elemental magic damage and may suspend an enemy in time.,造成無屬性傷害並有機會將對手限制在時間之中。
+639,Lacunus II,時空斷裂 II,Deals non-elemental magic damage to all enemies and may suspend an enemy in time.,對所有對手造成無屬性傷害並有機會將對手限制在時間之中。
 640,Haste+,急速+,Temporarily increases all party member's foresight.,
 641,Slow+,減速+,Temporarily decreases the foresight of all opponents.,暫時降低所有對手的預知能力。

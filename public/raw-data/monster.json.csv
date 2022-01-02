@@ -120,17 +120,17 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 127,Jinn,神燈精靈,3,,,,,,,"[""Dark"",""Earthen"",""Fire"",""Holy"",""Lightning"",""Water""]",,,"[242,52,54,171,66,82]",[74],,monsters/jinn.png
 128,Small Dragon,小龍,5,,,[33],,"[""Dragon""]",,,,,"[97,55,59]","[255,177,205,206,104,105]","[{""id"":51,""name"":""Of Dragons""}]",monsters/dragon.png
 129,Banshee,報喪女妖,5,,,,,,,,,,[180],,,monsters/banshee.png
-130,Arisen Lord of Wolves,,7,,,,"[""Woods Only""]",,,"[""Earthen""]",,,,"[282,290]","[{""id"":28,""name"":""The Arisen""}]",bosses/wolfman_lord.png
-131,Arisen Draconian Lord,,7,,,,,,,,,,"[86,87,88,90]","[271,128]","[{""id"":28,""name"":""The Arisen""}]",bosses/draco_lord.png
-132,Arisen Minotaur,,7,,,[32],,,,,,,,"[261,129]","[{""id"":28,""name"":""The Arisen""}]",bosses/minotaur.png
-133,Arisen Orc Lord,,7,,,,,,,,,,"[182,213,62]",,,bosses/orc_lord.png
-134,Arisen Camazotz,,7,,,,,,,"[""Earthen""]",,,"[34,239,82]","[251,289]",,bosses/camazotz.png
+130,Arisen Lord of Wolves,重生的群狼之主,7,,,,"[""Woods Only""]",,,"[""Earthen""]",,,,"[282,290]","[{""id"":28,""name"":""The Arisen""}]",bosses/wolfman_lord.png
+131,Arisen Draconian Lord,重生的德肯尼亞族之主,7,,,,,,,,,,"[86,87,88,90]","[271,128]","[{""id"":28,""name"":""The Arisen""}]",bosses/draco_lord.png
+132,Arisen Minotaur,重生的牛頭怪,7,,,[32],,,,,,,,"[261,129]","[{""id"":28,""name"":""The Arisen""}]",bosses/minotaur.png
+133,Arisen Orc Lord,重生的半獸人君王,7,,,,,,,,,,"[182,213,62]",,,bosses/orc_lord.png
+134,Arisen Camazotz,重生的卡馬佐茲,7,,,,,,,"[""Earthen""]",,,"[34,239,82]","[251,289]",,bosses/camazotz.png
 135,Finfolk,芬菲克,6,125,1,,"[""Water Only""]",,"[""Water""]","[""Fire""]",,,"[69,239,88]","[347,302,287]","[{""id"":25,""name"":""Slayer of Artifice""}]",monsters/water_demon.png
 137,Arachne,阿剌克涅,2,40,1,[32],,,,,,,[61],"[347,294,295]",,bosses/arachne.png
 138,Arcane Flame,奧術火焰,6,,,,,"[""Earthen""]","[""Dark"",""Dragon"",""Fire""]","[""Arcane""]","[""Burning""]",,"[166,167,97,206,100]","[252,259]",,monsters/arcane_flame.png
 139,Woodland Elf,林地精靈,6,,,,,,,,,,"[96,73,82,94]","[256,257,299]",,monsters/wood_elf.png
 140,Frost Troll,寒霜巨魔,6,,,,,"[""Fire""]","[""Water""]",,,,"[69,88,213]","[262,280]",,monsters/ice_troll.png
-141,Arisen Lost Pharaoh,,7,,,,,,"[""Dark""]",,"[""Asleep""]",,"[99,69,75,170,83,180]","[248,300]",,bosses/pharaoh.png
+141,Arisen Lost Pharaoh,重生的失落的法老王,7,,,,,,"[""Dark""]",,"[""Asleep""]",,"[99,69,75,170,83,180]","[248,300]",,bosses/pharaoh.png
 142,Fenrir,芬里爾,7,175,1,,"[""Woods Only""]",,,,,,"[93,368]","[347,18,282,447,304]",,bosses/fenrir.png
 143,Naga Mage,那伽法師,8,,,[33],,,,,,,"[108,239,98,100]","[3,338]",,monsters/naga_mage.png
 144,Naga Warrior,那伽戰士,8,,,[33],,,,,,,"[35,71,43]",[328],,monsters/naga_warrior.png
@@ -140,10 +140,10 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 148,Ljosalfar Knight,光之精靈騎士,8,,,,"[""Day Only""]","[""Dark""]","[""Holy""]",,,,"[74,91,93,77,79]","[325,334,323,336,327]","[{""id"":56,""name"":""The Ljosalfar""}]",monsters/ljosalfar_knight.png
 149,Fafnir,法夫納,8,200,1,[33],,"[""Dragon""]",,"[""Dark"",""Holy""]",,,"[97,206,368,105,107]","[347,255,12,332,331,730]",,bosses/fafnir.png
 150,Ljosalfar Lord,光之精靈領主,8,180,1,,,"[""Dark""]","[""Holy""]",,,,"[240,242,123,100,243,181]","[347,329,330]","[{""id"":61,""name"":""The Elven Lords""}]",monsters/ljosalfar_lord.png
-151,Arisen Lizarr Lord,,8,,,,,,"[""Water""]",,,,"[69,88,76,78,94]","[274,340]",,monsters/lizard_lord.png
+151,Arisen Lizarr Lord,重生的蜥蜴人領主,8,,,,,,"[""Water""]",,,,"[69,88,76,78,94]","[274,340]",,monsters/lizard_lord.png
 153,Woodland Elf Mage,林地精靈法師,6,,,,"[""Woods Only""]",,,,,,"[69,75,63,83]","[256,257,344]",,monsters/wood_elf_mage.png
 154,Gnat,蚋,2,,,[32],,,,"[""Earthen""]",,,"[48,61,43]",[1096],,monsters/gnat.png
-155,Arisen Cerberus,,7,,,[32],"[""Night Only""]",,"[""Dark"",""Fire""]",,,,"[71,206,82]","[253,350]",,bosses/cerberus.png
+155,Arisen Cerberus,重生的地獄三頭犬,7,,,[32],"[""Night Only""]",,"[""Dark"",""Fire""]",,,,"[71,206,82]","[253,350]",,bosses/cerberus.png
 156,Zu,祖鳥,3,,,[32],,,,"[""Earthen""]",,,"[35,72,82]",[1087],,monsters/bluebird.png
 157,Balor Guardian,巴羅爾守衛,5,,,[250],,"[""Arcane""]",,,,,"[42,93,136]",[349],,monsters/balor_guardian.png
 158,Rotten Slime,腐爛史萊姆,4,,,,,,,"[""Dark"",""Dragon"",""Earthen"",""Fire"",""Holy"",""Lightning"",""Water""]","[""Poisoned""]",,"[96,43]",,,monsters/rotten_slime.png
@@ -162,7 +162,7 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 176,Mimic King,寶箱王,4,100,1,,"[""Woods Only""]","[""Dragon""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Dark"",""Holy""]",,,[184],"[347,13,16,454,24,12,1205,921,930,1079]",,bosses/mimic_king.png
 177,Starlord,星爵,5,125,1,,"[""Kingdom Raid""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Rot""]",,"[121,130,75,183,122]","[16,446,364,931,368,370,369,371,401,373,372,363,365,362,366,367]",,bosses/hobgoblin_lord.png
 178,Titan,泰坦,6,150,1,,"[""Kingdom Raid""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Rot"",""Drenched""]",,"[211,213,136,79,63,210,212]","[16,446,390,923,383,374,377,380,382,381,379,376,378,375,388,384]",,bosses/titan.png
-179,Maelor,,7,175,1,[250],"[""Kingdom Raid""]",,"[""Dark""]","[""Fire"",""Lightning""]",,"[""Lulled""]","[207,206,213,105]","[16,446,519,471,522,500,932,516,474,520,483,438,502,439,452]",,bosses/balor_knight.png
+179,Maelor,梅勒,7,175,1,[250],"[""Kingdom Raid""]",,"[""Dark""]","[""Fire"",""Lightning""]",,"[""Lulled""]","[207,206,213,105]","[16,446,519,471,522,500,932,516,474,520,483,438,502,439,452]",,bosses/balor_knight.png
 180,Crimson Gazer,赤紅凝視者,9,,,,,,,"[""Dark"",""Dragon"",""Earthen"",""Fire"",""Holy"",""Lightning"",""Water""]",,,"[69,98,75,63,83]",[498],,monsters/crimson_gazer.png
 181,Balor Warlock,巴羅爾術士,9,,,[250],,"[""Arcane""]",,,,,"[240,100,243,171,181]","[273,394,396]","[{""id"":62,""name"":""The Army of Balor""}]",monsters/balor_mage.png
 182,Balor Assassin,巴羅爾刺客,9,,,[250],"[""Day Only""]","[""Arcane""]",,,,,"[34,94]","[266,393]","[{""id"":62,""name"":""The Army of Balor""}]",monsters/balor_rogue.png
@@ -210,7 +210,7 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 228,Ratman,鼠男,8,,,[32],,,,,,,"[225,48,43,226]","[256,262]",,monsters/rat_man.png
 229,Bandit Lord,山賊王,1,20,1,,,,,,,,"[37,42]","[347,1129,501,460,14]","[{""id"":4,""name"":""Hermes' Revenge""},{""id"":40,""name"":""Lord of the Bandits""}]",bosses/bandit_lord.png
 230,Bandit,土匪,1,,,,,,,,,,"[51,42]","[501,1130,460]","[{""id"":1,""name"":""Carl's Revenge""}]",monsters/bandit.png
-231,Arisen Undead Golem,,8,,,,"[""Night Only""]",,,"[""Physical""]",,,"[147,101,143,111]","[278,459,691]",,bosses/undead_golem.png
+231,Arisen Undead Golem,重生的不死魔像,8,,,,"[""Night Only""]",,,"[""Physical""]",,,"[147,101,143,111]","[278,459,691]",,bosses/undead_golem.png
 232,"Fallen Vulcan, the Red Knight",墮落赤騎瓦肯,9,225,1,,"[""Woods Only""]","[""Water""]","[""Fire""]",,"[""Burning"",""Asleep""]",,"[148,118,161,243,164,94,162]","[1361,473,713,550]","[{""id"":64,""name"":""Fallen Gods""}]",bosses/fallen_vulcan.png
 233,"Fallen Demeter, the Earth Magus",墮落的大地術師狄蜜特,9,225,1,,"[""Woods Only""]","[""Lightning""]","[""Earthen""]",,"[""Asleep"",""Rot""]",,"[147,153,210,111,112]","[1361,706,566,473]","[{""id"":64,""name"":""Fallen Gods""}]",bosses/fallen_demeter.png
 234,Fallen King Arthus,墮落亞瑟王,8,200,1,,"[""Kingdom Raid""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Rot"",""Drenched""]",,"[161,208,157,158,159,160,163,164,162]","[446,479,869,514,517,664,513,478,472,515,525,680,468,929,518,528,477,532]",,bosses/king_arthus.png
@@ -284,24 +284,24 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 302,Storm Core,風暴核心,4,,,,"[""Rain Only"",""World Only""]","[""Earthen""]","[""Lightning""]",,,,"[66,83]",[265],,monsters/storm_core.png
 303,Earth Core,大地核心,4,,,,"[""World Only""]","[""Lightning""]","[""Earthen""]",,"[""Poisoned"",""Stunned""]",,"[63,111]",[256],,monsters/earth_core.png
 304,Mighty Mimic,究極寶箱怪,9,,,,,,"[""Arcane"",""Dark"",""Earthen"",""Fire"",""Holy"",""Lightning"",""Physical"",""Water""]",,"[""Blind"",""Asleep""]",,"[277,344,278,366,373,306,279,280]","[446,1005,1004,1011,998,454,24,12,1205,921,930,1079,732]",,monsters/mighty_mimic.png
-305,Arisen Carman,,9,,,,,,,,,,"[256,277,344,326,278,366,369,280]","[1369,1368,1367,1366,281,723,735,736]",,bosses/witch.png
-306,Arisen Ronin,,9,,,,,,,,,,"[173,335,337,338,316,317]","[267,722]",,bosses/ronin.png
+305,Arisen Carman,重生的卡門,9,,,,,,,,,,"[256,277,344,326,278,366,369,280]","[1369,1368,1367,1366,281,723,735,736]",,bosses/witch.png
+306,Arisen Ronin,重生的浪人,9,,,,,,,,,,"[173,335,337,338,316,317]","[267,722]",,bosses/ronin.png
 307,Mighty Griffin,究極格里芬,9,210,1,[32],,,,"[""Lightning""]","[""Asleep""]",,"[342,344,337,204,203,279,341,343]","[446,728,727,729]",,bosses/great_griffin.png
 308,Griffin,格里芬,5,150,1,,,,,,"[""Asleep""]",,"[96,151,213,308,217]","[446,728,734,733]",,bosses/griffin.png
 309,Great Reaper,強大的死神,8,,,,"[""Night Only""]",,,"[""Arcane"",""Dragon""]",,,"[201,326,366,203,316]","[746,731]",,monsters/great_reaper.png
-310,Arisen Ankou,,9,,,,"[""Night Only""]",,"[""Dark""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Asleep"",""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Stunned"",""Rot""]",,"[201,327,199,197,337,198,200,366]","[1075,270,737]",,bosses/grim_reaper.png
+310,Arisen Ankou,重生的安庫,9,,,,"[""Night Only""]",,"[""Dark""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Asleep"",""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Stunned"",""Rot""]",,"[201,327,199,197,337,198,200,366]","[1075,270,737]",,bosses/grim_reaper.png
 311,Crimson Wood,深紅木,8,,,,,"[""Fire""]","[""Earthen""]",,,,"[290,204,203,280]","[256,283]",,monsters/crimson_wood.png
 312,Arisen Merlin,重生的梅林,9,200,1,,"[""Past Event (currently unavailable)""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Rot"",""Res ↓↓"",""Res ↓"",""Drenched""]",,"[201,199,197,277,344,278,202,198,366,215,325,306,204,279,370,280]","[22,446,776,763,783,758,790,755,772,759,268,767,780,768,769,789,779,785,781,766,775,778,770,788,784,782,762,756,757,777,773,786,764,765,761,771,760,774,787,1198,1202,1199,1201,1203,1200,1204]",,bosses/merlin.png
 313,Odin,奧丁,10,230,1,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[372,374,366,369,373,375,325,316,350]","[446,708,792]",,bosses/odin.png
 314,Hades,黑帝斯,10,240,1,,,,,,"[""Petrified"",""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Rot""]",,"[328,326,337,161,237,204,203,367,212,299]",[818],,bosses/hades.png
-315,Arisen Cthulhu,,10,,,,"[""Rain Only"",""World Only""]",,"[""Fire"",""Water""]","[""Dark"",""Holy""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Rot""]",,"[191,48,327,372,374,366,204,203,136,376,377]","[446,302,827,826]",,bosses/cthulhu.png
+315,Arisen Cthulhu,重生的克蘇魯,10,,,,"[""Rain Only"",""World Only""]",,"[""Fire"",""Water""]","[""Dark"",""Holy""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Rot""]",,"[191,48,327,372,374,366,204,203,136,376,377]","[446,302,827,826]",,bosses/cthulhu.png
 316,Nothren Lord,北族領主,10,,,,,,,"[""Water""]","[""Frozen""]",,"[277,278,136,279,280]","[666,808]",,monsters/nothren_lord.png
 317,Chimera,奇美拉,10,,,[32],,,,,"[""Asleep"",""Blind"",""Petrified"",""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Stunned"",""Rot""]",,"[372,374,337,366,369,376,377]","[804,812,799]",,monsters/chimera.png
 318,Arcane Troll,奧術巨魔,10,,,,,,"[""Arcane""]",,,,"[167,173]","[262,273]",,monsters/arcane_troll.png
 319,Mighty Slime,究極史萊姆,10,,,,,,,,"[""Asleep""]",,"[342,197,202,198,200,316,343]",[918],,monsters/mighty_slime.png
 320,Ortanite Golem,歐坦尼魔像,10,,,,,,,,"[""Asleep"",""Blind"",""Petrified"",""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Stunned""]",,"[327,199,337,395,454,299,371]","[473,805,813,798]",,monsters/ortanite_golem.png
 321,Mammon Acolyte,瑪門追隨者,10,,,,,,,,,,"[372,374,376,377]","[801,803,811,793]",,monsters/mammon_acolyte.png
-322,Arisen Fafnir,,10,,,[33],,,,"[""Dark"",""Holy""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[97,314,206,368,105,107]","[255,447,730,828,840,841,817,816]",,bosses/fafnir.png
+322,Arisen Fafnir,重生的法夫納,10,,,[33],,,,"[""Dark"",""Holy""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[97,314,206,368,105,107]","[255,447,730,828,840,841,817,816]",,bosses/fafnir.png
 323,Fallen Vanguard,墮落先鋒,10,,,,,,"[""Holy""]",,"[""Asleep""]",,"[339,335,337,338,155,358,188,317,336]",[829],,monsters/fallen_vanguard.png
 324,Fallen Gaia,墮落蓋亞,10,,,,,,"[""Earthen""]",,"[""Rot""]",,"[313,403,154,316,188,280,377]","[256,809]",,monsters/fallen_gaia.png
 325,Fallen Arcanic,墮落奧術劍士,10,,,,,,"[""Arcane""]",,"[""Asleep""]",,"[321,318,319,3,335,154,316,189,317]",[797],,monsters/fallen_arcanic.png
@@ -314,7 +314,7 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 332,Fallen Leviathan,墮落利維坦,10,,,,,,"[""Water""]",,"[""Frozen""]",,"[278,374,312,375,154,316]","[280,831]",,monsters/fallen_leviathan.png
 333,Fallen Taranis,墮落塔拉尼斯,10,,,,,,"[""Lightning""]",,"[""Paralyzed""]",,"[315,306,316,189,155,279,376]","[265,832]",,monsters/fallen_taranis.png
 334,Fallen Nekromancer,墮落死靈法師,10,,,,,,"[""Dark""]",,"[""Asleep""]",,"[327,277,328,326,190,384,366,373,375,325,306,403,279,280]",[833],,monsters/fallen_necro.png
-335,Arisen Mimic King,,10,,,,,,,"[""Arcane"",""Dark"",""Dragon"",""Earthen"",""Fire"",""Holy"",""Lightning"",""Physical"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[123,100,369,171,184,136,368,180]","[347,13,16,14,836]",,bosses/mimic_king.png
+335,Arisen Mimic King,重生的寶箱王,10,,,,,,,"[""Arcane"",""Dark"",""Dragon"",""Earthen"",""Fire"",""Holy"",""Lightning"",""Physical"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[123,100,369,171,184,136,368,180]","[347,13,16,14,836]",,bosses/mimic_king.png
 336,King Gradlon,格拉德隆王,10,250,1,,,"[""Dark""]",,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[356,372,328,374,335,337,234,163,376,317,377,336,341,343]","[446,820]",,bosses/gradlon.png
 337,Arisen Naggeneen,重生納根因,9,225,1,,"[""Past Event (currently unavailable)""]",,"[""Holy"",""Lightning"",""Water""]","[""Earthen""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Rot"",""Drenched""]",,"[191,396,397,400,366,369,204,246,165,247]","[347,16,446,454,12,845,837,834,839,838,1307,1306,1309,548,580,581,1311,1310,1308]",,bosses/naggeneen.png
 338,Polar Bear,北極熊,6,,,,"[""Snow Only"",""World Only""]",,,,,,,,,monsters/polar_bear.png
@@ -325,7 +325,7 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 343,"Arisen Demeter, the Earth Magus",重生大地術師狄蜜特,10,250,1,,"[""Gauntlet Only""]","[""Lightning""]","[""Earthen""]",,"[""Asleep"",""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Stunned""]",,"[147,160,153,210,155,111,112]","[1361,473,865,860]",,bosses/fallen_demeter.png
 344,King of Ljosalfar,光之精靈王,5,0,1,,"[""Kingdom Raid""]","[""Earthen""]","[""Holy""]","[""Fire"",""Lightning""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]","[""Lulled""]","[121,130,98,149,153,183,122,138]","[1371,878,877,881,882,876,897,883,884,880,898,875,879,325,330]",,bosses/lj_king.png
 345,Queen of Dokkalfar,暗之精靈女王,8,0,1,,"[""Gauntlet Only""]","[""Holy""]","[""Dark""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Petrified"",""Rot""]",,"[201,339,337,137,198,200,420,422,369,299]","[896,892,894,886,887,885,888,893,890,889,891,895]",,bosses/dokk_queen.png
-346,Arisen Fenrir,,9,,,,"[""Woods Only""]",,,,,,"[93,368]","[347,446,282,447,899]",,bosses/fenrir.png
+346,Arisen Fenrir,重生的芬里爾,9,,,,"[""Woods Only""]",,,,,,"[93,368]","[347,446,282,447,899]",,bosses/fenrir.png
 347,Scruug,史古基,5,0,1,,"[""Past Event (currently unavailable)""]","[""Fire""]","[""Dark""]","[""Water""]",,,"[253,167,150,237,213,234,122,212]","[19,22,1205,908,911,905,904,912,902,907,896,910,901,449,450,895]",,bosses/lesser_scruuge.png
 348,Ebon Scruug,黑之史古基,9,0,1,,"[""Past Event (currently unavailable)""]",,"[""Dark""]","[""Water""]",,,"[253,342,256,255,278,254,252,237,366,213,234,279,212,280]","[19,20,458,22,446,12,1205,908,911,909,903,905,904,912,902,907,910,901,448,449,450,548,580,581,917,916,906,913,914,915,900]",,bosses/scruuge.png
 349,"Arisen Ithra, the White Knight",重生白騎士以斯拉,10,250,1,,"[""Gauntlet Only""]","[""Fire""]","[""Water""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified""]",,"[69,240,71,126,54,117,158,163,155,164]","[1361,473,866,861]",,bosses/fallen_ithra.png
@@ -347,9 +347,9 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 365,Draugr,屍鬼,3,,,,"[""Night Only""]","[""Earthen""]",,,,,"[35,37,44]",,,monsters/draugr.png
 366,Little Wisp,小光精,1,,,,"[""Night Only""]",,,"[""Physical""]",,,"[39,41,45]","[1098,1086]",,monsters/little_wisp.png
 367,Kelpie,凱爾皮,9,215,1,,"[""Water Only""]",,"[""Dark"",""Fire"",""Water""]","[""Dragon""]",,,"[201,143,92,213,568]","[446,302,1078]",,bosses/kelpie.png
-368,Arisen Finfolk,,10,,,,"[""Water Only""]",,"[""Water""]","[""Fire""]",,"[""Blind""]","[240,239,327,88,449,288]",[1117],,monsters/water_demon.png
+368,Arisen Finfolk,重生的芬菲克,10,,,,"[""Water Only""]",,"[""Water""]","[""Fire""]",,"[""Blind""]","[240,239,327,88,449,288]",[1117],,monsters/water_demon.png
 369,Rubbish,垃圾,2,,,,"[""Water Only""]",,,,,,,"[277,283]",,monsters/rubbish.png
-370,Arisen Hydra,,10,,,,"[""Water Only""]","[""Lightning""]",,"[""Fire""]","[""Petrified"",""Burning"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Asleep"",""Rot""]",,"[158,160,316,94]",[1095],,bosses/hydra.png
+370,Arisen Hydra,重生的九頭蛇,10,,,,"[""Water Only""]","[""Lightning""]",,"[""Fire""]","[""Petrified"",""Burning"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Asleep"",""Rot""]",,"[158,160,316,94]",[1095],,bosses/hydra.png
 371,Greater Triton,巨大特里頓,9,,,,"[""Water Only""]",,,,,,"[569,239,510]",[262],,monsters/blue_lobster.png
 372,Mighty Yeti,究極雪怪,10,,,,"[""Snow Only"",""World Only""]",,"[""Water""]",,"[""Frozen""]",,"[327,199,198,91,153,79]",[1114],,monsters/mighty_yeti.png
 373,Hydra,九頭蛇,7,175,1,,"[""Water Only""]","[""Lightning""]",,"[""Fire""]","[""Asleep"",""Burning"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Petrified"",""Rot""]",,"[158,160,316,94]","[446,302,1361,1080]",,bosses/hydra.png
@@ -393,12 +393,12 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 411,Surtr,史爾特爾,5,0,1,,"[""Kingdom Raid"",""Past Event (currently unavailable)"",""World Raid""]",,"[""Fire""]",,,,"[174,197,328,570,373,213,616,234,163,162]","[256,259,280,19,20,458,22,446,1191,1186,1188,1190,1195,1189,449,325]",,bosses/surtr.png
 412,Arisen Surtr,重生的史爾特爾,10,250,1,,"[""Kingdom Raid"",""Past Event (currently unavailable)"",""World Raid""]",,"[""Fire""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Rot""]",,"[174,607,197,328,373,213,616,234,163,162]","[256,259,280,19,20,458,22,446,1191,1186,1188,1190,1195,1189,449,325,1194,1185,1187,1193,1192]",,bosses/surtr.png
 413,Fallen Merlin,墮落梅林,6,150,1,,"[""Past Event (currently unavailable)""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Cursed"",""Toxic"",""Rot"",""Res ↓↓"",""Res ↓"",""Drenched""]",,"[201,199,197,277,344,278,202,198,200,366,204,279,370,280]","[347,22,446,776,763,783,758,790,755,772,759,268,767,780,768,769,789,779,781,513,764]",,bosses/merlin.png
-414,Arisen Great Gazer,,10,,,,,,"[""Physical""]",,,,"[327,476,477,478,479,171]","[258,1206]",,bosses/great_gazer.png
-415,Arisen Sluagh,,10,,,,,,"[""Holy""]","[""Dark""]",,,"[464,201,525,526,368,367]","[260,1213]",,bosses/sluagh.png
-416,Arisen Arachne,,9,,,,,,,,,,"[366,61,414,247]","[294,1207]",,bosses/arachne.png
-417,Arisen Typhon,,10,,,,"[""Gauntlet Only""]",,,"[""Dark"",""Fire"",""Holy""]","[""Blight""]",,"[242,97,206,196,581,343]","[272,1216,1211,1215]",,bosses/typhon.png
-418,Arisen Behemoth,,9,,,,"[""Woods Only""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned""]",,"[243,213,368]","[261,1336,1208]",,bosses/behemoth.png
-419,Arisen Tiamat,,10,,,,,,,"[""Dark"",""Fire"",""Holy""]","[""Blight""]",,"[242,97,206,196,581,343]","[272,1209,1214,1210]",,bosses/tiamat.png
+414,Arisen Great Gazer,重生的強大的凝視者,10,,,,,,"[""Physical""]",,,,"[327,476,477,478,479,171]","[258,1206]",,bosses/great_gazer.png
+415,Arisen Sluagh,重生的勾魂者,10,,,,,,"[""Holy""]","[""Dark""]",,,"[464,201,525,526,368,367]","[260,1213]",,bosses/sluagh.png
+416,Arisen Arachne,重生的阿剌克涅,9,,,,,,,,,,"[366,61,414,247]","[294,1207]",,bosses/arachne.png
+417,Arisen Typhon,重生的堤豐,10,,,,"[""Gauntlet Only""]",,,"[""Dark"",""Fire"",""Holy""]","[""Blight""]",,"[242,97,206,196,581,343]","[272,1216,1211,1215]",,bosses/typhon.png
+418,Arisen Behemoth,重生的貝西摩斯,9,,,,"[""Woods Only""]",,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned""]",,"[243,213,368]","[261,1336,1208]",,bosses/behemoth.png
+419,Arisen Tiamat,重生的提亞馬特,10,,,,,,,"[""Dark"",""Fire"",""Holy""]","[""Blight""]",,"[242,97,206,196,581,343]","[272,1209,1214,1210]",,bosses/tiamat.png
 420,Age-Old Mimic,古老的寶箱怪,5,0,1,,"[""Kingdom Raid"",""Past Event (currently unavailable)""]",,,,,,"[233,195,563,564,565,566,246,316,94]","[18,446,454,1217,447,692,684,1177,881,882,876,1218,875,879]",,monsters/ancient_mimic.png
 421,Mimic King of Kings,箱王之王,8,0,1,,"[""Kingdom Raid"",""Past Event (currently unavailable)""]",,,,,,"[233,423,195,256,255,472,473,474,475,246]","[15,12,845,1021,582,563,1067,721,834,839,580,581,1023,1020,716,720,717,715]",,bosses/mimic_king.png
 422,The Mightiest Mimic,超究極寶箱怪,9,225,1,,"[""Past Event (currently unavailable)"",""World Raid""]",,,,"[""Def ↓↓""]",,"[356,430,476,477,478,462,246,495,530,531]","[454,837,839,548,580,581,1169,686,1171,1172,1170,1179,685,1219,1168,996,1184,1220]",,monsters/mighty_mimic.png
@@ -425,52 +425,52 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 443,Arisen Hel,重生赫爾,10,250,1,,"[""Kingdom Raid"",""World Raid""]",,"[""Lightning""]",,,"[""Petrified"",""Lulled""]","[174,607,287,310,43,414,165,616,65,615,84]","[256,259,280,19,20,458,22,446,1383,1386,1382,1389,1388,449,325,1384,1387,1381,1385,1390]",,bosses/hel.png
 444,Hel,赫爾,5,125,1,,"[""Kingdom Raid""]",,"[""Lightning""]",,,"[""Petrified"",""Lulled""]","[174,607,287,310,43,165,616,65,615,84,288]","[256,259,280,19,20,458,22,446,1383,1386,1382,1389,1388,449]",,bosses/hel.png
 445,Yggdrasil,世界樹,7,175,1,,,,,,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Rot""]",,"[191,475,572,497,494,403,170,617,618,280]","[1369,1368,1367,1366,1363,1362,1418,1421,1419,1393,1394,1417,1392,1420,1391]",,bosses/yggdrasil.png
-446,Arisen King Meliodas,,9,225,1,,"[""Gauntlet Only""]","[""Dark""]","[""Holy""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[356,123,396,202,398,620,619,623,624]","[1400,1396,1456]",,bosses/meliodas.png
-447,Arisen Warlock Trevelyan,,9,225,1,,"[""Kingdom Raid""]",,,"[""Earthen"",""Holy"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot"",""T. Res ↓"",""Res ↓↓"",""Res ↓""]",,"[191,123,473,396,202,398,198,620,619,375]","[1400,268,1412,1408,1407,1409,1414,1402,1410,1401,1416,1405,1415,1406,1413,1404,1411,1403]",,bosses/trevelyan.png
-448,False King Meliodas,,6,150,1,,,"[""Dark""]","[""Holy""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[356,123,396,202,398,620,619]","[1400,1398,1397]",,bosses/meliodas.png
-449,Fallen Warlock Trevelyan,,6,150,1,,"[""Kingdom Raid""]",,,"[""Earthen"",""Holy"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot"",""T. Res ↓"",""Res ↓↓"",""Res ↓""]",,"[191,621,123,564,276,202,398,198,620,619,304]","[1400,268,1412,1408,1407,1409,1414,1402,1410,1401]",,bosses/trevelyan.png
+446,Arisen King Meliodas,重生王者梅里歐達斯,9,225,1,,"[""Gauntlet Only""]","[""Dark""]","[""Holy""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[356,123,396,202,398,620,619,623,624]","[1400,1396,1456]",,bosses/meliodas.png
+447,Arisen Warlock Trevelyan,重生術士特里維廉,9,225,1,,"[""Kingdom Raid""]",,,"[""Earthen"",""Holy"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot"",""T. Res ↓"",""Res ↓↓"",""Res ↓""]",,"[191,123,473,396,202,398,198,620,619,375]","[1400,268,1412,1408,1407,1409,1414,1402,1410,1401,1416,1405,1415,1406,1413,1404,1411,1403]",,bosses/trevelyan.png
+448,False King Meliodas,偽王梅里歐達斯,6,150,1,,,"[""Dark""]","[""Holy""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[356,123,396,202,398,620,619]","[1400,1398,1397]",,bosses/meliodas.png
+449,Fallen Warlock Trevelyan,墮落術士特里維廉,6,150,1,,"[""Kingdom Raid""]",,,"[""Earthen"",""Holy"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot"",""T. Res ↓"",""Res ↓↓"",""Res ↓""]",,"[191,621,123,564,276,202,398,198,620,619,304]","[1400,268,1412,1408,1407,1409,1414,1402,1410,1401]",,bosses/trevelyan.png
 450,Glatisant,吠獸,9,200,1,,"[""Gauntlet Only""]","[""Dragon""]","[""Fire""]","[""Lightning""]",,,"[538,97,441,412,409,435]","[1426,1423,1427]",,monsters/coral_lizard_warrior.png
-451,Sapling,,7,,,,"[""Gauntlet Only""]","[""Fire""]","[""Earthen""]","[""Water""]","[""Bleeding"",""Frozen"",""Poisoned"",""Blind"",""Asleep""]",,"[596,199,214]",,,monsters/sapling.png
-452,Hobgoblin Lord,,3,50,1,,"[""Gauntlet Only""]",,,,,,"[118,117,110,112]","[347,13,14]",,bosses/hobgoblin_lord.png
-453,Terrifying Ghost,,8,175,1,,"[""Past Event (currently unavailable)""]","[""Holy""]","[""Dark"",""Physical""]","[""Lightning"",""Water""]","[""Asleep""]",,"[464,92,169]","[252,1454]",,monsters/ghost.png
-454,Grand Knight Lugus,,7,0,1,,"[""Kingdom Raid""]",,"[""Dark"",""Fire"",""Holy"",""Lightning""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[207,206,213,105]","[13,16,407,14,447,519,471,522,500,932,1466,516,474,520,483,438,502,439,452]",,bosses/lugus.png
-455,Dagda,,6,140,1,,"[""Gauntlet Only""]","[""Arcane""]","[""Dark"",""Holy""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Asleep"",""Stunned"",""Petrified""]",,"[285,148,275,190,213,136,367]","[1472,1468,1475,1469,1470,1473,1471,1474,1476]",,bosses/dagda.png
-456,Elite Balor Marauder,,9,,,,,"[""Arcane""]",,,,,"[182,71,72,43]","[1482,1483,1484,1485]",,monsters/elite_balor_warrior.png
-457,Elite Balor Warlock,,9,,,,,"[""Arcane""]",,,,,"[240,239,100,243,171,181]","[1488,1481]",,monsters/elite_balor_mage.png
-458,Elite Balor Assassin,,9,,,,"[""Day Only""]","[""Arcane""]",,,,,"[34,94]",[1487],,monsters/elite_balor_rogue.png
-459,Elite Balor Guardian,,5,,,,"[""Night Only""]","[""Arcane""]",,,,,"[42,93,136]",,,monsters/elite_balor_guardian.png
-460,Arisen Balor King,,10,240,1,,"[""Gauntlet Only""]","[""Arcane""]","[""Dark"",""Holy""]","[""Earthen"",""Fire"",""Lightning"",""Water""]",,,"[121,130,146,184,213,136,122]","[400,1462]",,bosses/king_balor.png
-461,Arisen Dagda,,10,240,1,,"[""Gauntlet Only""]","[""Arcane""]","[""Dark"",""Holy""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Asleep"",""Stunned"",""Petrified""]",,"[428,372,190,213,136,523,623]","[1457,1460,1461,1458,1463,1467,1464,1459,1465]",,bosses/dagda.png
-462,Arisen Alfar,,8,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[327,335,337,340,641]","[1499,1498]",,monsters/alfar.png
-463,Alfar Mage,,5,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[239,118,117,633]","[1499,1498]",,monsters/alfar_mage.png
-464,Alfar,,4,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[182,287,77]","[1499,1498]",,monsters/alfar.png
-465,Scary Skeleton,,1,,,,"[""Past Event (currently unavailable)""]","[""Holy""]",,"[""Dark""]","[""Burning"",""Bleeding""]",,,"[249,158,195,137,160,668]",,monsters/skeleton.png
-466,Frightening Skeleton,,4,,,,"[""Past Event (currently unavailable)""]","[""Holy""]",,"[""Dark""]","[""Burning"",""Bleeding""]",,"[203,378]",,,monsters/skeleton.png
-467,Arisen Alfar Lord,,9,200,1,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[327,373,624]","[1499,1498]",,bosses/alfar_lord.png
-468,Arisen Alfar Mage,,9,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[327,277,278,641,624]","[1499,1498]",,monsters/alfar_mage.png
-469,Baldr,,10,225,1,,"[""Gauntlet Only""]",,,,"[""Burning"",""Frozen"",""Paralyzed"",""Blight"",""Blind"",""Rot""]",,"[423,174,213,602,588,537,67]","[1424,1422,1425]",,bosses/baldr.png
-470,Elite Fomorian,,9,,,,"[""Gauntlet Only""]",,,,,,"[174,201,202,143]","[1442,1432,1448,1495,1433,1452]",,monsters/elite_fomorian.png
+451,Sapling,樹苗,7,,,,"[""Gauntlet Only""]","[""Fire""]","[""Earthen""]","[""Water""]","[""Bleeding"",""Frozen"",""Poisoned"",""Blind"",""Asleep""]",,"[596,199,214]",,,monsters/sapling.png
+452,Hobgoblin Lord,巨型哥布林領主,3,50,1,,"[""Gauntlet Only""]",,,,,,"[118,117,110,112]","[347,13,14]",,bosses/hobgoblin_lord.png
+453,Terrifying Ghost,恐慌幽靈,8,175,1,,"[""Past Event (currently unavailable)""]","[""Holy""]","[""Dark"",""Physical""]","[""Lightning"",""Water""]","[""Asleep""]",,"[464,92,169]","[252,1454]",,monsters/ghost.png
+454,Grand Knight Lugus,冠位騎士盧古斯,7,0,1,,"[""Kingdom Raid""]",,"[""Dark"",""Fire"",""Holy"",""Lightning""]",,"[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[207,206,213,105]","[13,16,407,14,447,519,471,522,500,932,1466,516,474,520,483,438,502,439,452]",,bosses/lugus.png
+455,Dagda,達格達,6,140,1,,"[""Gauntlet Only""]","[""Arcane""]","[""Dark"",""Holy""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Asleep"",""Stunned"",""Petrified""]",,"[285,148,275,190,213,136,367]","[1472,1468,1475,1469,1470,1473,1471,1474,1476]",,bosses/dagda.png
+456,Elite Balor Marauder,高端巴羅爾掠奪者,9,,,,,"[""Arcane""]",,,,,"[182,71,72,43]","[1482,1483,1484,1485]",,monsters/elite_balor_warrior.png
+457,Elite Balor Warlock,高端巴羅爾術士,9,,,,,"[""Arcane""]",,,,,"[240,239,100,243,171,181]","[1488,1481]",,monsters/elite_balor_mage.png
+458,Elite Balor Assassin,高端巴羅爾刺客,9,,,,"[""Day Only""]","[""Arcane""]",,,,,"[34,94]",[1487],,monsters/elite_balor_rogue.png
+459,Elite Balor Guardian,高端巴羅爾悍將,5,,,,"[""Night Only""]","[""Arcane""]",,,,,"[42,93,136]",,,monsters/elite_balor_guardian.png
+460,Arisen Balor King,重生巴羅爾王,10,240,1,,"[""Gauntlet Only""]","[""Arcane""]","[""Dark"",""Holy""]","[""Earthen"",""Fire"",""Lightning"",""Water""]",,,"[121,130,146,184,213,136,122]","[400,1462]",,bosses/king_balor.png
+461,Arisen Dagda,重生的達格達,10,240,1,,"[""Gauntlet Only""]","[""Arcane""]","[""Dark"",""Holy""]","[""Earthen"",""Fire"",""Lightning"",""Water""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Asleep"",""Stunned"",""Petrified""]",,"[428,372,190,213,136,523,623]","[1457,1460,1461,1458,1463,1467,1464,1459,1465]",,bosses/dagda.png
+462,Arisen Alfar,重生的古精靈,8,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[327,335,337,340,641]","[1499,1498]",,monsters/alfar.png
+463,Alfar Mage,古精靈法師,5,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[239,118,117,633]","[1499,1498]",,monsters/alfar_mage.png
+464,Alfar,古精靈,4,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[182,287,77]","[1499,1498]",,monsters/alfar.png
+465,Scary Skeleton,恐怖骷髏,1,,,,"[""Past Event (currently unavailable)""]","[""Holy""]",,"[""Dark""]","[""Burning"",""Bleeding""]",,,"[249,158,195,137,160,668]",,monsters/skeleton.png
+466,Frightening Skeleton,驚恐骷髏,4,,,,"[""Past Event (currently unavailable)""]","[""Holy""]",,"[""Dark""]","[""Burning"",""Bleeding""]",,"[203,378]",,,monsters/skeleton.png
+467,Arisen Alfar Lord,重生古精靈君主,9,200,1,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[327,373,624]","[1499,1498]",,bosses/alfar_lord.png
+468,Arisen Alfar Mage,重生的古精靈法師,9,,,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[327,277,278,641,624]","[1499,1498]",,monsters/alfar_mage.png
+469,Baldr,巴德爾,10,225,1,,"[""Gauntlet Only""]",,,,"[""Burning"",""Frozen"",""Paralyzed"",""Blight"",""Blind"",""Rot""]",,"[423,174,213,602,588,537,67]","[1424,1422,1425]",,bosses/baldr.png
+470,Elite Fomorian,高端弗摩爾族,9,,,,"[""Gauntlet Only""]",,,,,,"[174,201,202,143]","[1442,1432,1448,1495,1433,1452]",,monsters/elite_fomorian.png
 471,First Stable Keeper,第一隨從,7,,,,"[""Gauntlet Only""]",,,,,,"[201,612,42,268]",,,monsters/stable_keeper.png
-472,Elite Fomorian Mage,,9,,,,"[""Gauntlet Only""]",,,,,,"[404,405,406,407,409]","[1449,1443,1453]",,monsters/elite_fomorian_mage.png
-473,Elite Orc,,9,,,,"[""Gauntlet Only""]",,,,,,"[182,290,143]",,,monsters/elite_orc.png
+472,Elite Fomorian Mage,高端弗摩爾族法師,9,,,,"[""Gauntlet Only""]",,,,,,"[404,405,406,407,409]","[1449,1443,1453]",,monsters/elite_fomorian_mage.png
+473,Elite Orc,高端半獸人,9,,,,"[""Gauntlet Only""]",,,,,,"[182,290,143]",,,monsters/elite_orc.png
 474,Second Stable Keeper,第二隨從,8,,,,"[""Gauntlet Only""]",,,,,,"[201,612,42,268]",,,monsters/stable_keeper.png
 475,Third Stable Keeper,第三隨從,9,,,,"[""Gauntlet Only""]",,,,,,"[201,612,42,268]",,,monsters/stable_keeper.png
 476,Final Stable Keeper,最終隨從,10,,,,"[""Gauntlet Only""]",,,,,,"[201,612,42,268]",,,monsters/stable_keeper.png
-477,Elite Orc Brute,,9,,,,"[""Gauntlet Only""]",,,,,,,,,monsters/elite_orc_brute.png
-478,Very Scary Skeleton,,8,,,,"[""Past Event (currently unavailable)""]","[""Holy""]",,"[""Dark""]","[""Burning"",""Bleeding""]",,[378],"[249,446]",,monsters/skeleton.png
-479,Elite Nothren Berserker,,9,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[290,213,266]","[280,666,1441,1428,1447,1434]",,monsters/elite_nothren2.png
-480,Elite Nothren Raider,,9,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[174,287,164,288]","[280,666,1430,1444,1437]",,monsters/elite_nothren.png
-481,Elite Balor Flame,,9,,,,"[""Gauntlet Only""]","[""Arcane"",""Earthen"",""Water""]","[""Dark"",""Dragon"",""Fire"",""Holy"",""Lightning""]","[""Physical""]","[""Burning"",""Frozen"",""Poisoned"",""Blight""]",,"[148,243,157]",,,monsters/balor_flame.png
-482,Elite Kobold,,10,,,,"[""Gauntlet Only""]",,,"[""Dark"",""Dragon"",""Holy""]",,,"[35,43,79,94]",,,monsters/elite_kobold.png
-483,Elite Nothren Valkyrie,,10,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[290,214,215,375,213,266,164,162]","[666,1436,1429,1496,1435,1477]",,monsters/elite_nothren_valk.png
-484,Elite Kobold Mage,,10,,,,"[""Gauntlet Only""]",,,"[""Dark"",""Dragon"",""Holy""]",,,"[240,121,130,243,210,122,181]",,,monsters/elite_kobold_mage.png
-485,Elite Nothren Warlock,,9,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[277,278,136,279,280]","[280,666,1445,1440,1431]",,monsters/elite_nothren3.png
-486,Elite Kobold Lord,,10,225,1,,"[""Gauntlet Only""]",,,,,,"[372,374,500,497,504,376,377]","[347,13,14]",,bosses/elite_kobold_lord.png
-487,Kobold Lord,,8,175,1,,"[""Gauntlet Only""]",,,,,,"[277,278,553,556,279,280]","[347,13,14]",,bosses/kobold_lord.png
-488,Elite Balor Worm,,5,125,1,,"[""Gauntlet Only""]","[""Arcane""]",,,,,"[37,243,61]",[1489],,bosses/balor_worm.png
-489,Spooky Ghost,,4,75,1,,"[""Past Event (currently unavailable)""]","[""Holy""]","[""Dark"",""Physical""]","[""Lightning"",""Water""]","[""Asleep""]",,"[464,169]","[252,1454]",,monsters/ghost.png
-490,Alfar Lord,,5,100,1,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[239,118,117,633]","[1499,1498]",,bosses/alfar_lord.png
-491,Elite Orc Lord,,9,220,1,,"[""Gauntlet Only""]",,,,,,"[182,213,62]","[347,13,1363,14]",,bosses/elite_orc_lord.png
-492,Elite Draconian,,8,,,,"[""Gauntlet Only""]","[""Dragon""]","[""Dark"",""Holy""]",,,,"[423,201,202,581]","[266,1439,1478,1479,1438,1455,1450]",,monsters/elite_draco.png
-493,Elite Draconian Mage,,8,,,,"[""Gauntlet Only""]","[""Dragon""]","[""Dark"",""Holy""]",,,,"[97,277,278,420,279,280]","[1446,1480,1451]",,monsters/elite_draco_mage.png
+477,Elite Orc Brute,高端野蠻半獸人,9,,,,"[""Gauntlet Only""]",,,,,,,,,monsters/elite_orc_brute.png
+478,Very Scary Skeleton,超恐怖骷髏,8,,,,"[""Past Event (currently unavailable)""]","[""Holy""]",,"[""Dark""]","[""Burning"",""Bleeding""]",,[378],"[249,446]",,monsters/skeleton.png
+479,Elite Nothren Berserker,高端北族狂戰士,9,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[290,213,266]","[280,666,1441,1428,1447,1434]",,monsters/elite_nothren2.png
+480,Elite Nothren Raider,高端北族強襲者,9,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[174,287,164,288]","[280,666,1430,1444,1437]",,monsters/elite_nothren.png
+481,Elite Balor Flame,高端巴羅爾火焰,9,,,,"[""Gauntlet Only""]","[""Arcane"",""Earthen"",""Water""]","[""Dark"",""Dragon"",""Fire"",""Holy"",""Lightning""]","[""Physical""]","[""Burning"",""Frozen"",""Poisoned"",""Blight""]",,"[148,243,157]",,,monsters/balor_flame.png
+482,Elite Kobold,高端地精,10,,,,"[""Gauntlet Only""]",,,"[""Dark"",""Dragon"",""Holy""]",,,"[35,43,79,94]",,,monsters/elite_kobold.png
+483,Elite Nothren Valkyrie,高端北族女武神,10,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[290,214,215,375,213,266,164,162]","[666,1436,1429,1496,1435,1477]",,monsters/elite_nothren_valk.png
+484,Elite Kobold Mage,高端地精法師,10,,,,"[""Gauntlet Only""]",,,"[""Dark"",""Dragon"",""Holy""]",,,"[240,121,130,243,210,122,181]",,,monsters/elite_kobold_mage.png
+485,Elite Nothren Warlock,高端北族術士,9,,,,"[""Gauntlet Only""]",,,"[""Water""]","[""Frozen""]",,"[277,278,136,279,280]","[280,666,1445,1440,1431]",,monsters/elite_nothren3.png
+486,Elite Kobold Lord,高端地精領主,10,225,1,,"[""Gauntlet Only""]",,,,,,"[372,374,500,497,504,376,377]","[347,13,14]",,bosses/elite_kobold_lord.png
+487,Kobold Lord,地精領主,8,175,1,,"[""Gauntlet Only""]",,,,,,"[277,278,553,556,279,280]","[347,13,14]",,bosses/kobold_lord.png
+488,Elite Balor Worm,高端巴羅爾蠕蟲,5,125,1,,"[""Gauntlet Only""]","[""Arcane""]",,,,,"[37,243,61]",[1489],,bosses/balor_worm.png
+489,Spooky Ghost,詭異幽靈,4,75,1,,"[""Past Event (currently unavailable)""]","[""Holy""]","[""Dark"",""Physical""]","[""Lightning"",""Water""]","[""Asleep""]",,"[464,169]","[252,1454]",,monsters/ghost.png
+490,Alfar Lord,古精靈君主,5,100,1,,"[""Gauntlet Only""]","[""Earthen""]","[""Dark"",""Holy""]","[""Water""]","[""Paralyzed"",""Blight"",""Asleep"",""Stunned""]",,"[239,118,117,633]","[1499,1498]",,bosses/alfar_lord.png
+491,Elite Orc Lord,高端半獸人領主,9,220,1,,"[""Gauntlet Only""]",,,,,,"[182,213,62]","[347,13,1363,14]",,bosses/elite_orc_lord.png
+492,Elite Draconian,高端德肯尼亞族,8,,,,"[""Gauntlet Only""]","[""Dragon""]","[""Dark"",""Holy""]",,,,"[423,201,202,581]","[266,1439,1478,1479,1438,1455,1450]",,monsters/elite_draco.png
+493,Elite Draconian Mage,高端德肯尼亞族法師,8,,,,"[""Gauntlet Only""]","[""Dragon""]","[""Dark"",""Holy""]",,,,"[97,277,278,420,279,280]","[1446,1480,1451]",,monsters/elite_draco_mage.png
 494,Balor Gateway,巴羅爾任意門,9,,,,"[""Gauntlet Only""]","[""Arcane""]","[""Fire"",""Lightning""]","[""Dark"",""Dragon"",""Holy""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[467,562,466,561,92]","[256,259,265,273,294,280,281,1142]",,monsters/gateway.png

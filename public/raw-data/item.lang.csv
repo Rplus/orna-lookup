@@ -1320,7 +1320,7 @@ id,en,zh,info,info_zh
 1343,Ichor,伊喬爾,A restorative elixir that removes any stat lowering ailments against you.,能移除任何降低屬性之異常狀態的恢復性秘藥。
 1344,Arisen Colada,重生科拉達,"A greatsword often used in offensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical prowess.",全能的騎士巴林用來施展攻擊劍術的大劍.他的斬擊能降低對手的物理或魔法攻擊力.
 1345,Finesse's Shotel,芬尼斯的短刀,The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This crooked shotel is one of them.,劍術大師芬尼斯因身上背著無數的劍而聞名.這把彎刀正是其中之一.
-1346,Finesse's Katana,芬尼斯的武士刀,"The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This katana is his favorite, and can easily weaken an opponent.",
+1346,Finesse's Katana,芬尼斯的武士刀,"The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This katana is his favorite, and can easily weaken an opponent.","劍術大師芬尼斯因身上背著無數的劍而聞名.這把武士刀正是他的最愛,能輕易弱化對手."
 1347,Arisen Avalon Armor,重生阿瓦隆盔甲,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
 1348,Arisen Avalon Helmet,重生阿瓦隆頭盔,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
 1349,Arisen Avalon Leggings,重生阿瓦隆腿甲,Heavy armor of prestigious Avalon knights.,德高望重的阿瓦隆騎士的重裝甲.
@@ -1368,112 +1368,112 @@ id,en,zh,info,info_zh
 1393,Askr Garb,阿斯克皮甲,"Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power.",
 1394,Askr Helmet,阿斯克頭盔,"Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself.",
 1395,Spellsword's Ring,魔劍士之戒,A strange magical ring. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power.,適合菜雞的奇特魔戒，它會犧牲物攻以換取魔攻。
-1396,Arisen King's Sceptre,,"The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",
-1397,False King's Sceptre,,"The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",
-1398,False King's Crown,,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
-1399,Arisen King's Crown,,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
-1400,Lyon's Penance,,An artifact capable of unmarking one from Lyonesse execution.,
-1401,Trevelyan's Shoes,,"Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-1402,Trevelyan's Hood,,"Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-1403,Arisen Trevelyan's Shoes,,"Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-1404,Arisen Trevelyan's Hood,,"Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-1405,Arch-Blessed Rune Helmet,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
-1406,Arisen Trevelyan's Archistaff,,"Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",
-1407,Blessed Rune Leggings,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
-1408,Blessed Rune Helmet,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
-1409,Trevelyan's Archistaff,,"Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",
-1410,Trevelyan's Robe,,"Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-1411,Arisen Trevelyan's Robe,,"Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",
-1412,Blessed Rune Armor,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
-1413,Arisen Trevelyan's Charm,,"Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",
-1414,Trevelyan's Charm,,"Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",
-1415,Arch-Blessed Rune Leggings,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
-1416,Arch-Blessed Rune Armor,,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1396,Arisen King's Sceptre,重生王者之權杖,"The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",被遺忘的王梅里歐達斯的老舊法杖。在格拉德隆王墮落之後，梅里歐達斯宣告了他的王權，但許多人徹底反對。
+1397,False King's Sceptre,偽王之權杖,"The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship.",被遺忘的王梅里歐達斯的老舊法杖。在格拉德隆王墮落之後，梅里歐達斯宣告了他的王權，但許多人徹底反對。
+1398,False King's Crown,偽王之冠,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",被遺忘的王梅里歐達斯的破碎王冠。在格拉德隆王墮落之後，梅里歐達斯宣告了他的王權，但許多人徹底反對。王冠上的裂痕跟坑洞使其很適合鑲嵌裝飾。
+1399,Arisen King's Crown,重生王者之冠,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",被遺忘的王梅里歐達斯的破碎王冠。在格拉德隆王墮落之後，梅里歐達斯宣告了他的王權，但許多人徹底反對。王冠上的裂痕跟坑洞使其很適合鑲嵌裝飾。
+1400,Lyon's Penance,里昂的贖罪,An artifact capable of unmarking one from Lyonesse execution.,能防止被當作里昂內斯處決執行對象的神器。
+1401,Trevelyan's Shoes,特里維廉之鞋,"Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",傳奇里昂內斯術士特里維廉的鞋子，穿戴它可以稍微減少施放法術所使用的魔力，並且可以抵抗奧術。
+1402,Trevelyan's Hood,特里維廉的兜帽,"Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",傳奇里昂內斯術士特里維廉的兜帽，穿戴它可以稍微減少施放法術所使用的魔力，並且可以抵抗奧術。
+1403,Arisen Trevelyan's Shoes,重生特里維廉之鞋,"Shoes of Trevelyan, the storied Lyonesse Warlock. Wearing them will slightly decrease the mana required for spells while protecting one from the arcane arts.",傳奇里昂內斯術士特里維廉的鞋子，穿戴它可以稍微減少施放法術所使用的魔力，並且可以抵抗奧術。
+1404,Arisen Trevelyan's Hood,重生特里維廉的兜帽,"Hood of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",傳奇里昂內斯術士特里維廉的兜帽，穿戴它可以稍微減少施放法術所使用的魔力，並且可以抵抗奧術。
+1405,Arch-Blessed Rune Helmet,高等祝福符文頭盔,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1406,Arisen Trevelyan's Archistaff,重生特里維廉的權杖,"Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",傳奇里昂內斯術士特里維廉的法杖，持有它可以獲得強大的魔力，但必須雙手使用。
+1407,Blessed Rune Leggings,祝福符文腿甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1408,Blessed Rune Helmet,祝福符文頭盔,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1409,Trevelyan's Archistaff,特里維廉的權杖,"Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands.",傳奇里昂內斯術士特里維廉的法杖，持有它可以獲得強大的魔力，但必須雙手使用。
+1410,Trevelyan's Robe,特里維廉的法袍,"Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",傳奇里昂內斯術士特里維廉的法袍，穿戴它可以稍微減少施放法術所使用的魔力，並且可以抵抗奧術。
+1411,Arisen Trevelyan's Robe,重生特里維廉的法袍,"Robe of Trevelyan, the storied Lyonesse Warlock. Wearing it will slightly decrease the mana required for spells while protecting one from the arcane arts.",傳奇里昂內斯術士特里維廉的法袍，穿戴它可以稍微減少施放法術所使用的魔力，並且可以抵抗奧術。
+1412,Blessed Rune Armor,祝福符文盔甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1413,Arisen Trevelyan's Charm,重生特里維廉的護符,"Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",傳奇里昂內斯術士特里維廉的護身符，穿戴它可以增加使用雙手武器時的攻擊力。
+1414,Trevelyan's Charm,特里維廉的護符,"Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands.",傳奇里昂內斯術士特里維廉的護身符，穿戴它可以增加使用雙手武器時的攻擊力。
+1415,Arch-Blessed Rune Leggings,高等祝福符文腿甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
+1416,Arch-Blessed Rune Armor,高等祝福符文盔甲,Mystical armor that boasts higher magic defense.,提供更高魔防的神祕盔甲。
 1417,Askr Leggings,阿斯克腿甲,"Heavy leggings of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned.",墮落的生命象徵，世界樹之重腿甲。穿戴它可以免疫暈眩。
 1418,Askr Armor,阿斯克盔甲,"Heavy armor of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power.",墮落的生命象徵，世界樹之重裝甲。穿戴它可能可以偶爾大幅增加你的力量。
 1419,Askr Cowl,阿斯克風帽,"Cowl of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself.",墮落的生命象徵，世界樹之風帽。穿戴它可能可以減少你對自己造成的傷害。
 1420,Embla Robe,安布拉法袍,,
 1421,Askr Boots,阿斯克長靴,"Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned.",墮落的生命象徵，世界樹之靴。穿戴它可以免疫暈眩。
-1422,Baldr Boots,,"War-mage's boots of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
-1423,Questing Bow,,"A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
-1424,Baldr Battlerobe,,"War-mage's robe of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
-1425,Baldr Hood,,"War-mage's hood of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",
-1426,Questing Axe,,"A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
-1427,Questing Staff,,"A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
-1428,Elite Nothren Greaves,,Heavy armor of Nothren Berserkers,
-1429,Asgard Greaves,,Heavy Armor of Nothren valkyries,
-1430,Elite Nothren Boots,,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
-1431,Elite Nothren Shoes,,Magical attire of Nothren warlocks.,北族術士的魔法裝。
-1432,Elite Fomorian Boots,,Boots worn by Fomorian rogues.,弗摩爾族盜賊穿的靴子.
-1433,Elite Fomorian Leggings,,Leg armor worn by Fomorian warriors.,弗摩爾族戰士穿的腿甲.
-1434,Elite Nothren Shield,,Shield carried by berserkers of the Northern lands. It protects one from the cold.,北族領地的狂戰士使用的盾.能夠禦寒.
-1435,Asgard Shield,,Shield carried by valkyries of the Northern lands.  It protects one from the cold.,
-1436,Asgard Armor,,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
-1437,Elite Nothren Garb,,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
-1438,Elite Draconian Garb,,Body coverings of a Draconian rogue.,德肯尼亞族俠盜罩衫。
-1439,Elite Draconian Armor,,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
-1440,Elite Nothren Robe,,Magical attire of Nothren warlocks.,北族術士的魔法裝。
-1441,Elite Nothren Armor,,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
-1442,Elite Fomorian Armor,,Heavy armor worn by Fomorian warriors.,弗摩爾族戰士穿的重裝甲.
-1443,Elite Fomorian Robe,,A robe worn by Fomorian mages.,弗摩爾族法師所穿的法袍.
-1444,Elite Nothren Cowl,,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
-1445,Elite Nothren Hood,,Magical attire of Nothren warlocks.,北族術士的魔法裝。
-1446,Elite Draconian Hood,,A hood of a Draconian mage.,德肯尼亞族法師兜帽。
-1447,Elite Nothren Helmet,,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
-1448,Elite Fomorian Cowl,,A hood worn by Fomorian rogues.,弗摩爾族俠盜所穿的兜帽.
-1449,Elite Fomorian Hood,,A hood worn by Fomorian mages.,弗摩爾族法師所穿戴的兜帽。
-1450,Elite Draconian Sword,,A sword of a Draconian blacksmith. The quality is quite surprising.,德肯尼亞族鐵匠鑄造之劍，品質令人讚嘆。
-1451,Elite Draconian Staff,,A staff of a Draconian mage. Boasts above average magic power.,德肯尼亞族法師之杖，擁有超凡的魔法攻擊力。
-1452,Elite Fomorian Sword,,A sword of a Fomorian warrior.,弗摩爾族戰士的劍.
-1453,Elite Fomorian Staff,,A staff of a Fomorian mage.,弗摩爾族法師的法杖.
-1454,Ectoplasm,,Remains of a very spooky ghost. Carrying it will attract additional monsters to you while providing protection from attacks of the physical element.,
-1455,Elite Draconian Leggings,,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
-1456,Tarnished King's Crown,,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",
-1457,Arisen Dagda Armor,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1458,Arisen Dagda Garb,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1459,Arisen Dagda Robe,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1460,Arisen Dagda Boots,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1461,Arisen Dagda Cowl,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1462,Arisen Balor Crown,,The fabled crown of king Balor.,
-1463,Arisen Dagda Helmet,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1464,Arisen Dagda Leggings,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1465,Arisen Dagda Shoes,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1466,Lugus Gauntlet,,Gauntlet of the Balor knight Lugus. Wearing it will provide a chance to greatly increase your offensive power.,
-1467,Arisen Dagda Hood,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1468,Dagda Boots,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1469,Dagda Garb,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1470,Dagda Helmet,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1471,Dagda Leggings,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1472,Dagda Armor,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1473,Dagda Hood,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1474,Dagda Robe,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1475,Dagda Cowl,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1476,Dagda Shoes,,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1477,Asgard's Summit,,"A rare blade carried by the most gifted of Nothren valkyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses.",由最有天賦的北族女武神持有的稀有劍刃。它可能會給予古娜態勢，提高攻擊力但降低防禦力。
-1478,Elite Draconian Boots,,Boots of a Draconian rogue.,德肯尼亞族俠盜長靴。
-1479,Elite Draconian Cowl,,A cowl of a Draconian rogue.,德肯尼亞族俠盜風帽。
-1480,Elite Draconian Robe,,A robe of a Draconian mage.,德肯尼亞族法師長袍。
-1481,Elite Balor Robe,,"A dark, dusty robe typically worn by Balor mages.",巴羅爾法師標配的暗黑法袍.
-1482,Elite Balor Armor,,Heavy armor typically worn by Balor warriors.,巴羅爾戰士標配的重裝甲.
-1483,Elite Balor Helmet,,A heavy helmet typically worn by Balor warriors.,巴羅爾戰士所配戴的重型頭盔。
-1484,Elite Balor Leggings,,Heavy leggings typically worn by Balor warriors,
-1485,Elite Balor Shield,,A decorated shield often carried by Balor warriors.,巴羅爾戰士的裝飾盾.
-1486,Elite Balor Sword,,A commonly used sword of knights of Balor.,巴羅爾騎士常使用的劍。
-1487,Elite Balor Katana,,Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed.,巴羅爾俠盜使用的武士刀，有高機率使敵人流血。
-1488,Elite Balor Archistaff,,Staff wielded by Balor mages. It increases mana at the expense of health.,巴羅爾法師的法杖.能藉由犧牲體力來換取魔力.
-1489,Elite Dune Blade,,A rare scimitar of the sands. Slightly increases gold earned.,稀有的沙之彎刀。稍微增加賺取的金幣。
+1422,Baldr Boots,巴德爾長靴,"War-mage's boots of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",不死身巴德爾的戰鬥法師長靴。穿上它能提升生命值並稍微增加對異常狀態的抵抗力。
+1423,Questing Bow,追跡之弓,"A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
+1424,Baldr Battlerobe,巴德爾戰鬥法袍,"War-mage's robe of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",不死身巴德爾的戰鬥法師長袍。穿上它能提升生命值並稍微增加對異常狀態的抵抗力。
+1425,Baldr Hood,巴德爾兜帽,"War-mage's hood of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects.",不死身巴德爾的戰鬥法師兜帽。穿上它能提升生命值並稍微增加對異常狀態的抵抗力。
+1426,Questing Axe,追跡之斧,"A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
+1427,Questing Staff,追跡之杖,"A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned.",
+1428,Elite Nothren Greaves,高端北族護脛,Heavy armor of Nothren Berserkers,
+1429,Asgard Greaves,阿斯嘉護脛,Heavy Armor of Nothren valkyries,
+1430,Elite Nothren Boots,高端北族長靴,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+1431,Elite Nothren Shoes,高端北族鞋子,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+1432,Elite Fomorian Boots,高端弗摩爾族長靴,Boots worn by Fomorian rogues.,弗摩爾族盜賊穿的靴子.
+1433,Elite Fomorian Leggings,高端弗摩爾族腿甲,Leg armor worn by Fomorian warriors.,弗摩爾族戰士穿的腿甲.
+1434,Elite Nothren Shield,高端北族之盾,Shield carried by berserkers of the Northern lands. It protects one from the cold.,北族領地的狂戰士使用的盾.能夠禦寒.
+1435,Asgard Shield,阿斯嘉之盾,Shield carried by valkyries of the Northern lands.  It protects one from the cold.,
+1436,Asgard Armor,阿斯嘉盔甲,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
+1437,Elite Nothren Garb,高端北族皮甲,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+1438,Elite Draconian Garb,高端德肯尼亞族皮甲,Body coverings of a Draconian rogue.,德肯尼亞族俠盜罩衫。
+1439,Elite Draconian Armor,高端德肯尼亞族盔甲,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+1440,Elite Nothren Robe,高端北族法袍,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+1441,Elite Nothren Armor,高端北族盔甲,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+1442,Elite Fomorian Armor,高端弗摩爾族盔甲,Heavy armor worn by Fomorian warriors.,弗摩爾族戰士穿的重裝甲.
+1443,Elite Fomorian Robe,高端弗摩爾族長袍,A robe worn by Fomorian mages.,弗摩爾族法師所穿的法袍.
+1444,Elite Nothren Cowl,高端北族風帽,Light armor of Nothren raiders.,北族強襲者的輕裝甲.
+1445,Elite Nothren Hood,高端北族兜帽,Magical attire of Nothren warlocks.,北族術士的魔法裝。
+1446,Elite Draconian Hood,高端德肯尼亞族兜帽,A hood of a Draconian mage.,德肯尼亞族法師兜帽。
+1447,Elite Nothren Helmet,高端北族頭盔,Heavy armor of Nothren berserkers.,北族狂戰士的重裝甲.
+1448,Elite Fomorian Cowl,高端弗摩爾族風帽,A hood worn by Fomorian rogues.,弗摩爾族俠盜所穿的兜帽.
+1449,Elite Fomorian Hood,高端弗摩爾族兜帽,A hood worn by Fomorian mages.,弗摩爾族法師所穿戴的兜帽。
+1450,Elite Draconian Sword,高端德肯尼亞族之劍,A sword of a Draconian blacksmith. The quality is quite surprising.,德肯尼亞族鐵匠鑄造之劍，品質令人讚嘆。
+1451,Elite Draconian Staff,高端德肯尼亞族法杖,A staff of a Draconian mage. Boasts above average magic power.,德肯尼亞族法師之杖，擁有超凡的魔法攻擊力。
+1452,Elite Fomorian Sword,高端弗摩爾族之劍,A sword of a Fomorian warrior.,弗摩爾族戰士的劍.
+1453,Elite Fomorian Staff,高端弗摩爾族法杖,A staff of a Fomorian mage.,弗摩爾族法師的法杖.
+1454,Ectoplasm,靈外質,Remains of a very spooky ghost. Carrying it will attract additional monsters to you while providing protection from attacks of the physical element.,令人毛骨悚然的幽靈遺骸。戴上它能吸引更多的怪物而且能抵抗物理屬性的攻擊。
+1455,Elite Draconian Leggings,高端德肯尼亞族腿甲,Armor of a Draconian warrior.,德肯尼亞族戰士盔甲。
+1456,Tarnished King's Crown,被玷污的王者之冠,"The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment.",被遺忘的王梅里歐達斯的破碎王冠。在格拉德隆王墮落之後，梅里歐達斯宣告了他的王權，但許多人徹底反對。王冠上的裂痕跟坑洞使其很適合鑲嵌裝飾。
+1457,Arisen Dagda Armor,重生達格達盔甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1458,Arisen Dagda Garb,重生達格達皮甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1459,Arisen Dagda Robe,重生達格達長袍,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1460,Arisen Dagda Boots,重生達格達長靴,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1461,Arisen Dagda Cowl,重生達格達風帽,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1462,Arisen Balor Crown,重生巴羅爾王冠,The fabled crown of king Balor.,
+1463,Arisen Dagda Helmet,重生達格達頭盔,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1464,Arisen Dagda Leggings,重生達格達腿甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1465,Arisen Dagda Shoes,重生達格達之鞋,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1466,Lugus Gauntlet,盧古斯護手,Gauntlet of the Balor knight Lugus. Wearing it will provide a chance to greatly increase your offensive power.,巴羅爾騎士盧古斯的護手。裝上它後有機會能大幅提升你的攻擊能力。
+1467,Arisen Dagda Hood,重生達格達兜帽,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1468,Dagda Boots,達格達長靴,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1469,Dagda Garb,達格達皮甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1470,Dagda Helmet,達格達頭盔,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1471,Dagda Leggings,達格達腿甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1472,Dagda Armor,達格達盔甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1473,Dagda Hood,達格達兜帽,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1474,Dagda Robe,達格達長袍,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1475,Dagda Cowl,達格達風帽,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1476,Dagda Shoes,達格達之鞋,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
+1477,Asgard's Summit,阿斯嘉之巔,"A rare blade carried by the most gifted of Nothren valkyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses.",由最有天賦的北族女武神持有的稀有劍刃。它可能會給予古娜態勢，提高攻擊力但降低防禦力。
+1478,Elite Draconian Boots,高端德肯尼亞族長靴,Boots of a Draconian rogue.,德肯尼亞族俠盜長靴。
+1479,Elite Draconian Cowl,高端德肯尼亞族風帽,A cowl of a Draconian rogue.,德肯尼亞族俠盜風帽。
+1480,Elite Draconian Robe,高端德肯尼亞族長袍,A robe of a Draconian mage.,德肯尼亞族法師長袍。
+1481,Elite Balor Robe,高端巴羅爾長袍,"A dark, dusty robe typically worn by Balor mages.",巴羅爾法師標配的暗黑法袍.
+1482,Elite Balor Armor,高端巴羅爾盔甲,Heavy armor typically worn by Balor warriors.,巴羅爾戰士標配的重裝甲.
+1483,Elite Balor Helmet,高端巴羅爾頭盔,A heavy helmet typically worn by Balor warriors.,巴羅爾戰士所配戴的重型頭盔。
+1484,Elite Balor Leggings,高端巴羅爾腿甲,Heavy leggings typically worn by Balor warriors,
+1485,Elite Balor Shield,高端巴羅爾之盾,A decorated shield often carried by Balor warriors.,巴羅爾戰士的裝飾盾.
+1486,Elite Balor Sword,高端巴羅爾之劍,A commonly used sword of knights of Balor.,巴羅爾騎士常使用的劍。
+1487,Elite Balor Katana,高端巴羅爾武士刀,Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed.,巴羅爾俠盜使用的武士刀，有高機率使敵人流血。
+1488,Elite Balor Archistaff,高端巴羅爾權杖,Staff wielded by Balor mages. It increases mana at the expense of health.,巴羅爾法師的法杖.能藉由犧牲體力來換取魔力.
+1489,Elite Dune Blade,高端沙丘之刃,A rare scimitar of the sands. Slightly increases gold earned.,稀有的沙之彎刀。稍微增加賺取的金幣。
 1490,Neman Greaves,妮潘護脛,"Cursed legwear of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒腿甲.
 1491,Fey Neman Greaves,變異妮潘護脛,"Cursed legwear of a follower of Neman, the great witch.",偉大女巫-妮潘的追隨者的詛咒腿甲.
 1492,Fey Neman Warsword,變異妮潘戰刃,"Cursed greatsword of Neman, sister of Morrigan. It can grant one additional attack power while having the adverse effect on an opponent.",
 1493,Fey Badb Boots,變異芭德布長靴,"Cursed legwear of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒腿甲.
 1494,Fey Badb Garb,變異芭德布皮甲,"Cursed light armor of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒輕裝甲.
-1495,Elite Fomorian Garb,,Heavy armor worn by Fomorian rogues.,弗摩爾族俠盜所穿的重裝甲.
-1496,Asgard Helmet,,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
+1495,Elite Fomorian Garb,高端弗摩爾族皮甲,Heavy armor worn by Fomorian rogues.,弗摩爾族俠盜所穿的重裝甲.
+1496,Asgard Helmet,阿斯嘉頭盔,Heavy armor of Nothren valkyries.,北族女武神的重鎧甲.
 1497,Fey Badb Veil,變異芭德布面罩,"Cursed headwear of a follower of Badb, the great witch.",偉大女巫-芭德布的追隨者的詛咒頭帽.
-1498,Stranger's Gift,,A gift for another. Open it to find out what it could be.,
-1499,Alfar Trinket,,A trinket carried by an Alfar. Using it will increase your chances of finding something rarer when opening Stranger's Gifts.,
+1498,Stranger's Gift,陌生人的禮物,A gift for another. Open it to find out what it could be.,來自別人的禮物。打開它看看裡面有什麼吧。
+1499,Alfar Trinket,古精靈小飾物,A trinket carried by an Alfar. Using it will increase your chances of finding something rarer when opening Stranger's Gifts.,古精靈持有的小飾物。使用它能提升你在開箱陌生人的禮物時拿到更稀有道具的機率。
 1500,Farsight,遠見,A tonic that improves eyesight. Consuming this item will increase your view distance for a limited time.,提升視野的藥水。喝下它能在一定時間內提升你的視野。
 1501,Beast's Blood,野獸之血,A simple concoction. Consuming it may attract extra monsters to you.,就是個調劑。用了它能吸引更多的怪物。
-1502,Bestial Potion,兇殘,A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time.,
-1503,All-seer's Gem,,An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see.,
+1502,Bestial Potion,兇殘,A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time.,香甜又營養的藥水。讓你的跟隨者喝下就能在一定時間內提升它們的行動機率。
+1503,All-seer's Gem,全知者寶石,An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see.,上面描繪著一隻健壯凝視者的裝飾品。將它裝飾在武器上，會稍微增加你的可視距離。
 1504,Horned Armor,角鎧,"Armor of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment.",桀驁金牛凱魯斯的鎧甲. 能減少技能和魔法的魔力消耗並且很適合鑲嵌裝飾.

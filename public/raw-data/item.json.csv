@@ -1368,112 +1368,112 @@ id,name,zh,tier,type,boss,arena,view_distance,equipped_by,element,stats.attack,s
 1393,Askr Garb,阿斯克皮甲,7,Armor,1,,,"[""Thief""]",,13,,176,35,12,,,,,,,,"[""T. All ↑""]",[445],"[256,364,345]",,armor/askr_garb.png
 1394,Askr Helmet,阿斯克頭盔,7,Head,1,,,"[""Warrior""]",,13,,187,22,,,,,,,,,,[445],"[256,364,345]",,armor/askr_helm.png
 1395,Spellsword's Ring,魔劍士之戒,4,Accessory,,,,"[""Thief"",""Warrior""]",,-100,50,,,,,,,,,,,,,,,acc/mage_ring.png
-1396,Arisen King's Sceptre,,9,Weapon,1,,,"[""Mage""]",,,229,,,,1,8,,,"[""T. Mag ↓""]","[""T. Res ↓""]",,,[446],[268],,weapons/black_witch_staff.png
-1397,False King's Sceptre,,6,Weapon,1,,,"[""Mage""]",,,145,,,,,3,,,"[""T. Mag ↓""]","[""T. Res ↓""]",,,[448],[268],,weapons/black_witch_staff.png
-1398,False King's Crown,,6,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,20,20,,,2,20,20,"[""Mag ↓"",""T. Mag ↓""]",,,,[448],[268],,armor/crown.png
-1399,Arisen King's Crown,,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,,,4,30,30,"[""Mag ↓"",""T. Mag ↓""]",,,,,[268],,armor/crown.png
-1400,Lyon's Penance,,5,Curative,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Lyon's Mark""]",,"[449,448,446,447]",,,jewels/30.png
-1401,Trevelyan's Shoes,,6,Legs,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_boots.png
-1402,Trevelyan's Hood,,6,Head,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_hood.png
-1403,Arisen Trevelyan's Shoes,,9,Legs,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_boots.png
-1404,Arisen Trevelyan's Hood,,9,Head,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_hood.png
-1405,Arch-Blessed Rune Helmet,,9,Head,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_helmet.png
-1406,Arisen Trevelyan's Archistaff,,9,Weapon,1,,,"[""Mage""]",,,232,,,,2,24,,80,,,,,[447],"[268,280]",,weapons/trev_staff.png
-1407,Blessed Rune Leggings,,6,Legs,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_leggings.png
-1408,Blessed Rune Helmet,,6,Head,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_helmet.png
-1409,Trevelyan's Archistaff,,6,Weapon,1,,,"[""Mage""]",,,177,,,,2,17,,40,,,,,"[449,447]","[268,280]",,weapons/trev_staff.png
-1410,Trevelyan's Robe,,6,Armor,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_robe.png
-1411,Arisen Trevelyan's Robe,,9,Armor,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_robe.png
-1412,Blessed Rune Armor,,6,Armor,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_armor.png
-1413,Arisen Trevelyan's Charm,,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[447],,,acc/draco_amulet.png
-1414,Trevelyan's Charm,,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[449,447]",,,acc/draco_amulet.png
-1415,Arch-Blessed Rune Leggings,,9,Legs,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_leggings.png
-1416,Arch-Blessed Rune Armor,,9,Armor,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_armor.png
+1396,Arisen King's Sceptre,重生王者之權杖,9,Weapon,1,,,"[""Mage""]",,,229,,,,1,8,,,"[""T. Mag ↓""]","[""T. Res ↓""]",,,[446],[268],,weapons/black_witch_staff.png
+1397,False King's Sceptre,偽王之權杖,6,Weapon,1,,,"[""Mage""]",,,145,,,,,3,,,"[""T. Mag ↓""]","[""T. Res ↓""]",,,[448],[268],,weapons/black_witch_staff.png
+1398,False King's Crown,偽王之冠,6,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,20,20,,,2,20,20,"[""Mag ↓"",""T. Mag ↓""]",,,,[448],[268],,armor/crown.png
+1399,Arisen King's Crown,重生王者之冠,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,,,4,30,30,"[""Mag ↓"",""T. Mag ↓""]",,,,,[268],,armor/crown.png
+1400,Lyon's Penance,里昂的贖罪,5,Curative,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,"[""Lyon's Mark""]",,"[449,448,446,447]",,,jewels/30.png
+1401,Trevelyan's Shoes,特里維廉之鞋,6,Legs,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_boots.png
+1402,Trevelyan's Hood,特里維廉的兜帽,6,Head,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_hood.png
+1403,Arisen Trevelyan's Shoes,重生特里維廉之鞋,9,Legs,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_boots.png
+1404,Arisen Trevelyan's Hood,重生特里維廉的兜帽,9,Head,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_hood.png
+1405,Arch-Blessed Rune Helmet,高等祝福符文頭盔,9,Head,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_helmet.png
+1406,Arisen Trevelyan's Archistaff,重生特里維廉的權杖,9,Weapon,1,,,"[""Mage""]",,,232,,,,2,24,,80,,,,,[447],"[268,280]",,weapons/trev_staff.png
+1407,Blessed Rune Leggings,祝福符文腿甲,6,Legs,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_leggings.png
+1408,Blessed Rune Helmet,祝福符文頭盔,6,Head,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_helmet.png
+1409,Trevelyan's Archistaff,特里維廉的權杖,6,Weapon,1,,,"[""Mage""]",,,177,,,,2,17,,40,,,,,"[449,447]","[268,280]",,weapons/trev_staff.png
+1410,Trevelyan's Robe,特里維廉的法袍,6,Armor,1,,,"[""Mage""]",,,,,148,,1,,,20,,,,,"[449,447]","[268,280]",,armor/lyon_robe.png
+1411,Arisen Trevelyan's Robe,重生特里維廉的法袍,9,Armor,1,,,"[""Mage""]",,,,,220,,1,,,40,,,,,[447],"[268,280]",,armor/lyon_robe.png
+1412,Blessed Rune Armor,祝福符文盔甲,6,Armor,1,,,"[""Thief"",""Warrior""]",,,,45,115,,,,,,,,,,"[449,447]",[268],,armor/rune_armor.png
+1413,Arisen Trevelyan's Charm,重生特里維廉的護符,9,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[447],,,acc/draco_amulet.png
+1414,Trevelyan's Charm,特里維廉的護符,6,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[449,447]",,,acc/draco_amulet.png
+1415,Arch-Blessed Rune Leggings,高等祝福符文腿甲,9,Legs,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_leggings.png
+1416,Arch-Blessed Rune Armor,高等祝福符文盔甲,9,Armor,1,,,"[""Thief"",""Warrior""]",,,,45,230,,,,,,,,,,[447],[268],,armor/rune_armor.png
 1417,Askr Leggings,阿斯克腿甲,7,Legs,,,,"[""Warrior""]",,13,,187,22,,,,,,"[""Stunned""]",,,,[445],"[256,364,345]",,armor/askr_leggings.png
 1418,Askr Armor,阿斯克盔甲,7,Armor,,,,"[""Warrior""]",,13,,187,22,,,,,,,,,"[""T. All ↑""]",[445],"[256,364,345]",,armor/askr_armor.png
 1419,Askr Cowl,阿斯克風帽,7,Head,,,,"[""Thief""]",,13,,176,35,12,,,,,,,,,[445],"[256,364,345]",,armor/askr_hood.png
 1420,Embla Robe,安布拉法袍,7,Armor,,,,"[""Mage""]",,,13,,187,,,,,,,,,"[""T. All ↑""]",[445],"[256,364,345]",,armor/askr_robe.png
 1421,Askr Boots,阿斯克長靴,7,Legs,,,,"[""Thief""]",,13,,176,35,12,,,,,"[""Stunned""]",,,,[445],"[256,364,345]",,armor/askr_boots.png
-1422,Baldr Boots,,10,Legs,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_boots.png
-1423,Questing Bow,,9,Weapon,1,,,"[""Thief""]",Dragon,198,,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/bow_of_tiamat.png
-1424,Baldr Battlerobe,,10,Armor,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_robe.png
-1425,Baldr Hood,,10,Head,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_hood.png
-1426,Questing Axe,,9,Weapon,1,,,"[""Warrior""]",Dragon,198,,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/axe_of_tiamat.png
-1427,Questing Staff,,9,Weapon,1,,,"[""Mage""]",Dragon,,215,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/staff_of_tiamat.png
-1428,Elite Nothren Greaves,,9,Legs,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_leggings.png
-1429,Asgard Greaves,,10,Legs,,,,"[""Warrior""]",,,,233,44,,,,31,,,,,,[483],[666],,armor/elite_nothren_boots.png
-1430,Elite Nothren Boots,,9,Legs,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_boots.png
-1431,Elite Nothren Shoes,,9,Legs,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_boots.png
-1432,Elite Fomorian Boots,,9,Legs,,,,"[""Thief""]",,,,199,42,,,,,,,,,,[470],"[249,275]",,armor/fomorian_boots.png
-1433,Elite Fomorian Leggings,,9,Legs,,,,"[""Warrior""]",,,,199,19,,,,,,,,,,[470],"[248,249,275]",,armor/fomorian_leggings.png
-1434,Elite Nothren Shield,,9,Off-hand,,,,,Water,,,,,,,24,,,,,,,[479],[666],,wards/elite_nothren_shield.png
-1435,Asgard Shield,,10,Off-hand,,,,,Water,,,,,,,28,,,,,,,[483],[666],,wards/elite_nothren_shield.png
-1436,Asgard Armor,,10,Armor,,,,"[""Warrior""]",,,,233,44,,,,24,,,,,,[483],[666],,armor/elite_nothren_armor.png
-1437,Elite Nothren Garb,,9,Armor,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_armor.png
-1438,Elite Draconian Garb,,8,Armor,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_garb.png
-1439,Elite Draconian Armor,,8,Armor,,,,"[""Warrior""]",Dragon,,,168,,,,,100,,,,,,[492],"[254,266]",,armor/draco_armor.png
-1440,Elite Nothren Robe,,9,Armor,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_robe.png
-1441,Elite Nothren Armor,,9,Armor,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_armor.png
-1442,Elite Fomorian Armor,,9,Armor,,,,,,,,199,19,,,,,,,,,,[470],"[249,275]",,armor/fomorian_armor.png
-1443,Elite Fomorian Robe,,9,Armor,,,,"[""Mage""]",,,,51,199,,,,,,,,,,[472],"[249,275]",,armor/fomorian_robe.png
-1444,Elite Nothren Cowl,,9,Head,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_hood.png
-1445,Elite Nothren Hood,,9,Head,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_hood.png
-1446,Elite Draconian Hood,,8,Head,,,,"[""Mage""]",Dragon,,,48,168,,,,,,,,,,[493],"[254,266]",,armor/draco_hood.png
-1447,Elite Nothren Helmet,,9,Head,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_helm.png
-1448,Elite Fomorian Cowl,,9,Head,,,,"[""Thief""]",,,,199,42,,,,,,,,,,[470],"[249,275]",,armor/fomorian_hood.png
-1449,Elite Fomorian Hood,,9,Head,,,,"[""Mage""]",,,,19,199,,,,,,,,,,[472],"[249,275]",,armor/fomorian_hood.png
-1450,Elite Draconian Sword,,8,Weapon,,,,"[""Warrior""]",,178,,,,32,,,,,,,,,[492],"[254,266]",,weapons/draco_sword.png
-1451,Elite Draconian Staff,,8,Weapon,,,,"[""Mage""]",,,178,,,30,,,,,,,,,[493],"[254,283]",,weapons/wooden_staff.png
-1452,Elite Fomorian Sword,,9,Weapon,,,,"[""Warrior""]",,205,,,,,,,,,,,,,[470],"[266,283]",,weapons/draco_sword.png
-1453,Elite Fomorian Staff,,9,Weapon,,,,"[""Mage""]",,12,199,,,,,,,,,,,,[472],"[266,283]",,weapons/draco_archistaff.png
-1454,Ectoplasm,,4,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Physical,-40,-40,-40,-40,,,,,,,,,"[""Asleep""]","[489,453]",,,materials/dark_stone.png
-1455,Elite Draconian Leggings,,8,Legs,,,,,,,,178,,30,,,82,,,,,,[492],"[254,266]",,armor/draco_pants.png
-1456,Tarnished King's Crown,,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,,,2,30,30,"[""Mag ↓"",""T. Mag ↓""]",,,,[446],[268],,armor/crown.png
-1457,Arisen Dagda Armor,,10,Armor,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_armor.png
-1458,Arisen Dagda Garb,,10,Armor,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_garb.png
-1459,Arisen Dagda Robe,,10,Armor,1,,,"[""Mage""]",Arcane,,,45,280,,,1,,,,,,,[461],[512],,armor/dagda_robe.png
-1460,Arisen Dagda Boots,,10,Legs,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_boots.png
-1461,Arisen Dagda Cowl,,10,Head,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_hood.png
-1462,Arisen Balor Crown,,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,240,240,,,,,,"[""Cursed""]",,,,[460],[400],,armor/crown.png
-1463,Arisen Dagda Helmet,,10,Head,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_helm.png
-1464,Arisen Dagda Leggings,,10,Legs,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_leggings.png
-1465,Arisen Dagda Shoes,,10,Legs,,,,"[""Mage""]",Arcane,,,45,280,,,1,,,,,,,[461],[512],,armor/dagda_boots.png
-1466,Lugus Gauntlet,,7,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""T. Att ↑↑↑"",""T. Mag ↑↑↑""]",[454],,,acc/black_glove.png
-1467,Arisen Dagda Hood,,10,Head,1,,,"[""Mage""]",Arcane,,,45,280,,,,,,,,,,[461],[512],,armor/dagda_hood.png
-1468,Dagda Boots,,6,Legs,,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_boots.png
-1469,Dagda Garb,,6,Armor,1,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_garb.png
-1470,Dagda Helmet,,6,Head,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_helm.png
-1471,Dagda Leggings,,6,Legs,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_leggings.png
-1472,Dagda Armor,,6,Armor,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_armor.png
-1473,Dagda Hood,,6,Head,1,,,"[""Mage""]",Arcane,,,45,140,,,1,,,,,,,[455],[512],,armor/dagda_hood.png
-1474,Dagda Robe,,6,Armor,1,,,"[""Mage""]",Arcane,,,45,140,,,1,,,,,,,[455],[512],,armor/dagda_robe.png
-1475,Dagda Cowl,,6,Head,1,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_hood.png
-1476,Dagda Shoes,,6,Legs,,,,"[""Mage""]",Arcane,,,45,138,,,1,,,,,,,[455],[512],,armor/dagda_boots.png
-1477,Asgard's Summit,,10,Weapon,,,,"[""Warrior""]",Water,233,,,53,,,,,53,,"[""Frozen"",""T. Def ↓"",""T. Res ↓""]",,"[""Gunnr""]",[483],[666],,weapons/blue_flame.png
-1478,Elite Draconian Boots,,8,Legs,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_boots.png
-1479,Elite Draconian Cowl,,8,Head,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_hood.png
-1480,Elite Draconian Robe,,8,Armor,,,,"[""Mage""]",Dragon,,,48,168,,,,,100,,,,,[493],"[254,266]",,armor/draco_robe.png
-1481,Elite Balor Robe,,9,Armor,,,,"[""Mage""]",,,,23,235,,,,,,,,,,[457],"[249,275]",,armor/ashen_robe.png
-1482,Elite Balor Armor,,9,Armor,,,,"[""Warrior""]",,,,235,23,,,,,,,,,,[456],"[249,266]",,armor/pale_armor.png
-1483,Elite Balor Helmet,,9,Head,,,,"[""Warrior""]",,,,235,21,,,,,,,,,,[456],"[249,266]",,armor/pale_helm.png
-1484,Elite Balor Leggings,,9,Legs,,,,"[""Warrior""]",,,,235,20,,,,,,,,,,[456],"[249,266]",,armor/pale_leggings.png
-1485,Elite Balor Shield,,9,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,25,,,,,,,[456],"[249,266]",,wards/balor_shield.png
-1486,Elite Balor Sword,,5,Weapon,,,,"[""Warrior""]",,120,,,,,,,,,,,,,,[252],,weapons/bloodsword.png
-1487,Elite Balor Katana,,9,Weapon,,,,"[""Thief""]",,235,,-46,,10,1,,,,,"[""Bleeding""]",,,[458],[266],,weapons/katana.png
-1488,Elite Balor Archistaff,,9,Weapon,,,,"[""Mage""]",,,235,,,,,,-114,114,,,,,[457],[273],,weapons/balor_staff.png
-1489,Elite Dune Blade,,5,Weapon,,,,"[""Thief""]",,126,,,,10,,,,,,,,,[488],[360],,weapons/sandstorm.png
+1422,Baldr Boots,巴德爾長靴,10,Legs,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_boots.png
+1423,Questing Bow,追跡之弓,9,Weapon,1,,,"[""Thief""]",Dragon,198,,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/bow_of_tiamat.png
+1424,Baldr Battlerobe,巴德爾戰鬥法袍,10,Armor,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_robe.png
+1425,Baldr Hood,巴德爾兜帽,10,Head,1,,,"[""Mage""]",,,,92,275,,,3,300,,"[""Cursed""]",,,,[469],[708],,armor/baldr_hood.png
+1426,Questing Axe,追跡之斧,9,Weapon,1,,,"[""Warrior""]",Dragon,198,,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/axe_of_tiamat.png
+1427,Questing Staff,追跡之杖,9,Weapon,1,,,"[""Mage""]",Dragon,,215,,,,,4,,,,"[""Blight""]",,,[450],[272],,weapons/staff_of_tiamat.png
+1428,Elite Nothren Greaves,高端北族護脛,9,Legs,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_leggings.png
+1429,Asgard Greaves,阿斯嘉護脛,10,Legs,,,,"[""Warrior""]",,,,233,44,,,,31,,,,,,[483],[666],,armor/elite_nothren_boots.png
+1430,Elite Nothren Boots,高端北族長靴,9,Legs,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_boots.png
+1431,Elite Nothren Shoes,高端北族鞋子,9,Legs,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_boots.png
+1432,Elite Fomorian Boots,高端弗摩爾族長靴,9,Legs,,,,"[""Thief""]",,,,199,42,,,,,,,,,,[470],"[249,275]",,armor/fomorian_boots.png
+1433,Elite Fomorian Leggings,高端弗摩爾族腿甲,9,Legs,,,,"[""Warrior""]",,,,199,19,,,,,,,,,,[470],"[248,249,275]",,armor/fomorian_leggings.png
+1434,Elite Nothren Shield,高端北族之盾,9,Off-hand,,,,,Water,,,,,,,24,,,,,,,[479],[666],,wards/elite_nothren_shield.png
+1435,Asgard Shield,阿斯嘉之盾,10,Off-hand,,,,,Water,,,,,,,28,,,,,,,[483],[666],,wards/elite_nothren_shield.png
+1436,Asgard Armor,阿斯嘉盔甲,10,Armor,,,,"[""Warrior""]",,,,233,44,,,,24,,,,,,[483],[666],,armor/elite_nothren_armor.png
+1437,Elite Nothren Garb,高端北族皮甲,9,Armor,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_armor.png
+1438,Elite Draconian Garb,高端德肯尼亞族皮甲,8,Armor,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_garb.png
+1439,Elite Draconian Armor,高端德肯尼亞族盔甲,8,Armor,,,,"[""Warrior""]",Dragon,,,168,,,,,100,,,,,,[492],"[254,266]",,armor/draco_armor.png
+1440,Elite Nothren Robe,高端北族法袍,9,Armor,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_robe.png
+1441,Elite Nothren Armor,高端北族盔甲,9,Armor,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_armor.png
+1442,Elite Fomorian Armor,高端弗摩爾族盔甲,9,Armor,,,,,,,,199,19,,,,,,,,,,[470],"[249,275]",,armor/fomorian_armor.png
+1443,Elite Fomorian Robe,高端弗摩爾族長袍,9,Armor,,,,"[""Mage""]",,,,51,199,,,,,,,,,,[472],"[249,275]",,armor/fomorian_robe.png
+1444,Elite Nothren Cowl,高端北族風帽,9,Head,,,,"[""Thief""]",,,,202,45,15,,,,,,,,,[480],[666],,armor/elite_nothren_hood.png
+1445,Elite Nothren Hood,高端北族兜帽,9,Head,,,,"[""Mage""]",,,,202,45,,,,,33,,,,,[485],[666],,armor/elite_nothren_hood.png
+1446,Elite Draconian Hood,高端德肯尼亞族兜帽,8,Head,,,,"[""Mage""]",Dragon,,,48,168,,,,,,,,,,[493],"[254,266]",,armor/draco_hood.png
+1447,Elite Nothren Helmet,高端北族頭盔,9,Head,,,,"[""Warrior""]",,,,202,45,,,,24,,,,,,[479],[666],,armor/elite_nothren_helm.png
+1448,Elite Fomorian Cowl,高端弗摩爾族風帽,9,Head,,,,"[""Thief""]",,,,199,42,,,,,,,,,,[470],"[249,275]",,armor/fomorian_hood.png
+1449,Elite Fomorian Hood,高端弗摩爾族兜帽,9,Head,,,,"[""Mage""]",,,,19,199,,,,,,,,,,[472],"[249,275]",,armor/fomorian_hood.png
+1450,Elite Draconian Sword,高端德肯尼亞族之劍,8,Weapon,,,,"[""Warrior""]",,178,,,,32,,,,,,,,,[492],"[254,266]",,weapons/draco_sword.png
+1451,Elite Draconian Staff,高端德肯尼亞族法杖,8,Weapon,,,,"[""Mage""]",,,178,,,30,,,,,,,,,[493],"[254,283]",,weapons/wooden_staff.png
+1452,Elite Fomorian Sword,高端弗摩爾族之劍,9,Weapon,,,,"[""Warrior""]",,205,,,,,,,,,,,,,[470],"[266,283]",,weapons/draco_sword.png
+1453,Elite Fomorian Staff,高端弗摩爾族法杖,9,Weapon,,,,"[""Mage""]",,12,199,,,,,,,,,,,,[472],"[266,283]",,weapons/draco_archistaff.png
+1454,Ectoplasm,靈外質,4,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",Physical,-40,-40,-40,-40,,,,,,,,,"[""Asleep""]","[489,453]",,,materials/dark_stone.png
+1455,Elite Draconian Leggings,高端德肯尼亞族腿甲,8,Legs,,,,,,,,178,,30,,,82,,,,,,[492],"[254,266]",,armor/draco_pants.png
+1456,Tarnished King's Crown,被玷污的王者之冠,9,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,30,30,,,2,30,30,"[""Mag ↓"",""T. Mag ↓""]",,,,[446],[268],,armor/crown.png
+1457,Arisen Dagda Armor,重生達格達盔甲,10,Armor,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_armor.png
+1458,Arisen Dagda Garb,重生達格達皮甲,10,Armor,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_garb.png
+1459,Arisen Dagda Robe,重生達格達長袍,10,Armor,1,,,"[""Mage""]",Arcane,,,45,280,,,1,,,,,,,[461],[512],,armor/dagda_robe.png
+1460,Arisen Dagda Boots,重生達格達長靴,10,Legs,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_boots.png
+1461,Arisen Dagda Cowl,重生達格達風帽,10,Head,1,,,"[""Thief""]",Arcane,,,212,212,12,,1,,,,,,,[461],[512],,armor/dagda_hood.png
+1462,Arisen Balor Crown,重生巴羅爾王冠,10,Head,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,240,240,,,,,,"[""Cursed""]",,,,[460],[400],,armor/crown.png
+1463,Arisen Dagda Helmet,重生達格達頭盔,10,Head,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_helm.png
+1464,Arisen Dagda Leggings,重生達格達腿甲,10,Legs,1,,,"[""Warrior""]",Arcane,,,280,45,,,1,,,,,,,[461],[512],,armor/dagda_leggings.png
+1465,Arisen Dagda Shoes,重生達格達之鞋,10,Legs,,,,"[""Mage""]",Arcane,,,45,280,,,1,,,,,,,[461],[512],,armor/dagda_boots.png
+1466,Lugus Gauntlet,盧古斯護手,7,Accessory,1,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,"[""T. Att ↑↑↑"",""T. Mag ↑↑↑""]",[454],,,acc/black_glove.png
+1467,Arisen Dagda Hood,重生達格達兜帽,10,Head,1,,,"[""Mage""]",Arcane,,,45,280,,,,,,,,,,[461],[512],,armor/dagda_hood.png
+1468,Dagda Boots,達格達長靴,6,Legs,,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_boots.png
+1469,Dagda Garb,達格達皮甲,6,Armor,1,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_garb.png
+1470,Dagda Helmet,達格達頭盔,6,Head,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_helm.png
+1471,Dagda Leggings,達格達腿甲,6,Legs,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_leggings.png
+1472,Dagda Armor,達格達盔甲,6,Armor,1,,,"[""Warrior""]",Arcane,,,140,45,,,1,,,,,,,[455],[512],,armor/dagda_armor.png
+1473,Dagda Hood,達格達兜帽,6,Head,1,,,"[""Mage""]",Arcane,,,45,140,,,1,,,,,,,[455],[512],,armor/dagda_hood.png
+1474,Dagda Robe,達格達長袍,6,Armor,1,,,"[""Mage""]",Arcane,,,45,140,,,1,,,,,,,[455],[512],,armor/dagda_robe.png
+1475,Dagda Cowl,達格達風帽,6,Head,1,,,"[""Thief""]",Arcane,,,110,110,12,,1,,,,,,,[455],[512],,armor/dagda_hood.png
+1476,Dagda Shoes,達格達之鞋,6,Legs,,,,"[""Mage""]",Arcane,,,45,138,,,1,,,,,,,[455],[512],,armor/dagda_boots.png
+1477,Asgard's Summit,阿斯嘉之巔,10,Weapon,,,,"[""Warrior""]",Water,233,,,53,,,,,53,,"[""Frozen"",""T. Def ↓"",""T. Res ↓""]",,"[""Gunnr""]",[483],[666],,weapons/blue_flame.png
+1478,Elite Draconian Boots,高端德肯尼亞族長靴,8,Legs,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_boots.png
+1479,Elite Draconian Cowl,高端德肯尼亞族風帽,8,Head,,,,"[""Thief""]",Dragon,,,168,48,30,,,,,,,,,[492],"[254,266]",,armor/draco_hood.png
+1480,Elite Draconian Robe,高端德肯尼亞族長袍,8,Armor,,,,"[""Mage""]",Dragon,,,48,168,,,,,100,,,,,[493],"[254,266]",,armor/draco_robe.png
+1481,Elite Balor Robe,高端巴羅爾長袍,9,Armor,,,,"[""Mage""]",,,,23,235,,,,,,,,,,[457],"[249,275]",,armor/ashen_robe.png
+1482,Elite Balor Armor,高端巴羅爾盔甲,9,Armor,,,,"[""Warrior""]",,,,235,23,,,,,,,,,,[456],"[249,266]",,armor/pale_armor.png
+1483,Elite Balor Helmet,高端巴羅爾頭盔,9,Head,,,,"[""Warrior""]",,,,235,21,,,,,,,,,,[456],"[249,266]",,armor/pale_helm.png
+1484,Elite Balor Leggings,高端巴羅爾腿甲,9,Legs,,,,"[""Warrior""]",,,,235,20,,,,,,,,,,[456],"[249,266]",,armor/pale_leggings.png
+1485,Elite Balor Shield,高端巴羅爾之盾,9,Off-hand,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,25,,,,,,,[456],"[249,266]",,wards/balor_shield.png
+1486,Elite Balor Sword,高端巴羅爾之劍,5,Weapon,,,,"[""Warrior""]",,120,,,,,,,,,,,,,,[252],,weapons/bloodsword.png
+1487,Elite Balor Katana,高端巴羅爾武士刀,9,Weapon,,,,"[""Thief""]",,235,,-46,,10,1,,,,,"[""Bleeding""]",,,[458],[266],,weapons/katana.png
+1488,Elite Balor Archistaff,高端巴羅爾權杖,9,Weapon,,,,"[""Mage""]",,,235,,,,,,-114,114,,,,,[457],[273],,weapons/balor_staff.png
+1489,Elite Dune Blade,高端沙丘之刃,5,Weapon,,,,"[""Thief""]",,126,,,,10,,,,,,,,,[488],[360],,weapons/sandstorm.png
 1490,Neman Greaves,妮潘護脛,6,Legs,,,,"[""Warrior""]",,,,148,72,,,1,48,,,,,,[424],"[256,390]",,armor/cursed_leggings.png
 1491,Fey Neman Greaves,變異妮潘護脛,6,Legs,,,,"[""Warrior""]",,,,165,96,,,3,-50,-50,,,,,[424],"[256,390]",,armor/cursed_leggings.png
 1492,Fey Neman Warsword,變異妮潘戰刃,6,Weapon,,,,"[""Warrior""]",,165,32,,,,,-1,-50,-50,,"[""Att ↓""]",,"[""Att ↑""]",[424],"[256,390]",,weapons/cursed_blade.png
 1493,Fey Badb Boots,變異芭德布長靴,7,Legs,,,,"[""Thief""]",,,,195,96,32,,-3,-75,-75,,,,,[425],"[407,346]",,armor/cursed_boots.png
 1494,Fey Badb Garb,變異芭德布皮甲,7,Armor,,,,"[""Thief""]",,,,195,96,32,,-3,-75,-75,,,,,[425],"[407,346]",,armor/cursed_armor.png
-1495,Elite Fomorian Garb,,9,Armor,,,,"[""Thief""]",,,,199,,42,,,,,,,,,[470],"[249,275]",,armor/fomorian_armor.png
-1496,Asgard Helmet,,10,Head,,,,"[""Warrior""]",,,,233,44,,,,31,,,,,,[483],[666],,armor/elite_nothren_helm.png
+1495,Elite Fomorian Garb,高端弗摩爾族皮甲,9,Armor,,,,"[""Thief""]",,,,199,,42,,,,,,,,,[470],"[249,275]",,armor/fomorian_armor.png
+1496,Asgard Helmet,阿斯嘉頭盔,10,Head,,,,"[""Warrior""]",,,,233,44,,,,31,,,,,,[483],[666],,armor/elite_nothren_helm.png
 1497,Fey Badb Veil,變異芭德布面罩,7,Head,,,,"[""Thief""]",,,,195,96,32,,-3,-75,-75,,,,,[425],"[407,346]",,armor/cursed_hood.png
-1498,Stranger's Gift,,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[464,490,463,462,467,468]",,,useables/present.png
-1499,Alfar Trinket,,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[464,490,463,462,467,468]",,,useables/elven_trinket.png
+1498,Stranger's Gift,陌生人的禮物,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[464,490,463,462,467,468]",,,useables/present.png
+1499,Alfar Trinket,古精靈小飾物,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,"[464,490,463,462,467,468]",,,useables/elven_trinket.png
 1500,Farsight,遠見,5,Item,,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/eye_potion.png
 1501,Beast's Blood,野獸之血,2,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/beast_blood.png
 1502,Bestial Potion,兇殘,4,Item,,,,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,,,,useables/bestial_potion.png
-1503,All-seer's Gem,,6,Adornment,1,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[407],,,acc/crystal_eye.png
+1503,All-seer's Gem,全知者寶石,6,Adornment,1,,1,"[""Mage"",""Thief"",""Warrior""]",,,,,,,,,,,,,,,[407],,,acc/crystal_eye.png
 1504,Horned Armor,角鎧,6,Armor,,,,"[""Warrior""]",,12,,122,,,,1,,,,,,,[277],"[252,261]",,armor/adam_armor.png

@@ -120,17 +120,17 @@ id,en,zh
 127,Jinn,神燈精靈
 128,Small Dragon,小龍
 129,Banshee,報喪女妖
-130,Arisen Lord of Wolves,
-131,Arisen Draconian Lord,
-132,Arisen Minotaur,
-133,Arisen Orc Lord,
-134,Arisen Camazotz,
+130,Arisen Lord of Wolves,重生的群狼之主
+131,Arisen Draconian Lord,重生的德肯尼亞族之主
+132,Arisen Minotaur,重生的牛頭怪
+133,Arisen Orc Lord,重生的半獸人君王
+134,Arisen Camazotz,重生的卡馬佐茲
 135,Finfolk,芬菲克
 137,Arachne,阿剌克涅
 138,Arcane Flame,奧術火焰
 139,Woodland Elf,林地精靈
 140,Frost Troll,寒霜巨魔
-141,Arisen Lost Pharaoh,
+141,Arisen Lost Pharaoh,重生的失落的法老王
 142,Fenrir,芬里爾
 143,Naga Mage,那伽法師
 144,Naga Warrior,那伽戰士
@@ -140,10 +140,10 @@ id,en,zh
 148,Ljosalfar Knight,光之精靈騎士
 149,Fafnir,法夫納
 150,Ljosalfar Lord,光之精靈領主
-151,Arisen Lizarr Lord,
+151,Arisen Lizarr Lord,重生的蜥蜴人領主
 153,Woodland Elf Mage,林地精靈法師
 154,Gnat,蚋
-155,Arisen Cerberus,
+155,Arisen Cerberus,重生的地獄三頭犬
 156,Zu,祖鳥
 157,Balor Guardian,巴羅爾守衛
 158,Rotten Slime,腐爛史萊姆
@@ -162,7 +162,7 @@ id,en,zh
 176,Mimic King,寶箱王
 177,Starlord,星爵
 178,Titan,泰坦
-179,Maelor,
+179,Maelor,梅勒
 180,Crimson Gazer,赤紅凝視者
 181,Balor Warlock,巴羅爾術士
 182,Balor Assassin,巴羅爾刺客
@@ -210,7 +210,7 @@ id,en,zh
 228,Ratman,鼠男
 229,Bandit Lord,山賊王
 230,Bandit,土匪
-231,Arisen Undead Golem,
+231,Arisen Undead Golem,重生的不死魔像
 232,"Fallen Vulcan, the Red Knight",墮落赤騎瓦肯
 233,"Fallen Demeter, the Earth Magus",墮落的大地術師狄蜜特
 234,Fallen King Arthus,墮落亞瑟王
@@ -284,24 +284,24 @@ id,en,zh
 302,Storm Core,風暴核心
 303,Earth Core,大地核心
 304,Mighty Mimic,究極寶箱怪
-305,Arisen Carman,
-306,Arisen Ronin,
+305,Arisen Carman,重生的卡門
+306,Arisen Ronin,重生的浪人
 307,Mighty Griffin,究極格里芬
 308,Griffin,格里芬
 309,Great Reaper,強大的死神
-310,Arisen Ankou,
+310,Arisen Ankou,重生的安庫
 311,Crimson Wood,深紅木
 312,Arisen Merlin,重生的梅林
 313,Odin,奧丁
 314,Hades,黑帝斯
-315,Arisen Cthulhu,
+315,Arisen Cthulhu,重生的克蘇魯
 316,Nothren Lord,北族領主
 317,Chimera,奇美拉
 318,Arcane Troll,奧術巨魔
 319,Mighty Slime,究極史萊姆
 320,Ortanite Golem,歐坦尼魔像
 321,Mammon Acolyte,瑪門追隨者
-322,Arisen Fafnir,
+322,Arisen Fafnir,重生的法夫納
 323,Fallen Vanguard,墮落先鋒
 324,Fallen Gaia,墮落蓋亞
 325,Fallen Arcanic,墮落奧術劍士
@@ -314,7 +314,7 @@ id,en,zh
 332,Fallen Leviathan,墮落利維坦
 333,Fallen Taranis,墮落塔拉尼斯
 334,Fallen Nekromancer,墮落死靈法師
-335,Arisen Mimic King,
+335,Arisen Mimic King,重生的寶箱王
 336,King Gradlon,格拉德隆王
 337,Arisen Naggeneen,重生納根因
 338,Polar Bear,北極熊
@@ -325,7 +325,7 @@ id,en,zh
 343,"Arisen Demeter, the Earth Magus",重生大地術師狄蜜特
 344,King of Ljosalfar,光之精靈王
 345,Queen of Dokkalfar,暗之精靈女王
-346,Arisen Fenrir,
+346,Arisen Fenrir,重生的芬里爾
 347,Scruug,史古基
 348,Ebon Scruug,黑之史古基
 349,"Arisen Ithra, the White Knight",重生白騎士以斯拉
@@ -347,9 +347,9 @@ id,en,zh
 365,Draugr,屍鬼
 366,Little Wisp,小光精
 367,Kelpie,凱爾皮
-368,Arisen Finfolk,
+368,Arisen Finfolk,重生的芬菲克
 369,Rubbish,垃圾
-370,Arisen Hydra,
+370,Arisen Hydra,重生的九頭蛇
 371,Greater Triton,巨大特里頓
 372,Mighty Yeti,究極雪怪
 373,Hydra,九頭蛇
@@ -393,12 +393,12 @@ id,en,zh
 411,Surtr,史爾特爾
 412,Arisen Surtr,重生的史爾特爾
 413,Fallen Merlin,墮落梅林
-414,Arisen Great Gazer,
-415,Arisen Sluagh,
-416,Arisen Arachne,
-417,Arisen Typhon,
-418,Arisen Behemoth,
-419,Arisen Tiamat,
+414,Arisen Great Gazer,重生的強大的凝視者
+415,Arisen Sluagh,重生的勾魂者
+416,Arisen Arachne,重生的阿剌克涅
+417,Arisen Typhon,重生的堤豐
+418,Arisen Behemoth,重生的貝西摩斯
+419,Arisen Tiamat,重生的提亞馬特
 420,Age-Old Mimic,古老的寶箱怪
 421,Mimic King of Kings,箱王之王
 422,The Mightiest Mimic,超究極寶箱怪
@@ -425,52 +425,52 @@ id,en,zh
 443,Arisen Hel,重生赫爾
 444,Hel,赫爾
 445,Yggdrasil,世界樹
-446,Arisen King Meliodas,
-447,Arisen Warlock Trevelyan,
-448,False King Meliodas,
-449,Fallen Warlock Trevelyan,
+446,Arisen King Meliodas,重生王者梅里歐達斯
+447,Arisen Warlock Trevelyan,重生術士特里維廉
+448,False King Meliodas,偽王梅里歐達斯
+449,Fallen Warlock Trevelyan,墮落術士特里維廉
 450,Glatisant,吠獸
-451,Sapling,
-452,Hobgoblin Lord,
-453,Terrifying Ghost,
-454,Grand Knight Lugus,
-455,Dagda,
-456,Elite Balor Marauder,
-457,Elite Balor Warlock,
-458,Elite Balor Assassin,
-459,Elite Balor Guardian,
-460,Arisen Balor King,
-461,Arisen Dagda,
-462,Arisen Alfar,
-463,Alfar Mage,
-464,Alfar,
-465,Scary Skeleton,
-466,Frightening Skeleton,
-467,Arisen Alfar Lord,
-468,Arisen Alfar Mage,
-469,Baldr,
-470,Elite Fomorian,
+451,Sapling,樹苗
+452,Hobgoblin Lord,巨型哥布林領主
+453,Terrifying Ghost,恐慌幽靈
+454,Grand Knight Lugus,冠位騎士盧古斯
+455,Dagda,達格達
+456,Elite Balor Marauder,高端巴羅爾掠奪者
+457,Elite Balor Warlock,高端巴羅爾術士
+458,Elite Balor Assassin,高端巴羅爾刺客
+459,Elite Balor Guardian,高端巴羅爾悍將
+460,Arisen Balor King,重生巴羅爾王
+461,Arisen Dagda,重生的達格達
+462,Arisen Alfar,重生的古精靈
+463,Alfar Mage,古精靈法師
+464,Alfar,古精靈
+465,Scary Skeleton,恐怖骷髏
+466,Frightening Skeleton,驚恐骷髏
+467,Arisen Alfar Lord,重生古精靈君主
+468,Arisen Alfar Mage,重生的古精靈法師
+469,Baldr,巴德爾
+470,Elite Fomorian,高端弗摩爾族
 471,First Stable Keeper,第一隨從
-472,Elite Fomorian Mage,
-473,Elite Orc,
+472,Elite Fomorian Mage,高端弗摩爾族法師
+473,Elite Orc,高端半獸人
 474,Second Stable Keeper,第二隨從
 475,Third Stable Keeper,第三隨從
 476,Final Stable Keeper,最終隨從
-477,Elite Orc Brute,
-478,Very Scary Skeleton,
-479,Elite Nothren Berserker,
-480,Elite Nothren Raider,
-481,Elite Balor Flame,
-482,Elite Kobold,
-483,Elite Nothren Valkyrie,
-484,Elite Kobold Mage,
-485,Elite Nothren Warlock,
-486,Elite Kobold Lord,
-487,Kobold Lord,
-488,Elite Balor Worm,
-489,Spooky Ghost,
-490,Alfar Lord,
-491,Elite Orc Lord,
-492,Elite Draconian,
-493,Elite Draconian Mage,
+477,Elite Orc Brute,高端野蠻半獸人
+478,Very Scary Skeleton,超恐怖骷髏
+479,Elite Nothren Berserker,高端北族狂戰士
+480,Elite Nothren Raider,高端北族強襲者
+481,Elite Balor Flame,高端巴羅爾火焰
+482,Elite Kobold,高端地精
+483,Elite Nothren Valkyrie,高端北族女武神
+484,Elite Kobold Mage,高端地精法師
+485,Elite Nothren Warlock,高端北族術士
+486,Elite Kobold Lord,高端地精領主
+487,Kobold Lord,地精領主
+488,Elite Balor Worm,高端巴羅爾蠕蟲
+489,Spooky Ghost,詭異幽靈
+490,Alfar Lord,古精靈君主
+491,Elite Orc Lord,高端半獸人領主
+492,Elite Draconian,高端德肯尼亞族
+493,Elite Draconian Mage,高端德肯尼亞族法師
 494,Balor Gateway,巴羅爾任意門

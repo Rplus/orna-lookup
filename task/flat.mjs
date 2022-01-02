@@ -18,6 +18,11 @@ let zh = await Promise.all([
   'orna-archetypes-zh_Hant.csv',
   'orna-base-zh_Hant.csv',
   'orna-content-zh_Hant.csv',
+  'app.po.csv',
+  'archetypes.po.csv',
+  'base.po.csv',
+  'zh_Hant.po.csv',
+  'content.po.csv',
 ].map( fn => csv().fromFile(`./task/items/zh-tw/${fn}`) ));
 zh = zh.flat();
 
@@ -133,13 +138,21 @@ saveCSV(lang, `./public/raw-data/${type}.lang.csv`, csvOptions.defalt);
 function findZh(en) {
   let str = zh.find(i => i.source === en)?.target;
   if (!str) {
-    let m = en.match(/(.+)( \[\w+\])$/);
-    if (!m) { return; }
+    // 同名裝備
+    if (en.match(/(.+)( \[\w+\])$/)) {
+      let m = en.match(/(.+)( \[\w+\])$/);
+      let _str = findZh(m[1]);
+      if (!_str) { return; }
+      str = _str + m[2];
+    }
 
-    let _str = findZh(m[1]);
-    if (!_str) { return; }
-
-    str = _str + m[2];
+    // 重生的
+    if (en.match(/Arisen (.+)$/)) {
+      let m = en.match(/Arisen (.+)$/);
+      let _str = findZh(m[1]);
+      if (!_str) { return; }
+      str = '重生的' + _str;
+    }
   }
   return str || '';
 }
