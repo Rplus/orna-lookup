@@ -39,6 +39,7 @@
 
     var options = {
       height: 300,
+      labelOffset: 30,
       // labelInterpolationFnc: function(value) {
       //   return value[0]
       // }
