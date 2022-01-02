@@ -1,6 +1,7 @@
 <script>
   export let types = [];
   import { onMount } from 'svelte';
+  import { _ } from 'svelte-i18n';
 
   let typesCount = {};
   let chartDiv;
@@ -19,7 +20,7 @@
 
     typesCount = Object.keys(count)
       .map(i => ({
-        type: i.replace('Multi-round', '詠唱'),
+        type: $_(i),
         count: count[i],
       }))
       .sort((a, b) => (b.count - a.count));

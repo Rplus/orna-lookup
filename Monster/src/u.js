@@ -1,5 +1,3 @@
-import { optionEnZh } from './name.js';
-
 const elementSkillEffect = {
   // Arcane: '',
   Dark: 'Asleep',
@@ -64,8 +62,7 @@ export function handleData(monsterData, skillData) {
 
     if (skills_effect.length) {
       monster.skills_effect = skills_effect
-        .map(optionEnZh)
-        .sort((a, b) => a.label.localeCompare(b.label));
+        .sort((a, b) => a.indexOf('↓'))
     }
   })
 

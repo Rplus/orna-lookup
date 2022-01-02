@@ -1,13 +1,13 @@
 <script>
   export let monster;
   export let skills;
-  import { en2zh } from './name.js';
+  import { _, locale } from 'svelte-i18n';
   import Skill from './Skill.svelte';
   import Chart from './Chart.svelte';
 
   $: m_skills = monster.skills?.map(
-  	sid => skills.find(s => s.id === sid)
-	).sort(skillSort) || [];
+    sid => skills.find(s => s.id === sid)
+  ).sort(skillSort) || [];
 
   $: skill_types = m_skills.map(s => s.type);
 
@@ -19,18 +19,14 @@
   ].map(p => {
     let value = monster[p];
     if (!value) { return null; }
-    if (value.map) {
-      value = value.map(en2zh);
-    }
     return {
       prop: p,
-      name: en2zh(p),
       value,
     }
   }).filter(Boolean);
 
   function skillSort(a, b) {
-  	return b.tier - a.tier;
+    return b.tier - a.tier;
   }
 </script>
 
@@ -41,10 +37,14 @@
     <a href="./?id={monster.id}">⚓</a>
     #{monster.id} -
     <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
-      <ruby>
-        <rb>{monster.zh}</rb>
-        <rt class="op-5">{monster.name}</rt>
-      </ruby>
+      {#if $locale !== 'en'}
+        <ruby>
+          <rb>{monster.zh}</rb>
+          <rt class="op-5">{monster.name}</rt>
+        </ruby>
+      {:else}
+        {monster.name}
+      {/if}
     </a>
     <sup>
       ★{monster.tier}
@@ -56,33 +56,31 @@
   <div class="info flex text-start">
     <dl>
       {#each spec as point}
-        <dt>{point.name}</dt>
+        <dt>{$_(point.prop)}</dt>
         <dd>
           {#each point.value as _type}
-            {_type}
+            {$_(_type)}
             <br>
           {/each}
         </dd>
       {/each}
     </dl>
 
-    <ul>
-      <li>
-        Debuffs
-        <hr>
-      </li>
+    <dl>
+      <dt>Debuffs</dt>
       {#if monster.skills_effect}
         {#each monster.skills_effect as debuff}
-          <li>
+          <dd>
             <label>
-              <input type="checkbox" />
-              {debuff.label}
+              <input type="checkbox" readonly />
+              {$_(debuff)}
               <a href="https://rplus.github.io/orna-lookup/?prevents={debuff.value}" target="ornagle">↗</a>
             </label>
-          </li>
+          </dd>
         {/each}
       {/if}
-    </ul>
+    </dl>
+
   </div>
 
   <Chart types={skill_types} />
@@ -103,7 +101,7 @@
   <hr>
 
   <details class="op-5">
-  	<summary>RAW DATA</summary>
+    <summary>RAW DATA</summary>
     <pre>
     { JSON.stringify(monster, null, 2)}
     </pre>
@@ -121,7 +119,7 @@
   .info {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
     text-align: start;
   }
   .info {
@@ -129,12 +127,14 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  dd ~ dt {
-    margin-top: 0.5em;
+
+  dt {
+    margin-top: 0.75em;
+    margin-bottom: 0.1em;
+    padding-bottom: 0.1em;
+    border-bottom: 1px dotted #fff4;
   }
-  li {
-    list-style: none;
-  }
+
   label a {
     margin-left: .5em;
   }

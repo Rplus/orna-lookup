@@ -1,6 +1,7 @@
 <script>
+  import { _, locale } from 'svelte-i18n';
+  import Lang from './Lang.svelte';
 	import Monster from './Monster.svelte';
-	import { en2zh } from './name.js';
   import { handleData, saveItem, getItem } from './u.js';
 
   let historyId = getItem('historyId') || [];
@@ -91,7 +92,10 @@
     <datalist id="monster_name">
       {#each monsters as monster}
         <option value={monster.id}>
-          {monster.zh} - {monster.name} / T{monster.tier}
+          {#if $locale === 'zh'}
+            {monster.zh} -
+          {/if}
+          {monster.name} / T{monster.tier}
         </option>
       {/each}
     </datalist>
@@ -100,11 +104,16 @@
 
   <aside class="history">
     <details>
-      <summary>History</summary>
+      <summary class="op-5">{$_('history')}</summary>
       <ul>
         {#each history as i}
           <li>
-            <a href="./?id={i.id}" on:click|preventDefault={() => handleClickHistory(i.id)}>{i.id} - {i.zh}</a>
+            <a
+              href="./?id={i.id}"
+              on:click|preventDefault={() => handleClickHistory(i.id)}
+            >
+              {i.id} - {i[$_('name_prop')]}
+            </a>
           </li>
         {/each}
       </ul>
@@ -118,3 +127,8 @@
 {:catch error}
   <p style="color: red">{error.message}</p>
 {/await}
+
+<hr>
+
+<Lang />
+
