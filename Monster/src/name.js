@@ -15,6 +15,7 @@ const en2zhMap = {
   'Cursed': '詛咒',
   'Toxic': '劇毒',
   'Lulled': '安份',
+  'Stasis': '停滯',
 
   // element
   'Dark': '闇',

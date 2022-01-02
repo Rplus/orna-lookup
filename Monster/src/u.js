@@ -1,5 +1,16 @@
 import { optionEnZh } from './name.js';
 
+const elementSkillEffect = {
+  // Arcane: '',
+  Dark: 'Asleep',
+  Dragon: 'Blight',
+  Earthen: 'Rot',
+  Fire: 'Burning',
+  Holy: 'Blind',
+  Lightning: 'Paralyzed',
+  Water: 'Frozen',
+};
+
 export function handleData(monsterData, skillData) {
   const gglist = [
     'name',
@@ -30,6 +41,16 @@ export function handleData(monsterData, skillData) {
   let getSkill = (id) => {
     return skillData.find(s => s.id === id);
   }
+
+  // add default debuff for element type skill
+  skillData.forEach(s => {
+    let elementDebuff = elementSkillEffect[s.element];
+    if (s.element && elementDebuff) {
+      s.causes = [
+        ...new Set([ ...(s.causes || []), elementDebuff])
+      ];
+    }
+  });
 
   // gen skill effect
   monsterData.forEach(monster => {
