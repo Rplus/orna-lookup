@@ -50,9 +50,12 @@
       {/each}
     </dd>
   </summary>
-  <pre>
-    {JSON.stringify(skill, null, 2)}
-  </pre>
+  <details>
+    <summary></summary>
+    <pre>
+      {JSON.stringify(skill, null, 2)}
+    </pre>
+  </details>
 </details>
 
 
@@ -81,5 +84,9 @@
 
 .skill-details pre:hover {
   opacity: 0.8;
+}
+
+.skill-details details {
+  margin-left: 1em;
 }
 </style>
