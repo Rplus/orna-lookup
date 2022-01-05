@@ -71,7 +71,9 @@
 
     if (Object.keys(newData).length === 1) {
       let firstStat = _stats[0];
-      newData[firstStat.oProp] = firstStat.oValue;
+      let prop = firstStat.oProp.split('.');
+      prop = prop[prop.length - 1];
+      newData[prop] = firstStat.oValue;
     }
 
     assessData = newData;
