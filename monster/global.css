@@ -1,146 +1,146 @@
 html, body {
-	position: relative;
-	width: 100%;
-	height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-	color: #333;
-	padding: 8px;
-	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	text-align: center;
-	max-width: 500px;
-	margin: 0 auto;
-	background-color: #28231F;
-	color: #D8C8BB;
+  color: #333;
+  padding: 8px;
+  max-width: 500px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #28231F;
+  color: #D8C8BB;
 }
 
 a {
-	color: rgb(0,100,200);
-	text-decoration: none;
-	color: #17a2b8;
+  color: rgb(0,100,200);
+  text-decoration: none;
+  color: #17a2b8;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:visited {
-	/* color: rgb(0,80,160); */
+  /* color: rgb(0,80,160); */
 }
 
 label {
-	display: block;
+  display: block;
 }
 
 input, button, select, textarea {
-	font-family: inherit;
-	font-size: inherit;
-	-webkit-padding: 0.4em 0;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4em 0;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
 }
 
 input:disabled {
-	color: #ccc;
+  color: #ccc;
 }
 
 button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
 }
 
 button:disabled {
-	color: #999;
+  color: #999;
 }
 
 button:not(:disabled):active {
-	background-color: #ddd;
+  background-color: #ddd;
 }
 
 button:focus {
-	border-color: #666;
+  border-color: #666;
 }
 
 img {
-	width: 100%;
-	max-width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 
 details {
-	text-align: start;
+  text-align: start;
 }
 
 pre {
-	white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
-input, select	{
-	max-width: 15em;
-	background-color: #C4B5A5;
+input, select {
+  max-width: 15em;
+  background-color: #C4B5A5;
 }
 
 .avatar {
-	width: 96px;
-	aspect-ratio: 1;
-	image-rendering: pixelated;
+  width: 96px;
+  aspect-ratio: 1;
+  image-rendering: pixelated;
 }
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 dl, ul {
-	margin: 0;
+  margin: 0;
 }
 
 .text-start {
-	text-align: start;
+  text-align: start;
 }
 
 .form {
-	position: sticky;
-	top: 0;
-	z-index: 1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 dd {
-	margin-left: 1em;
+  margin-left: 1em;
 }
 
 dt ~ dt {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 .op-5 {
-	opacity: 0.5;
-	transition: opacity .3s;
+  opacity: 0.5;
+  transition: opacity .3s;
 }
 .op-5:hover {
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 hr {
-	border-color: #fff3;
-	border-style: dotted;
+  border-color: #fff3;
+  border-style: dotted;
 }
 
 .mb1 {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .history {
-	max-width: 270px;
-	margin: auto;
+  max-width: 270px;
+  margin: auto;
 }
 
 .arr-item {
-	display: inline-block;
+  display: inline-block;
 }
 
 .arr-item + .arr-item::before {
@@ -153,9 +153,9 @@ img {
 
 /* chartist */
 .ct-label {
-	font-size: unset;
-	text-shadow: 2px 2px #000;
-	background-color: #0003;
-	fill: #fff;
-	font-weight: bolder;
+  font-size: unset;
+  text-shadow: 2px 2px #000;
+  background-color: #0003;
+  fill: #fff;
+  font-weight: bolder;
 }

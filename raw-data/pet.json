@@ -1264,9 +1264,9 @@
     "description": "A great magic fairy. It will cure your status effects in battle",
     "image": "monsters/great_fairy.png",
     "tier": 4,
-    "cost": 400000,
+    "cost": 450000,
     "stats": {
-      "heal": 50
+      "heal": 25
     },
     "skills": [
       {
@@ -2048,7 +2048,8 @@
     "tier": 8,
     "cost": 625000,
     "stats": {
-      "buff": 5
+      "buff": 5,
+      "debuff": 5
     },
     "skills": [
       {
@@ -3422,6 +3423,261 @@
       {
         "id": 615,
         "name": "Speed III"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Lindworm",
+    "description": "A mythical serpent capable of carrying out the majesty's desired executions. Available for a limited time only.",
+    "image": "monsters/lindworm.png",
+    "tier": 6,
+    "cost": 2000000,
+    "stats": {
+      "attack": 10,
+      "spell": 10,
+      "debuff": 1,
+      "protect": 2
+    },
+    "skills": [
+      {
+        "id": 620,
+        "name": "Lyon's Execution"
+      },
+      {
+        "id": 619,
+        "name": "Lyon's Mark"
+      },
+      {
+        "id": 551,
+        "name": "Magic Arrow II"
+      },
+      {
+        "id": 550,
+        "name": "Magic Dagger II"
+      },
+      {
+        "id": 548,
+        "name": "Magic Hammer II"
+      },
+      {
+        "id": 547,
+        "name": "Magic Sword II"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Spooky Ghost",
+    "description": "An extra spooky ghost. It may put your opponent to sleep. Available for a limited time only.",
+    "image": "monsters/ghost.png",
+    "tier": 7,
+    "cost": 2500000,
+    "stats": {
+      "attack": 5,
+      "spell": 8,
+      "debuff": 20,
+      "protect": 1
+    },
+    "skills": [
+      {
+        "id": 622,
+        "name": "Fright"
+      },
+      {
+        "id": 92,
+        "name": "Nightmare"
+      },
+      {
+        "id": 169,
+        "name": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Scary Skeleton",
+    "description": "A scary skeleton. It can act often in battle to assist you. Available for a limited time only.",
+    "image": "monsters/skeleton.png",
+    "tier": 6,
+    "cost": 1000000,
+    "stats": {
+      "attack": 30,
+      "spell": 30,
+      "debuff": 8
+    },
+    "skills": [
+      {
+        "id": 622,
+        "name": "Fright"
+      },
+      {
+        "id": 378,
+        "name": "Wallop"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Very Scary Skeleton",
+    "description": "A scary skeleton. It can act often in battle to assist you. Available for a limited time only.",
+    "image": "monsters/skeleton.png",
+    "tier": 9,
+    "cost": 1000000,
+    "stats": {
+      "attack": 30,
+      "spell": 30,
+      "debuff": 8
+    },
+    "skills": [
+      {
+        "id": 622,
+        "name": "Fright"
+      },
+      {
+        "id": 378,
+        "name": "Wallop"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Balor Worm",
+    "description": "Available for a limited time only.",
+    "image": "bosses/balor_worm.png",
+    "tier": 6,
+    "cost": 1500000,
+    "stats": {
+      "attack": 2,
+      "spell": 7,
+      "buff": 15
+    },
+    "skills": [
+      {
+        "id": 91,
+        "name": "Magic Shield II"
+      },
+      {
+        "id": 213,
+        "name": "Onslaught"
+      },
+      {
+        "id": 79,
+        "name": "Protection II"
+      },
+      {
+        "id": 169,
+        "name": "Sleep"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Balor Flame",
+    "description": "Available for a limited time only.",
+    "image": "monsters/balor_flame.png",
+    "tier": 6,
+    "cost": 1500000,
+    "stats": {
+      "spell": 25
+    },
+    "skills": [
+      {
+        "id": 47,
+        "name": "Burn"
+      },
+      {
+        "id": 97,
+        "name": "Dragon Breath"
+      },
+      {
+        "id": 275,
+        "name": "Flame IV"
+      },
+      {
+        "id": 157,
+        "name": "Multi-flame"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Cruel Banshee",
+    "description": "The reason one would want a banshee with them is still quite unknown. Available for a limited time only.",
+    "image": "monsters/banshee.png",
+    "tier": 6,
+    "cost": 1250000,
+    "stats": {
+      "spell": 5,
+      "debuff": 5
+    },
+    "skills": [
+      {
+        "id": 70,
+        "name": "Darkstrike"
+      },
+      {
+        "id": 612,
+        "name": "Impale"
+      },
+      {
+        "id": 180,
+        "name": "Wail"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Alfar Mage",
+    "description": "A small follower of Scruug. Available for a limited time only.",
+    "image": "monsters/alfar_mage.png",
+    "tier": 7,
+    "cost": 2500000,
+    "stats": {
+      "spell": 60,
+      "heal": 3,
+      "protect": 3
+    },
+    "skills": [
+      {
+        "id": 239,
+        "name": "Drain II"
+      },
+      {
+        "id": 275,
+        "name": "Flame IV"
+      },
+      {
+        "id": 628,
+        "name": "Winter Wind II"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Alfar",
+    "description": "A small follower of Scruug. Available for a limited time only.",
+    "image": "monsters/alfar.png",
+    "tier": 4,
+    "cost": 250000,
+    "stats": {
+      "attack": 90,
+      "spell": 10,
+      "heal": 8,
+      "protect": 4
+    },
+    "skills": [
+      {
+        "id": 119,
+        "name": "Dispel"
+      },
+      {
+        "id": 176,
+        "name": "Double Edge"
+      },
+      {
+        "id": 300,
+        "name": "Ward of Iron"
       }
     ]
   }
