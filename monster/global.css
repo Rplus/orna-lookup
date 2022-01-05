@@ -147,6 +147,10 @@ hr {
   content: ', ';
 }
 
+img {
+  image-rendering: pixelated;
+}
+
 /* chartist */
 .ct-label {
 	font-size: unset;
