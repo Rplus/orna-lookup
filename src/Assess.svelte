@@ -38,10 +38,13 @@ Loading...
 
 {:else if !$loading}
 <blockquote>
+  GG
+  <!--
   若點了 [ Assess ] 沒反應，<br>
   請至 cors-anywhere ，並點擊按鈕，<br>
   以允許將裝備資料傳至 Orna.guide API。<br>
   <a href="https://cors-anywhere.herokuapp.com/corsdemo" target="_blank">https://cors-anywhere.herokuapp.com/corsdemo</a>
+  -->
 </blockquote>
 {/if}
 
