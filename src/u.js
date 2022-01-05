@@ -140,7 +140,7 @@ export function handleData(itemData, monsterData) {
     item.dropped_by = item.dropped_by?.map(findMonster).sort(sortByTier);
     item.materials = item.materials?.map(findItem).sort(sortByTier);
     item.name_zh = item.zh;
-    delete item.zh;
+    // delete item.zh;
     item.context = JSON.stringify(item);
   });
 
