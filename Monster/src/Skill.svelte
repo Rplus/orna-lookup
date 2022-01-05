@@ -1,6 +1,7 @@
 <script>
   export let skill;
   import { _, locale } from 'svelte-i18n';
+  import Name from './Name.svelte';
 
   $: skillSpec = [
     'type',
@@ -27,14 +28,7 @@
   <summary>
     <dt>
       <a href="https://orna.guide/skills?show={skill.id}" target="orna.guide">
-        {#if $locale !== 'en'}
-          <ruby>
-            <rb>{skill.zh}</rb>
-            <rt class="op-5">{skill.name}</rt>
-          </ruby>
-        {:else}
-          {skill.name}
-        {/if}
+        <Name name={skill.name} zh={skill.zh} />
       </a>
       <sup class="op-5">★{skill.tier}</sup>
     </dt>

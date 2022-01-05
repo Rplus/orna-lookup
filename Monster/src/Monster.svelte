@@ -4,6 +4,7 @@
   import { _, locale } from 'svelte-i18n';
   import Skill from './Skill.svelte';
   import Chart from './Chart.svelte';
+  import Name from './Name.svelte';
 
   $: m_skills = monster.skills?.map(
     sid => skills.find(s => s.id === sid)
@@ -37,14 +38,7 @@
     <a href="./?id={monster.id}">⚓</a>
     #{monster.id} -
     <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
-      {#if $locale !== 'en'}
-        <ruby>
-          <rb>{monster.zh}</rb>
-          <rt class="op-5">{monster.name}</rt>
-        </ruby>
-      {:else}
-        {monster.name}
-      {/if}
+      <Name name={monster.name} zh={monster.zh} />
     </a>
     <sup>
       ★{monster.tier}
