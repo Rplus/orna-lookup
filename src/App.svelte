@@ -44,8 +44,9 @@
 <hr>
 
 <footer>
-  * data & image source: <a href="https://orna.guide/" target="_blank">https://orna.guide/</a> <br>
-  * repo: <a href="https://github.com/rplus/orna-lookup" target="_blank">Rplus/orna-lookup</a>
+  * comment on <a href="https://docs.google.com/spreadsheets/d/1JZM_9U7hYtq39T0BeZHaUrJVKSWWNfxLxcZnrJPiHBQ/edit#gid=2050818910">sheet</a> to update data <br>
+  * repo: <a href="https://github.com/rplus/orna-lookup" target="_blank">Rplus/orna-lookup</a> <br>
+  * origin data & image source: <a href="https://orna.guide/" target="_blank">https://orna.guide/</a> <br>
 </footer>
 
 
