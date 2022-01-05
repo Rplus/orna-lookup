@@ -88,3 +88,68 @@ export function fetchAssessData(assessData) {
 export function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
 }
+
+
+export function handleData(itemData, monsterData) {
+  const gglist = [
+    'name',
+    'zh',
+    'image',
+    'type',
+    'element',
+    'description',
+  ];
+
+  [itemData, monsterData].forEach(data => {
+    data.forEach(item => {
+      for (let prop in item) {
+        if (!item[prop]) {
+          delete item[prop];
+        } else {
+          if (gglist.indexOf(prop) === -1) {
+            item[prop] = JSON.parse(item[prop]);
+          }
+        }
+        if (!item.zh) {
+          item.zh = item.name;
+        }
+      }
+    })
+  });
+
+  let findMonster = (mid) => {
+    let monster = monsterData.find(m => m.id === mid);
+    return monster ? {
+      id: monster.id,
+      tier: monster.tier,
+      name: monster.name,
+      name_zh: monster.zh,
+    } : null;
+  }
+  let findItem = (iid) => {
+    let item = itemData.find(i => i.id === iid);
+    return item ? {
+      id: item.id,
+      tier: item.tier,
+      name: item.name,
+      name_zh: item.zh,
+    } : null;
+  }
+
+  itemData.forEach(item => {
+    item.dropped_by = item.dropped_by?.map(findMonster).sort(sortByTier);
+    item.materials = item.materials?.map(findItem).sort(sortByTier);
+    item.name_zh = item.zh;
+    delete item.zh;
+    item.context = JSON.stringify(item);
+  });
+
+  return {
+    items: itemData,
+    monsters: monsterData,
+  };
+}
+
+function sortByTier(a, b) {
+  return b.tier - a.tier;
+}

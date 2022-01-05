@@ -87,65 +87,71 @@ export const filtersDef = [
   // {
   //   prop: 'stats',
   // },
-  // {
-  //   prop: 'materials',
-  // },
-  // {
-  //   prop: 'dropped_by',
-  // },
+  {
+    prop: 'materials',
+    label: '材料id',
+    type: 'number',
+    checkId: true,
+  },
+  {
+    prop: 'dropped_by',
+    label: '掉落者id',
+    type: 'number',
+    checkId: true,
+  },
   // {
   //   prop: 'quests',
   // },
   {
-    prop: 'stats.attack.base',
+    prop: 'stats.attack',
     label: '.物攻',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.magic.base',
+    prop: 'stats.magic',
     label: '.魔攻',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.defense.base',
+    prop: 'stats.defense',
     label: '.物防',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.resistance.base',
+    prop: 'stats.resistance',
     label: '.魔防',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.dexterity.base',
+    prop: 'stats.dexterity',
     label: '.敏捷',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.crit.base',
+    prop: 'stats.crit',
     label: '.暴擊',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.ward.base',
+    prop: 'stats.ward',
     label: '.護盾',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.mana.base',
+    prop: 'stats.mana',
     label: '.魔力',
     type: 'number',
     sort: true,
   },
   {
-    prop: 'stats.hp.base',
+    prop: 'stats.hp',
     label: '.血量',
     type: 'number',
     sort: true,
@@ -155,11 +161,11 @@ export const filtersDef = [
     label: '全文搜索',
     type: 'text',
   },
-  {
-    prop: 'description',
-    label: '描述 (en)',
-    type: 'text',
-  },
+  // {
+  //   prop: 'description',
+  //   label: '描述 (en)',
+  //   type: 'text',
+  // },
   {
     prop: 'id',
     label: 'id',

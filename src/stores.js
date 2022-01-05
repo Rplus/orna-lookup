@@ -1,6 +1,10 @@
 import { writable } from 'svelte/store';
 import { getList } from './list.js';
-import { createNewFilter, createNewTextFilter } from './u.js';
+import {
+  createNewFilter,
+  createNewTextFilter,
+  handleData,
+} from './u.js';
 import { filtersDef } from './filtersDef.js';
 
 export const data = writable({ waiting: true });
@@ -9,22 +13,29 @@ export const dialog = writable({
   open: false,
 });
 
-fetch(`raw-data/item.added.min.json`)
-.then(r => r.json())
-.then(d => {
-  d = d
-    .filter(Boolean)
-    .map(i => {
-      i.context = JSON.stringify(i);
-      i.equipped_by = i.equipped_by?.map(i => i?.name);
-      return i;
-    });
+Promise.all(
+  [
+    './data/item.json',
+    './data/monster.json',
+  ]
+    .map(url => fetch(url).then( r => r.json() ) )
+).then(d => {
+  const raw_items = d[0];
+  const raw_monsters = d[1];
+  let o_data = handleData(raw_items, raw_monsters);
 
-  filterLists.set(getList(d));
+  const items = o_data.items;
+  const monsters = o_data.monsters;
 
-  window.d = d;
+  window.ddd = items;
 
-  data.set(d);
+  filterLists.set(getList(items));
+
+  let list = getList(items);
+  data.set({
+    items,
+    monsters,
+  });
 })
 
 

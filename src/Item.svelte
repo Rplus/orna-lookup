@@ -4,6 +4,19 @@
   import { words } from './list.js';
   import { getZh } from './u.js';
   import { dialog, data } from './stores.js';
+  import ListDetail from './_ListDetail.svelte';
+
+  const statProps = [
+    'stats.attack',
+    'stats.magic',
+    'stats.defense',
+    'stats.ward',
+    'stats.dexterity',
+    'stats.mana',
+    'stats.crit',
+    'stats.resistance',
+    'stats.hp',
+  ];
 
   let effectTypes = [
     ['causes', '🔪'],
@@ -11,26 +24,12 @@
     ['gives', '🎁'],
     ['cures', '❤️‍🩹'],
   ];
-  let stats = item.stats;
-  if (stats) {
-    stats = Object.keys(stats).map(i => ({
-      prop: i,
-      value: stats[i].base,
-    }))
-  }
-  let materials = null;
 
-  $: {
-    if (item.materials) {
-      materials = item.materials
-        .map(m => {
-          m.tier = getItemTier(m.id);
-          m.name_zh = getItemNameZh(m.name);
-          return m;
-        })
-        .sort(sortByTier);
-    }
-  }
+  let stats = statProps.map(prop => ({
+    prop,
+    value: item[prop],
+  }))
+  .filter(i => i.value);
 
   function assess() {
     dialog.set({
@@ -38,28 +37,6 @@
       item: item,
       stats: stats,
     })
-  }
-
-  function sortByTier(a, b) {
-    return a.tier - b.tier;
-  }
-
-  // function checkProxyImg(item) {
-  //   checkingImg(item)
-  //   .then()
-  //   .catch(e => {
-  //     let index = items.findIndex(i => i.id == item.id);
-  //     items[index].deadProxyImage = true;
-  //   })
-  // }
-
-  function getItemNameZh(name_en) {
-    return $data?.find(i => i.name === name_en)?.name_zh || name_en;
-  }
-
-  function getItemTier(id) {
-    const item = $data?.find(i => i.id === id);
-    return item?.tier || '';
   }
 
 </script>
@@ -82,7 +59,7 @@
         style={`--bg: url(${getImgSrc(item)}); --bg-fallback: url(${getImgSrc(item, 'small')})`}
       />
 
-      {#if stats}
+      {#if stats.length}
         <div>
           [ Stats ]
           <br>
@@ -124,39 +101,21 @@
   <div>
     <div class="item-more">
       <div class="dropped_by">
-        {#if item.dropped_by}
-          <details>
-            <summary>掉落方</summary>
-            <ul>
-              {#each item.dropped_by as monster}
-                <li>
-                  <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
-                    {monster.name}
-                  </a>
-                </li>
-              {/each}
-            </ul>
-          </details>
-        {/if}
+        <ListDetail
+          items={item.dropped_by}
+          title="掉落方"
+          type="monsters"
+          prop="dropped_by"
+        />
       </div>
+
       <div class="materials">
-        {#if materials}
-          <details>
-            <summary>材料</summary>
-            <ul>
-              {#each materials as material}
-                <li>
-                  <a href="https://orna.guide/items?show={material.id}" target="orna.guide">
-                    <small>
-                      ★{material.tier} -
-                    </small>
-                    {material.name_zh}
-                  </a>
-                </li>
-              {/each}
-            </ul>
-          </details>
-        {/if}
+        <ListDetail
+          items={item.materials}
+          title="材料"
+          type="items"
+          prop="materials"
+        />
       </div>
 
       <details>

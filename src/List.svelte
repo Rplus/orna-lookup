@@ -3,7 +3,7 @@
   import Item from './Item.svelte';
   import { filters } from './stores.js';
   import { filtersDef } from './filtersDef.js';
-  import { getDeepProp, escapeRegExp } from './u.js';
+  import { escapeRegExp } from './u.js';
 
   let sortableProps = filtersDef.filter(i => i.sort);
   $: sortProp = 'tier';
@@ -43,10 +43,21 @@
     return sortByProp(d);
   }
 
+  const exactIdProps = [
+    'dropped_by',
+    'materials',
+  ];
   function filterByRule(data, rule) {
     let { prop, type, value, comparator } = rule;
     if (!value || !data.length) {
       return data;
+    }
+    let _define = filtersDef.find(i => i.prop === prop);
+
+    if (_define.checkId) {
+      return data.filter(i => {
+        return i[prop]?.some(j => j.id === value);
+      });
     }
 
     switch (type) {
@@ -58,7 +69,7 @@
         );
       case 'number':
         return data.filter(i => {
-          let targetValue = getDeepProp(i, prop);
+          let targetValue = i[prop];
           switch (comparator) {
             case '+':
               return targetValue >= value;
@@ -69,7 +80,6 @@
           }
         });
       case 'text':
-        let _define = filtersDef.find(i => i.prop === prop);
         return data.filter(i => {
           if (_define.list) {
             return i[prop]?.includes(value);
@@ -85,8 +95,8 @@
   function sortByProp(data = items) {
     return data.sort((a, b) => {
       let dir = sortDirASC ? 1: -1;
-      let targetValueA = getDeepProp(a, sortProp);
-      let targetValueB = getDeepProp(b, sortProp);
+      let targetValueA = a[sortProp] || -9999;
+      let targetValueB = b[sortProp] || -9999;
 
       if (typeof targetValueB === 'object') {
         targetValueB = -9999;

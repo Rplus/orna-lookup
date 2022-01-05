@@ -5,7 +5,7 @@
   import Item from './Item.svelte';
   import Dialog from './Dialog.svelte';
   import { filtersDef } from './filtersDef.js';
-  import { getDeepProp, escapeRegExp } from './u.js';
+  import { escapeRegExp } from './u.js';
   import { setContext } from 'svelte';
   import { getImgSrc, checkingImg } from './image.js';
 
@@ -16,7 +16,7 @@
   $: {
     if (!$data.waiting && !init) {
       init = true;
-      items = $data;
+      items = $data.items;
     }
   }
 

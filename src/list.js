@@ -48,15 +48,15 @@ export const words = {
   'Holy Def': '.光抗',
   'Dark Def': '.闇抗',
 
-  'attack': '物攻',
-  'magic': '魔攻',
-  'defense': '物防',
-  'ward': '護盾',
-  'dexterity': '敏捷',
-  'mana': '魔力',
-  'crit': '暴擊',
-  'resistance': '魔防',
-  'hp': '血量',
+  'stats.attack': '物攻',
+  'stats.magic': '魔攻',
+  'stats.defense': '物防',
+  'stats.ward': '護盾',
+  'stats.dexterity': '敏捷',
+  'stats.mana': '魔力',
+  'stats.crit': '暴擊',
+  'stats.resistance': '魔防',
+  'stats.hp': '血量',
 }
 
 let xx = [];
