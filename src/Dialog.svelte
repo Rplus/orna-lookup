@@ -8,8 +8,11 @@
   $: assessData = null;
 
   let dialogElm;
+  const LV = new Array(13).fill(1).map((i, index) => index + 1);
+  let selectedLv = 1;
 
   $: {
+    selectedLv;
     if ($dialog && $dialog.stats) {
       genStats($dialog.stats);
 
@@ -31,11 +34,11 @@
     _stats = stats.map(stat => {
       let [min, max] = [stat.value * 2, ~~(stat.value * .7)].sort(numSort);
       return {
-        oProp: stat.prop,
+        oProp: stat.prop.split('.')[1],
         prop: words[stat.prop] || stat.prop,
         value: stat.value,
         oValue: stat.value,
-        max,
+        max: selectedLv === 1 ? max : max * 3,
         min,
       };
     })
@@ -47,6 +50,7 @@
     _stats = _stats.map(stat => {
       return {...stat, value: stat.oValue };
     });
+    selectedLv = 1;
   }
 
   function assessQuality(stat) {
@@ -71,9 +75,10 @@
 
     if (Object.keys(newData).length === 1) {
       let firstStat = _stats[0];
-      let prop = firstStat.oProp.split('.');
-      prop = prop[prop.length - 1];
-      newData[prop] = firstStat.oValue;
+      newData[firstStat.oProp] = firstStat.oValue;
+    }
+    if (selectedLv > 1) {
+      newData.level = selectedLv;
     }
 
     assessData = newData;
@@ -103,7 +108,12 @@
           <caption>
             品質試算
             <br />
-            [ {$dialog.item.name_zh} ] Lv.1
+            [ {$dialog.item.name_zh} ] Lv.
+            <select bind:value={selectedLv}>
+              {#each LV as lv}
+                <option value={lv}>{lv}</option>
+              {/each}
+            </select>
           </caption>
 
           {#each _stats as stat, index}
