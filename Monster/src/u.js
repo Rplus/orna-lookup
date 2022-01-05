@@ -9,7 +9,7 @@ const elementSkillEffect = {
   Water: 'Frozen',
 };
 
-export function handleData(monsterData, skillData) {
+export function handleData(monsterData, skillData, itemData) {
   const gglist = [
     'name',
     'zh',
@@ -19,7 +19,7 @@ export function handleData(monsterData, skillData) {
     'description',
   ];
 
-  [monsterData, skillData].forEach(data => {
+  [monsterData, skillData, itemData].forEach(data => {
     data.forEach(item => {
       for (let prop in item) {
         if (!item[prop]) {
@@ -69,6 +69,7 @@ export function handleData(monsterData, skillData) {
   return {
     monsters: monsterData,
     skills: skillData,
+    items: itemData,
   };
 }
 

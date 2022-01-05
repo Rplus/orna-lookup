@@ -14,6 +14,8 @@
   $: monsters = [];
   $: monster = queryMonsterById(+monsterId, monsters);
 
+  let items = [];
+
   $: {
     if (monster) {
       historyId.unshift(monster.id);
@@ -35,15 +37,16 @@
   async function getData() {
     const raw_monsters = await fetchJSON('./monster.json');
     const raw_skills = await fetchJSON('./skill.json');
-    // const all_item = await fetchJSON('./item.json');
+    const raw_items = await fetchJSON('./item.json');
 
-    if (!raw_skills || !raw_monsters) {
+    if (!raw_skills || !raw_monsters || !raw_items) {
       throw new Error('_ERROR_: fetch data fails');
     }
 
-    const data = handleData(raw_monsters, raw_skills);
+    const data = handleData(raw_monsters, raw_skills, raw_items);
     skills = data.skills;
     monsters = data.monsters;
+    items = data.items;
     return monsters;
   }
 
@@ -122,7 +125,7 @@
 
   <hr>
 
-  <Monster monster={monster} skills={skills} />
+  <Monster monster={monster} skills={skills} items={items} />
 
 {:catch error}
   <p style="color: red">{error.message}</p>

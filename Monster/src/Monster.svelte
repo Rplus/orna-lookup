@@ -1,9 +1,12 @@
 <script>
   export let monster;
   export let skills;
+  export let items;
+
   import { _, locale } from 'svelte-i18n';
   import Skill from './Skill.svelte';
   import Chart from './Chart.svelte';
+  import Item from './Item.svelte';
   import Name from './Name.svelte';
 
   $: m_skills = monster.skills?.map(
@@ -28,6 +31,16 @@
 
   function skillSort(a, b) {
     return b.tier - a.tier;
+  }
+
+  let drops = [];
+
+  function getItem(item_id) {
+    return items.find(item => item.id === item_id);
+  }
+
+  $: {
+    drops = monster.drops.map(getItem);
   }
 </script>
 
@@ -94,6 +107,10 @@
 
   <hr>
 
+  <Item items={drops} />
+
+  <hr>
+
   <details class="op-5">
     <summary>RAW DATA</summary>
     <pre>
@@ -108,7 +125,6 @@
   img.avatar {
     width: 96px;
     aspect-ratio: 1;
-    image-rendering: pixelated;
   }
   .info {
     display: flex;
