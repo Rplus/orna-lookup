@@ -1,12 +1,9 @@
 import fs from 'fs';
-import converter from 'json-2-csv';
 import csv from "csvtojson";
+import csvOptions from './csvOptions.mjs';
+import { saveCSV, outputJSON, getArgs } from './u.mjs';
 
-var args = process.argv.slice(2).reduce((all, i) => {
-  let pair = i.split('=');
-  all[pair[0]] = pair[1];
-  return all;
-}, {})
+var args = getArgs();
 
 let type = (args?.type || 'item');
 let data = fs.readFileSync(`./public/raw-data/${type}.json`, 'utf8');
@@ -27,107 +24,6 @@ let zh = await Promise.all([
 zh = zh.flat();
 
 data = clearData(data);
-
-const csvOptions = {
-  defalt: {
-    emptyFieldValue: '',
-  },
-  item: {
-    emptyFieldValue: '',
-    excludeKeys: ['description'],
-    keys: [
-      'id',
-      'name',
-      'zh',
-      'tier',
-      'type',
-
-      'boss',
-      'arena',
-      'view_distance',
-
-      'equipped_by',
-
-      'element',
-
-      { field: 'stats.attack.base', title: 'stats.attack', },
-      { field: 'stats.magic.base', title: 'stats.magic', },
-      { field: 'stats.defense.base', title: 'stats.defense', },
-      { field: 'stats.resistance.base', title: 'stats.resistance', },
-      { field: 'stats.dexterity.base', title: 'stats.dexterity', },
-      { field: 'stats.crit.base', title: 'stats.crit', },
-      { field: 'stats.ward.base', title: 'stats.ward', },
-      { field: 'stats.hp.base', title: 'stats.hp', },
-      { field: 'stats.mana.base', title: 'stats.mana', },
-
-      'prevents',
-      'causes',
-      'cures',
-      'gives',
-
-      'dropped_by',
-      'materials',
-
-      'quests',
-      'image',
-    ],
-  },
-  monster: {
-    emptyFieldValue: '',
-    keys: [
-      'id',
-      'name',
-      'zh',
-      'tier',
-      'level',
-      'boss',
-
-      'buffs',
-      'spawns',
-
-      'weak_to',
-      'immune_to',
-      'resistant_to',
-
-      'immune_to_status',
-      'vulnerable_to_status',
-
-      'skills',
-      'drops',
-
-      'quests',
-      'image',
-    ],
-  },
-  skill: {
-    emptyFieldValue: '',
-    keys: [
-      'id',
-      'name',
-      'zh',
-      'tier',
-
-      'type',
-      'element',
-      'is_magic',
-
-      'bought',
-      'cost',
-      'mana_cost',
-
-      'cures',
-      'gives',
-      'causes',
-
-      'buffed_by',
-      'pets_use',
-      'monsters_use',
-      'learned_by',
-
-      'description',
-    ],
-  },
-};
 
 saveCSV(data, `./public/raw-data/${type}.json.csv`,
   csvOptions[type] || csvOptions.defalt
@@ -225,20 +121,3 @@ function clearData(dd) {
   });
   return dd;
 }
-
-function saveCSV(data, fn, option) {
-  converter.json2csvAsync(data, option)
-    .then((d) => {
-      fs.writeFile(fn, d, function(err) {
-        if (err) throw err;
-        console.log('file saved', fn);
-      });
-    })
-    .catch((err) => console.log('ERROR: ' + err.message));
-}
-
-function outputJSON(json = {}, fileName, jsonSpace = 2) {
-  let fileContent = JSON.stringify(json, null, jsonSpace);
-  fs.writeFileSync(fileName, fileContent);
-  console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
-};
