@@ -24,7 +24,7 @@ a:hover {
 }
 
 a:visited {
-  color: #0f6674;
+  /* color: #999; */
 }
 
 ::marker {
