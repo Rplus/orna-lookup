@@ -6,6 +6,7 @@
     "crawer": "node ./task/crawer.js",
     "parser": "node ./task/parser.js",
     "tocsv": "node ./task/flat.mjs",
+    "renew": "node ./task/renew.mjs",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
