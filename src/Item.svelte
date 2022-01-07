@@ -114,7 +114,7 @@
           items={item.materials}
           title="材料"
           type="items"
-          prop="materials"
+          prop="id"
         />
       </div>
 
