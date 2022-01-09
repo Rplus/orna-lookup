@@ -35,9 +35,9 @@
   }
 
   async function getData() {
-    const raw_monsters = await fetchJSON('./monster.json');
-    const raw_skills = await fetchJSON('./skill.json');
-    const raw_items = await fetchJSON('./item.json');
+    const raw_monsters = await fetchJSON('../data/monster.json');
+    const raw_skills = await fetchJSON('../data/skill.json');
+    const raw_items = await fetchJSON('../data/item.json');
 
     if (!raw_skills || !raw_monsters || !raw_items) {
       throw new Error('_ERROR_: fetch data fails');
