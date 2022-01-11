@@ -10,32 +10,6 @@ const elementSkillEffect = {
 };
 
 export function handleData(monsterData, skillData, itemData) {
-  const gglist = [
-    'name',
-    'zh',
-    'image',
-    'type',
-    'element',
-    'description',
-  ];
-
-  [monsterData, skillData, itemData].forEach(data => {
-    data.forEach(item => {
-      for (let prop in item) {
-        if (!item[prop]) {
-          delete item[prop];
-        } else {
-          if (gglist.indexOf(prop) === -1) {
-            item[prop] = JSON.parse(item[prop]);
-          }
-        }
-        if (!item.zh) {
-          item.zh = item.name;
-        }
-      }
-    })
-  });
-
   let getSkill = (id) => {
     return skillData.find(s => s.id === id);
   }

@@ -15,8 +15,8 @@ export const dialog = writable({
 
 Promise.all(
   [
-    './data/item.json',
-    './data/monster.json',
+    './data/item.min.json',
+    './data/monster.min.json',
   ]
     .map(url => fetch(url).then( r => r.json() ) )
 ).then(d => {

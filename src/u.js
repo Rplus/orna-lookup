@@ -91,32 +91,6 @@ export function escapeRegExp(string) {
 
 
 export function handleData(itemData, monsterData) {
-  const gglist = [
-    'name',
-    'zh',
-    'image',
-    'type',
-    'element',
-    'description',
-  ];
-
-  [itemData, monsterData].forEach(data => {
-    data.forEach(item => {
-      for (let prop in item) {
-        if (!item[prop]) {
-          delete item[prop];
-        } else {
-          if (gglist.indexOf(prop) === -1) {
-            item[prop] = JSON.parse(item[prop]);
-          }
-        }
-        if (!item.zh) {
-          item.zh = item.name;
-        }
-      }
-    })
-  });
-
   let findMonster = (mid) => {
     let monster = monsterData.find(m => m.id === mid);
     return monster ? {
