@@ -27,10 +27,8 @@ copy-monster:
 # 	sh deploy.sh
 
 getNewData:
-	wget -q --no-check-certificate --no-cache --no-cookies --show-progress 'https://opensheet.elk.sh/1JZM_9U7hYtq39T0BeZHaUrJVKSWWNfxLxcZnrJPiHBQ/monster.json' -O './public/data/monster.json'; \
-	wget -q --no-check-certificate --no-cache --no-cookies --show-progress 'https://opensheet.elk.sh/1JZM_9U7hYtq39T0BeZHaUrJVKSWWNfxLxcZnrJPiHBQ/item.json' -O './public/data/item.json'; \
-	wget -q --no-check-certificate --no-cache --no-cookies --show-progress 'https://opensheet.elk.sh/1JZM_9U7hYtq39T0BeZHaUrJVKSWWNfxLxcZnrJPiHBQ/skill.json' -O './public/data/skill.json'
-
+	mkdir -p public/data/raw; \
+	npm run pulldata
 # sync-data:
 # 	cp -R ./public/data/* ./public/monster/; \
 # 	cp -R ./public/data/* ./Monster/public/

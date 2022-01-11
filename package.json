@@ -7,6 +7,7 @@
     "parser": "node ./task/parser.js",
     "tocsv": "node ./task/flat.mjs",
     "renew": "node ./task/renew.mjs",
+    "pulldata": "node ./task/pullData.mjs",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
@@ -17,7 +18,7 @@
     "cheerio": "^1.0.0-rc.10",
     "csvtojson": "^2.0.10",
     "json-2-csv": "^3.14.2",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.6",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
