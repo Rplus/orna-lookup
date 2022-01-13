@@ -77,6 +77,24 @@
   function genHistory(monster_ids) {
     return monster_ids.map(mid => queryMonsterById(mid));
   }
+
+  function prevMonster() {
+    nextMonster(-1);
+  }
+
+  function nextMonster(dir = 1) {
+    if (!monsters.length) { return; }
+    let currentIndex = monsters.findIndex(m => m.id === monsterId);
+    if (isNaN(currentIndex)) {
+      return;
+    }
+    let newIndex = currentIndex + dir;
+    if (newIndex < monsters.length - 1 && newIndex >= 0) {
+      let newMonster = monsters[newIndex];
+      monsterId = newMonster.id;
+      queryId = newMonster.id;
+    }
+  }
 </script>
 
 <h2>Monsters Strategy | Orna RPG</h2>
@@ -85,6 +103,8 @@
   <p>...waiting</p>
 {:then monsters}
   <form class="form" on:submit|preventDefault={handleSubmit}>
+    <button on:click={() => nextMonster(-1)}>&lt;</button>
+    .
     <input
       list="monster_name"
       type="search"
@@ -103,6 +123,8 @@
       {/each}
     </datalist>
     <input type="submit" value="Q" />
+    .
+    <button on:click={() => nextMonster()}>&gt;</button>
   </form>
 
   <aside class="history">

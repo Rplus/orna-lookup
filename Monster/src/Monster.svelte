@@ -40,7 +40,7 @@
   }
 
   $: {
-    drops = monster.drops.map(getItem);
+    drops = monster.drops?.map(getItem) || [];
   }
 </script>
 
