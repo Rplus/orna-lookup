@@ -51,7 +51,7 @@ input:disabled {
 
 button {
   color: #333;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   outline: none;
 }
 
@@ -80,7 +80,7 @@ pre {
   white-space: pre-wrap;
 }
 
-input, select {
+button, input, select {
   max-width: 15em;
   background-color: #C4B5A5;
 }
