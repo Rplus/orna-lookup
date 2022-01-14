@@ -26,5 +26,11 @@
   aside {
     font-size: smaller;
   }
+  aside ul {
+    padding-left: 2em;
+  }
+  aside :global(input) {
+    max-width: 10em;
+  }
 }
 </style>
