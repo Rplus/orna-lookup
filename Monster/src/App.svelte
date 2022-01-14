@@ -78,10 +78,6 @@
     return monster_ids.map(mid => queryMonsterById(mid));
   }
 
-  function prevMonster() {
-    nextMonster(-1);
-  }
-
   function nextMonster(dir = 1) {
     if (!monsters.length) { return; }
     let currentIndex = monsters.findIndex(m => m.id === monsterId);
