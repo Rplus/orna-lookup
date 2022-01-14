@@ -235,9 +235,10 @@
 
 .item-more {
   margin-top: 1em;
-  margin-left: 2em;
+  margin-left: 5em;
   line-height: 1.4;
   font-size: smaller;
+  white-space: nowrap;
 }
 
 @media (min-width: 900px) {
