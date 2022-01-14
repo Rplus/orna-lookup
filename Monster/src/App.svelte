@@ -78,7 +78,14 @@
     return monster_ids.map(mid => queryMonsterById(mid));
   }
 
-  function nextMonster(dir = 1) {
+  function prevMonster() {
+    jumpMonster(-1);
+  }
+  function nextMonster() {
+    jumpMonster(1);
+  }
+
+  function jumpMonster(dir = 1) {
     if (!monsters.length) { return; }
     let currentIndex = monsters.findIndex(m => m.id === monsterId);
     if (isNaN(currentIndex)) {
@@ -102,7 +109,7 @@
     <input
       type="button"
       value="<"
-      on:click|preventDefault|stopPropagation={() => nextMonster(-1)}
+      on:click|preventDefault|stopPropagation={prevMonster}
     />
     .
     <input
@@ -127,7 +134,7 @@
     <input
       type="button"
       value=">"
-      on:click|preventDefault|stopPropagation={() => nextMonster()}
+      on:click|preventDefault|stopPropagation={nextMonster}
     />
   </form>
 
