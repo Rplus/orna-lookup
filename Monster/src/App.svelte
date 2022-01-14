@@ -99,7 +99,11 @@
   <p>...waiting</p>
 {:then monsters}
   <form class="form" on:submit|preventDefault={handleSubmit}>
-    <button on:click={() => nextMonster(-1)}>&lt;</button>
+    <input
+      type="button"
+      value="<"
+      on:click|preventDefault|stopPropagation={() => nextMonster(-1)}
+    />
     .
     <input
       list="monster_name"
@@ -120,7 +124,11 @@
     </datalist>
     <input type="submit" value="Q" />
     .
-    <button on:click={() => nextMonster()}>&gt;</button>
+    <input
+      type="button"
+      value=">"
+      on:click|preventDefault|stopPropagation={() => nextMonster()}
+    />
   </form>
 
   <aside class="history">
