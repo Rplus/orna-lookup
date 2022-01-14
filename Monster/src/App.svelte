@@ -85,7 +85,7 @@
       return;
     }
     let newIndex = currentIndex + dir;
-    if (newIndex < monsters.length - 1 && newIndex >= 0) {
+    if (newIndex < monsters.length && newIndex >= 0) {
       let newMonster = monsters[newIndex];
       monsterId = newMonster.id;
       queryId = newMonster.id;
