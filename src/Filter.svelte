@@ -45,7 +45,7 @@
   {:else if filterDef.list}
     <select bind:value={filter.rule.value}>
       {#each $filterLists[filterDef.list] as item}
-        <option value={item.value} label={item.label} />
+        <option value={item.value}>{item.label}</option>
       {/each}
     </select>
   {:else if filterDef.type === 'number'}
