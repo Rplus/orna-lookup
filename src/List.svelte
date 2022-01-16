@@ -125,7 +125,7 @@
     排序:
     <select bind:value={sortProp}>
       {#each sortableProps as p}
-        <option value={p.prop} label={p.label} />
+        <option value={p.prop}>{p.label}</option>
       {/each}
     </select>
 
