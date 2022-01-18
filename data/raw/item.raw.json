@@ -36834,7 +36834,7 @@
     "materials": "[264,275]",
     "quests": "",
     "image": "armor/jester_outfit.png",
-    "other_effect": "[\"歐幣加成: +10%\",\"金幣加成: 1.1\"]",
+    "other_effect": "[\"歐幣加成: +10%\",\"金幣加成: +10%\"]",
     "two_handed": "",
     "slots": "5",
     "rarity": "",
