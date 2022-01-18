@@ -106,4 +106,23 @@ export default {
       'description',
     ],
   },
+  pet: {
+    emptyFieldValue: '',
+    keys: [
+      'id',
+      'name',
+      'zh',
+      'tier',
+      'cost',
+      'skills',
+      'stats.attack',
+      'stats.heal',
+      'stats.protect',
+      'stats.buff',
+      'stats.debuff',
+      'stats.spell',
+      'image',
+      'description',
+    ],
+  },
 }

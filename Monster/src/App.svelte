@@ -4,20 +4,29 @@
 	import Monster from './Monster.svelte';
   import { handleData, saveItem, getItem } from './u.js';
 
+  let queryTypes = ['monster', 'pet'];
+  let queryType = queryTypes[0];
+
   let historyId = getItem('historyId') || [];
-  $: history = genHistory(historyId);
+  let historyPetId = getItem('historyPetId') || [];
+  $: history = genHistory(queryType, [historyId, historyPetId]);
 
 	let monsterId = +(new URLSearchParams(location.search).get('id') || historyId[0] || 404);
   let queryId = monsterId;
 
+  let queryData = {};
+
   let skills = [];
-  $: monsters = [];
-  $: monster = queryMonsterById(+monsterId, monsters);
+  let monsters = [];
+
+  $: monsters = queryData[queryType] || [];
+  $: monster = queryMonsterById(+monsterId, monsters) || monsters[0];
+  $: monsterMode = queryType === queryTypes[0];
 
   let items = [];
 
   $: {
-    if (monster) {
+    if (monster && monsterMode) {
       historyId.unshift(monster.id);
       historyId = [...new Set(historyId)].slice(0, 5);
 
@@ -38,15 +47,21 @@
     const raw_monsters = await fetchJSON('../data/monster.min.json');
     const raw_skills = await fetchJSON('../data/skill.min.json');
     const raw_items = await fetchJSON('../data/item-lite.min.json');
+    const raw_pets = await fetchJSON('../data/pet.min.json');
 
-    if (!raw_skills || !raw_monsters || !raw_items) {
+    if (!raw_skills || !raw_monsters || !raw_items || !raw_pets) {
       throw new Error('_ERROR_: fetch data fails');
     }
 
-    const data = handleData(raw_monsters, raw_skills, raw_items);
+    const data = handleData({
+      monsters: raw_monsters,
+      skills: raw_skills,
+      pets: raw_pets,
+    });
     skills = data.skills;
-    monsters = data.monsters;
-    items = data.items;
+    items = raw_items;
+    queryData.monster = data.monsters;
+    queryData.pet = data.pets;
     return monsters;
   }
 
@@ -65,17 +80,20 @@
 
   function handleSubmit() {
     let id = !isNaN(queryId) && +queryId;
-    if (id) {
-      monsterId = id;
+    if (!id) { return; }
+    let _monster = queryMonsterById(id);
+    if (!_monster) {
+      return alert(`Not found: #${id}`);
     }
+    monsterId = id;
   }
 
   function handleClickHistory(mid) {
     monsterId = mid;
   }
 
-  function genHistory(monster_ids) {
-    return monster_ids.map(mid => queryMonsterById(mid));
+  function genHistory(type, idArr) {
+    return idArr[queryTypes.indexOf(type)]?.map(id => queryMonsterById(id));
   }
 
   function prevMonster() {
@@ -100,7 +118,14 @@
   }
 </script>
 
-<h2>Monsters Strategy | Orna RPG</h2>
+<h2>
+  <select bind:value={queryType} class="header-select">
+    {#each queryTypes as type}
+      <option value={type}>{type}</option>
+    {/each}
+  </select>
+  Strategy | Orna RPG
+</h2>
 
 {#await promise}
   <p>...waiting</p>
@@ -120,7 +145,7 @@
       title="1~500 數字"
     />
     <datalist id="monster_name">
-      {#each monsters as monster}
+      {#each queryData[queryType] as monster}
         <option value={monster.id}>
           {#if $locale === 'zh'}
             {monster.zh} -
@@ -138,6 +163,8 @@
     />
   </form>
 
+
+  {#if monsterMode}
   <aside class="history">
     <details>
       <summary class="op-5">{$_('history')}</summary>
@@ -155,10 +182,11 @@
       </ul>
     </details>
   </aside>
+  {/if}
 
   <hr>
 
-  <Monster monster={monster} skills={skills} items={items} />
+  <Monster monster={monster} skills={skills} items={items} type={monsterMode ? 'monsters' : 'pets'} />
 
 {:catch error}
   <p style="color: red">{error.message}</p>

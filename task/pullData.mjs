@@ -5,6 +5,13 @@ import csvOptions from './csvOptions.mjs';
 import { saveCSV, outputJSON, getArgs } from './u.mjs';
 
 
+getData('pet.json').then(d => {
+  outputJSON(d, './public/data/raw/pet.raw.json');
+  d = clearData(d);
+  outputJSON(d, './public/data/raw/pet.src.json');
+  outputJSON(d, './public/data/pet.min.json', null);
+});
+
 getData('monster.json').then(d => {
   outputJSON(d, './public/data/raw/monster.raw.json');
   d = clearData(d);

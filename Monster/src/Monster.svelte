@@ -2,6 +2,7 @@
   export let monster;
   export let skills;
   export let items;
+  export let type;
 
   import { _, locale } from 'svelte-i18n';
   import Skill from './Skill.svelte';
@@ -50,7 +51,7 @@
   <header class="mb1">
     <a href="./?id={monster.id}">⚓</a>
     #{monster.id} -
-    <a href="https://orna.guide/monsters?show={monster.id}" target="orna.guide">
+    <a href="https://orna.guide/{type}?show={monster.id}" target="orna.guide">
       <Name name={monster.name} zh={monster.zh} />
     </a>
     <sup>

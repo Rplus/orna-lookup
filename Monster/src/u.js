@@ -9,13 +9,15 @@ const elementSkillEffect = {
   Water: 'Frozen',
 };
 
-export function handleData(monsterData, skillData, itemData) {
+export function handleData(data) {
+  let { monsters, skills, pets } = data;
+
   let getSkill = (id) => {
-    return skillData.find(s => s.id === id);
+    return skills.find(s => s.id === id);
   }
 
   // add default debuff for element type skill
-  skillData.forEach(s => {
+  skills.forEach(s => {
     let elementDebuff = elementSkillEffect[s.element];
     if (s.element && elementDebuff) {
       s.causes = [
@@ -25,25 +27,27 @@ export function handleData(monsterData, skillData, itemData) {
   });
 
   // gen skill effect
-  monsterData.forEach(monster => {
-    if (!monster.skills) { return; }
+  [monsters, pets].forEach(collection => {
+    collection.forEach(iii => {
+      if (!iii.skills) { return; }
 
-    let skills_effect = [...new Set(monster.skills
-      .map(skill_id => getSkill(skill_id)?.causes)
-      .filter(Boolean)
-      .flat()
-    )];
+      let skills_effect = [...new Set(iii.skills
+        .map(skill_id => getSkill(skill_id)?.causes)
+        .filter(Boolean)
+        .flat()
+      )];
 
-    if (skills_effect.length) {
-      monster.skills_effect = skills_effect
-        .sort((a, b) => a.indexOf('↓'))
-    }
+      if (skills_effect.length) {
+        iii.skills_effect = skills_effect
+          .sort((a, b) => a.indexOf('↓'))
+      }
+    })
   })
 
   return {
-    monsters: monsterData,
-    skills: skillData,
-    items: itemData,
+    monsters: monsters,
+    skills: skills,
+    pets: pets,
   };
 }
 
