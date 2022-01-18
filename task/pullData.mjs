@@ -41,6 +41,7 @@ function clearData(data) {
     'type',
     'element',
     'description',
+    // 'other_effect',
   ];
 
   data.forEach(item => {
