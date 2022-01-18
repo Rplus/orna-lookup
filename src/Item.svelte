@@ -96,6 +96,7 @@
       <div class="item-char">{item.boss ? '👿' : ''}</div>
       <div class="item-char">{item.arena ? '🏟️' : ''}</div>
       <div class="item-char">{item.view_distance ? '👁️' : ''}</div>
+      <div class="item-slots" data-slots={item.slots} title="{item.slots} slots" />
     </div>
   </summary>
 
@@ -182,6 +183,12 @@
 .item-equipped[title*="Mage" i] {
   --bg-warrior: url('../images/Mage.png');
   --bg-warrior: url('https://playorna.com/static/img/weapons/cane.png');
+}
+
+.item-slots[data-slots]::before {
+  display: block;
+  margin-top: 0.5em;
+  content: attr(data-slots) '⊙';
 }
 
 .item-info {

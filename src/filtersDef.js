@@ -27,6 +27,14 @@ export const filtersDef = [
     list: 'equipped_by',
   },
   {
+    prop: 'type',
+    label: '裝備類型',
+    type: 'text',
+    list: 'types',
+    // exact: true,
+    sort: true,
+  },
+  {
     prop: 'prevents',
     label: '-免疫(敵)',
     type: 'text',
@@ -51,18 +59,16 @@ export const filtersDef = [
     list: 'gives',
   },
   {
-    prop: 'type',
-    label: '裝備類型',
-    type: 'text',
-    list: 'types',
-    // exact: true,
-    sort: true,
-  },
-  {
     prop: 'element',
     label: '元素',
     type: 'text',
     list: 'element',
+    sort: true,
+  },
+  {
+    prop: 'slots',
+    label: '鑲嵌孔數',
+    type: 'number',
     sort: true,
   },
   {
