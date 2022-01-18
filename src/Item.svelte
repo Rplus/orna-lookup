@@ -23,6 +23,7 @@
     ['prevents', '🛡️'],
     ['gives', '🎁'],
     ['cures', '❤️‍🩹'],
+    ['other_effect', '✨'],
   ];
 
   let stats = statProps.map(prop => ({
