@@ -1,0 +1,131 @@
+id,en,zh,info,info_zh
+1,Wyvern,飛龍,"A wild wyvern. It can occasionally breathe fire at your opponent, causing blight.","野生的飛龍.有時候能對你的對手噴火,造成枯萎."
+2,Crow,烏鴉,A tamed crow. It has a small chance of boosting your speed in battle.,被馴服的烏鴉.有小機率提升你的速度.
+3,Dog,狗狗,A traveler's best friend.,旅行者的最佳良伴.
+4,Lesser Red Slime,低階紅色史萊姆,"A tamed red slime. It is not very powerful, but may assist you in battle with fire magic.","被馴服的紅色史萊姆. 雖然不太強, 但能用火炎魔法協助你戰鬥."
+5,Gargoyle,石像魔,A living gargoyle. It can assist in battle by rarely petrifying your opponent.,會動的石像鬼.有極低機會石化你的對手.
+6,Lesser Slime,低階史萊姆,"A tamed slime. It is not very powerful, but may assist you in battle.","被馴服的史萊姆. 雖然不太強, 但能協助你戰鬥."
+7,Elder Gnome,侏儒長者,An experienced gnome who brings unstable magic into battle.,能夠使用不穩定魔法的老練侏儒.
+8,Wolf,狼,A tamed wolf. It will often attack your enemies in battle.,被馴服的狼. 它在戰鬥中會時常攻擊你的敵人.
+9,Snake,蛇,"A tamed snake. Occasionally, it can poison your opponents in battle.",被馴服的蛇. 在戰鬥中有時候能讓你的對手中毒.
+10,Bat,蝙蝠,A tamed bat. It can drain HP from your enemies in battle.,被馴服的蝙蝠，能在戰鬥中吸收對手生命值。
+11,Lesser Golem,低階魔像,A tamed golem. It will cast protection on you in battle.,受馴服的魔像。會在戰鬥中保護你。
+12,Yeti,雪怪,The storied yeti. Can boost your defenses in battle while assisting you with ice magic.,傳說中的雪怪.能提升你的防禦並用冰雪魔法掩護你.
+13,Bear,熊,A wild bear. It will frequently attack your enemies.,很狂野的熊。牠會瘋狂啃噬你的敵人。
+14,Drake,龍獸,A tamed Drake. It will occasionally summon meteor against your enemies.,被馴服的龍獸.有時候會召喚隕石攻擊你的敵人.
+15,Ghost,鬼,A spooky ghost. It may put your opponent to sleep.,陰森的幽靈.有機會讓你的對手入睡.
+16,Mimic,寶箱怪,A mimic. What it is capable of is unknown.,就是一隻寶箱怪，而你永遠也猜不到它下一步想幹嘛。
+17,Gnome,侏儒,A gnome. It can assist you in battle with its spells.,就是個侏儒.能用他的魔法掩護你.
+18,Hellhound,地獄犬,A tamed hellhound. Can assist in battle with attacks and fire magic.,被馴服的地獄犬. 能使用攻擊和火炎魔法來協助你戰鬥.
+19,Fairy,仙女,A magic fairy. It will heal you in battle.,魔法小妖精.戰鬥中能治療你.
+20,Lizarr,蜥蜴人,"A tamed, yet aggressive lizarr warrior. It will attack your enemies in battle.",雖然被馴服但仍具侵略性的蜥蜴人戰士.戰鬥中會攻擊你的敵人.
+21,Imp,小惡魔,A tamed imp. Will occasionally boost your attack.,被馴服的小惡魔.有時候會提升你的攻擊力.
+22,Dark Slime,暗黑史萊姆,A slime of the darkest variable. It can blind your opponent and use dark magic.,色澤最暗的史萊姆。牠可以使你的對手目盲並且會用黑暗魔法。
+23,Banshee,報喪女妖,The reason one would want a banshee with them is still quite unknown.,還是無法理解為何有人想帶著報喪女妖.
+24,Evil Eye,邪眼,A strange floating eye. It seems to know rudimentary magic.,一個奇異漂浮的眼睛。它仿佛對魔術粗通皮毛。
+25,Finfolk,芬菲克,A fabled finfolk of the sea.,傳說中的海怪.
+26,Wisp,幽光,A strange floating ball of energy. It is quite proficient at healing its allies.,一個奇怪的飄浮能量球。它非常善於治愈其盟友。
+27,Great Bear,強大的熊,"A very mighty bear. It can lend you its might, but at the cost of your defenses.",非常厲害的熊. 能將其蠻力借給你但作為代價將取走你的防禦力。
+28,Minotaur,牛頭怪,A certainly powerful ally.,一個肯定強大的盟友。
+29,Earthen Dragon,地龍,A dragon with the power of the earth. It can imbue your weapon with earthen power and cast earthen magic.,擁有大地魔力的龍.能施展土系魔法並賦予你的武器大地屬性.
+30,Fire Dragon,火龍,A dragon with the power of the inferno. It can imbue your weapon with fire and cast fire magic.,帶有煉獄魔力的龍.能施展火炎魔法並賦予你的武器火炎屬性.
+31,Ice Dragon,冰龍,A dragon with the power of the cold. It can imbue your weapon with ice and cast ice magic.,擁有寒冰力量的龍.能施放冰系魔法並賦予你的武器冰屬性.
+32,Storm Dragon,暴風龍,A dragon with the power of the clouds above. It can imbue your weapon with lightning and cast lightning magic.,擁有浮雲魔力的龍.能施展雷系魔法並賦予你的武器雷屬性.
+33,Sluagh,勾魂者,A shrouded Sluagh. It utilizes dark magic in battle.,謎樣的勾魂者. 在戰鬥中會使用黑魔法.
+34,Gazer,凝視者,The storied gazer. It utilizes lightning magic in battle.,傳說中的凝視者.能釋放雷電魔法.
+35,Colossus,巨像,"The mighty Colossus. It can boost your defenses, while draining an opponent's HP.",崇偉的巨像。能提升你的物防，還能吸收對手生命值。
+36,Cockatrice,雞蛇,"The might cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle.",
+37,Great Gazer,強大的凝視者,"A great gazer. It can lower an opponents stats, while casting offensive magic.",一個強大的凝視者。牠可以在施放攻擊型法術時，也降低對手屬性。
+38,Zu,祖鳥,A tamed crow. It has a small chance of boosting your speed in battle.,被馴服的烏鴉.有小機率提升你的速度.
+39,Yokai,妖怪,The storied Yokai is a master of sleep and that of nightmares.,傳說中的妖怪是操縱睡眠與夢魘的大師。
+40,Odok,亡骸,The decrepit Odok. It will frequently assist you in battle.,破舊的亡骸.能夠在戰鬥中幫助你.
+41,Basilisk,巴西利斯克,A tamed basilisk. It is well versed at the art of poison.,被馴服的巴西利斯克.非常擅長用毒.
+42,Great Yeti,大雪怪,The greatest of the Yeti. It is a true master of defense.,至高無上的雪怪.它是防禦的專家.
+43,Orthrus,歐西魯斯,The unrelenting Orthrus.,不屈不撓的犬怪俄耳托斯。
+44,Arcane Slime,奧術史萊姆,"A tamed slime, capable of arcane magic.","馴服的史萊姆,會些奧術魔法."
+45,Dark Dragon,暗黑龍,An ebony dragon. It can assist one in battle with dark magic.,漆黑的龍.能用暗黑魔法幫助你戰鬥.
+46,Twilight Wisp,黎明幽光,"A wisp of the night, versed in magic of both light and dark.",通曉光與暗之魔法的夜之幽光.
+47,Warg,座狼,A tamed warg. It will assist in battle with dark strikes.,被馴服的座狼.能使用暗黑的攻擊.
+48,Pale Dragon,白龍,An ivory dragon of the light skies. It is extremely versed in holy magic.,散發出象牙白光的龍.牠特別擅長神聖魔法.
+49,Great Jinn,大神燈精靈,A magical Jinn. It can cast unstable magic while turning the tide of the battle.,
+50,Greater Yokai,大妖怪,A tricky yokai.  It has a chance of causing an opponent one of many ailments,
+51,Reaper,死神,"A stray Reaper of Ankou. It will not attack often, but will wreck havoc when it does.",
+52,Guivre,蛇龍基威爾,An elusive Great Dragon. It can assist in battle with powerful dragon spells.,難以捉摸的巨龍。他能在戰鬥中用強大的龍系法術協助你。
+53,Fae,菲,A great magic fairy. It will cure your status effects in battle,
+54,Griffin,格里芬,"A mighty griffin. It can assist you in battle by improving your dexterity, while casting dragon magic.",
+55,Orichalcum Golem,奧利哈鋼魔像,A golem forged of Orichalcum. It can assist you in battle with Ward and defensive based skills.,奧利哈鋼組成的魔像.其防禦性的技能與護盾能在戰鬥中幫到你.
+56,Mighty Griffin,究極格里芬,"A mighty griffin. It can assist you in battle by improving your critical hit rate, while casting dragon magic.",
+57,Great Cockatrice,大雞蛇,"The mighty cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle.","強大的雞蛇.能石化或使對手中毒,偶爾還能提升你的敏捷."
+58,Giant Basilisk,巨大巴西利斯克,A Giant Red Basilisk. It will assist in battle by attacking often.,
+59,Ortanite Golem,歐坦尼魔像,A golem forged of Ortanite. It can assist you in battle with Ward and defensive based skills.,用歐坦尼組成的魔像.其防禦性的技能與護盾能在戰鬥中幫助到你.
+60,Chimera,奇美拉,"A fierce Chimera. This follower can cause one to go berserk, while assisting in battle with beastly spells.","兇猛的奇美拉.能使人陷入狂暴,並能施展殘暴的法術."
+61,Undead Golem,不死魔像,A great undead golem. It will assist you in battle by granting and restoring ward.,強大的不死魔像。它會在戰鬥中協助防禦與恢復護盾。
+62,Mighty Slime,究極史萊姆,A mighty slime warrior. It will attack your foes often.,強力的史萊姆戰士. 會經常攻擊你的敵人.
+63,Fafnir,法夫納,"The great cursed Fafnir. While curing on of status ailments, it will assist you in battle with dark and dragon magic.",
+64,Mighty Mimic,究極寶箱怪,The mightiest of mimics. It will cause mischief in battle while casting spells.,非常調皮的寶箱怪，它會在戰鬥中惡作劇。
+65,Cerberus,地獄三頭犬,A tamed Cerberus of Balor. It can assist in battle with spells of fire.,被馴服的巴羅爾的地獄三頭犬. 牠能使用火炎魔法來協助你戰鬥.
+66,Crimson Gazer,赤紅凝視者,A reckless Gazer. Be careful bringing this one with you.,無畏的凝視者.帶著它要當心.
+67,Camazotz,卡馬佐茲,The revered bat of death. It can drain HP from your opponents while improving your stats.,令人敬畏的死亡蝙蝠。它能吸收對手的生命值還能提升你的能力。
+68,Anubis,阿努比斯,The magical might of the Jackal god knows no bounds.,胡狼神的魔力是無止境的。
+69,Harpy,鷹身女妖,A happily singing harpy. It can assist you in battle by improving your dexterity or causing an opponent to be lulled to sleep.,
+70,Death Worm,死蟲,The revered Death Worm of the sands. It can harden your defenses while casting Earthen magic.,沙中的致命蠕蟲.施展大地魔法的同時也能提升你的物理防禦.
+71,Nidhogg,尼德霍格,A horrific serpentine dragon capable of beastly attacks.,能使出兇猛攻擊的恐怖海龍.
+72,Cthulhu,克蘇魯,This dreaded beast of the seas can assist you in battle with status effects and HP absorption.,這傳說中的深海猛獸能吸取生命值並造成對手狀態異常.
+73,Fenrir,芬里爾,The unrelenting Fenrir. It can assist you in battle with strong physical attacks and status effects.,不屈的芬里爾.能使用強大的物理攻擊和異常狀態影響來幫助你戰鬥.
+74,Gheist,鬼魂,A spooky gheist. It may put your opponent to sleep.,陰森的鬼魂.有可能使你的對手入睡.
+75,Dire Wolf,恐狼,A tamed dire wolf. It can assist you in battle with attack and dexterity boosting skills.,被馴服的野狼.能用攻擊和提升敏捷的技能幫助你.
+76,Arcane Flame,奧術火焰,A flame of arcane power. It can assist one in battle with both arcane and dragon magic.,擁有奧術魔力的火焰.能施展奧術及龍系魔法來幫助你.
+77,Seer,眼怪,A seer of Ra. It can blind an opponent in battle.,拉的眼.能使對手致盲.
+78,Cactus,仙人掌,A live cactus. It can assist you in battle with barrages of needles.,會動的仙人掌.能發射細針彈幕.
+79,Succubus,魅魔,A grimly singing succubus. It can assist you in battle by improving your dexterity or attack power.,色色地唱著歌的魅魔.能提升你的敏捷和攻擊力.
+80,Draugr Mage,屍鬼法師,A draugr of certain magical ability.,擁有魔法技能的屍鬼.
+81,Ancient Jinn,遠古神燈精靈,A magical Jinn. It can cast fey magic while granting its talents to its master.,帶魔力的神燈精靈.能施展變異的魔法並施加他的能力給其主人.
+82,Fjalar,法亞拉,A rare Fjalar. It can assist one in battle by increasing dexterity and critical hit rate.,稀有的法亞拉.能提升你的敏捷和爆擊機率.
+83,Turul,圖魯,A rare Turul. It can assist one in battle by diminishing an opponent's stats.,
+84,Pegasus,天馬,A beast of great myth. It can assist you in battle with powerful strikes and curative holy magic,
+85,Horse,馬,A trusty steed. It can assist one in battle with offensive skills and boost one's dexterity.,
+86,War Horse,戰馬,A mighty steed. It can assist one in battle with offensive skills and boosts to one's dexterity.,超威猛的駿馬.能使用攻擊性的技能並提升你的敏捷.
+87,Lobster,龍蝦,A lobster. It can cause your opponents to bleed while slightly healing you.,龍蝦. 讓你的對手失血的同時也微幅治療你.
+88,Dark Pegasus,暗黑天馬,A beast of great myth. It can assist you in battle with powerful dark strikes and debuffs.,來自於神秘的野獸.能用暗黑的打擊技能與減益來幫助你.
+89,Greater Lobster,大龍蝦,A green lobster. It can cause your opponents to bleed while slightly healing you.,綠色的龍蝦. 讓你的對手失血的同時也微幅治療你.
+90,Triton,特里頓,A brown crustacean. It can cause your opponents to bleed while slightly healing you.,棕色的蝦蝦.能讓你的對手流血同時也稍微治療你.
+91,Big Cactus,大仙人掌,A giant live cactus. It can assist you in battle with barrages of needles.,會動的巨型仙人掌.能發射細針彈幕.
+92,Castor,卡斯托耳,Available for a limited time: the terrible twin Castor can assist you in battle with great elemental resistance.,期間限定: 凶狠的雙子法師在戰鬥中能使用強力的元素守護來幫助你.
+93,Pollux,波魯克斯,Available for a limited time: the terrible twin Pollux can assist you in battle with a variety of skills.,期間限定：凶狠的雙子波魯克斯在戰鬥中能使用諸般技能來幫助你。
+94,Surtr's Flame,史爾特爾的火焰,"Available for limited time only, this massive flame can ensure your opponent is always lit ablaze.",
+95,Surtr's Mighty Flame,史爾特爾的烈焰,"Available for limited time only, this massive flame can ensure your opponent is always frozen or lit ablaze.",
+96,Archimedes,阿基米德,"Available for a limited time only: a companion of Merlin, this great bird can assist one in battle by increasing magical potential.","期間限定:梅林的同行者,這隻能提升魔法攻擊力的鳥會協助你戰鬥."
+97,The Mightiest Mimic,超究極寶箱怪,???,???
+98,Naggeneen,納根因,"Oh, the foul fairy Naggeneen. Available for limited time.",
+99,Age-Old Mimic,古老的寶箱怪,???,???
+100,Pumpkinhead,南瓜頭,A true brute of stories of old. Available for a limited time only.,真實存在的古老殘酷童話.期間限定.
+101,Fey Chimera,變異奇美拉,A beastly chimera lost to the curse of Morrigan. Available for a limited time only.,臣服於摩莉甘詛咒的野蠻奇美拉.期間限定.
+102,Fey Gazer,變異凝視者,A gazer lost to the curse of Morrigan. Available for a limited time only.,臣服於摩莉甘詛咒的凝視者.期間限定.
+103,Fey Dragon,變異巨龍,A dragon lost to the curse of Morrigan. Available for a limited time only.,臣服於摩莉甘詛咒的巨龍.期間限定.
+104,Fey Yeti,變異雪怪,A great yeti lost to the curse of Morrigan. Available for a limited time only.,臣服於摩莉甘詛咒的強大雪怪.期間限定.
+105,Ebon Scruug,黑之史古基,An apparition of greed and envy. Available for a limited time only.,貪婪與忌妒的代名詞.期間限定.
+106,Scruug,史古基,An apparition of greed and envy. Available for a limited time only.,貪婪與忌妒的代名詞.期間限定.
+107,Phoenix,鳳凰,"The mighty Phoenix, arisen once again. Available for a limited time only.",崇偉的鳳凰再次降臨人間.期間限定.
+108,Ashen Phoenix,蒼白鳳凰,"The mighty Phoenix, fallen once again. Available for a limited time only.",崇偉的鳳凰再次降臨人間.期間限定.
+109,Kerberos,刻耳柏洛斯,Arisen from the deep depths of the Underworld. Available for a limited time only.,
+110,Arisen Naggeneen,重生納根因,"Oh, the foul fairy Naggeneen. Available for limited time.",
+111,Fey Cactus,變異仙人掌,A most plagued cactus. It can assist you in battle with barrages of needles.,很擾人的仙人掌，能用細針彈幕幫助你戰鬥。
+112,Raging Cerus,暴怒凱魯斯,The untamed beast. Available for a limited time only.,桀驁不馴的野獸.期間限定.
+113,Untamed Cerus,桀驁金牛凱魯斯,The untamed beast. Available for a limited time only.,桀驁不馴的野獸.期間限定.
+114,Cerus,凱魯斯,The untamed beast. Available for a limited time only.,桀驁不馴的野獸.期間限定.
+115,Glatisant,吠獸,The Questing Beast. Available for a limited time only.,吠獸，期間限定。
+116,Great Pegasus,強大的天馬,A beast of Avalonian pride. Available for a limited time only.,阿瓦隆自豪的野獸，期間限定。
+117,Llamrai,拉姆萊,The divine horse of Avalon. Available for a limited time only.,阿瓦隆的神駒，期間限定。
+118,Gwyllgi,格里吉,A frightful black wolf. Available for a limited time only.,可怕的黑狼，期間限定。
+119,Carman,卡門,The foul witch herself. Available for a limited time only.,骯髒的女巫，期間限定。
+120,Hengreon,亨格隆,The mighty stallion of Arthus. Available for a limited time only.,亞瑟的強大種馬，期間限定。
+121,Gullinkambi,古林肯比,"Hel's follower, this hawk will give one great speed. Available for a limited time only.",期間限定:赫爾的跟隨者，這隻老鷹提供極快的速度。
+122,Lindworm,林德蟲,A mythical serpent capable of carrying out the majesty's desired executions. Available for a limited time only.,期間限定:能夠為陛下執行處決的神話蛇。
+123,Spooky Ghost,詭異幽靈,An extra spooky ghost. It may put your opponent to sleep. Available for a limited time only.,令人毛骨悚然的幽靈。有機會讓你的對手入睡。限時特賣。
+124,Scary Skeleton,恐怖骷髏,A scary skeleton. It can act often in battle to assist you. Available for a limited time only.,駭人的骷髏。在戰鬥時會頻繁的行動來幫助你。限時特賣。
+125,Very Scary Skeleton,超恐怖骷髏,A scary skeleton. It can act often in battle to assist you. Available for a limited time only.,駭人的骷髏。在戰鬥時會頻繁的行動來幫助你。限時特賣。
+126,Balor Worm,巴羅爾蠕蟲,Available for a limited time only.,期間限定。
+127,Balor Flame,巴羅爾火焰,Available for a limited time only.,期間限定。
+128,Cruel Banshee,惡毒報喪女妖,The reason one would want a banshee with them is still quite unknown. Available for a limited time only.,人們帶著報喪女妖的理由依舊成謎。限時特賣。
+129,Alfar Mage,古精靈法師,A small follower of Scruug. Available for a limited time only.,守財奴史古基的小寵物。限時特賣。
+130,Alfar,古精靈,A small follower of Scruug. Available for a limited time only.,守財奴史古基的小寵物。限時特賣。

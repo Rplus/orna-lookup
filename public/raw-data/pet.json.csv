@@ -1,0 +1,131 @@
+id,name,zh,tier,cost,skills,stats.attack,stats.heal,stats.protect,stats.buff,stats.debuff,stats.spell,image,description
+1,Wyvern,飛龍,6,750000,[97],25,,,,,10,monsters/wyvern.png,"A wild wyvern. It can occasionally breathe fire at your opponent, causing blight."
+2,Crow,烏鴉,1,15000,[82],20,,,5,,,monsters/crow.png,A tamed crow. It has a small chance of boosting your speed in battle.
+3,Dog,狗狗,1,15000,[37],50,,,,,20,monsters/dog.png,A traveler's best friend.
+4,Lesser Red Slime,低階紅色史萊姆,1,15000,[39],90,,,,,50,monsters/red_slime.png,"A tamed red slime. It is not very powerful, but may assist you in battle with fire magic."
+5,Gargoyle,石像魔,5,375000,[170],10,,,,3,,monsters/gargoyle.png,A living gargoyle. It can assist in battle by rarely petrifying your opponent.
+6,Lesser Slime,低階史萊姆,1,10000,,90,,,,,,monsters/slime.png,"A tamed slime. It is not very powerful, but may assist you in battle."
+7,Elder Gnome,侏儒長者,5,750000,"[87,88,90]",,,,,,20,monsters/elder_gnome.png,An experienced gnome who brings unstable magic into battle.
+8,Wolf,狼,2,25000,,50,,,,,,monsters/wolf.png,A tamed wolf. It will often attack your enemies in battle.
+9,Snake,蛇,2,37500,[61],90,,,,25,,monsters/snake.png,"A tamed snake. Occasionally, it can poison your opponents in battle."
+10,Bat,蝙蝠,2,37500,[48],100,,,,,10,monsters/bat.png,A tamed bat. It can drain HP from your enemies in battle.
+11,Lesser Golem,低階魔像,2,37500,[62],10,,3,25,,,monsters/golem.png,A tamed golem. It will cast protection on you in battle.
+12,Yeti,雪怪,4,300000,"[40,57,60,62]",5,,3,30,,5,monsters/yeti.png,The storied yeti. Can boost your defenses in battle while assisting you with ice magic.
+13,Bear,熊,2,25000,,40,,3,,,,monsters/bear.png,A wild bear. It will frequently attack your enemies.
+14,Drake,龍獸,4,150000,[75],10,,,,,5,monsters/drake.png,A tamed Drake. It will occasionally summon meteor against your enemies.
+15,Ghost,鬼,3,75000,[169],5,,,,20,,monsters/ghost.png,A spooky ghost. It may put your opponent to sleep.
+16,Mimic,寶箱怪,3,250000,"[185,41,59,60,61,62,82,67]",5,5,,5,5,5,monsters/mimic.png,A mimic. What it is capable of is unknown.
+17,Gnome,侏儒,3,200000,"[39,52,40,54,45,66]",,,,,,20,monsters/gnome.png,A gnome. It can assist you in battle with its spells.
+18,Hellhound,地獄犬,3,75000,[52],25,,,,,10,monsters/hellhound.png,A tamed hellhound. Can assist in battle with attacks and fire magic.
+19,Fairy,仙女,3,75000,[41],5,25,,,,,monsters/fairy.png,A magic fairy. It will heal you in battle.
+20,Lizarr,蜥蜴人,3,75000,[71],25,,,,,,monsters/lizard_warrior.png,"A tamed, yet aggressive lizarr warrior. It will attack your enemies in battle."
+21,Imp,小惡魔,3,75000,[67],10,,,25,,,monsters/imp.png,A tamed imp. Will occasionally boost your attack.
+22,Dark Slime,暗黑史萊姆,5,500000,"[92,65]",,,,,5,5,monsters/dark_slime.png,A slime of the darkest variable. It can blind your opponent and use dark magic.
+23,Banshee,報喪女妖,5,375000,[180],5,,,,5,5,monsters/banshee.png,The reason one would want a banshee with them is still quite unknown.
+24,Evil Eye,邪眼,2,62500,"[39,40,45]",,,,,,10,monsters/eye.png,A strange floating eye. It seems to know rudimentary magic.
+25,Finfolk,芬菲克,7,2000000,"[69,94]",10,,,,,10,bosses/water_demon.png,A fabled finfolk of the sea.
+26,Wisp,幽光,4,150000,[106],,20,,,,,monsters/wisp.png,A strange floating ball of energy. It is quite proficient at healing its allies.
+27,Great Bear,強大的熊,4,150000,[95],10,,3,5,,,monsters/black_bear.png,"A very mighty bear. It can lend you its might, but at the cost of your defenses."
+28,Minotaur,牛頭怪,6,750000,[85],25,,,,5,,bosses/minotaur.png,A certainly powerful ally.
+29,Earthen Dragon,地龍,5,500000,"[116,63]",,,,20,,10,monsters/earthen_dragon.png,A dragon with the power of the earth. It can imbue your weapon with earthen power and cast earthen magic.
+30,Fire Dragon,火龍,5,500000,"[115,75]",,,,20,,10,monsters/fire_dragon.png,A dragon with the power of the inferno. It can imbue your weapon with fire and cast fire magic.
+31,Ice Dragon,冰龍,5,500000,"[69,114]",,,,20,,10,monsters/ice_dragon.png,A dragon with the power of the cold. It can imbue your weapon with ice and cast ice magic.
+32,Storm Dragon,暴風龍,5,500000,"[113,83]",,,,20,,10,monsters/storm_dragon.png,A dragon with the power of the clouds above. It can imbue your weapon with lightning and cast lightning magic.
+33,Sluagh,勾魂者,5,625000,"[92,219,220]",,,,,,10,monsters/lesser_sluagh.png,A shrouded Sluagh. It utilizes dark magic in battle.
+34,Gazer,凝視者,4,200000,"[66,83]",,,,,,10,monsters/gazer.png,The storied gazer. It utilizes lightning magic in battle.
+35,Colossus,巨像,8,625000,"[108,48,79]",5,,5,20,,10,monsters/colossus.png,"The mighty Colossus. It can boost your defenses, while draining an opponent's HP."
+36,Cockatrice,雞蛇,8,750000,"[97,170,43,105]",10,,,5,2,5,bosses/cockatrice.png,"The might cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle."
+37,Great Gazer,強大的凝視者,8,875000,"[69,75,171,63,83]",5,,,,5,10,bosses/great_gazer.png,"A great gazer. It can lower an opponents stats, while casting offensive magic."
+38,Zu,祖鳥,3,75000,[82],20,,,10,,,monsters/bluebird.png,A tamed crow. It has a small chance of boosting your speed in battle.
+39,Yokai,妖怪,4,200000,"[92,169]",10,,,,5,10,monsters/yokai.png,The storied Yokai is a master of sleep and that of nightmares.
+40,Odok,亡骸,5,500000,"[70,71]",50,,,,,10,monsters/odok2.png,The decrepit Odok. It will frequently assist you in battle.
+41,Basilisk,巴西利斯克,6,1500000,"[37,42,61,43]",10,,,,20,20,monsters/basilisk.png,A tamed basilisk. It is well versed at the art of poison.
+42,Great Yeti,大雪怪,8,1375000,"[135,125,126,137,127,124,60,143,62]",,,4,30,,5,monsters/great_yeti.png,The greatest of the Yeti. It is a true master of defense.
+43,Orthrus,歐西魯斯,6,1750000,"[225,37,71,226,94]",10,,2,,,10,monsters/orthrus.png,The unrelenting Orthrus.
+44,Arcane Slime,奧術史萊姆,7,2500000,"[166,167,168]",,,,,,20,monsters/arcane_slime.png,"A tamed slime, capable of arcane magic."
+45,Dark Dragon,暗黑龍,7,3500000,"[70,146,92,220,169]",,,,,3,20,monsters/black_dragon.png,An ebony dragon. It can assist one in battle with dark magic.
+46,Twilight Wisp,黎明幽光,7,3000000,"[89,92,106,193]",,10,,,,15,monsters/twilight_wisp.png,"A wisp of the night, versed in magic of both light and dark."
+47,Warg,座狼,7,2000000,"[70,146]",3,,,,,20,monsters/warg.png,A tamed warg. It will assist in battle with dark strikes.
+48,Pale Dragon,白龍,8,1125000,"[119,89,123,128,74,149,129]",5,25,,,,5,monsters/pale_dragon.png,An ivory dragon of the light skies. It is extremely versed in holy magic.
+49,Great Jinn,大神燈精靈,6,2000000,"[86,242,87,88,90,171]",,,,,10,10,bosses/great_jinn.png,A magical Jinn. It can cast unstable magic while turning the tide of the battle.
+50,Greater Yokai,大妖怪,6,2250000,"[47,53,61,64,169,65,84]",,,,,10,,monsters/yokai2.png,A tricky yokai.  It has a chance of causing an opponent one of many ailments
+51,Reaper,死神,6,500000,,2,,,,,,monsters/reaper.png,"A stray Reaper of Ankou. It will not attack often, but will wreck havoc when it does."
+52,Guivre,蛇龍基威爾,9,1750000,"[97,206,98,243,215]",7,,,,,12,monsters/guivre.png,An elusive Great Dragon. It can assist in battle with powerful dragon spells.
+53,Fae,菲,4,450000,"[258,259,260,261,262,263,41]",,25,,,,,monsters/great_fairy.png,A great magic fairy. It will cure your status effects in battle
+54,Griffin,格里芬,7,2500000,"[216,97,105]",5,,,5,,5,bosses/griffin.png,"A mighty griffin. It can assist you in battle by improving your dexterity, while casting dragon magic."
+55,Orichalcum Golem,奧利哈鋼魔像,7,5000000,"[125,126,127,124,311,300,299,308]",,,3,9,,,monsters/orichalcum_golem.png,A golem forged of Orichalcum. It can assist you in battle with Ward and defensive based skills.
+56,Mighty Griffin,究極格里芬,9,1500000,"[342,97,341,217]",12,,,5,,5,bosses/great_griffin.png,"A mighty griffin. It can assist you in battle by improving your critical hit rate, while casting dragon magic."
+57,Great Cockatrice,大雞蛇,9,1500000,"[195,366,170,105]",7,,,5,3,5,bosses/great_cockatrice.png,"The mighty cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle."
+58,Giant Basilisk,巨大巴西利斯克,9,1000000,"[316,94]",25,,3,,,5,monsters/red_basilisk.png,A Giant Red Basilisk. It will assist in battle by attacking often.
+59,Ortanite Golem,歐坦尼魔像,10,2000000,"[335,371]",5,,4,10,,10,monsters/ortanite_golem.png,A golem forged of Ortanite. It can assist you in battle with Ward and defensive based skills.
+60,Chimera,奇美拉,10,3000000,"[140,342,204,343]",3,,,20,,5,monsters/chimera.png,"A fierce Chimera. This follower can cause one to go berserk, while assisting in battle with beastly spells."
+61,Undead Golem,不死魔像,9,1500000,"[292,335,294,305]",,3,,5,,8,bosses/undead_golem.png,A great undead golem. It will assist you in battle by granting and restoring ward.
+62,Mighty Slime,究極史萊姆,10,1000000,,50,,7,,,,monsters/mighty_slime.png,A mighty slime warrior. It will attack your foes often.
+63,Fafnir,法夫納,10,3500000,"[146,201,119,97,128]",3,25,,,,5,bosses/fafnir.png,"The great cursed Fafnir. While curing on of status ailments, it will assist you in battle with dark and dragon magic."
+64,Mighty Mimic,究極寶箱怪,10,3500000,"[372,374,103,376,377]",,,,100,,5,monsters/mighty_mimic.png,The mightiest of mimics. It will cause mischief in battle while casting spells.
+65,Cerberus,地獄三頭犬,8,875000,"[47,197,90,94,288]",5,,,,25,12,bosses/cerberus.png,A tamed Cerberus of Balor. It can assist in battle with spells of fire.
+66,Crimson Gazer,赤紅凝視者,9,1500000,"[224,221,223,222]",,,,,,8,monsters/crimson_gazer.png,A reckless Gazer. Be careful bringing this one with you.
+67,Camazotz,卡馬佐茲,7,3000000,"[34,285,239,287]",,12,,12,,2,bosses/camazotz.png,The revered bat of death. It can drain HP from your opponents while improving your stats.
+68,Anubis,阿努比斯,10,4000000,"[277,328,326,278,279,280]",,,,,12,7,bosses/anubis.png,The magical might of the Jackal god knows no bounds.
+69,Harpy,鷹身女妖,6,1500000,"[71,285,169,82]",2,,,20,7,4,monsters/harpy.png,A happily singing harpy. It can assist you in battle by improving your dexterity or causing an opponent to be lulled to sleep.
+70,Death Worm,死蟲,6,1500000,"[91,160,79,273]",2,,,30,,5,bosses/deathworm.png,The revered Death Worm of the sands. It can harden your defenses while casting Earthen magic.
+71,Nidhogg,尼德霍格,9,1750000,"[419,421,423,420,422]",2,,,,,9,monsters/nidhogg.png,A horrific serpentine dragon capable of beastly attacks.
+72,Cthulhu,克蘇魯,10,3500000,"[239,171,136,450,448]",2,,,9,9,9,bosses/cthulhu.png,This dreaded beast of the seas can assist you in battle with status effects and HP absorption.
+73,Fenrir,芬里爾,10,2500000,"[413,412,414]",2,,,,,6,bosses/fenrir.png,The unrelenting Fenrir. It can assist you in battle with strong physical attacks and status effects.
+74,Gheist,鬼魂,5,500000,"[70,169]",2,,,,23,2,monsters/gheist.png,A spooky gheist. It may put your opponent to sleep.
+75,Dire Wolf,恐狼,7,3000000,"[182,285,165,244]",2,,,7,,4,monsters/direwolf.png,A tamed dire wolf. It can assist you in battle with attack and dexterity boosting skills.
+76,Arcane Flame,奧術火焰,6,1250000,"[166,167,97]",,,,,,5,monsters/arcane_flame.png,A flame of arcane power. It can assist one in battle with both arcane and dragon magic.
+77,Seer,眼怪,4,200000,"[36,567]",3,,,,5,5,monsters/seer.png,A seer of Ra. It can blind an opponent in battle.
+78,Cactus,仙人掌,4,200000,"[134,445]",,,,,,4,monsters/cactus.png,A live cactus. It can assist you in battle with barrages of needles.
+79,Succubus,魅魔,8,625000,"[182,244,180]",,,,5,5,,monsters/succubus.png,A grimly singing succubus. It can assist you in battle by improving your dexterity or attack power.
+80,Draugr Mage,屍鬼法師,3,150000,"[52,54,66,111]",,,,,,8,monsters/draugr_mage.png,A draugr of certain magical ability.
+81,Ancient Jinn,遠古神燈精靈,9,1750000,"[472,473,474,475,102]",,,,4,,4,monsters/ancient_jinn.png,A magical Jinn. It can cast fey magic while granting its talents to its master.
+82,Fjalar,法亞拉,10,2500000,"[499,414,82]",3,,,25,,5,monsters/fjalar.png,A rare Fjalar. It can assist one in battle by increasing dexterity and critical hit rate.
+83,Turul,圖魯,8,625000,"[328,234,180]",,,,,4,,monsters/turul.png,A rare Turul. It can assist one in battle by diminishing an opponent's stats.
+84,Pegasus,天馬,10,4000000,"[119,128,129,523,524,568]",,12,,,,5,bosses/pegasus.png,A beast of great myth. It can assist you in battle with powerful strikes and curative holy magic
+85,Horse,馬,4,250000,"[143,82,568]",,,,5,,5,monsters/horse.png,A trusty steed. It can assist one in battle with offensive skills and boost one's dexterity.
+86,War Horse,戰馬,7,2500000,"[213,82,568]",,,,5,,7,monsters/warhorse.png,A mighty steed. It can assist one in battle with offensive skills and boosts to one's dexterity.
+87,Lobster,龍蝦,3,125000,"[35,459,41]",,5,,,,5,monsters/lobster.png,A lobster. It can cause your opponents to bleed while slightly healing you.
+88,Dark Pegasus,暗黑天馬,10,3500000,"[328,326,525,526,568]",,,,,8,5,bosses/dark_pegasus.png,A beast of great myth. It can assist you in battle with powerful dark strikes and debuffs.
+89,Greater Lobster,大龍蝦,5,750000,"[35,285,459,77]",,5,,,,5,monsters/green_lobster.png,A green lobster. It can cause your opponents to bleed while slightly healing you.
+90,Triton,特里頓,8,750000,"[35,285,327,459]",,5,,,,5,monsters/beige_lobster.png,A brown crustacean. It can cause your opponents to bleed while slightly healing you.
+91,Big Cactus,大仙人掌,8,500000,"[134,445]",1,,,,,6,monsters/cactus.png,A giant live cactus. It can assist you in battle with barrages of needles.
+92,Castor,卡斯托耳,6,1500000,"[223,158,136,308]",3,,,3,,8,bosses/castor.png,Available for a limited time: the terrible twin Castor can assist you in battle with great elemental resistance.
+93,Pollux,波魯克斯,9,2000000,"[445,119,53,133,251,244]",3,6,,4,4,5,bosses/pollux.png,Available for a limited time: the terrible twin Pollux can assist you in battle with a variety of skills.
+94,Surtr's Flame,史爾特爾的火焰,4,250000,"[47,467,126]",,,,8,50,10,monsters/flame.png,"Available for limited time only, this massive flame can ensure your opponent is always lit ablaze."
+95,Surtr's Mighty Flame,史爾特爾的烈焰,7,4000000,"[47,467,562,126,53,127]",,,,8,50,10,monsters/blue_flame.png,"Available for limited time only, this massive flame can ensure your opponent is always frozen or lit ablaze."
+96,Archimedes,阿基米德,6,2250000,"[71,467,562,466,561,241,267]",,,,3,,12,monsters/hawk.png,"Available for a limited time only: a companion of Merlin, this great bird can assist one in battle by increasing magical potential."
+97,The Mightiest Mimic,超究極寶箱怪,10,4000000,"[472,476,473,477,103,530]",,,,100,,4,monsters/mighty_mimic.png,???
+98,Naggeneen,納根因,6,1500000,"[216,366,43,165]",,,,,4,15,bosses/naggeneen.png,"Oh, the foul fairy Naggeneen. Available for limited time."
+99,Age-Old Mimic,古老的寶箱怪,5,875000,"[233,563,564,565,566]",,,,3,3,5,monsters/ancient_mimic.png,???
+100,Pumpkinhead,南瓜頭,8,750000,"[191,201,202,378]",,,10,,,4,packs/halloween/1_m.png,A true brute of stories of old. Available for a limited time only.
+101,Fey Chimera,變異奇美拉,10,3000000,"[538,140,498,343]",3,,,22,,6,bosses/fey_chimera.png,A beastly chimera lost to the curse of Morrigan. Available for a limited time only.
+102,Fey Gazer,變異凝視者,6,2250000,"[173,467,562,466,561,171,307]",4,,,4,4,4,bosses/fey_gazer.png,A gazer lost to the curse of Morrigan. Available for a limited time only.
+103,Fey Dragon,變異巨龍,7,3500000,"[468,469,470,471,217]",,,,20,,10,bosses/fey_dragon.png,A dragon lost to the curse of Morrigan. Available for a limited time only.
+104,Fey Yeti,變異雪怪,9,1750000,"[388,143,136,391,299]",,,6,12,,5,bosses/fey_yeti.png,A great yeti lost to the curse of Morrigan. Available for a limited time only.
+105,Ebon Scruug,黑之史古基,9,2000000,"[256,254,252,408,198,122]",,,,1,,8,bosses/scruuge.png,An apparition of greed and envy. Available for a limited time only.
+106,Scruug,史古基,5,875000,"[167,150,237,234,122]",,,,,8,8,bosses/lesser_scruuge.png,An apparition of greed and envy. Available for a limited time only.
+107,Phoenix,鳳凰,8,875000,"[96,430,197,420,288]",,,3,3,,5,bosses/phoenix.png,"The mighty Phoenix, arisen once again. Available for a limited time only."
+108,Ashen Phoenix,蒼白鳳凰,10,3000000,"[430,428,429,590]",,,3,3,,5,bosses/ashen_phoenix.png,"The mighty Phoenix, fallen once again. Available for a limited time only."
+109,Kerberos,刻耳柏洛斯,8,875000,"[419,591,593,594,592]",3,,,15,,3,bosses/kerberos.png,Arisen from the deep depths of the Underworld. Available for a limited time only.
+110,Arisen Naggeneen,重生納根因,9,2000000,"[396,397,398,400,366,399]",5,,1,,8,20,bosses/naggeneen.png,"Oh, the foul fairy Naggeneen. Available for limited time."
+111,Fey Cactus,變異仙人掌,10,2000000,"[134,445]",3,,,,,9,monsters/fey_cactus.png,A most plagued cactus. It can assist you in battle with barrages of needles.
+112,Raging Cerus,暴怒凱魯斯,9,1500000,"[423,603,429,435]",6,,,,,6,bosses/taurus.png,The untamed beast. Available for a limited time only.
+113,Untamed Cerus,桀驁金牛凱魯斯,9,1500000,"[603,428,409,434]",7,,,,,6,bosses/taurus.png,The untamed beast. Available for a limited time only.
+114,Cerus,凱魯斯,7,2500000,"[603,122,131]",7,,,,,6,bosses/taurus.png,The untamed beast. Available for a limited time only.
+115,Glatisant,吠獸,9,1500000,"[214,316,244,581]",50,,,3,,3,monsters/coral_lizard_warrior.png,The Questing Beast. Available for a limited time only.
+116,Great Pegasus,強大的天馬,10,3000000,"[235,236,128,568]",3,15,,5,,5,bosses/pegasus.png,A beast of Avalonian pride. Available for a limited time only.
+117,Llamrai,拉姆萊,6,1250000,"[235,236,238]",5,7,,7,,7,monsters/horse.png,The divine horse of Avalon. Available for a limited time only.
+118,Gwyllgi,格里吉,7,3500000,"[205,168,567,213,165]",25,,,,12,4,monsters/hellhound.png,A frightful black wolf. Available for a limited time only.
+119,Carman,卡門,7,5500000,"[47,596,474,275,53,276,61,64,273]",1,,,,20,10,bosses/witch.png,The foul witch herself. Available for a limited time only.
+120,Hengreon,亨格隆,8,750000,"[119,129,213,568]",5,15,,,,7,monsters/warhorse.png,The mighty stallion of Arthus. Available for a limited time only.
+121,Gullinkambi,古林肯比,7,2500000,"[270,43,615]",10,,,3,,10,monsters/hawk.png,"Hel's follower, this hawk will give one great speed. Available for a limited time only."
+122,Lindworm,林德蟲,6,2000000,"[620,619,551,550,548,547]",10,,2,,1,10,monsters/lindworm.png,A mythical serpent capable of carrying out the majesty's desired executions. Available for a limited time only.
+123,Spooky Ghost,詭異幽靈,7,2500000,"[622,92,169]",5,,1,,20,8,monsters/ghost.png,An extra spooky ghost. It may put your opponent to sleep. Available for a limited time only.
+124,Scary Skeleton,恐怖骷髏,6,1000000,"[622,378]",30,,,,8,30,monsters/skeleton.png,A scary skeleton. It can act often in battle to assist you. Available for a limited time only.
+125,Very Scary Skeleton,超恐怖骷髏,9,1000000,"[622,378]",30,,,,8,30,monsters/skeleton.png,A scary skeleton. It can act often in battle to assist you. Available for a limited time only.
+126,Balor Worm,巴羅爾蠕蟲,6,1500000,"[91,213,79,169]",2,,,15,,7,bosses/balor_worm.png,Available for a limited time only.
+127,Balor Flame,巴羅爾火焰,6,1500000,"[47,97,275,157]",,,,,,25,monsters/balor_flame.png,Available for a limited time only.
+128,Cruel Banshee,惡毒報喪女妖,6,1250000,"[70,612,180]",,,,,5,5,monsters/banshee.png,The reason one would want a banshee with them is still quite unknown. Available for a limited time only.
+129,Alfar Mage,古精靈法師,7,2500000,"[239,275,628]",,3,3,,,60,monsters/alfar_mage.png,A small follower of Scruug. Available for a limited time only.
+130,Alfar,古精靈,4,250000,"[119,176,300]",90,8,4,,,10,monsters/alfar.png,A small follower of Scruug. Available for a limited time only.
