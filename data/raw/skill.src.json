@@ -1077,8 +1077,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 25,
     "strikes": 1,
+    "hp": 25,
     "pets_use": [
       10,
       35
@@ -2151,8 +2151,8 @@
     "type": "Attack",
     "mana_cost": 15,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 2,
     "pets_use": [
@@ -2260,8 +2260,8 @@
     "type": "Attack",
     "mana_cost": 25,
     "m1": 1,
-    "m2.max": 0.4,
-    "m2.min": 1,
+    "m2.max": 1,
+    "m2.min": 0.4,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -2447,8 +2447,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 25,
     "strikes": 1,
+    "hp": 25,
     "crit": 0.05,
     "pets_use": [
       89
@@ -2810,11 +2810,11 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "pets_use": [
       49
     ],
@@ -2841,11 +2841,11 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "pets_use": [
       7,
       49
@@ -2875,11 +2875,11 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "pets_use": [
       7,
       49
@@ -2944,11 +2944,11 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "pets_use": [
       7,
       49,
@@ -3126,8 +3126,8 @@
     "type": "Attack",
     "mana_cost": 25,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "pets_use": [
@@ -3257,8 +3257,8 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1.2,
-    "m2.max": 1,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 1,
     "pets_use": [
@@ -3312,8 +3312,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "pets_use": [
       52
     ],
@@ -3378,11 +3378,11 @@
     "is_magic": 1,
     "mana_cost": 100,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "monsters_use": [
       138,
       150,
@@ -3572,8 +3572,8 @@
     "type": "Attack",
     "mana_cost": 22,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 2,
     "causes": [
@@ -4392,8 +4392,8 @@
     "is_magic": 1,
     "mana_cost": 120,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 1,
     "gives": [
@@ -4479,8 +4479,8 @@
     "type": "AoE Attack",
     "mana_cost": 40,
     "m1": 1,
-    "m2.max": 0.25,
-    "m2.min": 0.75,
+    "m2.max": 0.75,
+    "m2.min": 0.25,
     "turns": 1,
     "strikes": 5,
     "pets_use": [
@@ -4769,8 +4769,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "crit": 0.05,
     "pets_use": [
       85,
@@ -5115,8 +5115,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 25,
     "strikes": 1,
+    "hp": 25,
     "crit": 0.05,
     "monsters_use": [
       344,
@@ -5358,8 +5358,8 @@
     "is_magic": 1,
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "pets_use": [
@@ -5396,8 +5396,8 @@
     "is_magic": 1,
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -5436,8 +5436,8 @@
     "is_magic": 1,
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -5470,8 +5470,8 @@
     "is_magic": 1,
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "pets_use": [
@@ -5507,8 +5507,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "crit": 0.05,
     "causes": [
       "Def ↓"
@@ -5537,8 +5537,8 @@
     "type": "Attack",
     "mana_cost": 75,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 1,
     "strikes": 2,
     "causes": [
@@ -5579,8 +5579,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "crit": 0.05,
     "gives": [
       "T. Att ↑",
@@ -5619,8 +5619,8 @@
     "type": "Attack",
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 1,
     "strikes": 3,
     "gives": [
@@ -5774,11 +5774,11 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1.5,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "pets_use": [
       44,
       118
@@ -5928,8 +5928,8 @@
     "element": "Arcane",
     "mana_cost": 60,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 2,
     "strikes": 3,
     "pets_use": [
@@ -5959,8 +5959,8 @@
     "type": "Multi-round Attack",
     "mana_cost": 100,
     "m1": 1,
-    "m2.max": 5,
-    "m2.min": 7,
+    "m2.max": 7,
+    "m2.min": 5,
     "turns": 3,
     "strikes": 1,
     "causes": [
@@ -6003,8 +6003,8 @@
     "type": "Attack",
     "mana_cost": 25,
     "m1": 1,
-    "m2.max": 0.4,
-    "m2.min": 1,
+    "m2.max": 1,
+    "m2.min": 0.4,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -6035,8 +6035,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "pets_use": [
       130
     ],
@@ -6668,8 +6668,8 @@
     "type": "Attack",
     "mana_cost": 37,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -6700,8 +6700,8 @@
     "is_magic": 1,
     "mana_cost": 200,
     "m1": 1,
-    "m2.max": 1.75,
-    "m2.min": 2.25,
+    "m2.max": 2.25,
+    "m2.min": 1.75,
     "turns": 1,
     "strikes": 1,
     "causes": [
@@ -6738,8 +6738,8 @@
     "is_magic": 1,
     "mana_cost": 200,
     "m1": 1,
-    "m2.max": 6,
-    "m2.min": 7,
+    "m2.max": 7,
+    "m2.min": 6,
     "turns": 3,
     "strikes": 1,
     "monsters_use": [
@@ -7039,8 +7039,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 25,
     "strikes": 1,
+    "hp": 25,
     "crit": 0.05,
     "monsters_use": [
       466,
@@ -7116,8 +7116,8 @@
     "element": "Arcane",
     "mana_cost": 200,
     "m1": 1,
-    "m2.max": 1.5,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1.5,
     "turns": 3,
     "strikes": 3,
     "pets_use": [
@@ -7358,11 +7358,11 @@
     "type": "Multi-round Attack",
     "mana_cost": 50,
     "m1": 1,
-    "m2.max": 2,
-    "m2.min": 4,
+    "m2.max": 4,
+    "m2.min": 2,
     "turns": 2,
-    "ward": 2,
     "strikes": 1,
+    "ward": 2,
     "causes": [
       "Att ↓",
       "Mag ↓"
@@ -7397,8 +7397,8 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "pets_use": [
@@ -7585,11 +7585,11 @@
     "is_magic": 1,
     "mana_cost": 250,
     "m1": 1,
-    "m2.max": 6,
-    "m2.min": 9,
+    "m2.max": 9,
+    "m2.min": 6,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "pets_use": [
       66
     ],
@@ -7613,11 +7613,11 @@
     "is_magic": 1,
     "mana_cost": 250,
     "m1": 1,
-    "m2.max": 6,
-    "m2.min": 9,
+    "m2.max": 9,
+    "m2.min": 6,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "pets_use": [
       66
     ],
@@ -7641,11 +7641,11 @@
     "is_magic": 1,
     "mana_cost": 250,
     "m1": 1,
-    "m2.max": 6,
-    "m2.min": 9,
+    "m2.max": 9,
+    "m2.min": 6,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "pets_use": [
       92,
       66
@@ -7670,11 +7670,11 @@
     "is_magic": 1,
     "mana_cost": 250,
     "m1": 1,
-    "m2.max": 6,
-    "m2.min": 9,
+    "m2.max": 9,
+    "m2.min": 6,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "pets_use": [
       66
     ],
@@ -7838,8 +7838,8 @@
     "type": "Attack",
     "mana_cost": 35,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -7865,8 +7865,8 @@
     "is_magic": 1,
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 1,
     "causes": [
@@ -8104,8 +8104,8 @@
     "element": "Holy",
     "mana_cost": 120,
     "m1": 1,
-    "m2.max": 2.5,
-    "m2.min": 3.5,
+    "m2.max": 3.5,
+    "m2.min": 2.5,
     "turns": 2,
     "strikes": 1,
     "causes": [
@@ -8137,8 +8137,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 25,
     "strikes": 1,
+    "hp": 25,
     "pets_use": [
       129,
       67,
@@ -8860,8 +8860,8 @@
     "cost": 2500,
     "mana_cost": 10,
     "m1": 1,
-    "m2.max": 0.4,
-    "m2.min": 1,
+    "m2.max": 1,
+    "m2.min": 0.4,
     "turns": 1,
     "strikes": 2,
     "pets_use": [
@@ -8887,8 +8887,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 10,
     "strikes": 1,
+    "hp": 10,
     "description": "Deals light earthen damage and drains a small amount of health."
   },
   {
@@ -9255,8 +9255,8 @@
     "type": "Attack",
     "mana_cost": 40,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 2,
     "pets_use": [
@@ -9318,8 +9318,8 @@
     "type": "Attack",
     "mana_cost": 50,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -9355,8 +9355,8 @@
     "type": "Attack",
     "mana_cost": 50,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "pets_use": [
@@ -9644,8 +9644,8 @@
     "is_magic": 1,
     "mana_cost": 25,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "learned_by": [
@@ -9839,8 +9839,8 @@
     "is_magic": 1,
     "mana_cost": 160,
     "m1": 1,
-    "m2.max": 1,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -10070,8 +10070,8 @@
     "type": "Attack",
     "mana_cost": 75,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 4,
     "pets_use": [
@@ -10116,8 +10116,8 @@
     "type": "Attack",
     "mana_cost": 120,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 4,
     "gives": [
@@ -10159,8 +10159,8 @@
     "element": "Arcane",
     "mana_cost": 200,
     "m1": 1,
-    "m2.max": 1.5,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1.5,
     "turns": 3,
     "strikes": 4,
     "monsters_use": [
@@ -10314,8 +10314,8 @@
     "is_magic": 1,
     "mana_cost": 120,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.2,
+    "m2.max": 1.2,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -10342,11 +10342,11 @@
     "is_magic": 1,
     "mana_cost": 250,
     "m1": 1,
-    "m2.max": 4,
-    "m2.min": 5,
+    "m2.max": 5,
+    "m2.min": 4,
     "turns": 2,
-    "hp": -20,
     "strikes": 1,
+    "hp": -20,
     "pets_use": [
       68,
       88
@@ -10381,8 +10381,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": 35,
     "strikes": 1,
+    "hp": 35,
     "pets_use": [
       90
     ],
@@ -10586,8 +10586,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 2,
     "strikes": 1,
+    "ward": 2,
     "crit": 0.05,
     "pets_use": [
       61,
@@ -10649,11 +10649,11 @@
     "type": "Attack",
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.9,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.9,
     "turns": 1,
-    "ward": 2,
     "strikes": 2,
+    "ward": 2,
     "monsters_use": [
       462,
       345,
@@ -10688,8 +10688,8 @@
     "element": "Holy",
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.9,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 0.9,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -10742,11 +10742,11 @@
     "type": "Multi-round Attack",
     "mana_cost": 100,
     "m1": 1,
-    "m2.max": 3,
-    "m2.min": 5,
+    "m2.max": 5,
+    "m2.min": 3,
     "turns": 2,
-    "ward": 3,
     "strikes": 1,
+    "ward": 3,
     "causes": [
       "Att ↓",
       "Mag ↓"
@@ -10848,8 +10848,8 @@
     "element": "Dragon",
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 4,
     "pets_use": [
@@ -10887,8 +10887,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "monsters_use": [
       413,
       305,
@@ -10916,8 +10916,8 @@
     "is_magic": 1,
     "mana_cost": 250,
     "m1": 1,
-    "m2.max": 6,
-    "m2.min": 8,
+    "m2.max": 8,
+    "m2.min": 6,
     "turns": 3,
     "strikes": 1,
     "causes": [
@@ -11018,8 +11018,8 @@
     "type": "Attack",
     "mana_cost": 60,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 2.5,
+    "m2.max": 2.5,
+    "m2.min": 0.75,
     "turns": 1,
     "strikes": 4,
     "causes": [
@@ -11050,8 +11050,8 @@
     "is_magic": 1,
     "mana_cost": 60,
     "m1": 1,
-    "m2.max": 0.1,
-    "m2.min": 3,
+    "m2.max": 3,
+    "m2.min": 0.1,
     "turns": 1,
     "strikes": 1,
     "causes": [
@@ -11631,8 +11631,8 @@
     "is_magic": 1,
     "mana_cost": 160,
     "m1": 1,
-    "m2.max": 1,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -11705,8 +11705,8 @@
     "is_magic": 1,
     "mana_cost": 160,
     "m1": 1,
-    "m2.max": 1,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -11997,11 +11997,11 @@
     "type": "Attack",
     "mana_cost": 120,
     "m1": 1,
-    "m2.max": 1.2,
-    "m2.min": 1.6,
+    "m2.max": 1.6,
+    "m2.min": 1.2,
     "turns": 1,
-    "ward": 2,
     "strikes": 2,
+    "ward": 2,
     "learned_by": [
       {
         "id": 64,
@@ -12396,11 +12396,11 @@
     "is_magic": 1,
     "mana_cost": 160,
     "m1": 2,
-    "m2.max": 1,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 1,
     "turns": 1,
-    "hp": -5,
     "strikes": 1,
+    "hp": -5,
     "learned_by": [
       {
         "id": 65,
@@ -12420,8 +12420,8 @@
     "is_magic": 1,
     "mana_cost": 160,
     "m1": 1,
-    "m2.max": 1,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -12667,11 +12667,11 @@
     "type": "Attack",
     "mana_cost": 50,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
-    "hp": 15,
     "strikes": 3,
+    "hp": 15,
     "pets_use": [
       73
     ],
@@ -12698,8 +12698,8 @@
     "type": "Attack",
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -12738,8 +12738,8 @@
     "type": "Attack",
     "mana_cost": 120,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.3,
+    "m2.max": 1.3,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 4,
     "pets_use": [
@@ -12772,8 +12772,8 @@
     "type": "Attack",
     "mana_cost": 160,
     "m1": 1,
-    "m2.max": 0.7,
-    "m2.min": 1.4,
+    "m2.max": 1.4,
+    "m2.min": 0.7,
     "turns": 1,
     "strikes": 4,
     "gives": [
@@ -12912,8 +12912,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "pets_use": [
       107,
       71
@@ -12946,8 +12946,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "crit": 0.05,
     "causes": [
       "Blight"
@@ -12978,8 +12978,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "pets_use": [
       71
     ],
@@ -13071,9 +13071,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning"
     ],
@@ -13099,9 +13099,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning"
     ],
@@ -13125,11 +13125,11 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "learned_by": [
       {
         "id": 68,
@@ -13153,9 +13153,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning"
     ],
@@ -13188,9 +13188,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning"
     ],
@@ -13272,9 +13272,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Rot"
     ],
@@ -13300,9 +13300,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Rot"
     ],
@@ -13326,11 +13326,11 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "learned_by": [
       {
         "id": 69,
@@ -13354,9 +13354,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Rot"
     ],
@@ -13385,9 +13385,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Rot"
     ],
@@ -13476,9 +13476,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Paralyzed"
     ],
@@ -13504,9 +13504,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Paralyzed"
     ],
@@ -13530,11 +13530,11 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "learned_by": [
       {
         "id": 71,
@@ -13558,9 +13558,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Paralyzed"
     ],
@@ -13589,9 +13589,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Paralyzed"
     ],
@@ -13653,8 +13653,8 @@
     "type": "AoE Attack",
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.35,
-    "m2.min": 0.85,
+    "m2.max": 0.85,
+    "m2.min": 0.35,
     "turns": 1,
     "strikes": 5,
     "pets_use": [
@@ -13686,8 +13686,8 @@
     "type": "Attack",
     "mana_cost": 120,
     "m1": 3,
-    "m2.max": 0,
-    "m2.min": 1,
+    "m2.max": 1,
+    "m2.min": 0,
     "turns": 1,
     "strikes": 1,
     "crit": 0.05,
@@ -13729,9 +13729,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Frozen"
     ],
@@ -13760,9 +13760,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Frozen"
     ],
@@ -13792,9 +13792,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Frozen"
     ],
@@ -13824,9 +13824,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Frozen"
     ],
@@ -13850,11 +13850,11 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
-    "hp": -10,
     "strikes": 1,
+    "hp": -10,
     "learned_by": [
       {
         "id": 76,
@@ -14010,8 +14010,8 @@
     "element": "Physical",
     "mana_cost": 3,
     "m1": 1,
-    "m2.max": 0,
-    "m2.min": 2,
+    "m2.max": 2,
+    "m2.min": 0,
     "turns": 1,
     "strikes": 1,
     "crit": 1,
@@ -14617,8 +14617,8 @@
     "is_magic": 1,
     "mana_cost": 360,
     "m1": 1,
-    "m2.max": 1.25,
-    "m2.min": 1.75,
+    "m2.max": 1.75,
+    "m2.min": 1.25,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -14645,8 +14645,8 @@
     "is_magic": 1,
     "mana_cost": 360,
     "m1": 1,
-    "m2.max": 1.25,
-    "m2.min": 1.75,
+    "m2.max": 1.75,
+    "m2.min": 1.25,
     "turns": 1,
     "strikes": 3,
     "learned_by": [
@@ -14669,8 +14669,8 @@
     "is_magic": 1,
     "mana_cost": 360,
     "m1": 1,
-    "m2.max": 1.25,
-    "m2.min": 1.75,
+    "m2.max": 1.75,
+    "m2.min": 1.25,
     "turns": 1,
     "strikes": 3,
     "learned_by": [
@@ -14693,8 +14693,8 @@
     "is_magic": 1,
     "mana_cost": 360,
     "m1": 1,
-    "m2.max": 1.25,
-    "m2.min": 1.75,
+    "m2.max": 1.75,
+    "m2.min": 1.25,
     "turns": 1,
     "strikes": 3,
     "learned_by": [
@@ -14717,8 +14717,8 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
     "strikes": 1,
     "crit": 0.15,
@@ -14742,8 +14742,8 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
     "strikes": 1,
     "crit": 0.15,
@@ -14767,8 +14767,8 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
     "strikes": 1,
     "crit": 0.15,
@@ -14792,8 +14792,8 @@
     "is_magic": 1,
     "mana_cost": 300,
     "m1": 1,
-    "m2.max": 9,
-    "m2.min": 11,
+    "m2.max": 11,
+    "m2.min": 9,
     "turns": 3,
     "strikes": 1,
     "crit": 0.15,
@@ -14903,8 +14903,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "crit": 0.15,
     "monsters_use": [
       434
@@ -14959,8 +14959,8 @@
     "type": "Attack",
     "mana_cost": 200,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 1,
     "strikes": 4,
     "crit": 0.2,
@@ -14987,11 +14987,11 @@
     "type": "Attack",
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 1,
-    "hp": 15,
     "strikes": 3,
+    "hp": 15,
     "monsters_use": [
       434
     ],
@@ -15046,8 +15046,8 @@
     "type": "Attack",
     "mana_cost": 140,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 1,
     "strikes": 3,
     "causes": [
@@ -15080,8 +15080,8 @@
     "type": "Attack",
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.9,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.9,
     "turns": 1,
     "strikes": 2,
     "gives": [
@@ -15235,8 +15235,8 @@
     "is_magic": 1,
     "mana_cost": 240,
     "m1": 1,
-    "m2.max": 1,
-    "m2.min": 1.5,
+    "m2.max": 1.5,
+    "m2.min": 1,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -15336,9 +15336,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blight"
     ],
@@ -15360,11 +15360,11 @@
     "type": "Attack",
     "mana_cost": 180,
     "m1": 1,
-    "m2.max": 1.4,
-    "m2.min": 1.8,
+    "m2.max": 1.8,
+    "m2.min": 1.4,
     "turns": 1,
-    "ward": 3,
     "strikes": 2,
+    "ward": 3,
     "monsters_use": [
       371,
       435,
@@ -15415,9 +15415,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blight"
     ],
@@ -15444,9 +15444,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blind"
     ],
@@ -15475,9 +15475,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blind"
     ],
@@ -15507,9 +15507,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Asleep"
     ],
@@ -15535,9 +15535,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Asleep"
     ],
@@ -15581,9 +15581,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning",
       "Frozen",
@@ -15612,9 +15612,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 1,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning",
       "Frozen",
@@ -15673,9 +15673,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blight"
     ],
@@ -15701,9 +15701,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blight"
     ],
@@ -15730,9 +15730,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blind"
     ],
@@ -15765,9 +15765,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Blind"
     ],
@@ -15801,9 +15801,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Asleep"
     ],
@@ -15835,9 +15835,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Asleep"
     ],
@@ -15871,9 +15871,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning",
       "Frozen",
@@ -15902,9 +15902,9 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
+    "strikes": 1,
     "ward": 2,
     "hp": 1,
-    "strikes": 1,
     "causes": [
       "Burning",
       "Frozen",
@@ -16125,8 +16125,8 @@
     "type": "Attack",
     "mana_cost": 80,
     "m1": 1,
-    "m2.max": 0.5,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.5,
     "turns": 1,
     "strikes": 3,
     "crit": 0.15,
@@ -16386,8 +16386,8 @@
     "is_magic": 1,
     "mana_cost": 50,
     "m1": 1,
-    "m2.max": 0.75,
-    "m2.min": 1.25,
+    "m2.max": 1.25,
+    "m2.min": 0.75,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -16594,8 +16594,8 @@
     "is_magic": 1,
     "mana_cost": 90,
     "m1": 1,
-    "m2.max": 0.9,
-    "m2.min": 1.3,
+    "m2.max": 1.3,
+    "m2.min": 0.9,
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
@@ -17284,8 +17284,8 @@
     "m2.max": 1,
     "m2.min": 1,
     "turns": 1,
-    "ward": 1,
     "strikes": 1,
+    "ward": 1,
     "pets_use": [
       108
     ],
@@ -17437,11 +17437,11 @@
     "tier": 1,
     "type": "Attack",
     "m1": 1,
-    "m2.max": 0.3,
-    "m2.min": 0.6,
+    "m2.max": 0.6,
+    "m2.min": 0.3,
     "turns": 1,
-    "ward": 2,
     "strikes": 3,
+    "ward": 2,
     "description": "Deals damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity."
   },
   {
@@ -17556,11 +17556,11 @@
     "tier": 5,
     "type": "Attack",
     "m1": 1,
-    "m2.max": 0.55,
-    "m2.min": 1.1,
+    "m2.max": 1.1,
+    "m2.min": 0.55,
     "turns": 1,
-    "ward": 2,
     "strikes": 3,
+    "ward": 2,
     "gives": [
       "T. Dex ↑"
     ],
@@ -17573,11 +17573,11 @@
     "tier": 10,
     "type": "Attack",
     "m1": 1,
-    "m2.max": 0.8,
-    "m2.min": 1.6,
+    "m2.max": 1.6,
+    "m2.min": 0.8,
     "turns": 1,
-    "ward": 3,
     "strikes": 3,
+    "ward": 3,
     "gives": [
       "T. Dex ↑"
     ],

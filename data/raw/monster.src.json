@@ -9031,6 +9031,19 @@
     "resistant_to": [
       "Water"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight",
+      "Petrified"
+    ],
     "skills": [
       253,
       167,
@@ -9076,6 +9089,19 @@
     ],
     "resistant_to": [
       "Water"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight",
+      "Petrified"
     ],
     "skills": [
       253,
@@ -10767,6 +10793,19 @@
       "Dark",
       "Holy"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight",
+      "Petrified"
+    ],
     "skills": [
       89,
       123,
@@ -10855,6 +10894,17 @@
     "resistant_to": [
       "Earthen",
       "Water"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Blight"
     ],
     "vulnerable_to_status": [
       "Stunned",
@@ -11806,6 +11856,19 @@
     ],
     "resistant_to": [
       "Lightning"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight",
+      "Petrified"
     ],
     "skills": [
       430,
