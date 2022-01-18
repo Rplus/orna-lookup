@@ -166,4 +166,5 @@ img {
   text-transform: capitalize;
   border-width: 0 0 1px;
   border-style: dotted;
+  font-weight: inherit;
 }
