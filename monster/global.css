@@ -159,3 +159,11 @@ img {
   fill: #fff;
   font-weight: bolder;
 }
+
+.header-select {
+  background-color: inherit;
+  color: inherit;
+  text-transform: capitalize;
+  border-width: 0 0 1px;
+  border-style: dotted;
+}
