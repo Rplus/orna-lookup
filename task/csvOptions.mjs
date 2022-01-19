@@ -4,7 +4,7 @@ export default {
   },
   item: {
     emptyFieldValue: '',
-    excludeKeys: ['description'],
+    // excludeKeys: ['description'],
     keys: [
       'id',
       'name',
@@ -40,6 +40,12 @@ export default {
 
       'quests',
       'image',
+
+      'other_effect',
+      'two_handed',
+      'slots',
+      'rarity',
+      'description',
     ],
   },
   monster: {
