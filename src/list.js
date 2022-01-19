@@ -59,8 +59,6 @@ export const words = {
   'stats.hp': '血量',
 }
 
-let xx = [];
-
 export function getList(data) {
   let obj = {
     types: [...new Set(data.map(i => i.type))],

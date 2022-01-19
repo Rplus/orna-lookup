@@ -93,15 +93,16 @@
     <div class="rt-box">
       <div class="item-equipped" title={item.equipped_by} />
       <div class="item-char">{words[item.element] ? `[${words[item.element]}]` : ''}</div>
-      <div class="item-char">{item.boss ? '👿' : ''}</div>
-      <div class="item-char">{item.arena ? '🏟️' : ''}</div>
-      <div class="item-char">{item.view_distance ? '👁️' : ''}</div>
+      <div class="item-char" title="dropped from boss">{item.boss ? '👿' : ''}</div>
+      <div class="item-char" title="dropped from arena">{item.arena ? '🏟️' : ''}</div>
+      <div class="item-char" title="enhance view distance">{item.view_distance ? '👁️' : ''}</div>
+      <div class="item-char" title="two hands">{item.two_handed ? '🙌' : ''}</div>
       <div class="item-slots" data-slots={item.slots} title="{item.slots} slots" />
     </div>
   </summary>
 
   <div>
-    <div class="item-more">
+    <div class="item-more" data-type="【{words[item.type]}】">
       <div class="dropped_by">
         <ListDetail
           items={item.dropped_by}
@@ -247,6 +248,14 @@
   line-height: 1.4;
   font-size: smaller;
   white-space: nowrap;
+}
+
+.item-more::before {
+  content: attr(data-type);
+  opacity: 0.5;
+  display: inline-block;
+  bottom: 0.5em;
+  margin-left: -1em;
 }
 
 @media (min-width: 900px) {

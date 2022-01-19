@@ -41,6 +41,11 @@ export const filtersDef = [
     sort: true,
   },
   {
+    prop: 'two_handed',
+    label: '雙手使用',
+    type: 'checkbox',
+  },
+  {
     prop: 'prevents',
     label: '-免疫(敵)',
     type: 'text',
