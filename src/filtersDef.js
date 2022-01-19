@@ -35,6 +35,12 @@ export const filtersDef = [
     sort: true,
   },
   {
+    prop: 'slots',
+    label: '槽位數',
+    type: 'number',
+    sort: true,
+  },
+  {
     prop: 'prevents',
     label: '-免疫(敵)',
     type: 'text',
@@ -63,12 +69,6 @@ export const filtersDef = [
     label: '元素',
     type: 'text',
     list: 'element',
-    sort: true,
-  },
-  {
-    prop: 'slots',
-    label: '鑲嵌孔數',
-    type: 'number',
     sort: true,
   },
   {
