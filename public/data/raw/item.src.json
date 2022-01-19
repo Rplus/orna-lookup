@@ -2760,6 +2760,7 @@
       254
     ],
     "image": "weapons/wyvern_blades.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "Crude blades made from the talons of a wyvern. These blades can cause your opponent to bleed."
   },
@@ -10567,6 +10568,7 @@
       261
     ],
     "image": "weapons/oxen_axe.png",
+    "two_handed": 1,
     "slots": 10,
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
   },
@@ -15436,6 +15438,7 @@
       252
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A pair of dark kunai, forged of a basilisk's claws."
   },
@@ -15718,6 +15721,7 @@
       345
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A pair of unnecessarily sharp daggers. These will easily cause an opponent to bleed."
   },
@@ -19691,6 +19695,7 @@
       283
     ],
     "image": "weapons/gungnir.png",
+    "two_handed": 1,
     "slots": 10,
     "description": "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands."
   },
@@ -20868,6 +20873,7 @@
       473
     ],
     "image": "weapons/fallen_daggers.png",
+    "two_handed": 1,
     "slots": 14,
     "description": "Daggers carried by Mammon, the demon of hubris."
   },
@@ -20909,6 +20915,7 @@
       473
     ],
     "image": "weapons/fallen_axe.png",
+    "two_handed": 1,
     "slots": 14,
     "description": "Axe of Mammon, the demon of hubris."
   },
@@ -24556,6 +24563,7 @@
       473
     ],
     "image": "weapons/fallen_daggers.png",
+    "two_handed": 1,
     "slots": 14,
     "description": "Daggers carried by Mammon, the demon of hubris."
   },
@@ -25110,6 +25118,7 @@
       282
     ],
     "image": "weapons/kerberos_claws.png",
+    "two_handed": 1,
     "slots": 11,
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
@@ -29780,6 +29789,7 @@
       261
     ],
     "image": "weapons/oxen_axe.png",
+    "two_handed": 1,
     "slots": 10,
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
   },
@@ -31895,6 +31905,7 @@
     "other_effect": [
       "跟隨者行動: +7%"
     ],
+    "two_handed": 1,
     "slots": 12,
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle."
   },
@@ -31995,6 +32006,7 @@
     "other_effect": [
       "跟隨者行動: +7%"
     ],
+    "two_handed": 1,
     "slots": 12,
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle."
   },
@@ -32718,6 +32730,7 @@
       276
     ],
     "image": "weapons/kris.png",
+    "two_handed": 1,
     "slots": 10,
     "description": "Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit."
   },
@@ -33418,6 +33431,7 @@
       473
     ],
     "image": "weapons/fallen_staff.png",
+    "two_handed": 1,
     "slots": 14,
     "description": "Archistaff of Mammon, the demon of hubris."
   },
@@ -33622,6 +33636,7 @@
       473
     ],
     "image": "weapons/fallen_staff.png",
+    "two_handed": 1,
     "slots": 14,
     "description": "Archistaff of Mammon, the demon of hubris."
   },

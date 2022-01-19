@@ -4278,7 +4278,7 @@
     "quests": "",
     "image": "weapons/wyvern_blades.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "8",
     "rarity": "",
     "description": "Crude blades made from the talons of a wyvern. These blades can cause your opponent to bleed."
@@ -13526,7 +13526,7 @@
     "quests": "",
     "image": "weapons/oxen_axe.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "10",
     "rarity": "",
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
@@ -20292,7 +20292,7 @@
     "quests": "",
     "image": "weapons/kunai.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "8",
     "rarity": "",
     "description": "A pair of dark kunai, forged of a basilisk's claws."
@@ -20734,7 +20734,7 @@
     "quests": "",
     "image": "weapons/kunai.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "8",
     "rarity": "",
     "description": "A pair of unnecessarily sharp daggers. These will easily cause an opponent to bleed."
@@ -26310,7 +26310,7 @@
     "quests": "",
     "image": "weapons/gungnir.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "10",
     "rarity": "",
     "description": "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands."
@@ -27976,7 +27976,7 @@
     "quests": "",
     "image": "weapons/fallen_daggers.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "14",
     "rarity": "",
     "description": "Daggers carried by Mammon, the demon of hubris."
@@ -28044,7 +28044,7 @@
     "quests": "",
     "image": "weapons/fallen_axe.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "14",
     "rarity": "",
     "description": "Axe of Mammon, the demon of hubris."
@@ -33072,7 +33072,7 @@
     "quests": "",
     "image": "weapons/fallen_daggers.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "14",
     "rarity": "",
     "description": "Daggers carried by Mammon, the demon of hubris."
@@ -33990,7 +33990,7 @@
     "quests": "",
     "image": "weapons/kerberos_claws.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "11",
     "rarity": "",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
@@ -40341,7 +40341,7 @@
     "quests": "",
     "image": "weapons/oxen_axe.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "10",
     "rarity": "",
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
@@ -43333,7 +43333,7 @@
     "quests": "",
     "image": "weapons/kerberos_claws.png",
     "other_effect": "[\"跟隨者行動: +7%\"]",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "12",
     "rarity": "",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle."
@@ -43469,7 +43469,7 @@
     "quests": "",
     "image": "weapons/kerberos_claws.png",
     "other_effect": "[\"跟隨者行動: +7%\"]",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "12",
     "rarity": "",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle."
@@ -44450,7 +44450,7 @@
     "quests": "",
     "image": "weapons/kris.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "10",
     "rarity": "",
     "description": "Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit."
@@ -45334,7 +45334,7 @@
     "quests": "",
     "image": "weapons/fallen_staff.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "14",
     "rarity": "",
     "description": "Archistaff of Mammon, the demon of hubris."
@@ -45674,7 +45674,7 @@
     "quests": "",
     "image": "weapons/fallen_staff.png",
     "other_effect": "",
-    "two_handed": "",
+    "two_handed": "1",
     "slots": "14",
     "rarity": "",
     "description": "Archistaff of Mammon, the demon of hubris."
