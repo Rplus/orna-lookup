@@ -435,7 +435,7 @@
     "materials": "",
     "quests": "[{\"id\":3,\"name\":\"A Handsome Trade\"}]",
     "image": "useables/lucky_coin.png",
-    "other_effect": "[\"金幣加成: 2.\"]",
+    "other_effect": "[\"金幣加成: 2\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -469,7 +469,7 @@
     "materials": "",
     "quests": "",
     "image": "useables/silver_coin.png",
-    "other_effect": "[\"歐幣加成: 2.\"]",
+    "other_effect": "[\"歐幣加成: 2\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -22331,7 +22331,7 @@
     "materials": "[473]",
     "quests": "",
     "image": "wards/fallen_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -22433,7 +22433,7 @@
     "materials": "[266,345]",
     "quests": "",
     "image": "wards/tower_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -22977,7 +22977,7 @@
     "materials": "[278]",
     "quests": "",
     "image": "wards/bone_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -23589,7 +23589,7 @@
     "materials": "[708]",
     "quests": "",
     "image": "wards/nothren_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -24201,7 +24201,7 @@
     "materials": "[728]",
     "quests": "",
     "image": "wards/griffin_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -26139,7 +26139,7 @@
     "materials": "[513,268]",
     "quests": "",
     "image": "wards/avalon_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -26516,7 +26516,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Helmet forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -26550,7 +26550,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic helmet made of Chimera remains."
   },
   {
@@ -26584,7 +26584,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Helmet of a Lyonesse knight."
   },
   {
@@ -26618,7 +26618,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A dusty hood of a follower of Mammon."
   },
   {
@@ -26652,7 +26652,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Hood of a Lyonesse warlock."
   },
   {
@@ -27128,7 +27128,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "Helmet forged of the remains of the great dragon, Fafnir."
   },
   {
@@ -27264,7 +27264,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "The famed Crown of King Gradlon. Gradlon left Avalon to form the kingdom of Lyonesse a century ago. It is rumored that Lyonesse still stands, without their beloved king."
   },
   {
@@ -27366,7 +27366,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of a Lyonesse assassin."
   },
   {
@@ -27672,7 +27672,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "p",
     "description": "Hood of an infamous Taranis of Stormforce."
   },
   {
@@ -31133,7 +31133,7 @@
     "materials": "[473]",
     "quests": "",
     "image": "wards/fallen_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -31238,7 +31238,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Hood worn by acolytes of Mammon, the demon of hubris."
   },
   {
@@ -31272,7 +31272,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Helmet worn by knights of Mammon, the demon of hubris."
   },
   {
@@ -32638,7 +32638,7 @@
   {
     "id": "980",
     "name": "High Phoenician Shield",
-    "zh": "高級鳳凰的盾",
+    "zh": "高等鳳凰盾",
     "tier": "7",
     "type": "Off-hand",
     "boss": "1",
@@ -33040,7 +33040,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Cowl worn by rogues of Mammon, the demon of hubris."
   },
   {
@@ -34191,7 +34191,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -34803,7 +34803,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -34871,7 +34871,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -34939,7 +34939,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -38747,7 +38747,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "b",
     "description": "Hood of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -39288,7 +39288,7 @@
     "materials": "[259,346,294,275]",
     "quests": "",
     "image": "wards/phoenix_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "2",
     "rarity": "",
@@ -39764,7 +39764,7 @@
     "materials": "[266,269,345]",
     "quests": "",
     "image": "wards/phoenix_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "",
     "slots": "1",
     "rarity": "",
@@ -39866,7 +39866,7 @@
     "materials": "[266,269,345]",
     "quests": "",
     "image": "wards/phoenix_shield.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "1",
     "rarity": "",
@@ -40039,7 +40039,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
@@ -40175,7 +40175,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
@@ -40887,7 +40887,7 @@
     "other_effect": "[\"跟隨者素質: +10%\",\"跟隨者行動: +5%\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic helmet made of Chimera remains. Wearing this item increases the power of your follower."
   },
   {
@@ -41839,7 +41839,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -41975,7 +41975,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -42111,7 +42111,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -42247,7 +42247,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -42961,7 +42961,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -47471,7 +47471,7 @@
     "materials": "[272]",
     "quests": "",
     "image": "weapons/bow_of_tiamat.png",
-    "other_effect": "",
+    "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.1\",\"經驗加成: 1.02\"]",
     "two_handed": "",
     "slots": "6",
     "rarity": "",
@@ -47542,7 +47542,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "War-mage's hood of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects."
   },
   {
@@ -47573,7 +47573,7 @@
     "materials": "[272]",
     "quests": "",
     "image": "weapons/axe_of_tiamat.png",
-    "other_effect": "",
+    "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.1\",\"經驗加成: 1.02\"]",
     "two_handed": "",
     "slots": "6",
     "rarity": "",
@@ -47607,7 +47607,7 @@
     "materials": "[272]",
     "quests": "",
     "image": "weapons/staff_of_tiamat.png",
-    "other_effect": "",
+    "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.1\",\"經驗加成: 1.02\"]",
     "two_handed": "",
     "slots": "6",
     "rarity": "",
@@ -49956,7 +49956,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries."
   },
   {
