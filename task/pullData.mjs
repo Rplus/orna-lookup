@@ -57,6 +57,7 @@ function clearData(data) {
     'type',
     'element',
     'description',
+    'rarity',
     // 'other_effect',
   ];
 
