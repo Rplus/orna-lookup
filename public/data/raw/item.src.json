@@ -274,7 +274,7 @@
     ],
     "image": "useables/lucky_coin.png",
     "other_effect": [
-      "金幣加成: 2."
+      "金幣加成: 2"
     ],
     "description": "A shiny, lucky coin. Boosts gold earned for a period of time."
   },
@@ -318,7 +318,7 @@
     ],
     "image": "useables/silver_coin.png",
     "other_effect": [
-      "歐幣加成: 2."
+      "歐幣加成: 2"
     ],
     "description": "A shiny, lucky, silver coin. Boosts orns earned for a period of time."
   },
@@ -16877,6 +16877,9 @@
       473
     ],
     "image": "wards/fallen_shield.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "description": "A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being Cursed."
   },
   {
@@ -16945,6 +16948,9 @@
       345
     ],
     "image": "wards/tower_shield.png",
+    "other_effect": [
+      "技能: Bastion II"
+    ],
     "description": "A gigantic shield that offers extra physical and magic defense at the expense of attack and magic."
   },
   {
@@ -17330,6 +17336,9 @@
       278
     ],
     "image": "wards/bone_shield.png",
+    "other_effect": [
+      "技能: Bastion II"
+    ],
     "description": "A shield made of harden monster bone."
   },
   {
@@ -17785,6 +17794,9 @@
       708
     ],
     "image": "wards/nothren_shield.png",
+    "other_effect": [
+      "技能: Bastion II"
+    ],
     "description": "Shield carried by the great Heimdall of the Nothren lands. It protects one from the cold."
   },
   {
@@ -18241,6 +18253,9 @@
       728
     ],
     "image": "wards/griffin_shield.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "description": "A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward."
   },
   {
@@ -19636,6 +19651,9 @@
       268
     ],
     "image": "wards/avalon_shield.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -19891,6 +19909,7 @@
     ],
     "image": "armor/ortanite_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Helmet forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -19913,6 +19932,7 @@
     ],
     "image": "armor/wyvern_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic helmet made of Chimera remains."
   },
   {
@@ -19934,6 +19954,7 @@
     ],
     "image": "armor/lyon_helm.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Helmet of a Lyonesse knight."
   },
   {
@@ -19956,6 +19977,7 @@
     ],
     "image": "armor/acolyte_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A dusty hood of a follower of Mammon."
   },
   {
@@ -19977,6 +19999,7 @@
     ],
     "image": "armor/lyon_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Hood of a Lyonesse warlock."
   },
   {
@@ -20281,6 +20304,7 @@
     ],
     "image": "armor/colossal_helm.png",
     "slots": 4,
+    "rarity": "p",
     "description": "Helmet forged of the remains of the great dragon, Fafnir."
   },
   {
@@ -20393,6 +20417,7 @@
     ],
     "image": "armor/lyon_crown.png",
     "slots": 8,
+    "rarity": "g",
     "description": "The famed Crown of King Gradlon. Gradlon left Avalon to form the kingdom of Lyonesse a century ago. It is rumored that Lyonesse still stands, without their beloved king."
   },
   {
@@ -20467,6 +20492,7 @@
     ],
     "image": "armor/lyon_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of a Lyonesse assassin."
   },
   {
@@ -20695,6 +20721,7 @@
     ],
     "image": "armor/taranis_hood.png",
     "slots": 5,
+    "rarity": "p",
     "description": "Hood of an infamous Taranis of Stormforce."
   },
   {
@@ -23275,6 +23302,9 @@
       473
     ],
     "image": "wards/fallen_shield.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "description": "A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed."
   },
   {
@@ -23344,6 +23374,7 @@
     ],
     "image": "armor/fallen_hood.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Hood worn by acolytes of Mammon, the demon of hubris."
   },
   {
@@ -23367,6 +23398,7 @@
     ],
     "image": "armor/fallen_helm.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Helmet worn by knights of Mammon, the demon of hubris."
   },
   {
@@ -24329,7 +24361,7 @@
   {
     "id": 980,
     "name": "High Phoenician Shield",
-    "zh": "高級鳳凰的盾",
+    "zh": "高等鳳凰盾",
     "tier": 7,
     "type": "Off-hand",
     "boss": 1,
@@ -24629,6 +24661,7 @@
     ],
     "image": "armor/fallen_hood.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Cowl worn by rogues of Mammon, the demon of hubris."
   },
   {
@@ -25413,6 +25446,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25869,6 +25903,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25919,6 +25954,7 @@
     ],
     "image": "armor/cursed_helm.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25974,6 +26010,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -28625,6 +28662,7 @@
     ],
     "image": "armor/horseman_hood.png",
     "slots": 10,
+    "rarity": "b",
     "description": "Hood of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -29041,6 +29079,9 @@
       275
     ],
     "image": "wards/phoenix_shield.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "slots": 2,
     "description": "Decorated shield of a worshipper of a fallen Phoenix. It protects one from being blinded and may occasionally protect you from other status effects."
   },
@@ -29434,6 +29475,9 @@
       345
     ],
     "image": "wards/phoenix_shield.png",
+    "other_effect": [
+      "技能: Bastion II"
+    ],
     "slots": 1,
     "description": "Decorated shield of Surtr, the Southern wanderer. It increases defense and resistance at the expense of Ward."
   },
@@ -29526,6 +29570,9 @@
       345
     ],
     "image": "wards/phoenix_shield.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "slots": 1,
     "description": "Decorated shield of Surtr, the Southern wanderer. It increases defense and resistance at the expense of Ward."
   },
@@ -29668,6 +29715,7 @@
     ],
     "image": "armor/royal_hood.png",
     "slots": 6,
+    "rarity": "p",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
@@ -29771,6 +29819,7 @@
     ],
     "image": "armor/royal_hood.png",
     "slots": 6,
+    "rarity": "p",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
@@ -30334,6 +30383,7 @@
       "跟隨者行動: +5%"
     ],
     "slots": 6,
+    "rarity": "g",
     "description": "An exotic helmet made of Chimera remains. Wearing this item increases the power of your follower."
   },
   {
@@ -30926,6 +30976,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31032,6 +31083,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31148,6 +31200,7 @@
     ],
     "image": "armor/cursed_helm.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31253,6 +31306,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31789,6 +31843,7 @@
     ],
     "image": "armor/cursed_helm.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -35194,6 +35249,11 @@
       272
     ],
     "image": "weapons/bow_of_tiamat.png",
+    "other_effect": [
+      "歐幣加成: 1.05",
+      "金幣加成: 1.1",
+      "經驗加成: 1.02"
+    ],
     "slots": 6,
     "description": "A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
@@ -35249,6 +35309,7 @@
     ],
     "image": "armor/baldr_hood.png",
     "slots": 6,
+    "rarity": "b",
     "description": "War-mage's hood of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects."
   },
   {
@@ -35274,6 +35335,11 @@
       272
     ],
     "image": "weapons/axe_of_tiamat.png",
+    "other_effect": [
+      "歐幣加成: 1.05",
+      "金幣加成: 1.1",
+      "經驗加成: 1.02"
+    ],
     "slots": 6,
     "description": "A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
@@ -35300,6 +35366,11 @@
       272
     ],
     "image": "weapons/staff_of_tiamat.png",
+    "other_effect": [
+      "歐幣加成: 1.05",
+      "金幣加成: 1.1",
+      "經驗加成: 1.02"
+    ],
     "slots": 6,
     "description": "A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
@@ -36913,6 +36984,7 @@
     ],
     "image": "armor/elite_nothren_helm.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries."
   },
   {
