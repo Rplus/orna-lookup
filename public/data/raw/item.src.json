@@ -10309,6 +10309,11 @@
     "zh": "金水晶",
     "tier": 9,
     "type": "Accessory",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.attack": 50,
     "stats.magic": -50,
     "stats.defense": 50,
@@ -12305,6 +12310,11 @@
     "zh": "歐坦尼",
     "tier": 9,
     "type": "Material",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "dropped_by": [
       362,
       430,
@@ -15093,6 +15103,11 @@
     "zh": "域界礦石",
     "tier": 9,
     "type": "Material",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "dropped_by": [
       279
     ],
@@ -17097,6 +17112,9 @@
       283
     ],
     "image": "wards/heavy_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are immensely heavy. Carrying these arrows in your off-hand gives the greater chance to stun an opponent, at the expense of ward."
   },
   {
@@ -17513,6 +17531,9 @@
       283
     ],
     "image": "wards/poison_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison an opponent, at the expense of Ward."
   },
   {
@@ -17537,6 +17558,9 @@
       283
     ],
     "image": "wards/fire_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are easily lit aflame. Carrying these arrows in your off-hand gives the chance to burn an opponent, at the expense of Ward."
   },
   {
@@ -17790,6 +17814,9 @@
       283
     ],
     "image": "wards/arcane_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows that are imbued with Annwn magic. Carrying these arrows in your off-hand gives the chance to give many status effects to an opponent, at the expense of Ward."
   },
   {
@@ -17815,6 +17842,9 @@
       283
     ],
     "image": "wards/blight_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows that are imbued with dragonic powers. Carrying these arrows in your off-hand gives the chance to blight an opponent, at the expense of Ward."
   },
   {
@@ -18719,6 +18749,9 @@
       283
     ],
     "image": "wards/earthen_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are charged with the power of the earth below. Carrying these arrows in your off-hand gives the chance to cause an opponent to rot, at the expense of Ward."
   },
   {
@@ -18743,6 +18776,9 @@
       283
     ],
     "image": "wards/ice_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are easily frozen. Carrying these arrows in your off-hand gives the chance to freeze an opponent, at the expense of Ward."
   },
   {
@@ -18767,6 +18803,9 @@
       283
     ],
     "image": "wards/storm_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are charged with the power of the sky. Carrying these arrows in your off-hand gives the chance to paralyze an opponent, at the expense of Ward."
   },
   {
@@ -19766,6 +19805,11 @@
     "zh": "褐鐵礦",
     "tier": 10,
     "type": "Material",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "materials": [
       829,
       825,
@@ -20632,6 +20676,11 @@
     "zh": "塔拉尼斯兜帽",
     "tier": 10,
     "type": "Head",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.defense": 265,
     "stats.resistance": 265,
     "stats.dexterity": 20,
@@ -20790,6 +20839,9 @@
       283
     ],
     "image": "wards/poison_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison or blight an opponent."
   },
   {
@@ -25276,6 +25328,11 @@
     "tier": 10,
     "type": "Material",
     "boss": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "materials": [
       1247,
       1249,
@@ -27267,6 +27324,9 @@
       283
     ],
     "image": "wards/arcane_arrows.png",
+    "other_effect": [
+      "技能: Volley III"
+    ],
     "description": "A quiver of arrows that are imbued with unknown magic. They greatly increase ones's attack power at the sacrifice of Ward."
   },
   {
@@ -30391,6 +30451,11 @@
     "zh": "蔚藍鯉魚",
     "tier": 1,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish1.png",
     "description": "A small fish."
   },
@@ -30400,6 +30465,11 @@
     "zh": "巴羅爾北美狗魚",
     "tier": 6,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish3.png",
     "description": "A quite rare fish, seemingly ascended from the Underworld."
   },
@@ -30409,6 +30479,11 @@
     "zh": "緋紅鯛魚",
     "tier": 3,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish3.png",
     "description": "Ouch! It bit you."
   },
@@ -30418,6 +30493,11 @@
     "zh": "灰燼鯛魚",
     "tier": 5,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish3.png",
     "description": "A violent fish. Stories say these fish can bring down a mighty bear."
   },
@@ -30427,6 +30507,11 @@
     "zh": "翡翠鱒魚",
     "tier": 2,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish2.png",
     "description": "A green-hued fish, slightly rarer than what one would usually see."
   },
@@ -30436,6 +30521,11 @@
     "zh": "鱸魚",
     "tier": 3,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish2.png",
     "description": "A medium sized fish, often seen in larger bodies of water."
   },
@@ -30445,6 +30535,11 @@
     "zh": "平凡的魚",
     "tier": 1,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish1.png",
     "description": "A small fish."
   },
@@ -31599,6 +31694,9 @@
     "tier": 6,
     "type": "Head",
     "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.defense": 148,
     "stats.resistance": 72,
     "stats.ward": 1,
@@ -31845,6 +31943,11 @@
     "zh": "黃褐色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -31892,6 +31995,11 @@
     "zh": "翠綠色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -31912,6 +32020,11 @@
     "zh": "碧藍色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -32014,6 +32127,11 @@
     "zh": "血紅色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -34015,6 +34133,9 @@
       345
     ],
     "image": "wards/heavy_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "slots": 1,
     "description": "Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward."
   },
@@ -35321,6 +35442,11 @@
     "zh": "高端北族之盾",
     "tier": 9,
     "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "element": "Water",
     "stats.ward": 24,
     "dropped_by": [
@@ -35338,6 +35464,11 @@
     "zh": "阿斯嘉之盾",
     "tier": 10,
     "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "element": "Water",
     "stats.ward": 28,
     "dropped_by": [
@@ -35490,6 +35621,9 @@
     "zh": "高端弗摩爾族盔甲",
     "tier": 9,
     "type": "Armor",
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.defense": 199,
     "stats.resistance": 19,
     "dropped_by": [
@@ -35778,6 +35912,9 @@
     "zh": "高端德肯尼亞族腿甲",
     "tier": 8,
     "type": "Legs",
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.defense": 178,
     "stats.dexterity": 30,
     "stats.hp": 82,
