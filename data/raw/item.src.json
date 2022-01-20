@@ -722,6 +722,7 @@
       263
     ],
     "image": "weapons/sword_and_shield.png",
+    "two_handed": 1,
     "description": "A simple sword and shield."
   },
   {
@@ -1169,6 +1170,7 @@
       345
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "description": "A simple pair of kunai."
   },
   {
@@ -1308,6 +1310,7 @@
       276
     ],
     "image": "weapons/steel_guard.png",
+    "two_handed": 1,
     "description": "A sword and shield pairing made of hardened steel."
   },
   {
@@ -1505,6 +1508,7 @@
       345
     ],
     "image": "weapons/flame_guard.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A sword and shield pairing enchanted with the power of fire."
   },
@@ -1530,6 +1534,7 @@
       280
     ],
     "image": "weapons/frost_daggers.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A pair of of daggers enchanted with the power of the cold."
   },
@@ -2064,6 +2069,7 @@
       275
     ],
     "image": "weapons/kris.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "Two sharp daggers made of the finest silver. Useful for hunting the undead."
   },
@@ -2732,6 +2738,7 @@
       276
     ],
     "image": "weapons/might.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "An axe an shield pairing suitable of taking down great beasts."
   },
@@ -10302,6 +10309,11 @@
     "zh": "金水晶",
     "tier": 9,
     "type": "Accessory",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.attack": 50,
     "stats.magic": -50,
     "stats.defense": 50,
@@ -10568,6 +10580,9 @@
       261
     ],
     "image": "weapons/oxen_axe.png",
+    "other_effect": [
+      "技能: Bastion II"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
@@ -12295,6 +12310,11 @@
     "zh": "歐坦尼",
     "tier": 9,
     "type": "Material",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "dropped_by": [
       362,
       430,
@@ -13965,6 +13985,7 @@
       283
     ],
     "image": "weapons/thorns.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "Prickly blades of a woodland creature. It has a small chance to poison an opponent."
   },
@@ -14282,6 +14303,7 @@
       282
     ],
     "image": "weapons/kerberos_claws.png",
+    "two_handed": 1,
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
   {
@@ -15081,6 +15103,11 @@
     "zh": "域界礦石",
     "tier": 9,
     "type": "Material",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "dropped_by": [
       279
     ],
@@ -15789,6 +15816,7 @@
       345
     ],
     "image": "weapons/bearclaw.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A large unrefined blade of giant warriors."
   },
@@ -17084,6 +17112,9 @@
       283
     ],
     "image": "wards/heavy_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are immensely heavy. Carrying these arrows in your off-hand gives the greater chance to stun an opponent, at the expense of ward."
   },
   {
@@ -17500,6 +17531,9 @@
       283
     ],
     "image": "wards/poison_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison an opponent, at the expense of Ward."
   },
   {
@@ -17524,6 +17558,9 @@
       283
     ],
     "image": "wards/fire_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are easily lit aflame. Carrying these arrows in your off-hand gives the chance to burn an opponent, at the expense of Ward."
   },
   {
@@ -17777,6 +17814,9 @@
       283
     ],
     "image": "wards/arcane_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows that are imbued with Annwn magic. Carrying these arrows in your off-hand gives the chance to give many status effects to an opponent, at the expense of Ward."
   },
   {
@@ -17802,6 +17842,9 @@
       283
     ],
     "image": "wards/blight_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows that are imbued with dragonic powers. Carrying these arrows in your off-hand gives the chance to blight an opponent, at the expense of Ward."
   },
   {
@@ -18706,6 +18749,9 @@
       283
     ],
     "image": "wards/earthen_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are charged with the power of the earth below. Carrying these arrows in your off-hand gives the chance to cause an opponent to rot, at the expense of Ward."
   },
   {
@@ -18730,6 +18776,9 @@
       283
     ],
     "image": "wards/ice_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are easily frozen. Carrying these arrows in your off-hand gives the chance to freeze an opponent, at the expense of Ward."
   },
   {
@@ -18754,6 +18803,9 @@
       283
     ],
     "image": "wards/storm_arrows.png",
+    "other_effect": [
+      "技能: Volley"
+    ],
     "description": "A quiver of arrows that are charged with the power of the sky. Carrying these arrows in your off-hand gives the chance to paralyze an opponent, at the expense of Ward."
   },
   {
@@ -19537,6 +19589,9 @@
       439
     ],
     "image": "wards/rune_dagger.png",
+    "other_effect": [
+      "技能: Parry"
+    ],
     "description": "A relic of Merlin's eccentric collection, this dagger grants increased attack power at the expense of other stats."
   },
   {
@@ -19695,6 +19750,9 @@
       283
     ],
     "image": "weapons/gungnir.png",
+    "other_effect": [
+      "技能: Impale"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands."
@@ -19747,6 +19805,11 @@
     "zh": "褐鐵礦",
     "tier": 10,
     "type": "Material",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "materials": [
       829,
       825,
@@ -20613,6 +20676,11 @@
     "zh": "塔拉尼斯兜帽",
     "tier": 10,
     "type": "Head",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.defense": 265,
     "stats.resistance": 265,
     "stats.dexterity": 20,
@@ -20771,6 +20839,9 @@
       283
     ],
     "image": "wards/poison_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison or blight an opponent."
   },
   {
@@ -20906,6 +20977,9 @@
     "tier": 9,
     "type": "Weapon",
     "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.attack": 222,
     "stats.ward": 24,
     "dropped_by": [
@@ -20915,6 +20989,9 @@
       473
     ],
     "image": "weapons/fallen_axe.png",
+    "other_effect": [
+      "技能: Upward Strike II"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Axe of Mammon, the demon of hubris."
@@ -21117,6 +21194,7 @@
       281
     ],
     "image": "weapons/hallowed_blade.png",
+    "two_handed": 1,
     "slots": 10,
     "description": "An intricate sword of the great Pumpkinhead.  It offers immense attack power at the expense of Ward."
   },
@@ -22647,6 +22725,9 @@
       348
     ],
     "image": "useables/canon_waystone.png",
+    "other_effect": [
+      "技能: Mana Burn"
+    ],
     "description": "A crystalline item capable of giving its carrier many temporary status effects."
   },
   {
@@ -22678,6 +22759,9 @@
       275
     ],
     "image": "useables/canon_waystone.png",
+    "other_effect": [
+      "技能: Mana Burn II"
+    ],
     "description": "A crystalline item capable of giving its carrier many temporary effects."
   },
   {
@@ -22818,6 +22902,10 @@
       269
     ],
     "image": "weapons/steel_guard.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
+    "two_handed": 1,
     "slots": 8,
     "description": "Sword and shield pairing of the fabled Mighty Slime."
   },
@@ -23371,6 +23459,10 @@
       473
     ],
     "image": "weapons/fallen_axe.png",
+    "other_effect": [
+      "技能: Upward Strike II"
+    ],
+    "two_handed": 1,
     "slots": 14,
     "description": "Axe of Mammon, the demon of hubris."
   },
@@ -24563,6 +24655,9 @@
       473
     ],
     "image": "weapons/fallen_daggers.png",
+    "other_effect": [
+      "技能: Envy"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Daggers carried by Mammon, the demon of hubris."
@@ -25233,6 +25328,11 @@
     "tier": 10,
     "type": "Material",
     "boss": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "materials": [
       1247,
       1249,
@@ -26985,6 +27085,7 @@
       263
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "description": "A sharp pair of daggers. They slightly drain HP from an enemies with damage dealt."
   },
   {
@@ -27223,6 +27324,9 @@
       283
     ],
     "image": "wards/arcane_arrows.png",
+    "other_effect": [
+      "技能: Volley III"
+    ],
     "description": "A quiver of arrows that are imbued with unknown magic. They greatly increase ones's attack power at the sacrifice of Ward."
   },
   {
@@ -27492,6 +27596,7 @@
       345
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "description": "A sharp pair of daggers."
   },
   {
@@ -29789,6 +29894,9 @@
       261
     ],
     "image": "weapons/oxen_axe.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
@@ -30343,6 +30451,11 @@
     "zh": "蔚藍鯉魚",
     "tier": 1,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish1.png",
     "description": "A small fish."
   },
@@ -30352,6 +30465,11 @@
     "zh": "巴羅爾北美狗魚",
     "tier": 6,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish3.png",
     "description": "A quite rare fish, seemingly ascended from the Underworld."
   },
@@ -30361,6 +30479,11 @@
     "zh": "緋紅鯛魚",
     "tier": 3,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish3.png",
     "description": "Ouch! It bit you."
   },
@@ -30370,6 +30493,11 @@
     "zh": "灰燼鯛魚",
     "tier": 5,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish3.png",
     "description": "A violent fish. Stories say these fish can bring down a mighty bear."
   },
@@ -30379,6 +30507,11 @@
     "zh": "翡翠鱒魚",
     "tier": 2,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish2.png",
     "description": "A green-hued fish, slightly rarer than what one would usually see."
   },
@@ -30388,6 +30521,11 @@
     "zh": "鱸魚",
     "tier": 3,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish2.png",
     "description": "A medium sized fish, often seen in larger bodies of water."
   },
@@ -30397,6 +30535,11 @@
     "zh": "平凡的魚",
     "tier": 1,
     "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "image": "materials/fish1.png",
     "description": "A small fish."
   },
@@ -31551,6 +31694,9 @@
     "tier": 6,
     "type": "Head",
     "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.defense": 148,
     "stats.resistance": 72,
     "stats.ward": 1,
@@ -31797,6 +31943,11 @@
     "zh": "黃褐色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -31844,6 +31995,11 @@
     "zh": "翠綠色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -31864,6 +32020,11 @@
     "zh": "碧藍色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -31966,6 +32127,11 @@
     "zh": "血紅色的刻耳柏洛斯之眼",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 4,
     "stats.crit": 1,
     "stats.hp": 24,
@@ -32730,6 +32896,9 @@
       276
     ],
     "image": "weapons/kris.png",
+    "other_effect": [
+      "技能: Lay Spikes"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit."
@@ -33431,6 +33600,9 @@
       473
     ],
     "image": "weapons/fallen_staff.png",
+    "other_effect": [
+      "技能: Despair"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Archistaff of Mammon, the demon of hubris."
@@ -33636,6 +33808,9 @@
       473
     ],
     "image": "weapons/fallen_staff.png",
+    "other_effect": [
+      "技能: Despair"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Archistaff of Mammon, the demon of hubris."
@@ -33926,6 +34101,9 @@
       266
     ],
     "image": "wards/heavy_arrows.png",
+    "other_effect": [
+      "技能: Volley III"
+    ],
     "slots": 2,
     "description": "Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward."
   },
@@ -33955,6 +34133,9 @@
       345
     ],
     "image": "wards/heavy_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "slots": 1,
     "description": "Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward."
   },
@@ -34593,6 +34774,7 @@
       280
     ],
     "image": "weapons/trev_staff.png",
+    "two_handed": 1,
     "slots": 12,
     "description": "Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands."
   },
@@ -34667,6 +34849,10 @@
       280
     ],
     "image": "weapons/trev_staff.png",
+    "other_effect": [
+      "技能: Brilliant Lights"
+    ],
+    "two_handed": 1,
     "slots": 12,
     "description": "Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands."
   },
@@ -35256,6 +35442,11 @@
     "zh": "高端北族之盾",
     "tier": 9,
     "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "element": "Water",
     "stats.ward": 24,
     "dropped_by": [
@@ -35273,6 +35464,11 @@
     "zh": "阿斯嘉之盾",
     "tier": 10,
     "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "element": "Water",
     "stats.ward": 28,
     "dropped_by": [
@@ -35425,6 +35621,9 @@
     "zh": "高端弗摩爾族盔甲",
     "tier": 9,
     "type": "Armor",
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.defense": 199,
     "stats.resistance": 19,
     "dropped_by": [
@@ -35713,6 +35912,9 @@
     "zh": "高端德肯尼亞族腿甲",
     "tier": 8,
     "type": "Legs",
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.defense": 178,
     "stats.dexterity": 30,
     "stats.hp": 82,
