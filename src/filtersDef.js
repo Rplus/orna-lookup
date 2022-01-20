@@ -35,17 +35,6 @@ export const filtersDef = [
     sort: true,
   },
   {
-    prop: 'slots',
-    label: '槽位數',
-    type: 'number',
-    sort: true,
-  },
-  {
-    prop: 'two_handed',
-    label: '雙手使用',
-    type: 'checkbox',
-  },
-  {
     prop: 'prevents',
     label: '-免疫(敵)',
     type: 'text',
@@ -68,6 +57,17 @@ export const filtersDef = [
     label: '+給予(己)',
     type: 'text',
     list: 'gives',
+  },
+  {
+    prop: 'slots',
+    label: '槽位數',
+    type: 'number',
+    sort: true,
+  },
+  {
+    prop: 'two_handed',
+    label: '雙手使用',
+    type: 'checkbox',
   },
   {
     prop: 'element',
@@ -166,6 +166,11 @@ export const filtersDef = [
     label: '.血量',
     type: 'number',
     sort: true,
+  },
+  {
+    prop: 'other_effect',
+    label: '加成/技能',
+    type: 'text',
   },
   {
     prop: 'context',
