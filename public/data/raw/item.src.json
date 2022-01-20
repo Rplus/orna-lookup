@@ -722,6 +722,7 @@
       263
     ],
     "image": "weapons/sword_and_shield.png",
+    "two_handed": 1,
     "description": "A simple sword and shield."
   },
   {
@@ -1169,6 +1170,7 @@
       345
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "description": "A simple pair of kunai."
   },
   {
@@ -1308,6 +1310,7 @@
       276
     ],
     "image": "weapons/steel_guard.png",
+    "two_handed": 1,
     "description": "A sword and shield pairing made of hardened steel."
   },
   {
@@ -1505,6 +1508,7 @@
       345
     ],
     "image": "weapons/flame_guard.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A sword and shield pairing enchanted with the power of fire."
   },
@@ -1530,6 +1534,7 @@
       280
     ],
     "image": "weapons/frost_daggers.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A pair of of daggers enchanted with the power of the cold."
   },
@@ -2064,6 +2069,7 @@
       275
     ],
     "image": "weapons/kris.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "Two sharp daggers made of the finest silver. Useful for hunting the undead."
   },
@@ -2732,6 +2738,7 @@
       276
     ],
     "image": "weapons/might.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "An axe an shield pairing suitable of taking down great beasts."
   },
@@ -10568,6 +10575,9 @@
       261
     ],
     "image": "weapons/oxen_axe.png",
+    "other_effect": [
+      "技能: Bastion II"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
@@ -13965,6 +13975,7 @@
       283
     ],
     "image": "weapons/thorns.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "Prickly blades of a woodland creature. It has a small chance to poison an opponent."
   },
@@ -14282,6 +14293,7 @@
       282
     ],
     "image": "weapons/kerberos_claws.png",
+    "two_handed": 1,
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
   {
@@ -15789,6 +15801,7 @@
       345
     ],
     "image": "weapons/bearclaw.png",
+    "two_handed": 1,
     "slots": 8,
     "description": "A large unrefined blade of giant warriors."
   },
@@ -19537,6 +19550,9 @@
       439
     ],
     "image": "wards/rune_dagger.png",
+    "other_effect": [
+      "技能: Parry"
+    ],
     "description": "A relic of Merlin's eccentric collection, this dagger grants increased attack power at the expense of other stats."
   },
   {
@@ -19695,6 +19711,9 @@
       283
     ],
     "image": "weapons/gungnir.png",
+    "other_effect": [
+      "技能: Impale"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands."
@@ -20906,6 +20925,9 @@
     "tier": 9,
     "type": "Weapon",
     "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
     "stats.attack": 222,
     "stats.ward": 24,
     "dropped_by": [
@@ -20915,6 +20937,9 @@
       473
     ],
     "image": "weapons/fallen_axe.png",
+    "other_effect": [
+      "技能: Upward Strike II"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Axe of Mammon, the demon of hubris."
@@ -21117,6 +21142,7 @@
       281
     ],
     "image": "weapons/hallowed_blade.png",
+    "two_handed": 1,
     "slots": 10,
     "description": "An intricate sword of the great Pumpkinhead.  It offers immense attack power at the expense of Ward."
   },
@@ -22647,6 +22673,9 @@
       348
     ],
     "image": "useables/canon_waystone.png",
+    "other_effect": [
+      "技能: Mana Burn"
+    ],
     "description": "A crystalline item capable of giving its carrier many temporary status effects."
   },
   {
@@ -22678,6 +22707,9 @@
       275
     ],
     "image": "useables/canon_waystone.png",
+    "other_effect": [
+      "技能: Mana Burn II"
+    ],
     "description": "A crystalline item capable of giving its carrier many temporary effects."
   },
   {
@@ -22818,6 +22850,10 @@
       269
     ],
     "image": "weapons/steel_guard.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
+    "two_handed": 1,
     "slots": 8,
     "description": "Sword and shield pairing of the fabled Mighty Slime."
   },
@@ -23371,6 +23407,10 @@
       473
     ],
     "image": "weapons/fallen_axe.png",
+    "other_effect": [
+      "技能: Upward Strike II"
+    ],
+    "two_handed": 1,
     "slots": 14,
     "description": "Axe of Mammon, the demon of hubris."
   },
@@ -24563,6 +24603,9 @@
       473
     ],
     "image": "weapons/fallen_daggers.png",
+    "other_effect": [
+      "技能: Envy"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Daggers carried by Mammon, the demon of hubris."
@@ -26985,6 +27028,7 @@
       263
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "description": "A sharp pair of daggers. They slightly drain HP from an enemies with damage dealt."
   },
   {
@@ -27492,6 +27536,7 @@
       345
     ],
     "image": "weapons/kunai.png",
+    "two_handed": 1,
     "description": "A sharp pair of daggers."
   },
   {
@@ -29789,6 +29834,9 @@
       261
     ],
     "image": "weapons/oxen_axe.png",
+    "other_effect": [
+      "技能: Bastion III"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
@@ -32730,6 +32778,9 @@
       276
     ],
     "image": "weapons/kris.png",
+    "other_effect": [
+      "技能: Lay Spikes"
+    ],
     "two_handed": 1,
     "slots": 10,
     "description": "Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit."
@@ -33431,6 +33482,9 @@
       473
     ],
     "image": "weapons/fallen_staff.png",
+    "other_effect": [
+      "技能: Despair"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Archistaff of Mammon, the demon of hubris."
@@ -33636,6 +33690,9 @@
       473
     ],
     "image": "weapons/fallen_staff.png",
+    "other_effect": [
+      "技能: Despair"
+    ],
     "two_handed": 1,
     "slots": 14,
     "description": "Archistaff of Mammon, the demon of hubris."
@@ -33926,6 +33983,9 @@
       266
     ],
     "image": "wards/heavy_arrows.png",
+    "other_effect": [
+      "技能: Volley III"
+    ],
     "slots": 2,
     "description": "Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward."
   },
@@ -34593,6 +34653,7 @@
       280
     ],
     "image": "weapons/trev_staff.png",
+    "two_handed": 1,
     "slots": 12,
     "description": "Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands."
   },
@@ -34667,6 +34728,10 @@
       280
     ],
     "image": "weapons/trev_staff.png",
+    "other_effect": [
+      "技能: Brilliant Lights"
+    ],
+    "two_handed": 1,
     "slots": 12,
     "description": "Staff of Trevelyan, the storied Lyonesse Warlock. Wearing it will offer one great magical abilities, but must be held with both hands."
   },
