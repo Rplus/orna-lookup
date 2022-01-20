@@ -28,7 +28,7 @@ outputJSON(allItems, `./public/raw-data/item.added.min.json`, 0);
 function checking(pid) {
   let page;
   try {
-    page = fs.readFileSync(`./task/items/items?show=${pid}`, 'utf8');
+    page = fs.readFileSync(`./task/items/old-items-page/items?show=${pid}`, 'utf8');
   } catch (err) {
     console.error(pid, 'missing');
   }
