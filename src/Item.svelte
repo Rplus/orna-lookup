@@ -134,10 +134,7 @@
 
 
 <style>
-.item-details {
-  box-shadow: 3px 0 var(--rarity-color, #0000);
-}
-.item-rarity--p { --rarity-color: #8088; }
+.item-rarity--p { --rarity-color: #c0c8; }
 .item-rarity--b { --rarity-color: #44f8; }
 .item-rarity--g { --rarity-color: #0808; }
 
@@ -221,10 +218,24 @@
 .item-img-box {
   --item-img-size: min(10vw, 96px);
 
+  position: relative;
   display: block;
   width: var(--item-img-size, 96px);
   margin-left: 3vw;
   margin-right: 3vw;
+}
+.item-img-box::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  z-index: -1;
+  height: 5%;
+  color: var(--rarity-color, #0000);
+  background-color: currentcolor;
+  box-shadow: 0 0 10px 10px;
+  border-radius: 50%;
 }
 
 :global(.items.showDetails) .item-img-box,
