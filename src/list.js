@@ -69,6 +69,7 @@ export function getList(data) {
     prevents: [...new Set(data.map(i => i.prevents).flat())],
     gives: [...new Set(data.map(i => i.gives).flat())],
     cures: [...new Set(data.map(i => i.cures).flat())],
+    rarity: [...new Set(data.map(i => i.rarity))],
     equipped_by: [...new Set(data.map(i => i.equipped_by).flat().filter(Boolean))],
   }
 

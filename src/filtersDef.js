@@ -77,6 +77,12 @@ export const filtersDef = [
     sort: true,
   },
   {
+    prop: 'rarity',
+    label: '稀有度',
+    type: 'text',
+    list: 'rarity',
+  },
+  {
     prop: 'boss',
     label: '👿 BOSS',
     type: 'checkbox',
