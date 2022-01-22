@@ -138,7 +138,7 @@
   box-shadow: 3px 0 var(--rarity-color, #0000);
 }
 .item-rarity--p { --rarity-color: #8088; }
-.item-rarity--b { --rarity-color: #00f8; }
+.item-rarity--b { --rarity-color: #44f8; }
 .item-rarity--g { --rarity-color: #0808; }
 
 .summary {
