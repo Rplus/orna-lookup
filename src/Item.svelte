@@ -42,7 +42,7 @@
 
 </script>
 
-<details class="item-details">
+<details class="item-details item-rarity--{item.rarity || 'w'}">
   <summary class="summary">
     <!-- {item.id} -->
     <ruby>
@@ -134,6 +134,13 @@
 
 
 <style>
+.item-details {
+  box-shadow: 3px 0 var(--rarity-color, #0000);
+}
+.item-rarity--p { --rarity-color: #8088; }
+.item-rarity--b { --rarity-color: #00f8; }
+.item-rarity--g { --rarity-color: #0808; }
+
 .summary {
   position: relative;
   z-index: 1;
