@@ -10,6 +10,7 @@
 
 <details open>
   <summary>Drop Items</summary>
+  {#if items.filter(Boolean).length}
   {#each items.sort(sortByTier) as item (item.id)}
     <div class="item">
       <img class="item-img" src="https://playorna.com/static/img/{item.image}" alt="{item.name} - {item.zh}" />
@@ -21,6 +22,7 @@
       </sup>
     </div>
   {/each}
+  {/if}
 </details>
 
 
