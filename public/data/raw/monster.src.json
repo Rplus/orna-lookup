@@ -14328,5 +14328,187 @@
       1142
     ],
     "image": "monsters/gateway.png"
+  },
+  {
+    "id": 496,
+    "name": "Fallen Ashen Phoenix",
+    "zh": "墮落蒼白鳳凰",
+    "tier": 9,
+    "level": 200,
+    "boss": 1,
+    "spawns": [
+      "Gauntlet Only"
+    ],
+    "immune_to": [
+      "Fire"
+    ],
+    "resistant_to": [
+      "Holy",
+      "Lightning"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Petrified",
+      "Rot"
+    ],
+    "skills": [
+      405,
+      422,
+      367,
+      180,
+      623,
+      217
+    ],
+    "drops": [
+      1525,
+      1524,
+      1517,
+      1520,
+      1521,
+      1522,
+      1516,
+      1518,
+      1519,
+      1523
+    ],
+    "image": "bosses/ashen_phoenix.png"
+  },
+  {
+    "id": 497,
+    "name": "Great Phoenician Mage",
+    "zh": "上級緋尼斯族法師",
+    "tier": 9,
+    "skills": [
+      625,
+      405,
+      367,
+      180,
+      623
+    ],
+    "drops": [
+      963,
+      973,
+      984
+    ],
+    "image": "packs/phoenician/2_f.png"
+  },
+  {
+    "id": 498,
+    "name": "Fallen Phoenix",
+    "zh": "墮落鳳凰",
+    "tier": 5,
+    "level": 100,
+    "boss": 1,
+    "spawns": [
+      "Gauntlet Only"
+    ],
+    "immune_to": [
+      "Fire"
+    ],
+    "resistant_to": [
+      "Holy",
+      "Lightning"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Petrified",
+      "Rot"
+    ],
+    "skills": [
+      367,
+      307,
+      180,
+      632,
+      217,
+      107
+    ],
+    "drops": [
+      1514,
+      1508,
+      1510,
+      1511,
+      1513,
+      1507,
+      1506,
+      1509,
+      1512,
+      1515
+    ],
+    "image": "bosses/phoenix.png"
+  },
+  {
+    "id": 499,
+    "name": "Phoenician Mage",
+    "zh": "緋尼斯族法師",
+    "tier": 5,
+    "spawns": [
+      "Past Event (currently unavailable)"
+    ],
+    "skills": [
+      367,
+      122,
+      131,
+      180
+    ],
+    "drops": [
+      965,
+      972,
+      981
+    ],
+    "image": "packs/phoenician/2_f.png"
+  },
+  {
+    "id": 500,
+    "name": "Phoenician",
+    "zh": "緋尼斯族",
+    "tier": 5,
+    "spawns": [
+      "Past Event (currently unavailable)"
+    ],
+    "skills": [
+      458,
+      305,
+      367
+    ],
+    "drops": [
+      983,
+      968,
+      975,
+      974,
+      987,
+      969
+    ],
+    "image": "packs/phoenician/1_m.png"
+  },
+  {
+    "id": 501,
+    "name": "Great Phoenician",
+    "zh": "上級緋尼斯族",
+    "tier": 9,
+    "skills": [
+      394,
+      602,
+      367,
+      415
+    ],
+    "drops": [
+      985,
+      970,
+      976,
+      995,
+      986,
+      964
+    ],
+    "image": "packs/phoenician/1_m.png"
   }
 ]
