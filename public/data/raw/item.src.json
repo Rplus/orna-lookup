@@ -342,6 +342,9 @@
       428
     ],
     "image": "useables/exp_potion.png",
+    "other_effect": [
+      "經驗加成: 2"
+    ],
     "description": "A sour tasting elixir that doubles experience earned for a limited time."
   },
   {
@@ -380,6 +383,7 @@
     "zh": "火炬",
     "tier": 1,
     "type": "Item",
+    "view_distance": 1,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -12958,7 +12962,11 @@
       251
     ],
     "image": "weapons/earth_staff.png",
+    "other_effect": [
+      "幸運加成: 1.1"
+    ],
     "slots": 6,
+    "rarity": "g",
     "description": "Staff of a lost dungeon explorer. It seems to have developed quite some power while resting deep within the land."
   },
   {
@@ -13562,7 +13570,6 @@
     "other_effect": [
       "歐幣加成: 1.5",
       "金幣加成: 1.5",
-      "怪物: 1.5",
       "經驗加成: 1.5"
     ],
     "description": "A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned."
@@ -22733,6 +22740,7 @@
     "tier": 5,
     "type": "Off-hand",
     "boss": 1,
+    "view_distance": 1,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -22764,6 +22772,7 @@
     "tier": 9,
     "type": "Off-hand",
     "boss": 1,
+    "view_distance": 1,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -30242,7 +30251,6 @@
     "other_effect": [
       "歐幣加成: 1.05",
       "金幣加成: 1.05",
-      "怪物: 1.05",
       "經驗加成: 1.05"
     ],
     "description": "A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned."
@@ -36809,6 +36817,9 @@
       360
     ],
     "image": "weapons/sandstorm.png",
+    "other_effect": [
+      "金幣加成: 1.1"
+    ],
     "slots": 6,
     "description": "A rare scimitar of the sands. Slightly increases gold earned."
   },
@@ -37117,6 +37128,9 @@
       407
     ],
     "image": "acc/crystal_eye.png",
+    "other_effect": [
+      "視野加成: +1%"
+    ],
     "description": "An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see."
   },
   {
