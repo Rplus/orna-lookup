@@ -474,3 +474,9 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 492,Elite Draconian,高端德肯尼亞族,8,,,,"[""Gauntlet Only""]","[""Dragon""]","[""Dark"",""Holy""]",,,,"[423,201,202,581]","[266,1439,1478,1479,1438,1455,1450]",,monsters/elite_draco.png
 493,Elite Draconian Mage,高端德肯尼亞族法師,8,,,,"[""Gauntlet Only""]","[""Dragon""]","[""Dark"",""Holy""]",,,,"[97,277,278,420,279,280]","[1446,1480,1451]",,monsters/elite_draco_mage.png
 494,Balor Gateway,巴羅爾任意門,9,,,,"[""Gauntlet Only""]","[""Arcane""]","[""Fire"",""Lightning""]","[""Dark"",""Dragon"",""Holy""]","[""Burning"",""Bleeding"",""Frozen"",""Paralyzed"",""Poisoned"",""Blight"",""Blind"",""Asleep"",""Stunned"",""Petrified"",""Rot""]",,"[467,562,466,561,92]","[256,259,265,273,294,280,281,1142]",,monsters/gateway.png
+496,Fallen Ashen Phoenix,墮落蒼白鳳凰,9,200,1,,"[""Gauntlet Only""]",,"[""Fire""]","[""Holy"",""Lightning""]","[""Burning"",""Frozen"",""Paralyzed"",""Blight"",""Blind"",""Asleep"",""Petrified"",""Rot""]",,"[405,422,367,180,623,217]","[1525,1524,1517,1520,1521,1522,1516,1518,1519,1523]",,bosses/ashen_phoenix.png
+497,Great Phoenician Mage,上級緋尼斯族法師,9,,,,,,,,,,"[625,405,367,180,623]","[963,973,984]",,packs/phoenician/2_f.png
+498,Fallen Phoenix,墮落鳳凰,5,100,1,,"[""Gauntlet Only""]",,"[""Fire""]","[""Holy"",""Lightning""]","[""Burning"",""Frozen"",""Paralyzed"",""Blight"",""Blind"",""Asleep"",""Petrified"",""Rot""]",,"[367,307,180,632,217,107]","[1514,1508,1510,1511,1513,1507,1506,1509,1512,1515]",,bosses/phoenix.png
+499,Phoenician Mage,緋尼斯族法師,5,,,,"[""Past Event (currently unavailable)""]",,,,,,"[367,122,131,180]","[965,972,981]",,packs/phoenician/2_f.png
+500,Phoenician,鳳凰,5,,,,"[""Past Event (currently unavailable)""]",,,,,,"[458,305,367]","[983,968,975,974,987,969]",,packs/phoenician/1_m.png
+501,Great Phoenician,上級緋尼斯族,9,,,,,,,,,,"[394,602,367,415]","[985,970,976,995,986,964]",,packs/phoenician/1_m.png
