@@ -211,6 +211,7 @@
   font-weight: normal;
   color: #fff9;
   font-family: monospace;
+  white-space: nowrap;
 }
 
 .item-info > * {
