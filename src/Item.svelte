@@ -3,7 +3,7 @@
   import { getImgSrc, checkingImg } from './image.js';
   import { words } from './list.js';
   import { getZh } from './u.js';
-  import { dialog, data } from './stores.js';
+  import { dialog, data, fixForm } from './stores.js';
   import ListDetail from './_ListDetail.svelte';
 
   const statProps = [
@@ -37,6 +37,13 @@
       open: true,
       item: item,
       stats: stats,
+    })
+  }
+
+  function goToFixForm() {
+    fixForm.set({
+      open: true,
+      item: item,
     })
   }
 
@@ -128,6 +135,8 @@
         </pre>
       </details>
     </div>
+
+    <div class="fixform" on:click={goToFixForm} title="fix data">🛠️</div>
   </div>
 </details>
 
@@ -302,6 +311,18 @@ table {
 
 table th {
   padding-right: 0.5em;
+}
+
+.fixform {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.2;
+  transition: opacity .3s;
+  cursor: pointer;
+}
+.fixform:hover {
+  opacity: 1;
 }
 
 </style>

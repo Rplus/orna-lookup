@@ -174,6 +174,7 @@
   }
 
   .items li {
+    position: relative;
     margin-bottom: 1em;
     background-color: #9991;
   }

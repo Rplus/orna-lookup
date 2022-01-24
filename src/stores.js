@@ -12,6 +12,11 @@ export const filterLists = writable({});
 export const dialog = writable({
   open: false,
 });
+export const fixForm = writable({
+  open: false,
+  item: null,
+  props: [],
+});
 
 Promise.all(
   [
@@ -30,6 +35,11 @@ Promise.all(
   window.ddd = items;
 
   filterLists.set(getList(items));
+  fixForm.set({
+    open: false,
+    item: null,
+    props: [...new Set(items.map(i => Object.keys(i)).flat())],
+  })
 
   let list = getList(items);
   data.set({

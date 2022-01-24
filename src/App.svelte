@@ -4,6 +4,7 @@
   import List from './List.svelte';
   import Item from './Item.svelte';
   import Dialog from './Dialog.svelte';
+  import FixForm from './FixForm.svelte';
   import { filtersDef } from './filtersDef.js';
   import { escapeRegExp } from './u.js';
   import { setContext } from 'svelte';
@@ -33,6 +34,7 @@
     <List items={items} />
 
     <Dialog />
+    <FixForm />
   {:else}
     <hr />
     <hr />

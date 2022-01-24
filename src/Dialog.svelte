@@ -99,9 +99,9 @@
   on:keydown={_keydown}
   tabindex="-1"
 >
-  <div class="overlay" on:click={close} />
+  <div class="dialog__overlay" on:click={close} />
 
-  <main class="content">
+  <main class="dialog__content">
     {#if $dialog.item}
       <form>
         <table class="assess-table">
@@ -160,44 +160,6 @@
 
 
 <style>
-.dialog[hidden] {
-  display: none;
-}
-
-.dialog {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 10;
-  display: flex;
-  place-items: center;
-  place-content: center;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: #000a;
-  backdrop-filter: blur(3px);
-}
-
-.content {
-  position: relative;
-  z-index: 10;
-  width: auto;
-  min-height: 10em;
-  max-width: 85vw;
-  max-height: 90vh;
-  padding: 2em;
-  overflow: auto;
-  background-color: #28231f;
-}
-
 .assess-table caption {
   font-size: larger;
   margin-bottom: 1em;
