@@ -17605,6 +17605,9 @@
     "zh": "利器鋪設",
     "tier": 10,
     "type": "Buff",
+    "gives": [
+      "T. Crit ↑↑↑"
+    ],
     "description": "Lay spikes around your opponent, potentially greatly increasing damage and the chance for a critical strike."
   },
   {

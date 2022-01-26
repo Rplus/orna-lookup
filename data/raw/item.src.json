@@ -8592,6 +8592,7 @@
     ],
     "image": "armor/ljosalfar_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Hood of a Ljosalfar mage."
   },
   {
@@ -14403,6 +14404,7 @@
     ],
     "image": "weapons/draco_sword.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A simple sword wielded by kobold warriors."
   },
   {
@@ -14425,6 +14427,7 @@
     ],
     "image": "weapons/draco_sceptre.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A simple staff wielded by kobold mages."
   },
   {
@@ -15823,6 +15826,9 @@
       345
     ],
     "image": "weapons/bearclaw.png",
+    "other_effect": [
+      "技能: 豬突猛進"
+    ],
     "two_handed": 1,
     "slots": 8,
     "description": "A large unrefined blade of giant warriors."
@@ -15848,6 +15854,7 @@
     ],
     "image": "weapons/archistaff.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An archistaff of Avalon that is capable of lowering an opponent's resistance."
   },
   {
@@ -16202,6 +16209,7 @@
     ],
     "image": "weapons/durandal.png",
     "slots": 7,
+    "rarity": "p",
     "description": "An adorned sword forged of the most blessed of materials. It's great light can illuminate your path while blinding your opponents."
   },
   {
@@ -19780,6 +19788,7 @@
     ],
     "two_handed": 1,
     "slots": 10,
+    "rarity": "b",
     "description": "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands."
   },
   {
@@ -20362,6 +20371,7 @@
     ],
     "image": "weapons/bident.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A mighty pole-arm carried by Hades, the exiled guardian of the underworld."
   },
   {
@@ -20452,6 +20462,7 @@
     ],
     "image": "weapons/dynasty.png",
     "slots": 6,
+    "rarity": "g",
     "description": "An ancient, strange weapon of unknown origin. It is carried by Anubis, the jackal, and can cause an opponent to bleed simply by casting a spell."
   },
   {
@@ -21670,6 +21681,7 @@
     ],
     "image": "armor/crown.png",
     "slots": 10,
+    "rarity": "b",
     "description": "The fabled crown of King Arthus. Although it offers little in terms of defense, it can protect its wearer from being cursed or petrified."
   },
   {
@@ -25310,6 +25322,7 @@
       282
     ],
     "image": "wards/templar_shield.png",
+    "rarity": "g",
     "description": "A gigantic shield often used to protect one from the wildest of wolves. It offers additional defense at the expense of power."
   },
   {

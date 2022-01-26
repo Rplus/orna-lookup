@@ -11012,7 +11012,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Hood of a Ljosalfar mage."
   },
   {
@@ -18832,7 +18832,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A simple sword wielded by kobold warriors."
   },
   {
@@ -18866,7 +18866,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A simple staff wielded by kobold mages."
   },
   {
@@ -20835,7 +20835,7 @@
     "materials": "[247,345]",
     "quests": "",
     "image": "weapons/bearclaw.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: 豬突猛進\"]",
     "two_handed": "1",
     "slots": "8",
     "rarity": "",
@@ -20872,7 +20872,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An archistaff of Avalon that is capable of lowering an opponent's resistance."
   },
   {
@@ -21416,7 +21416,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "p",
     "description": "An adorned sword forged of the most blessed of materials. It's great light can illuminate your path while blinding your opponents."
   },
   {
@@ -26312,7 +26312,7 @@
     "other_effect": "[\"技能: Impale\"]",
     "two_handed": "1",
     "slots": "10",
-    "rarity": "",
+    "rarity": "b",
     "description": "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands."
   },
   {
@@ -27196,7 +27196,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A mighty pole-arm carried by Hades, the exiled guardian of the underworld."
   },
   {
@@ -27298,7 +27298,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "An ancient, strange weapon of unknown origin. It is carried by Anubis, the jackal, and can cause an opponent to bleed simply by casting a spell."
   },
   {
@@ -28892,7 +28892,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "b",
     "description": "The fabled crown of King Arthus. Although it offers little in terms of defense, it can protect its wearer from being cursed or petrified."
   },
   {
@@ -34060,7 +34060,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A gigantic shield often used to protect one from the wildest of wolves. It offers additional defense at the expense of power."
   },
   {
