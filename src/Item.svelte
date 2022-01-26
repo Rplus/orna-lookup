@@ -207,6 +207,7 @@
 
 .item-info {
   display: var(--item-info--disply, none);
+  flex-wrap: wrap;
   align-items: flex-end;
   font-weight: normal;
   color: #fff9;
@@ -217,6 +218,7 @@
 .item-info > * {
   margin-right: min(1em, 2vw);
   margin-left: min(1em, 2vw);
+  margin-bottom: .5em;
 }
 
 :global(.items.showDetails),
@@ -231,6 +233,7 @@
   position: relative;
   display: block;
   width: var(--item-img-size, 96px);
+  flex-shrink: 0;
   margin-left: 3vw;
   margin-right: 3vw;
 }
