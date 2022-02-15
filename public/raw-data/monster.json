@@ -27702,6 +27702,9 @@
     "tier": 9,
     "boss": false,
     "image": "packs/phoenician/1_m.png",
+    "spawns": [
+      "Past Event (currently unavailable)"
+    ],
     "drops": [
       {
         "id": 985,
@@ -27744,6 +27747,566 @@
       {
         "id": 415,
         "name": "Swordplay III"
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "name": "Kin of Kerberos",
+    "tier": 5,
+    "boss": true,
+    "image": "bosses/kerberos.png",
+    "level": 220,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1527,
+        "name": "Dark Eye of Kerberos"
+      },
+      {
+        "id": 1528,
+        "name": "Moondust"
+      }
+    ],
+    "skills": [
+      {
+        "id": 167,
+        "name": "Arcana II"
+      },
+      {
+        "id": 634,
+        "name": "Chain Lightning"
+      },
+      {
+        "id": 591,
+        "name": "Earth Alignment"
+      },
+      {
+        "id": 593,
+        "name": "Fire Alignment"
+      },
+      {
+        "id": 118,
+        "name": "Flame III"
+      },
+      {
+        "id": 117,
+        "name": "Frost III"
+      },
+      {
+        "id": 594,
+        "name": "Ice Alignment"
+      },
+      {
+        "id": 592,
+        "name": "Lightning Alignment"
+      },
+      {
+        "id": 635,
+        "name": "Natura"
+      },
+      {
+        "id": 410,
+        "name": "Omnimancy"
+      },
+      {
+        "id": 110,
+        "name": "Spark III"
+      },
+      {
+        "id": 112,
+        "name": "Tremor III"
+      },
+      {
+        "id": 632,
+        "name": "Wildfire"
+      },
+      {
+        "id": 633,
+        "name": "Winter Wind"
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Kin of Kerberos",
+    "tier": 9,
+    "boss": true,
+    "image": "bosses/kerberos.png",
+    "level": 220,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1528,
+        "name": "Moondust"
+      },
+      {
+        "id": 1526,
+        "name": "Blackened Eye of Kerberos"
+      }
+    ],
+    "skills": [
+      {
+        "id": 625,
+        "name": "Chain Lightning III"
+      },
+      {
+        "id": 591,
+        "name": "Earth Alignment"
+      },
+      {
+        "id": 472,
+        "name": "Fey Flame IV"
+      },
+      {
+        "id": 473,
+        "name": "Fey Frost IV"
+      },
+      {
+        "id": 474,
+        "name": "Fey Spark IV"
+      },
+      {
+        "id": 475,
+        "name": "Fey Tremor IV"
+      },
+      {
+        "id": 593,
+        "name": "Fire Alignment"
+      },
+      {
+        "id": 594,
+        "name": "Ice Alignment"
+      },
+      {
+        "id": 592,
+        "name": "Lightning Alignment"
+      },
+      {
+        "id": 626,
+        "name": "Natura III"
+      },
+      {
+        "id": 410,
+        "name": "Omnimancy"
+      },
+      {
+        "id": 623,
+        "name": "Wildfire III"
+      },
+      {
+        "id": 624,
+        "name": "Winter Wind III"
+      }
+    ]
+  },
+  {
+    "id": 504,
+    "name": "Follower of Kerberos",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/kerberos/3_f.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1536,
+        "name": "Kerberos Claws"
+      },
+      {
+        "id": 1534,
+        "name": "Kerberos Sword"
+      },
+      {
+        "id": 1299,
+        "name": "Red Eye of Kerberos"
+      }
+    ],
+    "skills": [
+      {
+        "id": 213,
+        "name": "Onslaught"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      },
+      {
+        "id": 308,
+        "name": "Ward of Steel"
+      }
+    ]
+  },
+  {
+    "id": 505,
+    "name": "Follower of Kerberos",
+    "tier": 9,
+    "boss": false,
+    "image": "packs/kerberos/1_m.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1292,
+        "name": "Yellow Eye of Kerberos"
+      },
+      {
+        "id": 1531,
+        "name": "Arisen Kerberos Hood"
+      },
+      {
+        "id": 1529,
+        "name": "Arisen Kerberos Staff"
+      }
+    ],
+    "skills": [
+      {
+        "id": 625,
+        "name": "Chain Lightning III"
+      },
+      {
+        "id": 241,
+        "name": "Great Meditation"
+      },
+      {
+        "id": 626,
+        "name": "Natura III"
+      },
+      {
+        "id": 623,
+        "name": "Wildfire III"
+      },
+      {
+        "id": 624,
+        "name": "Winter Wind III"
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Follower of Kerberos",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/kerberos/2_m.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1295,
+        "name": "Blue Eye of Kerberos"
+      },
+      {
+        "id": 1536,
+        "name": "Kerberos Claws"
+      },
+      {
+        "id": 1534,
+        "name": "Kerberos Sword"
+      }
+    ],
+    "skills": [
+      {
+        "id": 213,
+        "name": "Onslaught"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      },
+      {
+        "id": 308,
+        "name": "Ward of Steel"
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "name": "Follower of Kerberos",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/kerberos/1_m.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1535,
+        "name": "Kerberos Hood"
+      },
+      {
+        "id": 1533,
+        "name": "Kerberos Staff"
+      },
+      {
+        "id": 1292,
+        "name": "Yellow Eye of Kerberos"
+      }
+    ],
+    "skills": [
+      {
+        "id": 634,
+        "name": "Chain Lightning"
+      },
+      {
+        "id": 241,
+        "name": "Great Meditation"
+      },
+      {
+        "id": 635,
+        "name": "Natura"
+      },
+      {
+        "id": 632,
+        "name": "Wildfire"
+      },
+      {
+        "id": 633,
+        "name": "Winter Wind"
+      }
+    ]
+  },
+  {
+    "id": 508,
+    "name": "Follower of Kerberos",
+    "tier": 9,
+    "boss": false,
+    "image": "packs/kerberos/1_f.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1294,
+        "name": "Green Eye of Kerberos"
+      },
+      {
+        "id": 1531,
+        "name": "Arisen Kerberos Hood"
+      },
+      {
+        "id": 1529,
+        "name": "Arisen Kerberos Staff"
+      }
+    ],
+    "skills": [
+      {
+        "id": 625,
+        "name": "Chain Lightning III"
+      },
+      {
+        "id": 241,
+        "name": "Great Meditation"
+      },
+      {
+        "id": 626,
+        "name": "Natura III"
+      },
+      {
+        "id": 623,
+        "name": "Wildfire III"
+      },
+      {
+        "id": 624,
+        "name": "Winter Wind III"
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "name": "Follower of Kerberos",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/kerberos/1_f.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1294,
+        "name": "Green Eye of Kerberos"
+      },
+      {
+        "id": 1535,
+        "name": "Kerberos Hood"
+      },
+      {
+        "id": 1533,
+        "name": "Kerberos Staff"
+      }
+    ],
+    "skills": [
+      {
+        "id": 634,
+        "name": "Chain Lightning"
+      },
+      {
+        "id": 241,
+        "name": "Great Meditation"
+      },
+      {
+        "id": 635,
+        "name": "Natura"
+      },
+      {
+        "id": 632,
+        "name": "Wildfire"
+      },
+      {
+        "id": 633,
+        "name": "Winter Wind"
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Follower of Kerberos",
+    "tier": 9,
+    "boss": false,
+    "image": "packs/kerberos/3_f.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1299,
+        "name": "Red Eye of Kerberos"
+      },
+      {
+        "id": 1532,
+        "name": "Arisen Kerberos Claws"
+      },
+      {
+        "id": 1530,
+        "name": "Arisen Kerberos Sword"
+      }
+    ],
+    "skills": [
+      {
+        "id": 213,
+        "name": "Onslaught"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      },
+      {
+        "id": 371,
+        "name": "Ward of Ortanite"
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "name": "Follower of Kerberos",
+    "tier": 9,
+    "boss": false,
+    "image": "packs/kerberos/2_m.png",
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1295,
+        "name": "Blue Eye of Kerberos"
+      },
+      {
+        "id": 1532,
+        "name": "Arisen Kerberos Claws"
+      },
+      {
+        "id": 1530,
+        "name": "Arisen Kerberos Sword"
+      }
+    ],
+    "skills": [
+      {
+        "id": 213,
+        "name": "Onslaught"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      },
+      {
+        "id": 371,
+        "name": "Ward of Ortanite"
       }
     ]
   }

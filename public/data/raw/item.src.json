@@ -17852,7 +17852,6 @@
     "zh": "枯萎箭矢",
     "tier": 5,
     "type": "Off-hand",
-    "boss": 1,
     "arena": 1,
     "equipped_by": [
       "Mage",
@@ -25294,6 +25293,7 @@
       428
     ],
     "image": "jewels/12.png",
+    "rarity": "g",
     "description": "Crystallized eye of the icy Kerberos. It can grant a weapon additional properties when adorned upon it."
   },
   {
@@ -25374,6 +25374,7 @@
     ],
     "image": "armor/cursed_leggings.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25555,6 +25556,7 @@
     ],
     "image": "weapons/cursed_blade.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent."
   },
   {
@@ -25575,6 +25577,7 @@
     ],
     "image": "armor/cursed_boots.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -32036,6 +32039,7 @@
       428
     ],
     "image": "jewels/13.png",
+    "rarity": "g",
     "description": "Crystallized eye of the Kerberos. It grants a high chance to paralyze an opponent."
   },
   {
@@ -32088,6 +32092,7 @@
       428
     ],
     "image": "jewels/14.png",
+    "rarity": "g",
     "description": "Crystallized eye of the Kerberos. It grants a high chance to cause an opponent to rot."
   },
   {
@@ -32113,6 +32118,7 @@
       428
     ],
     "image": "jewels/15.png",
+    "rarity": "g",
     "description": "Crystallized eye of the Kerberos. It grants a high chance to cause an opponent to freeze."
   },
   {
@@ -32219,6 +32225,7 @@
       275
     ],
     "image": "jewels/11.png",
+    "rarity": "g",
     "description": "Crystallized eye of the Kerberos. It grants a high chance to cause an opponent to burn."
   },
   {
@@ -37168,5 +37175,854 @@
     "image": "armor/adam_armor.png",
     "slots": 9,
     "description": "Armor of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment."
+  },
+  {
+    "id": 1505,
+    "name": "Stone Cure",
+    "zh": "石化藥",
+    "tier": 3,
+    "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "cures": [
+      "Petrified"
+    ],
+    "image": "useables/energy_potion.png",
+    "description": "A simple tonic that cures one of petrification"
+  },
+  {
+    "id": 1506,
+    "name": "Ember-Plumed Hood",
+    "zh": "餘火羽織兜帽",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 14,
+    "stats.resistance": 113,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_hood.png",
+    "description": "Hood of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1507,
+    "name": "Ember-Plumed Helmet",
+    "zh": "餘火羽織頭盔",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 113,
+    "stats.resistance": 14,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_helm.png",
+    "description": "Helmet of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1508,
+    "name": "Ember-Plumed Cowl",
+    "zh": "餘火羽織風帽",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 113,
+    "stats.resistance": 14,
+    "stats.dexterity": 18,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_hood.png",
+    "description": "Headwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1509,
+    "name": "Ember-Plumed Robe",
+    "zh": "餘火羽織法袍",
+    "tier": 5,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 14,
+    "stats.resistance": 113,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_robe.png",
+    "description": "Robe of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1510,
+    "name": "Ember-Plumed Cuirass",
+    "zh": "餘火羽織胸甲",
+    "tier": 5,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 113,
+    "stats.resistance": 14,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_armor.png",
+    "description": "Heavy armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1511,
+    "name": "Ember-Plumed Garb",
+    "zh": "餘火羽織皮甲",
+    "tier": 5,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 113,
+    "stats.resistance": 14,
+    "stats.dexterity": 18,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_garb.png",
+    "description": "Light armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1512,
+    "name": "Ember-Plumed Shoes",
+    "zh": "餘火羽織之鞋",
+    "tier": 5,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 14,
+    "stats.resistance": 113,
+    "stats.mana": 12,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_boots.png",
+    "description": "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1513,
+    "name": "Ember-Plumed Greaves",
+    "zh": "餘火羽織護脛",
+    "tier": 5,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 113,
+    "stats.resistance": 14,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_leggings.png",
+    "description": "Heavy leg armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1514,
+    "name": "Ember-Plumed Boots",
+    "zh": "餘火羽織長靴",
+    "tier": 5,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 113,
+    "stats.resistance": 14,
+    "stats.dexterity": 18,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      498
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_boots.png",
+    "description": "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1515,
+    "name": "Ruby",
+    "zh": "紅玉",
+    "tier": 5,
+    "type": "Adornment",
+    "stats.attack": 3,
+    "stats.magic": 3,
+    "stats.defense": 3,
+    "stats.resistance": 3,
+    "stats.dexterity": 2,
+    "stats.hp": 5,
+    "stats.mana": 5,
+    "dropped_by": [
+      498
+    ],
+    "image": "jewels/39.png",
+    "description": "A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent."
+  },
+  {
+    "id": 1516,
+    "name": "Ash-plumed Helmet",
+    "zh": "Ash-plumed Helmet",
+    "tier": 9,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 226,
+    "stats.resistance": 28,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_helm.png",
+    "description": "Helmet of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1517,
+    "name": "Ash-plumed Cowl",
+    "zh": "Ash-plumed Cowl",
+    "tier": 9,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 226,
+    "stats.resistance": 28,
+    "stats.dexterity": 36,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_hood.png",
+    "description": "Headwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1518,
+    "name": "Ash-plumed Hood",
+    "zh": "Ash-plumed Hood",
+    "tier": 9,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 28,
+    "stats.resistance": 226,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_hood.png",
+    "description": "Hood of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1519,
+    "name": "Ash-plumed Robe",
+    "zh": "Ash-plumed Robe",
+    "tier": 9,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 28,
+    "stats.resistance": 226,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_robe.png",
+    "description": "Robe of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1520,
+    "name": "Ash-plumed Cuirass",
+    "zh": "Ash-plumed Cuirass",
+    "tier": 9,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 226,
+    "stats.resistance": 28,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_armor.png",
+    "description": "Heavy armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1521,
+    "name": "Ash-plumed Garb",
+    "zh": "Ash-plumed Garb",
+    "tier": 9,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 226,
+    "stats.resistance": 28,
+    "stats.dexterity": 36,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_garb.png",
+    "description": "Garb of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1522,
+    "name": "Ash-plumed Greaves",
+    "zh": "Ash-plumed Greaves",
+    "tier": 9,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 226,
+    "stats.resistance": 28,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_leggings.png",
+    "description": "Heavy leg armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1523,
+    "name": "Ash-plumed Shoes",
+    "zh": "Ash-plumed Shoes",
+    "tier": 9,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 28,
+    "stats.resistance": 226,
+    "stats.mana": 12,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_boots.png",
+    "description": "Shoes of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1524,
+    "name": "Ash-plumed Boots",
+    "zh": "Ash-plumed Boots",
+    "tier": 9,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 226,
+    "stats.resistance": 28,
+    "stats.dexterity": 36,
+    "gives": [
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
+    ],
+    "dropped_by": [
+      496
+    ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
+    "image": "armor/phoenix_boots.png",
+    "description": "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
+  },
+  {
+    "id": 1525,
+    "name": "Ashen Ruby",
+    "zh": "蒼白紅玉",
+    "tier": 9,
+    "type": "Adornment",
+    "stats.attack": 6,
+    "stats.magic": 6,
+    "stats.defense": 6,
+    "stats.resistance": 6,
+    "stats.dexterity": 4,
+    "stats.hp": 15,
+    "stats.mana": 15,
+    "dropped_by": [
+      496
+    ],
+    "image": "jewels/39.png",
+    "description": "A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent."
+  },
+  {
+    "id": 1526,
+    "name": "Blackened Eye of Kerberos",
+    "zh": "黑化的刻耳柏洛斯之眼",
+    "tier": 9,
+    "type": "Adornment",
+    "boss": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.attack": 10,
+    "stats.magic": 10,
+    "stats.defense": 10,
+    "stats.resistance": 10,
+    "stats.ward": 1,
+    "dropped_by": [
+      503
+    ],
+    "image": "jewels/10.png",
+    "description": "Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it."
+  },
+  {
+    "id": 1527,
+    "name": "Dark Eye of Kerberos",
+    "zh": "黑色的刻耳柏洛斯之眼",
+    "tier": 5,
+    "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.ward": 1,
+    "dropped_by": [
+      502
+    ],
+    "image": "jewels/10.png",
+    "description": "Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it."
+  },
+  {
+    "id": 1528,
+    "name": "Moondust",
+    "zh": "月塵",
+    "tier": 5,
+    "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.attack": -15,
+    "stats.magic": 15,
+    "stats.defense": -15,
+    "stats.resistance": 15,
+    "stats.dexterity": 15,
+    "dropped_by": [
+      502,
+      503
+    ],
+    "image": "jewels/43.png",
+    "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it"
+  },
+  {
+    "id": 1529,
+    "name": "Arisen Kerberos Staff",
+    "zh": "重生的刻耳柏洛斯法杖",
+    "tier": 9,
+    "type": "Weapon",
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.magic": 222,
+    "stats.defense": -10,
+    "stats.dexterity": 20,
+    "stats.mana": 40,
+    "dropped_by": [
+      505,
+      508
+    ],
+    "materials": [
+      282
+    ],
+    "image": "weapons/kerberos_staff.png",
+    "description": "Mighty staff, representative of the relentless Kerberos."
+  },
+  {
+    "id": 1530,
+    "name": "Arisen Kerberos Sword",
+    "zh": "重生的刻耳柏洛斯之劍",
+    "tier": 9,
+    "type": "Weapon",
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.attack": 222,
+    "stats.magic": 35,
+    "stats.defense": -10,
+    "stats.dexterity": 20,
+    "stats.hp": 100,
+    "dropped_by": [
+      510,
+      511
+    ],
+    "materials": [
+      282
+    ],
+    "image": "weapons/kerberos_sword.png",
+    "description": "Mighty sword, representative of the relentless Kerberos."
+  },
+  {
+    "id": 1531,
+    "name": "Arisen Kerberos Hood",
+    "zh": "重生的刻耳柏洛斯兜帽",
+    "tier": 9,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.defense": 222,
+    "stats.resistance": 70,
+    "prevents": [
+      "Frozen"
+    ],
+    "dropped_by": [
+      505,
+      508
+    ],
+    "materials": [
+      282
+    ],
+    "image": "armor/kerberos_hood.png",
+    "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
+  },
+  {
+    "id": 1532,
+    "name": "Arisen Kerberos Claws",
+    "zh": "重生的刻耳柏洛斯之爪",
+    "tier": 9,
+    "type": "Weapon",
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.attack": 222,
+    "stats.defense": -10,
+    "stats.dexterity": 20,
+    "stats.ward": 8,
+    "causes": [
+      "Bleeding",
+      "Frozen"
+    ],
+    "dropped_by": [
+      511,
+      510
+    ],
+    "materials": [
+      282
+    ],
+    "image": "weapons/kerberos_claws.png",
+    "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
+  },
+  {
+    "id": 1533,
+    "name": "Kerberos Staff",
+    "zh": "刻耳柏洛斯法杖",
+    "tier": 5,
+    "type": "Weapon",
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.magic": 122,
+    "stats.defense": -10,
+    "stats.mana": 40,
+    "dropped_by": [
+      507,
+      509
+    ],
+    "materials": [
+      282
+    ],
+    "image": "weapons/kerberos_staff.png",
+    "description": "Mighty staff, representative of the relentless Kerberos."
+  },
+  {
+    "id": 1534,
+    "name": "Kerberos Sword",
+    "zh": "刻耳柏洛斯之劍",
+    "tier": 5,
+    "type": "Weapon",
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.attack": 122,
+    "stats.magic": 35,
+    "stats.defense": -10,
+    "stats.dexterity": 20,
+    "stats.hp": 60,
+    "dropped_by": [
+      504,
+      506
+    ],
+    "materials": [
+      282
+    ],
+    "image": "weapons/kerberos_sword.png",
+    "description": "Mighty sword, representative of the relentless Kerberos."
+  },
+  {
+    "id": 1535,
+    "name": "Kerberos Hood",
+    "zh": "刻耳柏洛斯兜帽",
+    "tier": 5,
+    "type": "Head",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.defense": 122,
+    "stats.resistance": 60,
+    "prevents": [
+      "Frozen"
+    ],
+    "dropped_by": [
+      507,
+      509
+    ],
+    "materials": [
+      282
+    ],
+    "image": "armor/kerberos_hood.png",
+    "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
+  },
+  {
+    "id": 1536,
+    "name": "Kerberos Claws",
+    "zh": "刻耳柏洛斯之爪",
+    "tier": 5,
+    "type": "Weapon",
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.attack": 122,
+    "stats.defense": -10,
+    "stats.dexterity": 20,
+    "stats.ward": 8,
+    "causes": [
+      "Bleeding",
+      "Frozen"
+    ],
+    "dropped_by": [
+      506,
+      504
+    ],
+    "materials": [
+      282
+    ],
+    "image": "weapons/kerberos_claws.png",
+    "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   }
 ]

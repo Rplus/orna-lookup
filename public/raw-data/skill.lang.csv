@@ -613,3 +613,20 @@ id,en,zh,info,info_zh
 639,Lacunus II,時空斷裂 II,Deals non-elemental magic damage to all enemies and may suspend an enemy in time.,對所有對手造成無屬性傷害並有機會將對手限制在時間之中。
 640,Haste+,急速+,Temporarily increases all party member's foresight.,
 641,Slow+,減速+,Temporarily decreases the foresight of all opponents.,暫時降低所有對手的預知能力。
+642,Lacuna,時空間隙,Deals non-elemental magic damage and may suspend an enemy in time.,造成無屬性傷害並有機會將對手限制在時間之中。
+643,Lacunus,時空斷裂,Deals non-elemental magic damage and may suspend an enemy in time.,造成無屬性傷害並有機會將對手限制在時間之中。
+644,Ascension Synergy,升天同調,Levels gained via the Altar of Ascension will additionally affect your follower.,通天祭壇所提升的等級也會影響你的寵物。
+645,Call of Skadi,斯卡蒂的呼召,Increases the chance of your follower performing an offensive spell. This skill will be most effective when Valhallan classes attempt it.,提升你寵物施放攻擊法術的機率。此技能由瓦爾哈蘭系職業來使用最為有效。
+646,Call of Jord,嬌德的呼召,Increases the chance of your follower protecting you. This skill will be more effective when Valhallan classes attempt it.,
+647,Call of Brynhild,布倫希爾德的呼召,Increases the chance of your follower performing a buff or debuff. This skill will be most effective when Valhallan classes attempt it.,提升你寵物施放增益或減益技能的機率。此技能由瓦爾哈蘭系職業來使用最為有效。
+648,Call of Idun,伊登的呼召,Increases the chance of your follower performing a healing spell. This skill will be most effective when Valhallan classes attempt it.,提升你寵物施放治癒法術的機率。此技能由瓦爾哈蘭系職業來使用最為有效。
+649,The Deity,神威,Deific Channel may be automatically cast while in battle.,戰鬥中有機會自動施展引入神力。
+650,Refract,鏡反衝,Grants a great chance to return some to all of an opponent's attack damage back at them. Refractions are more successful when magic users attempt them.,有很大機會將部分或全部的對手攻擊反射回對方身上。魔法使用者的成功率會較高。
+651,Counterattack,反擊,Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favourable to win in PvP draws.,
+652,Reflect,鏡反射,Grants a chance to return a portion of an opponent's attack back at them. Reflections are more successful when magic users attempt them.,有機會將部分的對手攻擊反射回對方身上。魔法使用者的成功率會較高。
+653,Annwn Subterfuge,安溫詭計,"It is easier to apply status effects to your opponents. Additionally, status effects given to your opponent will last longer.",你會更容易造成對手異常狀態。同時你的對手的異常狀態會持續久一點。
+654,Counterattack II,反擊II,Grants a great chance to return a portion of an opponent's attack back at them. Counterattacks are favourable to win in PvP draws.,
+655,Provoke II,挑釁 II,"When battling with your party, your opponents will be more likely to target you.",團體戰時，更容易成為集火對象。
+656,Appease,安撫,"When battling with your party, your opponents will be less likely to target you.",團體戰時，不容易成為集火對象。
+657,Appease II,安撫 II,"When battling with your party, your opponents will be less likely to target you.",團體戰時，不容易成為集火對象。
+658,Requiem,安魂曲,N/A,

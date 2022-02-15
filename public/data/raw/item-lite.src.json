@@ -10344,5 +10344,229 @@
     "zh": "角鎧",
     "tier": 6,
     "image": "armor/adam_armor.png"
+  },
+  {
+    "id": 1505,
+    "name": "Stone Cure",
+    "zh": "石化藥",
+    "tier": 3,
+    "image": "useables/energy_potion.png"
+  },
+  {
+    "id": 1506,
+    "name": "Ember-Plumed Hood",
+    "zh": "餘火羽織兜帽",
+    "tier": 5,
+    "image": "armor/phoenix_hood.png"
+  },
+  {
+    "id": 1507,
+    "name": "Ember-Plumed Helmet",
+    "zh": "餘火羽織頭盔",
+    "tier": 5,
+    "image": "armor/phoenix_helm.png"
+  },
+  {
+    "id": 1508,
+    "name": "Ember-Plumed Cowl",
+    "zh": "餘火羽織風帽",
+    "tier": 5,
+    "image": "armor/phoenix_hood.png"
+  },
+  {
+    "id": 1509,
+    "name": "Ember-Plumed Robe",
+    "zh": "餘火羽織法袍",
+    "tier": 5,
+    "image": "armor/phoenix_robe.png"
+  },
+  {
+    "id": 1510,
+    "name": "Ember-Plumed Cuirass",
+    "zh": "餘火羽織胸甲",
+    "tier": 5,
+    "image": "armor/phoenix_armor.png"
+  },
+  {
+    "id": 1511,
+    "name": "Ember-Plumed Garb",
+    "zh": "餘火羽織皮甲",
+    "tier": 5,
+    "image": "armor/phoenix_garb.png"
+  },
+  {
+    "id": 1512,
+    "name": "Ember-Plumed Shoes",
+    "zh": "餘火羽織之鞋",
+    "tier": 5,
+    "image": "armor/phoenix_boots.png"
+  },
+  {
+    "id": 1513,
+    "name": "Ember-Plumed Greaves",
+    "zh": "餘火羽織護脛",
+    "tier": 5,
+    "image": "armor/phoenix_leggings.png"
+  },
+  {
+    "id": 1514,
+    "name": "Ember-Plumed Boots",
+    "zh": "餘火羽織長靴",
+    "tier": 5,
+    "image": "armor/phoenix_boots.png"
+  },
+  {
+    "id": 1515,
+    "name": "Ruby",
+    "zh": "紅玉",
+    "tier": 5,
+    "image": "jewels/39.png"
+  },
+  {
+    "id": 1516,
+    "name": "Ash-plumed Helmet",
+    "zh": "Ash-plumed Helmet",
+    "tier": 9,
+    "image": "armor/phoenix_helm.png"
+  },
+  {
+    "id": 1517,
+    "name": "Ash-plumed Cowl",
+    "zh": "Ash-plumed Cowl",
+    "tier": 9,
+    "image": "armor/phoenix_hood.png"
+  },
+  {
+    "id": 1518,
+    "name": "Ash-plumed Hood",
+    "zh": "Ash-plumed Hood",
+    "tier": 9,
+    "image": "armor/phoenix_hood.png"
+  },
+  {
+    "id": 1519,
+    "name": "Ash-plumed Robe",
+    "zh": "Ash-plumed Robe",
+    "tier": 9,
+    "image": "armor/phoenix_robe.png"
+  },
+  {
+    "id": 1520,
+    "name": "Ash-plumed Cuirass",
+    "zh": "Ash-plumed Cuirass",
+    "tier": 9,
+    "image": "armor/phoenix_armor.png"
+  },
+  {
+    "id": 1521,
+    "name": "Ash-plumed Garb",
+    "zh": "Ash-plumed Garb",
+    "tier": 9,
+    "image": "armor/phoenix_garb.png"
+  },
+  {
+    "id": 1522,
+    "name": "Ash-plumed Greaves",
+    "zh": "Ash-plumed Greaves",
+    "tier": 9,
+    "image": "armor/phoenix_leggings.png"
+  },
+  {
+    "id": 1523,
+    "name": "Ash-plumed Shoes",
+    "zh": "Ash-plumed Shoes",
+    "tier": 9,
+    "image": "armor/phoenix_boots.png"
+  },
+  {
+    "id": 1524,
+    "name": "Ash-plumed Boots",
+    "zh": "Ash-plumed Boots",
+    "tier": 9,
+    "image": "armor/phoenix_boots.png"
+  },
+  {
+    "id": 1525,
+    "name": "Ashen Ruby",
+    "zh": "蒼白紅玉",
+    "tier": 9,
+    "image": "jewels/39.png"
+  },
+  {
+    "id": 1526,
+    "name": "Blackened Eye of Kerberos",
+    "zh": "黑化的刻耳柏洛斯之眼",
+    "tier": 9,
+    "image": "jewels/10.png"
+  },
+  {
+    "id": 1527,
+    "name": "Dark Eye of Kerberos",
+    "zh": "黑色的刻耳柏洛斯之眼",
+    "tier": 5,
+    "image": "jewels/10.png"
+  },
+  {
+    "id": 1528,
+    "name": "Moondust",
+    "zh": "月塵",
+    "tier": 5,
+    "image": "jewels/43.png"
+  },
+  {
+    "id": 1529,
+    "name": "Arisen Kerberos Staff",
+    "zh": "重生的刻耳柏洛斯法杖",
+    "tier": 9,
+    "image": "weapons/kerberos_staff.png"
+  },
+  {
+    "id": 1530,
+    "name": "Arisen Kerberos Sword",
+    "zh": "重生的刻耳柏洛斯之劍",
+    "tier": 9,
+    "image": "weapons/kerberos_sword.png"
+  },
+  {
+    "id": 1531,
+    "name": "Arisen Kerberos Hood",
+    "zh": "重生的刻耳柏洛斯兜帽",
+    "tier": 9,
+    "image": "armor/kerberos_hood.png"
+  },
+  {
+    "id": 1532,
+    "name": "Arisen Kerberos Claws",
+    "zh": "重生的刻耳柏洛斯之爪",
+    "tier": 9,
+    "image": "weapons/kerberos_claws.png"
+  },
+  {
+    "id": 1533,
+    "name": "Kerberos Staff",
+    "zh": "刻耳柏洛斯法杖",
+    "tier": 5,
+    "image": "weapons/kerberos_staff.png"
+  },
+  {
+    "id": 1534,
+    "name": "Kerberos Sword",
+    "zh": "刻耳柏洛斯之劍",
+    "tier": 5,
+    "image": "weapons/kerberos_sword.png"
+  },
+  {
+    "id": 1535,
+    "name": "Kerberos Hood",
+    "zh": "刻耳柏洛斯兜帽",
+    "tier": 5,
+    "image": "armor/kerberos_hood.png"
+  },
+  {
+    "id": 1536,
+    "name": "Kerberos Claws",
+    "zh": "刻耳柏洛斯之爪",
+    "tier": 5,
+    "image": "weapons/kerberos_claws.png"
   }
 ]
