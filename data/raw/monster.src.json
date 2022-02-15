@@ -14495,6 +14495,9 @@
     "name": "Great Phoenician",
     "zh": "上級緋尼斯族",
     "tier": 9,
+    "spawns": [
+      "Past Event (currently unavailable)"
+    ],
     "skills": [
       394,
       602,
@@ -14510,5 +14513,306 @@
       964
     ],
     "image": "packs/phoenician/1_m.png"
+  },
+  {
+    "id": 502,
+    "name": "Kin of Kerberos",
+    "zh": "刻耳柏洛斯之子",
+    "tier": 5,
+    "level": 220,
+    "boss": 1,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      167,
+      634,
+      591,
+      593,
+      118,
+      117,
+      594,
+      592,
+      635,
+      410,
+      110,
+      112,
+      632,
+      633
+    ],
+    "drops": [
+      1527,
+      1528
+    ],
+    "image": "bosses/kerberos.png"
+  },
+  {
+    "id": 503,
+    "name": "Kin of Kerberos",
+    "zh": "刻耳柏洛斯之子",
+    "tier": 9,
+    "level": 220,
+    "boss": 1,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      625,
+      591,
+      472,
+      473,
+      474,
+      475,
+      593,
+      594,
+      592,
+      626,
+      410,
+      623,
+      624
+    ],
+    "drops": [
+      1528,
+      1526
+    ],
+    "image": "bosses/kerberos.png"
+  },
+  {
+    "id": 504,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 5,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      213,
+      67,
+      308
+    ],
+    "drops": [
+      1536,
+      1534,
+      1299
+    ],
+    "image": "packs/kerberos/3_f.png"
+  },
+  {
+    "id": 505,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 9,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      625,
+      241,
+      626,
+      623,
+      624
+    ],
+    "drops": [
+      1292,
+      1531,
+      1529
+    ],
+    "image": "packs/kerberos/1_m.png"
+  },
+  {
+    "id": 506,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 5,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      213,
+      67,
+      308
+    ],
+    "drops": [
+      1295,
+      1536,
+      1534
+    ],
+    "image": "packs/kerberos/2_m.png"
+  },
+  {
+    "id": 507,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 5,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      634,
+      241,
+      635,
+      632,
+      633
+    ],
+    "drops": [
+      1535,
+      1533,
+      1292
+    ],
+    "image": "packs/kerberos/1_m.png"
+  },
+  {
+    "id": 508,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 9,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      625,
+      241,
+      626,
+      623,
+      624
+    ],
+    "drops": [
+      1294,
+      1531,
+      1529
+    ],
+    "image": "packs/kerberos/1_f.png"
+  },
+  {
+    "id": 509,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 5,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      634,
+      241,
+      635,
+      632,
+      633
+    ],
+    "drops": [
+      1294,
+      1535,
+      1533
+    ],
+    "image": "packs/kerberos/1_f.png"
+  },
+  {
+    "id": 510,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 9,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      213,
+      67,
+      371
+    ],
+    "drops": [
+      1299,
+      1532,
+      1530
+    ],
+    "image": "packs/kerberos/3_f.png"
+  },
+  {
+    "id": 511,
+    "name": "Follower of Kerberos",
+    "zh": "刻耳柏洛斯的跟隨者",
+    "tier": 9,
+    "spawns": [
+      "Beast Den",
+      "Event: Rise of Kerberos"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "skills": [
+      213,
+      67,
+      371
+    ],
+    "drops": [
+      1295,
+      1532,
+      1530
+    ],
+    "image": "packs/kerberos/2_m.png"
   }
 ]

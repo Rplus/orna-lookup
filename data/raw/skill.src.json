@@ -18156,5 +18156,349 @@
       }
     ],
     "description": "Temporarily decreases the foresight of all opponents."
+  },
+  {
+    "id": 642,
+    "name": "Lacuna",
+    "zh": "時空間隙",
+    "tier": 8,
+    "type": "Magic",
+    "is_magic": 1,
+    "mana_cost": 80,
+    "causes": [
+      "Stasis"
+    ],
+    "learned_by": [
+      {
+        "id": 87,
+        "name": "Time Mage",
+        "level": 160,
+        "specialization": true
+      }
+    ],
+    "description": "Deals non-elemental magic damage and may suspend an enemy in time."
+  },
+  {
+    "id": 643,
+    "name": "Lacunus",
+    "zh": "時空斷裂",
+    "tier": 8,
+    "type": "AoE Magic",
+    "is_magic": 1,
+    "mana_cost": 160,
+    "causes": [
+      "Stasis"
+    ],
+    "learned_by": [
+      {
+        "id": 87,
+        "name": "Time Mage",
+        "level": 175,
+        "specialization": true
+      }
+    ],
+    "description": "Deals non-elemental magic damage and may suspend an enemy in time."
+  },
+  {
+    "id": 644,
+    "name": "Ascension Synergy",
+    "zh": "升天同調",
+    "tier": 10,
+    "type": "Passive",
+    "is_magic": 1,
+    "learned_by": [
+      {
+        "id": 80,
+        "name": "Beowulf",
+        "level": 225,
+        "specialization": false
+      }
+    ],
+    "description": "Levels gained via the Altar of Ascension will additionally affect your follower."
+  },
+  {
+    "id": 645,
+    "name": "Call of Skadi",
+    "zh": "斯卡蒂的呼召",
+    "tier": 10,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 200,
+    "gives": [
+      "Skadi"
+    ],
+    "learned_by": [
+      {
+        "id": 80,
+        "name": "Beowulf",
+        "level": 225,
+        "specialization": false
+      }
+    ],
+    "description": "Increases the chance of your follower performing an offensive spell. This skill will be most effective when Valhallan classes attempt it."
+  },
+  {
+    "id": 646,
+    "name": "Call of Jord",
+    "zh": "嬌德的呼召",
+    "tier": 10,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 200,
+    "gives": [
+      "Jord"
+    ],
+    "learned_by": [
+      {
+        "id": 80,
+        "name": "Beowulf",
+        "level": 225,
+        "specialization": false
+      }
+    ],
+    "description": "Increases the chance of your follower protecting you. This skill will be more effective when Valhallan classes attempt it."
+  },
+  {
+    "id": 647,
+    "name": "Call of Brynhild",
+    "zh": "布倫希爾德的呼召",
+    "tier": 8,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 100,
+    "gives": [
+      "Brynhild"
+    ],
+    "learned_by": [
+      {
+        "id": 49,
+        "name": "Freyr",
+        "level": 175,
+        "specialization": false
+      }
+    ],
+    "description": "Increases the chance of your follower performing a buff or debuff. This skill will be most effective when Valhallan classes attempt it."
+  },
+  {
+    "id": 648,
+    "name": "Call of Idun",
+    "zh": "伊登的呼召",
+    "tier": 9,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 100,
+    "gives": [
+      "Idun"
+    ],
+    "learned_by": [
+      {
+        "id": 67,
+        "name": "Bahamut",
+        "level": 200,
+        "specialization": false
+      }
+    ],
+    "description": "Increases the chance of your follower performing a healing spell. This skill will be most effective when Valhallan classes attempt it."
+  },
+  {
+    "id": 649,
+    "name": "The Deity",
+    "zh": "神威",
+    "tier": 10,
+    "type": "Passive",
+    "is_magic": 1,
+    "gives": [
+      "T. All ↑↑↑"
+    ],
+    "learned_by": [
+      {
+        "id": 81,
+        "name": "Deity",
+        "level": 225,
+        "specialization": false
+      }
+    ],
+    "description": "Deific Channel may be automatically cast while in battle."
+  },
+  {
+    "id": 650,
+    "name": "Refract",
+    "zh": "鏡反衝",
+    "tier": 9,
+    "type": "Other",
+    "is_magic": 1,
+    "mana_cost": 150,
+    "learned_by": [
+      {
+        "id": 65,
+        "name": "Omnimancer",
+        "level": 200,
+        "specialization": false
+      }
+    ],
+    "description": "Grants a great chance to return some to all of an opponent's attack damage back at them. Refractions are more successful when magic users attempt them."
+  },
+  {
+    "id": 651,
+    "name": "Counterattack",
+    "zh": "反擊",
+    "tier": 6,
+    "type": "Other",
+    "is_magic": 1,
+    "mana_cost": 50,
+    "learned_by": [
+      {
+        "id": 33,
+        "name": "Blademaster",
+        "level": 135,
+        "specialization": false
+      }
+    ],
+    "description": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favourable to win in PvP draws."
+  },
+  {
+    "id": 652,
+    "name": "Reflect",
+    "zh": "鏡反射",
+    "tier": 6,
+    "type": "Other",
+    "is_magic": 1,
+    "mana_cost": 50,
+    "learned_by": [
+      {
+        "id": 32,
+        "name": "Grand Mystic",
+        "level": 130,
+        "specialization": false
+      }
+    ],
+    "description": "Grants a chance to return a portion of an opponent's attack back at them. Reflections are more successful when magic users attempt them."
+  },
+  {
+    "id": 653,
+    "name": "Annwn Subterfuge",
+    "zh": "安溫詭計",
+    "tier": 9,
+    "type": "Passive",
+    "learned_by": [
+      {
+        "id": 72,
+        "name": "Assassin",
+        "level": 200,
+        "specialization": true
+      }
+    ],
+    "description": "It is easier to apply status effects to your opponents. Additionally, status effects given to your opponent will last longer."
+  },
+  {
+    "id": 654,
+    "name": "Counterattack II",
+    "zh": "反擊II",
+    "tier": 9,
+    "type": "Other",
+    "is_magic": 1,
+    "mana_cost": 100,
+    "learned_by": [
+      {
+        "id": 72,
+        "name": "Assassin",
+        "level": 200,
+        "specialization": true
+      }
+    ],
+    "description": "Grants a great chance to return a portion of an opponent's attack back at them. Counterattacks are favourable to win in PvP draws."
+  },
+  {
+    "id": 655,
+    "name": "Provoke II",
+    "zh": "挑釁 II",
+    "tier": 5,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 40,
+    "gives": [
+      "Target ↑↑"
+    ],
+    "learned_by": [
+      {
+        "id": 70,
+        "name": "Pikeman",
+        "level": 100,
+        "specialization": true
+      },
+      {
+        "id": 73,
+        "name": "Warden",
+        "level": 150,
+        "specialization": true
+      },
+      {
+        "id": 54,
+        "name": "Cataphract",
+        "level": 200,
+        "specialization": true
+      }
+    ],
+    "description": "When battling with your party, your opponents will be more likely to target you."
+  },
+  {
+    "id": 656,
+    "name": "Appease",
+    "zh": "安撫",
+    "tier": 5,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 40,
+    "gives": [
+      "Target ↓"
+    ],
+    "learned_by": [
+      {
+        "id": 75,
+        "name": "Merchant",
+        "level": 100,
+        "specialization": true
+      }
+    ],
+    "description": "When battling with your party, your opponents will be less likely to target you."
+  },
+  {
+    "id": 657,
+    "name": "Appease II",
+    "zh": "安撫 II",
+    "tier": 7,
+    "type": "Buff",
+    "is_magic": 1,
+    "mana_cost": 40,
+    "gives": [
+      "Target ↓↓"
+    ],
+    "learned_by": [
+      {
+        "id": 41,
+        "name": "Bard",
+        "level": 150,
+        "specialization": true
+      },
+      {
+        "id": 53,
+        "name": "Charmer",
+        "level": 200,
+        "specialization": true
+      }
+    ],
+    "description": "When battling with your party, your opponents will be less likely to target you."
+  },
+  {
+    "id": 658,
+    "name": "Requiem",
+    "zh": "安魂曲",
+    "tier": 1,
+    "type": "Magic",
+    "is_magic": 1,
+    "causes": [
+      "Lulled"
+    ],
+    "description": "N/A"
   }
 ]
