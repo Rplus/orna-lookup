@@ -11,6 +11,7 @@
       "Warrior"
     ],
     "image": "useables/small_health_potion.png",
+    "rarity": "w",
     "description": "Recovers 100 health points."
   },
   {
@@ -31,6 +32,7 @@
       283
     ],
     "image": "weapons/bow.png",
+    "rarity": "w",
     "description": "A hunter's bow."
   },
   {
@@ -48,6 +50,7 @@
       143
     ],
     "image": "useables/small_mana_potion.png",
+    "rarity": "w",
     "description": "Recovers 100 mana."
   },
   {
@@ -69,6 +72,7 @@
       266
     ],
     "image": "useables/antidote.png",
+    "rarity": "w",
     "description": "Cures poison."
   },
   {
@@ -83,6 +87,7 @@
       "Warrior"
     ],
     "image": "useables/small_elixir.png",
+    "rarity": "g",
     "description": "Recovers 100 health points and 100 mana."
   },
   {
@@ -97,6 +102,7 @@
       "Warrior"
     ],
     "image": "useables/large_health_potion.png",
+    "rarity": "g",
     "description": "Recovers 250 health points."
   },
   {
@@ -111,6 +117,7 @@
       "Warrior"
     ],
     "image": "useables/large_mana_potion.png",
+    "rarity": "g",
     "description": "Recovers 250 mana."
   },
   {
@@ -131,6 +138,7 @@
       }
     ],
     "image": "useables/large_elixir.png",
+    "rarity": "b",
     "description": "Recovers 250 health points and 250 mana."
   },
   {
@@ -145,6 +153,7 @@
       "Warrior"
     ],
     "image": "useables/greater_health_potion.png",
+    "rarity": "g",
     "description": "Recovers 500 health points."
   },
   {
@@ -159,6 +168,7 @@
       "Warrior"
     ],
     "image": "useables/greater_mana_potion.png",
+    "rarity": "g",
     "description": "Recovers 500 mana."
   },
   {
@@ -173,6 +183,7 @@
       "Warrior"
     ],
     "image": "useables/greater_elixir.png",
+    "rarity": "g",
     "description": "Recovers 500 health points and 500 mana."
   },
   {
@@ -226,6 +237,7 @@
       428
     ],
     "image": "useables/panacea.png",
+    "rarity": "g",
     "description": "The universal remedy."
   },
   {
@@ -276,6 +288,7 @@
     "other_effect": [
       "金幣加成: 2"
     ],
+    "rarity": "b",
     "description": "A shiny, lucky coin. Boosts gold earned for a period of time."
   },
   {
@@ -320,6 +333,7 @@
     "other_effect": [
       "歐幣加成: 2"
     ],
+    "rarity": "b",
     "description": "A shiny, lucky, silver coin. Boosts orns earned for a period of time."
   },
   {
@@ -345,6 +359,7 @@
     "other_effect": [
       "經驗加成: 2"
     ],
+    "rarity": "w",
     "description": "A sour tasting elixir that doubles experience earned for a limited time."
   },
   {
@@ -375,6 +390,7 @@
     "other_effect": [
       "幸運加成: 1.5"
     ],
+    "rarity": "b",
     "description": "A strange apparatus suitable for finding that which cannot be easily found. Boosts item and discovery rate for a period of time."
   },
   {
@@ -393,6 +409,7 @@
     "other_effect": [
       "怪物: 1.3"
     ],
+    "rarity": "w",
     "description": "Use it at night to increase visibility. You may attract more monsters as well."
   },
   {
@@ -415,6 +432,7 @@
     "other_effect": [
       "怪物: 2"
     ],
+    "rarity": "w",
     "description": "A mysterious candle that draws more enemies to you for a limited time when lit."
   },
   {
@@ -447,6 +465,7 @@
       412
     ],
     "image": "useables/attack_tonic.png",
+    "rarity": "w",
     "description": "A sour tonic that raises your attack in battle."
   },
   {
@@ -477,6 +496,7 @@
       412
     ],
     "image": "useables/defense_tonic.png",
+    "rarity": "w",
     "description": "A sour tonic that raises your defense in battle."
   },
   {
@@ -501,6 +521,7 @@
       428
     ],
     "image": "useables/speed_tonic.png",
+    "rarity": "w",
     "description": "A sour tonic that raises your speed in battle."
   },
   {
@@ -534,6 +555,7 @@
       412
     ],
     "image": "useables/magic_tonic.png",
+    "rarity": "w",
     "description": "A sour tonic that raises your magic in battle."
   },
   {
@@ -552,6 +574,7 @@
       431
     ],
     "image": "useables/remains.png",
+    "rarity": "b",
     "description": "Fragment remains of a fallen monster. Attracts a boss to your location when used."
   },
   {
@@ -572,6 +595,7 @@
       304
     ],
     "image": "useables/great_remains.png",
+    "rarity": "p",
     "description": "Fragrant remains of a fallen monster. Attracts a (Berserk) boss to your location when used."
   },
   {
@@ -608,6 +632,7 @@
       263
     ],
     "image": "weapons/long_sword.png",
+    "rarity": "w",
     "description": "A sword with a wide blade."
   },
   {
@@ -625,6 +650,7 @@
       283
     ],
     "image": "weapons/cane.png",
+    "rarity": "w",
     "description": "A wise mage's cane."
   },
   {
@@ -647,6 +673,7 @@
       263
     ],
     "image": "weapons/dagger.png",
+    "rarity": "w",
     "description": "A small blade ideal for close quartered combat."
   },
   {
@@ -666,6 +693,7 @@
       263
     ],
     "image": "weapons/small_sword.png",
+    "rarity": "w",
     "description": "An old, rusty sword."
   },
   {
@@ -685,6 +713,7 @@
       276
     ],
     "image": "weapons/small_sword.png",
+    "rarity": "w",
     "description": "A trusty, yet short, sword."
   },
   {
@@ -705,6 +734,7 @@
       283
     ],
     "image": "weapons/staff.png",
+    "rarity": "w",
     "description": "A mage's staff."
   },
   {
@@ -727,6 +757,7 @@
     ],
     "image": "weapons/sword_and_shield.png",
     "two_handed": 1,
+    "rarity": "w",
     "description": "A simple sword and shield."
   },
   {
@@ -745,6 +776,7 @@
       345
     ],
     "image": "weapons/wooden_staff.png",
+    "rarity": "w",
     "description": "A mage's staff crafted of enchanted wood."
   },
   {
@@ -1720,6 +1752,7 @@
     ],
     "image": "weapons/silver_dagger.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A silver dagger. Quite suitable when fighting the undead."
   },
   {
@@ -2146,6 +2179,7 @@
       "經驗加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned."
   },
   {
@@ -2452,6 +2486,7 @@
     ],
     "image": "weapons/royalty.png",
     "slots": 8,
+    "rarity": "b",
     "description": "A sword and shield pairing fit for royal guards."
   },
   {
@@ -2556,6 +2591,7 @@
     ],
     "image": "weapons/hell_dagger.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Dagger often carried as a sidearm by demon soldiers. Has the chance of both burning and causing an opponent to bleed."
   },
   {
@@ -2580,6 +2616,7 @@
     ],
     "image": "weapons/diana_bow.png",
     "slots": 4,
+    "rarity": "b",
     "description": "Silver bow of a legendary huntress. It grants its wielder extra dexterity."
   },
   {
@@ -2604,6 +2641,7 @@
     ],
     "image": "weapons/caladbolg.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A blade with the power to cleave the tops from the hills. It may paralyze an opponent, while protecting its wielder from paralyzation."
   },
   {
@@ -2628,6 +2666,7 @@
     ],
     "image": "weapons/carnwennan.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A mythical dagger said to have the magical power to shroud its user in shadow. It may lull an opponent to sleep."
   },
   {
@@ -2652,6 +2691,7 @@
     ],
     "image": "weapons/dyrnwyn.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A legendary blade that blazes with fire when drawn."
   },
   {
@@ -2697,6 +2737,7 @@
     ],
     "image": "weapons/draco_archistaff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Staff of a fallen mystic."
   },
   {
@@ -2719,6 +2760,7 @@
     ],
     "image": "weapons/masamune.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A beautiful blade that resemble stars in the night sky."
   },
   {
@@ -2744,6 +2786,7 @@
     "image": "weapons/might.png",
     "two_handed": 1,
     "slots": 8,
+    "rarity": "w",
     "description": "An axe an shield pairing suitable of taking down great beasts."
   },
   {
@@ -2773,6 +2816,7 @@
     "image": "weapons/wyvern_blades.png",
     "two_handed": 1,
     "slots": 8,
+    "rarity": "g",
     "description": "Crude blades made from the talons of a wyvern. These blades can cause your opponent to bleed."
   },
   {
@@ -2795,6 +2839,7 @@
     ],
     "image": "weapons/draco_archistaff.png",
     "slots": 6,
+    "rarity": "b",
     "description": "An archistaff granted to Draconian lords. Illuminates your path while carried."
   },
   {
@@ -2841,6 +2886,7 @@
     ],
     "image": "weapons/axe_of_tiamat.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A powerful axe forged by the remains of Tiamat, the great ancient dragon."
   },
   {
@@ -2868,6 +2914,7 @@
     ],
     "image": "weapons/bow_of_tiamat.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A superb bow forged of the remains of Tiamat, the great ancient dragon."
   },
   {
@@ -2889,6 +2936,7 @@
     ],
     "image": "weapons/crucifix.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A staff of the occult. Boasts strong magic power, but can also be used as a weapon. It heals its wielder when dealing damage. (heals 100HP when dealing damage)"
   },
   {
@@ -2917,6 +2965,7 @@
       "經驗加成: 1.03"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "Blade taken from Ankou's deadly scythe. Increases orns and experience earned."
   },
   {
@@ -2942,6 +2991,7 @@
     ],
     "image": "weapons/staff_of_tiamat.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A superb staff forged of the remains of Tiamat, the great ancient dragon."
   },
   {
@@ -2990,6 +3040,7 @@
       262
     ],
     "image": "armor/hood.png",
+    "rarity": "w",
     "description": "A simple hood."
   },
   {
@@ -3011,6 +3062,7 @@
       264
     ],
     "image": "armor/leather_hat.png",
+    "rarity": "w",
     "description": "A leather hat."
   },
   {
@@ -3076,6 +3128,7 @@
       263
     ],
     "image": "armor/iron_helmet.png",
+    "rarity": "w",
     "description": "An old iron helmet"
   },
   {
@@ -3359,6 +3412,7 @@
     ],
     "image": "armor/witch_hat.png",
     "slots": 4,
+    "rarity": "p",
     "description": "The symbolic headwear of Carman, the banished witch."
   },
   {
@@ -3382,6 +3436,7 @@
     ],
     "image": "armor/wyvern_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic helmet made of wyvern skin."
   },
   {
@@ -3400,6 +3455,7 @@
       263
     ],
     "image": "armor/chain_mail.png",
+    "rarity": "w",
     "description": "Armor made of chainmail"
   },
   {
@@ -3417,6 +3473,7 @@
       262
     ],
     "image": "armor/robe.png",
+    "rarity": "w",
     "description": "A smelly old robe."
   },
   {
@@ -3439,6 +3496,7 @@
       264
     ],
     "image": "armor/goblin_armor.png",
+    "rarity": "w",
     "description": "Light armor of a goblin."
   },
   {
@@ -3463,6 +3521,7 @@
       264
     ],
     "image": "armor/goblin_armor.png",
+    "rarity": "w",
     "description": "Light armor reinforced with hardened leather. Offers fair protection from the elements."
   },
   {
@@ -3483,6 +3542,7 @@
       263
     ],
     "image": "armor/iron_armor.png",
+    "rarity": "w",
     "description": "Heavy armor made of iron"
   },
   {
@@ -3505,6 +3565,7 @@
       264
     ],
     "image": "armor/jacket.png",
+    "rarity": "w",
     "description": "A simple leather jacket."
   },
   {
@@ -3526,6 +3587,7 @@
       262
     ],
     "image": "armor/robe.png",
+    "rarity": "w",
     "description": "A simple mage's robe. Offers a small amount of magic protection."
   },
   {
@@ -3947,6 +4009,7 @@
     ],
     "image": "armor/fomorian_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A robe worn by Fomorian mages."
   },
   {
@@ -4101,6 +4164,7 @@
     ],
     "image": "armor/wyvern_plate.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic chest guard made of wyvern skin."
   },
   {
@@ -4125,6 +4189,7 @@
     ],
     "image": "armor/wyvern_plate.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic chest guard made of wyvern skin."
   },
   {
@@ -4150,6 +4215,7 @@
       "歐幣加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "The blackened robe of Ankou, the henchman of Death. Slightly increases orns earned. It is most fitting for the most skilled of mages."
   },
   {
@@ -4173,6 +4239,7 @@
     ],
     "image": "armor/wyvern_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic robe made of wyvern skin."
   },
   {
@@ -4191,6 +4258,7 @@
       263
     ],
     "image": "armor/chain_leggings.png",
+    "rarity": "w",
     "description": "Armor made of chainmail."
   },
   {
@@ -4213,6 +4281,7 @@
       264
     ],
     "image": "armor/goblin_boots.png",
+    "rarity": "w",
     "description": "Boots of a goblin."
   },
   {
@@ -4237,6 +4306,7 @@
       264
     ],
     "image": "armor/boots.png",
+    "rarity": "w",
     "description": "Sturdy leather boots. Offers extra protection."
   },
   {
@@ -4256,6 +4326,7 @@
       264
     ],
     "image": "armor/heavy_boots.png",
+    "rarity": "w",
     "description": "Heavy boots, made to endure most weather conditions."
   },
   {
@@ -4280,6 +4351,7 @@
       264
     ],
     "image": "armor/boots.png",
+    "rarity": "w",
     "description": "These boots were only made for walking."
   },
   {
@@ -4629,6 +4701,7 @@
     ],
     "image": "armor/wyvern_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic boots made of wyvern skin."
   },
   {
@@ -4653,6 +4726,7 @@
     ],
     "image": "armor/wyvern_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic, heavy leg armor made of wyvern skin."
   },
   {
@@ -4676,6 +4750,7 @@
     ],
     "image": "armor/wyvern_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic boots made of wyvern skin."
   },
   {
@@ -4785,6 +4860,7 @@
     "other_effect": [
       "經驗加成: 1.05"
     ],
+    "rarity": "g",
     "description": "A tome of common monsters. Slightly boosts experience earned."
   },
   {
@@ -4821,6 +4897,7 @@
     ],
     "stats.attack": 20,
     "image": "acc/amulet.png",
+    "rarity": "w",
     "description": "A shiny, silver amulet. Raises attack power."
   },
   {
@@ -4852,6 +4929,7 @@
     ],
     "stats.defense": 10,
     "image": "acc/ring.png",
+    "rarity": "w",
     "description": "A ring made of steel. Raises defense when worn."
   },
   {
@@ -4867,6 +4945,7 @@
     ],
     "stats.mana": 50,
     "image": "acc/blue_crystal.png",
+    "rarity": "g",
     "description": "An odd blue crystal. Boosts MP when equipped."
   },
   {
@@ -4909,6 +4988,7 @@
       49
     ],
     "image": "acc/crystal_eye.png",
+    "rarity": "g",
     "description": "A strange eye imbued with even stranger magic. Keeping this in your hand will slightly boost all stats."
   },
   {
@@ -4927,6 +5007,7 @@
       49
     ],
     "image": "acc/green_crystal.png",
+    "rarity": "g",
     "description": "An odd green crystal. Boosts magic power when equipped."
   },
   {
@@ -4994,6 +5075,7 @@
       111
     ],
     "image": "acc/red_crystal.png",
+    "rarity": "g",
     "description": "An odd red crystal. Boosts HP when equipped."
   },
   {
@@ -5032,6 +5114,7 @@
     "other_effect": [
       "怪物: 1.2"
     ],
+    "rarity": "g",
     "description": "A skull enchanted with strange magic. Attracts more monsters to you when carried."
   },
   {
@@ -5102,6 +5185,7 @@
     ],
     "stats.attack": 40,
     "image": "acc/amulet.png",
+    "rarity": "w",
     "description": "A rare platinum amulet. Raises attack power."
   },
   {
@@ -5145,6 +5229,7 @@
       86
     ],
     "image": "acc/troll_pendant.png",
+    "rarity": "b",
     "description": "Strange amulet of a troll. Boosts most stats."
   },
   {
@@ -5163,6 +5248,7 @@
       113
     ],
     "image": "acc/warrior_ring.png",
+    "rarity": "b",
     "description": "A strange magical ring. Those who do not possess physical strength can equip this ring to sacrifice magic for attack power."
   },
   {
@@ -5189,6 +5275,7 @@
     "other_effect": [
       "經驗加成: 1.1"
     ],
+    "rarity": "g",
     "description": "A large tome of monster knowledge. Increases experience earned."
   },
   {
@@ -5224,6 +5311,7 @@
     "stats.defense": 7,
     "stats.resistance": 20,
     "image": "armor/magic_robe.png",
+    "rarity": "w",
     "description": "A simple robe worn by students of magic."
   },
   {
@@ -5239,6 +5327,7 @@
     "stats.defense": 6,
     "stats.resistance": 20,
     "image": "armor/magic_hood.png",
+    "rarity": "w",
     "description": "The hood of a student of magic."
   },
   {
@@ -5303,6 +5392,7 @@
       304
     ],
     "image": "materials/adamantine.png",
+    "rarity": "g",
     "description": "An unbreakable chunk of adamantine. Used to craft extremely durable weapons and armor."
   },
   {
@@ -5327,6 +5417,7 @@
       1433
     ],
     "image": "materials/stone.png",
+    "rarity": "w",
     "description": "An extremely ancient stone. Useful for upgrading powerful weapons."
   },
   {
@@ -5405,6 +5496,7 @@
       949
     ],
     "image": "materials/bone.png",
+    "rarity": "w",
     "description": "A fragment of sturdy bone. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -5428,6 +5520,7 @@
       135
     ],
     "image": "materials/iron.png",
+    "rarity": "g",
     "description": "A broken piece of a statue. It may be useful in upgrading rarer weapons."
   },
   {
@@ -5453,6 +5546,7 @@
       499
     ],
     "image": "materials/iron.png",
+    "rarity": "g",
     "description": "Stone mined from an eerie cave. Useful for upgrading powerful weapons."
   },
   {
@@ -5543,6 +5637,7 @@
       }
     ],
     "image": "materials/dark_stone.png",
+    "rarity": "g",
     "description": "A rare piece of darkstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -5572,6 +5667,7 @@
       406
     ],
     "image": "materials/demonstone.png",
+    "rarity": "g",
     "description": "Unrefined ore of the underworld. Useful for upgrading demonic weapons."
   },
   {
@@ -5627,6 +5723,7 @@
       127
     ],
     "image": "materials/draconite.png",
+    "rarity": "g",
     "description": "A rare piece of draconite. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -5706,6 +5803,7 @@
       190
     ],
     "image": "materials/dragonite.png",
+    "rarity": "g",
     "description": "A rare piece of dragonite. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -5796,6 +5894,7 @@
       }
     ],
     "image": "materials/earth_stone.png",
+    "rarity": "g",
     "description": "A rare piece of earthstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -5835,6 +5934,7 @@
       1197
     ],
     "image": "materials/elstone.png",
+    "rarity": "w",
     "description": "An odd stone often used to craft Elven weapons."
   },
   {
@@ -5862,6 +5962,7 @@
       455
     ],
     "image": "materials/eye.png",
+    "rarity": "g",
     "description": "Crystal eye fallen from a great gazer. Useful for upgrading powerful weapons."
   },
   {
@@ -5970,6 +6071,7 @@
       }
     ],
     "image": "materials/fire_stone.png",
+    "rarity": "g",
     "description": "A rare piece of firestone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -5995,6 +6097,7 @@
       833
     ],
     "image": "materials/fogstone.png",
+    "rarity": "g",
     "description": "Strange, transparent material. Useful for upgrading special weapons."
   },
   {
@@ -6069,6 +6172,7 @@
       403
     ],
     "image": "materials/steel.png",
+    "rarity": "g",
     "description": "Steel, yet seemingly more durable than usual. Useful in upgrading stronger weapons."
   },
   {
@@ -6200,6 +6304,7 @@
       613
     ],
     "image": "materials/hide.png",
+    "rarity": "w",
     "description": "A small scrap of animal hide. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -6272,6 +6377,7 @@
       }
     ],
     "image": "materials/iron.png",
+    "rarity": "w",
     "description": "A small piece of iron ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -6328,6 +6434,7 @@
       1114
     ],
     "image": "materials/leather.png",
+    "rarity": "w",
     "description": "A small scrap of leather. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -6376,6 +6483,7 @@
       }
     ],
     "image": "materials/lightning_stone.png",
+    "rarity": "g",
     "description": "A rare piece of lightningstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -6527,6 +6635,7 @@
       }
     ],
     "image": "materials/mythril.png",
+    "rarity": "w",
     "description": "A small piece of mythril ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -6563,6 +6672,7 @@
       583
     ],
     "image": "materials/nightstone.png",
+    "rarity": "g",
     "description": "A hard stone that resembles the night sky."
   },
   {
@@ -6655,6 +6765,7 @@
       787
     ],
     "image": "materials/runestone.png",
+    "rarity": "g",
     "description": "A flawless chunk of runestone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -6701,6 +6812,7 @@
       }
     ],
     "image": "materials/steel.png",
+    "rarity": "w",
     "description": "A small piece of platinum ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -6725,6 +6837,7 @@
       189
     ],
     "image": "materials/dark_stone.png",
+    "rarity": "b",
     "description": "Pure darkstone. Useful for upgrading extremely dark weapons."
   },
   {
@@ -6753,6 +6866,7 @@
       530
     ],
     "image": "materials/draconite.png",
+    "rarity": "g",
     "description": "A rare chunk of pure draconite. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -6797,6 +6911,7 @@
       435
     ],
     "image": "materials/demonstone.png",
+    "rarity": "g",
     "description": "A chunk of fiery draconite. Useful for upgrading powerful weapons."
   },
   {
@@ -6920,6 +7035,7 @@
       }
     ],
     "image": "materials/runestone.png",
+    "rarity": "g",
     "description": "A rare piece of runestone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -6946,6 +7062,7 @@
       65
     ],
     "image": "materials/scalestone.png",
+    "rarity": "g",
     "description": "A chunk of nearly fossilized scales. Useful for upgrading rare weapons."
   },
   {
@@ -7153,6 +7270,7 @@
       }
     ],
     "image": "materials/silver.png",
+    "rarity": "w",
     "description": "A small piece of silver ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -7217,6 +7335,7 @@
       }
     ],
     "image": "materials/steel.png",
+    "rarity": "w",
     "description": "A small piece of steel ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -7257,6 +7376,7 @@
       910
     ],
     "image": "materials/stone.png",
+    "rarity": "w",
     "description": "A solid piece of stone. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -7287,6 +7407,7 @@
       527
     ],
     "image": "materials/bone.png",
+    "rarity": "g",
     "description": "Bones of the undead can rarely be so strong."
   },
   {
@@ -7310,6 +7431,7 @@
       117
     ],
     "image": "materials/vampiric_ore.png",
+    "rarity": "g",
     "description": "Ore seemingly treasured by the lords of the night. This can be used to upgrade weapons of theirs."
   },
   {
@@ -7402,6 +7524,7 @@
       }
     ],
     "image": "materials/water_stone.png",
+    "rarity": "g",
     "description": "A rare piece of waterstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -7435,6 +7558,7 @@
       741
     ],
     "image": "materials/dark_stone.png",
+    "rarity": "g",
     "description": "Strange stone crafted by a great witch."
   },
   {
@@ -7483,6 +7607,7 @@
       1022
     ],
     "image": "materials/wolf_blood.png",
+    "rarity": "g",
     "description": "What a strange substance. What could it ever be for?"
   },
   {
@@ -7587,6 +7712,7 @@
       765
     ],
     "image": "materials/wood.png",
+    "rarity": "w",
     "description": "A solid piece of wood. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -7670,6 +7796,7 @@
     ],
     "image": "weapons/sea_axe.png",
     "slots": 6,
+    "rarity": "g",
     "description": "An axe enchanted with the power of the raging sea."
   },
   {
@@ -7692,6 +7819,7 @@
     ],
     "image": "armor/wyvern_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic hood made of wyvern skin."
   },
   {
@@ -7718,6 +7846,7 @@
     ],
     "image": "weapons/batwing_bow.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Bow forged of a great bat's remains. It may break an opponent's defenses."
   },
   {
@@ -7743,6 +7872,7 @@
     ],
     "image": "weapons/wolf_staff.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Staff of a wolfman mage. Imbued with earthen powers."
   },
   {
@@ -7871,6 +8001,7 @@
       295
     ],
     "image": "materials/silk.png",
+    "rarity": "w",
     "description": "Silk of a great spider. Useful for upgrading rare weapons."
   },
   {
@@ -7940,6 +8071,7 @@
     ],
     "image": "weapons/diana_bow.png",
     "slots": 4,
+    "rarity": "p",
     "description": "Bow of the underworld."
   },
   {
@@ -7965,6 +8097,7 @@
     ],
     "image": "weapons/draco_bow.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A decorative bow enchanted with the power of ice. It can easily cause an opponent to freeze."
   },
   {
@@ -8040,6 +8173,7 @@
     ],
     "image": "weapons/adam_staff.png",
     "slots": 4,
+    "rarity": "p",
     "description": "A staff that brings down giants. It may break an opponents magical defenses."
   },
   {
@@ -8079,6 +8213,7 @@
       287
     ],
     "image": "materials/water_stone.png",
+    "rarity": "w",
     "description": "A rare chunk of pure waterstone. Useful for crafting and upgrading powerful magical weapons or armor."
   },
   {
@@ -8121,6 +8256,7 @@
     ],
     "image": "weapons/wolfbane.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A magical blade representing the unrelenting force of Fenrir the wolf. It can temporarily decrease your opponent's defense upon use."
   },
   {
@@ -8494,6 +8630,7 @@
     ],
     "image": "armor/ljosalfar_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Boots of a Ljosalfar warrior."
   },
   {
@@ -8516,6 +8653,7 @@
     ],
     "image": "weapons/ljosalfar_staff.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Great staff of a Ljosalfar mage."
   },
   {
@@ -8570,6 +8708,7 @@
       }
     ],
     "image": "materials/lightstone.png",
+    "rarity": "g",
     "description": "A glossy white material used in Ljosalfar weaponry."
   },
   {
@@ -8616,6 +8755,7 @@
     ],
     "image": "weapons/ljosalfar_sword.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A gleaming white blade of a Ljosalfar warrior."
   },
   {
@@ -8638,6 +8778,7 @@
     ],
     "image": "weapons/halberd.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Crude weapon of a Naga warrior"
   },
   {
@@ -8664,6 +8805,7 @@
     ],
     "image": "weapons/ljosalfar_sceptre.png",
     "slots": 6,
+    "rarity": "g",
     "description": "An extremely versatile magical Ljosalfar sceptre. Can be used as either a magic staff or weapon."
   },
   {
@@ -8697,6 +8839,7 @@
       329
     ],
     "image": "materials/lightstone.png",
+    "rarity": "g",
     "description": "Rare white material used in Ljosalfar weaponry. Can be used to upgrade powerful weapons."
   },
   {
@@ -8719,6 +8862,7 @@
       149
     ],
     "image": "acc/cursed_ring.png",
+    "rarity": "b",
     "description": "A ring of the cursed Fafnir. Increases your attack and magic power at the expense of your longevity."
   },
   {
@@ -8746,6 +8890,7 @@
     "other_effect": [
       "經驗加成: 1.25"
     ],
+    "rarity": "b",
     "description": "A tome recounting the cursed stories of Fafnir. Increases experience earned at the expense of your potential."
   },
   {
@@ -8873,6 +9018,7 @@
     ],
     "image": "weapons/draco_sceptre.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Crude staff of a Naga mage."
   },
   {
@@ -8921,6 +9067,7 @@
     ],
     "image": "weapons/lizarr_bow.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Although the Lizarr seemed untrained in advanced weaponry, these fine bows have been found within their settlements. This bow is enchanted with the power of ice and water."
   },
   {
@@ -8978,6 +9125,7 @@
     ],
     "image": "armor/wyvern_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic cowl made of wyvern skin."
   },
   {
@@ -9124,6 +9272,7 @@
       }
     ],
     "image": "materials/soul.png",
+    "rarity": "w",
     "description": "Soul of a felled gladiator. Useful in upgrading rarer weapons and equipment."
   },
   {
@@ -9266,6 +9415,7 @@
       296
     ],
     "image": "materials/greater_soul.png",
+    "rarity": "g",
     "description": "Soul of a great felled gladiator. Useful in upgrading rarer weapons and equipment."
   },
   {
@@ -9340,6 +9490,7 @@
       486
     ],
     "image": "useables/arena_token.png",
+    "rarity": "w",
     "description": "A token permitting access to battle in the Arena."
   },
   {
@@ -9408,6 +9559,7 @@
     ],
     "image": "weapons/hell_dagger.png",
     "slots": 5,
+    "rarity": "g",
     "description": "Dagger often carried as a sidearm by demon soldiers.  Has the chance of both burning and causing an opponent to bleed."
   },
   {
@@ -9431,6 +9583,7 @@
     ],
     "image": "armor/arcane_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "The robe of one who practices rare magic. Slightly raises total mana."
   },
   {
@@ -9454,6 +9607,7 @@
     ],
     "image": "armor/arcane_hat.png",
     "slots": 4,
+    "rarity": "w",
     "description": "The hat of one who practices rare magic. Slightly raises total mana."
   },
   {
@@ -9477,6 +9631,7 @@
     ],
     "image": "armor/arcane_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "The boots of one who practices rare magic. Slightly raises total mana."
   },
   {
@@ -9500,6 +9655,7 @@
     ],
     "image": "weapons/dagger.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A sharp blade carried by wandering rogues. It has a great chance to cause an opponent to bleed."
   },
   {
@@ -9522,6 +9678,7 @@
     ],
     "image": "armor/colossal_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Armor forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -9544,6 +9701,7 @@
     ],
     "image": "armor/colossal_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Helmet forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -9566,6 +9724,7 @@
     ],
     "image": "armor/colossal_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Leg armor forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -9618,6 +9777,7 @@
       359
     ],
     "image": "materials/sandstone.png",
+    "rarity": "w",
     "description": "Material made of hardened sand. Useful for upgrading powerful weapons."
   },
   {
@@ -9718,6 +9878,7 @@
       1195
     ],
     "image": "materials/solarite.png",
+    "rarity": "w",
     "description": "Rare chunk of solarite. Useful in upgrading powerful equipment."
   },
   {
@@ -9945,6 +10106,7 @@
     ],
     "image": "weapons/lunar_dagger.png",
     "slots": 6,
+    "rarity": "w",
     "description": "An azure dagger crafted of hard titanium."
   },
   {
@@ -9967,6 +10129,7 @@
     ],
     "image": "weapons/titan_axe.png",
     "slots": 6,
+    "rarity": "w",
     "description": "An azure axe crafted of hard titanium."
   },
   {
@@ -9989,6 +10152,7 @@
     ],
     "image": "weapons/moon_staff.png",
     "slots": 6,
+    "rarity": "w",
     "description": "An azure staff crafted of hard titanium."
   },
   {
@@ -10012,6 +10176,7 @@
     ],
     "image": "armor/lunar_armor.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure light armor crafted of titanium."
   },
   {
@@ -10034,6 +10199,7 @@
     ],
     "image": "armor/titan_armor.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure armor crafted of hard titanium."
   },
   {
@@ -10057,6 +10223,7 @@
     ],
     "image": "armor/moon_robe.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure attire adorned with titanium."
   },
   {
@@ -10080,6 +10247,7 @@
     ],
     "image": "armor/lunar_helm.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure light armor crafted of titanium."
   },
   {
@@ -10103,6 +10271,7 @@
     ],
     "image": "armor/moon_hat.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure attire adorned with titanium."
   },
   {
@@ -10126,6 +10295,7 @@
     ],
     "image": "armor/moon_boots.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure attire adorned with titanium."
   },
   {
@@ -10149,6 +10319,7 @@
     ],
     "image": "armor/lunar_boots.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure light armor crafted of titanium."
   },
   {
@@ -10171,6 +10342,7 @@
     ],
     "image": "armor/titan_leggings.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Azure armor crafted of hard titanium."
   },
   {
@@ -10189,6 +10361,7 @@
       "Blight"
     ],
     "image": "acc/blight_pendant.png",
+    "rarity": "g",
     "description": "A pendant often worn by dragoons. It protects its wearer from blight."
   },
   {
@@ -10306,6 +10479,7 @@
       384
     ],
     "image": "materials/titanium.png",
+    "rarity": "w",
     "description": "A large chunk of hardened titanium. Useful in upgrading powerful equipment."
   },
   {
@@ -10348,6 +10522,7 @@
       186
     ],
     "image": "acc/azure_crystal.png",
+    "rarity": "w",
     "description": "Azure crystal of the night. Increases magical ability at the expense of physical prowess."
   },
   {
@@ -10374,6 +10549,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed."
   },
   {
@@ -10396,6 +10572,7 @@
     ],
     "image": "weapons/balor_staff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Staff wielded by Balor mages. It increases mana at the expense of health."
   },
   {
@@ -10418,6 +10595,7 @@
     ],
     "image": "armor/pale_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor typically worn by Balor warriors."
   },
   {
@@ -10440,6 +10618,7 @@
     ],
     "image": "armor/ashen_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A dark, dusty robe typically worn by Balor mages."
   },
   {
@@ -10462,6 +10641,7 @@
     ],
     "image": "armor/pale_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A heavy helmet typically worn by Balor warriors."
   },
   {
@@ -10492,6 +10672,7 @@
     ],
     "image": "armor/crown.png",
     "slots": 12,
+    "rarity": "b",
     "description": "The fabled crown of King Balor."
   },
   {
@@ -10514,6 +10695,7 @@
     ],
     "image": "armor/pale_leggings.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy leggings typically worn by Balor warriors"
   },
   {
@@ -10537,6 +10719,7 @@
       818
     ],
     "image": "materials/balorite.png",
+    "rarity": "w",
     "description": "A golden material useful in upgrading powerful equipment."
   },
   {
@@ -10590,6 +10773,7 @@
     ],
     "two_handed": 1,
     "slots": 10,
+    "rarity": "g",
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
   },
   {
@@ -10621,6 +10805,7 @@
       "經驗加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "Putrid spear of the Rat King.  It may cause poison while slightly boosting experience and orns earned."
   },
   {
@@ -10642,6 +10827,7 @@
     ],
     "image": "weapons/axe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Blunt axe of an great Orcish warrior."
   },
   {
@@ -10663,6 +10849,7 @@
     ],
     "image": "weapons/falchion.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Blunt blade of an great Orcish warrior."
   },
   {
@@ -10728,6 +10915,7 @@
       452
     ],
     "image": "materials/balorite.png",
+    "rarity": "w",
     "description": "A golden material useful in upgrading powerful equipment."
   },
   {
@@ -10749,6 +10937,7 @@
       193
     ],
     "image": "acc/stone_pendant.png",
+    "rarity": "g",
     "description": "A pendant often worn against the mighty cockatrice. It protects its wearer from petrification."
   },
   {
@@ -10770,12 +10959,13 @@
     ],
     "image": "armor/draco_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A robe of a Draconian mage."
   },
   {
     "id": 410,
     "name": "High Fomorian Hood",
-    "zh": "高級弗摩爾族兜帽",
+    "zh": "高等弗摩爾族兜帽",
     "tier": 7,
     "type": "Head",
     "equipped_by": [
@@ -10792,12 +10982,13 @@
     ],
     "image": "armor/fomorian_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A hood worn by Fomorian mages."
   },
   {
     "id": 411,
     "name": "High Fomorian Leggings",
-    "zh": "高級弗摩爾族腿甲",
+    "zh": "高等弗摩爾族腿甲",
     "tier": 7,
     "type": "Legs",
     "equipped_by": [
@@ -10814,12 +11005,13 @@
     ],
     "image": "armor/fomorian_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Leg armor worn by Fomorian warriors."
   },
   {
     "id": 412,
     "name": "High Fomorian Armor",
-    "zh": "高級弗摩爾族盔甲",
+    "zh": "高等弗摩爾族盔甲",
     "tier": 7,
     "type": "Armor",
     "equipped_by": [
@@ -10836,12 +11028,13 @@
     ],
     "image": "armor/fomorian_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian warriors."
   },
   {
     "id": 413,
     "name": "High Fomorian Robe",
-    "zh": "高級弗摩爾族長袍",
+    "zh": "高等弗摩爾族長袍",
     "tier": 7,
     "type": "Armor",
     "equipped_by": [
@@ -10858,6 +11051,7 @@
     ],
     "image": "armor/fomorian_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A robe worn by Fomorian mages."
   },
   {
@@ -10880,6 +11074,7 @@
     ],
     "image": "armor/draco_garb.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Body coverings of a Draconian rogue."
   },
   {
@@ -10900,6 +11095,7 @@
     ],
     "image": "armor/draco_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -10922,6 +11118,7 @@
     ],
     "image": "armor/draco_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A cowl of a Draconian rogue."
   },
   {
@@ -10943,6 +11140,7 @@
     ],
     "image": "armor/draco_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A hood of a Draconian mage"
   },
   {
@@ -10964,6 +11162,7 @@
     ],
     "image": "weapons/crystal_halberd.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A crystalline polearm carried by the most enlightened of travelers. It is well suited for adornment."
   },
   {
@@ -10985,12 +11184,13 @@
     ],
     "image": "weapons/draco_sword.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A sword of a Fomorian warrior."
   },
   {
     "id": 420,
     "name": "High Fomorian Staff",
-    "zh": "高級弗摩爾族法杖",
+    "zh": "高等弗摩爾族法杖",
     "tier": 7,
     "type": "Weapon",
     "equipped_by": [
@@ -11007,6 +11207,7 @@
     ],
     "image": "weapons/draco_archistaff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A staff of a Fomorian mage."
   },
   {
@@ -11030,6 +11231,7 @@
     ],
     "image": "armor/orichalcum_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A helmet made of solid orichalcum."
   },
   {
@@ -11053,6 +11255,7 @@
     ],
     "image": "armor/orichalcum_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Armor made of solid orichalcum."
   },
   {
@@ -11076,6 +11279,7 @@
     ],
     "image": "armor/orichalcum_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Leg armor made of solid orichalcum."
   },
   {
@@ -11099,6 +11303,7 @@
       423
     ],
     "image": "materials/orichalcum.png",
+    "rarity": "w",
     "description": "A solid chunk of orichalcum. Useful in upgrading hardened equipment."
   },
   {
@@ -11158,6 +11363,7 @@
     ],
     "image": "weapons/wooden_sword.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Ceremonial sword of a great woodland elf. It may poison an opponent."
   },
   {
@@ -11235,6 +11441,7 @@
     ],
     "image": "weapons/axe_of_typhon.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A powerful axe forged of the remains of Typhon, the great ancient dragon."
   },
   {
@@ -11259,6 +11466,7 @@
     ],
     "image": "weapons/gada.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A huge mace, favoured by esteemed Dokkalfar warriors. Has a very high chance of stunning an opponent."
   },
   {
@@ -11341,6 +11549,7 @@
     ],
     "image": "weapons/crystalis.png",
     "slots": 8,
+    "rarity": "g",
     "description": "A ceremonial sword of enlightened royalty. It can protect one from having their stats lowered and is well-suited for adornment."
   },
   {
@@ -11367,6 +11576,7 @@
     ],
     "image": "weapons/bow_of_typhon.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A superb bow forged by the remains of Typhon, the great ancient dragon."
   },
   {
@@ -11392,6 +11602,7 @@
     ],
     "image": "weapons/staff_of_typhon.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A superb staff forged by the remains of Typhon, the great ancient dragon."
   },
   {
@@ -11413,6 +11624,7 @@
     ],
     "image": "weapons/crystal_staff.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A magical crystalline staff carried by the most enlightened travelers. It is well suited for adornment."
   },
   {
@@ -11433,6 +11645,7 @@
     ],
     "image": "armor/draco_pants.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -11457,6 +11670,7 @@
     ],
     "image": "armor/shadow_boots.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Dark armor of elite Balor rogues."
   },
   {
@@ -11481,6 +11695,7 @@
     ],
     "image": "armor/shadow_hood.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Dark armor of elite Balor rogues."
   },
   {
@@ -11506,6 +11721,7 @@
       "經驗加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "Old, decrepit, dark archistaff of a powerful witch. Slightly boosts experience earned."
   },
   {
@@ -11528,6 +11744,7 @@
     ],
     "image": "armor/draco_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Boots of a Draconian rogue."
   },
   {
@@ -11550,6 +11767,7 @@
     ],
     "image": "armor/high_elf_robe.png",
     "slots": 3,
+    "rarity": "w",
     "description": "Crimson robe of Dalan, the exalted High Elf."
   },
   {
@@ -11572,6 +11790,7 @@
     ],
     "image": "armor/fomorian_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Ivory robe of Horus, the winged protector of the skies.  What it lacks in defensive power is made up with dexterity."
   },
   {
@@ -11589,6 +11808,7 @@
     "other_effect": [
       "金幣加成: 1.05"
     ],
+    "rarity": "w",
     "description": "A bag for coins, carried by Hermes the merchant. Slightly raises gold earned."
   },
   {
@@ -11621,6 +11841,7 @@
       }
     ],
     "image": "useables/cure_all.png",
+    "rarity": "w",
     "description": "A bitter green elixir that heals poison, bleeding, blight, frozen, burning, paralysis, sleep, blindness, or rot."
   },
   {
@@ -11686,6 +11907,7 @@
       313
     ],
     "image": "useables/gauntlet_key.png",
+    "rarity": "b",
     "description": "One can use this key to enter a Gauntlet."
   },
   {
@@ -11715,6 +11937,7 @@
       428
     ],
     "image": "useables/affinity_candle.png",
+    "rarity": "b",
     "description": "When lit, this mysterious candle draws stronger enemies to you for a limited time."
   },
   {
@@ -11732,6 +11955,7 @@
       348
     ],
     "image": "useables/super_elixir.png",
+    "rarity": "b",
     "description": "Recovers 2500 health points and 1000 mana."
   },
   {
@@ -11754,6 +11978,7 @@
       412
     ],
     "image": "useables/super_health_potion.png",
+    "rarity": "g",
     "description": "Recovers 2500 health points."
   },
   {
@@ -11772,6 +11997,7 @@
       348
     ],
     "image": "useables/super_mana_potion.png",
+    "rarity": "g",
     "description": "Recovers 2500 mana."
   },
   {
@@ -11798,6 +12024,7 @@
     ],
     "image": "weapons/shadow_katana.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A thin, pale blade granted to elite Balor warriors."
   },
   {
@@ -11850,6 +12077,7 @@
       422
     ],
     "image": "useables/berserk_mushroom.png",
+    "rarity": "g",
     "description": "A mushroom of unknown origin. Eating it will cause one to enrage."
   },
   {
@@ -11876,6 +12104,7 @@
     ],
     "image": "weapons/cane.png",
     "slots": 6,
+    "rarity": "g",
     "description": "The trusty cane of Ra, the seer. Ra was obsessed with the senses of humans after losing much of his own. This staff increases your ability to see, while potentially binding your opponent."
   },
   {
@@ -11924,6 +12153,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Thin sword forged of Baslisk remains. It has a chance to cause either poison or blight."
   },
   {
@@ -11954,6 +12184,7 @@
       412
     ],
     "image": "useables/magic_defense_tonic.png",
+    "rarity": "w",
     "description": "A sour tonic that raises your magic defense in battle."
   },
   {
@@ -12000,6 +12231,7 @@
       262
     ],
     "image": "armor/bandit_hood.png",
+    "rarity": "w",
     "description": "Heavy hood made of strong hide. Offers mild protection against the elements."
   },
   {
@@ -12029,6 +12261,7 @@
     ],
     "image": "weapons/ithra_katana.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Thin, cold blade of Ithra, the White Knght.  Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
@@ -12054,6 +12287,7 @@
     ],
     "image": "weapons/glacial_staff.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Chilling staff of Boreal, a Frozenguard elite. It has a high chance of freezing an opponent."
   },
   {
@@ -12074,6 +12308,7 @@
     "stats.hp": -100,
     "stats.mana": -100,
     "image": "acc/sacrifice_ring.png",
+    "rarity": "g",
     "description": "A ring of certain evil. Wearing it attracts stronger monsters to you, but reduces your overall power."
   },
   {
@@ -12098,6 +12333,7 @@
     ],
     "image": "weapons/shotel.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A unique curved blade, specifically designed for escaping an opponent's defenses."
   },
   {
@@ -12122,6 +12358,7 @@
       269
     ],
     "image": "wards/balins_left.png",
+    "rarity": "w",
     "description": "A heavy great sword carried in Sir Balin's left hand. A blow from this blade can lower an opponent's magic power when attacking."
   },
   {
@@ -12144,6 +12381,7 @@
     ],
     "image": "weapons/shotel.png",
     "slots": 6,
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This crooked shotel is one of them."
   },
   {
@@ -12171,6 +12409,7 @@
     ],
     "image": "weapons/thor_hammer.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Small, yet immensely heavy hammer of Thor.  Thor founded the Stormforce shortly before succumbing to the power of the Falling.  His hammer can easily paralyze an opponent"
   },
   {
@@ -12198,6 +12437,7 @@
     ],
     "image": "weapons/excalibur.png",
     "slots": 6,
+    "rarity": "g",
     "description": "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
   },
   {
@@ -12224,6 +12464,7 @@
       440
     ],
     "image": "acc/gizmo.png",
+    "rarity": "w",
     "description": "One of the concotions of Cade, the great inventor. This gizmo prevents one from having their physical or magical prowess lowered."
   },
   {
@@ -12260,6 +12501,7 @@
     ],
     "image": "armor/cockatrice_mail.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Chestplate forged of the remains of a mighty Cockatrice. It grants its wearer immunity from petrification."
   },
   {
@@ -12284,6 +12526,7 @@
     ],
     "image": "armor/ashen_hat.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Pale attire of elite Balor mages."
   },
   {
@@ -12307,6 +12550,7 @@
     ],
     "image": "armor/shadow_boots.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Boots worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
   },
   {
@@ -12394,6 +12638,7 @@
       550
     ],
     "image": "materials/ortanite.png",
+    "rarity": "p",
     "description": "The great blacksmith Creidhne created this alloy to forge the most powerful of weapons."
   },
   {
@@ -12418,6 +12663,7 @@
     ],
     "image": "weapons/paleblade.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A pale blade often used by the most elite of Balor knights"
   },
   {
@@ -12466,6 +12712,7 @@
     ],
     "image": "weapons/hammer.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A massive dwarven hammer, carried by Dudley the steadfast."
   },
   {
@@ -12586,6 +12833,7 @@
     ],
     "image": "weapons/small_sword.png",
     "slots": 5,
+    "rarity": "w",
     "description": "A simple yet sentimental dagger of the aloof one, Carl."
   },
   {
@@ -12609,6 +12857,7 @@
       264
     ],
     "image": "armor/leather_hat.png",
+    "rarity": "w",
     "description": "The hat of Aldon, the eccentric. Aldon's balance has never faltered, and one cannot be stunned while wearing this hat."
   },
   {
@@ -12632,6 +12881,7 @@
     ],
     "image": "armor/pale_leggings.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Pale armor of elite Balor warriors."
   },
   {
@@ -12648,6 +12898,7 @@
     "stats.hp": 30,
     "stats.mana": 20,
     "image": "acc/draco_amulet.png",
+    "rarity": "g",
     "description": "Amulet of Draconian lords. It slightly extends one's health and mana."
   },
   {
@@ -12673,6 +12924,7 @@
     ],
     "image": "weapons/gada.png",
     "slots": 6,
+    "rarity": "w",
     "description": "The crippling weapon of Knight Artifice, the dragonslayer of Avalon. It can lower an opponent's magical potential."
   },
   {
@@ -12720,6 +12972,7 @@
     ],
     "image": "weapons/earth_pike.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Earthen polearm of Boulder, the Earthen Legion elite.  It has a high chance of stunning an opponent."
   },
   {
@@ -12761,6 +13014,7 @@
     ],
     "image": "weapons/bolt.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Spear of Gale, the Stormforce elite. It has a high chance of paralyzing an opponent."
   },
   {
@@ -12780,6 +13034,7 @@
     ],
     "image": "weapons/draco_archistaff.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Staff o' the Gnome Master, Nolan. 'Ave one 'ver seen such a wonder?"
   },
   {
@@ -12803,6 +13058,7 @@
     ],
     "image": "armor/high_elf_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Ivory hood of Sala, the High Elf."
   },
   {
@@ -12840,6 +13096,7 @@
     ],
     "image": "weapons/royal_longbow.png",
     "slots": 6,
+    "rarity": "w",
     "description": "The bow of a long forgotten hero. It is now carried by Rouge, the crimson archer. Surely, one cannot miss a shot with this bow."
   },
   {
@@ -12862,6 +13119,7 @@
     ],
     "image": "weapons/druid_staff.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Staff of fallen druid. It greatly increases mana."
   },
   {
@@ -12879,6 +13137,7 @@
     ],
     "image": "weapons/draco_sword.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A sword of a Draconian blacksmith. The quality is quite surprising."
   },
   {
@@ -12896,6 +13155,7 @@
     ],
     "image": "weapons/wooden_staff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A staff of a Draconian mage. Boasts above average magic power."
   },
   {
@@ -12918,6 +13178,7 @@
     ],
     "image": "armor/high_elf_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Ivory hood of Dalan, the exalted High Elf."
   },
   {
@@ -12942,6 +13203,7 @@
       180
     ],
     "image": "acc/crimson_eye.png",
+    "rarity": "g",
     "description": "A strange crimson eye imbued with even stranger crimson magic. Keeping this in your hand will slightly boost all stats."
   },
   {
@@ -12991,6 +13253,7 @@
     ],
     "image": "weapons/ashen_staff.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A pale staff granted to skilled Balor mages."
   },
   {
@@ -13013,6 +13276,7 @@
       262
     ],
     "image": "armor/bandit_cloak.png",
+    "rarity": "w",
     "description": "Heavy cloak of a bandit. Offers mild defense against the elements."
   },
   {
@@ -13037,6 +13301,7 @@
     ],
     "image": "armor/shadow_garb.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Dark armor of elite Balor rogues."
   },
   {
@@ -13074,6 +13339,7 @@
       1124
     ],
     "image": "materials/nightstone.png",
+    "rarity": "g",
     "description": "A hard obsidian stone that resembles an empty night sky."
   },
   {
@@ -13139,6 +13405,7 @@
       787
     ],
     "image": "materials/lightstone.png",
+    "rarity": "g",
     "description": "A mighty alloy. It was used to craft Avalonian weapons and armor."
   },
   {
@@ -13184,6 +13451,7 @@
     ],
     "image": "armor/shadow_garb.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Cloak worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
   },
   {
@@ -13207,6 +13475,7 @@
     ],
     "image": "armor/pale_armor.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Pale armor of elite Balor warriors."
   },
   {
@@ -13229,6 +13498,7 @@
     ],
     "image": "armor/pale_leggings.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Heavy armor of Avalon knights."
   },
   {
@@ -13276,6 +13546,7 @@
     ],
     "image": "armor/ashen_boots.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Pale attire of elite Balor mages."
   },
   {
@@ -13299,6 +13570,7 @@
     ],
     "image": "armor/pale_helm.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Pale armor of elite Balor warriors."
   },
   {
@@ -13321,6 +13593,7 @@
     ],
     "image": "weapons/epee.png",
     "slots": 6,
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This epee is one of them."
   },
   {
@@ -13345,6 +13618,7 @@
     ],
     "image": "armor/ashen_robe.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Pale attire of elite Balor mages."
   },
   {
@@ -13365,6 +13639,7 @@
     ],
     "image": "armor/high_elf_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Crimson robe of Sala, the High Elf."
   },
   {
@@ -13389,6 +13664,7 @@
     ],
     "image": "weapons/avalon_great_sword.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A heavy great sword carried in Sir Balin's right hand.  A blow from this blade can lower an opponent's attack power."
   },
   {
@@ -13412,6 +13688,7 @@
     ],
     "image": "armor/shadow_hood.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Headpiece worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
   },
   {
@@ -13439,6 +13716,7 @@
     ],
     "image": "weapons/vampire_sword.png",
     "slots": 6,
+    "rarity": "g",
     "description": "An evil blade wielded by Racul, King of vampires. Attacks with this weapon can slightly restore HP."
   },
   {
@@ -13463,6 +13741,7 @@
     ],
     "image": "weapons/bonecrusher.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A terribly frightening axe, seemingly forged with the hardened bones of an odok undead. It has a great chance of stunning an opponent."
   },
   {
@@ -13553,6 +13832,7 @@
     ],
     "image": "weapons/rune_staff.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Great staff of Avalon court mages."
   },
   {
@@ -13573,6 +13853,7 @@
       "金幣加成: 1.5",
       "經驗加成: 1.5"
     ],
+    "rarity": "p",
     "description": "A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned."
   },
   {
@@ -13625,6 +13906,7 @@
     ],
     "image": "weapons/archistaff.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Magical staff of a Jinn. This weapon may cause unexpected status effects."
   },
   {
@@ -13655,6 +13937,7 @@
     ],
     "image": "weapons/epee.png",
     "slots": 6,
+    "rarity": "w",
     "description": "Sparring sword of Gwyn, the former King of Annwn. This weapon can temporarily weaken opponents with ease."
   },
   {
@@ -13676,6 +13959,7 @@
     ],
     "image": "armor/dokkalfar_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Light armor of a Dokkalfar warrior."
   },
   {
@@ -13785,6 +14069,7 @@
     ],
     "image": "weapons/ljosalfar_sword.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An ebony blade of a Dokkalfar warrior."
   },
   {
@@ -13805,6 +14090,7 @@
     ],
     "image": "armor/dokkalfar_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Chestplate of a Dokkalfar knight."
   },
   {
@@ -13850,6 +14136,7 @@
     ],
     "image": "armor/dokkalfar_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Boots of a Dokkalfar warrior."
   },
   {
@@ -13868,6 +14155,7 @@
     ],
     "image": "armor/dokkalfar_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Cowl of a Dokkalfar rogue."
   },
   {
@@ -13897,6 +14185,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 6,
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This katana is his favourite, and can easy weaken an opponent."
   },
   {
@@ -13919,6 +14208,7 @@
       422
     ],
     "image": "useables/x_elixir.png",
+    "rarity": "b",
     "description": "Recovers 5000 health points and 5000 mana."
   },
   {
@@ -13970,6 +14260,7 @@
     ],
     "image": "weapons/vulcan_sword.png",
     "slots": 6,
+    "rarity": "p",
     "description": "A seemingly flawless blade wielded by Vulcan, the Red Knight. Vulcan formed the Knights of Inferno to fight alongside the forces of Annwn."
   },
   {
@@ -14020,6 +14311,7 @@
       "幸運加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more items."
   },
   {
@@ -14042,6 +14334,7 @@
     ],
     "image": "armor/wyvern_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic hood made of guivre skin."
   },
   {
@@ -14065,6 +14358,7 @@
     ],
     "image": "armor/wyvern_plate.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic chest guard made of guivre skin."
   },
   {
@@ -14087,6 +14381,7 @@
     ],
     "image": "armor/wyvern_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic cowl made of guivre skin."
   },
   {
@@ -14109,6 +14404,7 @@
     ],
     "image": "armor/wyvern_plate.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic chest guard made of guivre skin."
   },
   {
@@ -14132,6 +14428,7 @@
     ],
     "image": "armor/wyvern_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic boots made of guivre skin."
   },
   {
@@ -14154,6 +14451,7 @@
     ],
     "image": "armor/wyvern_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic helmet made of guivre skin."
   },
   {
@@ -14177,6 +14475,7 @@
     ],
     "image": "armor/wyvern_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic boots made of guivre skin."
   },
   {
@@ -14200,6 +14499,7 @@
     ],
     "image": "armor/wyvern_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic robe made of guivre skin."
   },
   {
@@ -14222,6 +14522,7 @@
     ],
     "image": "armor/wyvern_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic, heavy leg armor made of guivre skin."
   },
   {
@@ -14267,6 +14568,7 @@
     ],
     "image": "armor/kerberos_hood.png",
     "slots": 9,
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
   },
   {
@@ -14339,6 +14641,7 @@
     ],
     "image": "weapons/demeter_staff.png",
     "slots": 6,
+    "rarity": "p",
     "description": "The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, his fate came long before any notion of normality."
   },
   {
@@ -14451,6 +14754,7 @@
     ],
     "image": "armor/goblin_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of a kobold."
   },
   {
@@ -14471,6 +14775,7 @@
     ],
     "image": "armor/bandit_cloak.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A simple cloak worn by kobold mages."
   },
   {
@@ -14491,6 +14796,7 @@
     ],
     "image": "armor/bandit_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A simple hood worn by kobold mages."
   },
   {
@@ -14516,6 +14822,7 @@
     ],
     "image": "armor/goblin_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Boots of a kobold."
   },
   {
@@ -14538,6 +14845,7 @@
       273
     ],
     "image": "acc/fairy_ring.png",
+    "rarity": "b",
     "description": "An arcane ring often worn by a clurichaun. It increases both mana potential and dexterity."
   },
   {
@@ -14618,6 +14926,7 @@
     ],
     "image": "armor/battlemage_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. These are the boots of one."
   },
   {
@@ -14638,6 +14947,7 @@
     ],
     "image": "armor/battlemage_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the helmet of one."
   },
   {
@@ -14661,6 +14971,7 @@
       422
     ],
     "image": "useables/x_health_potion.png",
+    "rarity": "b",
     "description": "Recovers 5000 health points."
   },
   {
@@ -14683,6 +14994,7 @@
       422
     ],
     "image": "useables/x_mana_potion.png",
+    "rarity": "b",
     "description": "Recovers 5000 mana."
   },
   {
@@ -14707,6 +15019,7 @@
       421
     ],
     "image": "acc/taurus_belt.png",
+    "rarity": "b",
     "description": "Enchanted belt of Cerus, the untamed. It protects one from burning while granting additional HP."
   },
   {
@@ -14833,6 +15146,7 @@
     ],
     "image": "weapons/great_sword.png",
     "slots": 6,
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This greatsword is one of them."
   },
   {
@@ -14853,6 +15167,7 @@
     ],
     "image": "armor/battlemage_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the armor of one."
   },
   {
@@ -14898,6 +15213,7 @@
     ],
     "image": "useables/mammon_sword.png",
     "slots": 3,
+    "rarity": "p",
     "description": "An ancient and decrepit blade carried by Mammon, the demon of hubris. It is of unknown use and is too worn to be used as any form of weapon."
   },
   {
@@ -15138,6 +15454,7 @@
       667
     ],
     "image": "materials/realm_ore.png",
+    "rarity": "g",
     "description": "A strange dark and warm ore refined by Balor mystics. It is useful in upgrading equipment of the exiled."
   },
   {
@@ -15165,6 +15482,7 @@
     ],
     "image": "armor/incarnate_robe.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Mystical robe crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15192,6 +15510,7 @@
     ],
     "image": "armor/realm_boots.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15219,6 +15538,7 @@
     ],
     "image": "armor/realm_garb.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15243,6 +15563,7 @@
     ],
     "image": "weapons/abyssal_axe.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Heavy axe crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15270,6 +15591,7 @@
     ],
     "image": "armor/incarnate_hood.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Mystical hood crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15297,6 +15619,7 @@
     ],
     "image": "armor/abyssal_armor.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15324,6 +15647,7 @@
     ],
     "image": "armor/incarnate_boots.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Mystical boots crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15349,6 +15673,7 @@
     ],
     "image": "weapons/incarnate_archistaff.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Heavy archistaff crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15376,6 +15701,7 @@
     ],
     "image": "armor/abyssal_helm.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15401,6 +15727,7 @@
     ],
     "image": "weapons/realm_katana.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Dark katana crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15428,6 +15755,7 @@
     ],
     "image": "armor/abyssal_leggings.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15455,6 +15783,7 @@
     ],
     "image": "armor/incarnate_hood.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -15477,6 +15806,7 @@
     "image": "weapons/kunai.png",
     "two_handed": 1,
     "slots": 8,
+    "rarity": "g",
     "description": "A pair of dark kunai, forged of a basilisk's claws."
   },
   {
@@ -15509,6 +15839,7 @@
     ],
     "image": "armor/great_yeti_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered."
   },
   {
@@ -15523,6 +15854,7 @@
       "Warrior"
     ],
     "image": "useables/whetstone.png",
+    "rarity": "g",
     "description": "A stone of quartz often used in the sharpening of blades. Using it will freely upgrade your equipped weapon to level 2."
   },
   {
@@ -15537,6 +15869,7 @@
       "Warrior"
     ],
     "image": "useables/fine_whetstone.png",
+    "rarity": "g",
     "description": "A stone of quartz often used in the sharpening of blades. Using it will freely upgrade your equipped weapon from level 2 to 3."
   },
   {
@@ -15560,6 +15893,7 @@
     ],
     "image": "armor/ancient_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A seemingly ageless yet pristine hood."
   },
   {
@@ -15580,6 +15914,7 @@
     ],
     "image": "armor/rune_helmet.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -15603,6 +15938,7 @@
     ],
     "image": "armor/ancient_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A seemingly ageless yet pristine robe."
   },
   {
@@ -15624,6 +15960,7 @@
     ],
     "image": "armor/boots_earth.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the ground below. Grants protection from earthen magic."
   },
   {
@@ -15645,6 +15982,7 @@
     ],
     "image": "armor/boots_ice.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the tides. Grants protection from water & ice."
   },
   {
@@ -15665,6 +16003,7 @@
     ],
     "image": "armor/rune_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -15688,6 +16027,7 @@
     ],
     "image": "armor/ancient_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A seemingly ageless yet pristine pair of boots."
   },
   {
@@ -15709,6 +16049,7 @@
     ],
     "image": "weapons/longbow.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A Greatbow of  Annwn, capable of loosing arcane arrows. It can cause a variety of status effects."
   },
   {
@@ -15733,6 +16074,7 @@
     ],
     "image": "weapons/epee.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A simple straight sword, useful for sparring. It has a great chance at catching an opponent off guard."
   },
   {
@@ -15760,6 +16102,7 @@
     "image": "weapons/kunai.png",
     "two_handed": 1,
     "slots": 8,
+    "rarity": "g",
     "description": "A pair of unnecessarily sharp daggers. These will easily cause an opponent to bleed."
   },
   {
@@ -15783,6 +16126,7 @@
     ],
     "image": "weapons/draco_sword.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A sword carried by a talented gladiator. Through its might, an opponent's stats can be lowered."
   },
   {
@@ -15805,6 +16149,7 @@
     ],
     "image": "weapons/shotel.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A shotel carried by a cunning gladiator. Shotels can easily piece of opponent's defenses."
   },
   {
@@ -15869,6 +16214,7 @@
       "Warrior"
     ],
     "image": "useables/canon_waystone.png",
+    "rarity": "g",
     "description": "A stone imbued with the most helpful of magic. Use it to set a compass marker to story quest monster locations."
   },
   {
@@ -15883,6 +16229,7 @@
       "Warrior"
     ],
     "image": "useables/handy_waystone.png",
+    "rarity": "g",
     "description": "A stone imbued with the most helpful of magic. Use it to set a compass marker to inn quest monster locations."
   },
   {
@@ -15897,6 +16244,7 @@
       "Warrior"
     ],
     "image": "useables/waystone.png",
+    "rarity": "w",
     "description": "A stone that can evoke memories of any location. Using it will place a temporary marker to your current location on your compass."
   },
   {
@@ -15920,6 +16268,7 @@
     ],
     "image": "weapons/bow_of_typhon.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A superb bow forged of the remains of a lost dragon. It has a good chance of causing blight."
   },
   {
@@ -15977,6 +16326,7 @@
     ],
     "image": "weapons/wyvern_dagger.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A fine blade crafted of a great dragon's talon"
   },
   {
@@ -16072,6 +16422,7 @@
     ],
     "image": "armor/boots_fire.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the heat. Grants protection from fire."
   },
   {
@@ -16093,6 +16444,7 @@
     ],
     "image": "armor/boots_storm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the skies. Grants protection from lightning."
   },
   {
@@ -16113,6 +16465,7 @@
     ],
     "image": "weapons/blue_flame.png",
     "slots": 4,
+    "rarity": "b",
     "description": "A blade of the spellsword."
   },
   {
@@ -16157,6 +16510,7 @@
     ],
     "image": "armor/rune_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -16311,6 +16665,7 @@
     ],
     "image": "weapons/dragon_lute.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An instrument often used to sooth dragons. Its song has the rare chance to temporarily boost one's magical prowess."
   },
   {
@@ -16334,6 +16689,7 @@
       283
     ],
     "image": "weapons/lute.png",
+    "rarity": "w",
     "description": "A simple bard's lute, playing it in battle may temporarily boost one's attack or magic."
   },
   {
@@ -16380,6 +16736,7 @@
       438
     ],
     "image": "acc/warrior_ring.png",
+    "rarity": "b",
     "description": "A strange magical ring of the Dioscuri. Those who do not possess physical strength can equip this ring to sacrifice magic for attack power."
   },
   {
@@ -16416,6 +16773,7 @@
     ],
     "image": "weapons/viper_lute.png",
     "slots": 4,
+    "rarity": "b",
     "description": "An instrument often used to sooth the greatest of dragons. Its song has the rare chance to temporarily give useful statuses."
   },
   {
@@ -16443,6 +16801,7 @@
     ],
     "image": "weapons/bone_lute.png",
     "slots": 6,
+    "rarity": "g",
     "description": "An instrument of a long fallen Odok warrior. Its song has the rare chance to temporarily boost one's critical hit rate."
   },
   {
@@ -16467,6 +16826,7 @@
       438
     ],
     "image": "acc/mage_ring.png",
+    "rarity": "b",
     "description": "A strange magical ring of the Dioscuri. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power."
   },
   {
@@ -16489,6 +16849,7 @@
     ],
     "image": "armor/nothren_leggings.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -16511,6 +16872,7 @@
     ],
     "image": "armor/nothren_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -16533,6 +16895,7 @@
     ],
     "image": "armor/nothren_helm.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -16555,6 +16918,7 @@
     ],
     "image": "armor/nothren_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -16577,6 +16941,7 @@
     ],
     "image": "armor/nothren_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -16599,6 +16964,7 @@
     ],
     "image": "armor/nothren_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -16621,6 +16987,7 @@
     ],
     "image": "armor/nothren_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -16643,6 +17010,7 @@
     ],
     "image": "armor/nothren_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -16693,6 +17061,7 @@
     ],
     "image": "armor/nothren_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -16751,6 +17120,7 @@
       697
     ],
     "image": "materials/baldur.png",
+    "rarity": "g",
     "description": "A chunk of Baldur, favoured by the raiders of Nothren."
   },
   {
@@ -16780,7 +17150,11 @@
       599
     ],
     "image": "weapons/sempre_forte.png",
+    "other_effect": [
+      "技能: Requiem III"
+    ],
     "slots": 6,
+    "rarity": "g",
     "description": "A relic of Apollyon's less destructive years."
   },
   {
@@ -16825,6 +17199,7 @@
       266
     ],
     "image": "wards/balor_shield.png",
+    "rarity": "g",
     "description": "A decorated shield often carried by Balor warriors."
   },
   {
@@ -16845,6 +17220,7 @@
       273
     ],
     "image": "wards/rune_shield.png",
+    "rarity": "g",
     "description": "Mystical shield that boasts extra magical defense."
   },
   {
@@ -16916,6 +17292,7 @@
       345
     ],
     "image": "wards/templar_shield.png",
+    "rarity": "g",
     "description": "The shield of a mighty templar knight. It provides extra physical defense."
   },
   {
@@ -16966,6 +17343,7 @@
     "other_effect": [
       "技能: Bastion II"
     ],
+    "rarity": "g",
     "description": "A gigantic shield that offers extra physical and magic defense at the expense of attack and magic."
   },
   {
@@ -17026,6 +17404,7 @@
       666
     ],
     "image": "wards/nothren_shield.png",
+    "rarity": "g",
     "description": "Shield carried by berserkers of the Northern lands. It protects one from the cold."
   },
   {
@@ -17070,6 +17449,7 @@
       513
     ],
     "image": "wards/avalon_shield.png",
+    "rarity": "b",
     "description": "An easily recognizable shield depicting the crest of Avalon."
   },
   {
@@ -17434,6 +17814,7 @@
     ],
     "image": "armor/nothren_leggings.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries."
   },
   {
@@ -17456,6 +17837,7 @@
     ],
     "image": "armor/nothren_helm.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries"
   },
   {
@@ -17478,6 +17860,7 @@
       666
     ],
     "image": "wards/nothren_shield.png",
+    "rarity": "g",
     "description": "Shield carried by valkyries of the Nothren lands.  It protects one from the cold."
   },
   {
@@ -17509,6 +17892,7 @@
     ],
     "image": "weapons/blue_flame.png",
     "slots": 6,
+    "rarity": "p",
     "description": "A rare blade carried by the most gifted of Nothren vaklyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses."
   },
   {
@@ -17531,6 +17915,7 @@
     ],
     "image": "armor/nothren_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries"
   },
   {
@@ -17652,6 +18037,7 @@
     ],
     "image": "weapons/draco_sceptre.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Crude staff of a Frilled Naga mage."
   },
   {
@@ -17672,6 +18058,7 @@
     ],
     "image": "weapons/halberd.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Crude wearpon of a Frilled Naga warrior."
   },
   {
@@ -17699,6 +18086,7 @@
     ],
     "image": "weapons/ithra_staff.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
@@ -17727,6 +18115,7 @@
     ],
     "image": "weapons/demeter_halberd.png",
     "slots": 6,
+    "rarity": "p",
     "description": "The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
@@ -17755,6 +18144,7 @@
     ],
     "image": "weapons/atgeir.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A deadly polearm carried by the fallen Heimdall, a lord of the Nothren."
   },
   {
@@ -17783,6 +18173,7 @@
       874
     ],
     "image": "materials/baldur.png",
+    "rarity": "g",
     "description": "A perfect chunk of Baldur, favoured by the raiders of Nothren. It is useful for upgrading powerful equipment."
   },
   {
@@ -17812,6 +18203,7 @@
     "other_effect": [
       "技能: Bastion II"
     ],
+    "rarity": "g",
     "description": "Shield carried by the great Heimdall of the Nothren lands. It protects one from the cold."
   },
   {
@@ -17897,6 +18289,7 @@
     ],
     "image": "weapons/thor_bow.png",
     "slots": 6,
+    "rarity": "p",
     "description": "A masterfully crafted magical bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent."
   },
   {
@@ -17923,6 +18316,7 @@
     ],
     "image": "weapons/vulcan_staff.png",
     "slots": 6,
+    "rarity": "p",
     "description": "An embered Archistaff seldom wielded by Vulcan, the Red Knight. Vulcan formed the Knights of the Inferno to fight along side the forces of Annwn. His blade can easily burn an opponent."
   },
   {
@@ -17997,6 +18391,7 @@
     ],
     "image": "armor/royal_boots.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Footwear of Vulcan, the infamous Red Knight. It grants immunity from being burned."
   },
   {
@@ -18082,6 +18477,7 @@
     ],
     "image": "weapons/firepike.png",
     "slots": 6,
+    "rarity": "w",
     "description": "This pike of Pyre is eternally lit. Has a very high chance of causing an opponent to burn."
   },
   {
@@ -18155,6 +18551,7 @@
     ],
     "image": "weapons/masamune.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A beautiful blade that resemble stars in the night sky."
   },
   {
@@ -18217,6 +18614,7 @@
       "Warrior"
     ],
     "image": "useables/explorers_waystone.png",
+    "rarity": "g",
     "description": "A stone imbued with the most curious of magic. Using it may guide you to something interesting."
   },
   {
@@ -18244,6 +18642,7 @@
       280
     ],
     "image": "wards/scroll_purple.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of arcane arts. It improves one's magic at the sacrifice of Ward, while adding a chance to burn, freeze, paralyze, or rot to spells."
   },
   {
@@ -18270,6 +18669,7 @@
     "other_effect": [
       "技能: Bastion III"
     ],
+    "rarity": "g",
     "description": "A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward."
   },
   {
@@ -18295,6 +18695,7 @@
       729
     ],
     "image": "materials/sandstone.png",
+    "rarity": "g",
     "description": "Material imbued by the windy skies. Useful for upgrading powerful weapons."
   },
   {
@@ -18320,6 +18721,7 @@
     ],
     "image": "weapons/griffin_arc.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A bow signifying the great Griffin of the skies. Arrows shot from this bow can easily knock an opponent off-guard."
   },
   {
@@ -18347,6 +18749,7 @@
       273
     ],
     "image": "wards/scroll_dragon.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of dragon arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance of blight to spells."
   },
   {
@@ -18373,6 +18776,7 @@
     ],
     "image": "weapons/scythe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "The followers of Apollyon are fearsome, and this great scythe is their chosen weapon. It has a high chance of causing an opponent to bleed."
   },
   {
@@ -18410,6 +18814,7 @@
     ],
     "image": "weapons/imagination.png",
     "slots": 4,
+    "rarity": "p",
     "description": "An extremely odd staff, carried by a cryptid mimic. It can occasionally cause unpredicted status effects."
   },
   {
@@ -18458,6 +18863,7 @@
       728
     ],
     "image": "wards/griffin_shield.png",
+    "rarity": "g",
     "description": "A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward."
   },
   {
@@ -18487,6 +18893,7 @@
       281
     ],
     "image": "wards/scroll_purple.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects. to spells."
   },
   {
@@ -18513,6 +18920,7 @@
       "經驗加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned."
   },
   {
@@ -18541,6 +18949,7 @@
       "經驗加成: 1.03"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "Blade taken from Ankou's deadly scythe. Increases orns and experience earned."
   },
   {
@@ -18631,6 +19040,7 @@
       281
     ],
     "image": "wards/scroll_purple.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects to spells."
   },
   {
@@ -18746,7 +19156,7 @@
     "id": 750,
     "name": "Merchant's Waystone",
     "zh": "商人的引路石",
-    "tier": 1,
+    "tier": 3,
     "type": "Item",
     "equipped_by": [
       "Mage",
@@ -18879,6 +19289,7 @@
     ],
     "image": "armor/royal_hood.png",
     "slots": 6,
+    "rarity": "g",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer"
   },
   {
@@ -18903,6 +19314,7 @@
     ],
     "image": "armor/arcane_robe.png",
     "slots": 6,
+    "rarity": "g",
     "description": "One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered."
   },
   {
@@ -19021,6 +19433,7 @@
     ],
     "image": "armor/arcane_robe.png",
     "slots": 6,
+    "rarity": "g",
     "description": "One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered."
   },
   {
@@ -19641,6 +20054,7 @@
       312
     ],
     "image": "wards/avalon_shield.png",
+    "rarity": "b",
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -19668,6 +20082,7 @@
     "other_effect": [
       "技能: Bastion III"
     ],
+    "rarity": "b",
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -19738,6 +20153,7 @@
     ],
     "image": "armor/royal_hood.png",
     "slots": 6,
+    "rarity": "g",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
@@ -19861,6 +20277,7 @@
       822
     ],
     "image": "materials/lyonite.png",
+    "rarity": "g",
     "description": "A golden ore favored in use of forging Lyonesse weapons and armor."
   },
   {
@@ -20037,6 +20454,7 @@
     ],
     "image": "armor/acolyte_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A dusty robe of a follower of Mammon."
   },
   {
@@ -20059,6 +20477,7 @@
     ],
     "image": "armor/wyvern_plate.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An exotic chest guard made of Chimera remains."
   },
   {
@@ -20080,6 +20499,7 @@
     ],
     "image": "armor/ortanite_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Armor forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -20101,6 +20521,7 @@
     ],
     "image": "armor/lyon_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Robe of a Lyonesse warlock."
   },
   {
@@ -20122,6 +20543,7 @@
     ],
     "image": "armor/lyon_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Armor of a Lyonesse knight."
   },
   {
@@ -20145,6 +20567,7 @@
     ],
     "image": "armor/north_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Magical attire of Nothren lords. It protects one from fire, the weakness of the Nothren people."
   },
   {
@@ -20190,6 +20613,7 @@
       795
     ],
     "image": "wards/lyon_shield.png",
+    "rarity": "w",
     "description": "Shield of a Lyonesse knight."
   },
   {
@@ -20212,6 +20636,7 @@
     ],
     "image": "armor/acolyte_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Dusty footwear of a follower of Mammon."
   },
   {
@@ -20234,6 +20659,7 @@
     ],
     "image": "armor/wyvern_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Exotic, heavy leg armor made of Chimeric remains."
   },
   {
@@ -20255,6 +20681,7 @@
     ],
     "image": "armor/ortanite_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Leg armor forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -20276,6 +20703,7 @@
     ],
     "image": "armor/lyon_leggings.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Leg armor of a Lyonesse knight."
   },
   {
@@ -20297,6 +20725,7 @@
     ],
     "image": "armor/lyon_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Footwear of a Lyonesse warlock."
   },
   {
@@ -20342,6 +20771,7 @@
     ],
     "image": "armor/colossal_leggings.png",
     "slots": 4,
+    "rarity": "p",
     "description": "Leg armor forged of the remains of the great dragon, Fafnir."
   },
   {
@@ -20400,6 +20830,7 @@
     ],
     "image": "weapons/dragon_lute.png",
     "slots": 4,
+    "rarity": "g",
     "description": "An instrument often used to sooth the greatest of beasts."
   },
   {
@@ -20487,6 +20918,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Katana of a Lyonesse assassin."
   },
   {
@@ -20532,6 +20964,7 @@
     ],
     "image": "armor/lyon_garb.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of a Lyonesse assassin."
   },
   {
@@ -20554,6 +20987,7 @@
     ],
     "image": "armor/lyon_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Silent boots of a Lyonesse assassin."
   },
   {
@@ -20580,6 +21014,7 @@
       "金幣加成: 1.05"
     ],
     "slots": 6,
+    "rarity": "b",
     "description": "An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more gold and orns."
   },
   {
@@ -20631,6 +21066,7 @@
     "other_effect": [
       "經驗加成: 1.75"
     ],
+    "rarity": "b",
     "description": "A tome recounting the cursed stories of Fanir. Increases experience earned at the expense of the potential."
   },
   {
@@ -20656,6 +21092,7 @@
       795
     ],
     "image": "wards/lyon_shield.png",
+    "rarity": "b",
     "description": "Shield of a fallen Lyonesse Vanguard."
   },
   {
@@ -20685,6 +21122,7 @@
     ],
     "image": "armor/ifrit_feet.png",
     "slots": 5,
+    "rarity": "p",
     "description": "Boots of an infamous Ifrit of the Inferno Knights."
   },
   {
@@ -20711,6 +21149,7 @@
     ],
     "image": "armor/leviathan_mail.png",
     "slots": 5,
+    "rarity": "p",
     "description": "Heavy armor of an infamous Leviathan of the Frozenguard."
   },
   {
@@ -20760,6 +21199,7 @@
     ],
     "image": "weapons/black_witch_staff.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A staff often used in forbidden magic."
   },
   {
@@ -20829,6 +21269,7 @@
     ],
     "image": "weapons/imagination.png",
     "slots": 6,
+    "rarity": "p",
     "description": "An extremely odd staff, carried by a cryptid mimic. It can occasionally cause unpredicted status effects."
   },
   {
@@ -20853,6 +21294,7 @@
       422
     ],
     "image": "acc/fairy_ring.png",
+    "rarity": "b",
     "description": "An arcane ring often worn by a clurichaun. It increases both mana potential and dexterity."
   },
   {
@@ -20886,6 +21328,7 @@
     "other_effect": [
       "技能: Volley II"
     ],
+    "rarity": "w",
     "description": "A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison or blight an opponent."
   },
   {
@@ -20940,6 +21383,7 @@
       322
     ],
     "image": "acc/cursed_ring.png",
+    "rarity": "b",
     "description": "A ring of the arisen cursed Fafnir. Increases your attack and magic power at the expense of your longevity."
   },
   {
@@ -20962,6 +21406,7 @@
     ],
     "image": "armor/colossal_armor.png",
     "slots": 4,
+    "rarity": "p",
     "description": "Armor forged of the remains of the great dragon, Fafnir."
   },
   {
@@ -20990,6 +21435,7 @@
     "image": "weapons/fallen_daggers.png",
     "two_handed": 1,
     "slots": 14,
+    "rarity": "b",
     "description": "Daggers carried by Mammon, the demon of hubris."
   },
   {
@@ -21038,6 +21484,7 @@
     ],
     "two_handed": 1,
     "slots": 14,
+    "rarity": "b",
     "description": "Axe of Mammon, the demon of hubris."
   },
   {
@@ -21088,6 +21535,7 @@
       264
     ],
     "image": "armor/boots.png",
+    "rarity": "w",
     "description": "A simple pair of trusty shoes."
   },
   {
@@ -21148,6 +21596,7 @@
       264
     ],
     "image": "armor/lizarr_boots.png",
+    "rarity": "w",
     "description": "Shoes made to navigate thick marshland."
   },
   {
@@ -21189,6 +21638,7 @@
       325
     ],
     "image": "wards/aegis.png",
+    "rarity": "g",
     "description": "An ageless golden shield capable of protecting one from petrification."
   },
   {
@@ -21267,6 +21717,7 @@
     ],
     "image": "armor/white_sheet.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A simple white sheet that one could use to mock a spirit.  It protects one from falling asleep in battle."
   },
   {
@@ -21292,6 +21743,7 @@
       "幸運加成: 1.1",
       "經驗加成: 1.03"
     ],
+    "rarity": "w",
     "description": "A bag of treats of lore and luck.  Carrying it increases gold, orns, and experience earned.  You may also find more items."
   },
   {
@@ -21430,6 +21882,7 @@
     ],
     "image": "weapons/demeter_staff.png",
     "slots": 6,
+    "rarity": "p",
     "description": "The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
@@ -21457,6 +21910,7 @@
     ],
     "image": "weapons/ithra_staff.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconin invasion."
   },
   {
@@ -21484,6 +21938,7 @@
     ],
     "image": "weapons/thor_bow.png",
     "slots": 6,
+    "rarity": "p",
     "description": "A masterfully crafted magic bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent."
   },
   {
@@ -21538,7 +21993,8 @@
       473
     ],
     "image": "weapons/vulcan_staff.png",
-    "slots": 6
+    "slots": 6,
+    "rarity": "p"
   },
   {
     "id": 865,
@@ -21566,6 +22022,7 @@
     ],
     "image": "weapons/demeter_halberd.png",
     "slots": 5,
+    "rarity": "p",
     "description": "The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
@@ -21595,6 +22052,7 @@
     ],
     "image": "weapons/ithra_katana.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Thin, cold blade of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
@@ -21622,6 +22080,7 @@
     ],
     "image": "weapons/thor_hammer.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Small, yet immensely heavy hammer of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His hammer can easily paralyze an opponent."
   },
   {
@@ -21706,12 +22165,13 @@
       276
     ],
     "image": "wards/whisper.png",
+    "rarity": "g",
     "description": "An off-hand dagger used to parry an opponent's attacks. It boosts one's dexterity at the expense of Ward."
   },
   {
     "id": 871,
     "name": "High Fomorian Garb",
-    "zh": "高級弗摩爾族皮甲",
+    "zh": "高等弗摩爾族皮甲",
     "tier": 7,
     "type": "Armor",
     "equipped_by": [
@@ -21728,12 +22188,13 @@
     ],
     "image": "armor/fomorian_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian rogues."
   },
   {
     "id": 872,
     "name": "High Fomorian Cowl",
-    "zh": "高級弗摩爾族風帽",
+    "zh": "高等弗摩爾族風帽",
     "tier": 7,
     "type": "Head",
     "equipped_by": [
@@ -21750,6 +22211,7 @@
     ],
     "image": "armor/fomorian_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A hood worn by Fomorian rogues."
   },
   {
@@ -21772,6 +22234,7 @@
     ],
     "image": "armor/fomorian_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Boots worn by Fomorian rogues."
   },
   {
@@ -21826,6 +22289,7 @@
       430
     ],
     "image": "acc/warrior_ring.png",
+    "rarity": "w",
     "description": "Ring of the King of Light. It helps one get a little extra step in the morning."
   },
   {
@@ -21931,6 +22395,7 @@
       430
     ],
     "image": "acc/warrior_ring.png",
+    "rarity": "w",
     "description": "Ring of the King of Light. It can protect one from having their defenses lowered."
   },
   {
@@ -22421,6 +22886,7 @@
     ],
     "image": "weapons/wolfbane.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A magical blade representing the unrelenting force of Fenrir the wolf. It can temporarily decrease your opponent's defense upon use."
   },
   {
@@ -22954,6 +23420,7 @@
     ],
     "two_handed": 1,
     "slots": 8,
+    "rarity": "g",
     "description": "Sword and shield pairing of the fabled Mighty Slime."
   },
   {
@@ -22977,6 +23444,7 @@
       279
     ],
     "image": "jewels/34.png",
+    "rarity": "b",
     "description": "A destructive adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -22995,6 +23463,7 @@
       "T. Att ↓"
     ],
     "image": "jewels/18.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to lower an opponent's attack when adorned upon it."
   },
   {
@@ -23018,6 +23487,7 @@
     "other_effect": [
       "經驗加成: 1.01"
     ],
+    "rarity": "b",
     "description": "A small adornment capable of granting additional experience earned to a piece of equipment when adorned."
   },
   {
@@ -23033,6 +23503,7 @@
     ],
     "stats.attack": 4,
     "image": "jewels/11.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the attack power of a piece of equipment when adorned upon it."
   },
   {
@@ -23053,6 +23524,7 @@
       178
     ],
     "image": "jewels/36.png",
+    "rarity": "g",
     "description": "A small adornment of the Titans capable of increasing the defenses of a piece of equipment when adorned upon it."
   },
   {
@@ -23074,6 +23546,7 @@
       "Rot"
     ],
     "image": "jewels/20.png",
+    "rarity": "p",
     "description": "A small adornment capable of granting the ability to paralyze, rot, burn, or freeze an opponent to a piece of equipment when adorned."
   },
   {
@@ -23103,6 +23576,7 @@
       280
     ],
     "image": "jewels/31.png",
+    "rarity": "g",
     "description": "A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponents attack or magical power."
   },
   {
@@ -23122,12 +23596,13 @@
       207
     ],
     "image": "jewels/46.png",
+    "rarity": "g",
     "description": "A small adornment of Fomoria capable of increasing the magical defense of a piece of equipment when adorned upon it."
   },
   {
     "id": 927,
     "name": "Jewel of Draconia",
-    "zh": "龍人寶石",
+    "zh": "德肯尼亞寶石",
     "tier": 3,
     "type": "Adornment",
     "boss": 1,
@@ -23141,6 +23616,7 @@
       266
     ],
     "image": "jewels/38.png",
+    "rarity": "g",
     "description": "A small adornment of Draconia capable of increasing the attack power of a piece of equipment when adorned upon it."
   },
   {
@@ -23159,6 +23635,7 @@
       "T. Res ↓"
     ],
     "image": "jewels/29.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to lower an opponent's magical defenses when adorned upon it."
   },
   {
@@ -23182,6 +23659,7 @@
       234
     ],
     "image": "jewels/38.png",
+    "rarity": "b",
     "description": "A small adornment of Avalon capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -23207,6 +23685,7 @@
       304
     ],
     "image": "jewels/26.png",
+    "rarity": "b",
     "description": "An adornment of assassins. When Adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses."
   },
   {
@@ -23226,6 +23705,7 @@
       177
     ],
     "image": "jewels/28.png",
+    "rarity": "g",
     "description": "A small adornment of the stars capable of increasing the magical power of a piece of equipment when adorned upon it."
   },
   {
@@ -23248,6 +23728,7 @@
     ],
     "image": "jewels/46.png",
     "slots": 7,
+    "rarity": "g",
     "description": "A small adornment of Balor capable of increasing the dexterity and Ward of a piece of equipment when adorned upon it."
   },
   {
@@ -23271,6 +23752,7 @@
     ],
     "image": "armor/fallen_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Boots worn by rogues of Mammon, the demon of hubris."
   },
   {
@@ -23294,6 +23776,7 @@
     ],
     "image": "armor/fallen_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Shoes worn by acolytes of Mammon, the demon of hubris."
   },
   {
@@ -23325,6 +23808,7 @@
     "other_effect": [
       "技能: Bastion III"
     ],
+    "rarity": "g",
     "description": "A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed."
   },
   {
@@ -23371,6 +23855,7 @@
     ],
     "image": "armor/fallen_robe.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Robe worn by acolytes of Mammon, the demon of hubris."
   },
   {
@@ -23466,6 +23951,7 @@
     ],
     "image": "armor/fallen_armor.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Heavy armor worn by knights of Mammon, the demon of hubris."
   },
   {
@@ -23490,6 +23976,7 @@
     ],
     "image": "armor/fallen_armor.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Light armor worn by rogues of Mammon, the demon of hubris"
   },
   {
@@ -23531,6 +24018,7 @@
     ],
     "stats.crit": 1,
     "image": "jewels/46.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the critical attack rate of a weapon when adorned upon it."
   },
   {
@@ -23546,6 +24034,7 @@
     ],
     "stats.mana": 12,
     "image": "jewels/29.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the mana granted by a piece of equipment when adorned upon it."
   },
   {
@@ -23572,6 +24061,7 @@
     ],
     "image": "armor/immortal_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Light armor of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -23597,6 +24087,7 @@
     ],
     "image": "armor/immortal_hat.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Hood of an Immortal mage. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -23624,6 +24115,7 @@
     ],
     "image": "armor/immortal_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Robe of an Immortal mage. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -23647,6 +24139,7 @@
     ],
     "image": "armor/antlers.png",
     "slots": 9,
+    "rarity": "g",
     "description": "This unique headwear does not offer much protection, but is well suited for adornment."
   },
   {
@@ -23670,6 +24163,7 @@
     ],
     "image": "armor/antlers.png",
     "slots": 8,
+    "rarity": "g",
     "description": "This unique headwear does not offer much protection, but is well suited for adornment."
   },
   {
@@ -23697,6 +24191,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 4,
+    "rarity": "g",
     "description": "The blade of an ageless warrior. It may pierce the defenses of an opponent."
   },
   {
@@ -23712,6 +24207,7 @@
     ],
     "stats.defense": 4,
     "image": "jewels/12.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the defense power of piece of equipment when adorned upon it."
   },
   {
@@ -23727,6 +24223,7 @@
     ],
     "stats.dexterity": 4,
     "image": "jewels/13.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the dexterity of a piece of equipment when adorned upon it."
   },
   {
@@ -23742,6 +24239,7 @@
     ],
     "stats.magic": 4,
     "image": "jewels/14.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the magic power of a piece of equipment when adorned upon it."
   },
   {
@@ -23771,6 +24269,7 @@
       352
     ],
     "image": "jewels/31.png",
+    "rarity": "g",
     "description": "A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponent's attack and magical powers."
   },
   {
@@ -23798,6 +24297,7 @@
       427
     ],
     "image": "jewels/49.png",
+    "rarity": "g",
     "description": "A fallen Feather of the great Phoenix. It can grant a weapon additional attributes when adorned upon it."
   },
   {
@@ -23816,6 +24316,7 @@
       "T. Def ↓"
     ],
     "image": "jewels/19.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to lower an opponent's defenses when adorned upon it."
   },
   {
@@ -23842,6 +24343,7 @@
       355
     ],
     "image": "acc/fairy_ring.png",
+    "rarity": "b",
     "description": "An ageless ring of an Immortal Lord. It grants additional life at the expense of other stats."
   },
   {
@@ -23860,6 +24362,7 @@
       355
     ],
     "image": "acc/red_crystal.png",
+    "rarity": "g",
     "description": "An adornment capable of increasing the HP granted by a piece of equipment when adorned upon it."
   },
   {
@@ -23888,6 +24391,7 @@
     ],
     "image": "armor/fomorian_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Boots of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -24350,6 +24854,7 @@
     ],
     "image": "wards/phoenix_shield.png",
     "slots": 3,
+    "rarity": "b",
     "description": "Decorated shield of a worshipper of the mighty Phoenix. It protects one from being blinded or lit ablaze."
   },
   {
@@ -24429,6 +24934,7 @@
     ],
     "image": "armor/phoenix_boots.png",
     "slots": 9,
+    "rarity": "g",
     "description": "Footwear of a worshipper of the mighty Phoenix."
   },
   {
@@ -24658,6 +25164,7 @@
       427
     ],
     "image": "jewels/48.png",
+    "rarity": "g",
     "description": "A fallen feather of the great Phoenix. It can grant a piece of armor additional attributes when adorned upon it."
   },
   {
@@ -24713,6 +25220,7 @@
     ],
     "two_handed": 1,
     "slots": 14,
+    "rarity": "b",
     "description": "Daggers carried by Mammon, the demon of hubris."
   },
   {
@@ -24739,6 +25247,7 @@
     ],
     "image": "armor/immortal_hat.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Infamous headwear of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -24757,6 +25266,7 @@
       "T. Mag ↓"
     ],
     "image": "jewels/16.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting a weapon the ability to lower an opponent's magic power when adorned upon it."
   },
   {
@@ -24814,6 +25324,7 @@
     ],
     "image": "weapons/gold_flute.png",
     "slots": 10,
+    "rarity": "p",
     "description": "A decorated flute often used to lull the great Phoenix. Although it seemingly has little power, it is well suited for adornment."
   },
   {
@@ -24869,6 +25380,7 @@
       304
     ],
     "image": "jewels/22.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to paralyze an opponent to a piece of equipment when adorned."
   },
   {
@@ -24907,6 +25419,7 @@
     ],
     "stats.attack": 60,
     "image": "acc/amulet.png",
+    "rarity": "w",
     "description": "A rare platinum amulet. Raises attack power."
   },
   {
@@ -24980,6 +25493,7 @@
       304
     ],
     "image": "jewels/21.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to burn an opponent to a piece of equipment when adorned."
   },
   {
@@ -25003,6 +25517,7 @@
       304
     ],
     "image": "jewels/30.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to freeze an opponent when adorned."
   },
   {
@@ -25019,6 +25534,7 @@
     "stats.defense": 2,
     "stats.ward": 1,
     "image": "jewels/10.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the Ward provided by a piece of equipment when adorned upon it."
   },
   {
@@ -25064,6 +25580,7 @@
     ],
     "stats.defense": 2,
     "image": "jewels/12.png",
+    "rarity": "w",
     "description": "A small adornment capable of increasing the defense of a piece of equipment when adorned upon it."
   },
   {
@@ -25102,6 +25619,7 @@
       304
     ],
     "image": "jewels/23.png",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to rot an opponent to a piece of equipment when adorned."
   },
   {
@@ -25139,6 +25657,7 @@
       262
     ],
     "image": "armor/hood.png",
+    "rarity": "w",
     "description": "A simple mage's hood."
   },
   {
@@ -25268,6 +25787,7 @@
     "image": "weapons/kerberos_claws.png",
     "two_handed": 1,
     "slots": 11,
+    "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
   {
@@ -25350,6 +25870,7 @@
     ],
     "image": "armor/kerberos_hood.png",
     "slots": 10,
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects it wearer from becoming frozen."
   },
   {
@@ -25446,7 +25967,8 @@
       1031,
       1039
     ],
-    "image": "materials/cursed_ortanite.png"
+    "image": "materials/cursed_ortanite.png",
+    "rarity": "g"
   },
   {
     "id": 1026,
@@ -25498,6 +26020,7 @@
     ],
     "image": "weapons/cursed_bow.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent."
   },
   {
@@ -25527,6 +26050,7 @@
     ],
     "image": "weapons/cursed_staff.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
   },
   {
@@ -25601,6 +26125,7 @@
     ],
     "image": "armor/cursed_hood.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25624,6 +26149,7 @@
     ],
     "image": "armor/cursed_armor.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed light armor of a follower of Morrigan, the great witch."
   },
   {
@@ -25672,6 +26198,7 @@
     ],
     "image": "armor/cursed_helm.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25695,6 +26222,7 @@
     ],
     "image": "armor/cursed_boots.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -25718,6 +26246,7 @@
     ],
     "image": "armor/cursed_robe.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed robe of a follower of Morrigan, the great witch."
   },
   {
@@ -25744,6 +26273,7 @@
       267
     ],
     "image": "wards/scroll_yellow.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells."
   },
   {
@@ -25769,6 +26299,7 @@
       358
     ],
     "image": "jewels/35.png",
+    "rarity": "b",
     "description": "A decaying adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -25796,6 +26327,7 @@
     ],
     "image": "wards/katar.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornments."
   },
   {
@@ -25822,6 +26354,7 @@
     ],
     "image": "armor/cursed_armor.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed light armor of a follower of Morrigan, the great witch."
   },
   {
@@ -25877,6 +26410,7 @@
     ],
     "image": "weapons/cursed_blade.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent."
   },
   {
@@ -25954,6 +26488,7 @@
     ],
     "image": "armor/cursed_armor.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed heavy armor of a follower of Morrigan, the great witch."
   },
   {
@@ -26011,6 +26546,7 @@
     ],
     "image": "weapons/cursed_bow.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent."
   },
   {
@@ -26066,6 +26602,7 @@
     ],
     "image": "weapons/cursed_staff.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
   },
   {
@@ -26117,6 +26654,7 @@
     ],
     "image": "armor/cursed_boots.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -26147,6 +26685,7 @@
     ],
     "image": "armor/boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Foul shoes worn by the fairy Naggeneen. Oddly, they can protect their wearer from poison and blight."
   },
   {
@@ -26202,7 +26741,11 @@
       1025
     ],
     "image": "weapons/cursed_lute.png",
+    "other_effect": [
+      "技能: Requiem III"
+    ],
     "slots": 7,
+    "rarity": "p",
     "description": "Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
@@ -26237,7 +26780,11 @@
       1025
     ],
     "image": "weapons/cursed_lute.png",
+    "other_effect": [
+      "技能: Requiem III"
+    ],
     "slots": 8,
+    "rarity": "b",
     "description": "Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
@@ -26274,6 +26821,7 @@
       358
     ],
     "image": "useables/ambrosia.png",
+    "rarity": "g",
     "description": "The brew of a terrible witch. It restores a moderate amount of HP and Mana while curing any negative status effects."
   },
   {
@@ -26297,6 +26845,7 @@
     ],
     "image": "armor/lizarr_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Armor of a Lizarr warrior."
   },
   {
@@ -26367,6 +26916,7 @@
     ],
     "image": "armor/coral_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Boots of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses."
   },
   {
@@ -26522,6 +27072,7 @@
       421
     ],
     "image": "jewels/34.png",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -26588,6 +27139,7 @@
     ],
     "image": "weapons/lizarr_blade.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Crude blade of the Lizarr."
   },
   {
@@ -26618,6 +27170,7 @@
     ],
     "stats.resistance": 4,
     "image": "jewels/15.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the magic defense of a piece of equipment when adorned upon it."
   },
   {
@@ -26633,6 +27186,7 @@
     ],
     "stats.hp": 12,
     "image": "jewels/18.png",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the HP granted by a piece of equipment when adorned upon it upon it."
   },
   {
@@ -26675,6 +27229,7 @@
       310
     ],
     "image": "acc/sacrifice_ring.png",
+    "rarity": "b",
     "description": "A ring crafted for certain slender fingers. It grants protection for the darkness, one cannot fall asleep or become cursed while wearing it."
   },
   {
@@ -26699,6 +27254,7 @@
       375
     ],
     "image": "acc/blight_pendant.png",
+    "rarity": "b",
     "description": "A pendant found within wreckage, deep within the sea. It protects its wearer from blight, poison, rot, and toxic."
   },
   {
@@ -26718,6 +27274,7 @@
       375
     ],
     "image": "jewels/36.png",
+    "rarity": "g",
     "description": "A small adornment of the deep sea capable of increasing the magical defenses of a piece of equipment when adorned upon it."
   },
   {
@@ -26743,6 +27300,7 @@
     ],
     "image": "armor/blue_blinders.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Blinders often used to quell a Kelpie's restlessness. They increase dexterity and critical hit rate of those granted with extra concentration."
   },
   {
@@ -26768,6 +27326,7 @@
       304
     ],
     "image": "jewels/27.png",
+    "rarity": "b",
     "description": "An adornment of the blasphemous. When adorned upon a weapon, it grants the chance to inflict damage to an opponent's magical resistance"
   },
   {
@@ -26795,6 +27354,7 @@
     ],
     "image": "weapons/hydra_staff.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Archistaff forged of the remains of a great hydra. It can provide many elemental resistances."
   },
   {
@@ -26819,6 +27379,7 @@
     ],
     "image": "weapons/dawn_bow.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A powerful magical greatbow of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
@@ -26839,6 +27400,7 @@
     ],
     "image": "jewels/50.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A feather of a Turul. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -26885,6 +27447,7 @@
       431
     ],
     "image": "useables/attack_tonic.png",
+    "rarity": "b",
     "description": "A sour tonic that raises your attack in battle."
   },
   {
@@ -26908,6 +27471,7 @@
       431
     ],
     "image": "useables/magic_tonic.png",
+    "rarity": "b",
     "description": "A sour tonic that raises your magic in battle."
   },
   {
@@ -26946,6 +27510,7 @@
       156
     ],
     "image": "jewels/47.png",
+    "rarity": "g",
     "description": "A feather of a Zu. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -26964,6 +27529,7 @@
       196
     ],
     "image": "jewels/48.png",
+    "rarity": "g",
     "description": "A feather of a Carrion Crow. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -26982,6 +27548,7 @@
       190
     ],
     "image": "jewels/50.png",
+    "rarity": "g",
     "description": "The feather of a Buzzard. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -27126,6 +27693,7 @@
     ],
     "image": "weapons/hydra_staff.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Archistaff forged of the remains of a great hydra. It can provide many elemental resistances."
   },
   {
@@ -27170,6 +27738,7 @@
     ],
     "image": "weapons/dawn_staff.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A powerful archistaff of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
@@ -27210,6 +27779,7 @@
     ],
     "image": "armor/rune_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -27230,6 +27800,7 @@
       273
     ],
     "image": "wards/rune_shield.png",
+    "rarity": "g",
     "description": "Mystical shield that boasts extra magic defense."
   },
   {
@@ -27254,6 +27825,7 @@
       325
     ],
     "image": "wards/aegis.png",
+    "rarity": "g",
     "description": "An ageless golden shield capable of protecting one from petrification."
   },
   {
@@ -27274,6 +27846,7 @@
       346
     ],
     "image": "wards/mirror.png",
+    "rarity": "g",
     "description": "A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana."
   },
   {
@@ -27294,6 +27867,7 @@
     ],
     "image": "armor/battlemage_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. These are the boots of one."
   },
   {
@@ -27320,6 +27894,7 @@
       "金幣加成: 1.1"
     ],
     "slots": 5,
+    "rarity": "g",
     "description": "Amusing outfit of a court jester. It increases gold and orns earned."
   },
   {
@@ -27343,6 +27918,7 @@
     ],
     "image": "armor/antlers.png",
     "slots": 11,
+    "rarity": "g",
     "description": "This unique headwear does not offer much protection, but is well suited for adornment."
   },
   {
@@ -27363,6 +27939,7 @@
     ],
     "image": "armor/battlemage_helm.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the helmet of one."
   },
   {
@@ -27389,6 +27966,7 @@
     "other_effect": [
       "技能: Volley III"
     ],
+    "rarity": "b",
     "description": "A quiver of arrows that are imbued with unknown magic. They greatly increase ones's attack power at the sacrifice of Ward."
   },
   {
@@ -27407,6 +27985,7 @@
       268
     ],
     "image": "wards/scroll_purple.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of unstable magic. It improves one's magic at the sacrifice of Ward."
   },
   {
@@ -27445,6 +28024,7 @@
     ],
     "image": "armor/rune_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -27465,6 +28045,7 @@
     ],
     "image": "armor/rune_helmet.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -27538,6 +28119,7 @@
     ],
     "image": "armor/great_yeti_armor.png",
     "slots": 4,
+    "rarity": "b",
     "description": "Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered."
   },
   {
@@ -27561,6 +28143,7 @@
     ],
     "image": "weapons/dawnbreaker.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A powerful magical sword of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
@@ -27605,6 +28188,7 @@
     ],
     "image": "weapons/sea_axe.png",
     "slots": 6,
+    "rarity": "b",
     "description": "An axe enchanted with the power of the raging sea."
   },
   {
@@ -27679,6 +28263,7 @@
     ],
     "image": "armor/blinders.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Blinders often used to quell a wild horse's restlessness. They increase dexterity and critical hit rate of those granted with extra concentration."
   },
   {
@@ -27803,6 +28388,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A highly decorative weapon wielded by Elven warriors of the North. It boasts extra adornment slots."
   },
   {
@@ -27838,6 +28424,7 @@
       263
     ],
     "image": "weapons/hammer.png",
+    "rarity": "w",
     "description": "A large hammer suitable for crushing blows."
   },
   {
@@ -27928,6 +28515,7 @@
     ],
     "image": "armor/harpy_feathers.png",
     "slots": 4,
+    "rarity": "b",
     "description": "Crude armor made of the remains of a Fjalar. Does not offer much defense, but raises your dexterity."
   },
   {
@@ -28202,6 +28790,7 @@
       404
     ],
     "image": "useables/summoning_scroll.png",
+    "rarity": "p",
     "description": "A scroll containing the ancient Balor techniques of the summon. Reading it will summon a powerful Raid Boss to your nearby area, but the entity may only be visible to those who travel at a slower pace."
   },
   {
@@ -28229,6 +28818,7 @@
     ],
     "image": "armor/horseman_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Boots of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28576,6 +29166,7 @@
     ],
     "image": "armor/horseman_hood.png",
     "slots": 10,
+    "rarity": "b",
     "description": "Hood of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28603,6 +29194,7 @@
     ],
     "image": "armor/horseman_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Boots of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28631,6 +29223,7 @@
     ],
     "image": "armor/horseman_robe.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Cloak of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28660,6 +29253,7 @@
     ],
     "image": "armor/horseman_armor.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Armor of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28715,6 +29309,7 @@
     ],
     "image": "armor/horseman_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Boots of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28876,6 +29471,7 @@
     ],
     "image": "armor/horseman_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Boots of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28914,6 +29510,7 @@
     ],
     "image": "armor/yeti_armor.png",
     "slots": 8,
+    "rarity": "b",
     "description": "Coat reminiscent of the cursed Yeti. It protects one from having their magical resistance lowered and reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -28936,6 +29533,7 @@
       422
     ],
     "image": "jewels/47.png",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic power at the expense of magical resistance."
   },
   {
@@ -28958,6 +29556,7 @@
       422
     ],
     "image": "jewels/49.png",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional physical defense at the expense of attack power."
   },
   {
@@ -28980,6 +29579,7 @@
       422
     ],
     "image": "jewels/48.png",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional attack power at the expense of physical defense."
   },
   {
@@ -29001,6 +29601,7 @@
       422
     ],
     "image": "jewels/50.png",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic resistance at the expense of magical power.."
   },
   {
@@ -29030,6 +29631,7 @@
     ],
     "image": "armor/horseman_armor.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Armor of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -29058,6 +29660,7 @@
     ],
     "image": "armor/horseman_robe.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Cloak of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -29078,6 +29681,7 @@
     ],
     "image": "armor/battlemage_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the armor of one."
   },
   {
@@ -29108,6 +29712,7 @@
       "技能: Bastion III"
     ],
     "slots": 2,
+    "rarity": "b",
     "description": "Decorated shield of a worshipper of a fallen Phoenix. It protects one from being blinded and may occasionally protect you from other status effects."
   },
   {
@@ -29136,6 +29741,7 @@
       440
     ],
     "image": "acc/gizmo.png",
+    "rarity": "g",
     "description": "A small, strange thing made by Cade, the great inventor. It can provide all sorts of benefits to a piece of armor when adorned upon it."
   },
   {
@@ -29169,6 +29775,7 @@
     ],
     "image": "weapons/horseman_scythe.png",
     "slots": 6,
+    "rarity": "p",
     "description": "Scythe of the Fourth Horseman, often associated with untimely demise. It is suitable for both attacking and casting spells, reduces the damage taken from the ultimate attacks of Raid Bosses, and has a small chance to curse an opponent."
   },
   {
@@ -29473,6 +30080,7 @@
       412
     ],
     "image": "jewels/34.png",
+    "rarity": "p",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -29869,6 +30477,7 @@
       268
     ],
     "image": "wards/avalon_shield.png",
+    "rarity": "p",
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -29894,6 +30503,7 @@
       304
     ],
     "image": "useables/chaos_scroll.png",
+    "rarity": "p",
     "description": "A scroll containing a terrible incantation that will turn the world crimson. Using this scroll will cause enemies of any habitat to show for a limited time, but may be more difficult to defeat."
   },
   {
@@ -29917,6 +30527,7 @@
     ],
     "image": "weapons/gazing_eye.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A powerful staff adorned with a crystal eye. Increases your ability to see."
   },
   {
@@ -29943,7 +30554,8 @@
       294
     ],
     "image": "weapons/silk_crossbow.png",
-    "slots": 6
+    "slots": 6,
+    "rarity": "g"
   },
   {
     "id": 1208,
@@ -29973,6 +30585,7 @@
     ],
     "two_handed": 1,
     "slots": 10,
+    "rarity": "g",
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
   },
   {
@@ -30053,6 +30666,7 @@
     ],
     "image": "weapons/bow_of_typhon.png",
     "slots": 8,
+    "rarity": "b",
     "description": "A superb bow forged of the remains of Typhon, the great ancient dragon."
   },
   {
@@ -30078,6 +30692,7 @@
     ],
     "image": "weapons/nag_sword.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Ceremonial blade of a long forgotten civilization. It has a small chance of cursing an opponent."
   },
   {
@@ -30163,6 +30778,7 @@
     ],
     "image": "weapons/staff_of_typhon.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A superb staff forged of the remains of Typhon, the great ancient dragon"
   },
   {
@@ -30190,6 +30806,7 @@
     ],
     "image": "weapons/axe_of_typhon.png",
     "slots": 8,
+    "rarity": "b",
     "description": "A powerful axe forged of the remains of Typhon, the great ancient dragon."
   },
   {
@@ -30218,6 +30835,7 @@
     "other_effect": [
       "怪物: 1.3"
     ],
+    "rarity": "g",
     "description": "A torch, carried in one's off-hand. It increases your sight, prevents blindness, and may cause an opponent to light aflame in battle."
   },
   {
@@ -30489,6 +31107,7 @@
       "Warrior"
     ],
     "image": "useables/fishing_line.png",
+    "rarity": "w",
     "description": "A simple line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -30503,6 +31122,7 @@
       "Warrior"
     ],
     "image": "useables/strong_fishing_line.png",
+    "rarity": "g",
     "description": "A stronger fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -30517,6 +31137,7 @@
       "Warrior"
     ],
     "image": "useables/great_fishing_line.png",
+    "rarity": "g",
     "description": "A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -30531,6 +31152,7 @@
       "Warrior"
     ],
     "image": "materials/fish1.png",
+    "rarity": "w",
     "description": "A small fish."
   },
   {
@@ -30587,6 +31209,7 @@
       "Warrior"
     ],
     "image": "materials/fish2.png",
+    "rarity": "g",
     "description": "A green-hued fish, slightly rarer than what one would usually see."
   },
   {
@@ -30601,6 +31224,7 @@
       "Warrior"
     ],
     "image": "materials/fish2.png",
+    "rarity": "g",
     "description": "A medium sized fish, often seen in larger bodies of water."
   },
   {
@@ -30615,6 +31239,7 @@
       "Warrior"
     ],
     "image": "materials/fish1.png",
+    "rarity": "w",
     "description": "A small fish."
   },
   {
@@ -30656,6 +31281,7 @@
       "Warrior"
     ],
     "image": "useables/strong_fishing_line.png",
+    "rarity": "b",
     "description": "A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -30726,6 +31352,7 @@
     ],
     "image": "weapons/cursed_staff.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
   },
   {
@@ -30761,6 +31388,9 @@
       346
     ],
     "image": "weapons/cursed_lute.png",
+    "other_effect": [
+      "技能: Requiem III"
+    ],
     "slots": 8,
     "description": "Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
@@ -30818,6 +31448,7 @@
     ],
     "image": "weapons/cursed_bow.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent."
   },
   {
@@ -30895,6 +31526,7 @@
     ],
     "image": "armor/cursed_robe.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed robe of a follower of Morrigan, the great witch."
   },
   {
@@ -30919,6 +31551,7 @@
     ],
     "image": "armor/cursed_boots.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31026,6 +31659,7 @@
     ],
     "image": "armor/cursed_leggings.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31197,7 +31831,11 @@
       346
     ],
     "image": "weapons/cursed_lute.png",
+    "other_effect": [
+      "技能: Requiem III"
+    ],
     "slots": 7,
+    "rarity": "b",
     "description": "Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
@@ -31382,6 +32020,7 @@
     ],
     "image": "armor/cursed_boots.png",
     "slots": 8,
+    "rarity": "p",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -31599,6 +32238,7 @@
       346
     ],
     "image": "wards/scroll_dragon.png",
+    "rarity": "b",
     "description": "A scroll of Macha, offering secrets of her craft. It increases magic and mana, while protecting you from having your magical prowess weakened."
   },
   {
@@ -31706,6 +32346,7 @@
       390
     ],
     "image": "wards/bone_shield.png",
+    "rarity": "b",
     "description": "Cursed shield of a follower of Neman, the great witch. It offers protection from being put to sleep."
   },
   {
@@ -31763,6 +32404,7 @@
       346
     ],
     "image": "wards/scroll_yellow.png",
+    "rarity": "b",
     "description": "A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells."
   },
   {
@@ -31842,6 +32484,7 @@
     ],
     "image": "armor/cursed_armor.png",
     "slots": 7,
+    "rarity": "g",
     "description": "Cursed heavy armor of a follower of Neman, the great witch."
   },
   {
@@ -31882,6 +32525,7 @@
       "Warrior"
     ],
     "image": "useables/great_fishing_line.png",
+    "rarity": "p",
     "description": "A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -32014,6 +32658,7 @@
       403
     ],
     "image": "jewels/54.png",
+    "rarity": "p",
     "description": "A feather pulled from the remains of a fallen Phoenix."
   },
   {
@@ -32067,6 +32712,7 @@
       "跟隨者素質: +15%"
     ],
     "slots": 10,
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It greatly increases the power of your follower."
   },
   {
@@ -32150,6 +32796,7 @@
     ],
     "two_handed": 1,
     "slots": 12,
+    "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle."
   },
   {
@@ -32175,6 +32822,7 @@
       "跟隨者行動: +7%"
     ],
     "slots": 8,
+    "rarity": "g",
     "description": "Mighty staff, representative of the feral Kerberos. It greatly increases the rate in which a follower may act in battle."
   },
   {
@@ -32201,6 +32849,7 @@
       "跟隨者行動: +7%"
     ],
     "slots": 8,
+    "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos. It greatly increases the rate in which a follower may act in battle."
   },
   {
@@ -32335,6 +32984,7 @@
       "跟隨者素質: +15%"
     ],
     "slots": 10,
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It greatly increases the power of your follower."
   },
   {
@@ -32362,6 +33012,7 @@
       282
     ],
     "image": "wards/templar_shield.png",
+    "rarity": "g",
     "description": "A gigantic shield often used to protect one from the wildest of wolves. It offers additional defense at the expense of power."
   },
   {
@@ -32486,6 +33137,7 @@
       337
     ],
     "image": "useables/berserk_mushroom.png",
+    "rarity": "b",
     "description": "A spore of a toxic mushroom. Adorning it upon a weapon can add a variety of status effects to your attacks."
   },
   {
@@ -32515,6 +33167,7 @@
     ],
     "image": "weapons/arcane_wand.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A curious wand carried by the foul Naggeneen. Spells cast with this wand may cause your opponent to become poisoned or blighted."
   },
   {
@@ -32543,7 +33196,8 @@
       266,
       276
     ],
-    "image": "wards/whisper.png"
+    "image": "wards/whisper.png",
+    "rarity": "g"
   },
   {
     "id": 1312,
@@ -32572,6 +33226,7 @@
       276
     ],
     "image": "wards/whisper.png",
+    "rarity": "g",
     "description": "An off-hand dagger carried by the foul Naggeneen. It is encased in a deadly poison."
   },
   {
@@ -32627,6 +33282,7 @@
     ],
     "image": "armor/acolyte_hood.png",
     "slots": 6,
+    "rarity": "g",
     "description": "A thick piece of fabric, often used to protect one's lungs. Wearing it makes one less likely to be afflicted with status effects."
   },
   {
@@ -32671,6 +33327,7 @@
       431
     ],
     "image": "jewels/34.png",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -32723,6 +33380,7 @@
       432
     ],
     "image": "jewels/34.png",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -32746,6 +33404,7 @@
       431
     ],
     "image": "jewels/44.png",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -32769,6 +33428,7 @@
     ],
     "image": "armor/horned_helm.png",
     "slots": 9,
+    "rarity": "g",
     "description": "Helmet of Cerus, the raging bull. It reduces mana cost of skills or spells and is well suited for adornment."
   },
   {
@@ -32789,6 +33449,7 @@
       431
     ],
     "image": "jewels/34.png",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -32814,6 +33475,7 @@
     ],
     "image": "armor/adam_armor.png",
     "slots": 9,
+    "rarity": "g",
     "description": "Armor of Cerus, the raging bull. It reduces the mana cost of skills or spells and is well suited for adornment."
   },
   {
@@ -32883,6 +33545,7 @@
       400
     ],
     "image": "jewels/55.png",
+    "rarity": "p",
     "description": "Adornment of the First Horseman. Adorning upon a piece of armor will slightly protect one from status ailments."
   },
   {
@@ -32906,6 +33569,7 @@
       "跟隨者素質: +2%",
       "跟隨者行動: +1%"
     ],
+    "rarity": "p",
     "description": "Adornment of the Final Horseman. Adorning it upon a weapon will increase the action rate and stats of your follower."
   },
   {
@@ -32926,6 +33590,7 @@
       402
     ],
     "image": "jewels/55.png",
+    "rarity": "p",
     "description": "Adornment of the Second Horseman. Adorning it upon a piece of armor will moderately protect one from status ailments."
   },
   {
@@ -32984,6 +33649,7 @@
     ],
     "two_handed": 1,
     "slots": 10,
+    "rarity": "p",
     "description": "Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit."
   },
   {
@@ -33011,6 +33677,7 @@
     ],
     "image": "weapons/axe.png",
     "slots": 6,
+    "rarity": "g",
     "description": "Heavy axe of the Gilgamesh."
   },
   {
@@ -33034,6 +33701,7 @@
     ],
     "image": "armor/heretic_robe.png",
     "slots": 4,
+    "rarity": "p",
     "description": "A decorated robe often worn by the Heretics. It grants additionally magic power, but spells cast will consume more mana."
   },
   {
@@ -33058,6 +33726,7 @@
       "跟隨者素質: +25%",
       "跟隨者行動: -5%"
     ],
+    "rarity": "p",
     "description": "Amulet often carried by the Beowulf. Wearing this item greatly increases the power of your follower, may cause them to act less often."
   },
   {
@@ -33085,6 +33754,7 @@
       "跟隨者素質: +1%",
       "跟隨者行動: +1%"
     ],
+    "rarity": "g",
     "description": "Red eye of the Behemoth. Adorning it upon a weapon will increase the action rate and stats of your follower."
   },
   {
@@ -33143,6 +33813,7 @@
     ],
     "image": "weapons/tidal_bow.png",
     "slots": 6,
+    "rarity": "g",
     "description": "The Twinbow of a fused Dioscuri. It grants additional offensive power to those that prefer a more hybrid approach to combat."
   },
   {
@@ -33392,6 +34063,7 @@
     ],
     "image": "armor/pale_armor.png",
     "slots": 8,
+    "rarity": "w",
     "description": "Heavy armor of prestigious Avalon knights."
   },
   {
@@ -33446,6 +34118,7 @@
     ],
     "image": "armor/pale_leggings.png",
     "slots": 8,
+    "rarity": "w",
     "description": "Heavy armor of prestigious Avalon knights."
   },
   {
@@ -33553,6 +34226,7 @@
     ],
     "image": "weapons/great_sword.png",
     "slots": 12,
+    "rarity": "g",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This greatsword is one of them."
   },
   {
@@ -33582,6 +34256,7 @@
       261
     ],
     "image": "wards/balins_left.png",
+    "rarity": "g",
     "description": "A greatsword often used in defensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical defenses."
   },
   {
@@ -33661,6 +34336,7 @@
       "Warrior"
     ],
     "image": "useables/hallowed_candle.png",
+    "rarity": "g",
     "description": "When lit, this candle is said to draw near monsters that you have accepted a quest for."
   },
   {
@@ -33688,6 +34364,7 @@
     ],
     "two_handed": 1,
     "slots": 14,
+    "rarity": "b",
     "description": "Archistaff of Mammon, the demon of hubris."
   },
   {
@@ -33736,6 +34413,7 @@
       442
     ],
     "image": "useables/super_bottle.png",
+    "rarity": "g",
     "description": "A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -33755,6 +34433,7 @@
       442
     ],
     "image": "useables/greater_bottle.png",
+    "rarity": "g",
     "description": "A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -33769,6 +34448,7 @@
       "Warrior"
     ],
     "image": "useables/large_bottle.png",
+    "rarity": "g",
     "description": "A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -33783,6 +34463,7 @@
       "Warrior"
     ],
     "image": "useables/small_bottle.png",
+    "rarity": "g",
     "description": "A small bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -33804,6 +34485,7 @@
       442
     ],
     "image": "materials/silphium.png",
+    "rarity": "g",
     "description": "A sprig of silphium. It is useful in crafting some potions at a herbalist."
   },
   {
@@ -33825,13 +34507,14 @@
       442
     ],
     "image": "materials/nightshade.png",
+    "rarity": "w",
     "description": "A stalk of nightshade. It is useful in crafting some potions at a herbalist."
   },
   {
     "id": 1368,
     "name": "Mandrake",
     "zh": "曼德拉草",
-    "tier": 2,
+    "tier": 1,
     "type": "Material",
     "equipped_by": [
       "Mage",
@@ -33847,6 +34530,7 @@
       442
     ],
     "image": "materials/mandrake.png",
+    "rarity": "w",
     "description": "A single leaf of mandrake. It is useful in crafting some potions at a herbalist."
   },
   {
@@ -33869,6 +34553,7 @@
       442
     ],
     "image": "materials/dayleaf.png",
+    "rarity": "g",
     "description": "A stalk of dayleaf. It is useful in crafting some potions at a herbalist."
   },
   {
@@ -33948,6 +34633,7 @@
     ],
     "image": "armor/askr_boots.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Boot of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
   },
   {
@@ -33974,6 +34660,7 @@
     ],
     "image": "armor/askr_hood.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Cowl of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
@@ -34000,6 +34687,7 @@
     ],
     "image": "armor/askr_garb.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -34025,6 +34713,7 @@
     ],
     "image": "armor/askr_leggings.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Heavy leggings of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
   },
   {
@@ -34049,6 +34738,7 @@
     ],
     "image": "armor/askr_hood.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Hood of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
@@ -34076,6 +34766,7 @@
     ],
     "image": "armor/askr_robe.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Robe of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -34131,6 +34822,7 @@
     ],
     "image": "armor/askr_armor.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Heavy of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -34156,6 +34848,7 @@
     ],
     "image": "armor/askr_helm.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
@@ -34532,6 +35225,7 @@
     ],
     "image": "armor/askr_garb.png",
     "slots": 8,
+    "rarity": "g",
     "description": "Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -34601,6 +35295,7 @@
     ],
     "image": "weapons/black_witch_staff.png",
     "slots": 8,
+    "rarity": "b",
     "description": "The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship."
   },
   {
@@ -34712,6 +35407,7 @@
       447
     ],
     "image": "jewels/30.png",
+    "rarity": "g",
     "description": "An artifact capable of unmarking one from Lyonesse execution."
   },
   {
@@ -35225,6 +35921,7 @@
     ],
     "image": "armor/askr_boots.png",
     "slots": 9,
+    "rarity": "g",
     "description": "Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
   },
   {
@@ -35252,6 +35949,7 @@
     ],
     "image": "armor/baldr_boots.png",
     "slots": 6,
+    "rarity": "b",
     "description": "War-mage's boots of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects."
   },
   {
@@ -35283,6 +35981,7 @@
       "經驗加成: 1.02"
     ],
     "slots": 6,
+    "rarity": "p",
     "description": "A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
   {
@@ -35310,6 +36009,7 @@
     ],
     "image": "armor/baldr_robe.png",
     "slots": 6,
+    "rarity": "b",
     "description": "War-mage's robe of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects."
   },
   {
@@ -35369,6 +36069,7 @@
       "經驗加成: 1.02"
     ],
     "slots": 6,
+    "rarity": "p",
     "description": "A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
   {
@@ -35400,6 +36101,7 @@
       "經驗加成: 1.02"
     ],
     "slots": 6,
+    "rarity": "p",
     "description": "A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
   {
@@ -35422,6 +36124,7 @@
     ],
     "image": "armor/elite_nothren_leggings.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren Berserkers"
   },
   {
@@ -35444,6 +36147,7 @@
     ],
     "image": "armor/elite_nothren_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy Armor of Nothren valkyries"
   },
   {
@@ -35466,6 +36170,7 @@
     ],
     "image": "armor/elite_nothren_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -35488,6 +36193,7 @@
     ],
     "image": "armor/elite_nothren_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -35510,6 +36216,7 @@
     ],
     "image": "armor/fomorian_boots.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Boots worn by Fomorian rogues."
   },
   {
@@ -35533,6 +36240,7 @@
     ],
     "image": "armor/fomorian_leggings.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Leg armor worn by Fomorian warriors."
   },
   {
@@ -35555,6 +36263,7 @@
       666
     ],
     "image": "wards/elite_nothren_shield.png",
+    "rarity": "g",
     "description": "Shield carried by berserkers of the Northern lands. It protects one from the cold."
   },
   {
@@ -35577,6 +36286,7 @@
       666
     ],
     "image": "wards/elite_nothren_shield.png",
+    "rarity": "g",
     "description": "Shield carried by valkyries of the Northern lands.  It protects one from the cold."
   },
   {
@@ -35599,6 +36309,7 @@
     ],
     "image": "armor/elite_nothren_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries."
   },
   {
@@ -35621,6 +36332,7 @@
     ],
     "image": "armor/elite_nothren_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -35645,6 +36357,7 @@
     ],
     "image": "armor/draco_garb.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Body coverings of a Draconian rogue."
   },
   {
@@ -35668,6 +36381,7 @@
     ],
     "image": "armor/draco_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -35690,6 +36404,7 @@
     ],
     "image": "armor/elite_nothren_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -35712,6 +36427,7 @@
     ],
     "image": "armor/elite_nothren_armor.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -35734,6 +36450,7 @@
     ],
     "image": "armor/fomorian_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian warriors."
   },
   {
@@ -35756,6 +36473,7 @@
     ],
     "image": "armor/fomorian_robe.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A robe worn by Fomorian mages."
   },
   {
@@ -35778,6 +36496,7 @@
     ],
     "image": "armor/elite_nothren_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -35800,6 +36519,7 @@
     ],
     "image": "armor/elite_nothren_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -35823,6 +36543,7 @@
     ],
     "image": "armor/draco_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A hood of a Draconian mage."
   },
   {
@@ -35845,6 +36566,7 @@
     ],
     "image": "armor/elite_nothren_helm.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -35867,6 +36589,7 @@
     ],
     "image": "armor/fomorian_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A hood worn by Fomorian rogues."
   },
   {
@@ -35889,6 +36612,7 @@
     ],
     "image": "armor/fomorian_hood.png",
     "slots": 4,
+    "rarity": "g",
     "description": "A hood worn by Fomorian mages."
   },
   {
@@ -35911,6 +36635,7 @@
     ],
     "image": "weapons/draco_sword.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A sword of a Draconian blacksmith. The quality is quite surprising."
   },
   {
@@ -35933,6 +36658,7 @@
     ],
     "image": "weapons/wooden_staff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A staff of a Draconian mage. Boasts above average magic power."
   },
   {
@@ -35954,6 +36680,7 @@
     ],
     "image": "weapons/draco_sword.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A sword of a Fomorian warrior."
   },
   {
@@ -35976,6 +36703,7 @@
     ],
     "image": "weapons/draco_archistaff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A staff of a Fomorian mage."
   },
   {
@@ -36026,6 +36754,7 @@
     ],
     "image": "armor/draco_pants.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -36057,6 +36786,7 @@
     ],
     "image": "armor/crown.png",
     "slots": 10,
+    "rarity": "b",
     "description": "The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment."
   },
   {
@@ -36571,6 +37301,7 @@
     ],
     "image": "weapons/blue_flame.png",
     "slots": 6,
+    "rarity": "w",
     "description": "A rare blade carried by the most gifted of Nothren valkyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses."
   },
   {
@@ -36595,6 +37326,7 @@
     ],
     "image": "armor/draco_boots.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Boots of a Draconian rogue."
   },
   {
@@ -36619,6 +37351,7 @@
     ],
     "image": "armor/draco_hood.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A cowl of a Draconian rogue."
   },
   {
@@ -36643,6 +37376,7 @@
     ],
     "image": "armor/draco_robe.png",
     "slots": 4,
+    "rarity": "w",
     "description": "A robe of a Draconian mage."
   },
   {
@@ -36753,6 +37487,7 @@
       266
     ],
     "image": "wards/balor_shield.png",
+    "rarity": "g",
     "description": "A decorated shield often carried by Balor warriors."
   },
   {
@@ -36817,6 +37552,7 @@
     ],
     "image": "weapons/balor_staff.png",
     "slots": 4,
+    "rarity": "w",
     "description": "Staff wielded by Balor mages. It increases mana at the expense of health."
   },
   {
@@ -36993,6 +37729,7 @@
     ],
     "image": "armor/fomorian_armor.png",
     "slots": 4,
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian rogues."
   },
   {
@@ -37086,6 +37823,7 @@
       468
     ],
     "image": "useables/elven_trinket.png",
+    "rarity": "p",
     "description": "A trinket carried by an Alfar. Using it will increase your chances of finding something rarer when opening Stranger's Gifts."
   },
   {
@@ -37101,6 +37839,7 @@
       "Warrior"
     ],
     "image": "useables/eye_potion.png",
+    "rarity": "g",
     "description": "A tonic that improves eyesight. Consuming this item will increase your view distance for a limited time."
   },
   {
@@ -37115,6 +37854,7 @@
       "Warrior"
     ],
     "image": "useables/beast_blood.png",
+    "rarity": "w",
     "description": "A simple concoction. Consuming it may attract extra monsters to you."
   },
   {
@@ -37129,6 +37869,7 @@
       "Warrior"
     ],
     "image": "useables/bestial_potion.png",
+    "rarity": "g",
     "description": "A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time."
   },
   {
@@ -37191,6 +37932,7 @@
       "Petrified"
     ],
     "image": "useables/energy_potion.png",
+    "rarity": "p",
     "description": "A simple tonic that cures one of petrification"
   },
   {
@@ -37759,6 +38501,7 @@
       496
     ],
     "image": "jewels/39.png",
+    "rarity": "p",
     "description": "A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent."
   },
   {
@@ -37782,6 +38525,7 @@
       503
     ],
     "image": "jewels/10.png",
+    "rarity": "p",
     "description": "Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it."
   },
   {
@@ -37800,6 +38544,7 @@
       502
     ],
     "image": "jewels/10.png",
+    "rarity": "p",
     "description": "Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it."
   },
   {
@@ -37823,6 +38568,7 @@
       503
     ],
     "image": "jewels/43.png",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it"
   },
   {
@@ -37846,6 +38592,7 @@
       282
     ],
     "image": "weapons/kerberos_staff.png",
+    "rarity": "g",
     "description": "Mighty staff, representative of the relentless Kerberos."
   },
   {
@@ -37870,6 +38617,7 @@
       282
     ],
     "image": "weapons/kerberos_sword.png",
+    "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos."
   },
   {
@@ -37897,6 +38645,7 @@
       282
     ],
     "image": "armor/kerberos_hood.png",
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
   },
   {
@@ -37924,6 +38673,7 @@
       282
     ],
     "image": "weapons/kerberos_claws.png",
+    "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
   {
@@ -37946,6 +38696,7 @@
       282
     ],
     "image": "weapons/kerberos_staff.png",
+    "rarity": "g",
     "description": "Mighty staff, representative of the relentless Kerberos."
   },
   {
@@ -37970,6 +38721,7 @@
       282
     ],
     "image": "weapons/kerberos_sword.png",
+    "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos."
   },
   {

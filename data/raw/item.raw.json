@@ -30,7 +30,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Recovers 100 health points."
   },
   {
@@ -64,7 +64,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A hunter's bow."
   },
   {
@@ -98,7 +98,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Recovers 100 mana."
   },
   {
@@ -132,7 +132,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Cures poison."
   },
   {
@@ -166,7 +166,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 100 health points and 100 mana."
   },
   {
@@ -200,7 +200,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 250 health points."
   },
   {
@@ -234,7 +234,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 250 mana."
   },
   {
@@ -268,7 +268,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Recovers 250 health points and 250 mana."
   },
   {
@@ -302,7 +302,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 500 health points."
   },
   {
@@ -336,7 +336,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 500 mana."
   },
   {
@@ -370,7 +370,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 500 health points and 500 mana."
   },
   {
@@ -404,7 +404,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "The universal remedy."
   },
   {
@@ -438,7 +438,7 @@
     "other_effect": "[\"金幣加成: 2\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A shiny, lucky coin. Boosts gold earned for a period of time."
   },
   {
@@ -472,7 +472,7 @@
     "other_effect": "[\"歐幣加成: 2\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A shiny, lucky, silver coin. Boosts orns earned for a period of time."
   },
   {
@@ -506,7 +506,7 @@
     "other_effect": "[\"經驗加成: 2\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sour tasting elixir that doubles experience earned for a limited time."
   },
   {
@@ -540,7 +540,7 @@
     "other_effect": "[\"幸運加成: 1.5\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A strange apparatus suitable for finding that which cannot be easily found. Boosts item and discovery rate for a period of time."
   },
   {
@@ -574,7 +574,7 @@
     "other_effect": "[\"怪物: 1.3\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Use it at night to increase visibility. You may attract more monsters as well."
   },
   {
@@ -608,7 +608,7 @@
     "other_effect": "[\"怪物: 2\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A mysterious candle that draws more enemies to you for a limited time when lit."
   },
   {
@@ -642,7 +642,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sour tonic that raises your attack in battle."
   },
   {
@@ -676,7 +676,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sour tonic that raises your defense in battle."
   },
   {
@@ -710,7 +710,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sour tonic that raises your speed in battle."
   },
   {
@@ -744,7 +744,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sour tonic that raises your magic in battle."
   },
   {
@@ -778,7 +778,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Fragment remains of a fallen monster. Attracts a boss to your location when used."
   },
   {
@@ -812,7 +812,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Fragrant remains of a fallen monster. Attracts a (Berserk) boss to your location when used."
   },
   {
@@ -880,7 +880,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sword with a wide blade."
   },
   {
@@ -914,7 +914,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A wise mage's cane."
   },
   {
@@ -948,7 +948,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small blade ideal for close quartered combat."
   },
   {
@@ -982,7 +982,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "An old, rusty sword."
   },
   {
@@ -1016,7 +1016,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A trusty, yet short, sword."
   },
   {
@@ -1050,7 +1050,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A mage's staff."
   },
   {
@@ -1084,7 +1084,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple sword and shield."
   },
   {
@@ -1118,7 +1118,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A mage's staff crafted of enchanted wood."
   },
   {
@@ -2750,7 +2750,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A silver dagger. Quite suitable when fighting the undead."
   },
   {
@@ -3396,7 +3396,7 @@
     "other_effect": "[\"經驗加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned."
   },
   {
@@ -3838,7 +3838,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "b",
     "description": "A sword and shield pairing fit for royal guards."
   },
   {
@@ -3974,7 +3974,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Dagger often carried as a sidearm by demon soldiers. Has the chance of both burning and causing an opponent to bleed."
   },
   {
@@ -4008,7 +4008,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "Silver bow of a legendary huntress. It grants its wielder extra dexterity."
   },
   {
@@ -4042,7 +4042,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A blade with the power to cleave the tops from the hills. It may paralyze an opponent, while protecting its wielder from paralyzation."
   },
   {
@@ -4076,7 +4076,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A mythical dagger said to have the magical power to shroud its user in shadow. It may lull an opponent to sleep."
   },
   {
@@ -4110,7 +4110,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A legendary blade that blazes with fire when drawn."
   },
   {
@@ -4178,7 +4178,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Staff of a fallen mystic."
   },
   {
@@ -4212,7 +4212,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A beautiful blade that resemble stars in the night sky."
   },
   {
@@ -4246,7 +4246,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "8",
-    "rarity": "",
+    "rarity": "w",
     "description": "An axe an shield pairing suitable of taking down great beasts."
   },
   {
@@ -4280,7 +4280,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Crude blades made from the talons of a wyvern. These blades can cause your opponent to bleed."
   },
   {
@@ -4314,7 +4314,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "An archistaff granted to Draconian lords. Illuminates your path while carried."
   },
   {
@@ -4382,7 +4382,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A powerful axe forged by the remains of Tiamat, the great ancient dragon."
   },
   {
@@ -4416,7 +4416,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb bow forged of the remains of Tiamat, the great ancient dragon."
   },
   {
@@ -4450,7 +4450,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A staff of the occult. Boasts strong magic power, but can also be used as a weapon. It heals its wielder when dealing damage. (heals 100HP when dealing damage)"
   },
   {
@@ -4484,7 +4484,7 @@
     "other_effect": "[\"歐幣加成: 1.03\",\"經驗加成: 1.03\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Blade taken from Ankou's deadly scythe. Increases orns and experience earned."
   },
   {
@@ -4518,7 +4518,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb staff forged of the remains of Tiamat, the great ancient dragon."
   },
   {
@@ -4586,7 +4586,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple hood."
   },
   {
@@ -4620,7 +4620,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A leather hat."
   },
   {
@@ -4722,7 +4722,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "An old iron helmet"
   },
   {
@@ -5164,7 +5164,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "The symbolic headwear of Carman, the banished witch."
   },
   {
@@ -5198,7 +5198,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic helmet made of wyvern skin."
   },
   {
@@ -5232,7 +5232,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor made of chainmail"
   },
   {
@@ -5266,7 +5266,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A smelly old robe."
   },
   {
@@ -5300,7 +5300,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of a goblin."
   },
   {
@@ -5334,7 +5334,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor reinforced with hardened leather. Offers fair protection from the elements."
   },
   {
@@ -5368,7 +5368,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor made of iron"
   },
   {
@@ -5402,7 +5402,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple leather jacket."
   },
   {
@@ -5436,7 +5436,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple mage's robe. Offers a small amount of magic protection."
   },
   {
@@ -6082,7 +6082,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A robe worn by Fomorian mages."
   },
   {
@@ -6320,7 +6320,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic chest guard made of wyvern skin."
   },
   {
@@ -6354,7 +6354,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic chest guard made of wyvern skin."
   },
   {
@@ -6388,7 +6388,7 @@
     "other_effect": "[\"歐幣加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "The blackened robe of Ankou, the henchman of Death. Slightly increases orns earned. It is most fitting for the most skilled of mages."
   },
   {
@@ -6422,7 +6422,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic robe made of wyvern skin."
   },
   {
@@ -6456,7 +6456,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor made of chainmail."
   },
   {
@@ -6490,7 +6490,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Boots of a goblin."
   },
   {
@@ -6524,7 +6524,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Sturdy leather boots. Offers extra protection."
   },
   {
@@ -6558,7 +6558,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy boots, made to endure most weather conditions."
   },
   {
@@ -6592,7 +6592,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "These boots were only made for walking."
   },
   {
@@ -7136,7 +7136,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic boots made of wyvern skin."
   },
   {
@@ -7170,7 +7170,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic, heavy leg armor made of wyvern skin."
   },
   {
@@ -7204,7 +7204,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic boots made of wyvern skin."
   },
   {
@@ -7408,7 +7408,7 @@
     "other_effect": "[\"經驗加成: 1.05\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A tome of common monsters. Slightly boosts experience earned."
   },
   {
@@ -7476,7 +7476,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A shiny, silver amulet. Raises attack power."
   },
   {
@@ -7544,7 +7544,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A ring made of steel. Raises defense when worn."
   },
   {
@@ -7578,7 +7578,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An odd blue crystal. Boosts MP when equipped."
   },
   {
@@ -7646,7 +7646,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A strange eye imbued with even stranger magic. Keeping this in your hand will slightly boost all stats."
   },
   {
@@ -7680,7 +7680,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An odd green crystal. Boosts magic power when equipped."
   },
   {
@@ -7816,7 +7816,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An odd red crystal. Boosts HP when equipped."
   },
   {
@@ -7884,7 +7884,7 @@
     "other_effect": "[\"怪物: 1.2\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A skull enchanted with strange magic. Attracts more monsters to you when carried."
   },
   {
@@ -8020,7 +8020,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A rare platinum amulet. Raises attack power."
   },
   {
@@ -8088,7 +8088,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Strange amulet of a troll. Boosts most stats."
   },
   {
@@ -8122,7 +8122,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A strange magical ring. Those who do not possess physical strength can equip this ring to sacrifice magic for attack power."
   },
   {
@@ -8156,7 +8156,7 @@
     "other_effect": "[\"經驗加成: 1.1\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A large tome of monster knowledge. Increases experience earned."
   },
   {
@@ -8224,7 +8224,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple robe worn by students of magic."
   },
   {
@@ -8258,7 +8258,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "The hood of a student of magic."
   },
   {
@@ -8326,7 +8326,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An unbreakable chunk of adamantine. Used to craft extremely durable weapons and armor."
   },
   {
@@ -8360,7 +8360,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "An extremely ancient stone. Useful for upgrading powerful weapons."
   },
   {
@@ -8394,7 +8394,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A fragment of sturdy bone. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -8428,7 +8428,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A broken piece of a statue. It may be useful in upgrading rarer weapons."
   },
   {
@@ -8462,7 +8462,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Stone mined from an eerie cave. Useful for upgrading powerful weapons."
   },
   {
@@ -8496,7 +8496,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of darkstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -8530,7 +8530,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Unrefined ore of the underworld. Useful for upgrading demonic weapons."
   },
   {
@@ -8564,7 +8564,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of draconite. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -8598,7 +8598,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of dragonite. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -8632,7 +8632,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of earthstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -8666,7 +8666,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "An odd stone often used to craft Elven weapons."
   },
   {
@@ -8700,7 +8700,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Crystal eye fallen from a great gazer. Useful for upgrading powerful weapons."
   },
   {
@@ -8734,7 +8734,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of firestone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -8768,7 +8768,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Strange, transparent material. Useful for upgrading special weapons."
   },
   {
@@ -8802,7 +8802,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Steel, yet seemingly more durable than usual. Useful in upgrading stronger weapons."
   },
   {
@@ -8836,7 +8836,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small scrap of animal hide. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -8870,7 +8870,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small piece of iron ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -8904,7 +8904,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small scrap of leather. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -8938,7 +8938,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of lightningstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -8972,7 +8972,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small piece of mythril ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -9006,7 +9006,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A hard stone that resembles the night sky."
   },
   {
@@ -9040,7 +9040,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A flawless chunk of runestone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -9074,7 +9074,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small piece of platinum ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -9108,7 +9108,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Pure darkstone. Useful for upgrading extremely dark weapons."
   },
   {
@@ -9142,7 +9142,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare chunk of pure draconite. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -9176,7 +9176,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A chunk of fiery draconite. Useful for upgrading powerful weapons."
   },
   {
@@ -9210,7 +9210,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of runestone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -9244,7 +9244,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A chunk of nearly fossilized scales. Useful for upgrading rare weapons."
   },
   {
@@ -9278,7 +9278,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small piece of silver ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -9312,7 +9312,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small piece of steel ore. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -9346,7 +9346,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A solid piece of stone. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -9380,7 +9380,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Bones of the undead can rarely be so strong."
   },
   {
@@ -9414,7 +9414,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Ore seemingly treasured by the lords of the night. This can be used to upgrade weapons of theirs."
   },
   {
@@ -9448,7 +9448,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A rare piece of waterstone. Useful for crafting and upgrading magical weapons or armor."
   },
   {
@@ -9482,7 +9482,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Strange stone crafted by a great witch."
   },
   {
@@ -9516,7 +9516,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "What a strange substance. What could it ever be for?"
   },
   {
@@ -9550,7 +9550,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A solid piece of wood. Useful for crafting and upgrading weapons or armor."
   },
   {
@@ -9686,7 +9686,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "An axe enchanted with the power of the raging sea."
   },
   {
@@ -9720,7 +9720,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic hood made of wyvern skin."
   },
   {
@@ -9754,7 +9754,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Bow forged of a great bat's remains. It may break an opponent's defenses."
   },
   {
@@ -9788,7 +9788,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Staff of a wolfman mage. Imbued with earthen powers."
   },
   {
@@ -9924,7 +9924,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Silk of a great spider. Useful for upgrading rare weapons."
   },
   {
@@ -10026,7 +10026,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "Bow of the underworld."
   },
   {
@@ -10060,7 +10060,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A decorative bow enchanted with the power of ice. It can easily cause an opponent to freeze."
   },
   {
@@ -10162,7 +10162,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "A staff that brings down giants. It may break an opponents magical defenses."
   },
   {
@@ -10196,7 +10196,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A rare chunk of pure waterstone. Useful for crafting and upgrading powerful magical weapons or armor."
   },
   {
@@ -10264,7 +10264,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A magical blade representing the unrelenting force of Fenrir the wolf. It can temporarily decrease your opponent's defense upon use."
   },
   {
@@ -10910,7 +10910,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots of a Ljosalfar warrior."
   },
   {
@@ -10944,7 +10944,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Great staff of a Ljosalfar mage."
   },
   {
@@ -10978,7 +10978,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A glossy white material used in Ljosalfar weaponry."
   },
   {
@@ -11046,7 +11046,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A gleaming white blade of a Ljosalfar warrior."
   },
   {
@@ -11080,7 +11080,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crude weapon of a Naga warrior"
   },
   {
@@ -11114,7 +11114,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "An extremely versatile magical Ljosalfar sceptre. Can be used as either a magic staff or weapon."
   },
   {
@@ -11148,7 +11148,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Rare white material used in Ljosalfar weaponry. Can be used to upgrade powerful weapons."
   },
   {
@@ -11182,7 +11182,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A ring of the cursed Fafnir. Increases your attack and magic power at the expense of your longevity."
   },
   {
@@ -11216,7 +11216,7 @@
     "other_effect": "[\"經驗加成: 1.25\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A tome recounting the cursed stories of Fafnir. Increases experience earned at the expense of your potential."
   },
   {
@@ -11420,7 +11420,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crude staff of a Naga mage."
   },
   {
@@ -11488,7 +11488,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Although the Lizarr seemed untrained in advanced weaponry, these fine bows have been found within their settlements. This bow is enchanted with the power of ice and water."
   },
   {
@@ -11590,7 +11590,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic cowl made of wyvern skin."
   },
   {
@@ -11658,7 +11658,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Soul of a felled gladiator. Useful in upgrading rarer weapons and equipment."
   },
   {
@@ -11692,7 +11692,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Soul of a great felled gladiator. Useful in upgrading rarer weapons and equipment."
   },
   {
@@ -11726,7 +11726,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A token permitting access to battle in the Arena."
   },
   {
@@ -11828,7 +11828,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "g",
     "description": "Dagger often carried as a sidearm by demon soldiers.  Has the chance of both burning and causing an opponent to bleed."
   },
   {
@@ -11862,7 +11862,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "The robe of one who practices rare magic. Slightly raises total mana."
   },
   {
@@ -11896,7 +11896,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "The hat of one who practices rare magic. Slightly raises total mana."
   },
   {
@@ -11930,7 +11930,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "The boots of one who practices rare magic. Slightly raises total mana."
   },
   {
@@ -11964,7 +11964,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sharp blade carried by wandering rogues. It has a great chance to cause an opponent to bleed."
   },
   {
@@ -11998,7 +11998,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Armor forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -12032,7 +12032,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Helmet forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -12066,7 +12066,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Leg armor forged of the remains of a colossal being. Boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -12134,7 +12134,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Material made of hardened sand. Useful for upgrading powerful weapons."
   },
   {
@@ -12236,7 +12236,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Rare chunk of solarite. Useful in upgrading powerful equipment."
   },
   {
@@ -12576,7 +12576,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "An azure dagger crafted of hard titanium."
   },
   {
@@ -12610,7 +12610,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "An azure axe crafted of hard titanium."
   },
   {
@@ -12644,7 +12644,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "An azure staff crafted of hard titanium."
   },
   {
@@ -12678,7 +12678,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure light armor crafted of titanium."
   },
   {
@@ -12712,7 +12712,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure armor crafted of hard titanium."
   },
   {
@@ -12746,7 +12746,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure attire adorned with titanium."
   },
   {
@@ -12780,7 +12780,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure light armor crafted of titanium."
   },
   {
@@ -12814,7 +12814,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure attire adorned with titanium."
   },
   {
@@ -12848,7 +12848,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure attire adorned with titanium."
   },
   {
@@ -12882,7 +12882,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure light armor crafted of titanium."
   },
   {
@@ -12916,7 +12916,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure armor crafted of hard titanium."
   },
   {
@@ -12950,7 +12950,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A pendant often worn by dragoons. It protects its wearer from blight."
   },
   {
@@ -13120,7 +13120,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A large chunk of hardened titanium. Useful in upgrading powerful equipment."
   },
   {
@@ -13188,7 +13188,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Azure crystal of the night. Increases magical ability at the expense of physical prowess."
   },
   {
@@ -13222,7 +13222,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Katana wielded by Balor rogues. It has a high chance of causing an opponent to bleed."
   },
   {
@@ -13256,7 +13256,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Staff wielded by Balor mages. It increases mana at the expense of health."
   },
   {
@@ -13290,7 +13290,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor typically worn by Balor warriors."
   },
   {
@@ -13324,7 +13324,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A dark, dusty robe typically worn by Balor mages."
   },
   {
@@ -13358,7 +13358,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A heavy helmet typically worn by Balor warriors."
   },
   {
@@ -13392,7 +13392,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "12",
-    "rarity": "",
+    "rarity": "b",
     "description": "The fabled crown of King Balor."
   },
   {
@@ -13426,7 +13426,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy leggings typically worn by Balor warriors"
   },
   {
@@ -13460,7 +13460,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A golden material useful in upgrading powerful equipment."
   },
   {
@@ -13528,7 +13528,7 @@
     "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "1",
     "slots": "10",
-    "rarity": "",
+    "rarity": "g",
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
   },
   {
@@ -13562,7 +13562,7 @@
     "other_effect": "[\"歐幣加成: 1.03\",\"經驗加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Putrid spear of the Rat King.  It may cause poison while slightly boosting experience and orns earned."
   },
   {
@@ -13596,7 +13596,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Blunt axe of an great Orcish warrior."
   },
   {
@@ -13630,7 +13630,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Blunt blade of an great Orcish warrior."
   },
   {
@@ -13698,7 +13698,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A golden material useful in upgrading powerful equipment."
   },
   {
@@ -13732,7 +13732,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A pendant often worn against the mighty cockatrice. It protects its wearer from petrification."
   },
   {
@@ -13766,13 +13766,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A robe of a Draconian mage."
   },
   {
     "id": "410",
     "name": "High Fomorian Hood",
-    "zh": "高級弗摩爾族兜帽",
+    "zh": "高等弗摩爾族兜帽",
     "tier": "7",
     "type": "Head",
     "boss": "",
@@ -13800,13 +13800,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A hood worn by Fomorian mages."
   },
   {
     "id": "411",
     "name": "High Fomorian Leggings",
-    "zh": "高級弗摩爾族腿甲",
+    "zh": "高等弗摩爾族腿甲",
     "tier": "7",
     "type": "Legs",
     "boss": "",
@@ -13834,13 +13834,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Leg armor worn by Fomorian warriors."
   },
   {
     "id": "412",
     "name": "High Fomorian Armor",
-    "zh": "高級弗摩爾族盔甲",
+    "zh": "高等弗摩爾族盔甲",
     "tier": "7",
     "type": "Armor",
     "boss": "",
@@ -13868,13 +13868,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian warriors."
   },
   {
     "id": "413",
     "name": "High Fomorian Robe",
-    "zh": "高級弗摩爾族長袍",
+    "zh": "高等弗摩爾族長袍",
     "tier": "7",
     "type": "Armor",
     "boss": "",
@@ -13902,7 +13902,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A robe worn by Fomorian mages."
   },
   {
@@ -13936,7 +13936,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Body coverings of a Draconian rogue."
   },
   {
@@ -13970,7 +13970,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -14004,7 +14004,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A cowl of a Draconian rogue."
   },
   {
@@ -14038,7 +14038,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A hood of a Draconian mage"
   },
   {
@@ -14072,7 +14072,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A crystalline polearm carried by the most enlightened of travelers. It is well suited for adornment."
   },
   {
@@ -14106,13 +14106,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sword of a Fomorian warrior."
   },
   {
     "id": "420",
     "name": "High Fomorian Staff",
-    "zh": "高級弗摩爾族法杖",
+    "zh": "高等弗摩爾族法杖",
     "tier": "7",
     "type": "Weapon",
     "boss": "",
@@ -14140,7 +14140,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A staff of a Fomorian mage."
   },
   {
@@ -14174,7 +14174,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A helmet made of solid orichalcum."
   },
   {
@@ -14208,7 +14208,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Armor made of solid orichalcum."
   },
   {
@@ -14242,7 +14242,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Leg armor made of solid orichalcum."
   },
   {
@@ -14276,7 +14276,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A solid chunk of orichalcum. Useful in upgrading hardened equipment."
   },
   {
@@ -14344,7 +14344,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Ceremonial sword of a great woodland elf. It may poison an opponent."
   },
   {
@@ -14446,7 +14446,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A powerful axe forged of the remains of Typhon, the great ancient dragon."
   },
   {
@@ -14480,7 +14480,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A huge mace, favoured by esteemed Dokkalfar warriors. Has a very high chance of stunning an opponent."
   },
   {
@@ -14582,7 +14582,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "A ceremonial sword of enlightened royalty. It can protect one from having their stats lowered and is well-suited for adornment."
   },
   {
@@ -14616,7 +14616,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb bow forged by the remains of Typhon, the great ancient dragon."
   },
   {
@@ -14650,7 +14650,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb staff forged by the remains of Typhon, the great ancient dragon."
   },
   {
@@ -14684,7 +14684,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A magical crystalline staff carried by the most enlightened travelers. It is well suited for adornment."
   },
   {
@@ -14718,7 +14718,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -14752,7 +14752,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Dark armor of elite Balor rogues."
   },
   {
@@ -14786,7 +14786,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Dark armor of elite Balor rogues."
   },
   {
@@ -14820,7 +14820,7 @@
     "other_effect": "[\"經驗加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Old, decrepit, dark archistaff of a powerful witch. Slightly boosts experience earned."
   },
   {
@@ -14854,7 +14854,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Boots of a Draconian rogue."
   },
   {
@@ -14888,7 +14888,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "3",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crimson robe of Dalan, the exalted High Elf."
   },
   {
@@ -14922,7 +14922,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Ivory robe of Horus, the winged protector of the skies.  What it lacks in defensive power is made up with dexterity."
   },
   {
@@ -14956,7 +14956,7 @@
     "other_effect": "[\"金幣加成: 1.05\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A bag for coins, carried by Hermes the merchant. Slightly raises gold earned."
   },
   {
@@ -14990,7 +14990,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A bitter green elixir that heals poison, bleeding, blight, frozen, burning, paralysis, sleep, blindness, or rot."
   },
   {
@@ -15024,7 +15024,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "One can use this key to enter a Gauntlet."
   },
   {
@@ -15058,7 +15058,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "When lit, this mysterious candle draws stronger enemies to you for a limited time."
   },
   {
@@ -15092,7 +15092,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Recovers 2500 health points and 1000 mana."
   },
   {
@@ -15126,7 +15126,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 2500 health points."
   },
   {
@@ -15160,7 +15160,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Recovers 2500 mana."
   },
   {
@@ -15194,7 +15194,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A thin, pale blade granted to elite Balor warriors."
   },
   {
@@ -15262,7 +15262,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A mushroom of unknown origin. Eating it will cause one to enrage."
   },
   {
@@ -15296,7 +15296,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "The trusty cane of Ra, the seer. Ra was obsessed with the senses of humans after losing much of his own. This staff increases your ability to see, while potentially binding your opponent."
   },
   {
@@ -15364,7 +15364,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Thin sword forged of Baslisk remains. It has a chance to cause either poison or blight."
   },
   {
@@ -15398,7 +15398,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sour tonic that raises your magic defense in battle."
   },
   {
@@ -15466,7 +15466,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy hood made of strong hide. Offers mild protection against the elements."
   },
   {
@@ -15500,7 +15500,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Thin, cold blade of Ithra, the White Knght.  Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
@@ -15534,7 +15534,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Chilling staff of Boreal, a Frozenguard elite. It has a high chance of freezing an opponent."
   },
   {
@@ -15568,7 +15568,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A ring of certain evil. Wearing it attracts stronger monsters to you, but reduces your overall power."
   },
   {
@@ -15602,7 +15602,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A unique curved blade, specifically designed for escaping an opponent's defenses."
   },
   {
@@ -15636,7 +15636,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A heavy great sword carried in Sir Balin's left hand. A blow from this blade can lower an opponent's magic power when attacking."
   },
   {
@@ -15670,7 +15670,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This crooked shotel is one of them."
   },
   {
@@ -15704,7 +15704,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Small, yet immensely heavy hammer of Thor.  Thor founded the Stormforce shortly before succumbing to the power of the Falling.  His hammer can easily paralyze an opponent"
   },
   {
@@ -15738,7 +15738,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
   },
   {
@@ -15772,7 +15772,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "One of the concotions of Cade, the great inventor. This gizmo prevents one from having their physical or magical prowess lowered."
   },
   {
@@ -15806,7 +15806,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Chestplate forged of the remains of a mighty Cockatrice. It grants its wearer immunity from petrification."
   },
   {
@@ -15840,7 +15840,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Pale attire of elite Balor mages."
   },
   {
@@ -15874,7 +15874,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Boots worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
   },
   {
@@ -15908,7 +15908,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "The great blacksmith Creidhne created this alloy to forge the most powerful of weapons."
   },
   {
@@ -15942,7 +15942,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A pale blade often used by the most elite of Balor knights"
   },
   {
@@ -16010,7 +16010,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A massive dwarven hammer, carried by Dudley the steadfast."
   },
   {
@@ -16180,7 +16180,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple yet sentimental dagger of the aloof one, Carl."
   },
   {
@@ -16214,7 +16214,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "The hat of Aldon, the eccentric. Aldon's balance has never faltered, and one cannot be stunned while wearing this hat."
   },
   {
@@ -16248,7 +16248,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Pale armor of elite Balor warriors."
   },
   {
@@ -16282,7 +16282,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Amulet of Draconian lords. It slightly extends one's health and mana."
   },
   {
@@ -16316,7 +16316,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "The crippling weapon of Knight Artifice, the dragonslayer of Avalon. It can lower an opponent's magical potential."
   },
   {
@@ -16384,7 +16384,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Earthen polearm of Boulder, the Earthen Legion elite.  It has a high chance of stunning an opponent."
   },
   {
@@ -16452,7 +16452,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Spear of Gale, the Stormforce elite. It has a high chance of paralyzing an opponent."
   },
   {
@@ -16486,7 +16486,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Staff o' the Gnome Master, Nolan. 'Ave one 'ver seen such a wonder?"
   },
   {
@@ -16520,7 +16520,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Ivory hood of Sala, the High Elf."
   },
   {
@@ -16588,7 +16588,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "The bow of a long forgotten hero. It is now carried by Rouge, the crimson archer. Surely, one cannot miss a shot with this bow."
   },
   {
@@ -16622,7 +16622,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Staff of fallen druid. It greatly increases mana."
   },
   {
@@ -16656,7 +16656,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sword of a Draconian blacksmith. The quality is quite surprising."
   },
   {
@@ -16690,7 +16690,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A staff of a Draconian mage. Boasts above average magic power."
   },
   {
@@ -16724,7 +16724,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Ivory hood of Dalan, the exalted High Elf."
   },
   {
@@ -16758,7 +16758,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A strange crimson eye imbued with even stranger crimson magic. Keeping this in your hand will slightly boost all stats."
   },
   {
@@ -16826,7 +16826,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A pale staff granted to skilled Balor mages."
   },
   {
@@ -16860,7 +16860,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy cloak of a bandit. Offers mild defense against the elements."
   },
   {
@@ -16894,7 +16894,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Dark armor of elite Balor rogues."
   },
   {
@@ -16928,7 +16928,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A hard obsidian stone that resembles an empty night sky."
   },
   {
@@ -16962,7 +16962,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A mighty alloy. It was used to craft Avalonian weapons and armor."
   },
   {
@@ -17030,7 +17030,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Cloak worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
   },
   {
@@ -17064,7 +17064,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Pale armor of elite Balor warriors."
   },
   {
@@ -17098,7 +17098,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Avalon knights."
   },
   {
@@ -17166,7 +17166,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Pale attire of elite Balor mages."
   },
   {
@@ -17200,7 +17200,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Pale armor of elite Balor warriors."
   },
   {
@@ -17234,7 +17234,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This epee is one of them."
   },
   {
@@ -17268,7 +17268,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Pale attire of elite Balor mages."
   },
   {
@@ -17302,7 +17302,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crimson robe of Sala, the High Elf."
   },
   {
@@ -17336,7 +17336,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A heavy great sword carried in Sir Balin's right hand.  A blow from this blade can lower an opponent's attack power."
   },
   {
@@ -17370,7 +17370,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Headpiece worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
   },
   {
@@ -17404,7 +17404,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "An evil blade wielded by Racul, King of vampires. Attacks with this weapon can slightly restore HP."
   },
   {
@@ -17438,7 +17438,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A terribly frightening axe, seemingly forged with the hardened bones of an odok undead. It has a great chance of stunning an opponent."
   },
   {
@@ -17574,7 +17574,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Great staff of Avalon court mages."
   },
   {
@@ -17608,7 +17608,7 @@
     "other_effect": "[\"歐幣加成: 1.5\",\"金幣加成: 1.5\",\"經驗加成: 1.5\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned."
   },
   {
@@ -17676,7 +17676,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Magical staff of a Jinn. This weapon may cause unexpected status effects."
   },
   {
@@ -17710,7 +17710,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "Sparring sword of Gwyn, the former King of Annwn. This weapon can temporarily weaken opponents with ease."
   },
   {
@@ -17744,7 +17744,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Light armor of a Dokkalfar warrior."
   },
   {
@@ -17914,7 +17914,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An ebony blade of a Dokkalfar warrior."
   },
   {
@@ -17948,7 +17948,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Chestplate of a Dokkalfar knight."
   },
   {
@@ -18016,7 +18016,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots of a Dokkalfar warrior."
   },
   {
@@ -18050,7 +18050,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cowl of a Dokkalfar rogue."
   },
   {
@@ -18084,7 +18084,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This katana is his favourite, and can easy weaken an opponent."
   },
   {
@@ -18118,7 +18118,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Recovers 5000 health points and 5000 mana."
   },
   {
@@ -18186,7 +18186,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A seemingly flawless blade wielded by Vulcan, the Red Knight. Vulcan formed the Knights of Inferno to fight alongside the forces of Annwn."
   },
   {
@@ -18254,7 +18254,7 @@
     "other_effect": "[\"幸運加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more items."
   },
   {
@@ -18288,7 +18288,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic hood made of guivre skin."
   },
   {
@@ -18322,7 +18322,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic chest guard made of guivre skin."
   },
   {
@@ -18356,7 +18356,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic cowl made of guivre skin."
   },
   {
@@ -18390,7 +18390,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic chest guard made of guivre skin."
   },
   {
@@ -18424,7 +18424,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic boots made of guivre skin."
   },
   {
@@ -18458,7 +18458,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic helmet made of guivre skin."
   },
   {
@@ -18492,7 +18492,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic boots made of guivre skin."
   },
   {
@@ -18526,7 +18526,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic robe made of guivre skin."
   },
   {
@@ -18560,7 +18560,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic, heavy leg armor made of guivre skin."
   },
   {
@@ -18628,7 +18628,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "9",
-    "rarity": "",
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
   },
   {
@@ -18730,7 +18730,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, his fate came long before any notion of normality."
   },
   {
@@ -18900,7 +18900,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of a kobold."
   },
   {
@@ -18934,7 +18934,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple cloak worn by kobold mages."
   },
   {
@@ -18968,7 +18968,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple hood worn by kobold mages."
   },
   {
@@ -19002,7 +19002,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Boots of a kobold."
   },
   {
@@ -19036,7 +19036,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An arcane ring often worn by a clurichaun. It increases both mana potential and dexterity."
   },
   {
@@ -19138,7 +19138,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. These are the boots of one."
   },
   {
@@ -19172,7 +19172,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the helmet of one."
   },
   {
@@ -19206,7 +19206,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Recovers 5000 health points."
   },
   {
@@ -19240,7 +19240,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Recovers 5000 mana."
   },
   {
@@ -19274,7 +19274,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Enchanted belt of Cerus, the untamed. It protects one from burning while granting additional HP."
   },
   {
@@ -19444,7 +19444,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This greatsword is one of them."
   },
   {
@@ -19478,7 +19478,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the armor of one."
   },
   {
@@ -19512,7 +19512,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "3",
-    "rarity": "",
+    "rarity": "p",
     "description": "An ancient and decrepit blade carried by Mammon, the demon of hubris. It is of unknown use and is too worn to be used as any form of weapon."
   },
   {
@@ -19852,7 +19852,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A strange dark and warm ore refined by Balor mystics. It is useful in upgrading equipment of the exiled."
   },
   {
@@ -19886,7 +19886,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical robe crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -19920,7 +19920,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -19954,7 +19954,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -19988,7 +19988,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy axe crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20022,7 +20022,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical hood crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20056,7 +20056,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20090,7 +20090,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical boots crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20124,7 +20124,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy archistaff crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20158,7 +20158,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20192,7 +20192,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Dark katana crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20226,7 +20226,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20260,7 +20260,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Light armor crafted by Apollyon, the destructive exiled Balor mystic. Apollyon sought to destroy lands to stop the falling, but was exiled for his unorthodox approaches."
   },
   {
@@ -20294,7 +20294,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "A pair of dark kunai, forged of a basilisk's claws."
   },
   {
@@ -20328,7 +20328,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered."
   },
   {
@@ -20362,7 +20362,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stone of quartz often used in the sharpening of blades. Using it will freely upgrade your equipped weapon to level 2."
   },
   {
@@ -20396,7 +20396,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stone of quartz often used in the sharpening of blades. Using it will freely upgrade your equipped weapon from level 2 to 3."
   },
   {
@@ -20430,7 +20430,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A seemingly ageless yet pristine hood."
   },
   {
@@ -20464,7 +20464,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -20498,7 +20498,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A seemingly ageless yet pristine robe."
   },
   {
@@ -20532,7 +20532,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the ground below. Grants protection from earthen magic."
   },
   {
@@ -20566,7 +20566,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the tides. Grants protection from water & ice."
   },
   {
@@ -20600,7 +20600,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -20634,7 +20634,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A seemingly ageless yet pristine pair of boots."
   },
   {
@@ -20668,7 +20668,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A Greatbow of  Annwn, capable of loosing arcane arrows. It can cause a variety of status effects."
   },
   {
@@ -20702,7 +20702,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple straight sword, useful for sparring. It has a great chance at catching an opponent off guard."
   },
   {
@@ -20736,7 +20736,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "A pair of unnecessarily sharp daggers. These will easily cause an opponent to bleed."
   },
   {
@@ -20770,7 +20770,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A sword carried by a talented gladiator. Through its might, an opponent's stats can be lowered."
   },
   {
@@ -20804,7 +20804,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A shotel carried by a cunning gladiator. Shotels can easily piece of opponent's defenses."
   },
   {
@@ -20906,7 +20906,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stone imbued with the most helpful of magic. Use it to set a compass marker to story quest monster locations."
   },
   {
@@ -20940,7 +20940,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stone imbued with the most helpful of magic. Use it to set a compass marker to inn quest monster locations."
   },
   {
@@ -20974,7 +20974,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A stone that can evoke memories of any location. Using it will place a temporary marker to your current location on your compass."
   },
   {
@@ -21008,7 +21008,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb bow forged of the remains of a lost dragon. It has a good chance of causing blight."
   },
   {
@@ -21076,7 +21076,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A fine blade crafted of a great dragon's talon"
   },
   {
@@ -21212,7 +21212,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the heat. Grants protection from fire."
   },
   {
@@ -21246,7 +21246,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Great boots of a mage who controlled the skies. Grants protection from lightning."
   },
   {
@@ -21280,7 +21280,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "A blade of the spellsword."
   },
   {
@@ -21348,7 +21348,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -21552,7 +21552,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An instrument often used to sooth dragons. Its song has the rare chance to temporarily boost one's magical prowess."
   },
   {
@@ -21586,7 +21586,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple bard's lute, playing it in battle may temporarily boost one's attack or magic."
   },
   {
@@ -21654,7 +21654,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A strange magical ring of the Dioscuri. Those who do not possess physical strength can equip this ring to sacrifice magic for attack power."
   },
   {
@@ -21688,7 +21688,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "An instrument often used to sooth the greatest of dragons. Its song has the rare chance to temporarily give useful statuses."
   },
   {
@@ -21722,7 +21722,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "An instrument of a long fallen Odok warrior. Its song has the rare chance to temporarily boost one's critical hit rate."
   },
   {
@@ -21756,7 +21756,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A strange magical ring of the Dioscuri. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power."
   },
   {
@@ -21790,7 +21790,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -21824,7 +21824,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -21858,7 +21858,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -21892,7 +21892,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -21926,7 +21926,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -21960,7 +21960,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -21994,7 +21994,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -22028,7 +22028,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -22096,7 +22096,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -22130,7 +22130,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A chunk of Baldur, favoured by the raiders of Nothren."
   },
   {
@@ -22161,10 +22161,10 @@
     "materials": "[599]",
     "quests": "",
     "image": "weapons/sempre_forte.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Requiem III\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A relic of Apollyon's less destructive years."
   },
   {
@@ -22232,7 +22232,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A decorated shield often carried by Balor warriors."
   },
   {
@@ -22266,7 +22266,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical shield that boasts extra magical defense."
   },
   {
@@ -22368,7 +22368,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "The shield of a mighty templar knight. It provides extra physical defense."
   },
   {
@@ -22436,7 +22436,7 @@
     "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A gigantic shield that offers extra physical and magic defense at the expense of attack and magic."
   },
   {
@@ -22538,7 +22538,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Shield carried by berserkers of the Northern lands. It protects one from the cold."
   },
   {
@@ -22606,7 +22606,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An easily recognizable shield depicting the crest of Avalon."
   },
   {
@@ -23082,7 +23082,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries."
   },
   {
@@ -23116,7 +23116,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries"
   },
   {
@@ -23150,7 +23150,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Shield carried by valkyries of the Nothren lands.  It protects one from the cold."
   },
   {
@@ -23184,7 +23184,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A rare blade carried by the most gifted of Nothren vaklyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses."
   },
   {
@@ -23218,7 +23218,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries"
   },
   {
@@ -23388,7 +23388,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crude staff of a Frilled Naga mage."
   },
   {
@@ -23422,7 +23422,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crude wearpon of a Frilled Naga warrior."
   },
   {
@@ -23456,7 +23456,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
@@ -23490,7 +23490,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
@@ -23524,7 +23524,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A deadly polearm carried by the fallen Heimdall, a lord of the Nothren."
   },
   {
@@ -23558,7 +23558,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A perfect chunk of Baldur, favoured by the raiders of Nothren. It is useful for upgrading powerful equipment."
   },
   {
@@ -23592,7 +23592,7 @@
     "other_effect": "[\"技能: Bastion II\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Shield carried by the great Heimdall of the Nothren lands. It protects one from the cold."
   },
   {
@@ -23694,7 +23694,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A masterfully crafted magical bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent."
   },
   {
@@ -23728,7 +23728,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "An embered Archistaff seldom wielded by Vulcan, the Red Knight. Vulcan formed the Knights of the Inferno to fight along side the forces of Annwn. His blade can easily burn an opponent."
   },
   {
@@ -23830,7 +23830,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Footwear of Vulcan, the infamous Red Knight. It grants immunity from being burned."
   },
   {
@@ -23932,7 +23932,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "This pike of Pyre is eternally lit. Has a very high chance of causing an opponent to burn."
   },
   {
@@ -24034,7 +24034,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A beautiful blade that resemble stars in the night sky."
   },
   {
@@ -24136,7 +24136,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stone imbued with the most curious of magic. Using it may guide you to something interesting."
   },
   {
@@ -24170,7 +24170,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of arcane arts. It improves one's magic at the sacrifice of Ward, while adding a chance to burn, freeze, paralyze, or rot to spells."
   },
   {
@@ -24204,7 +24204,7 @@
     "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward."
   },
   {
@@ -24238,7 +24238,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Material imbued by the windy skies. Useful for upgrading powerful weapons."
   },
   {
@@ -24272,7 +24272,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A bow signifying the great Griffin of the skies. Arrows shot from this bow can easily knock an opponent off-guard."
   },
   {
@@ -24306,7 +24306,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of dragon arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance of blight to spells."
   },
   {
@@ -24340,7 +24340,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "The followers of Apollyon are fearsome, and this great scythe is their chosen weapon. It has a high chance of causing an opponent to bleed."
   },
   {
@@ -24374,7 +24374,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "An extremely odd staff, carried by a cryptid mimic. It can occasionally cause unpredicted status effects."
   },
   {
@@ -24442,7 +24442,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A shield crested the image of a Griffin. It protects one against Dragon attacks while boosting Ward."
   },
   {
@@ -24476,7 +24476,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects. to spells."
   },
   {
@@ -24510,7 +24510,7 @@
     "other_effect": "[\"經驗加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned."
   },
   {
@@ -24544,7 +24544,7 @@
     "other_effect": "[\"歐幣加成: 1.03\",\"經驗加成: 1.03\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Blade taken from Ankou's deadly scythe. Increases orns and experience earned."
   },
   {
@@ -24680,7 +24680,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects to spells."
   },
   {
@@ -24857,7 +24857,7 @@
     "id": "750",
     "name": "Merchant's Waystone",
     "zh": "商人的引路石",
-    "tier": "1",
+    "tier": "3",
     "type": "Item",
     "boss": "",
     "arena": "",
@@ -25054,7 +25054,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer"
   },
   {
@@ -25088,7 +25088,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered."
   },
   {
@@ -25258,7 +25258,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "One of the notoriously recognizable robes of Merlin, the famed Avalon sorcerer. It can protect its wearer from having their resistance lowered."
   },
   {
@@ -26108,7 +26108,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -26142,7 +26142,7 @@
     "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -26244,7 +26244,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
@@ -26414,7 +26414,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A golden ore favored in use of forging Lyonesse weapons and armor."
   },
   {
@@ -26686,7 +26686,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A dusty robe of a follower of Mammon."
   },
   {
@@ -26720,7 +26720,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An exotic chest guard made of Chimera remains."
   },
   {
@@ -26754,7 +26754,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Armor forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -26788,7 +26788,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Robe of a Lyonesse warlock."
   },
   {
@@ -26822,7 +26822,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor of a Lyonesse knight."
   },
   {
@@ -26856,7 +26856,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Magical attire of Nothren lords. It protects one from fire, the weakness of the Nothren people."
   },
   {
@@ -26924,7 +26924,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Shield of a Lyonesse knight."
   },
   {
@@ -26958,7 +26958,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Dusty footwear of a follower of Mammon."
   },
   {
@@ -26992,7 +26992,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Exotic, heavy leg armor made of Chimeric remains."
   },
   {
@@ -27026,7 +27026,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Leg armor forged of the remains of a Ortanite golem. It boasts strong physical defense at the sacrifice of magical defense."
   },
   {
@@ -27060,7 +27060,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Leg armor of a Lyonesse knight."
   },
   {
@@ -27094,7 +27094,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Footwear of a Lyonesse warlock."
   },
   {
@@ -27162,7 +27162,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "Leg armor forged of the remains of the great dragon, Fafnir."
   },
   {
@@ -27230,7 +27230,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "An instrument often used to sooth the greatest of beasts."
   },
   {
@@ -27332,7 +27332,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Katana of a Lyonesse assassin."
   },
   {
@@ -27400,7 +27400,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of a Lyonesse assassin."
   },
   {
@@ -27434,7 +27434,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Silent boots of a Lyonesse assassin."
   },
   {
@@ -27468,7 +27468,7 @@
     "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.05\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "An incredibly dreadful staff forged of the remains of sunken travelers. It may cause fallen beasts to drop more gold and orns."
   },
   {
@@ -27536,7 +27536,7 @@
     "other_effect": "[\"經驗加成: 1.75\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A tome recounting the cursed stories of Fanir. Increases experience earned at the expense of the potential."
   },
   {
@@ -27570,7 +27570,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Shield of a fallen Lyonesse Vanguard."
   },
   {
@@ -27604,7 +27604,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "p",
     "description": "Boots of an infamous Ifrit of the Inferno Knights."
   },
   {
@@ -27638,7 +27638,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "p",
     "description": "Heavy armor of an infamous Leviathan of the Frozenguard."
   },
   {
@@ -27706,7 +27706,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A staff often used in forbidden magic."
   },
   {
@@ -27774,7 +27774,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "An extremely odd staff, carried by a cryptid mimic. It can occasionally cause unpredicted status effects."
   },
   {
@@ -27808,7 +27808,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An arcane ring often worn by a clurichaun. It increases both mana potential and dexterity."
   },
   {
@@ -27842,7 +27842,7 @@
     "other_effect": "[\"技能: Volley II\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A quiver of arrows that are coated in a thick poison. Carrying these arrows in your off-hand gives the chance to poison or blight an opponent."
   },
   {
@@ -27910,7 +27910,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A ring of the arisen cursed Fafnir. Increases your attack and magic power at the expense of your longevity."
   },
   {
@@ -27944,7 +27944,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "Armor forged of the remains of the great dragon, Fafnir."
   },
   {
@@ -27978,7 +27978,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "14",
-    "rarity": "",
+    "rarity": "b",
     "description": "Daggers carried by Mammon, the demon of hubris."
   },
   {
@@ -28046,7 +28046,7 @@
     "other_effect": "[\"技能: Upward Strike II\"]",
     "two_handed": "1",
     "slots": "14",
-    "rarity": "",
+    "rarity": "b",
     "description": "Axe of Mammon, the demon of hubris."
   },
   {
@@ -28114,7 +28114,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple pair of trusty shoes."
   },
   {
@@ -28216,7 +28216,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Shoes made to navigate thick marshland."
   },
   {
@@ -28284,7 +28284,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An ageless golden shield capable of protecting one from petrification."
   },
   {
@@ -28386,7 +28386,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple white sheet that one could use to mock a spirit.  It protects one from falling asleep in battle."
   },
   {
@@ -28420,7 +28420,7 @@
     "other_effect": "[\"歐幣加成: 1.03\",\"金幣加成: 1.05\",\"幸運加成: 1.1\",\"經驗加成: 1.03\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A bag of treats of lore and luck.  Carrying it increases gold, orns, and experience earned.  You may also find more items."
   },
   {
@@ -28590,7 +28590,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
@@ -28624,7 +28624,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconin invasion."
   },
   {
@@ -28658,7 +28658,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A masterfully crafted magic bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent."
   },
   {
@@ -28723,7 +28723,8 @@
     "image": "weapons/vulcan_staff.png",
     "other_effect": "",
     "two_handed": "",
-    "slots": "6"
+    "slots": "6",
+    "rarity": "p"
   },
   {
     "id": "865",
@@ -28756,7 +28757,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "p",
     "description": "The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
@@ -28790,7 +28791,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Thin, cold blade of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
@@ -28824,7 +28825,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Small, yet immensely heavy hammer of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His hammer can easily paralyze an opponent."
   },
   {
@@ -28926,13 +28927,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An off-hand dagger used to parry an opponent's attacks. It boosts one's dexterity at the expense of Ward."
   },
   {
     "id": "871",
     "name": "High Fomorian Garb",
-    "zh": "高級弗摩爾族皮甲",
+    "zh": "高等弗摩爾族皮甲",
     "tier": "7",
     "type": "Armor",
     "boss": "",
@@ -28960,13 +28961,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian rogues."
   },
   {
     "id": "872",
     "name": "High Fomorian Cowl",
-    "zh": "高級弗摩爾族風帽",
+    "zh": "高等弗摩爾族風帽",
     "tier": "7",
     "type": "Head",
     "boss": "",
@@ -28994,7 +28995,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A hood worn by Fomorian rogues."
   },
   {
@@ -29028,7 +29029,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots worn by Fomorian rogues."
   },
   {
@@ -29096,7 +29097,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Ring of the King of Light. It helps one get a little extra step in the morning."
   },
   {
@@ -29232,7 +29233,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "Ring of the King of Light. It can protect one from having their defenses lowered."
   },
   {
@@ -29912,7 +29913,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A magical blade representing the unrelenting force of Fenrir the wolf. It can temporarily decrease your opponent's defense upon use."
   },
   {
@@ -30558,7 +30559,7 @@
     "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "1",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Sword and shield pairing of the fabled Mighty Slime."
   },
   {
@@ -30592,7 +30593,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A destructive adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -30626,7 +30627,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to lower an opponent's attack when adorned upon it."
   },
   {
@@ -30660,7 +30661,7 @@
     "other_effect": "[\"經驗加成: 1.01\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A small adornment capable of granting additional experience earned to a piece of equipment when adorned."
   },
   {
@@ -30694,7 +30695,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the attack power of a piece of equipment when adorned upon it."
   },
   {
@@ -30728,7 +30729,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment of the Titans capable of increasing the defenses of a piece of equipment when adorned upon it."
   },
   {
@@ -30762,7 +30763,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A small adornment capable of granting the ability to paralyze, rot, burn, or freeze an opponent to a piece of equipment when adorned."
   },
   {
@@ -30796,7 +30797,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponents attack or magical power."
   },
   {
@@ -30830,13 +30831,13 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment of Fomoria capable of increasing the magical defense of a piece of equipment when adorned upon it."
   },
   {
     "id": "927",
     "name": "Jewel of Draconia",
-    "zh": "龍人寶石",
+    "zh": "德肯尼亞寶石",
     "tier": "3",
     "type": "Adornment",
     "boss": "1",
@@ -30864,7 +30865,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment of Draconia capable of increasing the attack power of a piece of equipment when adorned upon it."
   },
   {
@@ -30898,7 +30899,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to lower an opponent's magical defenses when adorned upon it."
   },
   {
@@ -30932,7 +30933,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A small adornment of Avalon capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -30966,7 +30967,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An adornment of assassins. When Adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses."
   },
   {
@@ -31000,7 +31001,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment of the stars capable of increasing the magical power of a piece of equipment when adorned upon it."
   },
   {
@@ -31034,7 +31035,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment of Balor capable of increasing the dexterity and Ward of a piece of equipment when adorned upon it."
   },
   {
@@ -31068,7 +31069,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Boots worn by rogues of Mammon, the demon of hubris."
   },
   {
@@ -31102,7 +31103,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Shoes worn by acolytes of Mammon, the demon of hubris."
   },
   {
@@ -31136,7 +31137,7 @@
     "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed."
   },
   {
@@ -31204,7 +31205,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Robe worn by acolytes of Mammon, the demon of hubris."
   },
   {
@@ -31340,7 +31341,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Heavy armor worn by knights of Mammon, the demon of hubris."
   },
   {
@@ -31374,7 +31375,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Light armor worn by rogues of Mammon, the demon of hubris"
   },
   {
@@ -31442,7 +31443,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the critical attack rate of a weapon when adorned upon it."
   },
   {
@@ -31476,7 +31477,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the mana granted by a piece of equipment when adorned upon it."
   },
   {
@@ -31510,7 +31511,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Light armor of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -31544,7 +31545,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Hood of an Immortal mage. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -31578,7 +31579,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Robe of an Immortal mage. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -31612,7 +31613,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "9",
-    "rarity": "",
+    "rarity": "g",
     "description": "This unique headwear does not offer much protection, but is well suited for adornment."
   },
   {
@@ -31646,7 +31647,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "This unique headwear does not offer much protection, but is well suited for adornment."
   },
   {
@@ -31680,7 +31681,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "The blade of an ageless warrior. It may pierce the defenses of an opponent."
   },
   {
@@ -31714,7 +31715,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the defense power of piece of equipment when adorned upon it."
   },
   {
@@ -31748,7 +31749,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the dexterity of a piece of equipment when adorned upon it."
   },
   {
@@ -31782,7 +31783,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the magic power of a piece of equipment when adorned upon it."
   },
   {
@@ -31816,7 +31817,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponent's attack and magical powers."
   },
   {
@@ -31850,7 +31851,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A fallen Feather of the great Phoenix. It can grant a weapon additional attributes when adorned upon it."
   },
   {
@@ -31884,7 +31885,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to lower an opponent's defenses when adorned upon it."
   },
   {
@@ -31918,7 +31919,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An ageless ring of an Immortal Lord. It grants additional life at the expense of other stats."
   },
   {
@@ -31952,7 +31953,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An adornment capable of increasing the HP granted by a piece of equipment when adorned upon it."
   },
   {
@@ -31986,7 +31987,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -32598,7 +32599,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "3",
-    "rarity": "",
+    "rarity": "b",
     "description": "Decorated shield of a worshipper of the mighty Phoenix. It protects one from being blinded or lit ablaze."
   },
   {
@@ -32700,7 +32701,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "9",
-    "rarity": "",
+    "rarity": "g",
     "description": "Footwear of a worshipper of the mighty Phoenix."
   },
   {
@@ -33006,7 +33007,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A fallen feather of the great Phoenix. It can grant a piece of armor additional attributes when adorned upon it."
   },
   {
@@ -33074,7 +33075,7 @@
     "other_effect": "[\"技能: Envy\"]",
     "two_handed": "1",
     "slots": "14",
-    "rarity": "",
+    "rarity": "b",
     "description": "Daggers carried by Mammon, the demon of hubris."
   },
   {
@@ -33108,7 +33109,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Infamous headwear of an Immortal warrior. The Immortals are warriors of a great fallen Empire. Their equipment can prevent one from losing their sight."
   },
   {
@@ -33142,7 +33143,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting a weapon the ability to lower an opponent's magic power when adorned upon it."
   },
   {
@@ -33210,7 +33211,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "p",
     "description": "A decorated flute often used to lull the great Phoenix. Although it seemingly has little power, it is well suited for adornment."
   },
   {
@@ -33278,7 +33279,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to paralyze an opponent to a piece of equipment when adorned."
   },
   {
@@ -33346,7 +33347,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A rare platinum amulet. Raises attack power."
   },
   {
@@ -33482,7 +33483,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to burn an opponent to a piece of equipment when adorned."
   },
   {
@@ -33516,7 +33517,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to freeze an opponent when adorned."
   },
   {
@@ -33550,7 +33551,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the Ward provided by a piece of equipment when adorned upon it."
   },
   {
@@ -33652,7 +33653,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small adornment capable of increasing the defense of a piece of equipment when adorned upon it."
   },
   {
@@ -33720,7 +33721,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of granting the ability to rot an opponent to a piece of equipment when adorned."
   },
   {
@@ -33788,7 +33789,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple mage's hood."
   },
   {
@@ -33992,7 +33993,7 @@
     "other_effect": "",
     "two_handed": "1",
     "slots": "11",
-    "rarity": "",
+    "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
   {
@@ -34094,7 +34095,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects it wearer from becoming frozen."
   },
   {
@@ -34158,7 +34159,11 @@
     "dropped_by": "",
     "materials": "[1247,1249,1248,1252,1259,1245,1266,1265,1264,1243,1242,1255,1257,1262,1260,1261,1263,1250,1251,1281,1258,1254,1253,1285,1244,1246,1256,1273,1027,1035,1036,1026,1054,1047,1041,1043,1048,1055,1049,1042,1045,1050,1046,1051,1040,1044,1028,1037,1029,1033,1024,1034,1032,1031,1039]",
     "quests": "",
-    "image": "materials/cursed_ortanite.png"
+    "image": "materials/cursed_ortanite.png",
+    "other_effect": "",
+    "two_handed": "",
+    "slots": "",
+    "rarity": "g"
   },
   {
     "id": "1026",
@@ -34225,7 +34230,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent."
   },
   {
@@ -34259,7 +34264,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
   },
   {
@@ -34361,7 +34366,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -34395,7 +34400,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed light armor of a follower of Morrigan, the great witch."
   },
   {
@@ -34463,7 +34468,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed headwear of a follower of Morrigan, the great witch."
   },
   {
@@ -34497,7 +34502,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -34531,7 +34536,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed robe of a follower of Morrigan, the great witch."
   },
   {
@@ -34565,7 +34570,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells."
   },
   {
@@ -34599,7 +34604,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A decaying adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -34633,7 +34638,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornments."
   },
   {
@@ -34667,7 +34672,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed light armor of a follower of Morrigan, the great witch."
   },
   {
@@ -34735,7 +34740,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent."
   },
   {
@@ -34837,7 +34842,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed heavy armor of a follower of Morrigan, the great witch."
   },
   {
@@ -34905,7 +34910,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent."
   },
   {
@@ -34973,7 +34978,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
   },
   {
@@ -35041,7 +35046,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -35075,7 +35080,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Foul shoes worn by the fairy Naggeneen. Oddly, they can protect their wearer from poison and blight."
   },
   {
@@ -35140,10 +35145,10 @@
     "materials": "[1025]",
     "quests": "",
     "image": "weapons/cursed_lute.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Requiem III\"]",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
@@ -35174,10 +35179,10 @@
     "materials": "[1025]",
     "quests": "",
     "image": "weapons/cursed_lute.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Requiem III\"]",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "b",
     "description": "Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
@@ -35211,7 +35216,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "The brew of a terrible witch. It restores a moderate amount of HP and Mana while curing any negative status effects."
   },
   {
@@ -35245,7 +35250,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor of a Lizarr warrior."
   },
   {
@@ -35347,7 +35352,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses."
   },
   {
@@ -35585,7 +35590,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -35687,7 +35692,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Crude blade of the Lizarr."
   },
   {
@@ -35755,7 +35760,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the magic defense of a piece of equipment when adorned upon it."
   },
   {
@@ -35789,7 +35794,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment capable of increasing the HP granted by a piece of equipment when adorned upon it upon it."
   },
   {
@@ -35857,7 +35862,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A ring crafted for certain slender fingers. It grants protection for the darkness, one cannot fall asleep or become cursed while wearing it."
   },
   {
@@ -35891,7 +35896,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A pendant found within wreckage, deep within the sea. It protects its wearer from blight, poison, rot, and toxic."
   },
   {
@@ -35925,7 +35930,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small adornment of the deep sea capable of increasing the magical defenses of a piece of equipment when adorned upon it."
   },
   {
@@ -35959,7 +35964,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Blinders often used to quell a Kelpie's restlessness. They increase dexterity and critical hit rate of those granted with extra concentration."
   },
   {
@@ -35993,7 +35998,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An adornment of the blasphemous. When adorned upon a weapon, it grants the chance to inflict damage to an opponent's magical resistance"
   },
   {
@@ -36027,7 +36032,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Archistaff forged of the remains of a great hydra. It can provide many elemental resistances."
   },
   {
@@ -36061,7 +36066,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A powerful magical greatbow of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
@@ -36095,7 +36100,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather of a Turul. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -36163,7 +36168,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A sour tonic that raises your attack in battle."
   },
   {
@@ -36197,7 +36202,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A sour tonic that raises your magic in battle."
   },
   {
@@ -36265,7 +36270,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather of a Zu. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -36299,7 +36304,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather of a Carrion Crow. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -36333,7 +36338,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "The feather of a Buzzard. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
@@ -36537,7 +36542,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Archistaff forged of the remains of a great hydra. It can provide many elemental resistances."
   },
   {
@@ -36605,7 +36610,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A powerful archistaff of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
@@ -36673,7 +36678,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -36707,7 +36712,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical shield that boasts extra magic defense."
   },
   {
@@ -36741,7 +36746,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An ageless golden shield capable of protecting one from petrification."
   },
   {
@@ -36775,7 +36780,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana."
   },
   {
@@ -36809,7 +36814,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. These are the boots of one."
   },
   {
@@ -36843,7 +36848,7 @@
     "other_effect": "[\"歐幣加成: 1.1\",\"金幣加成: 1.1\"]",
     "two_handed": "",
     "slots": "5",
-    "rarity": "",
+    "rarity": "g",
     "description": "Amusing outfit of a court jester. It increases gold and orns earned."
   },
   {
@@ -36877,7 +36882,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "11",
-    "rarity": "",
+    "rarity": "g",
     "description": "This unique headwear does not offer much protection, but is well suited for adornment."
   },
   {
@@ -36911,7 +36916,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the helmet of one."
   },
   {
@@ -36945,7 +36950,7 @@
     "other_effect": "[\"技能: Volley III\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A quiver of arrows that are imbued with unknown magic. They greatly increase ones's attack power at the sacrifice of Ward."
   },
   {
@@ -36979,7 +36984,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of unstable magic. It improves one's magic at the sacrifice of Ward."
   },
   {
@@ -37047,7 +37052,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -37081,7 +37086,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mystical armor that boasts higher magic defense."
   },
   {
@@ -37183,7 +37188,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered."
   },
   {
@@ -37217,7 +37222,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A powerful magical sword of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
@@ -37285,7 +37290,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "An axe enchanted with the power of the raging sea."
   },
   {
@@ -37421,7 +37426,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Blinders often used to quell a wild horse's restlessness. They increase dexterity and critical hit rate of those granted with extra concentration."
   },
   {
@@ -37591,7 +37596,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A highly decorative weapon wielded by Elven warriors of the North. It boasts extra adornment slots."
   },
   {
@@ -37659,7 +37664,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A large hammer suitable for crushing blows."
   },
   {
@@ -37795,7 +37800,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "b",
     "description": "Crude armor made of the remains of a Fjalar. Does not offer much defense, but raises your dexterity."
   },
   {
@@ -38135,7 +38140,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A scroll containing the ancient Balor techniques of the summon. Reading it will summon a powerful Raid Boss to your nearby area, but the entity may only be visible to those who travel at a slower pace."
   },
   {
@@ -38169,7 +38174,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Boots of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -38611,7 +38616,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "b",
     "description": "Hood of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -38645,7 +38650,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Boots of the Second Horseman, often associated with great pestilence. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -38679,7 +38684,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Cloak of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -38713,7 +38718,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Armor of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -38781,7 +38786,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Boots of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -38985,7 +38990,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Boots of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -39019,7 +39024,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "b",
     "description": "Coat reminiscent of the cursed Yeti. It protects one from having their magical resistance lowered and reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -39053,7 +39058,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic power at the expense of magical resistance."
   },
   {
@@ -39087,7 +39092,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional physical defense at the expense of attack power."
   },
   {
@@ -39121,7 +39126,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional attack power at the expense of physical defense."
   },
   {
@@ -39155,7 +39160,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic resistance at the expense of magical power.."
   },
   {
@@ -39189,7 +39194,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Armor of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -39223,7 +39228,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "Cloak of the Third Horseman, often associated with unwavering war. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -39257,7 +39262,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Some magic users are also skilled in combat. This is the armor of one."
   },
   {
@@ -39291,7 +39296,7 @@
     "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "",
     "slots": "2",
-    "rarity": "",
+    "rarity": "b",
     "description": "Decorated shield of a worshipper of a fallen Phoenix. It protects one from being blinded and may occasionally protect you from other status effects."
   },
   {
@@ -39325,7 +39330,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small, strange thing made by Cade, the great inventor. It can provide all sorts of benefits to a piece of armor when adorned upon it."
   },
   {
@@ -39359,7 +39364,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "Scythe of the Fourth Horseman, often associated with untimely demise. It is suitable for both attacking and casting spells, reduces the damage taken from the ultimate attacks of Raid Bosses, and has a small chance to curse an opponent."
   },
   {
@@ -39733,7 +39738,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -40209,7 +40214,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A relic of Merlin's eccentric collection."
   },
   {
@@ -40243,7 +40248,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A scroll containing a terrible incantation that will turn the world crimson. Using this scroll will cause enemies of any habitat to show for a limited time, but may be more difficult to defeat."
   },
   {
@@ -40277,7 +40282,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A powerful staff adorned with a crystal eye. Increases your ability to see."
   },
   {
@@ -40310,7 +40315,8 @@
     "image": "weapons/silk_crossbow.png",
     "other_effect": "",
     "two_handed": "",
-    "slots": "6"
+    "slots": "6",
+    "rarity": "g"
   },
   {
     "id": "1208",
@@ -40343,7 +40349,7 @@
     "other_effect": "[\"技能: Bastion III\"]",
     "two_handed": "1",
     "slots": "10",
-    "rarity": "",
+    "rarity": "g",
     "description": "An axe and shield combination of the mighty Behemoth. Attacks with its might may decrease an opponent's defense temporarily."
   },
   {
@@ -40445,7 +40451,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb bow forged of the remains of Typhon, the great ancient dragon."
   },
   {
@@ -40479,7 +40485,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Ceremonial blade of a long forgotten civilization. It has a small chance of cursing an opponent."
   },
   {
@@ -40581,7 +40587,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "A superb staff forged of the remains of Typhon, the great ancient dragon"
   },
   {
@@ -40615,7 +40621,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "b",
     "description": "A powerful axe forged of the remains of Typhon, the great ancient dragon."
   },
   {
@@ -40649,7 +40655,7 @@
     "other_effect": "[\"怪物: 1.3\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A torch, carried in one's off-hand. It increases your sight, prevents blindness, and may cause an opponent to light aflame in battle."
   },
   {
@@ -41023,7 +41029,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -41057,7 +41063,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stronger fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -41091,7 +41097,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -41125,7 +41131,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small fish."
   },
   {
@@ -41261,7 +41267,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A green-hued fish, slightly rarer than what one would usually see."
   },
   {
@@ -41295,7 +41301,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A medium sized fish, often seen in larger bodies of water."
   },
   {
@@ -41329,7 +41335,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A small fish."
   },
   {
@@ -41397,7 +41403,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -41499,7 +41505,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
   },
   {
@@ -41530,7 +41536,7 @@
     "materials": "[1025,346]",
     "quests": "",
     "image": "weapons/cursed_lute.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Requiem III\"]",
     "two_handed": "",
     "slots": "8",
     "rarity": "",
@@ -41601,7 +41607,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed greatbow of Badb, sister to Morrigan. It can grant one additional dexterity while having the adverse effect on an opponent."
   },
   {
@@ -41703,7 +41709,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed robe of a follower of Morrigan, the great witch."
   },
   {
@@ -41737,7 +41743,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -41873,7 +41879,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -42074,10 +42080,10 @@
     "materials": "[1025,346]",
     "quests": "",
     "image": "weapons/cursed_lute.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Requiem III\"]",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "b",
     "description": "Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
@@ -42315,7 +42321,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "p",
     "description": "Cursed legwear of a follower of Morrigan, the great witch."
   },
   {
@@ -42621,7 +42627,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll of Macha, offering secrets of her craft. It increases magic and mana, while protecting you from having your magical prowess weakened."
   },
   {
@@ -42757,7 +42763,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "Cursed shield of a follower of Neman, the great witch. It offers protection from being put to sleep."
   },
   {
@@ -42825,7 +42831,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells."
   },
   {
@@ -42927,7 +42933,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "7",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cursed heavy armor of a follower of Neman, the great witch."
   },
   {
@@ -42995,7 +43001,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A very strong fishing line, suitable for fetching aught from the seas. Use when near a body of water to begin fishing."
   },
   {
@@ -43165,7 +43171,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A feather pulled from the remains of a fallen Phoenix."
   },
   {
@@ -43233,7 +43239,7 @@
     "other_effect": "[\"跟隨者素質: +15%\"]",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It greatly increases the power of your follower."
   },
   {
@@ -43335,7 +43341,7 @@
     "other_effect": "[\"跟隨者行動: +7%\"]",
     "two_handed": "1",
     "slots": "12",
-    "rarity": "",
+    "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They greatly increase the rate in which a follower may act in battle."
   },
   {
@@ -43369,7 +43375,7 @@
     "other_effect": "[\"跟隨者行動: +7%\"]",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mighty staff, representative of the feral Kerberos. It greatly increases the rate in which a follower may act in battle."
   },
   {
@@ -43403,7 +43409,7 @@
     "other_effect": "[\"跟隨者行動: +7%\"]",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos. It greatly increases the rate in which a follower may act in battle."
   },
   {
@@ -43573,7 +43579,7 @@
     "other_effect": "[\"跟隨者素質: +15%\"]",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It greatly increases the power of your follower."
   },
   {
@@ -43607,7 +43613,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A gigantic shield often used to protect one from the wildest of wolves. It offers additional defense at the expense of power."
   },
   {
@@ -43777,7 +43783,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A spore of a toxic mushroom. Adorning it upon a weapon can add a variety of status effects to your attacks."
   },
   {
@@ -43811,7 +43817,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A curious wand carried by the foul Naggeneen. Spells cast with this wand may cause your opponent to become poisoned or blighted."
   },
   {
@@ -43841,7 +43847,11 @@
     "dropped_by": "[337]",
     "materials": "[266,276]",
     "quests": "",
-    "image": "wards/whisper.png"
+    "image": "wards/whisper.png",
+    "other_effect": "",
+    "two_handed": "",
+    "slots": "",
+    "rarity": "g"
   },
   {
     "id": "1312",
@@ -43874,7 +43884,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An off-hand dagger carried by the foul Naggeneen. It is encased in a deadly poison."
   },
   {
@@ -43942,7 +43952,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "A thick piece of fabric, often used to protect one's lungs. Wearing it makes one less likely to be afflicted with status effects."
   },
   {
@@ -44010,7 +44020,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -44078,7 +44088,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -44112,7 +44122,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -44146,7 +44156,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "9",
-    "rarity": "",
+    "rarity": "g",
     "description": "Helmet of Cerus, the raging bull. It reduces mana cost of skills or spells and is well suited for adornment."
   },
   {
@@ -44180,7 +44190,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it."
   },
   {
@@ -44214,7 +44224,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "9",
-    "rarity": "",
+    "rarity": "g",
     "description": "Armor of Cerus, the raging bull. It reduces the mana cost of skills or spells and is well suited for adornment."
   },
   {
@@ -44316,7 +44326,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Adornment of the First Horseman. Adorning upon a piece of armor will slightly protect one from status ailments."
   },
   {
@@ -44350,7 +44360,7 @@
     "other_effect": "[\"跟隨者素質: +2%\",\"跟隨者行動: +1%\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Adornment of the Final Horseman. Adorning it upon a weapon will increase the action rate and stats of your follower."
   },
   {
@@ -44384,7 +44394,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Adornment of the Second Horseman. Adorning it upon a piece of armor will moderately protect one from status ailments."
   },
   {
@@ -44452,7 +44462,7 @@
     "other_effect": "[\"技能: Lay Spikes\"]",
     "two_handed": "1",
     "slots": "10",
-    "rarity": "",
+    "rarity": "p",
     "description": "Daggers carried by the Realmshifter. They have the increased chance of causing a critical hit."
   },
   {
@@ -44486,7 +44496,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy axe of the Gilgamesh."
   },
   {
@@ -44520,7 +44530,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "p",
     "description": "A decorated robe often worn by the Heretics. It grants additionally magic power, but spells cast will consume more mana."
   },
   {
@@ -44554,7 +44564,7 @@
     "other_effect": "[\"跟隨者素質: +25%\",\"跟隨者行動: -5%\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Amulet often carried by the Beowulf. Wearing this item greatly increases the power of your follower, may cause them to act less often."
   },
   {
@@ -44588,7 +44598,7 @@
     "other_effect": "[\"跟隨者素質: +1%\",\"跟隨者行動: +1%\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Red eye of the Behemoth. Adorning it upon a weapon will increase the action rate and stats of your follower."
   },
   {
@@ -44656,7 +44666,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "g",
     "description": "The Twinbow of a fused Dioscuri. It grants additional offensive power to those that prefer a more hybrid approach to combat."
   },
   {
@@ -44962,7 +44972,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of prestigious Avalon knights."
   },
   {
@@ -45030,7 +45040,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of prestigious Avalon knights."
   },
   {
@@ -45166,7 +45176,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "12",
-    "rarity": "",
+    "rarity": "g",
     "description": "The blademaster Finesse is known for carrying an inhuman amount of swords upon his back. This greatsword is one of them."
   },
   {
@@ -45200,7 +45210,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A greatsword often used in defensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical defenses."
   },
   {
@@ -45302,7 +45312,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "When lit, this candle is said to draw near monsters that you have accepted a quest for."
   },
   {
@@ -45336,7 +45346,7 @@
     "other_effect": "[\"技能: Despair\"]",
     "two_handed": "1",
     "slots": "14",
-    "rarity": "",
+    "rarity": "b",
     "description": "Archistaff of Mammon, the demon of hubris."
   },
   {
@@ -45404,7 +45414,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -45438,7 +45448,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -45472,7 +45482,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A large bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -45506,7 +45516,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A small bottle suitable for holding a brewed potion, tonic, or elixir. Visit a herbalist to fill this bottle."
   },
   {
@@ -45540,7 +45550,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A sprig of silphium. It is useful in crafting some potions at a herbalist."
   },
   {
@@ -45574,14 +45584,14 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A stalk of nightshade. It is useful in crafting some potions at a herbalist."
   },
   {
     "id": "1368",
     "name": "Mandrake",
     "zh": "曼德拉草",
-    "tier": "2",
+    "tier": "1",
     "type": "Material",
     "boss": "",
     "arena": "",
@@ -45608,7 +45618,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A single leaf of mandrake. It is useful in crafting some potions at a herbalist."
   },
   {
@@ -45642,7 +45652,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A stalk of dayleaf. It is useful in crafting some potions at a herbalist."
   },
   {
@@ -45744,7 +45754,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boot of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
   },
   {
@@ -45778,7 +45788,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Cowl of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
@@ -45812,7 +45822,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -45846,7 +45856,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy leggings of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
   },
   {
@@ -45880,7 +45890,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Hood of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
@@ -45914,7 +45924,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Robe of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -45982,7 +45992,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -46016,7 +46026,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
@@ -46456,7 +46466,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "g",
     "description": "Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
@@ -46558,7 +46568,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "8",
-    "rarity": "",
+    "rarity": "b",
     "description": "The old staff of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship."
   },
   {
@@ -46694,7 +46704,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "An artifact capable of unmarking one from Lyonesse execution."
   },
   {
@@ -47406,7 +47416,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "9",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
   },
   {
@@ -47440,7 +47450,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "War-mage's boots of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects."
   },
   {
@@ -47474,7 +47484,7 @@
     "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.1\",\"經驗加成: 1.02\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A powerful bow forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
   {
@@ -47508,7 +47518,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "b",
     "description": "War-mage's robe of Baldr, the undying. Wearing this item will increase HP while making one slightly more resistant to status effects."
   },
   {
@@ -47576,7 +47586,7 @@
     "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.1\",\"經驗加成: 1.02\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A powerful axe forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
   {
@@ -47610,7 +47620,7 @@
     "other_effect": "[\"歐幣加成: 1.05\",\"金幣加成: 1.1\",\"經驗加成: 1.02\"]",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "p",
     "description": "A powerful staff forged of the remains of Glatisant, the questing beast. Wielding it will slightly increase the amount of experience, gold and orns earned."
   },
   {
@@ -47644,7 +47654,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren Berserkers"
   },
   {
@@ -47678,7 +47688,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy Armor of Nothren valkyries"
   },
   {
@@ -47712,7 +47722,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -47746,7 +47756,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -47780,7 +47790,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Boots worn by Fomorian rogues."
   },
   {
@@ -47814,7 +47824,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Leg armor worn by Fomorian warriors."
   },
   {
@@ -47848,7 +47858,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Shield carried by berserkers of the Northern lands. It protects one from the cold."
   },
   {
@@ -47882,7 +47892,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Shield carried by valkyries of the Northern lands.  It protects one from the cold."
   },
   {
@@ -47916,7 +47926,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren valkyries."
   },
   {
@@ -47950,7 +47960,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -47984,7 +47994,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Body coverings of a Draconian rogue."
   },
   {
@@ -48018,7 +48028,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -48052,7 +48062,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -48086,7 +48096,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -48120,7 +48130,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian warriors."
   },
   {
@@ -48154,7 +48164,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A robe worn by Fomorian mages."
   },
   {
@@ -48188,7 +48198,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Light armor of Nothren raiders."
   },
   {
@@ -48222,7 +48232,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Magical attire of Nothren warlocks."
   },
   {
@@ -48256,7 +48266,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A hood of a Draconian mage."
   },
   {
@@ -48290,7 +48300,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Heavy armor of Nothren berserkers."
   },
   {
@@ -48324,7 +48334,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A hood worn by Fomorian rogues."
   },
   {
@@ -48358,7 +48368,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "A hood worn by Fomorian mages."
   },
   {
@@ -48392,7 +48402,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sword of a Draconian blacksmith. The quality is quite surprising."
   },
   {
@@ -48426,7 +48436,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A staff of a Draconian mage. Boasts above average magic power."
   },
   {
@@ -48460,7 +48470,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A sword of a Fomorian warrior."
   },
   {
@@ -48494,7 +48504,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A staff of a Fomorian mage."
   },
   {
@@ -48562,7 +48572,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Armor of a Draconian warrior."
   },
   {
@@ -48596,7 +48606,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "10",
-    "rarity": "",
+    "rarity": "b",
     "description": "The broken crown of forgotten King Meliodas. Meliodas claimed rule after Gradlon had fallen, but many outright deny his kingship. Its dents and cracks make it well suited for adornment."
   },
   {
@@ -49310,7 +49320,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "6",
-    "rarity": "",
+    "rarity": "w",
     "description": "A rare blade carried by the most gifted of Nothren valkyries. It may grant one the stance of Gunnr, raising attack power but lowering defenses."
   },
   {
@@ -49344,7 +49354,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Boots of a Draconian rogue."
   },
   {
@@ -49378,7 +49388,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A cowl of a Draconian rogue."
   },
   {
@@ -49412,7 +49422,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "A robe of a Draconian mage."
   },
   {
@@ -49582,7 +49592,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A decorated shield often carried by Balor warriors."
   },
   {
@@ -49684,7 +49694,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "w",
     "description": "Staff wielded by Balor mages. It increases mana at the expense of health."
   },
   {
@@ -49922,7 +49932,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "4",
-    "rarity": "",
+    "rarity": "g",
     "description": "Heavy armor worn by Fomorian rogues."
   },
   {
@@ -50058,7 +50068,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A trinket carried by an Alfar. Using it will increase your chances of finding something rarer when opening Stranger's Gifts."
   },
   {
@@ -50092,7 +50102,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A tonic that improves eyesight. Consuming this item will increase your view distance for a limited time."
   },
   {
@@ -50126,7 +50136,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "w",
     "description": "A simple concoction. Consuming it may attract extra monsters to you."
   },
   {
@@ -50160,7 +50170,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time."
   },
   {
@@ -50262,7 +50272,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A simple tonic that cures one of petrification"
   },
   {
@@ -50942,7 +50952,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent."
   },
   {
@@ -50976,7 +50986,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it."
   },
   {
@@ -51010,7 +51020,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "p",
     "description": "Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it."
   },
   {
@@ -51044,7 +51054,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "A celestial adornment capable of increasing many attributes of a piece of equipment when adorned upon it"
   },
   {
@@ -51078,7 +51088,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mighty staff, representative of the relentless Kerberos."
   },
   {
@@ -51112,7 +51122,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos."
   },
   {
@@ -51146,7 +51156,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
   },
   {
@@ -51180,7 +51190,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
   {
@@ -51214,7 +51224,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mighty staff, representative of the relentless Kerberos."
   },
   {
@@ -51248,7 +51258,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos."
   },
   {

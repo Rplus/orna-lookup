@@ -4250,7 +4250,7 @@
     "resistant_to": "",
     "immune_to_status": "",
     "vulnerable_to_status": "",
-    "skills": "[225,42]",
+    "skills": "[225,41,42]",
     "drops": "[275]",
     "quests": "",
     "image": "monsters/dark_wolfman.png"
@@ -5312,7 +5312,7 @@
     "weak_to": "[\"Fire\"]",
     "immune_to": "[\"Water\"]",
     "resistant_to": "",
-    "immune_to_status": "",
+    "immune_to_status": "[\"Frozen\"]",
     "vulnerable_to_status": "",
     "skills": "[69,54]",
     "drops": "[280]",

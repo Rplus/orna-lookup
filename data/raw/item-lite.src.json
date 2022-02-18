@@ -2837,28 +2837,28 @@
   {
     "id": 410,
     "name": "High Fomorian Hood",
-    "zh": "高級弗摩爾族兜帽",
+    "zh": "高等弗摩爾族兜帽",
     "tier": 7,
     "image": "armor/fomorian_hood.png"
   },
   {
     "id": 411,
     "name": "High Fomorian Leggings",
-    "zh": "高級弗摩爾族腿甲",
+    "zh": "高等弗摩爾族腿甲",
     "tier": 7,
     "image": "armor/fomorian_leggings.png"
   },
   {
     "id": 412,
     "name": "High Fomorian Armor",
-    "zh": "高級弗摩爾族盔甲",
+    "zh": "高等弗摩爾族盔甲",
     "tier": 7,
     "image": "armor/fomorian_armor.png"
   },
   {
     "id": 413,
     "name": "High Fomorian Robe",
-    "zh": "高級弗摩爾族長袍",
+    "zh": "高等弗摩爾族長袍",
     "tier": 7,
     "image": "armor/fomorian_robe.png"
   },
@@ -2907,7 +2907,7 @@
   {
     "id": 420,
     "name": "High Fomorian Staff",
-    "zh": "高級弗摩爾族法杖",
+    "zh": "高等弗摩爾族法杖",
     "tier": 7,
     "image": "weapons/draco_archistaff.png"
   },
@@ -5120,7 +5120,7 @@
     "id": 750,
     "name": "Merchant's Waystone",
     "zh": "商人的引路石",
-    "tier": 1,
+    "tier": 3,
     "image": "useables/explorers_waystone.png"
   },
   {
@@ -5959,14 +5959,14 @@
   {
     "id": 871,
     "name": "High Fomorian Garb",
-    "zh": "高級弗摩爾族皮甲",
+    "zh": "高等弗摩爾族皮甲",
     "tier": 7,
     "image": "armor/fomorian_armor.png"
   },
   {
     "id": 872,
     "name": "High Fomorian Cowl",
-    "zh": "高級弗摩爾族風帽",
+    "zh": "高等弗摩爾族風帽",
     "tier": 7,
     "image": "armor/fomorian_hood.png"
   },
@@ -6351,7 +6351,7 @@
   {
     "id": 927,
     "name": "Jewel of Draconia",
-    "zh": "龍人寶石",
+    "zh": "德肯尼亞寶石",
     "tier": 3,
     "image": "jewels/38.png"
   },
@@ -9390,7 +9390,7 @@
     "id": 1368,
     "name": "Mandrake",
     "zh": "曼德拉草",
-    "tier": 2,
+    "tier": 1,
     "image": "materials/mandrake.png"
   },
   {

@@ -5708,6 +5708,7 @@
     ],
     "skills": [
       225,
+      41,
       42
     ],
     "drops": [
@@ -7408,6 +7409,9 @@
     ],
     "immune_to": [
       "Water"
+    ],
+    "immune_to_status": [
+      "Frozen"
     ],
     "skills": [
       69,
