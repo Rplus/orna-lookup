@@ -48,6 +48,7 @@ export const words = {
   'Holy Def': '.光抗',
   'Dark Def': '.闇抗',
 
+  // stats
   'stats.attack': '物攻',
   'stats.magic': '魔攻',
   'stats.defense': '物防',
@@ -57,6 +58,12 @@ export const words = {
   'stats.crit': '暴擊',
   'stats.resistance': '魔防',
   'stats.hp': '血量',
+
+  // rarity
+  'w': '1 白',
+  'g': '2 綠',
+  'b': '3 藍',
+  'p': '4 紫',
 }
 
 export function getList(data) {
