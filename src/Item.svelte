@@ -7,15 +7,15 @@
   import ListDetail from './_ListDetail.svelte';
 
   const statProps = [
+    'stats.hp',
+    'stats.mana',
     'stats.attack',
     'stats.magic',
     'stats.defense',
-    'stats.ward',
-    'stats.dexterity',
-    'stats.mana',
-    'stats.crit',
     'stats.resistance',
-    'stats.hp',
+    'stats.dexterity',
+    'stats.ward',
+    'stats.crit',
   ];
 
   let effectTypes = [
