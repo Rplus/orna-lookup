@@ -3220,7 +3220,12 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Poisoned",
+      "Bleeding",
+      "Paralyzed",
+      "Blind",
+      "Asleep",
+      "Petrified"
     ],
     "skills": [
       99,
@@ -3694,6 +3699,7 @@
     "tier": 4,
     "skills": [
       89,
+      119,
       128,
       129
     ],
@@ -7525,6 +7531,9 @@
     ],
     "immune_to": [
       "Lightning"
+    ],
+    "immune_to_status": [
+      "Paralyzed"
     ],
     "skills": [
       66,
