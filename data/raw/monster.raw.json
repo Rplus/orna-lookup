@@ -3927,7 +3927,7 @@
     "resistant_to": "",
     "immune_to_status": "",
     "vulnerable_to_status": "",
-    "skills": "[70,74,93,169]",
+    "skills": "[70,74,42,93,77,169]",
     "drops": "",
     "quests": "",
     "image": "monsters/seer.png"
@@ -4323,10 +4323,10 @@
     "spawns": "[\"Gauntlet Only\"]",
     "weak_to": "[\"Arcane\"]",
     "immune_to": "[\"Earthen\",\"Fire\",\"Lightning\",\"Physical\",\"Water\"]",
-    "resistant_to": "[\"Dark\",\"Holy\"]",
-    "immune_to_status": "",
+    "resistant_to": "[\"Dark\",\"Holy\",\"Dragon\"]",
+    "immune_to_status": "[\"Poisoned\",\"Bleeding\",\"Burning\",\"Frozen\",\"Paralyzed\",\"Blind\",\"Asleep\",\"Stunned\",\"Blight\"]",
     "vulnerable_to_status": "",
-    "skills": "",
+    "skills": "[240,242,98,243,210,82,181]",
     "drops": "[1005,1004,1011,998,454,24,12,1205,921,930,1079]",
     "quests": "",
     "image": "monsters/ancient_mimic.png"
@@ -6549,8 +6549,8 @@
     "resistant_to": "[\"Fire\",\"Water\"]",
     "immune_to_status": "",
     "vulnerable_to_status": "",
-    "skills": "[150,458,93]",
-    "drops": "[1070,1058]",
+    "skills": "[150,458,93,94,288]",
+    "drops": "[1070,1058,262,280]",
     "quests": "",
     "image": "monsters/great_lizard_warrior.png"
   },
