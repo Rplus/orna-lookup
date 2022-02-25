@@ -5238,7 +5238,9 @@
     "skills": [
       70,
       74,
+      42,
       93,
+      77,
       169
     ],
     "image": "monsters/seer.png"
@@ -5804,7 +5806,28 @@
     ],
     "resistant_to": [
       "Dark",
-      "Holy"
+      "Holy",
+      "Dragon"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight"
+    ],
+    "skills": [
+      240,
+      242,
+      98,
+      243,
+      210,
+      82,
+      181
     ],
     "drops": [
       1005,
@@ -9835,11 +9858,15 @@
     "skills": [
       150,
       458,
-      93
+      93,
+      94,
+      288
     ],
     "drops": [
       1070,
-      1058
+      1058,
+      262,
+      280
     ],
     "image": "monsters/great_lizard_warrior.png"
   },
