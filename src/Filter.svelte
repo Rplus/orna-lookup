@@ -50,6 +50,7 @@
     </select>
   {:else if filterDef.type === 'number'}
     <input
+      accesskey="s"
       type="number"
       bind:value={filter.rule.value}
       min={filterDef.min}
@@ -57,6 +58,7 @@
     />
   {:else if filterDef.type === 'text'}
     <input
+      accesskey="s"
       type="search"
       bind:value={filter.rule.value}
     />
