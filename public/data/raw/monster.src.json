@@ -8295,22 +8295,20 @@
       "Past Event (currently unavailable)"
     ],
     "immune_to_status": [
-      "Burning",
+      "Poisoned",
       "Bleeding",
+      "Burning",
       "Frozen",
       "Paralyzed",
-      "Poisoned",
-      "Blight",
+      "Rot",
       "Blind",
       "Asleep",
       "Stunned",
+      "Blight",
       "Petrified",
-      "Cursed",
-      "Toxic",
+      "T. Res ↓",
       "Res ↓↓",
-      "Res ↓",
-      "Rot",
-      "Drenched"
+      "Res ↓"
     ],
     "skills": [
       201,

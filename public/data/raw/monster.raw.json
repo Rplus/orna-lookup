@@ -5559,7 +5559,7 @@
     "weak_to": "",
     "immune_to": "",
     "resistant_to": "",
-    "immune_to_status": "[\"Burning\",\"Bleeding\",\"Frozen\",\"Paralyzed\",\"Poisoned\",\"Blight\",\"Blind\",\"Asleep\",\"Stunned\",\"Petrified\",\"Cursed\",\"Toxic\",\"Res ↓↓\",\"Res ↓\",\"Rot\",\"Drenched\"]",
+    "immune_to_status": "[\"Poisoned\", \"Bleeding\", \"Burning\", \"Frozen\", \"Paralyzed\", \"Rot\", \"Blind\", \"Asleep\", \"Stunned\", \"Blight\", \"Petrified\", \"T. Res ↓\", \"Res ↓↓\", \"Res ↓\"]",
     "vulnerable_to_status": "",
     "skills": "[201,199,197,277,344,278,202,198,366,215,325,306,204,279,370,280]",
     "drops": "[22,446,776,763,783,758,790,755,772,759,268,767,780,768,769,789,779,785,781,766,775,778,770,788,784,782,762,756,757,777,773,786,764,765,761,771,760,774,787,1198,1202,1199,1201,1203,1200,1204]",
