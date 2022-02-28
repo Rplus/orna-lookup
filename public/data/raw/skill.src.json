@@ -17776,7 +17776,7 @@
     "name": "Wildfire III",
     "zh": "野火 III",
     "tier": 9,
-    "type": "Attack",
+    "type": "AoE Magic",
     "element": "Fire",
     "is_magic": 1,
     "mana_cost": 200,
