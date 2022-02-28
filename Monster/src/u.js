@@ -9,6 +9,51 @@ const elementSkillEffect = {
   Water: 'Frozen',
 };
 
+const statusOrder = [
+  'Poisoned',
+  'Bleeding',
+  'Burning',
+  'Frozen',
+  'Paralyzed',
+  'Rot',
+  'Blind',
+  'Asleep',
+  'Stunned',
+  'Blight',
+  'Petrified',
+
+  'Cursed',
+  'Drenched',
+  'Lulled',
+  'Stasis',
+  'Toxic',
+
+  'Att ↓',
+  'Att ↓↓',
+  'T. Att ↓',
+  'T. Att ↓↓',
+  'Def ↓',
+  'Def ↓↓',
+  'T. Def ↓',
+  'T. Def ↓↓',
+  'Mag ↓',
+  'Mag ↓↓',
+  'T. Mag ↓',
+  'T. Mag ↓↓',
+  'Res ↓',
+  'Res ↓↓',
+  'T. Res ↓',
+  'T. Res ↓↓',
+].reduce((all, i, index) => {
+  all[i] = index;
+  return all;
+}, {});
+
+
+function sortStatus(a, b) {
+  return (statusOrder[a] ?? 99)  - (statusOrder[b] ?? 99);
+}
+
 export function handleData(data) {
   let { monsters, skills, pets } = data;
 
@@ -37,9 +82,10 @@ export function handleData(data) {
         .flat()
       )];
 
+      iii.immune_to_status?.sort(sortStatus);
+
       if (skills_effect.length) {
-        iii.skills_effect = skills_effect
-          .sort((a, b) => a.indexOf('↓'))
+        iii.skills_effect = skills_effect.sort(sortStatus)
       }
     })
   })
