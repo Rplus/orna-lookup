@@ -67,8 +67,12 @@
         <dt>{$_(point.prop)}</dt>
         <dd>
           {#each point.value as _type}
-            {$_(_type)}
-            <br>
+            <label>
+              <input type="checkbox" readonly />
+              <span>
+                {$_(_type)}
+              </span>
+            </label>
           {/each}
         </dd>
       {/each}
@@ -81,7 +85,9 @@
           <dd>
             <label>
               <input type="checkbox" readonly />
-              {$_(debuff)}
+              <span>
+                {$_(debuff)}
+              </span>
               <a href="https://rplus.github.io/orna-lookup/?prevents={debuff}" target="ornagle">↗</a>
             </label>
           </dd>
@@ -148,5 +154,14 @@
 
   label a {
     margin-left: .5em;
+  }
+  label input {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  input:checked + span {
+    text-decoration: line-through;
+    opacity: .5;
   }
 </style>
