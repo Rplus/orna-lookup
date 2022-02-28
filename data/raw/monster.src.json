@@ -436,7 +436,7 @@
   },
   {
     "id": 22,
-    "name": "Draconian",
+    "name": "Draconian Warrior",
     "zh": "德肯尼亞族",
     "tier": 2,
     "spawns": [
@@ -1020,6 +1020,9 @@
     "name": "Gazer",
     "zh": "凝視者",
     "tier": 4,
+    "spawns": [
+      "Day Only"
+    ],
     "immune_to": [
       "Lightning"
     ],
@@ -1346,6 +1349,9 @@
     "name": "Cyclops",
     "zh": "獨眼巨人",
     "tier": 4,
+    "spawns": [
+      "Day Only"
+    ],
     "drops": [
       262
     ],
@@ -1372,7 +1378,8 @@
       257,
       89,
       210,
-      151
+      151,
+      184
     ],
     "image": "monsters/dark_elf.png"
   },
@@ -1436,6 +1443,7 @@
       255,
       177,
       205,
+      148,
       206
     ],
     "image": "monsters/drake.png"
@@ -1552,7 +1560,6 @@
       48
     ],
     "drops": [
-      275,
       168,
       143,
       231
@@ -1598,7 +1605,7 @@
       147,
       176,
       94,
-      237
+      1395
     ],
     "image": "monsters/lich.png"
   },
@@ -1716,8 +1723,7 @@
     "drops": [
       262,
       264,
-      275,
-      182
+      275
     ],
     "image": "monsters/wolfman_warrior.png"
   },
@@ -1858,10 +1864,9 @@
       63
     ],
     "drops": [
-      347,
       249,
-      86,
       682,
+      86,
       234,
       278
     ],
@@ -1888,6 +1893,7 @@
     "drops": [
       347,
       13,
+      1363,
       14
     ],
     "image": "bosses/orc_lord.png"
@@ -1906,7 +1912,6 @@
       42
     ],
     "drops": [
-      347,
       262,
       264,
       283,
@@ -1955,11 +1960,11 @@
       87,
       88,
       90,
+      171,
       78
     ],
     "drops": [
       257,
-      210,
       152,
       185,
       108
@@ -1985,9 +1990,10 @@
       65
     ],
     "drops": [
-      262,
       257,
+      210,
       151,
+      184,
       107
     ],
     "image": "monsters/dark_elf_rogue.png"
@@ -2037,8 +2043,7 @@
     ],
     "drops": [
       252,
-      67,
-      87
+      67
     ],
     "image": "monsters/dark_demon.png"
   },
@@ -2070,6 +2075,9 @@
     "name": "Frost Mage",
     "zh": "冰霜法師",
     "tier": 5,
+    "spawns": [
+      "Snow Only"
+    ],
     "weak_to": [
       "Lightning"
     ],
@@ -2095,6 +2103,13 @@
     "tier": 4,
     "buffs": [
       32
+    ],
+    "spawns": [
+      "Woods Only"
+    ],
+    "skills": [
+      34,
+      85
     ],
     "drops": [
       262,
@@ -2218,6 +2233,7 @@
     ],
     "drops": [
       249,
+      252,
       169,
       113
     ],
@@ -2235,8 +2251,7 @@
     "zh": "灼燒者",
     "tier": 5,
     "spawns": [
-      "Sun Only",
-      "World Only"
+      "Sun Only"
     ],
     "weak_to": [
       "Water"
@@ -2267,12 +2282,23 @@
       "Water Only"
     ],
     "weak_to": [
+      "Holy",
       "Lightning"
     ],
-    "resistant_to": [
+    "immune_to": [
+      "Fire",
       "Water"
     ],
+    "resistant_to": [
+      "Dark"
+    ],
+    "skills": [
+      69,
+      57,
+      220
+    ],
     "drops": [
+      252,
       280
     ],
     "image": "monsters/water_demon.png"
@@ -2282,6 +2308,9 @@
     "name": "Storm Knight",
     "zh": "暴風騎士",
     "tier": 5,
+    "spawns": [
+      "Rain Only"
+    ],
     "weak_to": [
       "Earthen"
     ],
@@ -2309,7 +2338,6 @@
       32
     ],
     "drops": [
-      262,
       264,
       241
     ],
@@ -2321,7 +2349,8 @@
     "zh": "鬼火",
     "tier": 5,
     "spawns": [
-      "Night Only"
+      "Night Only",
+      "Woods Only"
     ],
     "resistant_to": [
       "Physical"
@@ -2335,6 +2364,9 @@
     "tier": 4,
     "level": 100,
     "boss": 1,
+    "immune_to_status": [
+      "Petrified"
+    ],
     "skills": [
       71,
       170,
@@ -2370,6 +2402,7 @@
       69,
       48,
       75,
+      171,
       63,
       83
     ],
@@ -2403,9 +2436,11 @@
     ],
     "skills": [
       68,
+      242,
       87,
       88,
-      90
+      90,
+      171
     ],
     "drops": [
       347,
@@ -2425,6 +2460,9 @@
     "boss": 1,
     "immune_to": [
       "Holy"
+    ],
+    "resistant_to": [
+      "Dark"
     ],
     "skills": [
       464,
@@ -2482,6 +2520,9 @@
     "tier": 6,
     "buffs": [
       33
+    ],
+    "spawns": [
+      "Day Only"
     ],
     "weak_to": [
       "Dragon"
@@ -2578,14 +2619,13 @@
       97
     ],
     "drops": [
+      255,
+      105,
       187,
       127,
       211,
-      188,
       343,
-      154,
       288,
-      212,
       213,
       190
     ],
@@ -2599,14 +2639,21 @@
     "level": 150,
     "boss": 1,
     "skills": [
+      69,
       47,
+      48,
+      89,
       53,
       75,
+      171,
       76,
+      92,
       78,
       61,
+      63,
       64,
-      65
+      65,
+      83
     ],
     "drops": [
       347,
@@ -2727,7 +2774,9 @@
     "drops": [
       347,
       252,
-      169,
+      13,
+      14,
+      447,
       1075,
       133,
       270,
@@ -2770,7 +2819,6 @@
       272,
       187,
       188,
-      212,
       190,
       130,
       131,
@@ -2801,6 +2849,7 @@
       547
     ],
     "drops": [
+      254,
       124,
       441,
       416,
@@ -2841,8 +2890,12 @@
     "name": "Gnome",
     "zh": "侏儒",
     "tier": 4,
+    "spawns": [
+      "Day Only"
+    ],
     "resistant_to": [
       "Dark",
+      "Dragon",
       "Earthen",
       "Fire",
       "Holy",
@@ -2964,9 +3017,7 @@
     ],
     "drops": [
       255,
-      177,
-      205,
-      206,
+      677,
       104,
       105
     ],
@@ -2998,6 +3049,11 @@
     ],
     "resistant_to": [
       "Earthen"
+    ],
+    "skills": [
+      86,
+      55,
+      43
     ],
     "drops": [
       282,
@@ -3041,6 +3097,9 @@
     "tier": 7,
     "buffs": [
       32
+    ],
+    "skills": [
+      85
     ],
     "drops": [
       261,
@@ -3104,7 +3163,8 @@
     "skills": [
       69,
       239,
-      88
+      88,
+      94
     ],
     "drops": [
       347,
@@ -3176,6 +3236,9 @@
     "name": "Woodland Elf",
     "zh": "林地精靈",
     "tier": 6,
+    "spawns": [
+      "Woods Only"
+    ],
     "skills": [
       96,
       73,
@@ -3279,7 +3342,6 @@
       100
     ],
     "drops": [
-      3,
       338
     ],
     "image": "monsters/naga_mage.png"
@@ -3382,7 +3444,6 @@
       323,
       335,
       337,
-      326,
       327
     ],
     "quests": [
@@ -3457,6 +3518,7 @@
       347,
       255,
       12,
+      447,
       332,
       331,
       730
@@ -3502,6 +3564,9 @@
     "name": "Arisen Lizarr Lord",
     "zh": "重生的蜥蜴人領主",
     "tier": 8,
+    "spawns": [
+      "Water Only"
+    ],
     "immune_to": [
       "Water"
     ],
@@ -3615,6 +3680,9 @@
     "buffs": [
       250
     ],
+    "spawns": [
+      "Night Only"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -3624,6 +3692,7 @@
       136
     ],
     "drops": [
+      252,
       349
     ],
     "image": "monsters/balor_guardian.png"
@@ -3660,7 +3729,9 @@
       "Night Only"
     ],
     "skills": [
-      140
+      140,
+      71,
+      210
     ],
     "drops": [
       283,
@@ -3679,6 +3750,7 @@
       "Earthen"
     ],
     "skills": [
+      86,
       210,
       112
     ],
@@ -3697,6 +3769,12 @@
     "name": "Fairy",
     "zh": "仙女",
     "tier": 4,
+    "weak_to": [
+      "Dark"
+    ],
+    "immune_to": [
+      "Holy"
+    ],
     "skills": [
       89,
       119,
@@ -3802,10 +3880,17 @@
       "Lightning",
       "Water"
     ],
+    "immune_to_status": [
+      "Asleep",
+      "Petrified"
+    ],
     "skills": [
       171,
       82,
       94
+    ],
+    "drops": [
+      277
     ],
     "image": "monsters/gargoyle.png"
   },
@@ -3823,7 +3908,6 @@
       94
     ],
     "drops": [
-      266,
       354
     ],
     "image": "monsters/fallen_wanderer.png"
@@ -3863,6 +3947,7 @@
     ],
     "skills": [
       240,
+      121,
       130,
       243,
       210,
@@ -3906,7 +3991,6 @@
       213
     ],
     "drops": [
-      347,
       273,
       277,
       355,
@@ -3922,6 +4006,9 @@
     "tier": 6,
     "buffs": [
       250
+    ],
+    "spawns": [
+      "Woods Only"
     ],
     "skills": [
       95,
@@ -3962,19 +4049,18 @@
       "Holy"
     ],
     "skills": [
-      184
+      123,
+      100,
+      171,
+      184,
+      136,
+      368
     ],
     "drops": [
       347,
       13,
       16,
-      454,
-      24,
-      12,
-      1205,
-      921,
-      930,
-      1079
+      14
     ],
     "image": "bosses/mimic_king.png"
   },
@@ -4009,9 +4095,14 @@
       122
     ],
     "drops": [
+      347,
+      15,
+      13,
       16,
       446,
+      14,
       364,
+      447,
       931,
       368,
       370,
@@ -4112,15 +4203,16 @@
     "drops": [
       16,
       446,
+      407,
       519,
       471,
       522,
       500,
       932,
       516,
-      474,
       520,
       483,
+      474,
       438,
       502,
       439,
@@ -4167,13 +4259,13 @@
     ],
     "skills": [
       240,
+      239,
       100,
       243,
       171,
       181
     ],
     "drops": [
-      273,
       394,
       396
     ],
@@ -4204,7 +4296,6 @@
       94
     ],
     "drops": [
-      266,
       393
     ],
     "quests": [
@@ -4339,7 +4430,6 @@
       122
     ],
     "drops": [
-      347,
       400,
       398
     ],
@@ -4436,6 +4526,9 @@
       92,
       169
     ],
+    "drops": [
+      252
+    ],
     "image": "monsters/gheist.png"
   },
   {
@@ -4449,10 +4542,22 @@
       "Woods Only"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
+    ],
+    "skills": [
+      243,
+      213,
+      368
     ],
     "drops": [
-      347,
       261,
       1336,
       402
@@ -4473,7 +4578,15 @@
     "level": 175,
     "boss": 1,
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       97,
@@ -4483,7 +4596,6 @@
       105
     ],
     "drops": [
-      347,
       277,
       446,
       408
@@ -4510,15 +4622,23 @@
       "Water"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       152,
+      213,
       153,
       43
     ],
     "drops": [
-      347,
       13,
       14,
       403
@@ -4578,7 +4698,7 @@
   },
   {
     "id": 198,
-    "name": "High Draconian",
+    "name": "High Draconian Warrior",
     "zh": "高等德肯尼亞族",
     "tier": 6,
     "skills": [
@@ -4587,7 +4707,6 @@
       74
     ],
     "drops": [
-      254,
       266,
       415,
       437
@@ -4612,7 +4731,6 @@
       112
     ],
     "drops": [
-      254,
       417,
       409
     ],
@@ -4626,9 +4744,12 @@
   },
   {
     "id": 201,
-    "name": "Enlightened",
-    "zh": "啟蒙者",
+    "name": "Enlightened Acolyte",
+    "zh": "啟蒙的侍者",
     "tier": 7,
+    "spawns": [
+      "Moon Only"
+    ],
     "skills": [
       99,
       108
@@ -4641,7 +4762,7 @@
     "zh": "啟蒙的鎮守者",
     "tier": 7,
     "spawns": [
-      "Gauntlet Only"
+      "Moon Only"
     ],
     "skills": [
       37,
@@ -4687,9 +4808,7 @@
       74
     ],
     "drops": [
-      249,
       266,
-      275,
       412,
       873,
       872,
@@ -4716,9 +4835,7 @@
       83
     ],
     "drops": [
-      249,
       266,
-      275,
       410,
       413,
       420
@@ -4733,7 +4850,9 @@
     "skills": [
       96,
       291,
+      293,
       93,
+      77,
       295
     ],
     "drops": [
@@ -4754,6 +4873,19 @@
     "spawns": [
       "Kingdom Raid"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
     "vulnerable_to_status": [
       "Lulled"
     ],
@@ -4770,12 +4902,25 @@
       249
     ],
     "drops": [
+      15,
+      266,
+      18,
+      269,
+      277,
+      283,
+      19,
+      20,
+      13,
+      22,
       16,
+      21,
       431,
       702,
       425,
       432,
-      926
+      926,
+      14,
+      447
     ],
     "image": "bosses/fomor.png"
   },
@@ -4854,8 +4999,19 @@
     "tier": 8,
     "level": 200,
     "boss": 1,
+    "spawns": [
+      "Gauntlet Only"
+    ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       97,
@@ -4881,6 +5037,17 @@
     ],
     "weak_to": [
       "Dragon"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       34,
@@ -4911,8 +5078,13 @@
     "zh": "暗之精靈",
     "tier": 8,
     "spawns": [
-      "Gauntlet Only",
       "Moon Only"
+    ],
+    "weak_to": [
+      "Holy"
+    ],
+    "immune_to": [
+      "Dark"
     ],
     "skills": [
       35,
@@ -4921,6 +5093,8 @@
       81
     ],
     "drops": [
+      545,
+      546,
       537,
       542
     ],
@@ -4942,7 +5116,6 @@
     "zh": "暗之精靈騎士",
     "tier": 8,
     "spawns": [
-      "Gauntlet Only",
       "Moon Only"
     ],
     "weak_to": [
@@ -5023,7 +5196,15 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       146,
@@ -5097,13 +5278,25 @@
       "Water"
     ],
     "immune_to_status": [
+      "Burning",
+      "Bleeding",
       "Frozen",
-      "Asleep"
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       69,
       240,
+      71,
       126,
+      54,
+      117,
+      150,
+      158,
       163,
       164
     ],
@@ -5135,14 +5328,22 @@
       "Lightning"
     ],
     "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
       "Paralyzed",
-      "Asleep"
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       37,
       151,
       159,
       66,
+      110,
       181
     ],
     "drops": [
@@ -5170,7 +5371,15 @@
       "Gauntlet Only"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       121,
@@ -5195,6 +5404,10 @@
     "buffs": [
       33
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       225,
       96,
@@ -5216,13 +5429,27 @@
       "Gauntlet Only"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
+      146,
       147,
+      148,
+      149,
       150,
       151,
-      251
+      152,
+      153,
+      251,
+      212
     ],
     "drops": [
       251,
@@ -5235,6 +5462,9 @@
     "name": "Seer",
     "zh": "眼怪",
     "tier": 5,
+    "immune_to_status": [
+      "Blind"
+    ],
     "skills": [
       70,
       74,
@@ -5270,6 +5500,10 @@
     "tier": 8,
     "buffs": [
       32
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
     ],
     "skills": [
       225,
@@ -5346,6 +5580,11 @@
     "resistant_to": [
       "Physical"
     ],
+    "immune_to_status": [
+      "Bleeding",
+      "Poisoned",
+      "Stunned"
+    ],
     "skills": [
       147,
       101,
@@ -5354,8 +5593,8 @@
     ],
     "drops": [
       278,
-      459,
-      691
+      691,
+      459
     ],
     "image": "bosses/undead_golem.png"
   },
@@ -5377,13 +5616,22 @@
     ],
     "immune_to_status": [
       "Burning",
-      "Asleep"
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       148,
+      52,
       118,
       161,
       243,
+      157,
       164,
       94,
       162
@@ -5419,11 +5667,20 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Rot",
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "skills": [
       147,
+      160,
       153,
       210,
       111,
@@ -5454,17 +5711,20 @@
       "Kingdom Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       161,
@@ -5509,6 +5769,10 @@
     ],
     "weak_to": [
       "Earthen"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
     ],
     "skills": [
       225,
@@ -5583,9 +5847,6 @@
       51,
       226
     ],
-    "drops": [
-      262
-    ],
     "image": "monsters/garm.png"
   },
   {
@@ -5600,7 +5861,8 @@
       96,
       93,
       77,
-      358
+      358,
+      188
     ],
     "drops": [
       424,
@@ -5619,8 +5881,7 @@
       32
     ],
     "spawns": [
-      "Sun Only",
-      "World Only"
+      "Sun Only"
     ],
     "weak_to": [
       "Water"
@@ -5628,9 +5889,13 @@
     "resistant_to": [
       "Fire"
     ],
+    "immune_to_status": [
+      "Burning"
+    ],
     "skills": [
       95,
-      75
+      75,
+      213
     ],
     "drops": [
       259
@@ -5671,6 +5936,9 @@
     "weak_to": [
       "Holy"
     ],
+    "immune_to_status": [
+      "Bleeding"
+    ],
     "skills": [
       70,
       169
@@ -5691,10 +5959,15 @@
     "weak_to": [
       "Holy"
     ],
+    "immune_to_status": [
+      "Bleeding"
+    ],
     "skills": [
       70,
+      49,
       51,
       57,
+      58,
       93,
       169
     ],
@@ -5720,6 +5993,8 @@
       42
     ],
     "drops": [
+      262,
+      264,
       275
     ],
     "image": "monsters/dark_wolfman.png"
@@ -5732,9 +6007,18 @@
     "buffs": [
       32
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep"
+    ],
     "skills": [
       225,
       146,
+      51,
       226
     ],
     "drops": [
@@ -5754,6 +6038,17 @@
     ],
     "weak_to": [
       "Earthen"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "vulnerable_to_status": [
       "Petrified",
@@ -5777,6 +6072,9 @@
     "tier": 6,
     "spawns": [
       "Gauntlet Only"
+    ],
+    "weak_to": [
+      "Earthen"
     ],
     "skills": [
       213
@@ -5829,19 +6127,6 @@
       82,
       181
     ],
-    "drops": [
-      1005,
-      1004,
-      1011,
-      998,
-      454,
-      24,
-      12,
-      1205,
-      921,
-      930,
-      1079
-    ],
     "image": "monsters/ancient_mimic.png"
   },
   {
@@ -5850,8 +6135,7 @@
     "zh": "赤紅妖怪",
     "tier": 6,
     "spawns": [
-      "Sun Only",
-      "World Only"
+      "Sun Only"
     ],
     "skills": [
       47,
@@ -5869,6 +6153,9 @@
     "name": "Arcane Slime",
     "zh": "奧術史萊姆",
     "tier": 7,
+    "spawns": [
+      "Rain Only"
+    ],
     "immune_to": [
       "Arcane"
     ],
@@ -5937,13 +6224,11 @@
       146,
       137,
       157,
-      92,
       184
     ],
     "drops": [
+      252,
       255,
-      104,
-      105,
       649
     ],
     "image": "monsters/black_dragon.png"
@@ -5960,6 +6245,10 @@
     ],
     "spawns": [
       "Gauntlet Only"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
     ],
     "skills": [
       225,
@@ -6059,23 +6348,28 @@
       250
     ],
     "spawns": [
-      "Sun Only",
-      "World Only"
+      "Sun Only"
     ],
     "weak_to": [
       "Arcane",
+      "Physical",
       "Water"
     ],
     "immune_to": [
       "Dark",
       "Dragon",
-      "Earthen",
       "Fire",
       "Holy",
       "Lightning"
     ],
     "resistant_to": [
       "Physical"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Frozen",
+      "Poisoned",
+      "Blight"
     ],
     "skills": [
       148,
@@ -6116,8 +6410,8 @@
     ],
     "skills": [
       158,
-      93,
-      213
+      213,
+      77
     ],
     "image": "monsters/eel.png"
   },
@@ -6132,11 +6426,18 @@
     "spawns": [
       "Water Only"
     ],
+    "weak_to": [
+      "Lightning",
+      "Dragon"
+    ],
     "immune_to": [
       "Water"
     ],
     "skills": [
-      69
+      69,
+      53,
+      57,
+      59
     ],
     "drops": [
       255,
@@ -6152,10 +6453,16 @@
     "name": "Greater Yokai",
     "zh": "大妖怪",
     "tier": 5,
+    "spawns": [
+      "Night Only"
+    ],
     "skills": [
       70,
       92,
       169
+    ],
+    "drops": [
+      252
     ],
     "image": "monsters/yokai2.png"
   },
@@ -6169,9 +6476,20 @@
     "spawns": [
       "Gauntlet Only"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blind",
+      "Asleep"
+    ],
     "skills": [
       96,
+      70,
       93,
+      77,
       169
     ],
     "drops": [
@@ -6220,6 +6538,10 @@
     "buffs": [
       33
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       225,
       96,
@@ -6241,12 +6563,18 @@
     "spawns": [
       "Night Only"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       146,
       152,
       153
     ],
     "drops": [
+      252,
+      255,
       612
     ],
     "image": "monsters/black_basilisk.png"
@@ -6269,9 +6597,12 @@
       "Dark"
     ],
     "immune_to_status": [
+      "Poisoned",
+      "Blight",
       "Asleep"
     ],
     "skills": [
+      146,
       201,
       239,
       137,
@@ -6296,6 +6627,10 @@
       "Earthen"
     ],
     "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Poisoned",
+      "Blight",
       "Asleep"
     ],
     "skills": [
@@ -6397,8 +6732,13 @@
     "weak_to": [
       "Earthen"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
-      263,
+      35,
+      48,
       61,
       43,
       82
@@ -6486,6 +6826,9 @@
     "buffs": [
       33
     ],
+    "immune_to_status": [
+      "Blight"
+    ],
     "skills": [
       97,
       147,
@@ -6498,6 +6841,7 @@
       217
     ],
     "drops": [
+      255,
       554,
       559,
       556,
@@ -6557,17 +6901,20 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       166,
@@ -6614,6 +6961,10 @@
     "spawns": [
       "Woods Only"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       225,
       96,
@@ -6634,7 +6985,7 @@
     "level": 200,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Event: Rise of Kerberos"
     ],
     "immune_to": [
       "Dark",
@@ -6776,7 +7127,7 @@
     "level": 150,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid"
     ],
     "resistant_to": [
       "Fire"
@@ -6823,8 +7174,14 @@
     "zh": "猛毒飛龍",
     "tier": 5,
     "spawns": [
-      "Rain Only",
-      "World Only"
+      "Rain Only"
+    ],
+    "weak_to": [
+      "Dragon"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
     ],
     "skills": [
       225,
@@ -6907,7 +7264,15 @@
       "Dragon"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned"
     ],
     "skills": [
       256,
@@ -6947,8 +7312,13 @@
     "zh": "雪怪",
     "tier": 4,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
+    ],
+    "immune_to": [
+      "Water"
+    ],
+    "immune_to_status": [
+      "Frozen"
     ],
     "skills": [
       49,
@@ -6967,11 +7337,13 @@
     "zh": "大雪怪",
     "tier": 7,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "immune_to": [
       "Water"
+    ],
+    "immune_to_status": [
+      "Frozen"
     ],
     "skills": [
       147,
@@ -6992,6 +7364,9 @@
     "tier": 5,
     "level": 125,
     "boss": 1,
+    "spawns": [
+      "Past Event (currently unavailable)"
+    ],
     "weak_to": [
       "Lightning"
     ],
@@ -7048,6 +7423,7 @@
       169
     ],
     "drops": [
+      252,
       647
     ],
     "image": "monsters/night_eye.png"
@@ -7063,24 +7439,31 @@
       "Lightning"
     ],
     "immune_to": [
+      "Fire",
       "Water"
     ],
     "immune_to_status": [
+      "Bleeding",
       "Frozen",
+      "Poisoned",
+      "Blight",
       "Asleep"
     ],
     "skills": [
+      134,
       53,
       133,
       56,
       150,
       198,
       124,
+      213,
       251
     ],
     "drops": [
       642,
       652,
+      302,
       644,
       637
     ],
@@ -7092,8 +7475,7 @@
     "zh": "蚯蚓",
     "tier": 2,
     "spawns": [
-      "Rain Only",
-      "World Only"
+      "Rain Only"
     ],
     "skills": [
       41
@@ -7130,10 +7512,9 @@
     "level": 125,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
-    ],
-    "resistant_to": [
-      "Earthen"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to_status": [
       "Poisoned",
@@ -7148,6 +7529,7 @@
       "Blight"
     ],
     "skills": [
+      120,
       277,
       278,
       151,
@@ -7163,7 +7545,14 @@
       280
     ],
     "drops": [
+      347,
+      19,
+      20,
+      458,
+      22,
       446,
+      21,
+      447,
       692,
       684,
       1177,
@@ -7209,6 +7598,9 @@
     "name": "Ancient Gazer",
     "zh": "遠古凝視者",
     "tier": 6,
+    "spawns": [
+      "Gauntlet Only"
+    ],
     "weak_to": [
       "Earthen"
     ],
@@ -7236,6 +7628,9 @@
     "resistant_to": [
       "Water"
     ],
+    "immune_to_status": [
+      "Frozen"
+    ],
     "skills": [
       290,
       213,
@@ -7259,9 +7654,13 @@
     "resistant_to": [
       "Water"
     ],
+    "immune_to_status": [
+      "Frozen"
+    ],
     "skills": [
       174,
       287,
+      164,
       288
     ],
     "drops": [
@@ -7280,6 +7679,9 @@
     "tier": 8,
     "resistant_to": [
       "Water"
+    ],
+    "immune_to_status": [
+      "Frozen"
     ],
     "skills": [
       277,
@@ -7304,28 +7706,31 @@
     "tier": 9,
     "spawns": [
       "Day Only",
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "resistant_to": [
       "Water"
+    ],
+    "immune_to_status": [
+      "Frozen"
     ],
     "skills": [
       290,
       214,
       215,
       375,
+      213,
       266,
       164,
       162
     ],
     "drops": [
       666,
+      697,
       698,
       694,
       695,
-      696,
-      697
+      696
     ],
     "image": "monsters/nothren_valk.png"
   },
@@ -7343,7 +7748,6 @@
       43
     ],
     "drops": [
-      263,
       704
     ],
     "image": "monsters/great_naga_warrior.png"
@@ -7430,8 +7834,7 @@
     "zh": "寒霜核心",
     "tier": 4,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "weak_to": [
       "Fire"
@@ -7505,7 +7908,7 @@
     "level": 120,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Water"
@@ -7514,15 +7917,16 @@
       "Fire"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       148,
@@ -7546,8 +7950,7 @@
     "zh": "風暴核心",
     "tier": 4,
     "spawns": [
-      "Rain Only",
-      "World Only"
+      "Rain Only"
     ],
     "weak_to": [
       "Earthen"
@@ -7573,7 +7976,8 @@
     "zh": "大地核心",
     "tier": 4,
     "spawns": [
-      "World Only"
+      "Gauntlet Only",
+      "Rain Only"
     ],
     "weak_to": [
       "Lightning"
@@ -7610,8 +8014,17 @@
       "Water"
     ],
     "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
-      "Asleep"
+      "Asleep",
+      "Stunned",
+      "T. Mag ↓↓",
+      "Rot"
     ],
     "skills": [
       277,
@@ -7619,23 +8032,13 @@
       278,
       366,
       373,
+      375,
       306,
+      403,
       279,
       280
     ],
     "drops": [
-      446,
-      1005,
-      1004,
-      1011,
-      998,
-      454,
-      24,
-      12,
-      1205,
-      921,
-      930,
-      1079,
       732
     ],
     "image": "monsters/mighty_mimic.png"
@@ -7673,7 +8076,6 @@
     "zh": "重生的浪人",
     "tier": 9,
     "skills": [
-      173,
       335,
       337,
       338,
@@ -7700,7 +8102,14 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       342,
@@ -7708,12 +8117,14 @@
       337,
       204,
       203,
+      316,
       279,
       341,
       343
     ],
     "drops": [
       446,
+      21,
       728,
       727,
       729
@@ -7727,11 +8138,23 @@
     "tier": 5,
     "level": 150,
     "boss": 1,
+    "resistant_to": [
+      "Lightning"
+    ],
     "immune_to_status": [
-      "Asleep"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       96,
+      97,
+      100,
       151,
       213,
       308,
@@ -7739,6 +8162,7 @@
     ],
     "drops": [
       446,
+      21,
       728,
       734,
       733
@@ -7753,9 +8177,17 @@
     "spawns": [
       "Night Only"
     ],
+    "immune_to": [
+      "Dark"
+    ],
     "resistant_to": [
       "Arcane",
       "Dragon"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight",
+      "Asleep"
     ],
     "skills": [
       201,
@@ -7765,6 +8197,7 @@
       316
     ],
     "drops": [
+      252,
       746,
       731
     ],
@@ -7807,7 +8240,9 @@
       337,
       198,
       200,
-      366
+      366,
+      316,
+      367
     ],
     "drops": [
       1075,
@@ -7821,11 +8256,21 @@
     "name": "Crimson Wood",
     "zh": "深紅木",
     "tier": 8,
+    "spawns": [
+      "Woods Only"
+    ],
     "weak_to": [
       "Fire"
     ],
     "immune_to": [
       "Earthen"
+    ],
+    "immune_to_status": [
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Rot"
     ],
     "skills": [
       290,
@@ -8014,8 +8459,7 @@
     "zh": "重生的克蘇魯",
     "tier": 10,
     "spawns": [
-      "Rain Only",
-      "World Only"
+      "Rain Only"
     ],
     "immune_to": [
       "Fire",
@@ -8147,7 +8591,6 @@
     ],
     "skills": [
       342,
-      197,
       202,
       198,
       200,
@@ -8183,8 +8626,7 @@
       337,
       395,
       454,
-      299,
-      371
+      299
     ],
     "drops": [
       473,
@@ -8240,11 +8682,11 @@
     ],
     "skills": [
       97,
-      314,
       206,
       368,
       105,
-      107
+      107,
+      194
     ],
     "drops": [
       255,
@@ -8406,7 +8848,6 @@
     "skills": [
       356,
       337,
-      202,
       338,
       316,
       352,
@@ -8475,7 +8916,6 @@
     "skills": [
       327,
       328,
-      326,
       337,
       405,
       408,
@@ -8584,6 +9024,7 @@
       277,
       328,
       326,
+      278,
       190,
       384,
       366,
@@ -8747,15 +9188,21 @@
       12,
       845,
       837,
+      575,
       834,
       839,
       838,
+      576,
+      1053,
+      1312,
       1307,
       1306,
       1309,
+      1314,
       548,
       580,
       581,
+      1052,
       1311,
       1310,
       1308
@@ -8768,8 +9215,15 @@
     "zh": "北極熊",
     "tier": 6,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
+    ],
+    "skills": [
+      34,
+      85
+    ],
+    "drops": [
+      262,
+      181
     ],
     "image": "monsters/polar_bear.png"
   },
@@ -8779,14 +9233,17 @@
     "zh": "火焰之核",
     "tier": 4,
     "spawns": [
-      "Sun Only",
-      "World Only"
+      "Gauntlet Only",
+      "Sun Only"
     ],
     "weak_to": [
       "Water"
     ],
     "immune_to": [
       "Fire"
+    ],
+    "immune_to_status": [
+      "Burning"
     ],
     "skills": [
       52,
@@ -8802,6 +9259,12 @@
     "name": "Ancient Draugr",
     "zh": "遠古屍鬼",
     "tier": 6,
+    "spawns": [
+      "Night Only"
+    ],
+    "weak_to": [
+      "Earthen"
+    ],
     "skills": [
       35,
       37,
@@ -8814,7 +9277,15 @@
     "name": "Ancient Draugr Mage",
     "zh": "遠古屍鬼法師",
     "tier": 6,
+    "spawns": [
+      "Night Only"
+    ],
+    "weak_to": [
+      "Earthen"
+    ],
     "skills": [
+      166,
+      167,
       108,
       69,
       75,
@@ -8911,10 +9382,11 @@
     "name": "King of Ljosalfar",
     "zh": "光之精靈王",
     "tier": 5,
-    "level": 0,
+    "level": 125,
     "boss": 1,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -8953,17 +9425,18 @@
       138
     ],
     "drops": [
+      446,
       1371,
       878,
       877,
-      881,
-      882,
-      876,
       897,
       883,
       884,
       880,
       898,
+      881,
+      882,
+      876,
       875,
       879,
       325,
@@ -8979,7 +9452,8 @@
     "level": 0,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Holy"
@@ -8988,16 +9462,14 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
-      "Frozen",
-      "Paralyzed",
-      "Rot",
+      "Bleeding",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       201,
@@ -9015,14 +9487,16 @@
       896,
       892,
       894,
-      886,
-      887,
-      885,
       888,
       893,
       890,
       889,
       891,
+      886,
+      887,
+      885,
+      325,
+      330,
       895
     ],
     "image": "bosses/dokk_queen.png"
@@ -9053,10 +9527,12 @@
     "name": "Scruug",
     "zh": "史古基",
     "tier": 5,
-    "level": 0,
+    "level": 125,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "weak_to": [
       "Fire"
@@ -9092,10 +9568,16 @@
     ],
     "drops": [
       19,
+      20,
+      458,
       22,
+      446,
+      12,
       1205,
       908,
       911,
+      909,
+      903,
       905,
       904,
       912,
@@ -9104,6 +9586,7 @@
       896,
       910,
       901,
+      448,
       449,
       450,
       895
@@ -9225,6 +9708,7 @@
       126,
       54,
       117,
+      150,
       158,
       163,
       155,
@@ -9407,14 +9891,15 @@
       "Blight"
     ],
     "skills": [
-      52,
-      398,
       400,
+      398,
+      384,
       373,
       375,
       306,
       403,
       399,
+      418,
       401
     ],
     "drops": [
@@ -9447,6 +9932,8 @@
       190,
       413,
       412,
+      155,
+      454,
       415,
       350
     ],
@@ -9480,6 +9967,7 @@
       190,
       413,
       412,
+      155,
       454,
       415,
       350
@@ -9542,17 +10030,9 @@
       980,
       988,
       997,
-      985,
-      970,
-      976,
-      995,
-      986,
-      964,
-      963,
-      973,
-      978,
-      984,
-      996
+      548,
+      580,
+      581
     ],
     "image": "bosses/phoenix.png"
   },
@@ -9571,6 +10051,7 @@
       288
     ],
     "drops": [
+      262,
       1017
     ],
     "image": "monsters/succubus.png"
@@ -9672,6 +10153,10 @@
     "resistant_to": [
       "Fire"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       342,
       214,
@@ -9700,6 +10185,10 @@
     "resistant_to": [
       "Fire"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       468,
       469,
@@ -9727,6 +10216,10 @@
     "resistant_to": [
       "Fire"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Blight"
+    ],
     "skills": [
       342,
       458,
@@ -9735,7 +10228,6 @@
     ],
     "drops": [
       1062,
-      1060,
       1064
     ],
     "image": "monsters/coral_lizard_knight.png"
@@ -9822,7 +10314,11 @@
     "spawns": [
       "Water Only"
     ],
+    "weak_to": [
+      "Lightning"
+    ],
     "immune_to": [
+      "Fire",
       "Water"
     ],
     "skills": [
@@ -9833,9 +10329,9 @@
       61
     ],
     "drops": [
+      280,
       173,
       75,
-      201,
       202
     ],
     "image": "monsters/lizard_knight.png"
@@ -9863,10 +10359,10 @@
       288
     ],
     "drops": [
-      1070,
-      1058,
       262,
-      280
+      280,
+      1070,
+      1058
     ],
     "image": "monsters/great_lizard_warrior.png"
   },
@@ -10032,7 +10528,8 @@
     "skills": [
       569,
       239,
-      510
+      510,
+      213
     ],
     "drops": [
       262
@@ -10045,8 +10542,7 @@
     "zh": "究極雪怪",
     "tier": 10,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "immune_to": [
       "Water"
@@ -10113,8 +10609,7 @@
     "zh": "天馬",
     "tier": 10,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "immune_to": [
       "Holy",
@@ -10130,12 +10625,14 @@
     ],
     "skills": [
       119,
+      128,
       154,
       213,
       513,
       523,
       514,
-      524
+      524,
+      568
     ],
     "drops": [
       1081,
@@ -10172,8 +10669,8 @@
     "skills": [
       404,
       405,
-      406,
       408,
+      406,
       407,
       367,
       409
@@ -10190,8 +10687,7 @@
     "zh": "圖魯",
     "tier": 8,
     "spawns": [
-      "Sun+Water Only",
-      "World Only"
+      "Sun+Water Only"
     ],
     "immune_to": [
       "Lightning"
@@ -10199,7 +10695,8 @@
     "skills": [
       285,
       287,
-      337
+      337,
+      154
     ],
     "drops": [
       1082
@@ -10211,6 +10708,9 @@
     "name": "Yokai",
     "zh": "妖怪",
     "tier": 4,
+    "spawns": [
+      "Night Only"
+    ],
     "skills": [
       70,
       92,
@@ -10231,7 +10731,8 @@
       "Water Only"
     ],
     "resistant_to": [
-      "Fire"
+      "Fire",
+      "Water"
     ],
     "image": "monsters/mollusc.png"
   },
@@ -10244,7 +10745,8 @@
       "Water Only"
     ],
     "resistant_to": [
-      "Fire"
+      "Fire",
+      "Water"
     ],
     "image": "monsters/mollusc.png"
   },
@@ -10257,7 +10759,12 @@
       "Water Only"
     ],
     "skills": [
+      569,
+      285,
       239
+    ],
+    "drops": [
+      262
     ],
     "image": "monsters/green_lobster.png"
   },
@@ -10301,6 +10808,9 @@
     "name": "Raven",
     "zh": "渡鴉",
     "tier": 4,
+    "spawns": [
+      "Water Only"
+    ],
     "skills": [
       35,
       73,
@@ -10385,15 +10895,13 @@
       92
     ],
     "drops": [
+      256,
       259,
       265,
       273,
       294,
-      446,
-      1205,
+      280,
       281,
-      930,
-      1079,
       1142
     ],
     "image": "monsters/gateway.png"
@@ -10409,7 +10917,8 @@
     "skills": [
       569,
       285,
-      239
+      239,
+      213
     ],
     "drops": [
       262
@@ -10523,8 +11032,7 @@
     "zh": "雪精靈法師",
     "tier": 6,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "resistant_to": [
       "Dark",
@@ -10533,6 +11041,13 @@
       "Holy",
       "Lightning",
       "Water"
+    ],
+    "skills": [
+      87,
+      88,
+      90,
+      171,
+      78
     ],
     "drops": [
       257,
@@ -10546,8 +11061,7 @@
     "zh": "雪精靈俠盜",
     "tier": 7,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "resistant_to": [
       "Dark",
@@ -10593,8 +11107,7 @@
     "zh": "法亞拉",
     "tier": 10,
     "spawns": [
-      "Rain+Water Only",
-      "World Only"
+      "Rain+Water Only"
     ],
     "immune_to": [
       "Lightning"
@@ -10617,8 +11130,7 @@
     "zh": "雪精靈",
     "tier": 5,
     "spawns": [
-      "Snow Only",
-      "World Only"
+      "Snow Only"
     ],
     "resistant_to": [
       "Dark",
@@ -10633,6 +11145,7 @@
       72
     ],
     "drops": [
+      257,
       1197
     ],
     "image": "monsters/snow_elf.png"
@@ -10653,9 +11166,10 @@
       "Water"
     ],
     "skills": [
+      473,
       150,
       458,
-      152,
+      153,
       105
     ],
     "drops": [
@@ -11124,11 +11638,19 @@
     "name": "Cactus",
     "zh": "仙人掌",
     "tier": 4,
+    "spawns": [
+      "Sun Only"
+    ],
+    "weak_to": [
+      "Fire"
+    ],
     "resistant_to": [
+      "Earthen",
       "Lightning",
       "Water"
     ],
     "skills": [
+      134,
       445
     ],
     "image": "monsters/cactus.png"
@@ -11138,6 +11660,15 @@
     "name": "Cave Bat",
     "zh": "洞穴蝙蝠",
     "tier": 4,
+    "spawns": [
+      "Gauntlet Only"
+    ],
+    "resistant_to": [
+      "Earthen"
+    ],
+    "immune_to_status": [
+      "Poisoned"
+    ],
     "skills": [
       225,
       70,
@@ -11153,7 +11684,7 @@
     "name": "Surtr",
     "zh": "史爾特爾",
     "tier": 5,
-    "level": 0,
+    "level": 125,
     "boss": 1,
     "spawns": [
       "Kingdom Raid",
@@ -11162,6 +11693,18 @@
     ],
     "immune_to": [
       "Fire"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "skills": [
       174,
@@ -11378,9 +11921,16 @@
     "name": "Arisen Arachne",
     "zh": "重生的阿剌克涅",
     "tier": 9,
+    "immune_to_status": [
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Rot"
+    ],
     "skills": [
       366,
       61,
+      43,
       414,
       247
     ],
@@ -11487,7 +12037,7 @@
     "name": "Age-Old Mimic",
     "zh": "古老的寶箱怪",
     "tier": 5,
-    "level": 0,
+    "level": 118,
     "boss": 1,
     "spawns": [
       "Kingdom Raid",
@@ -11757,8 +12307,8 @@
       1284,
       1490,
       1282,
-      1279,
-      1283
+      1283,
+      1279
     ],
     "image": "bosses/neman.png"
   },
@@ -11811,9 +12361,9 @@
     "drops": [
       1267,
       1272,
-      1271,
       1268,
       1269,
+      1271,
       1493,
       1494,
       1497,
@@ -11875,9 +12425,9 @@
       1277,
       1280,
       1274,
-      1275,
       1276,
-      1278
+      1278,
+      1275
     ],
     "image": "bosses/macha.png"
   },
@@ -11933,6 +12483,7 @@
       972,
       979,
       981,
+      961,
       990,
       982,
       966,
@@ -11944,8 +12495,10 @@
       1001,
       980,
       988,
+      997,
       548,
       580,
+      581,
       985,
       970,
       976,
@@ -11955,7 +12508,8 @@
       963,
       973,
       978,
-      984
+      984,
+      996
     ],
     "image": "bosses/phoenix.png"
   },
@@ -11967,7 +12521,7 @@
     "level": 245,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Event: Rise of Kerberos"
     ],
     "immune_to": [
       "Dark",
@@ -12224,6 +12778,7 @@
       237,
       480,
       204,
+      213,
       234,
       251,
       122,
@@ -12232,6 +12787,7 @@
     "drops": [
       347,
       15,
+      19,
       446,
       23,
       1084,
@@ -12613,16 +13169,15 @@
       "World Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       191,
@@ -12706,18 +13261,18 @@
       458,
       22,
       446,
-      1383,
       1386,
       1382,
       1389,
       1388,
+      1383,
       449,
       325,
-      1384,
       1387,
       1381,
       1385,
-      1390
+      1390,
+      1384
     ],
     "image": "bosses/hel.png"
   },
@@ -12729,7 +13284,9 @@
     "level": 125,
     "boss": 1,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to": [
       "Lightning"
@@ -12772,11 +13329,11 @@
       458,
       22,
       446,
-      1383,
       1386,
       1382,
       1389,
       1388,
+      1383,
       449
     ],
     "image": "bosses/hel.png"
@@ -12788,6 +13345,9 @@
     "tier": 7,
     "level": 175,
     "boss": 1,
+    "spawns": [
+      "World Raid"
+    ],
     "immune_to_status": [
       "Poisoned",
       "Bleeding",
@@ -12949,6 +13509,9 @@
     "tier": 6,
     "level": 150,
     "boss": 1,
+    "spawns": [
+      "Gauntlet Only"
+    ],
     "weak_to": [
       "Dark"
     ],
@@ -12956,26 +13519,19 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
-      "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Blind",
-      "Asleep",
-      "Stunned",
       "Blight",
+      "Blind",
       "Petrified"
     ],
     "skills": [
       356,
-      123,
-      396,
       202,
-      398,
       620,
-      619
+      619,
+      632,
+      633
     ],
     "drops": [
       1400,
@@ -13061,6 +13617,13 @@
     "resistant_to": [
       "Lightning"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Stunned"
+    ],
     "skills": [
       538,
       97,
@@ -13081,9 +13644,6 @@
     "name": "Sapling",
     "zh": "樹苗",
     "tier": 7,
-    "spawns": [
-      "Gauntlet Only"
-    ],
     "weak_to": [
       "Fire"
     ],
@@ -13213,9 +13773,9 @@
       932,
       1466,
       516,
-      474,
       520,
       483,
+      474,
       438,
       502,
       439,
@@ -13231,7 +13791,7 @@
     "level": 140,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Arcane"
@@ -13358,6 +13918,9 @@
       93,
       136
     ],
+    "drops": [
+      1486
+    ],
     "image": "monsters/elite_balor_guardian.png"
   },
   {
@@ -13368,7 +13931,8 @@
     "level": 240,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Arcane"
@@ -13406,7 +13970,8 @@
     "level": 240,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Arcane"
@@ -13434,6 +13999,7 @@
     "skills": [
       428,
       372,
+      639,
       190,
       213,
       136,
@@ -13459,7 +14025,8 @@
     "zh": "重生的古精靈",
     "tier": 8,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -13496,7 +14063,8 @@
     "zh": "古精靈法師",
     "tier": 5,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -13532,7 +14100,8 @@
     "zh": "古精靈",
     "tier": 4,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -13611,6 +14180,10 @@
       203,
       378
     ],
+    "drops": [
+      249,
+      446
+    ],
     "image": "monsters/skeleton.png"
   },
   {
@@ -13621,7 +14194,8 @@
     "level": 200,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -13656,7 +14230,8 @@
     "zh": "重生的古精靈法師",
     "tier": 9,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -13947,7 +14522,7 @@
     "zh": "高端巴羅爾火焰",
     "tier": 9,
     "spawns": [
-      "Gauntlet Only"
+      "Sun Only"
     ],
     "weak_to": [
       "Arcane",
@@ -14145,7 +14720,8 @@
     "level": 125,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Arcane"
@@ -14202,7 +14778,8 @@
     "level": 100,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "weak_to": [
       "Earthen"
@@ -14257,7 +14834,7 @@
   },
   {
     "id": 492,
-    "name": "Elite Draconian",
+    "name": "Elite Draconian Warrior",
     "zh": "高端德肯尼亞族",
     "tier": 8,
     "spawns": [
@@ -14323,7 +14900,8 @@
     "zh": "巴羅爾任意門",
     "tier": 9,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Moon Only"
     ],
     "weak_to": [
       "Arcane"
@@ -14377,7 +14955,8 @@
     "level": 200,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "immune_to": [
       "Fire"
@@ -14405,7 +14984,6 @@
       217
     ],
     "drops": [
-      1525,
       1524,
       1517,
       1520,
@@ -14414,7 +14992,8 @@
       1516,
       1518,
       1519,
-      1523
+      1523,
+      1525
     ],
     "image": "bosses/ashen_phoenix.png"
   },
@@ -14423,6 +15002,9 @@
     "name": "Great Phoenician Mage",
     "zh": "上級緋尼斯族法師",
     "tier": 9,
+    "spawns": [
+      "Past Event (currently unavailable)"
+    ],
     "skills": [
       625,
       405,
@@ -14445,7 +15027,8 @@
     "level": 100,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only"
+      "Gauntlet Only",
+      "Past Event (currently unavailable)"
     ],
     "immune_to": [
       "Fire"

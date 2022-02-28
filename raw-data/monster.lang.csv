@@ -20,7 +20,7 @@ id,en,zh
 19,Undead,不死者
 20,Goblin Lord,哥布林領主
 21,Minotaur,牛頭怪
-22,Draconian,德肯尼亞族
+22,Draconian Warrior,
 23,Bat,蝙蝠
 24,Black Widow,黑寡婦
 25,Demon,惡魔
@@ -181,9 +181,9 @@ id,en,zh
 195,Ogre,食人魔
 196,Carrion Crow,腐肉烏鴉
 197,Ogre Brute,野蠻食人魔
-198,High Draconian,高等德肯尼亞族
+198,High Draconian Warrior,
 199,High Draconian Mage,高等德肯尼亞族法師
-201,Enlightened,啟蒙者
+201,Enlightened Acolyte,
 202,Enlightened Guardian,啟蒙的鎮守者
 203,Enlightened Mage,開明的法師
 204,High Fomorian,高等弗摩爾族
@@ -471,7 +471,7 @@ id,en,zh
 489,Spooky Ghost,詭異幽靈
 490,Alfar Lord,古精靈君主
 491,Elite Orc Lord,高端半獸人領主
-492,Elite Draconian,高端德肯尼亞族
+492,Elite Draconian Warrior,
 493,Elite Draconian Mage,高端德肯尼亞族法師
 494,Balor Gateway,巴羅爾任意門
 496,Fallen Ashen Phoenix,墮落蒼白鳳凰
