@@ -5235,6 +5235,9 @@
     "name": "Seer",
     "zh": "眼怪",
     "tier": 5,
+    "immune_to_status": [
+      "Blind"
+    ],
     "skills": [
       70,
       74,
@@ -10301,6 +10304,9 @@
     "name": "Raven",
     "zh": "渡鴉",
     "tier": 4,
+    "spawns": [
+      "Water Only"
+    ],
     "skills": [
       35,
       73,
