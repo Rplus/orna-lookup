@@ -9,7 +9,7 @@ var args = process.argv.slice(2).reduce((all, i) => {
 
 let errLog = [];
 let data;
-let target = [
+let target = args?.targete || [
   /* 0 */ 'item',
   /* 1 */ 'skill',
   /* 2 */ 'class',
