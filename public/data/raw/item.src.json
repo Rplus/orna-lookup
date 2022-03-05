@@ -21285,7 +21285,7 @@
       "Warrior"
     ],
     "element": "Arcane",
-    "stats.dexterity": 48,
+    "stats.dexterity": 72,
     "stats.mana": 220,
     "dropped_by": [
       362,
@@ -33599,6 +33599,7 @@
     "zh": "戰爭象徵",
     "tier": 9,
     "type": "Adornment",
+    "boss": 1,
     "view_distance": 1,
     "equipped_by": [
       "Mage",
@@ -37892,6 +37893,7 @@
     "other_effect": [
       "視野加成: +1%"
     ],
+    "rarity": "b",
     "description": "An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see."
   },
   {
