@@ -27792,7 +27792,7 @@
     "stats.magic": "",
     "stats.defense": "",
     "stats.resistance": "",
-    "stats.dexterity": "48",
+    "stats.dexterity": "72",
     "stats.crit": "",
     "stats.ward": "",
     "stats.hp": "",
@@ -44403,7 +44403,7 @@
     "zh": "戰爭象徵",
     "tier": "9",
     "type": "Adornment",
-    "boss": "",
+    "boss": "1",
     "arena": "",
     "view_distance": "1",
     "equipped_by": "[\"Mage\",\"Thief\",\"Warrior\"]",
@@ -50204,7 +50204,7 @@
     "other_effect": "[\"視野加成: +1%\"]",
     "two_handed": "",
     "slots": "",
-    "rarity": "",
+    "rarity": "b",
     "description": "An adornment depicting a healthy gazing eye. Adorning it upon a weapon will slightly increase the distance that you can see."
   },
   {
