@@ -14,6 +14,7 @@ export const words = {
   'Cursed': '詛咒',
   'Toxic': '劇毒',
   'Lulled': '安份',
+  'Stasis': '停滯',
 
   'Mage': '法師',
   'Thief': '盜賊',
