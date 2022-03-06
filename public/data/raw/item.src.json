@@ -38801,7 +38801,6 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38826,7 +38825,6 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38851,7 +38849,6 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38882,7 +38879,6 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38910,7 +38906,6 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38937,16 +38932,21 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
   {
     "id": 1543,
     "name": "Amadan's Staff",
-    "zh": "Amadan's Staff",
+    "zh": "阿瑪丹的法杖",
     "tier": 8,
     "type": "Off-hand",
+    "boss": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.magic": 60,
     "stats.resistance": 60,
     "stats.ward": 8,
@@ -38960,15 +38960,19 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
   {
     "id": 1544,
     "name": "Beag's Lute",
-    "zh": "Beag's Lute",
+    "zh": "蓓格的魯特琴",
     "tier": 8,
     "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.attack": 24,
     "stats.magic": 24,
     "stats.defense": 24,
@@ -38982,15 +38986,19 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
   {
     "id": 1545,
     "name": "Fergus's Hammer",
-    "zh": "Fergus's Hammer",
+    "zh": "弗格斯的錘",
     "tier": 8,
     "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.defense": 90,
     "stats.resistance": 9,
     "stats.ward": 28,
@@ -39001,7 +39009,6 @@
       263,
       283
     ],
-    "image": "wards/tower_shield.png",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   }
 ]

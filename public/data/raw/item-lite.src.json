@@ -10573,63 +10573,54 @@
     "id": 1537,
     "name": "Finn's Spear",
     "zh": "芬恩的矛",
-    "tier": 4,
-    "image": "wards/tower_shield.png"
+    "tier": 4
   },
   {
     "id": 1538,
     "name": "Conall's Wand",
     "zh": "科納爾的棍棒",
-    "tier": 4,
-    "image": "wards/tower_shield.png"
+    "tier": 4
   },
   {
     "id": 1539,
     "name": "Aine's Axe",
     "zh": "艾涅的斧",
-    "tier": 4,
-    "image": "wards/tower_shield.png"
+    "tier": 4
   },
   {
     "id": 1540,
     "name": "Amergin's Razor",
     "zh": "阿默金的剃刀",
-    "tier": 6,
-    "image": "wards/tower_shield.png"
+    "tier": 6
   },
   {
     "id": 1541,
     "name": "Bricriu's Bow",
     "zh": "布里克留的弓",
-    "tier": 6,
-    "image": "wards/tower_shield.png"
+    "tier": 6
   },
   {
     "id": 1542,
     "name": "Cormac's Shotel",
     "zh": "康馬克的鈎刀",
-    "tier": 6,
-    "image": "wards/tower_shield.png"
+    "tier": 6
   },
   {
     "id": 1543,
     "name": "Amadan's Staff",
-    "zh": "Amadan's Staff",
-    "tier": 8,
-    "image": "wards/tower_shield.png"
+    "zh": "阿瑪丹的法杖",
+    "tier": 8
   },
   {
     "id": 1544,
     "name": "Beag's Lute",
-    "zh": "Beag's Lute",
-    "tier": 8,
-    "image": "wards/tower_shield.png"
+    "zh": "蓓格的魯特琴",
+    "tier": 8
   },
   {
     "id": 1545,
     "name": "Fergus's Hammer",
-    "zh": "Fergus's Hammer",
-    "tier": 8,
-    "image": "wards/tower_shield.png"
+    "zh": "弗格斯的錘",
+    "tier": 8
   }
 ]
