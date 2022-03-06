@@ -18498,7 +18498,23 @@
     "is_magic": 1,
     "causes": [
       "Lulled"
-    ],
-    "description": "N/A"
+    ]
+  },
+  {
+    "id": 659,
+    "name": "Upward Strike",
+    "zh": "豬突猛進",
+    "tier": 6,
+    "type": "Magic",
+    "description": "Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle."
+  },
+  {
+    "id": 660,
+    "name": "Anthem",
+    "zh": "Anthem",
+    "tier": 8,
+    "type": "Buff",
+    "is_magic": 1,
+    "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats."
   }
 ]

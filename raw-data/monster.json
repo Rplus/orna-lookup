@@ -29414,5 +29414,369 @@
         "name": "Ward of Ortanite"
       }
     ]
+  },
+  {
+    "id": 512,
+    "name": "Cormac",
+    "tier": 6,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Mystic Cave"
+    ],
+    "drops": [
+      {
+        "id": 1542,
+        "name": "Cormac's Shotel"
+      }
+    ],
+    "skills": [
+      {
+        "id": 174,
+        "name": "Coup de Grace"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "name": "Amergin",
+    "tier": 6,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Mystic Cave"
+    ],
+    "drops": [
+      {
+        "id": 1540,
+        "name": "Amergin's Razor"
+      }
+    ],
+    "skills": [
+      {
+        "id": 174,
+        "name": "Coup de Grace"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "name": "Aine",
+    "tier": 4,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Goblin Fortress"
+    ],
+    "drops": [
+      {
+        "id": 1539,
+        "name": "Aine's Axe"
+      }
+    ],
+    "skills": [
+      {
+        "id": 361,
+        "name": "Alpha Dart"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "name": "Conall",
+    "tier": 4,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Goblin Fortress"
+    ],
+    "drops": [
+      {
+        "id": 1538,
+        "name": "Conall's Wand"
+      }
+    ],
+    "skills": [
+      {
+        "id": 642,
+        "name": "Lacuna"
+      },
+      {
+        "id": 643,
+        "name": "Lacunus"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "name": "Finn",
+    "tier": 4,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Goblin Fortress"
+    ],
+    "drops": [
+      {
+        "id": 1537,
+        "name": "Finn's Spear"
+      }
+    ],
+    "skills": [
+      {
+        "id": 361,
+        "name": "Alpha Dart"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "name": "Amadan",
+    "tier": 8,
+    "boss": true,
+    "image": "wards/tower_shield.png",
+    "level": 195,
+    "spawns": [
+      "Chaos Portal",
+      "Event: The Mischievous Clurichauns"
+    ],
+    "drops": [
+      {
+        "id": 1543,
+        "name": "Amadan's Staff"
+      }
+    ],
+    "skills": [
+      {
+        "id": 555,
+        "name": "Magic Arrow III"
+      },
+      {
+        "id": 554,
+        "name": "Magic Dagger III"
+      },
+      {
+        "id": 553,
+        "name": "Magic Hammer III"
+      },
+      {
+        "id": 556,
+        "name": "Magic Strikes III"
+      },
+      {
+        "id": 552,
+        "name": "Magic Sword III"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "name": "Beag",
+    "tier": 8,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Chaos Portal",
+      "Event: The Mischievous Clurichauns"
+    ],
+    "drops": [
+      {
+        "id": 1544,
+        "name": "Beag's Lute"
+      }
+    ],
+    "skills": [
+      {
+        "id": 555,
+        "name": "Magic Arrow III"
+      },
+      {
+        "id": 554,
+        "name": "Magic Dagger III"
+      },
+      {
+        "id": 553,
+        "name": "Magic Hammer III"
+      },
+      {
+        "id": 556,
+        "name": "Magic Strikes III"
+      },
+      {
+        "id": 552,
+        "name": "Magic Sword III"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "name": "Fergus",
+    "tier": 8,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Chaos Portal",
+      "Event: The Mischievous Clurichauns"
+    ],
+    "drops": [
+      {
+        "id": 1545,
+        "name": "Fergus's Hammer"
+      }
+    ],
+    "skills": [
+      {
+        "id": 555,
+        "name": "Magic Arrow III"
+      },
+      {
+        "id": 554,
+        "name": "Magic Dagger III"
+      },
+      {
+        "id": 553,
+        "name": "Magic Hammer III"
+      },
+      {
+        "id": 556,
+        "name": "Magic Strikes III"
+      },
+      {
+        "id": 552,
+        "name": "Magic Sword III"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "name": "Bricriu",
+    "tier": 6,
+    "boss": false,
+    "image": "wards/tower_shield.png",
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Mystic Cave"
+    ],
+    "drops": [
+      {
+        "id": 1541,
+        "name": "Bricriu's Bow"
+      }
+    ],
+    "skills": [
+      {
+        "id": 445,
+        "name": "Arrowstorm II"
+      },
+      {
+        "id": 366,
+        "name": "Miasma"
+      },
+      {
+        "id": 43,
+        "name": "Poisonstrike"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      }
+    ]
   }
 ]

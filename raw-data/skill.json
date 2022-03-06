@@ -25149,5 +25149,23 @@
     "causes": [
       "Lulled"
     ]
+  },
+  {
+    "name": "Upward Strike",
+    "id": 659,
+    "tier": 6,
+    "type": "Magic",
+    "description": "Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle.",
+    "is_magic": false,
+    "bought": false
+  },
+  {
+    "name": "Anthem",
+    "id": 660,
+    "tier": 8,
+    "type": "Buff",
+    "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats.",
+    "is_magic": true,
+    "bought": false
   }
 ]

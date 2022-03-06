@@ -129,3 +129,5 @@ id,name,zh,tier,cost,skills,stats.attack,stats.heal,stats.protect,stats.buff,sta
 128,Cruel Banshee,惡毒報喪女妖,6,1250000,"[70,612,180]",,,,,5,5,monsters/banshee.png,The reason one would want a banshee with them is still quite unknown. Available for a limited time only.
 129,Alfar Mage,古精靈法師,7,2500000,"[239,275,628]",,3,3,,,60,monsters/alfar_mage.png,A small follower of Scruug. Available for a limited time only.
 130,Alfar,古精靈,4,250000,"[119,176,300]",90,8,4,,,10,monsters/alfar.png,A small follower of Scruug. Available for a limited time only.
+131,Kin of Kerberos,,5,0,"[591,593,594,592]",7,,,15,,,bosses/kerberos.png,Arisen from the deep depths of the Underworld. Available for a limited time only.
+132,Amadan,,8,500000,"[636,643]",1,,2,4,,20,wards/tower_shield.png,Available for a limited time only.

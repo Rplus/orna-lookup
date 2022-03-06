@@ -2187,5 +2187,38 @@
     "stats.spell": 10,
     "image": "monsters/alfar.png",
     "description": "A small follower of Scruug. Available for a limited time only."
+  },
+  {
+    "id": 131,
+    "name": "Kin of Kerberos",
+    "zh": "刻耳柏洛斯之子",
+    "tier": 5,
+    "skills": [
+      591,
+      593,
+      594,
+      592
+    ],
+    "stats.attack": 7,
+    "stats.buff": 15,
+    "image": "bosses/kerberos.png",
+    "description": "Arisen from the deep depths of the Underworld. Available for a limited time only."
+  },
+  {
+    "id": 132,
+    "name": "Amadan",
+    "zh": "阿瑪丹",
+    "tier": 8,
+    "cost": 500000,
+    "skills": [
+      636,
+      643
+    ],
+    "stats.attack": 1,
+    "stats.protect": 2,
+    "stats.buff": 4,
+    "stats.spell": 20,
+    "image": "wards/tower_shield.png",
+    "description": "Available for a limited time only."
   }
 ]

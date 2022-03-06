@@ -630,3 +630,5 @@ id,name,zh,tier,type,element,is_magic,bought,cost,mana_cost,m1,m2.max,m2.min,tur
 656,Appease,安撫,5,Buff,,1,,,40,,,,,,,,,,"[""Target ↓""]",,,,,"[{""id"":75,""name"":""Merchant"",""level"":100,""specialization"":true}]","When battling with your party, your opponents will be less likely to target you."
 657,Appease II,安撫 II,7,Buff,,1,,,40,,,,,,,,,,"[""Target ↓↓""]",,,,,"[{""id"":41,""name"":""Bard"",""level"":150,""specialization"":true},{""id"":53,""name"":""Charmer"",""level"":200,""specialization"":true}]","When battling with your party, your opponents will be less likely to target you."
 658,Requiem,安魂曲,1,Magic,,1,,,,,,,,,,,,,,"[""Lulled""]",,,,,N/A
+659,Upward Strike,豬突猛進,6,Magic,,,,,,,,,,,,,,,,,,,,,"Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle."
+660,Anthem,,8,Buff,,1,,,,,,,,,,,,,,,,,,,"Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats."
