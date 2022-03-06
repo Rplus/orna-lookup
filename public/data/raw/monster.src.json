@@ -15437,5 +15437,199 @@
       1530
     ],
     "image": "packs/kerberos/2_m.png"
+  },
+  {
+    "id": 512,
+    "name": "Cormac",
+    "zh": "康馬克",
+    "tier": 6,
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Mystic Cave"
+    ],
+    "skills": [
+      174,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1542
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 513,
+    "name": "Amergin",
+    "zh": "阿默金",
+    "tier": 6,
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Mystic Cave"
+    ],
+    "skills": [
+      174,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1540
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 514,
+    "name": "Aine",
+    "zh": "艾涅",
+    "tier": 4,
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Goblin Fortress"
+    ],
+    "skills": [
+      361,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1539
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 515,
+    "name": "Conall",
+    "zh": "科納爾",
+    "tier": 4,
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Goblin Fortress"
+    ],
+    "skills": [
+      642,
+      643,
+      43,
+      247
+    ],
+    "drops": [
+      1538
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 516,
+    "name": "Finn",
+    "zh": "芬恩",
+    "tier": 4,
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Goblin Fortress"
+    ],
+    "skills": [
+      361,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1537
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 517,
+    "name": "Amadan",
+    "zh": "阿瑪丹",
+    "tier": 8,
+    "level": 195,
+    "boss": 1,
+    "spawns": [
+      "Chaos Portal",
+      "Event: The Mischievous Clurichauns"
+    ],
+    "skills": [
+      555,
+      554,
+      553,
+      556,
+      552,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1543
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 518,
+    "name": "Beag",
+    "zh": "Beag",
+    "tier": 8,
+    "spawns": [
+      "Chaos Portal",
+      "Event: The Mischievous Clurichauns"
+    ],
+    "skills": [
+      555,
+      554,
+      553,
+      556,
+      552,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1544
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 519,
+    "name": "Fergus",
+    "zh": "Fergus",
+    "tier": 8,
+    "spawns": [
+      "Chaos Portal",
+      "Event: The Mischievous Clurichauns"
+    ],
+    "skills": [
+      555,
+      554,
+      553,
+      556,
+      552,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1545
+    ],
+    "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 520,
+    "name": "Bricriu",
+    "zh": "布里克留",
+    "tier": 6,
+    "spawns": [
+      "Event: The Mischievous Clurichauns",
+      "Mystic Cave"
+    ],
+    "skills": [
+      445,
+      366,
+      43,
+      247
+    ],
+    "drops": [
+      1541
+    ],
+    "image": "wards/tower_shield.png"
   }
 ]

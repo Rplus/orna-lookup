@@ -490,3 +490,12 @@ id,name,zh,tier,level,boss,buffs,spawns,weak_to,immune_to,resistant_to,immune_to
 509,Follower of Kerberos,,5,,,,"[""Beast Den"",""Event: Rise of Kerberos""]",,,,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,"[634,241,635,632,633]","[1294,1535,1533]",,packs/kerberos/1_f.png
 510,Follower of Kerberos,,9,,,,"[""Beast Den"",""Event: Rise of Kerberos""]",,,,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,"[213,67,371]","[1299,1532,1530]",,packs/kerberos/3_f.png
 511,Follower of Kerberos,,9,,,,"[""Beast Den"",""Event: Rise of Kerberos""]",,,,"[""Burning"",""Frozen"",""Paralyzed"",""Rot""]",,"[213,67,371]","[1295,1532,1530]",,packs/kerberos/2_m.png
+512,Cormac,,6,,,,"[""Event: The Mischievous Clurichauns"",""Mystic Cave""]",,,,,,"[174,366,43,247]",[1542],,wards/tower_shield.png
+513,Amergin,,6,,,,"[""Event: The Mischievous Clurichauns"",""Mystic Cave""]",,,,,,"[174,366,43,247]",[1540],,wards/tower_shield.png
+514,Aine,,4,,,,"[""Event: The Mischievous Clurichauns"",""Goblin Fortress""]",,,,,,"[361,366,43,247]",[1539],,wards/tower_shield.png
+515,Conall,,4,,,,"[""Event: The Mischievous Clurichauns"",""Goblin Fortress""]",,,,,,"[642,643,43,247]",[1538],,wards/tower_shield.png
+516,Finn,,4,,,,"[""Event: The Mischievous Clurichauns"",""Goblin Fortress""]",,,,,,"[361,366,43,247]",[1537],,wards/tower_shield.png
+517,Amadan,,8,195,1,,"[""Chaos Portal"",""Event: The Mischievous Clurichauns""]",,,,,,"[555,554,553,556,552,366,43,247]",[1543],,wards/tower_shield.png
+518,Beag,,8,,,,"[""Chaos Portal"",""Event: The Mischievous Clurichauns""]",,,,,,"[555,554,553,556,552,366,43,247]",[1544],,wards/tower_shield.png
+519,Fergus,,8,,,,"[""Chaos Portal"",""Event: The Mischievous Clurichauns""]",,,,,,"[555,554,553,556,552,366,43,247]",[1545],,wards/tower_shield.png
+520,Bricriu,,6,,,,"[""Event: The Mischievous Clurichauns"",""Mystic Cave""]",,,,,,"[445,366,43,247]",[1541],,wards/tower_shield.png

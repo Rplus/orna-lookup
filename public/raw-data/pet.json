@@ -3680,5 +3680,59 @@
         "name": "Ward of Iron"
       }
     ]
+  },
+  {
+    "id": 131,
+    "name": "Kin of Kerberos",
+    "description": "Arisen from the deep depths of the Underworld. Available for a limited time only.",
+    "image": "bosses/kerberos.png",
+    "tier": 5,
+    "cost": 0,
+    "stats": {
+      "attack": 7,
+      "buff": 15
+    },
+    "skills": [
+      {
+        "id": 591,
+        "name": "Earth Alignment"
+      },
+      {
+        "id": 593,
+        "name": "Fire Alignment"
+      },
+      {
+        "id": 594,
+        "name": "Ice Alignment"
+      },
+      {
+        "id": 592,
+        "name": "Lightning Alignment"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Amadan",
+    "description": "Available for a limited time only.",
+    "image": "wards/tower_shield.png",
+    "tier": 8,
+    "cost": 500000,
+    "stats": {
+      "attack": 1,
+      "spell": 20,
+      "buff": 4,
+      "protect": 2
+    },
+    "skills": [
+      {
+        "id": 636,
+        "name": "Haste"
+      },
+      {
+        "id": 643,
+        "name": "Lacunus"
+      }
+    ]
   }
 ]

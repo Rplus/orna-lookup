@@ -72153,5 +72153,362 @@
       "Frozen"
     ],
     "category": "Daggers"
+  },
+  {
+    "name": "Finn's Spear",
+    "id": 1537,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "attack": {
+        "base": 12
+      },
+      "crit": {
+        "base": 1
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "ward": {
+        "base": 8
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 516,
+        "name": "Finn"
+      }
+    ]
+  },
+  {
+    "name": "Conall's Wand",
+    "id": 1538,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "magic": {
+        "base": 30
+      },
+      "resistance": {
+        "base": 20
+      },
+      "ward": {
+        "base": 8
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 515,
+        "name": "Conall"
+      }
+    ]
+  },
+  {
+    "name": "Aine's Axe",
+    "id": 1539,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "attack": {
+        "base": 24
+      },
+      "magic": {
+        "base": 24
+      },
+      "ward": {
+        "base": 8
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 514,
+        "name": "Aine"
+      }
+    ]
+  },
+  {
+    "name": "Amergin's Razor",
+    "id": 1540,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 6,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "attack": {
+        "base": 24
+      },
+      "magic": {
+        "base": 24
+      },
+      "ward": {
+        "base": 12
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 513,
+        "name": "Amergin"
+      }
+    ],
+    "causes": [
+      "Bleeding"
+    ],
+    "prevents": [
+      "Bleeding"
+    ]
+  },
+  {
+    "name": "Bricriu's Bow",
+    "id": 1541,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 6,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "attack": {
+        "base": 24
+      },
+      "magic": {
+        "base": 24
+      },
+      "ward": {
+        "base": 12
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 520,
+        "name": "Bricriu"
+      }
+    ],
+    "causes": [
+      "Stunned"
+    ]
+  },
+  {
+    "name": "Cormac's Shotel",
+    "id": 1542,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 6,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "crit": {
+        "base": 8
+      },
+      "dexterity": {
+        "base": 120
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 512,
+        "name": "Cormac"
+      }
+    ],
+    "gives": [
+      "Bleeding"
+    ]
+  },
+  {
+    "name": "Amadan's Staff",
+    "id": 1543,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "magic": {
+        "base": 60
+      },
+      "resistance": {
+        "base": 60
+      },
+      "ward": {
+        "base": 8
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 517,
+        "name": "Amadan"
+      }
+    ],
+    "causes": [
+      "Stasis"
+    ]
+  },
+  {
+    "name": "Beag's Lute",
+    "id": 1544,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "attack": {
+        "base": 24
+      },
+      "crit": {
+        "base": 1
+      },
+      "defense": {
+        "base": 24
+      },
+      "magic": {
+        "base": 24
+      },
+      "resistance": {
+        "base": 24
+      },
+      "ward": {
+        "base": 14
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 518,
+        "name": "Beag"
+      }
+    ]
+  },
+  {
+    "name": "Fergus's Hammer",
+    "id": 1545,
+    "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand.",
+    "type": "Off-hand",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "wards/tower_shield.png",
+    "stats": {
+      "defense": {
+        "base": 90
+      },
+      "resistance": {
+        "base": 9
+      },
+      "ward": {
+        "base": 28
+      }
+    },
+    "materials": [
+      {
+        "id": 263,
+        "name": "Iron"
+      },
+      {
+        "id": 283,
+        "name": "Wood"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 519,
+        "name": "Fergus"
+      }
+    ]
   }
 ]
