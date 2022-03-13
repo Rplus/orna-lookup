@@ -37964,6 +37964,7 @@
       275
     ],
     "image": "armor/phoenix_hood.png",
+    "slots": 9,
     "description": "Hood of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -37993,6 +37994,7 @@
       275
     ],
     "image": "armor/phoenix_helm.png",
+    "slots": 9,
     "description": "Helmet of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38023,6 +38025,7 @@
       275
     ],
     "image": "armor/phoenix_hood.png",
+    "slots": 9,
     "description": "Headwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38052,6 +38055,7 @@
       275
     ],
     "image": "armor/phoenix_robe.png",
+    "slots": 9,
     "description": "Robe of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38081,6 +38085,7 @@
       275
     ],
     "image": "armor/phoenix_armor.png",
+    "slots": 9,
     "description": "Heavy armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38111,6 +38116,7 @@
       275
     ],
     "image": "armor/phoenix_garb.png",
+    "slots": 9,
     "description": "Light armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38141,6 +38147,7 @@
       275
     ],
     "image": "armor/phoenix_boots.png",
+    "slots": 9,
     "description": "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38170,6 +38177,7 @@
       275
     ],
     "image": "armor/phoenix_leggings.png",
+    "slots": 9,
     "description": "Heavy leg armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38200,6 +38208,7 @@
       275
     ],
     "image": "armor/phoenix_boots.png",
+    "slots": 9,
     "description": "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38248,6 +38257,7 @@
       275
     ],
     "image": "armor/phoenix_helm.png",
+    "slots": 9,
     "description": "Helmet of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38278,6 +38288,7 @@
       275
     ],
     "image": "armor/phoenix_hood.png",
+    "slots": 9,
     "description": "Headwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38307,6 +38318,7 @@
       275
     ],
     "image": "armor/phoenix_hood.png",
+    "slots": 9,
     "description": "Hood of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38336,6 +38348,7 @@
       275
     ],
     "image": "armor/phoenix_robe.png",
+    "slots": 9,
     "description": "Robe of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38365,6 +38378,7 @@
       275
     ],
     "image": "armor/phoenix_armor.png",
+    "slots": 9,
     "description": "Heavy armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38395,6 +38409,7 @@
       275
     ],
     "image": "armor/phoenix_garb.png",
+    "slots": 9,
     "description": "Garb of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38424,6 +38439,7 @@
       275
     ],
     "image": "armor/phoenix_leggings.png",
+    "slots": 9,
     "description": "Heavy leg armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38454,6 +38470,7 @@
       275
     ],
     "image": "armor/phoenix_boots.png",
+    "slots": 9,
     "description": "Shoes of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38484,6 +38501,7 @@
       275
     ],
     "image": "armor/phoenix_boots.png",
+    "slots": 9,
     "description": "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
   },
   {
@@ -38594,6 +38612,7 @@
       282
     ],
     "image": "weapons/kerberos_staff.png",
+    "slots": 8,
     "rarity": "g",
     "description": "Mighty staff, representative of the relentless Kerberos."
   },
@@ -38619,6 +38638,7 @@
       282
     ],
     "image": "weapons/kerberos_sword.png",
+    "slots": 8,
     "rarity": "g",
     "description": "Mighty sword, representative of the relentless Kerberos."
   },
@@ -38647,6 +38667,7 @@
       282
     ],
     "image": "armor/kerberos_hood.png",
+    "slots": 9,
     "rarity": "g",
     "description": "A durable hood forged of the remains of the relentless Kerberos. It protects its wearer from becoming frozen."
   },
@@ -38675,6 +38696,7 @@
       282
     ],
     "image": "weapons/kerberos_claws.png",
+    "slots": 12,
     "rarity": "g",
     "description": "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
   },
@@ -38801,6 +38823,11 @@
       263,
       283
     ],
+    "image": "wards/spear.png",
+    "other_effect": [
+      "技能: Impale"
+    ],
+    "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38825,6 +38852,11 @@
       263,
       283
     ],
+    "image": "wards/wand.png",
+    "other_effect": [
+      "技能: Lacuna"
+    ],
+    "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38849,6 +38881,11 @@
       263,
       283
     ],
+    "image": "wards/axe.png",
+    "other_effect": [
+      "技能: Pommel Strike"
+    ],
+    "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38872,6 +38909,9 @@
     "causes": [
       "Bleeding"
     ],
+    "gives": [
+      "Bleeding"
+    ],
     "dropped_by": [
       513
     ],
@@ -38879,6 +38919,11 @@
       263,
       283
     ],
+    "image": "wards/knife.png",
+    "other_effect": [
+      "技能: Horizontal Slash"
+    ],
+    "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38906,6 +38951,11 @@
       263,
       283
     ],
+    "image": "wards/bow.png",
+    "other_effect": [
+      "技能: Arrowstorm"
+    ],
+    "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38932,6 +38982,11 @@
       263,
       283
     ],
+    "image": "wards/shotel.png",
+    "other_effect": [
+      "技能: Upward Strike"
+    ],
+    "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
@@ -38960,6 +39015,12 @@
       263,
       283
     ],
+    "image": "wards/staff.png",
+    "other_effect": [
+      "技能: Lacunus"
+    ],
+    "slots": 2,
+    "rarity": "p",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
   {
@@ -38986,6 +39047,12 @@
       263,
       283
     ],
+    "image": "wards/lute.png",
+    "other_effect": [
+      "技能: Anthem"
+    ],
+    "slots": 2,
+    "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   },
   {
@@ -39009,6 +39076,12 @@
       263,
       283
     ],
+    "image": "wards/hammer.png",
+    "other_effect": [
+      "技能: Pommel Strike"
+    ],
+    "slots": 2,
+    "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
   }
 ]
