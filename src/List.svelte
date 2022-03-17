@@ -10,7 +10,7 @@
   $: sortDirASC = true;
 
   let filteredItems = [];
-  $: maxItem = 50;
+  $: maxItem = 20;
   $: maxDetailsItem = 20;
   $: showDetails = filteredItems.length <= maxDetailsItem || maxItem <= maxDetailsItem;
 
