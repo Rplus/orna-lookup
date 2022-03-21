@@ -46,6 +46,8 @@
 <hr>
 
 <footer>
+  go to check <a href="./monster/">Monsters Strategy</a><br>
+  -- <br>
   * comment on <a href="https://docs.google.com/spreadsheets/d/1JZM_9U7hYtq39T0BeZHaUrJVKSWWNfxLxcZnrJPiHBQ/edit#gid=2050818910">Google spreadsheet</a> to update data <br>
   -- <br>
   * repo: <a href="https://github.com/rplus/orna-lookup" target="_blank">Rplus/orna-lookup</a> <br>
