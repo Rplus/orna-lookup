@@ -209,6 +209,7 @@
   display: var(--item-info--disply, none);
   flex-wrap: wrap;
   align-items: flex-end;
+  padding-right: 3em;
   font-weight: normal;
   color: #fff9;
   font-family: monospace;
