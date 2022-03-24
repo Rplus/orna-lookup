@@ -42488,7 +42488,7 @@
     "materials": "[345,283]",
     "quests": "",
     "image": "wards/arcane_arrows.png",
-    "other_effect": "",
+    "other_effect": "[\"技能: Volley II\"]",
     "two_handed": "",
     "slots": "",
     "rarity": "",
@@ -48810,7 +48810,7 @@
     "other_effect": "",
     "two_handed": "",
     "slots": "13",
-    "rarity": "",
+    "rarity": "p",
     "description": "The fabled crown of king Balor."
   },
   {
