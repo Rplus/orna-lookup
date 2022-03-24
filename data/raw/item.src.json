@@ -32141,6 +32141,9 @@
       283
     ],
     "image": "wards/arcane_arrows.png",
+    "other_effect": [
+      "技能: Volley II"
+    ],
     "description": "A quiver of arrows carried by Badb, the rogue witch. Carrying them will increase both attack power and dexterity, while potentially poisoning or causing an opponent to rot."
   },
   {
@@ -36938,6 +36941,7 @@
     ],
     "image": "armor/crown.png",
     "slots": 13,
+    "rarity": "p",
     "description": "The fabled crown of king Balor."
   },
   {
