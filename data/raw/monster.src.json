@@ -7205,6 +7205,19 @@
     "spawns": [
       "Kingdom Raid"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight",
+      "Petrified"
+    ],
     "vulnerable_to_status": [
       "Lulled"
     ],
