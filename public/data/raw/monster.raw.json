@@ -4932,7 +4932,7 @@
     "weak_to": "",
     "immune_to": "",
     "resistant_to": "",
-    "immune_to_status": "",
+    "immune_to_status": "[\"Poisoned\",\"Bleeding\",\"Burning\",\"Frozen\",\"Paralyzed\",\"Rot\",\"Blind\",\"Asleep\",\"Stunned\",\"Blight\",\"Petrified\"]",
     "vulnerable_to_status": "[\"Lulled\"]",
     "skills": "[253,166,167,70,146,242,123,74,149,184,204,213,153,163,164]",
     "drops": "[447,605,603,610,608,607,606,604,600,919,601,611,602,609,599,667]",
