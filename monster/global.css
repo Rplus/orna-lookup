@@ -168,3 +168,7 @@ img {
   border-style: dotted;
   font-weight: inherit;
 }
+
+.text-center {
+  text-align: center;
+}
