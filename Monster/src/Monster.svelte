@@ -64,43 +64,43 @@
     <summary class="text-center">
       <img class="avatar" src="https://playorna.com/static/img/{monster.image}" alt={monster.zh}>
     </summary>
-  <div class="info flex text-start">
-    <dl>
-      {#each spec as point}
-        <dt>{$_(point.prop)}</dt>
-        <dd>
-          {#each point.value as _type}
-            <label>
-              <input type="checkbox" readonly />
-              <span>
-                {$_(_type)}
-              </span>
-            </label>
-          {/each}
-        </dd>
-      {/each}
-    </dl>
-
-    <dl>
-      <dt>Debuffs</dt>
-      {#if monster.skills_effect}
-        {#each monster.skills_effect as debuff}
+    <div class="info flex text-start">
+      <dl>
+        {#each spec as point}
+          <dt>{$_(point.prop)}</dt>
           <dd>
-            <label>
-              <input type="checkbox" readonly />
-              <span>
-                {$_(debuff)}
-              </span>
-              <a href="https://rplus.github.io/orna-lookup/?prevents={debuff}" target="ornagle">↗</a>
-            </label>
+            {#each point.value as _type}
+              <label>
+                <input type="checkbox" readonly />
+                <span>
+                  {$_(_type)}
+                </span>
+              </label>
+            {/each}
           </dd>
         {/each}
-      {/if}
-    </dl>
+      </dl>
 
-  </div>
+      <dl>
+        <dt>Debuffs</dt>
+        {#if monster.skills_effect}
+          {#each monster.skills_effect as debuff}
+            <dd>
+              <label>
+                <input type="checkbox" readonly />
+                <span>
+                  {$_(debuff)}
+                </span>
+                <a href="https://rplus.github.io/orna-lookup/?prevents={debuff}" target="ornagle">↗</a>
+              </label>
+            </dd>
+          {/each}
+        {/if}
+      </dl>
 
-  <Chart types={skill_types} />
+    </div>
+
+    <Chart types={skill_types} />
 
     <div class="text-center">
       <em>
