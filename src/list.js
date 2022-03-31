@@ -13,8 +13,10 @@ export const words = {
   'Drenched': '濕滑',
   'Cursed': '詛咒',
   'Toxic': '劇毒',
-  'Lulled': '安份',
+  'Lulled': '恍惚',
   'Stasis': '停滯',
+  'Doom': '厄運',
+  'Confused': '迷惑',
 
   'Mage': '法師',
   'Thief': '盜賊',
