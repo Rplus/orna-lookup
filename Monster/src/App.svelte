@@ -143,6 +143,7 @@
       bind:value={queryId}
       pattern="[1-5]?[0-9]?[0-9]"
       title="1~500 數字"
+      accesskey="s"
     />
     <datalist id="monster_name">
       {#each queryData[queryType] as monster}

@@ -59,8 +59,11 @@
     </sup>
   </header>
 
-  <img class="avatar" src="https://playorna.com/static/img/{monster.image}" alt={monster.zh}>
 
+  <details open>
+    <summary class="text-center">
+      <img class="avatar" src="https://playorna.com/static/img/{monster.image}" alt={monster.zh}>
+    </summary>
   <div class="info flex text-start">
     <dl>
       {#each spec as point}
@@ -98,6 +101,13 @@
   </div>
 
   <Chart types={skill_types} />
+
+    <div class="text-center">
+      <em>
+        Spawns: {monster.spawns}
+      </em>
+    </div>
+  </details>
 
   <hr>
 
