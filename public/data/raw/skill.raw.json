@@ -4874,7 +4874,7 @@
   {
     "id": "202",
     "name": "Holystrike III",
-    "zh": "神聖之擊 III",
+    "zh": "聖光之擊 III",
     "tier": "7",
     "type": "Attack",
     "element": "Holy",
@@ -5142,7 +5142,7 @@
     "ward": "",
     "hp": "",
     "crit": "",
-    "cures": "",
+    "cures": "[\"Frozen\",\"Asleep\"]",
     "gives": "",
     "causes": "",
     "buffed_by": "",

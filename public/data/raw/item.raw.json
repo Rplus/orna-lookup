@@ -28831,7 +28831,7 @@
   {
     "id": "868",
     "name": "Mirror",
-    "zh": "鏡像",
+    "zh": "魔鏡",
     "tier": "5",
     "type": "Off-hand",
     "boss": "",
@@ -39354,7 +39354,7 @@
     "stats.hp": "-70",
     "stats.mana": "-70",
     "prevents": "",
-    "causes": "[\"Cursed\"]",
+    "causes": "[\"Cursed\",\"Doom\"]",
     "cures": "",
     "gives": "",
     "dropped_by": "[401]",
@@ -45250,7 +45250,7 @@
   {
     "id": "1356",
     "name": "Finesse's Enchanted Epee",
-    "zh": "芬尼斯的迷人巨劍",
+    "zh": "芬尼斯的迷人刺劍",
     "tier": "10",
     "type": "Weapon",
     "boss": "1",

@@ -2567,7 +2567,7 @@
   {
     "id": "145",
     "name": "Ljosalfar Mage",
-    "zh": "光之精靈法師",
+    "zh": "日之精靈法師",
     "tier": "8",
     "level": "",
     "boss": "",
@@ -2605,7 +2605,7 @@
   {
     "id": "147",
     "name": "Ljosalfar",
-    "zh": "光之精靈",
+    "zh": "日之精靈",
     "tier": "8",
     "level": "",
     "boss": "",
@@ -2624,7 +2624,7 @@
   {
     "id": "148",
     "name": "Ljosalfar Knight",
-    "zh": "光之精靈騎士",
+    "zh": "日之精靈騎士",
     "tier": "8",
     "level": "",
     "boss": "",
@@ -2662,7 +2662,7 @@
   {
     "id": "150",
     "name": "Ljosalfar Lord",
-    "zh": "光之精靈領主",
+    "zh": "日之精靈領主",
     "tier": "8",
     "level": "180",
     "boss": "1",
@@ -3726,7 +3726,7 @@
   {
     "id": "213",
     "name": "Dokkalfar",
-    "zh": "暗之精靈",
+    "zh": "夜之精靈",
     "tier": "8",
     "level": "",
     "boss": "",
@@ -3745,7 +3745,7 @@
   {
     "id": "214",
     "name": "Dokkalfar Knight",
-    "zh": "暗之精靈騎士",
+    "zh": "夜之精靈騎士",
     "tier": "8",
     "level": "",
     "boss": "",
@@ -3783,7 +3783,7 @@
   {
     "id": "217",
     "name": "Dokkalfar Lord",
-    "zh": "暗之精靈領主",
+    "zh": "夜之精靈領主",
     "tier": "8",
     "level": "200",
     "boss": "1",
@@ -4372,7 +4372,7 @@
   {
     "id": "250",
     "name": "Dokkalfar Warlock",
-    "zh": "暗之精靈術士",
+    "zh": "夜之精靈術士",
     "tier": "8",
     "level": "",
     "boss": "",
@@ -6158,7 +6158,7 @@
   {
     "id": "344",
     "name": "King of Ljosalfar",
-    "zh": "光之精靈王",
+    "zh": "日之精靈王",
     "tier": "5",
     "level": "125",
     "boss": "1",
@@ -6177,7 +6177,7 @@
   {
     "id": "345",
     "name": "Queen of Dokkalfar",
-    "zh": "暗之精靈女王",
+    "zh": "夜之精靈女王",
     "tier": "8",
     "level": "0",
     "boss": "1",
