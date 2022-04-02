@@ -46,7 +46,7 @@
   async function getData() {
     const raw_monsters = await fetchJSON('../data/monster.min.json');
     const raw_skills = await fetchJSON('../data/skill.min.json');
-    const raw_items = await fetchJSON('../data/item-lite.min.json');
+    const raw_items = await fetchJSON('../data/item.min.json');
     const raw_pets = await fetchJSON('../data/pet.min.json');
 
     if (!raw_skills || !raw_monsters || !raw_items || !raw_pets) {
