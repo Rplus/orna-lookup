@@ -6988,7 +6988,7 @@
   {
     "id": 202,
     "name": "Holystrike III",
-    "zh": "神聖之擊 III",
+    "zh": "聖光之擊 III",
     "tier": 7,
     "type": "Attack",
     "element": "Holy",
@@ -7256,6 +7256,10 @@
     "tier": 6,
     "type": "Multi-round Attack",
     "mana_cost": 1,
+    "cures": [
+      "Frozen",
+      "Asleep"
+    ],
     "monsters_use": [
       276,
       430,

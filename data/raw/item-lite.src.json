@@ -5938,7 +5938,7 @@
   {
     "id": 868,
     "name": "Mirror",
-    "zh": "鏡像",
+    "zh": "魔鏡",
     "tier": 5,
     "image": "wards/mirror.png"
   },
@@ -9319,7 +9319,7 @@
   {
     "id": 1356,
     "name": "Finesse's Enchanted Epee",
-    "zh": "芬尼斯的迷人巨劍",
+    "zh": "芬尼斯的迷人刺劍",
     "tier": 10,
     "image": "weapons/epee.png"
   },
