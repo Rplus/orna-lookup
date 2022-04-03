@@ -6134,7 +6134,8 @@
     "mana_cost": 100,
     "causes": [
       "Paralyzed",
-      "Res ↓↓"
+      "Res ↓↓",
+      "Confused"
     ],
     "pets_use": [
       23,

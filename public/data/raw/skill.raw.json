@@ -4276,7 +4276,7 @@
     "crit": "",
     "cures": "",
     "gives": "",
-    "causes": "[\"Paralyzed\",\"Res ↓↓\"]",
+    "causes": "[\"Paralyzed\",\"Res ↓↓\",\"Confused\"]",
     "buffed_by": "",
     "pets_use": "[23,128,79,83]",
     "monsters_use": "[129,276,430,141,287,335]",

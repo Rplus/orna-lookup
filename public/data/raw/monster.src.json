@@ -7132,6 +7132,18 @@
     "resistant_to": [
       "Fire"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight"
+    ],
     "vulnerable_to_status": [
       "Petrified",
       "Lulled"
@@ -12723,6 +12735,18 @@
     "resistant_to": [
       "Fire"
     ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight"
+    ],
     "vulnerable_to_status": [
       "Petrified",
       "Lulled"
@@ -12775,6 +12799,18 @@
     ],
     "resistant_to": [
       "Fire"
+    ],
+    "immune_to_status": [
+      "Poisoned",
+      "Bleeding",
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Blight"
     ],
     "vulnerable_to_status": [
       "Petrified",
