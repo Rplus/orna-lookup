@@ -3734,5 +3734,140 @@
         "name": "Lacunus"
       }
     ]
+  },
+  {
+    "id": 133,
+    "name": "Steward Cactus",
+    "description": "A Steward in the form of a Cactus.",
+    "image": "statuses/confuse.png",
+    "tier": 8,
+    "cost": 0,
+    "stats": {},
+    "skills": [
+      {
+        "id": 134,
+        "name": "Arrowstorm"
+      },
+      {
+        "id": 445,
+        "name": "Arrowstorm II"
+      },
+      {
+        "id": 635,
+        "name": "Natura"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Steward Dragon",
+    "description": "A Steward in the form of a dragon.",
+    "image": "statuses/confuse.png",
+    "tier": 8,
+    "cost": 0,
+    "stats": {},
+    "skills": [
+      {
+        "id": 342,
+        "name": "Blightstrike III"
+      },
+      {
+        "id": 119,
+        "name": "Dispel"
+      },
+      {
+        "id": 128,
+        "name": "Holy Light"
+      },
+      {
+        "id": 129,
+        "name": "Miracle"
+      },
+      {
+        "id": 632,
+        "name": "Wildfire"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Steward Gazer",
+    "description": "A Steward in the form of a Gazer.",
+    "image": "statuses/confuse.png",
+    "tier": 8,
+    "cost": 0,
+    "stats": {},
+    "skills": [
+      {
+        "id": 630,
+        "name": "Chain Lightning II"
+      },
+      {
+        "id": 470,
+        "name": "Fey Spark III"
+      },
+      {
+        "id": 340,
+        "name": "Jump II"
+      },
+      {
+        "id": 171,
+        "name": "Mindblast"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Steward Golem",
+    "description": "A Steward in the form of a golem.",
+    "image": "statuses/confuse.png",
+    "tier": 8,
+    "cost": 0,
+    "stats": {},
+    "skills": [
+      {
+        "id": 614,
+        "name": "Bastion III"
+      },
+      {
+        "id": 294,
+        "name": "Mend Wall III"
+      },
+      {
+        "id": 136,
+        "name": "Prism Wall"
+      },
+      {
+        "id": 299,
+        "name": "Ward of Mythril"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Steward Wolf",
+    "description": "A Steward in the form of a wolf.",
+    "image": "statuses/confuse.png",
+    "tier": 8,
+    "cost": 0,
+    "stats": {},
+    "skills": [
+      {
+        "id": 182,
+        "name": "Bloodlust"
+      },
+      {
+        "id": 285,
+        "name": "Doublecut II"
+      },
+      {
+        "id": 165,
+        "name": "Quick Attack"
+      },
+      {
+        "id": 244,
+        "name": "Sidesteps"
+      }
+    ]
   }
 ]

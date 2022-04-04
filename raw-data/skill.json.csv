@@ -632,3 +632,12 @@ id,name,zh,tier,type,element,is_magic,bought,cost,mana_cost,m1,m2.max,m2.min,tur
 658,Requiem,安魂曲,1,Magic,,1,,,,,,,,,,,,,,"[""Lulled""]",,,,,N/A
 659,Upward Strike,豬突猛進,6,Magic,,,,,,,,,,,,,,,,,,,,,"Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle."
 660,Anthem,,8,Buff,,1,,,,,,,,,,,,,,,,,,,"Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats."
+661,Confuse,,2,Debuff,,1,,,,,,,,,,,,,,"[""Confused""]",,,"[525,386,494,304,335]",,Confuses an opponent.
+662,Doom,,7,Debuff,,1,,,,,,,,,,,,,,"[""Doom""]",,,[310],,Dooms an opponent.
+663,Doom II,,9,Debuff,,1,,,,,,,,,,,,,,"[""Doom""]",,,[526],,Dooms an opponent.
+664,Requiem II,安魂曲 II,1,Magic,,1,,,,,,,,,,,,,,"[""Lulled""]",,,,,Deals moderate non-elemental damage and may lull an opponent.
+665,Requiem III,安魂曲 III,1,Magic,,1,,,,,,,,,,,,,,"[""Lulled""]",,,,,Deals moderate non-elemental damage and may lull an opponent.
+666,Solarseals,,7,Magic,Holy,1,,,50,,,,,,,,,,,,,,,,Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.
+667,Solarstrikes,,7,Attack,Holy,,,,50,,,,,,,,,,,,,,,,Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.
+668,Comet II,,5,Magic,,1,,,,,,,,,,,,,,"[""Frozen"",""Startstruck""]",,,[526],,"Summon a frozen comet, with the chance of freezing your opponent."
+669,Bright Star II,,9,Magic,,1,,,,,,,,,,,,,,"[""Blind"",""Startstruck""]",,,[526],,"Summon a bright star, with the chance of blinding your opponent."

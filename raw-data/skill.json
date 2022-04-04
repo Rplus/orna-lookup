@@ -25167,5 +25167,159 @@
     "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats.",
     "is_magic": true,
     "bought": false
+  },
+  {
+    "name": "Confuse",
+    "id": 661,
+    "tier": 2,
+    "type": "Debuff",
+    "description": "Confuses an opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Confused"
+    ],
+    "monsters_use": [
+      {
+        "id": 525,
+        "name": "Fomorian Lord"
+      },
+      {
+        "id": 386,
+        "name": "Balor Gateway"
+      },
+      {
+        "id": 494,
+        "name": "Balor Gateway"
+      },
+      {
+        "id": 304,
+        "name": "Mighty Mimic"
+      },
+      {
+        "id": 335,
+        "name": "Arisen Mimic King"
+      }
+    ]
+  },
+  {
+    "name": "Doom",
+    "id": 662,
+    "tier": 7,
+    "type": "Debuff",
+    "description": "Dooms an opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Doom"
+    ],
+    "monsters_use": [
+      {
+        "id": 310,
+        "name": "Arisen Ankou"
+      }
+    ]
+  },
+  {
+    "name": "Doom II",
+    "id": 663,
+    "tier": 9,
+    "type": "Debuff",
+    "description": "Dooms an opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Doom"
+    ],
+    "monsters_use": [
+      {
+        "id": 526,
+        "name": "Knight Sirius"
+      }
+    ]
+  },
+  {
+    "name": "Requiem II",
+    "id": 664,
+    "tier": 1,
+    "type": "Magic",
+    "description": "Deals moderate non-elemental damage and may lull an opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Lulled"
+    ]
+  },
+  {
+    "name": "Requiem III",
+    "id": 665,
+    "tier": 1,
+    "type": "Magic",
+    "description": "Deals moderate non-elemental damage and may lull an opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Lulled"
+    ]
+  },
+  {
+    "name": "Solarseals",
+    "id": 666,
+    "tier": 7,
+    "type": "Magic",
+    "description": "Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.",
+    "is_magic": true,
+    "bought": false,
+    "element": "Holy",
+    "mana_cost": 50
+  },
+  {
+    "name": "Solarstrikes",
+    "id": 667,
+    "tier": 7,
+    "type": "Attack",
+    "description": "Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.",
+    "is_magic": false,
+    "bought": false,
+    "element": "Holy",
+    "mana_cost": 50
+  },
+  {
+    "name": "Comet II",
+    "id": 668,
+    "tier": 5,
+    "type": "Magic",
+    "description": "Summon a frozen comet, with the chance of freezing your opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Frozen",
+      "Startstruck"
+    ],
+    "monsters_use": [
+      {
+        "id": 526,
+        "name": "Knight Sirius"
+      }
+    ]
+  },
+  {
+    "name": "Bright Star II",
+    "id": 669,
+    "tier": 9,
+    "type": "Magic",
+    "description": "Summon a bright star, with the chance of blinding your opponent.",
+    "is_magic": true,
+    "bought": false,
+    "causes": [
+      "Blind",
+      "Startstruck"
+    ],
+    "monsters_use": [
+      {
+        "id": 526,
+        "name": "Knight Sirius"
+      }
+    ]
   }
 ]

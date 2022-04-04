@@ -72510,5 +72510,386 @@
         "name": "Fergus"
       }
     ]
+  },
+  {
+    "name": "Naggeneen's Belt",
+    "id": 1546,
+    "description": "Belt of the mischievous clurichaun, Naggeneen. It will slightly protect one from status effects while making it easier to apply status effects to your opponents.",
+    "type": "Accessory",
+    "tier": 7,
+    "boss": false,
+    "arena": false,
+    "image": "acc/naggeneenbelt.png",
+    "stats": {
+      "dexterity": {
+        "base": 50
+      },
+      "mana": {
+        "base": 50
+      }
+    },
+    "dropped_by": [
+      {
+        "id": 273,
+        "name": "Naggeneen"
+      },
+      {
+        "id": 337,
+        "name": "Arisen Naggeneen"
+      }
+    ]
+  },
+  {
+    "name": "Lordly Monster Tome",
+    "id": 1547,
+    "description": "A large tome of monster knowledge. Increases experience earned.",
+    "type": "Accessory",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "acc/great_monster_tome.png",
+    "dropped_by": [
+      {
+        "id": 525,
+        "name": "Fomorian Lord"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Donta's Shield",
+    "id": 1548,
+    "description": "Shield of Donta, once a great hero of the Order of the Unfelled. Donta had fallen in the battle of 992 DCE to Balor forces, leaving Mara indefinitely to search for her in love.",
+    "type": "Off-hand",
+    "tier": 5,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "stats": {
+      "hp": {
+        "base": 90
+      },
+      "ward": {
+        "base": 19
+      }
+    },
+    "element": "Dark",
+    "dropped_by": [
+      {
+        "id": 522,
+        "name": "Fallen Hero, Lover Lost"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Mara's Blessing",
+    "id": 1549,
+    "description": "A charm imbued with Seeker Mara's magic. It will both help you see farther while increasing the life and mana healed by potions.",
+    "type": "Accessory",
+    "tier": 3,
+    "boss": false,
+    "arena": false,
+    "image": "acc/amulet.png",
+    "view_distance": 1,
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Lover's Lost",
+    "id": 1550,
+    "description": "A luring charm made by Ceres to attract a certain powerful Fallen hero. Wearing it will attract additional monsters.",
+    "type": "Accessory",
+    "tier": 5,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Arisen Stone Dagger",
+    "id": 1551,
+    "description": "A dagger, once a fixture upon a noble statue. It has a small chance of petrifying an opponent.",
+    "type": "Weapon",
+    "tier": 9,
+    "boss": false,
+    "arena": false,
+    "image": "weapons/stone_dagger.png",
+    "stats": {
+      "attack": {
+        "base": 215
+      },
+      "crit": {
+        "base": 1
+      },
+      "dexterity": {
+        "base": 48
+      }
+    },
+    "materials": [
+      {
+        "id": 250,
+        "name": "Broken Statue"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 521,
+        "name": "Arisen Carman's Gargoyle"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 3,
+        "name": "Thief"
+      }
+    ],
+    "causes": [
+      "Petrified"
+    ],
+    "category": "Daggers"
+  },
+  {
+    "name": "Bird Whistle",
+    "id": 1552,
+    "description": "A simple whistle useful for calling birds from trees.",
+    "type": "Other",
+    "tier": 3,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Solar Secrets",
+    "id": 1553,
+    "description": "A scroll of destructive solar magic crafted by Emile. Using it will grant the skills \"Solarstrikes\" and \"Solarseals\".",
+    "type": "Item",
+    "tier": 7,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Galar's Hammer",
+    "id": 1554,
+    "description": "A fine hammer used by Galar. Using this item before upgrading equipment at the blacksmith will reduce the time needed to complete the upgrades.",
+    "type": "Item",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Myrkheim Hammer",
+    "id": 1555,
+    "description": "A fine hammer used by the skilled smiths of Myrkheim. Using this item before upgrading equipment at the blacksmith will greatly reduce the time needed to complete the upgrades.",
+    "type": "Item",
+    "tier": 10,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Questing License",
+    "id": 1556,
+    "description": "A simple piece of parchment given to you by Samson. Using this item will temporarily improve the gold, orns and experience earned when completing the quests.",
+    "type": "Item",
+    "tier": 1,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Steward Candle",
+    "id": 1557,
+    "description": "A candle gifted by Damra as part of the Steward ritual. Light it to summon your Steward.",
+    "type": "Item",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Realmcrystal",
+    "id": 1558,
+    "description": "An oddly shaped crystal fallen from Olympia. Using it will allow one to return to another realm without wait.",
+    "type": "Item",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
+  },
+  {
+    "name": "Decor Token",
+    "id": 1559,
+    "description": "A token allowing one to build a decoration in their area.",
+    "type": "Other",
+    "tier": 1,
+    "boss": false,
+    "arena": false,
+    "image": "useables/decor_token.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
   }
 ]

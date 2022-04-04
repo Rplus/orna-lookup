@@ -15680,5 +15680,364 @@
       1541
     ],
     "image": "wards/tower_shield.png"
+  },
+  {
+    "id": 521,
+    "name": "Arisen Carman's Gargoyle",
+    "zh": "重生的卡門的石像鬼",
+    "tier": 9,
+    "skills": [
+      170,
+      414,
+      212
+    ],
+    "drops": [
+      250,
+      1551
+    ],
+    "image": "monsters/gargoyle.png"
+  },
+  {
+    "id": 522,
+    "name": "Fallen Hero, Lover Lost",
+    "zh": "Fallen Hero, Lover Lost",
+    "tier": 5,
+    "level": 120,
+    "boss": 1,
+    "weak_to": [
+      "Holy"
+    ],
+    "immune_to": [
+      "Dark"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Poisoned",
+      "Blight",
+      "Asleep",
+      "Rot"
+    ],
+    "skills": [
+      464,
+      458,
+      294,
+      153,
+      136,
+      305,
+      155
+    ],
+    "drops": [
+      1548
+    ],
+    "image": "bosses/donta.png"
+  },
+  {
+    "id": 523,
+    "name": "Enlightened Queen",
+    "zh": "Enlightened Queen",
+    "tier": 7,
+    "level": 180,
+    "boss": 1,
+    "skills": [
+      130,
+      367,
+      155,
+      530,
+      180,
+      67
+    ],
+    "drops": [
+      268
+    ],
+    "image": "bosses/enlightened_queen.png"
+  },
+  {
+    "id": 524,
+    "name": "Enlightened King",
+    "zh": "Enlightened King",
+    "tier": 7,
+    "level": 180,
+    "boss": 1,
+    "skills": [
+      130,
+      367,
+      155,
+      530,
+      180,
+      67
+    ],
+    "drops": [
+      268
+    ],
+    "image": "bosses/enlightened_king.png"
+  },
+  {
+    "id": 525,
+    "name": "Fomorian Lord",
+    "zh": "弗摩爾領主",
+    "tier": 4,
+    "level": 90,
+    "boss": 1,
+    "spawns": [
+      "Day Only"
+    ],
+    "weak_to": [
+      "Dark"
+    ],
+    "skills": [
+      69,
+      130,
+      661,
+      52,
+      54,
+      55,
+      380,
+      75,
+      78,
+      63,
+      66,
+      111
+    ],
+    "drops": [
+      1547
+    ],
+    "image": "monsters/fomorian_lord.png"
+  },
+  {
+    "id": 526,
+    "name": "Knight Sirius",
+    "zh": "Knight Sirius",
+    "tier": 9,
+    "level": 220,
+    "boss": 1,
+    "immune_to": [
+      "Dark",
+      "Dragon",
+      "Earthen",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Physical",
+      "Water"
+    ],
+    "resistant_to": [
+      "Arcane"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Asleep",
+      "Rot"
+    ],
+    "skills": [
+      669,
+      668,
+      663,
+      386,
+      437
+    ],
+    "image": "bosses/balor_knight2.png"
+  },
+  {
+    "id": 527,
+    "name": "The Fool",
+    "zh": "愚人",
+    "tier": 9,
+    "level": 220,
+    "boss": 1,
+    "spawns": [
+      "Kingdom Raid",
+      "Past Event: Fool of April",
+      "World Raid"
+    ],
+    "resistant_to": [
+      "Dark",
+      "Dragon",
+      "Earthen",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
+    ],
+    "skills": [
+      207,
+      191,
+      211,
+      195,
+      174,
+      461,
+      476,
+      477,
+      478,
+      479,
+      192,
+      462,
+      246,
+      183,
+      212,
+      247,
+      180
+    ],
+    "drops": [
+      347,
+      481,
+      19,
+      20,
+      458,
+      724,
+      642,
+      446,
+      21,
+      1205,
+      1498,
+      447,
+      692,
+      684,
+      855,
+      856,
+      908,
+      911,
+      655,
+      652,
+      1218,
+      912,
+      902,
+      875,
+      879,
+      896,
+      1195,
+      901,
+      837,
+      721,
+      838,
+      997,
+      782,
+      1142,
+      895,
+      720,
+      717,
+      1399,
+      473,
+      1356,
+      1353,
+      1346,
+      1345,
+      853
+    ],
+    "image": "packs/fools/3_f.png"
+  },
+  {
+    "id": 528,
+    "name": "The Fool",
+    "zh": "愚人",
+    "tier": 6,
+    "level": 150,
+    "boss": 1,
+    "spawns": [
+      "Kingdom Raid",
+      "Past Event: Fool of April"
+    ],
+    "resistant_to": [
+      "Dark",
+      "Dragon",
+      "Earthen",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
+    ],
+    "skills": [
+      207,
+      191,
+      211,
+      195,
+      174,
+      461,
+      476,
+      477,
+      478,
+      479,
+      192,
+      462,
+      246,
+      183,
+      212,
+      247,
+      180
+    ],
+    "drops": [
+      347,
+      481,
+      19,
+      20,
+      458,
+      724,
+      642,
+      446,
+      21,
+      1498,
+      447,
+      692,
+      684,
+      855,
+      856,
+      908,
+      911,
+      655,
+      652,
+      1218,
+      912,
+      902,
+      875,
+      879,
+      896,
+      1195,
+      901,
+      837,
+      721,
+      838,
+      997,
+      782,
+      895,
+      720,
+      717,
+      1399,
+      473,
+      1356,
+      1353,
+      1346,
+      1345,
+      853
+    ],
+    "image": "packs/fools/3_f.png"
   }
 ]
