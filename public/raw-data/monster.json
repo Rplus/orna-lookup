@@ -29778,5 +29778,852 @@
         "name": "Toxicstrike"
       }
     ]
+  },
+  {
+    "id": 521,
+    "name": "Arisen Carman's Gargoyle",
+    "tier": 9,
+    "boss": false,
+    "image": "monsters/gargoyle.png",
+    "drops": [
+      {
+        "id": 250,
+        "name": "Broken Statue"
+      },
+      {
+        "id": 1551,
+        "name": "Arisen Stone Dagger"
+      }
+    ],
+    "skills": [
+      {
+        "id": 170,
+        "name": "Petrify"
+      },
+      {
+        "id": 414,
+        "name": "Quadcut II"
+      },
+      {
+        "id": 212,
+        "name": "Stone Stare"
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "name": "Fallen Hero, Lover Lost",
+    "tier": 5,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 120,
+    "weak_to": [
+      "Holy"
+    ],
+    "immune_to": [
+      "Dark"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Poisoned",
+      "Blight",
+      "Asleep",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1548,
+        "name": "Donta's Shield"
+      }
+    ],
+    "skills": [
+      {
+        "id": 464,
+        "name": "Curse"
+      },
+      {
+        "id": 458,
+        "name": "Lunge III"
+      },
+      {
+        "id": 294,
+        "name": "Mend Wall III"
+      },
+      {
+        "id": 153,
+        "name": "Osmostrike II"
+      },
+      {
+        "id": 136,
+        "name": "Prism Wall"
+      },
+      {
+        "id": 305,
+        "name": "Rampart III"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "name": "Enlightened Queen",
+    "tier": 7,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 180,
+    "drops": [
+      {
+        "id": 268,
+        "name": "Perfect Runestone"
+      }
+    ],
+    "skills": [
+      {
+        "id": 130,
+        "name": "Comet"
+      },
+      {
+        "id": 367,
+        "name": "Rebirth"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
+      },
+      {
+        "id": 530,
+        "name": "Ultima"
+      },
+      {
+        "id": 180,
+        "name": "Wail"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "name": "Enlightened King",
+    "tier": 7,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 180,
+    "drops": [
+      {
+        "id": 268,
+        "name": "Perfect Runestone"
+      }
+    ],
+    "skills": [
+      {
+        "id": 130,
+        "name": "Comet"
+      },
+      {
+        "id": 367,
+        "name": "Rebirth"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
+      },
+      {
+        "id": 530,
+        "name": "Ultima"
+      },
+      {
+        "id": 180,
+        "name": "Wail"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "name": "Fomorian Lord",
+    "tier": 4,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 90,
+    "spawns": [
+      "Day Only"
+    ],
+    "weak_to": [
+      "Dark"
+    ],
+    "drops": [
+      {
+        "id": 1547,
+        "name": "Lordly Monster Tome"
+      }
+    ],
+    "skills": [
+      {
+        "id": 69,
+        "name": "Blizzard"
+      },
+      {
+        "id": 130,
+        "name": "Comet"
+      },
+      {
+        "id": 661,
+        "name": "Confuse"
+      },
+      {
+        "id": 52,
+        "name": "Flame II"
+      },
+      {
+        "id": 54,
+        "name": "Frost II"
+      },
+      {
+        "id": 55,
+        "name": "Great Heal"
+      },
+      {
+        "id": 380,
+        "name": "Knight's Ward"
+      },
+      {
+        "id": 75,
+        "name": "Meteor"
+      },
+      {
+        "id": 78,
+        "name": "Outwill"
+      },
+      {
+        "id": 63,
+        "name": "Quake"
+      },
+      {
+        "id": 66,
+        "name": "Spark II"
+      },
+      {
+        "id": 111,
+        "name": "Tremor II"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "name": "Knight Sirius",
+    "tier": 9,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 220,
+    "resistant_to": [
+      "Arcane"
+    ],
+    "immune_to": [
+      "Dark",
+      "Dragon",
+      "Earthen",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Physical",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Asleep",
+      "Rot"
+    ],
+    "skills": [
+      {
+        "id": 669,
+        "name": "Bright Star II"
+      },
+      {
+        "id": 668,
+        "name": "Comet II"
+      },
+      {
+        "id": 663,
+        "name": "Doom II"
+      },
+      {
+        "id": 386,
+        "name": "Guarding Strikes II"
+      },
+      {
+        "id": 437,
+        "name": "Shields Up"
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "name": "The Fool",
+    "tier": 9,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 220,
+    "spawns": [
+      "Kingdom Raid",
+      "Past Event: Fool of April",
+      "World Raid"
+    ],
+    "resistant_to": [
+      "Dark",
+      "Dragon",
+      "Earthen",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 347,
+        "name": "Arena Token"
+      },
+      {
+        "id": 481,
+        "name": "Carl's Dagger"
+      },
+      {
+        "id": 19,
+        "name": "Attack Tonic"
+      },
+      {
+        "id": 20,
+        "name": "Defense Tonic"
+      },
+      {
+        "id": 458,
+        "name": "Magic Defense Tonic"
+      },
+      {
+        "id": 724,
+        "name": "Ring of Restraint"
+      },
+      {
+        "id": 642,
+        "name": "Dioscuri Mead"
+      },
+      {
+        "id": 446,
+        "name": "Gauntlet Key"
+      },
+      {
+        "id": 21,
+        "name": "Speed Tonic"
+      },
+      {
+        "id": 1205,
+        "name": "Scroll of Chaos"
+      },
+      {
+        "id": 1498,
+        "name": "Stranger's Gift"
+      },
+      {
+        "id": 447,
+        "name": "Affinity Candle"
+      },
+      {
+        "id": 692,
+        "name": "Arch-Gadget"
+      },
+      {
+        "id": 684,
+        "name": "Arch-Gizmo"
+      },
+      {
+        "id": 855,
+        "name": "Bag of Treats"
+      },
+      {
+        "id": 856,
+        "name": "Bag of Tricks"
+      },
+      {
+        "id": 908,
+        "name": "Candy Cane"
+      },
+      {
+        "id": 911,
+        "name": "Caroling Lute"
+      },
+      {
+        "id": 655,
+        "name": "Dioscuri Magic Ring"
+      },
+      {
+        "id": 652,
+        "name": "Dioscuri Ring"
+      },
+      {
+        "id": 1218,
+        "name": "Excalibur [mimic]"
+      },
+      {
+        "id": 912,
+        "name": "North Star"
+      },
+      {
+        "id": 902,
+        "name": "Presents!"
+      },
+      {
+        "id": 875,
+        "name": "Ring of Dawn"
+      },
+      {
+        "id": 879,
+        "name": "Ring of Day"
+      },
+      {
+        "id": 896,
+        "name": "Ring of Night"
+      },
+      {
+        "id": 1195,
+        "name": "Surtr's Sword"
+      },
+      {
+        "id": 901,
+        "name": "Top Hat"
+      },
+      {
+        "id": 837,
+        "name": "Arisen Fairy's Ring"
+      },
+      {
+        "id": 721,
+        "name": "Vulcan's Brew"
+      },
+      {
+        "id": 838,
+        "name": "Clurichaun Arrows"
+      },
+      {
+        "id": 997,
+        "name": "High Phoenixsong"
+      },
+      {
+        "id": 782,
+        "name": "Lady of the Lake"
+      },
+      {
+        "id": 1142,
+        "name": "Summoning Scroll"
+      },
+      {
+        "id": 895,
+        "name": "Ring of Dusk"
+      },
+      {
+        "id": 720,
+        "name": "Vulcan Buckler"
+      },
+      {
+        "id": 717,
+        "name": "Vulcan Charm"
+      },
+      {
+        "id": 1399,
+        "name": "Arisen King's Crown"
+      },
+      {
+        "id": 473,
+        "name": "Ortanite"
+      },
+      {
+        "id": 1356,
+        "name": "Finesse's Enchanted Epee"
+      },
+      {
+        "id": 1353,
+        "name": "Finesse's Greatsword"
+      },
+      {
+        "id": 1346,
+        "name": "Finesse's Katana"
+      },
+      {
+        "id": 1345,
+        "name": "Finesse's Shotel"
+      },
+      {
+        "id": 853,
+        "name": "Old Hallowed Blade"
+      }
+    ],
+    "skills": [
+      {
+        "id": 207,
+        "name": "Annihilation"
+      },
+      {
+        "id": 191,
+        "name": "Blast III"
+      },
+      {
+        "id": 211,
+        "name": "Catastrophe"
+      },
+      {
+        "id": 195,
+        "name": "Cockatrice Breath"
+      },
+      {
+        "id": 174,
+        "name": "Coup de Grace"
+      },
+      {
+        "id": 461,
+        "name": "Dispel II"
+      },
+      {
+        "id": 476,
+        "name": "Fey Flame V"
+      },
+      {
+        "id": 477,
+        "name": "Fey Frost V"
+      },
+      {
+        "id": 478,
+        "name": "Fey Spark V"
+      },
+      {
+        "id": 479,
+        "name": "Fey Tremor V"
+      },
+      {
+        "id": 192,
+        "name": "Great Mimic's Mischief"
+      },
+      {
+        "id": 462,
+        "name": "Miasma III"
+      },
+      {
+        "id": 246,
+        "name": "Putrid Breath"
+      },
+      {
+        "id": 183,
+        "name": "Quasar"
+      },
+      {
+        "id": 212,
+        "name": "Stone Stare"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      },
+      {
+        "id": 180,
+        "name": "Wail"
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "name": "The Fool",
+    "tier": 6,
+    "boss": true,
+    "image": "statuses/confuse.png",
+    "level": 150,
+    "spawns": [
+      "Kingdom Raid",
+      "Past Event: Fool of April"
+    ],
+    "resistant_to": [
+      "Dark",
+      "Dragon",
+      "Earthen",
+      "Fire",
+      "Holy",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 347,
+        "name": "Arena Token"
+      },
+      {
+        "id": 481,
+        "name": "Carl's Dagger"
+      },
+      {
+        "id": 19,
+        "name": "Attack Tonic"
+      },
+      {
+        "id": 20,
+        "name": "Defense Tonic"
+      },
+      {
+        "id": 458,
+        "name": "Magic Defense Tonic"
+      },
+      {
+        "id": 724,
+        "name": "Ring of Restraint"
+      },
+      {
+        "id": 642,
+        "name": "Dioscuri Mead"
+      },
+      {
+        "id": 446,
+        "name": "Gauntlet Key"
+      },
+      {
+        "id": 21,
+        "name": "Speed Tonic"
+      },
+      {
+        "id": 1498,
+        "name": "Stranger's Gift"
+      },
+      {
+        "id": 447,
+        "name": "Affinity Candle"
+      },
+      {
+        "id": 692,
+        "name": "Arch-Gadget"
+      },
+      {
+        "id": 684,
+        "name": "Arch-Gizmo"
+      },
+      {
+        "id": 855,
+        "name": "Bag of Treats"
+      },
+      {
+        "id": 856,
+        "name": "Bag of Tricks"
+      },
+      {
+        "id": 908,
+        "name": "Candy Cane"
+      },
+      {
+        "id": 911,
+        "name": "Caroling Lute"
+      },
+      {
+        "id": 655,
+        "name": "Dioscuri Magic Ring"
+      },
+      {
+        "id": 652,
+        "name": "Dioscuri Ring"
+      },
+      {
+        "id": 1218,
+        "name": "Excalibur [mimic]"
+      },
+      {
+        "id": 912,
+        "name": "North Star"
+      },
+      {
+        "id": 902,
+        "name": "Presents!"
+      },
+      {
+        "id": 875,
+        "name": "Ring of Dawn"
+      },
+      {
+        "id": 879,
+        "name": "Ring of Day"
+      },
+      {
+        "id": 896,
+        "name": "Ring of Night"
+      },
+      {
+        "id": 1195,
+        "name": "Surtr's Sword"
+      },
+      {
+        "id": 901,
+        "name": "Top Hat"
+      },
+      {
+        "id": 837,
+        "name": "Arisen Fairy's Ring"
+      },
+      {
+        "id": 721,
+        "name": "Vulcan's Brew"
+      },
+      {
+        "id": 838,
+        "name": "Clurichaun Arrows"
+      },
+      {
+        "id": 997,
+        "name": "High Phoenixsong"
+      },
+      {
+        "id": 782,
+        "name": "Lady of the Lake"
+      },
+      {
+        "id": 895,
+        "name": "Ring of Dusk"
+      },
+      {
+        "id": 720,
+        "name": "Vulcan Buckler"
+      },
+      {
+        "id": 717,
+        "name": "Vulcan Charm"
+      },
+      {
+        "id": 1399,
+        "name": "Arisen King's Crown"
+      },
+      {
+        "id": 473,
+        "name": "Ortanite"
+      },
+      {
+        "id": 1356,
+        "name": "Finesse's Enchanted Epee"
+      },
+      {
+        "id": 1353,
+        "name": "Finesse's Greatsword"
+      },
+      {
+        "id": 1346,
+        "name": "Finesse's Katana"
+      },
+      {
+        "id": 1345,
+        "name": "Finesse's Shotel"
+      },
+      {
+        "id": 853,
+        "name": "Old Hallowed Blade"
+      }
+    ],
+    "skills": [
+      {
+        "id": 207,
+        "name": "Annihilation"
+      },
+      {
+        "id": 191,
+        "name": "Blast III"
+      },
+      {
+        "id": 211,
+        "name": "Catastrophe"
+      },
+      {
+        "id": 195,
+        "name": "Cockatrice Breath"
+      },
+      {
+        "id": 174,
+        "name": "Coup de Grace"
+      },
+      {
+        "id": 461,
+        "name": "Dispel II"
+      },
+      {
+        "id": 476,
+        "name": "Fey Flame V"
+      },
+      {
+        "id": 477,
+        "name": "Fey Frost V"
+      },
+      {
+        "id": 478,
+        "name": "Fey Spark V"
+      },
+      {
+        "id": 479,
+        "name": "Fey Tremor V"
+      },
+      {
+        "id": 192,
+        "name": "Great Mimic's Mischief"
+      },
+      {
+        "id": 462,
+        "name": "Miasma III"
+      },
+      {
+        "id": 246,
+        "name": "Putrid Breath"
+      },
+      {
+        "id": 183,
+        "name": "Quasar"
+      },
+      {
+        "id": 212,
+        "name": "Stone Stare"
+      },
+      {
+        "id": 247,
+        "name": "Toxicstrike"
+      },
+      {
+        "id": 180,
+        "name": "Wail"
+      }
+    ]
   }
 ]
