@@ -74,8 +74,9 @@
     }, defaultData);
 
     if (Object.keys(newData).length === 1) {
-      let firstStat = _stats[0];
-      newData[firstStat.oProp] = firstStat.oValue;
+      _stats.forEach(i => {
+        newData[i.oProp] = i.oValue;
+      });
     }
     if (selectedLv > 1) {
       newData.level = selectedLv;
