@@ -51,7 +51,7 @@
   </dl>
 
   <details>
-    <summary>raw</summary>
+    <summary title="raw data" />
     <pre>{JSON.stringify(item, null, 2)}</pre>
   </details>
 </li>
@@ -100,6 +100,7 @@
   .effects {
     grid-area: effects;
     font-size: 1rem;
+    font-size: clamp(1em, 2vw, 1rem);
     line-height: 1.25;
   }
   dl {
@@ -132,19 +133,36 @@
     grid-column: 1 / -1;
   }
   details summary {
-    text-align: right;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: .5em solid #28231f;
+    border-top-color: #9991;
+    border-left-color: #9991;
     cursor: pointer;
-    transition: background 0.3s;
-    opacity: 0.5;
   }
   details summary:hover {
     background-color: #fff1;
   }
-  details pre {
-    opacity: 0.5;
-    overflow: auto;
+  details[open] summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: unset;
+    backdrop-filter: blur(3px);
   }
-  details pre:hover {
-    opacity: 0.75;
+  details pre {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    right: 2em;
+    bottom: 0;
+    margin: 0;
+    padding: 1em;
+    overflow: auto;
+    background-color: #110;
   }
 </style>
