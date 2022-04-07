@@ -1,6 +1,7 @@
 /node_modules/
 /public/build/
 /public/monster/
+/public/skill/
 /task/items/
 
 .DS_Store
