@@ -11,7 +11,7 @@ export function saveCSV(data, fn, option) {
     .then((d) => {
       fs.writeFile(fn, d, function(err) {
         if (err) throw err;
-        console.log('file saved', fn);
+        console.log('\x1b[46m%s\x1b[0m', 'file saved', fn);
       });
     })
     .catch((err) => console.log('ERROR: ' + err.message));
@@ -20,7 +20,7 @@ export function saveCSV(data, fn, option) {
 export function outputJSON(json = {}, fileName, jsonSpace = 2) {
   let fileContent = JSON.stringify(json, null, jsonSpace);
   fs.writeFileSync(fileName, fileContent);
-  console.log(`JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
+  console.log('\x1b[46m%s\x1b[0m', `JSON saved as ${fileName}! ( ${fileContent.length / 1000} kb )`);
 };
 
 export function getArgs() {

@@ -27,7 +27,9 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "chartist": "^0.11.4",
+    "node-html-parser": "^5.3.3",
     "sirv-cli": "^1.0.0"
   }
 }
