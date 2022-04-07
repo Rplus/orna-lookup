@@ -1,7 +1,7 @@
 deploy: build
 	sh deploy.sh
 
-build: copy-assets copy-monster
+build: copy-assets copy-monster copy-skill
 	npm run build;
 
 dev: copy-assets copy-monster
@@ -18,6 +18,14 @@ copy-assets:
 copy-monster:
 	rm -rf public/monster; \
 	cp -R Monster/public public/monster/
+
+copy-skill: build-skill
+	rm -rf public/skill; \
+	cp -R codex-skill/dist public/skill/
+
+build-skill:
+	cd codex-skill; \
+	npm run build;
 
 # dev-monster:
 # 	cd Monster; \
