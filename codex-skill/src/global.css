@@ -109,3 +109,9 @@ ul {
 h3 {
   margin: 0;
 }
+
+
+#app {
+  max-width: 500px;
+  margin: auto;
+}

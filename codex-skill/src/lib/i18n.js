@@ -12,6 +12,10 @@ const langs = ['en', 'zh'];
 let resources = {};
 let missingTransition = [];
 const _words = {
+  'add.filter': {
+    en: '+Filter',
+    zh: '+過濾條件',
+  },
   // 'uid': {
   //   zh: 'UID',
   // },

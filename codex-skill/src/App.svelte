@@ -18,6 +18,7 @@
 
 <main>
   <h1 class="text-center">ORnA SkIlLs</h1>
+  <hr>
 
   {#await promise}
     Loading~
@@ -28,8 +29,16 @@
   {/await}
 </main>
 
+<hr>
+
 <footer>
   <Lang />
+
+  <div class="info">
+    data from <a href="https://playorna.com/codex/spells/" target="orna.codex">playorna / codex</a>
+    <br>
+    ↸ back to <a href="../">../orna-lookup tool</a>
+  </div>
 </footer>
 
 <style>
@@ -40,8 +49,14 @@
     text-shadow: 0 2px 1px #ff33;
   }
 
-  main {
-    max-width: 500px;
-    margin: auto;
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info {
+    font-family: serif;
+    font-style: italic;
+    text-align: right;
   }
 </style>

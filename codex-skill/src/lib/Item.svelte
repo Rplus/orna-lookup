@@ -130,12 +130,21 @@
   details {
     padding-left: 3em;
     grid-column: 1 / -1;
-    opacity: 0.5;
   }
   details summary {
     text-align: right;
+    cursor: pointer;
+    transition: background 0.3s;
+    opacity: 0.5;
+  }
+  details summary:hover {
+    background-color: #fff1;
   }
   details pre {
+    opacity: 0.5;
     overflow: auto;
+  }
+  details pre:hover {
+    opacity: 0.75;
   }
 </style>

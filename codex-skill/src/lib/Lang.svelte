@@ -23,9 +23,7 @@
 
 <style>
 .lang {
-  margin: 0 auto;
-  width: fit-content;
-  padding: .5em 3em;
+  /* padding: .5em 3em; */
 }
 .lang:hover .lang-emoji::before {
   animation: lang 1.5s infinite steps(3);

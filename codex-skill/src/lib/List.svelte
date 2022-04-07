@@ -90,15 +90,19 @@
     }
   }
 
+  function showMore() {
+    quotePerPage += 10;
+  }
+
 </script>
 
 
 <aside>
   <div class="filter-ctrl">
-    <button on:click={ addFilter }>+過濾條件</button>
+    <button on:click={ addFilter }>{$_('add.filter')}</button>
     <label>
       👁️
-      <input type="number" bind:value={quotePerPage} min="1">
+      <input id="quotePerPage" type="number" bind:value={quotePerPage} min="1">
       / {filteredItems.length}
     </label>
   </div>
@@ -158,10 +162,14 @@
 
 
 <ul class="items">
-  {#each filteredItems.slice(0,10) as item (item.uid)}
+  {#each filteredItems.slice(0, quotePerPage) as item (item.uid)}
     <Item item={item} />
   {/each}
 </ul>
+
+{#if filteredItems.length > quotePerPage}
+  <button class="more" on:click={showMore}>more</button>
+{/if}
 
 
 <style>
@@ -172,9 +180,12 @@
   .filter-ctrl input {
     width: 5em;
   }
-  .filters li {
-  }
   .filters input {
     max-width: 30%;
+  }
+  .more {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
   }
 </style>
