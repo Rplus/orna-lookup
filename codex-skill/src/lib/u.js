@@ -11,6 +11,7 @@ export function handleData(data) {
       .map(t => Object.keys(i.metas[t]))
       .flat();
   });
+  data.sort((a, b) => a.title.en.localeCompare(b.title.en));
 
   return data;
 }

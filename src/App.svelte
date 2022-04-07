@@ -46,12 +46,20 @@
 <hr>
 
 <footer>
-  go to check <a href="./monster/">Monsters Strategy</a><br>
-  -- <br>
+  <ul>
+    <li>
+      ↬ go to check <a href="./monster/">Monsters Strategy</a>
+    </li>
+    <li>
+      ↬ go to check <a href="./skill/">Skills</a>
+    </li>
+  </ul>
+  <div>
   * comment on <a href="https://docs.google.com/spreadsheets/d/1JZM_9U7hYtq39T0BeZHaUrJVKSWWNfxLxcZnrJPiHBQ/edit#gid=2050818910">Google spreadsheet</a> to update data <br>
   -- <br>
   * repo: <a href="https://github.com/rplus/orna-lookup" target="_blank">Rplus/orna-lookup</a> <br>
   * origin data: <a href="https://orna.guide/" target="_blank">https://orna.guide/</a> api<br>
+  </div>
 </footer>
 
 
@@ -62,9 +70,18 @@
   }
 
   footer {
-    text-align: right;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     font-family: serif;
     font-style: italic;
-    padding: 2em .5em;
+  }
+  footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  footer div {
+    text-align: right;
   }
 </style>

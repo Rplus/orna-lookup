@@ -35,6 +35,8 @@
   <Lang />
 
   <div class="info">
+    Made by Rplus
+    <br>
     data from <a href="https://playorna.com/codex/spells/" target="orna.codex">playorna / codex</a>
     <br>
     ↸ back to <a href="../">../orna-lookup tool</a>
