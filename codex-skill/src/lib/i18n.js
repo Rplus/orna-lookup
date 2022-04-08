@@ -1,251 +1,47 @@
-import {
-  addMessages,
-  init,
-  getLocaleFromNavigator
-} from 'svelte-i18n';
-import { getItem } from './u.js';
+import { derived, writable } from 'svelte/store';
+import words from './words.js';
+import { uniq, getItem } from './u.js';
 
-const _defaultLang = 'en';
+export const locales = uniq([
+  'en',
+  'zh',
+  ...Object.values(words).map(i => Object.keys(i)).flat(),
+]);
 
-const langs = ['en', 'zh'];
+const fallbackLocale = locales[0];
+let defaultLocale = getItem('lang') || navigator.language.split('-')[0];
 
-let resources = {};
-let missingTransition = [];
-const _words = {
-  'add.filter': {
-    en: '+Filter',
-    zh: '+過濾條件',
-  },
-  // 'uid': {
-  //   zh: 'UID',
-  // },
-  'tier': {
-    en: '★tier',
-    zh: '★tier',
-  },
-  // 'img': {
-  //   zh: 'img',
-  // },
-  'titles': {
-    en: 'Name',
-    zh: '名稱',
-  },
-  'intros': {
-    en: 'Intros',
-    zh: '描述',
-  },
-  'tags': {
-    en: 'Tags',
-    zh: 'Tags',
-  },
-  'effect.causes': {
-    en: 'Causes',
-    zh: '造成',
-  },
-  'effect.gives': {
-    en: 'Gives',
-    zh: '給予',
-  },
+if (!locales.includes(defaultLocale)) {
+  defaultLocale = locales[0];
+}
+export const locale = writable(defaultLocale);
 
+// ref: https://svelte.dev/repl/de39de663ef2445b8fe17b79c500013b?version=3.46.6
+function translate(locale, key, vars) {
+  // Let's throw some errors if we're trying to use keys/locales that don't exist.
+  // We could improve this by using Typescript and/or fallback values.
 
-  'Asleep': {
-    zh: '入睡'
-  },
-  'Bleeding': {
-    zh: '流血'
-  },
-  'Blight': {
-    zh: '枯萎'
-  },
-  'Blind': {
-    zh: '致盲'
-  },
-  'Bloodshift': {
-    zh: '鮮血轉移'
-  },
-  'Burning': {
-    zh: '燃燒'
-  },
-  'Call of Brynhild': {
-    zh: '布倫希爾德的呼召'
-  },
-  'Call of Idun': {
-    zh: '伊登的呼召'
-  },
-  'Call of Jord': {
-    zh: '嬌德的呼召'
-  },
-  'Call of Skadi': {
-    zh: '斯卡蒂的呼召'
-  },
-  'Castor': {
-    zh: '卡斯托耳的機智'
-  },
-  'Confused': {
-    zh: '迷惑'
-  },
-  'Cursed': {
-    zh: '詛咒'
-  },
-  'Dark Def': {
-    zh: '暗 抗'
-  },
-  'Dark Immune': {
-    zh: '暗 免疫'
-  },
-  'Defending': {
-    zh: '防禦中'
-  },
-  'Doom': {
-    zh: '厄運'
-  },
-  'Earth Aligned': {
-    zh: '地行者'
-  },
-  'Earth Att': {
-    zh: '地 攻'
-  },
-  'Earth Def': {
-    zh: '地 抗'
-  },
-  'Earth Immune': {
-    zh: '地 免疫'
-  },
-  'Eir': {
-    zh: '埃爾'
-  },
-  'Elementless': {
-    zh: '元素解除'
-  },
-  'Fire Aligned': {
-    zh: '火行者'
-  },
-  'Fire Att': {
-    zh: '火 攻'
-  },
-  'Fire Def': {
-    zh: '火 抗'
-  },
-  'Fire Immune': {
-    zh: '火 免疫'
-  },
-  'Foresight ↑': {
-    zh: '預知 ↑'
-  },
-  'Foresight ↓': {
-    zh: '預知 ↓'
-  },
-  'Frozen': {
-    zh: '冰凍'
-  },
-  'Gunnr': {
-    zh: '古娜'
-  },
-  'Holy Def': {
-    zh: '光 抗'
-  },
-  'Holy Immune': {
-    zh: '光 免疫'
-  },
-  'Kára': {
-    zh: '卡拉'
-  },
-  'Lightning Aligned': {
-    zh: '雷行者'
-  },
-  'Lightning Att': {
-    zh: '雷 攻'
-  },
-  'Lightning Def': {
-    zh: '雷 抗'
-  },
-  'Lightning Immune': {
-    zh: '雷 免疫'
-  },
-  'Lulled': {
-    zh: '恍惚'
-  },
-  "Lyon's Mark": {
-    zh: '里昂的標記'
-  },
-  'Paralyzed': {
-    zh: '麻痺'
-  },
-  'Petrified': {
-    zh: '石化'
-  },
-  'Poisoned': {
-    zh: '中毒'
-  },
-  'Pollux': {
-    zh: '波魯克斯'
-  },
-  'Rot': {
-    zh: '腐敗'
-  },
-  'Snotra': {
-    zh: '斯洛特拉'
-  },
-  'Starstruck': {
-    zh: '暈星'
-  },
-  'Stasis': {
-    zh: '停滯'
-  },
-  'Stunned': {
-    zh: '暈眩'
-  },
-  'Target ↑': {
-    zh: '目標 ↑'
-  },
-  'Target ↑↑': {
-    zh: '目標 ↑↑'
-  },
-  'Target ↓': {
-    zh: '目標 ↓'
-  },
-  'Target ↓↓': {
-    zh: '目標 ↓↓'
-  },
-  'Toxic': {
-    zh: ''
-  },
-  'Tree of Demise': {
-    zh: '絕命之樹'
-  },
-  'Tree of Life': {
-    zh: '生命之樹'
-  },
-  'Water Aligned': {
-    zh: '水行者'
-  },
-  'Water Att': {
-    zh: '水 攻'
-  },
-  'Water Def': {
-    zh: '水 抗'
-  },
-  'Water Immune': {
-    zh: '水 免疫'
+  // if (!key) throw new Error('no key provided to $t()');
+  // if (!locale) throw new Error(`no translation for key '${key}'`);
+
+  if (!key || !locale) {
+    return key;
   }
-};
 
-for (let _w in _words) {
-  for (let _l in langs) {
-    let lng = langs[_l];
-    if (!resources[lng]) {
-      resources[lng] = {};
-    }
-    resources[lng][_w] = _words[_w][lng] || _words[_w][_defaultLang];
-    if (!_words[_w][lng]) {
-      missingTransition.push([lng, _w].join());
-    }
-  }
+  // Grab the translation from the words object.
+  let text = words[key]?.[locale] || words[key]?.[fallbackLocale] || key;
+
+  if (!text) throw new Error(`no translation found for ${locale}.${key}`);
+
+  // Replace any passed in variables in the translation string.
+  Object.keys(vars).map((k) => {
+    const regex = new RegExp(`{{${k}}}`, 'g');
+    text = text.replace(regex, vars[k]);
+  });
+
+  return text;
 }
 
-langs.forEach(lang => addMessages(lang, resources[lang]));
-
-init({
-  fallbackLocale: 'en',
-  initialLocale: getItem('lang') || getLocaleFromNavigator().split('-')[0],
-});
+export const _ = derived(locale, ($locale) => (key = '', vars = {}) =>
+  translate($locale, key, vars)
+);

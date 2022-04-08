@@ -1,6 +1,6 @@
 <script>
   export let item = {};
-  import { _, locale } from 'svelte-i18n';
+  import { _, locale } from './i18n.js';
   import { trans, Langs } from './u.js';
   let icons = window.icons;
 </script>

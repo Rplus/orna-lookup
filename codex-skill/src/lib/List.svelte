@@ -1,6 +1,6 @@
 <script>
   import Item from './Item.svelte';
-  import { _ } from 'svelte-i18n';
+  import { _, locale, locales } from './i18n.js';
   import { uniq, sortByChar } from './u.js';
   export let data = [];
 
@@ -126,14 +126,6 @@
       / {filteredItems.length}
     </label>
   </div>
-
-  <!--
-  <datalist id="effects">
-    {#each effects as effect}
-      <option value={effect}>{$_(effect)}</option>
-    {/each}
-  </datalist>
-  -->
 
   <ul class="filters">
     {#each rules as rule (rule.timestamp)}
