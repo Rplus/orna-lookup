@@ -1,6 +1,6 @@
 <script>
-  import dataUrl from './orna-skills.json?url';
-  // import { _, locale } from 'svelte-i18n';
+  import { setContext } from 'svelte';
+  import dataUrl from './orna-skills.min.json?url';
   import Lang from './lib/Lang.svelte';
   import List from './lib/List.svelte';
   import { fetchJSON, handleData } from './lib/u.js';
@@ -12,7 +12,8 @@
     if (!data) {
       throw new Error('_ERROR_: fetch data fails');
     }
-    return handleData(data);
+    window.icons = data.icons;
+    return handleData(data.skills);
   }
 </script>
 
@@ -22,8 +23,8 @@
 
   {#await promise}
     Loading~
-  {:then data}
-    <List data={data} />
+  {:then skills}
+    <List data={skills} />
   {:catch error}
     <p style="color: red">{error.message}</p>
   {/await}

@@ -10,6 +10,7 @@ let lang = langs[0];
 let log = [];
 
 let data = [];
+let effectIcons = {};
 let fileData;
 let skillSources = {
   '✓ Found in Arcanists': 'arcanists',
@@ -102,6 +103,7 @@ function parseSkill(uid, _lang = lang) {
     let metas = getNextSiblings(meta).map(elm => ({
       tag: elm.tagName,
       content: elm.textContent.trim(),
+      icon: elm.querySelector('img')?.getAttribute('src').replace('https://playorna.com/static/img/', ''),
     }));
     updateData({
       uid, title, intro, metas, _lang,
@@ -144,6 +146,8 @@ function updateData(opt) {
         let effect = i.content.match(/(.+) \((\d+)\%\)/);
         metas[h4] = metas[h4] || {};
         metas[h4][effect[1]] = +effect[2] / 100;
+
+        effectIcons[effect[1]] = i.icon;
       }
     });
 
@@ -171,12 +175,18 @@ function getHeader(_lang = lang) {
 let saveTimer;
 function saveData() {
   if (saveTimer) {
-    return;
     // clearTimeout(saveTimer);
     // saveTimer = null;
+    return;
   }
   saveTimer = setTimeout(() => {
-    outputJSON(data, filename);
+    let obj = {
+      skills: data,
+      icons: effectIcons,
+    };
+    outputJSON(obj, filename);
+    outputJSON(obj, filename.replace('.json', '.min.json'), 0);
+
     clearTimeout(saveTimer);
     saveTimer = null;
   }, 3000);

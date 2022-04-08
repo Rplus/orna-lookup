@@ -2,6 +2,7 @@
   export let item = {};
   import { _, locale } from 'svelte-i18n';
   import { trans, Langs } from './u.js';
+  let icons = window.icons;
 </script>
 
 <li class="item">
@@ -39,10 +40,12 @@
         <dt>{effect_type}</dt>
         {#each Object.keys(item.metas[effect_type]) as effect}
           <dd>
-          <span class="percent">
-            {item.metas[effect_type][effect] * 100}%
-          </span>
-          - {$_(effect)}
+            <span class="percent">
+              {item.metas[effect_type][effect] * 100}%
+            </span>
+            -
+            <img class="effect-icon" src="https://playorna.com/static/img/{icons[effect]}" alt={effect} width="24" height="24" loading="lazy">
+            {$_(effect)}
           </dd>
         {/each}
       {/if}
@@ -115,7 +118,17 @@
     margin-bottom: 0.25em;
   }
   dd {
+    display: flex;
+    gap: .5em;
+    align-items: center;
     margin-left: 0.5em;
+  }
+  .effect-icon {
+    opacity: 0.75;
+    transition: opacity .3s;
+  }
+  dd:hover .effect-icon {
+    opacity: 1;
   }
   .percent {
     display: inline-block;

@@ -6,8 +6,6 @@
 
   let quotePerPage = 20;
 
-  // let effect_types = uniq(data.map(i => i.effect_types).flat());
-  // let effects = uniq(data.map(i => i.effects).flat()).sort(sortByChar);
   let tags = uniq(data.map(i => i.tags).flat()).filter(Boolean);
 
   let gives = uniq(data.map(i => Object.keys(i.metas.gives || [])).flat()).sort(sortByChar);

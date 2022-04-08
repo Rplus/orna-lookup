@@ -24,7 +24,7 @@ export async function fetchJSON(url) {
   const res = await fetch(url);
   if (res.ok) {
     const data = await res.json();
-    if (!data.length) {
+    if (!data?.skills) {
       throw new Error('empty data');
     }
     return data;
