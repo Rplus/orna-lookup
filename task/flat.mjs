@@ -11,9 +11,9 @@ let data = fs.readFileSync(`./public/raw-data/${type}.json`, 'utf8');
 let lang = [];
 
 let zh = await Promise.all([
+  'orna-archetypes-zh_Hant_3.csv',
+  'orna-base-zh_Hant_3.csv',
   'orna-app-zh_Hant.csv',
-  'orna-archetypes-zh_Hant.csv',
-  'orna-base-zh_Hant.csv',
   'orna-content-zh_Hant.csv',
   'app.po.csv',
   'archetypes.po.csv',
@@ -32,7 +32,7 @@ saveCSV(data, `./public/raw-data/${type}.json.csv`,
 saveCSV(lang, `./public/raw-data/${type}.lang.csv`, csvOptions.defalt);
 
 function findZh(en) {
-  let str = zh.find(i => i.source === en)?.target;
+  let str = zh.find(i => i.source.toLowerCase() === en.toLowerCase())?.target;
   if (!str) {
     // 同名裝備
     if (en.match(/(.+)( \[\w+\])$/)) {
