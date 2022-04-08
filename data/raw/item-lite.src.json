@@ -10631,5 +10631,110 @@
     "zh": "弗格斯的錘",
     "tier": 8,
     "image": "wards/hammer.png"
+  },
+  {
+    "id": 1546,
+    "name": "Naggeneen's Belt",
+    "zh": "Naggeneen's Belt",
+    "tier": 7,
+    "image": "acc/naggeneenbelt.png"
+  },
+  {
+    "id": 1547,
+    "name": "Lordly Monster Tome",
+    "zh": "Lordly Monster Tome",
+    "tier": 4,
+    "image": "acc/great_monster_tome.png"
+  },
+  {
+    "id": 1548,
+    "name": "Donta's Shield",
+    "zh": "Donta's Shield",
+    "tier": 5,
+    "image": "wards/donta_shield.png"
+  },
+  {
+    "id": 1549,
+    "name": "Mara's Blessing",
+    "zh": "Mara's Blessing",
+    "tier": 3,
+    "image": "acc/amulet.png"
+  },
+  {
+    "id": 1550,
+    "name": "Lover's Lost",
+    "zh": "Lover's Lost",
+    "tier": 5,
+    "image": "acc/lovers_charm.png"
+  },
+  {
+    "id": 1551,
+    "name": "Arisen Stone Dagger",
+    "zh": "重生的石化匕首",
+    "tier": 9,
+    "image": "weapons/stone_dagger.png"
+  },
+  {
+    "id": 1552,
+    "name": "Bird Whistle",
+    "zh": "Bird Whistle",
+    "tier": 3,
+    "image": "useables/whistle.png"
+  },
+  {
+    "id": 1553,
+    "name": "Solar Secrets",
+    "zh": "Solar Secrets",
+    "tier": 7,
+    "image": "useables/scroll.png"
+  },
+  {
+    "id": 1554,
+    "name": "Galar's Hammer",
+    "zh": "Galar's Hammer",
+    "tier": 4,
+    "image": "useables/hammer.png"
+  },
+  {
+    "id": 1555,
+    "name": "Myrkheim Hammer",
+    "zh": "Myrkheim Hammer",
+    "tier": 10,
+    "image": "useables/hammer.png"
+  },
+  {
+    "id": 1556,
+    "name": "Questing License",
+    "zh": "Questing License",
+    "tier": 1,
+    "image": "useables/questing_license.png"
+  },
+  {
+    "id": 1557,
+    "name": "Steward Candle",
+    "zh": "Steward Candle",
+    "tier": 8,
+    "image": "useables/steward_candle.png"
+  },
+  {
+    "id": 1558,
+    "name": "Realmcrystal",
+    "zh": "異域水晶",
+    "tier": 4,
+    "image": "useables/realmcrystal.png"
+  },
+  {
+    "id": 1559,
+    "name": "Decor Token",
+    "zh": "裝飾代幣",
+    "tier": 1,
+    "image": "useables/decor_token.png"
+  },
+  {
+    "id": 1560,
+    "name": "Small Bestial Potion",
+    "zh": "Small Bestial Potion",
+    "tier": 1,
+    "image": "useables/small_bestial_potion.png"
   }
 ]

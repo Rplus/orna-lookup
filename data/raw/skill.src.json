@@ -8394,6 +8394,9 @@
     "type": "Multi-round Magic",
     "is_magic": 1,
     "mana_cost": 1,
+    "causes": [
+      "Toxic"
+    ],
     "monsters_use": [
       420,
       430,
@@ -18521,5 +18524,131 @@
     "type": "Buff",
     "is_magic": 1,
     "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats."
+  },
+  {
+    "id": 661,
+    "name": "Confuse",
+    "zh": "迷惑",
+    "tier": 2,
+    "type": "Debuff",
+    "is_magic": 1,
+    "causes": [
+      "Confused"
+    ],
+    "monsters_use": [
+      525,
+      386,
+      494,
+      304,
+      335
+    ],
+    "description": "Confuses an opponent."
+  },
+  {
+    "id": 662,
+    "name": "Doom",
+    "zh": "厄運",
+    "tier": 7,
+    "type": "Debuff",
+    "is_magic": 1,
+    "causes": [
+      "Doom"
+    ],
+    "monsters_use": [
+      310
+    ],
+    "description": "Dooms an opponent."
+  },
+  {
+    "id": 663,
+    "name": "Doom II",
+    "zh": "厄運 II",
+    "tier": 9,
+    "type": "Debuff",
+    "is_magic": 1,
+    "causes": [
+      "Doom"
+    ],
+    "monsters_use": [
+      526
+    ],
+    "description": "Dooms an opponent."
+  },
+  {
+    "id": 664,
+    "name": "Requiem II",
+    "zh": "安魂曲 II",
+    "tier": 1,
+    "type": "Magic",
+    "is_magic": 1,
+    "causes": [
+      "Lulled"
+    ],
+    "description": "Deals moderate non-elemental damage and may lull an opponent."
+  },
+  {
+    "id": 665,
+    "name": "Requiem III",
+    "zh": "安魂曲 III",
+    "tier": 1,
+    "type": "Magic",
+    "is_magic": 1,
+    "causes": [
+      "Lulled"
+    ],
+    "description": "Deals moderate non-elemental damage and may lull an opponent."
+  },
+  {
+    "id": 666,
+    "name": "Solarseals",
+    "zh": "天照連閃",
+    "tier": 7,
+    "type": "Magic",
+    "element": "Holy",
+    "is_magic": 1,
+    "mana_cost": 50,
+    "description": "Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses."
+  },
+  {
+    "id": 667,
+    "name": "Solarstrikes",
+    "zh": "天照連擊",
+    "tier": 7,
+    "type": "Attack",
+    "element": "Holy",
+    "mana_cost": 50,
+    "description": "Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses."
+  },
+  {
+    "id": 668,
+    "name": "Comet II",
+    "zh": "彗星 II",
+    "tier": 5,
+    "type": "Magic",
+    "is_magic": 1,
+    "causes": [
+      "Frozen",
+      "Startstruck"
+    ],
+    "monsters_use": [
+      526
+    ],
+    "description": "Summon a frozen comet, with the chance of freezing your opponent."
+  },
+  {
+    "id": 669,
+    "name": "Bright Star II",
+    "zh": "閃耀之星 II",
+    "tier": 9,
+    "type": "Magic",
+    "is_magic": 1,
+    "causes": [
+      "Blind",
+      "Startstruck"
+    ],
+    "monsters_use": [
+      526
+    ],
+    "description": "Summon a bright star, with the chance of blinding your opponent."
   }
 ]

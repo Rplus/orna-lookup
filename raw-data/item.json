@@ -72891,5 +72891,29 @@
         "name": "Warrior"
       }
     ]
+  },
+  {
+    "name": "Small Bestial Potion",
+    "id": 1560,
+    "description": "A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time.",
+    "type": "Item",
+    "tier": 1,
+    "boss": false,
+    "arena": false,
+    "image": "statuses/confuse.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
   }
 ]

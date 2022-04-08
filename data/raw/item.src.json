@@ -39088,5 +39088,236 @@
     "slots": 2,
     "rarity": "g",
     "description": "A small weapon carried by a Clurichaun. Although it is not suitable for you primary hand, it will fit as an obscure off-hand."
+  },
+  {
+    "id": 1546,
+    "name": "Naggeneen's Belt",
+    "zh": "Naggeneen's Belt",
+    "tier": 7,
+    "type": "Accessory",
+    "stats.dexterity": 50,
+    "stats.mana": 50,
+    "dropped_by": [
+      273,
+      337
+    ],
+    "image": "acc/naggeneenbelt.png",
+    "description": "Belt of the mischievous clurichaun, Naggeneen. It will slightly protect one from status effects while making it easier to apply status effects to your opponents."
+  },
+  {
+    "id": 1547,
+    "name": "Lordly Monster Tome",
+    "zh": "Lordly Monster Tome",
+    "tier": 4,
+    "type": "Accessory",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "dropped_by": [
+      525
+    ],
+    "image": "acc/great_monster_tome.png",
+    "description": "A large tome of monster knowledge. Increases experience earned."
+  },
+  {
+    "id": 1548,
+    "name": "Donta's Shield",
+    "zh": "Donta's Shield",
+    "tier": 5,
+    "type": "Off-hand",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "element": "Dark",
+    "stats.ward": 19,
+    "stats.hp": 90,
+    "dropped_by": [
+      522
+    ],
+    "image": "wards/donta_shield.png",
+    "description": "Shield of Donta, once a great hero of the Order of the Unfelled. Donta had fallen in the battle of 992 DCE to Balor forces, leaving Mara indefinitely to search for her in love."
+  },
+  {
+    "id": 1549,
+    "name": "Mara's Blessing",
+    "zh": "Mara's Blessing",
+    "tier": 3,
+    "type": "Accessory",
+    "view_distance": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "acc/amulet.png",
+    "description": "A charm imbued with Seeker Mara's magic. It will both help you see farther while increasing the life and mana healed by potions."
+  },
+  {
+    "id": 1550,
+    "name": "Lover's Lost",
+    "zh": "Lover's Lost",
+    "tier": 5,
+    "type": "Accessory",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "acc/lovers_charm.png",
+    "description": "A luring charm made by Ceres to attract a certain powerful Fallen hero. Wearing it will attract additional monsters."
+  },
+  {
+    "id": 1551,
+    "name": "Arisen Stone Dagger",
+    "zh": "重生的石化匕首",
+    "tier": 9,
+    "type": "Weapon",
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.attack": 215,
+    "stats.dexterity": 48,
+    "stats.crit": 1,
+    "causes": [
+      "Petrified"
+    ],
+    "dropped_by": [
+      521
+    ],
+    "materials": [
+      250
+    ],
+    "image": "weapons/stone_dagger.png",
+    "description": "A dagger, once a fixture upon a noble statue. It has a small chance of petrifying an opponent."
+  },
+  {
+    "id": 1552,
+    "name": "Bird Whistle",
+    "zh": "Bird Whistle",
+    "tier": 3,
+    "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/whistle.png",
+    "description": "A simple whistle useful for calling birds from trees."
+  },
+  {
+    "id": 1553,
+    "name": "Solar Secrets",
+    "zh": "Solar Secrets",
+    "tier": 7,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/scroll.png",
+    "description": "A scroll of destructive solar magic crafted by Emile. Using it will grant the skills \"Solarstrikes\" and \"Solarseals\"."
+  },
+  {
+    "id": 1554,
+    "name": "Galar's Hammer",
+    "zh": "Galar's Hammer",
+    "tier": 4,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/hammer.png",
+    "description": "A fine hammer used by Galar. Using this item before upgrading equipment at the blacksmith will reduce the time needed to complete the upgrades."
+  },
+  {
+    "id": 1555,
+    "name": "Myrkheim Hammer",
+    "zh": "Myrkheim Hammer",
+    "tier": 10,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/hammer.png",
+    "description": "A fine hammer used by the skilled smiths of Myrkheim. Using this item before upgrading equipment at the blacksmith will greatly reduce the time needed to complete the upgrades."
+  },
+  {
+    "id": 1556,
+    "name": "Questing License",
+    "zh": "Questing License",
+    "tier": 1,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/questing_license.png",
+    "description": "A simple piece of parchment given to you by Samson. Using this item will temporarily improve the gold, orns and experience earned when completing the quests."
+  },
+  {
+    "id": 1557,
+    "name": "Steward Candle",
+    "zh": "Steward Candle",
+    "tier": 8,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/steward_candle.png",
+    "description": "A candle gifted by Damra as part of the Steward ritual. Light it to summon your Steward."
+  },
+  {
+    "id": 1558,
+    "name": "Realmcrystal",
+    "zh": "異域水晶",
+    "tier": 4,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/realmcrystal.png",
+    "description": "An oddly shaped crystal fallen from Olympia. Using it will allow one to return to another realm without wait."
+  },
+  {
+    "id": 1559,
+    "name": "Decor Token",
+    "zh": "裝飾代幣",
+    "tier": 1,
+    "type": "Other",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/decor_token.png",
+    "description": "A token allowing one to build a decoration in their area."
+  },
+  {
+    "id": 1560,
+    "name": "Small Bestial Potion",
+    "zh": "Small Bestial Potion",
+    "tier": 1,
+    "type": "Item",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "image": "useables/small_bestial_potion.png",
+    "description": "A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time."
   }
 ]
