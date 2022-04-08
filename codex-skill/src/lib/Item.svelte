@@ -6,11 +6,11 @@
 </script>
 
 <li class="item">
-  <h3 class="title">
+  <div class="title" title="★{item.tier} {trans(item.title, $locale)} {item.uid}">
     <sup class="tier" data-tier={item.tier}>★{item.tier}</sup>
     {trans(item.title, $locale)}
     <a href="https://playorna.com/codex/spells/{item.uid}/?lang={Langs[$locale]}" target="orna.codex">↗</a>
-  </h3>
+  </div>
 
   <div class="img">
     <img
@@ -49,7 +49,6 @@
           </dd>
         {/each}
       {/if}
-      <br>
     {/each}
   </dl>
 
@@ -117,6 +116,9 @@
     box-shadow: inset 0 -.7em #fff2;
     margin-bottom: 0.25em;
   }
+  dt ~ dt {
+    margin-top: 1em;
+  }
   dd {
     display: flex;
     gap: .5em;
@@ -135,7 +137,9 @@
     text-align: right;
     width: 2em;
   }
-  h3 {
+  .title {
+    font-weight: 900;
+    font-size: larger;
     margin-bottom: 0.5em;
   }
   .img > * {
