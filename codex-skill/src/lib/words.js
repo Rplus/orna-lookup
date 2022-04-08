@@ -214,5 +214,11 @@ export default {
   },
   'Water Immune': {
     zh: '水 免疫'
-  }
+  },
+  'arcanists': {
+    zh: '奧術商店',
+  },
+  'off-hand': {
+    zh: '副手',
+  },
 };

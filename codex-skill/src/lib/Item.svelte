@@ -26,9 +26,9 @@
     </div>
 
     {#if item.tags}
-      <div class="tags">
+      <div>
         {#each item.tags as tag}
-          <button disabled>{tag}</button>
+          <button class="tags" disabled>{$_(tag)}</button>
         {/each}
       </div>
     {/if}
@@ -140,6 +140,9 @@
   }
   .img > * {
     margin-bottom: .5em;
+  }
+  .tags {
+    text-transform: capitalize;
   }
   details {
     padding-left: 3em;
