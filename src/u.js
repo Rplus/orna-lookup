@@ -14,14 +14,14 @@ export function numSort(a, b) {
   return a - b;
 }
 
-export function createNewFilter(option) {
+export function createNewFilter(option, ts) {
   return {
-    timestamp: +new Date(),
+    timestamp: ts || +new Date(),
     rule: {
       prop: option.prop,
       value: fixValueType(option.value, option.type),
       type: option.type,
-      comparator: '=',
+      comparator: option.comparator || '=',
     },
   }
 }

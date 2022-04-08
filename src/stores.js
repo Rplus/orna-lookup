@@ -50,15 +50,23 @@ Promise.all(
 
 
 let initQuery = new URLSearchParams(location.search);
-let initFilterDef = filtersDef.find(filter => initQuery.get(filter.prop));
-let initFilter = initFilterDef ? createNewFilter({
-    prop: initFilterDef.prop,
-    type: initFilterDef.type,
-    value: initQuery.get(initFilterDef.prop),
-  }) : createNewTextFilter('');
+let initFilter = [...initQuery].map((qs, index) => {
+  let def = filtersDef.find(f => f.prop === qs[0]);
+  let values = qs[1].split('|');
+  let comparator = values?.[1] || '=';
+  return !def
+    ? null
+    : createNewFilter({
+        prop: def.prop,
+        type: def.type,
+        value: values?.[0],
+        comparator: decodeURIComponent(comparator),
+      }, +new Date() + index);
+}).filter(Boolean);
+
 
 function createFilters() {
-  const { subscribe, set, update } = writable([initFilter]);
+  const { subscribe, set, update } = writable(initFilter);
 
   return {
     subscribe,
