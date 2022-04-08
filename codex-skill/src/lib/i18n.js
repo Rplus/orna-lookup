@@ -31,17 +31,19 @@ function translate(locale, key, vars) {
   // Grab the translation from the words object.
   let text = words[key]?.[locale] || words[key]?.[fallbackLocale] || key;
 
-  if (!text) throw new Error(`no translation found for ${locale}.${key}`);
+  // if (!text) throw new Error(`no translation found for ${locale}.${key}`);
 
   // Replace any passed in variables in the translation string.
-  Object.keys(vars).map((k) => {
-    const regex = new RegExp(`{{${k}}}`, 'g');
-    text = text.replace(regex, vars[k]);
-  });
+  if (vars) {
+    Object.keys(vars).map((k) => {
+      const regex = new RegExp(`{{${k}}}`, 'g');
+      text = text.replace(regex, vars[k]);
+    });
+  }
 
   return text;
 }
 
-export const _ = derived(locale, ($locale) => (key = '', vars = {}) =>
+export const _ = derived(locale, ($locale) => (key = '', vars) =>
   translate($locale, key, vars)
 );
