@@ -14,7 +14,6 @@
   causes.unshift('');
 
   let filteredItems = data;
-  let queryS = '';
   let ruleProps = [
     'titles',
     'effect.causes',
@@ -27,7 +26,6 @@
   ];
 
   $: {
-    queryS,
     rules,
     filteredItems = filterItems();
   }
