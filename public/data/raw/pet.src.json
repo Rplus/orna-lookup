@@ -2220,5 +2220,80 @@
     "stats.spell": 20,
     "image": "wards/tower_shield.png",
     "description": "Available for a limited time only."
+  },
+  {
+    "id": 133,
+    "name": "Steward Cactus",
+    "zh": "Steward Cactus",
+    "tier": 8,
+    "cost": 0,
+    "skills": [
+      134,
+      445,
+      635
+    ],
+    "image": "statuses/confuse.png",
+    "description": "A Steward in the form of a Cactus."
+  },
+  {
+    "id": 134,
+    "name": "Steward Dragon",
+    "zh": "Steward Dragon",
+    "tier": 8,
+    "cost": 0,
+    "skills": [
+      342,
+      119,
+      128,
+      129,
+      632
+    ],
+    "image": "statuses/confuse.png",
+    "description": "A Steward in the form of a dragon."
+  },
+  {
+    "id": 135,
+    "name": "Steward Gazer",
+    "zh": "Steward Gazer",
+    "tier": 8,
+    "cost": 0,
+    "skills": [
+      630,
+      470,
+      340,
+      171
+    ],
+    "image": "statuses/confuse.png",
+    "description": "A Steward in the form of a Gazer."
+  },
+  {
+    "id": 136,
+    "name": "Steward Golem",
+    "zh": "Steward Golem",
+    "tier": 8,
+    "cost": 0,
+    "skills": [
+      614,
+      294,
+      136,
+      299
+    ],
+    "image": "statuses/confuse.png",
+    "description": "A Steward in the form of a golem."
+  },
+  {
+    "id": 137,
+    "name": "Steward Wolf",
+    "zh": "Steward Wolf",
+    "tier": 8,
+    "cost": 0,
+    "skills": [
+      182,
+      285,
+      165,
+      244
+    ],
+    "image": "statuses/confuse.png",
+    "description": "A Steward in the form of a wolf."
   }
 ]

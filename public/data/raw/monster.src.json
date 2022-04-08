@@ -15700,7 +15700,7 @@
   {
     "id": 522,
     "name": "Fallen Hero, Lover Lost",
-    "zh": "Fallen Hero, Lover Lost",
+    "zh": "墮落英雄洛佛洛斯特",
     "tier": 5,
     "level": 120,
     "boss": 1,
@@ -15736,7 +15736,7 @@
   {
     "id": 523,
     "name": "Enlightened Queen",
-    "zh": "Enlightened Queen",
+    "zh": "啟蒙者之后",
     "tier": 7,
     "level": 180,
     "boss": 1,
@@ -15756,7 +15756,7 @@
   {
     "id": 524,
     "name": "Enlightened King",
-    "zh": "Enlightened King",
+    "zh": "啟蒙者之王",
     "tier": 7,
     "level": 180,
     "boss": 1,
@@ -15808,7 +15808,7 @@
   {
     "id": 526,
     "name": "Knight Sirius",
-    "zh": "Knight Sirius",
+    "zh": "騎士賽勒斯",
     "tier": 9,
     "level": 220,
     "boss": 1,
