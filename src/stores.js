@@ -64,6 +64,9 @@ let initFilter = [...initQuery].map((qs, index) => {
       }, +new Date() + index);
 }).filter(Boolean);
 
+if (!initFilter.length) {
+  initFilter = [createNewTextFilter('')];
+}
 
 function createFilters() {
   const { subscribe, set, update } = writable(initFilter);
