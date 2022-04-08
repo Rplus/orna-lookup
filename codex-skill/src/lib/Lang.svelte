@@ -1,6 +1,13 @@
 <script>
   import { locale, locales } from './i18n.js';
   import { saveItem } from './u.js';
+
+  locale.subscribe((newLang) => {
+    saveItem({
+      key: 'lang',
+      value: newLang,
+    })
+  });
 </script>
 
 
