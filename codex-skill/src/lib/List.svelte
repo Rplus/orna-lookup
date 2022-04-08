@@ -4,7 +4,7 @@
   import { uniq, sortByChar } from './u.js';
   export let data = [];
 
-  let quotePerPage = 20;
+  let quotePerPage = 10;
 
   let tags = uniq(data.map(i => i.tags).flat()).filter(Boolean);
 
@@ -12,6 +12,11 @@
   let causes = uniq(data.map(i => Object.keys(i.metas.causes || [])).flat()).sort(sortByChar);
   gives.unshift('');
   causes.unshift('');
+
+  let defaultRules = [{
+    prop: 'effect.causes',
+    timestamp: +new Date(),
+  }];
 
   let filteredItems = data;
   let ruleProps = [
@@ -24,18 +29,35 @@
     'img',
     'uid',
   ];
+  let querylink = '';
 
   $: {
     rules,
     filteredItems = filterItems();
+    querylink = updateUrl();
   }
 
-  let rules = [
-    {
-      prop: 'effect.causes',
-      timestamp: +new Date(),
-    },
-  ];
+  let rules = initRules();
+
+  function initRules() {
+    let sp = new URLSearchParams(location.search);
+    let _rules = [...sp]
+      .filter(i => i[1])
+      .map((i, index) => ({
+        prop: i[0],
+        value: i[1],
+        timestamp: +new Date() + index,
+      }));
+    return _rules.length ? _rules : defaultRules;
+  }
+
+  function updateUrl() {
+    let sp = new URLSearchParams();
+    rules.forEach(rule => {
+      sp.append(rule.prop, rule.value);
+    });
+    return sp.toString();
+  }
 
   function addFilter(argument) {
     rules = rules.concat({
@@ -59,7 +81,6 @@
   }
 
   function filterByRule(data, rule) {
-    console.log(rule);
     if (!rule.value || !data.length) {
       return data;
     }
@@ -96,6 +117,9 @@
 <aside>
   <div class="filter-ctrl">
     <button on:click={ addFilter }>{$_('add.filter')}</button>
+    <a href="./?{querylink}">⚓</a>
+    <span />
+    <span />
     <label>
       👁️
       <input id="quotePerPage" type="number" bind:value={quotePerPage} min="1">
@@ -112,7 +136,7 @@
   -->
 
   <ul class="filters">
-    {#each rules as rule}
+    {#each rules as rule (rule.timestamp)}
       <li>
         <button on:click={rmRule(rule.timestamp)}>x</button>
 
@@ -171,10 +195,12 @@
 <style>
   .filter-ctrl {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
   .filter-ctrl input {
     width: 5em;
+    text-align: center;
   }
   .filters input {
     max-width: 30%;
