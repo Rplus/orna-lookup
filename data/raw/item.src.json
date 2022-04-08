@@ -8219,7 +8219,7 @@
   {
     "id": 303,
     "name": "Spear",
-    "zh": "茅",
+    "zh": "矛",
     "tier": 2,
     "type": "Weapon",
     "equipped_by": [
@@ -8610,7 +8610,7 @@
   {
     "id": 323,
     "name": "Ljosalfar Boots",
-    "zh": "光之精靈長靴",
+    "zh": "日之精靈長靴",
     "tier": 8,
     "type": "Legs",
     "equipped_by": [
@@ -8636,7 +8636,7 @@
   {
     "id": 324,
     "name": "Ljosalfar Staff",
-    "zh": "光之精靈法杖",
+    "zh": "日之精靈法杖",
     "tier": 8,
     "type": "Weapon",
     "equipped_by": [
@@ -8714,7 +8714,7 @@
   {
     "id": 326,
     "name": "Ljosalfar Hood",
-    "zh": "光之精靈兜帽",
+    "zh": "日之精靈兜帽",
     "tier": 8,
     "type": "Head",
     "equipped_by": [
@@ -8737,7 +8737,7 @@
   {
     "id": 327,
     "name": "Ljosalfar Sword",
-    "zh": "光精靈之劍",
+    "zh": "日精靈之劍",
     "tier": 8,
     "type": "Weapon",
     "equipped_by": [
@@ -8784,7 +8784,7 @@
   {
     "id": 329,
     "name": "Ljosalfar Sceptre",
-    "zh": "光之精靈權杖",
+    "zh": "日之精靈權杖",
     "tier": 8,
     "type": "Weapon",
     "boss": 1,
@@ -8918,7 +8918,7 @@
   {
     "id": 334,
     "name": "Ljosalfar Armor",
-    "zh": "光之精靈盔甲",
+    "zh": "日之精靈盔甲",
     "tier": 8,
     "type": "Armor",
     "equipped_by": [
@@ -8938,7 +8938,7 @@
   {
     "id": 335,
     "name": "Ljosalfar Cowl",
-    "zh": "光之精靈風帽",
+    "zh": "日之精靈風帽",
     "tier": 8,
     "type": "Head",
     "equipped_by": [
@@ -8959,7 +8959,7 @@
   {
     "id": 336,
     "name": "Ljosalfar Helmet",
-    "zh": "光之精靈頭盔",
+    "zh": "日之精靈頭盔",
     "tier": 8,
     "type": "Head",
     "equipped_by": [
@@ -8979,7 +8979,7 @@
   {
     "id": 337,
     "name": "Ljosalfar Garb",
-    "zh": "光之精靈皮甲",
+    "zh": "日之精靈皮甲",
     "tier": 8,
     "type": "Armor",
     "equipped_by": [
@@ -9024,7 +9024,7 @@
   {
     "id": 339,
     "name": "Ljosalfar Robe",
-    "zh": "光之精靈法袍",
+    "zh": "日之精靈法袍",
     "tier": 8,
     "type": "Armor",
     "equipped_by": [
@@ -10880,7 +10880,7 @@
   {
     "id": 407,
     "name": "Balorite",
-    "zh": "巴爾羅靈石",
+    "zh": "巴羅爾靈石",
     "tier": 4,
     "type": "Material",
     "boss": 1,
@@ -11447,7 +11447,7 @@
   {
     "id": 430,
     "name": "Dokkalfar Gada",
-    "zh": "暗之精靈金剛杵",
+    "zh": "夜之精靈金剛杵",
     "tier": 8,
     "type": "Weapon",
     "boss": 1,
@@ -13943,7 +13943,7 @@
   {
     "id": 537,
     "name": "Dokkalfar Garb",
-    "zh": "暗之精靈皮甲",
+    "zh": "夜之精靈皮甲",
     "tier": 8,
     "type": "Armor",
     "equipped_by": [
@@ -13965,7 +13965,7 @@
   {
     "id": 538,
     "name": "Dokkalfar Hood",
-    "zh": "暗之精靈兜帽",
+    "zh": "夜之精靈兜帽",
     "tier": 8,
     "type": "Head",
     "equipped_by": [
@@ -13986,7 +13986,7 @@
   {
     "id": 539,
     "name": "Dokkalfar Helmet",
-    "zh": "暗之精靈頭盔",
+    "zh": "夜之精靈頭盔",
     "tier": 8,
     "type": "Head",
     "equipped_by": [
@@ -14006,7 +14006,7 @@
   {
     "id": 540,
     "name": "Dokkalfar Staff",
-    "zh": "暗之精靈法杖",
+    "zh": "夜之精靈法杖",
     "tier": 8,
     "type": "Weapon",
     "equipped_by": [
@@ -14051,7 +14051,7 @@
   {
     "id": 542,
     "name": "Dokkalfar Sword",
-    "zh": "暗之精靈劍",
+    "zh": "夜之精靈劍",
     "tier": 8,
     "type": "Weapon",
     "equipped_by": [
@@ -14075,7 +14075,7 @@
   {
     "id": 543,
     "name": "Dokkalfar Armor",
-    "zh": "暗之精靈盔甲",
+    "zh": "夜之精靈盔甲",
     "tier": 8,
     "type": "Armor",
     "equipped_by": [
@@ -14096,7 +14096,7 @@
   {
     "id": 544,
     "name": "Dokkalfar Robe",
-    "zh": "暗之精靈法袍",
+    "zh": "夜之精靈法袍",
     "tier": 8,
     "type": "Armor",
     "equipped_by": [
@@ -14117,7 +14117,7 @@
   {
     "id": 545,
     "name": "Dokkalfar Boots",
-    "zh": "暗之精靈長靴",
+    "zh": "夜之精靈長靴",
     "tier": 8,
     "type": "Legs",
     "equipped_by": [
@@ -14142,7 +14142,7 @@
   {
     "id": 546,
     "name": "Dokkalfar Cowl",
-    "zh": "暗之精靈風帽",
+    "zh": "夜之精靈風帽",
     "tier": 8,
     "type": "Head",
     "equipped_by": [
@@ -18121,7 +18121,7 @@
   {
     "id": 707,
     "name": "Atgeir",
-    "zh": "維京茅",
+    "zh": "維京矛",
     "tier": 8,
     "type": "Weapon",
     "boss": 1,
@@ -22086,7 +22086,7 @@
   {
     "id": 868,
     "name": "Mirror",
-    "zh": "魔鏡",
+    "zh": "鏡像",
     "tier": 5,
     "type": "Off-hand",
     "arena": 1,
@@ -24427,7 +24427,7 @@
   {
     "id": 962,
     "name": "High Phoenician Helmet",
-    "zh": "高級鳳凰頭盔",
+    "zh": "高等鳳凰頭盔",
     "tier": 7,
     "type": "Head",
     "boss": 1,
@@ -24527,7 +24527,7 @@
   {
     "id": 966,
     "name": "High Phoenician Cowl",
-    "zh": "高級鳳凰風帽",
+    "zh": "高等鳳凰風帽",
     "tier": 7,
     "type": "Head",
     "boss": 1,
@@ -24553,7 +24553,7 @@
   {
     "id": 967,
     "name": "High Phoenician Hood",
-    "zh": "高級鳳凰兜帽",
+    "zh": "高等鳳凰兜帽",
     "tier": 7,
     "type": "Head",
     "boss": 1,
@@ -24655,7 +24655,7 @@
   {
     "id": 971,
     "name": "High Phoenician Cuirass",
-    "zh": "高級鳳凰胸甲",
+    "zh": "高等鳳凰胸甲",
     "tier": 7,
     "type": "Armor",
     "boss": 1,
@@ -24806,7 +24806,7 @@
   {
     "id": 977,
     "name": "High Phoenician Garb",
-    "zh": "高級鳳凰皮甲",
+    "zh": "高等鳳凰皮甲",
     "tier": 7,
     "type": "Armor",
     "boss": 1,
@@ -24940,7 +24940,7 @@
   {
     "id": 982,
     "name": "High Phoenician Boots",
-    "zh": "高級鳳凰長靴",
+    "zh": "高等鳳凰長靴",
     "tier": 7,
     "type": "Legs",
     "boss": 1,
@@ -25094,7 +25094,7 @@
   {
     "id": 988,
     "name": "High Phoenician Shoes",
-    "zh": "高級鳳凰的鞋",
+    "zh": "高等鳳凰的鞋",
     "tier": 7,
     "type": "Legs",
     "boss": 1,
@@ -25120,7 +25120,7 @@
   {
     "id": 989,
     "name": "High Phoenician Greaves",
-    "zh": "高級鳳凰護脛",
+    "zh": "高等鳳凰護脛",
     "tier": 7,
     "type": "Legs",
     "boss": 1,
@@ -25330,7 +25330,7 @@
   {
     "id": 997,
     "name": "High Phoenixsong",
-    "zh": "高級鳳曲",
+    "zh": "高等鳳曲",
     "tier": 7,
     "type": "Weapon",
     "boss": 1,
@@ -25425,7 +25425,7 @@
   {
     "id": 1001,
     "name": "High Phoenician Robe",
-    "zh": "高級鳳凰法袍",
+    "zh": "高等鳳凰法袍",
     "tier": 7,
     "type": "Armor",
     "boss": 1,
@@ -29061,7 +29061,7 @@
   {
     "id": 1153,
     "name": "Ashen Phoenician Cowl",
-    "zh": "灰白鳳凰的風帽",
+    "zh": "蒼白鳳凰的風帽",
     "tier": 10,
     "type": "Head",
     "boss": 1,
@@ -38238,7 +38238,7 @@
   {
     "id": 1516,
     "name": "Ash-plumed Helmet",
-    "zh": "Ash-plumed Helmet",
+    "zh": "灰燼羽織頭盔",
     "tier": 9,
     "type": "Head",
     "boss": 1,
@@ -38268,7 +38268,7 @@
   {
     "id": 1517,
     "name": "Ash-plumed Cowl",
-    "zh": "Ash-plumed Cowl",
+    "zh": "灰燼羽織風帽",
     "tier": 9,
     "type": "Head",
     "boss": 1,
@@ -38299,7 +38299,7 @@
   {
     "id": 1518,
     "name": "Ash-plumed Hood",
-    "zh": "Ash-plumed Hood",
+    "zh": "灰燼羽織兜帽",
     "tier": 9,
     "type": "Head",
     "boss": 1,
@@ -38329,7 +38329,7 @@
   {
     "id": 1519,
     "name": "Ash-plumed Robe",
-    "zh": "Ash-plumed Robe",
+    "zh": "灰燼羽織法袍",
     "tier": 9,
     "type": "Armor",
     "boss": 1,
@@ -38359,7 +38359,7 @@
   {
     "id": 1520,
     "name": "Ash-plumed Cuirass",
-    "zh": "Ash-plumed Cuirass",
+    "zh": "灰燼羽織胸甲",
     "tier": 9,
     "type": "Armor",
     "boss": 1,
@@ -38389,7 +38389,7 @@
   {
     "id": 1521,
     "name": "Ash-plumed Garb",
-    "zh": "Ash-plumed Garb",
+    "zh": "灰燼羽織皮甲",
     "tier": 9,
     "type": "Armor",
     "boss": 1,
@@ -38420,7 +38420,7 @@
   {
     "id": 1522,
     "name": "Ash-plumed Greaves",
-    "zh": "Ash-plumed Greaves",
+    "zh": "灰燼羽織護脛",
     "tier": 9,
     "type": "Legs",
     "boss": 1,
@@ -38450,7 +38450,7 @@
   {
     "id": 1523,
     "name": "Ash-plumed Shoes",
-    "zh": "Ash-plumed Shoes",
+    "zh": "灰燼羽織之鞋",
     "tier": 9,
     "type": "Legs",
     "boss": 1,
@@ -38481,7 +38481,7 @@
   {
     "id": 1524,
     "name": "Ash-plumed Boots",
-    "zh": "Ash-plumed Boots",
+    "zh": "灰燼羽織長靴",
     "tier": 9,
     "type": "Legs",
     "boss": 1,
@@ -38599,7 +38599,7 @@
   {
     "id": 1529,
     "name": "Arisen Kerberos Staff",
-    "zh": "重生的刻耳柏洛斯法杖",
+    "zh": "重生刻耳柏洛斯法杖",
     "tier": 9,
     "type": "Weapon",
     "equipped_by": [
@@ -38624,7 +38624,7 @@
   {
     "id": 1530,
     "name": "Arisen Kerberos Sword",
-    "zh": "重生的刻耳柏洛斯之劍",
+    "zh": "重生刻耳柏洛斯之劍",
     "tier": 9,
     "type": "Weapon",
     "equipped_by": [
@@ -38650,7 +38650,7 @@
   {
     "id": 1531,
     "name": "Arisen Kerberos Hood",
-    "zh": "重生的刻耳柏洛斯兜帽",
+    "zh": "重生刻耳柏洛斯兜帽",
     "tier": 9,
     "type": "Head",
     "boss": 1,
@@ -38679,7 +38679,7 @@
   {
     "id": 1532,
     "name": "Arisen Kerberos Claws",
-    "zh": "重生的刻耳柏洛斯之爪",
+    "zh": "重生刻耳柏洛斯之爪",
     "tier": 9,
     "type": "Weapon",
     "equipped_by": [
@@ -39092,7 +39092,7 @@
   {
     "id": 1546,
     "name": "Naggeneen's Belt",
-    "zh": "Naggeneen's Belt",
+    "zh": "納根因的腰帶",
     "tier": 7,
     "type": "Accessory",
     "stats.dexterity": 50,
@@ -39107,7 +39107,7 @@
   {
     "id": 1547,
     "name": "Lordly Monster Tome",
-    "zh": "Lordly Monster Tome",
+    "zh": "貴氣魔物之典",
     "tier": 4,
     "type": "Accessory",
     "equipped_by": [
@@ -39124,7 +39124,7 @@
   {
     "id": 1548,
     "name": "Donta's Shield",
-    "zh": "Donta's Shield",
+    "zh": "唐塔之盾",
     "tier": 5,
     "type": "Off-hand",
     "equipped_by": [
@@ -39144,7 +39144,7 @@
   {
     "id": 1549,
     "name": "Mara's Blessing",
-    "zh": "Mara's Blessing",
+    "zh": "瑪萊的祝福",
     "tier": 3,
     "type": "Accessory",
     "view_distance": 1,
@@ -39159,7 +39159,7 @@
   {
     "id": 1550,
     "name": "Lover's Lost",
-    "zh": "Lover's Lost",
+    "zh": "戀人之逝",
     "tier": 5,
     "type": "Accessory",
     "equipped_by": [
@@ -39173,7 +39173,7 @@
   {
     "id": 1551,
     "name": "Arisen Stone Dagger",
-    "zh": "重生的石化匕首",
+    "zh": "重生石化匕首",
     "tier": 9,
     "type": "Weapon",
     "equipped_by": [
@@ -39197,7 +39197,7 @@
   {
     "id": 1552,
     "name": "Bird Whistle",
-    "zh": "Bird Whistle",
+    "zh": "鳥笛",
     "tier": 3,
     "type": "Other",
     "equipped_by": [
@@ -39211,7 +39211,7 @@
   {
     "id": 1553,
     "name": "Solar Secrets",
-    "zh": "Solar Secrets",
+    "zh": "天照秘儀",
     "tier": 7,
     "type": "Item",
     "equipped_by": [
@@ -39225,7 +39225,7 @@
   {
     "id": 1554,
     "name": "Galar's Hammer",
-    "zh": "Galar's Hammer",
+    "zh": "伽勒爾之錘",
     "tier": 4,
     "type": "Item",
     "equipped_by": [
@@ -39239,7 +39239,7 @@
   {
     "id": 1555,
     "name": "Myrkheim Hammer",
-    "zh": "Myrkheim Hammer",
+    "zh": "米爾克海姆之錘",
     "tier": 10,
     "type": "Item",
     "equipped_by": [
@@ -39253,7 +39253,7 @@
   {
     "id": 1556,
     "name": "Questing License",
-    "zh": "Questing License",
+    "zh": "探險證",
     "tier": 1,
     "type": "Item",
     "equipped_by": [
@@ -39267,7 +39267,7 @@
   {
     "id": 1557,
     "name": "Steward Candle",
-    "zh": "Steward Candle",
+    "zh": "眷族蠟燭",
     "tier": 8,
     "type": "Item",
     "equipped_by": [
@@ -39309,7 +39309,7 @@
   {
     "id": 1560,
     "name": "Small Bestial Potion",
-    "zh": "Small Bestial Potion",
+    "zh": "小兇殘藥水",
     "tier": 1,
     "type": "Item",
     "equipped_by": [
