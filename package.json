@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "parse-codex": "node ./task/skill-parser-in-playerorna.mjs",
     "crawer": "node ./task/crawer.js",
     "parser": "node ./task/parser.js",
     "tocsv": "node ./task/flat.mjs",

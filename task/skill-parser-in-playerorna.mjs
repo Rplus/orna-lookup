@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import { parse } from 'node-html-parser';
 import { saveCSV, outputJSON, getArgs } from './u.mjs';
 
-const filename = './orna-skills.json';
+const filename = './codex-skill/src/orna-skills.json';
 const langs = ['en', 'zh-hant'];
 let lang = langs[0];
 let log = [];
@@ -15,13 +15,15 @@ let skillSources = {
   '✓ Found in Arcanists': 'arcanists',
   '✓ Off-hand ability': 'off-hand',
 };
+
+fs.unlinkSync(filename);
+
 try {
   fileData = fs.readFileSync(filename, 'utf8');
   fileData = JSON.parse(fileData);
 } catch (err) {
   console.error(err);
 }
-
 
 if (fileData) {
   data = fileData;
