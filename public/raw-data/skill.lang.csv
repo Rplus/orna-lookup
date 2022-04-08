@@ -12,7 +12,7 @@ id,en,zh,info,info_zh
 35,Bleed,放血,Attack with a good chance of a critical hit. May cause bleeding.,攻擊有不錯的機率造成爆擊。可能會造成流血狀態。
 36,Bolt,魔法箭,Deals light magic damage.,造成輕微的魔法傷害。
 37,Charge,衝鋒,"Hurl your body into the enemy, causing extra damage.",用你的身體衝撞敵人，造成額外傷害。
-38,First Aid,急救,Recover 100 health points.,恢復100點生命值。
+38,First Aid,急救,Recover 100 health points.,恢復 100 生命值。
 39,Flame,火焰,Deals light fire damage.,造成輕微的火焰傷害。
 40,Frost,冰凍術,Deals light ice damage.,造成輕微的冰凍傷害。
 41,Heal,治療術,Recovers 100 HP,
@@ -29,7 +29,7 @@ id,en,zh,info,info_zh
 52,Flame II,火焰術 II,Deals moderate fire damage.,造成中等的火系傷害。
 53,Freeze,冰凍術,Freezes an opponent.,使對手進入冰凍狀態。
 54,Frost II,冰凍術 II,Deals moderate ice damage.,造成中等的冰系傷害。
-55,Great Heal,強效治療術,Recover 250 health points.,恢復250點生命值。
+55,Great Heal,強效治療術,Recover 250 health points.,恢復 250 生命值。
 56,Ice Arrow,冰之箭,Freeze an arrow and attack the enemy. 25% chance to freeze an opponent.,
 57,Icestrike,冰凍之擊,Freeze your weapon and attack the enemy.,冰凍你的武器並攻擊敵人。
 58,Lightningstrike,閃電之擊,Electrify your weapon and attack the enemy.,讓你的武器帶電並攻擊敵人。
@@ -48,7 +48,7 @@ id,en,zh,info,info_zh
 71,Doublecut,二連擊,"Swiftly attack twice, dealing up to double damage.",快速攻擊兩次，造成雙倍傷害。
 72,Exploit,剝削,Decreases the opponents physical defense.,降低對手的物理防禦。
 73,Flurry,亂舞,"Bombard your opponent with multiple arrows, possibly breaking their defenses in the act.",用眾多的箭矢轟擊對手，可能會破壞他們的物理防禦力。
-74,Holystrike,神聖之擊,Purify your weapon and attack the enemy.,淨化你的武器並且攻擊敵人。
+74,Holystrike,聖光之擊,Purify your weapon and attack the enemy.,淨化你的武器並且攻擊敵人。
 75,Meteor,隕石術,Deals great fire damage.,造成巨大的火系傷害。
 76,Mute,沉默術,Decreases the opponents magic power.,降低對手的魔法攻擊力。
 77,Osmostrike,滲透攻擊,"Attack, healing yourself in the process.",攻擊，在過程中治療自身。
@@ -120,7 +120,7 @@ id,en,zh,info,info_zh
 146,Darkstrike II,黑暗之擊 II,Imbue your weapon with the occult and attack the enemy.,讓超自然的力量滲入你的武器並攻擊敵人。
 147,Earthstrike II,大地之擊 II,Attack the enemy with earthen power.,用大地之力攻擊敵人。
 148,Firestrike II,火焰之擊 II,Light your weapon afire and attack the enemy,
-149,Holystrike II,神聖之擊 II,Purify your weapon and attack the enemy,
+149,Holystrike II,聖光之擊 II,Purify your weapon and attack the enemy,
 150,Icestrike II,冰凍之擊 II,Freeze your weapon and attack the enemy,
 151,Lightningstrike II,閃電之擊 II,Electrify your weapon and attack the enemy,
 152,Omnistrike II,融合之擊 II,Strike hard with the chance of weakening your opponent's attack or defenses.,猛烈的一擊，有可能削弱對手的攻擊力或防禦力。
@@ -147,7 +147,7 @@ id,en,zh,info,info_zh
 173,Arcane Strikes,奧術連擊,Attacking thrice with unrelenting arcane energy.  Requires 2 turns in battle.,
 174,Coup de Grace,人道毀滅,Perform the perfect strike at the perfect time. This attack never misses but requires 3 turns in battle.,
 175,Cyclone,旋風斬,"Attack your opponent while spinning, inflecting damage thrice.  Your opponent may become stunned.",
-176,Double Edge,雙面刃,"Attack without care, dealing critical damage to your opponent while taking self damage.",隨意的攻擊，對對手造成爆擊同時對自身造成傷害。
+176,Double Edge,雙面刃,"Attack without care, dealing critical damage to your opponent while taking self damage.",隨意的攻擊，對對手造成致命性傷害的同時也對自身造成傷害。
 177,Dragon's Vengeance II,龍的復仇 II,Deals immense damage according to the amount of dragons one has recently conquered. Requires 2 turns in battle.,根據最近戰勝的龍類生物數量造成巨量傷害。在戰鬥中需要兩回合發動。
 178,Sorrow II,嘆息之靈 II,Deals immense damage according to the amount of beasts one has recently slain. Requires 2 turns in battle.,根據最近擊殺的野獸數量造成巨量傷害。在戰鬥中需要兩回合發動。
 179,Sorrow III,嘆息之靈 III,Deals damage multiple times according to the amount of beasts one has recently slain. Requires 3 turns in battle.,根據最近擊殺野獸類怪物的數量造成多次傷害。施放需要三回合。
@@ -173,7 +173,7 @@ id,en,zh,info,info_zh
 199,Earthstrike III,大地之擊 III,Attack the enemy with earthen power.,用大地之力攻擊敵人。
 200,Lightningstrike III,閃電之擊 III,Electrify your weapon and attack the enemy.,讓你的武器帶電並攻擊敵人。
 201,Darkstrike III,黑暗之擊 III,Imbue your weapon with the occult and attack the enemy.,讓超自然的力量滲入你的武器並攻擊敵人。
-202,Holystrike III,神聖之擊 III,Purify your weapon and attack the enemy,
+202,Holystrike III,聖光之擊 III,Purify your weapon and attack the enemy,
 203,Osmostrike III,滲透攻擊 III,"Attack, healing yourself in the process.",攻擊，在過程中治療自身。
 204,Omnistrike III,融合之擊 III,Strike hard with the chance of weakening your opponent's attack or defenses.,猛烈的一擊，有可能削弱對手的攻擊力或防禦力。
 205,Arcane Strikes II,奧術連擊 II,Attacking thrice with the unrelenting arcane energy.  Requires 3 turns in battle.,
@@ -229,12 +229,12 @@ id,en,zh,info,info_zh
 255,Envy,嫉妒,Deals arcane damage and may cause curse.,造成奧術傷害且有可能造成詛咒異常狀態。
 256,Despair,絕望,Deals great arcane damage.,造成巨大的奧術傷害。
 257,Pierce,穿刺,"Attack with the point of your weapon, potentially temporarily lowering an opponent's defenses.",用武器的尖端進行攻擊，可能會暫時降低對手的防禦能力。
-258,Cure Bleeding,治療流血,Cures its user of bleeding.,治療施術者的流血狀態。
-259,Cure Blindness,治療目盲,Cures its user of being blinded.,治療施術者的目盲狀態。
-260,Cure Burn,治療燃燒,Cures its user of burning.,治療施術者的燃燒狀態。
-261,Cure Frozen,治療冰凍,Cures its user of being frozen.,治療施術者的冰凍狀態。
-262,Cure Paralysis,治療癱瘓,Cures its user of being paralyzed.,治療施術者的麻痺狀態。
-263,Cure Poison,治療中毒,Cures its user of poison.,治療施術者的中毒狀態。
+258,Cure Bleeding,治療流血,Cures its user of bleeding.,
+259,Cure Blindness,治療目盲,Cures its user of being blinded.,
+260,Cure Burn,治療燃燒,Cures its user of burning.,
+261,Cure Frozen,治療冰凍,Cures its user of being frozen.,
+262,Cure Paralysis,治療癱瘓,Cures its user of being paralyzed.,
+263,Cure Poison,治療中毒,Cures its user of poison.,
 264,Foresee,預知術,Temporarily increases magic defense and gives Ward for 1 turn.,暫時增加魔法防禦力，並且給予一回合的護盾次數。
 265,Guard,守衛術,Temporarily increases physical defense and gives Ward for 1 turn.,暫時性的增加物理防禦，並且給予一回合的護盾次數。
 266,Pommel Strike,劍柄攻擊,"Strike an enemy with the hilt of a weapon, increasing the chance to stun.",用武器的柄重擊敵人，增加擊暈的機率。
@@ -253,7 +253,7 @@ id,en,zh,info,info_zh
 279,Spark V,星火術 V,Deals massive lightning damage.,造成大量的電系傷害。
 280,Tremor V,地顫術 V,Deals massive earthen damage.,造成大量的土系傷害。
 281,Dragonstrike,龍襲術,A simple attack that will deal extra damage to dragons.,一種簡單的攻擊，會對龍造成額外傷害。
-282,Bandage,繃帶,Recover 50 health points.,恢復50點生命值。
+282,Bandage,繃帶,Recover 50 health points.,恢復 50 生命值。
 283,Purify,淨化術,Deals moderate holy damage.,造成中等的神聖傷害。
 284,Bolt III,魔法箭 III,Deals moderate magic damage.,造成中等的無屬性魔法傷害。
 285,Doublecut II,二連擊 II,"Swiftly attack twice, dealing up to double damage.",快速攻擊兩次，造成雙倍傷害。
@@ -384,10 +384,10 @@ id,en,zh,info,info_zh
 410,Omnimancy,元素融合,"You are one with the elements. Occasionally, you will be immune to damage of any basic element.",你與元素合而為一。 你將隨機對任一基本元素的傷害產生免疫。
 411,Elementless,元素解除,Removes elemental effects from your weapon.,將武器上的元素效果移除。
 412,Osmostrikes,滲透連擊,"Swiftly attack thrice, dealing up to triple damage and healing yourself in the process.",快速攻擊三次，最高造成三倍傷害，還可在攻擊中恢復生命值。
-413,Omnistrikes,融合連擊,Swiftly attack thrice with the chance of weakening your opponent's attack or defenses.,快速攻擊三次，有機會降低對手的物防。
+413,Omnistrikes,融合連擊,Swiftly attack thrice with the chance of weakening your opponent's attack or defenses.,快速攻擊三次，有機會削弱對手的攻擊力或防禦力。
 414,Quadcut II,四連擊 II,"Swiftly attack four times, dealing up to quadruple damage.",快速攻擊四次，最多造成四倍的傷害。
 415,Swordplay III,劍擊 III,"Attack multiple times, changing the course of the battle. It may cause multiple buffs and debuffs.",連續攻擊數次，扭轉戰局。 它可能會造成多種增益和減益狀態。
-416,Ward of Balor,巴羅爾的護盾,Grants Ward for 5 turns and may give elemental resistances.,增加五回合的護盾，並有機率給予元素抗性。
+416,Ward of Balor,巴羅爾護盾,Grants Ward for 5 turns and may give elemental resistances.,增加五回合的護盾，並有機率給予元素抗性。
 417,Dungeon Crawler,地城行者,Your stats increase as you defeat monsters in dungeons.,當你在地城擊敗魔物，可提升屬性加成。
 418,Saboteur,破壞王,Your attacks deal extra damage to opponent Ward and may decrease their defenses.,你的攻擊對對手的護盾造成額外的傷害，並降低他們的防禦力。
 419,Beaststrike,獸之猛擊,Attack with the might of beasts. Total damage is determined by both your attack and magic stats.,造成龍屬性物理傷害，傷害量同時計入物攻及魔攻。
@@ -473,7 +473,7 @@ id,en,zh,info,info_zh
 499,Evasive Strikes,迴避突擊,"Attack twice and reset position, gaining additional critical chance.",
 500,Magic Dagger IV,魔法匕首 IV,Attack with a sharp dagger made of magic which may cause an opponent to bleed. Damage is based on one's magic stat rather than attack.,用鋒利的魔法匕首攻擊，可能會導致對手流血。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 501,Realmshift,域界易形,Leave and reenter this realm. Your stats may be wildly different upon reentry.,離開並重新進入域界.你的身體素質在重新進入後會有很多改變.
-502,Magic Arrow IV,魔法弓 IV,Attack with a steady arrow made of magic which may lower an opponent's attack. Damage is based on one's magic stat rather than attack.,用穩定的魔法箭來攻擊，這可能會降低對手的物理攻擊力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
+502,Magic Arrow IV,魔法箭矢 IV,Attack with a steady arrow made of magic which may lower an opponent's attack. Damage is based on one's magic stat rather than attack.,用穩定的魔法箭來攻擊，這可能會降低對手的物理攻擊力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 503,Bloodshift,鮮血轉移,"Has the potential to temporarily boost many stats, but incur temporary damage over time.","有機率短暫提升各種身體素質,但隨著時間消逝會自損生命."
 504,Magic Strikes IV,魔法連擊 IV,"Swiftly attack thrice, dealing up to triple damage. Damage is based on one's magic stat rather than attack.",迅速攻擊三次，最多造成三倍傷害。傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 505,Resurgence,臨界復甦,You become more powerful as your HP decreases in battle.,在戰鬥中，隨著生命值的降低，你將變得更加強大。
@@ -495,7 +495,7 @@ id,en,zh,info,info_zh
 521,Viperseal II,龍息之印 II,Deals massive dragon damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
 522,Viperstrike II,龍息之擊 II,Deals massive dragon damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
 523,Sacreseal II,神聖之印 II,Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
-524,Sacrestrike II,神聖之擊,Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
+524,Sacrestrike II,神聖之擊 II,Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
 525,Gloomseal II,黯無之印 II,Deals massive dark damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
 526,Gloomstrike II,黯無之擊 II,Deals massive dark damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
 527,Lostseal II,遺落之印 II,Deals massive arcane damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns.,
@@ -506,7 +506,7 @@ id,en,zh,info,info_zh
 532,Diffuse Ward II,佈防 II,Convert 50% of your available Ward to HP and mana. Requires 2 turns in battle.,
 533,Demigod,半神型態,You become more powerful as your HP and mana decrease in battle.,在戰鬥中，隨著生命值與魔力值的降低，你將變得更加強大。
 534,Unstable Omnimancy,不穩定的元素融合,"You have abanadoned the traditions of the elements.  For every turn in battle, you may be resistant, weak, or immune to some elements.",
-535,Diffuse Ward III,佈防 III,Convert all of your available ward to HP and mana. Requires 4 turns in battle.,
+535,Diffuse Ward III,佈防 III,Convert all of your available ward to HP and mana. Requires 4 turns in battle.,將全部護盾轉換為生命跟魔力值。需要4回合才能發動。
 536,Spiked Shield III,荊棘盾擊 III,"Attack with a barbed shield, converting 30% of your available ward to raw damage",
 537,Verse,龍韻,Deals moderate non-elemental damage with the potential to hinder an opponent's defenses.  Total damage is determined by both your attack and magic stats.,
 538,Beaststrikes,猛獸連擊,"Swiftly attack thrice with the might of beasts, with a greater chance of dealing critical damage.  Total damage is determined by both your attack and magic stats.",
@@ -522,11 +522,11 @@ id,en,zh,info,info_zh
 548,Magic Hammer II,魔法錘 II,Attack with a blunt hammer made of magic which may lower an opponent's defense. Damage is based on one's magic stat rather than attack.,用魔法製成的鈍錘攻擊，可能會降低對手的物理防禦力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 549,Magic Strikes II,魔法連擊 II,"Swiftly attack thrice, dealing up to triple damage. Damage is based on one's magic stat rather than attack.",迅速攻擊三次，最多造成三倍傷害。傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 550,Magic Dagger II,魔法匕首 II,Attack with a sharp dagger made of magic which may cause an opponent to bleed. Damage is based on one's magic stat rather than attack.,用鋒利的魔法匕首攻擊，可能會導致對手流血。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
-551,Magic Arrow II,魔法箭 II,Attack with a steady arrow made of magic which may lower an opponent's attack. Damage is based on one's magic stat rather than attack.,用穩定的魔法箭來攻擊，這可能會降低對手的物理攻擊力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
+551,Magic Arrow II,魔法箭矢 II,Attack with a steady arrow made of magic which may lower an opponent's attack. Damage is based on one's magic stat rather than attack.,用穩定的魔法箭來攻擊，這可能會降低對手的物理攻擊力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 552,Magic Sword III,魔法劍 III,Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based off one's magic stat rather than attack.,
 553,Magic Hammer III,魔法錘 III,Attack with a blunt hammer made of magic which may lower an opponent's defense. Damage is based on one's magic stat rather than attack.,用魔法製成的鈍錘攻擊，可能會降低對手的物理防禦力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 554,Magic Dagger III,魔法匕首 III,Attack with a sharp dagger made of magic which may cause an opponent to bleed. Damage is based on one's magic stat rather than attack.,用鋒利的魔法匕首攻擊，可能會導致對手流血。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
-555,Magic Arrow III,魔法箭 III,Attack with a steady arrow made of magic which may lower an opponent's attack. Damage is based on one's magic stat rather than attack.,用穩定的魔法箭來攻擊，這可能會降低對手的物理攻擊力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
+555,Magic Arrow III,魔法箭矢 III,Attack with a steady arrow made of magic which may lower an opponent's attack. Damage is based on one's magic stat rather than attack.,用穩定的魔法箭來攻擊，這可能會降低對手的物理攻擊力。 傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 556,Magic Strikes III,魔法連擊 III,"Swiftly attack thrice, dealing up to triple damage. Damage is based on one's magic stat rather than attack.",迅速攻擊三次，最多造成三倍傷害。傷害量是基於魔法攻擊屬性而不是物理攻擊屬性。
 557,School of Avalon,阿瓦隆學院,Your stats increase as you defeat magical enemies that practice the elements.,你的屬性隨著你擊敗使用元素法術的魔法敵人而增加。
 558,Transference III,轉移 III,Deals non-elemental magic damage and recovers Ward. (Recovers 15% Ward),
@@ -546,11 +546,11 @@ id,en,zh,info,info_zh
 572,Great Collapse,大雪崩,The ultimate attack of Fey Yeti.,
 573,Phoenix's Rise,鳳翼天翔,-,
 574,Cursed Glare,詛咒目光,-,
-575,Shield Bash,盾擊,"Attack with your shield, converting 10 percent of your available Ward to raw damage.","用盾牌攻擊,將你現有護盾的10%轉換成原始傷害."
+575,Shield Bash,盾擊,"Attack with your shield, converting 10 percent of your available Ward to raw damage.",利用盾牌攻擊，轉換10%的護盾成為傷害。
 576,Great Meditation II,崇高冥想 II,Immensely boosts magic power for a limited time while potentially lowering an opponent's resistance. Requires 3 turns in battle.,
 577,Last Breath,奮力求生,Your stats increase when close to falling in battle.,越接近死亡，你的屬性數值越高。
 578,Lull II,催眠曲 II,"Your poems and ballads may enamor an opponent, causing them to lull away their turns in battle.",您的詩和歌謠可能會迷住對手，使他們在戰鬥中略過他們的回合。
-579,Depletion,魔力耗竭,Your spells deal more damage when mana has nearly diminished.,當法力值幾乎耗近時，你的法術可以造成更多傷害。
+579,Depletion,魔力耗竭,Your spells deal more damage when mana has nearly diminished.,當法力值幾乎耗盡時，你的法術可以造成更多傷害。
 580,Lull,催眠曲,"Your poems and ballads may enamor an opponent, causing them to lull away their turns in battle.",您的詩和歌謠可能會迷住對手，使他們在戰鬥中略過他們的回合。
 581,Wyvern Speed III,飛龍之速 III,"Move like a dragon, improving dex, attack, and magic power.",化身為巨龍，提升閃避、攻擊、魔法攻擊。
 582,Weapon Swap,切換武裝,"When dual wielding, swaps your primary weapon and off-hand. Requires 2 turns in battle.","當雙持武器時,切換你的主武器跟副武.需要兩回合施展."
@@ -593,7 +593,7 @@ id,en,zh,info,info_zh
 619,Lyon's Mark,里昂的標記,-,
 620,Lyon's Execution,里昂的處決,-,
 621,Brilliant Lights,輝煌之光,Unstable elementless magic that can blind an opponent while dealing damage thrice.,不穩定的無屬性法術，發動時造成三次傷害，並使對手目盲。
-622,Fright,震懾,Frighten an opponent. Stunning it and potentially blinding or lulling it with fear.,震懾對手。讓對方陷入暈眩，並有可能因畏懼而陷入盲目或安份。
+622,Fright,震懾,Frighten an opponent. Stunning it and potentially blinding or lulling it with fear.,震懾對手。讓對方陷入暈眩，並有可能因畏懼而陷入盲目或恍惚。
 623,Wildfire III,野火 III,Deals fire damage to all opponents in battle.,對所有對手造成火屬性傷害。
 624,Winter Wind III,冬風 III,Deals ice damage to all opponents in battle.,對所有對手造成冰屬性傷害。
 625,Chain Lightning III,連鎖閃電 III,Deals lightning damage to all opponents in battle.,對所有對手造成雷屬性傷害。
@@ -631,13 +631,13 @@ id,en,zh,info,info_zh
 657,Appease II,安撫 II,"When battling with your party, your opponents will be less likely to target you.",團體戰時，不容易成為集火對象。
 658,Requiem,安魂曲,N/A,
 659,Upward Strike,豬突猛進,"Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle.",用盡雙手之力攻擊，造成極為浮動的傷害。需要2回合施展。
-660,Anthem,,"Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats.",
-661,Confuse,,Confuses an opponent.,
-662,Doom,,Dooms an opponent.,
-663,Doom II,,Dooms an opponent.,
+660,Anthem,聖歌,"Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats.",
+661,Confuse,迷惑,Confuses an opponent.,迷惑對手。
+662,Doom,厄運,Dooms an opponent.,使對手陷入厄運。
+663,Doom II,厄運 II,Dooms an opponent.,使對手陷入厄運。
 664,Requiem II,安魂曲 II,Deals moderate non-elemental damage and may lull an opponent.,
 665,Requiem III,安魂曲 III,Deals moderate non-elemental damage and may lull an opponent.,
-666,Solarseals,,Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.,
-667,Solarstrikes,,Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.,
-668,Comet II,,"Summon a frozen comet, with the chance of freezing your opponent.",召喚一個冷冽的彗星，有機會凍結對手。
-669,Bright Star II,,"Summon a bright star, with the chance of blinding your opponent.",召喚一個閃耀的星星，有機會使對手盲目。
+666,Solarseals,天照連閃,Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.,使用愛彌兒淬鍊出的太陽魔力進行攻擊。這技能對重生的敵人能造成較高傷害但對頭目無效。
+667,Solarstrikes,天照連擊,Strike with destructive solar magic crafted by Emile. This skill deals greater damage to Arisen enemies but will not be as effective against bosses.,使用愛彌兒淬鍊出的太陽魔力進行攻擊。這技能對重生的敵人能造成較高傷害但對頭目無效。
+668,Comet II,彗星 II,"Summon a frozen comet, with the chance of freezing your opponent.",召喚一個冷冽的彗星，有機會凍結對手。
+669,Bright Star II,閃耀之星 II,"Summon a bright star, with the chance of blinding your opponent.",召喚一個閃耀的星星，有機會使對手盲目。

@@ -659,14 +659,14 @@ id,en,zh,info,info_zh
 673,Templar Shield,聖殿騎士盾,The shield of a mighty templar knight. It provides extra physical defense.,強大的聖殿騎士之盾。它提供了額外的物理防禦。
 674,Rune Shield,符文盾,Mystical shield that boasts extra magic defense.,能提升魔防的秘術盾牌.
 675,Tower Shield,塔盾,A gigantic shield that offers extra physical and magic defense at the expense of attack and magic.,犧牲攻擊力以換取額外防禦力的巨大盾牌。
-676,Side-arm,側臂,"A small dagger, carried in your off-hand. It slightly increases attack at the expense of ward.",
-677,Dragon Crested Shield,龍紋盾,A shield crested the image of a dragon. It protects one against Dragon attacks while boosting Ward.,
+676,Side-arm,側臂,"A small dagger, carried in your off-hand. It slightly increases attack at the expense of ward.",配戴於副手的小匕首，它會犧牲護盾並稍微增加物攻。
+677,Dragon Crested Shield,龍紋盾,A shield crested the image of a dragon. It protects one against Dragon attacks while boosting Ward.,刻有龍的紋章的盾.能提升護盾並抵抗龍系攻擊.
 678,Nothren Shield,北族之盾,Shield carried by berserkers of the Northern lands. It protects one from the cold.,北族領地的狂戰士使用的盾.能夠禦寒.
 679,Whisper,低語,"A sharp trusty dagger, carried in your off-hand.  It gives your attacks the chance to cause an opponent to bleed, at the expense of Ward.",
 680,Crest of Avalon,阿瓦隆的紋章,An easily recognizable shield depicting the crest of Avalon.,容易辨識的盾牌，上面印有阿瓦隆的紋章。
 681,Buckler,小盾,A simple buckler.,就是個小盾.
 682,Bone Shield,骨盾,A shield made of hardened monster bone.,用堅固的魔物之骨做的盾.
-683,Heavy Arrows,重箭矢,"A quiver of arrows that are immensely heavy. Carrying these arrows in your off-hand gives the greater chance to stun an opponent, at the expense of ward.",
+683,Heavy Arrows,重箭矢,"A quiver of arrows that are immensely heavy. Carrying these arrows in your off-hand gives the greater chance to stun an opponent, at the expense of ward.",一袋極為沉重的弓箭.裝備在副手時會犧牲護盾但獲得讓對手眩暈的機會.
 684,Arch-Gizmo,新版小玩意,"One of the concoctions of Cade, the great inventor. This gizmo prevents one from having their dexterity, physical or magical prowess lowered.","偉大發明家卡德的發明之一.這小東西能防止敏捷,物理或魔法攻擊被降低."
 685,Tizona,提佐納,"A greatsword often used in defensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical defenses.",全能的騎士巴林用來施展防衛劍術的大劍.他的斬擊能降低對手的物理或魔法防禦力.
 686,Colada,科拉達,"A greatsword often used in offensive swordplay by the almighty knight, Balin. Strikes of the sword have the ability to lower an opponent's physical or magical prowess.",全能的騎士巴林用來施展攻擊劍術的大劍.他的斬擊能降低對手的物理或魔法攻擊力.
@@ -722,7 +722,7 @@ id,en,zh,info,info_zh
 736,Arisen Witch's Staff,重生女巫法杖,"Old, decrepit, dark staff of a powerful witch. Slightly boosts experience earned.",強大女巫的老舊黑暗法杖，可以稍微增加獲得的經驗值。
 737,Arisen Deathbringer,重生死亡使者,Blade taken from Ankou's deadly scythe. Increases orns and experience earned.,從安庫的死神鐮刀上取下的刀刃.能提升獲得的經驗和歐幣.
 738,Mage's Scroll,法師卷軸,A scroll containing knowledge of basic magic. It improves one's magic at the sacrifice of Ward.,內涵基礎魔法知識的卷軸.藉由犧牲護盾提升魔力.
-739,Scroll of Earth,大地卷軸,"A scroll containing knowledge of earthen. It Improves one's magic at the sacrifice of Ward, while adding a chance to rot to spells.",
+739,Scroll of Earth,大地卷軸,"A scroll containing knowledge of earthen. It Improves one's magic at the sacrifice of Ward, while adding a chance to rot to spells.",包含大地知識的卷軸，它犧牲護盾以增加持有者的魔攻，並增加施展腐爛咒的機率。
 740,Scroll of Fire,火焰卷軸,"A scroll containing knowledge of fire. It improves one's magic at the sacrifice of Ward, while adding a chance to burn to spells.","具有火之知識的卷軸.藉著犧牲護盾能提升魔攻,施法時有機會造成燃燒."
 741,Witch's Scroll,女巫的卷軸,"A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects to spells.",包含女巫知識的捲軸。藉由犧牲護盾來提高法力值，同時在施法時有機會造成各種狀態異常。
 742,Royal Shield,皇家盾牌,"The royal families often employed the use of rogues, arming them with pieces of great quality.","王室經常僱用流氓,以高品質的武器武裝他們."
@@ -800,7 +800,7 @@ id,en,zh,info,info_zh
 817,Black Dragon Greaves,黑龍護脛,"Leg armor forged of the remains of the great dragon, Fafnir.",用邪龍法夫納遺骸打造的腿甲.
 818,Bident,雙叉戟,"A mighty pole-arm carried by Hades, the exiled guardian of the underworld.",流亡的冥府鎮守者-黑帝斯的長柄武器.
 819,Chimera Stacatto,奇美拉之符,An instrument often used to sooth the greatest of beasts.,用來安撫最強力猛獸的樂器.
-820,Lyonesse Crown,里昂內斯王冠,"The famed Crown of King Gradlon. Gradlon left Avalon to form the kingdom of Lyonesse a century ago. It is rumored that Lyonesse still stands, without their beloved king.",
+820,Lyonesse Crown,里昂內斯王冠,"The famed Crown of King Gradlon. Gradlon left Avalon to form the kingdom of Lyonesse a century ago. It is rumored that Lyonesse still stands, without their beloved king.",格拉德隆王的王冠. 格拉德隆在百年前離開阿瓦隆並建立了里昂內斯王國.據說里昂內斯在失去了他們敬愛的國王之後依然屹立不搖.
 821,Dynasty,王朝,"An ancient, strange weapon of unknown origin. It is carried by Anubis, the jackal, and can cause an opponent to bleed simply by casting a spell.",
 822,Uchigatana,打刀,Katana of a Lyonesse assassin.,里昂內斯刺客的武士刀.
 823,Lyonesse Cowl,里昂內斯風帽,Light armor of a Lyonesse assassin.,里昂內斯刺客的輕裝甲.
@@ -847,7 +847,7 @@ id,en,zh,info,info_zh
 865,Arisen Demeter's Halberd,重生狄蜜特之戟,"The contorted pole-arm of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality.","狄蜜特的棒棒.在墮落之後,狄蜜特創造了大地軍團來維持世界的平衡.不幸的是,在不久之後便迎來他們的命運."
 866,Arisen Ithra's Blade,重生以斯拉之劍,"Thin, cold blade of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion.",白騎士以斯拉的冷冽長劍.以斯拉建立了寒霜守衛來對抗德肯尼亞族的入侵.
 867,Arisen Thor's Hammer,重生索爾之錘,"Small, yet immensely heavy hammer of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His hammer can easily paralyze an opponent.",索爾持有的小槌子.索爾建立了風暴之力不久後便屈服於墮落之力之下.他的槌子能輕易的麻痺對手.
-868,Mirror,鏡像,"A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana.","鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值."
+868,Mirror,魔鏡,"A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana.","鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值."
 869,Avalon Crown,阿瓦隆王冠,"The fabled crown of King Arthus. Although it offers little in terms of defense, it can protect its wearer from being cursed or petrified.","亞瑟王的傳奇王冠.雖然防禦性能不高,但戴上它能免疫於被詛咒或石化."
 870,Parrying Dagger,招架匕首,An off-hand dagger used to parry an opponent's attacks. It boosts one's dexterity at the expense of Ward.,
 871,High Fomorian Garb,高等弗摩爾族皮甲,Heavy armor worn by Fomorian rogues.,弗摩爾族俠盜所穿的重裝甲.
@@ -909,12 +909,12 @@ id,en,zh,info,info_zh
 927,Jewel of Draconia,德肯尼亞寶石,A small adornment of Draconia capable of increasing the attack power of a piece of equipment when adorned upon it.,裝飾此德隆尼亞的小飾品可以提升物攻。
 928,Jewel of Erosion,腐蝕寶石,A small adornment capable of granting the ability to lower an opponent's magical defenses when adorned upon it.,鑲嵌在裝備上時能有機會降低對手魔防的小飾品.
 929,Jewel of Avalon,阿瓦隆寶石,A small adornment of Avalon capable of increasing many attributes of a piece of equipment when adorned upon it.,一個阿瓦隆的小裝飾品，他能夠為裝飾的裝備提升很多種屬性。
-930,Assassin's Jewel,刺客寶石,"An adornment of assassins. When Adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses.",
+930,Assassin's Jewel,刺客寶石,"An adornment of assassins. When Adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses.",刺客使用的裝飾品。當裝飾在武器上時，使你有機會破壞對手的防禦。
 931,Jewel of Celestria,天降寶石,A small adornment of the stars capable of increasing the magical power of a piece of equipment when adorned upon it.,鑲嵌在裝備上時能提升魔攻的星星裝飾品.
 932,Jewel of Pale,淡白寶石,A small adornment of Balor capable of increasing the dexterity and Ward of a piece of equipment when adorned upon it.,鑲嵌在裝備上石能提升敏捷和護盾的精巧巴羅爾裝飾品.
 933,Arisen Boots,重生的長靴,"Boots worn by rogues of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的俠盜所穿的長靴.
 934,Arisen Shoes,重生之鞋,"Shoes worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的追隨者所穿的鞋子.
-935,Arisen Shield,重生之盾,"A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed.",
+935,Arisen Shield,重生之盾,"A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed.",所屬於傲慢的惡魔-瑪門的騎士所持的厚重盾牌.能免疫於被詛咒.
 936,Arisen Kaladanda,重生閻摩魔杖,"Staff of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的法杖.
 937,Arisen Robe,重生法袍,"Robe worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔瑪門的追隨者所穿的法袍.
 938,Arisen Hood,重生兜帽,"Hood worn by acolytes of Mammon, the demon of hubris.",傲慢的惡魔-瑪門的追隨者所穿的兜帽.
@@ -935,7 +935,7 @@ id,en,zh,info,info_zh
 953,Jewel of Speed,速之寶石,A small adornment capable of increasing the dexterity of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升敏捷的小飾品.
 954,Jewel of Wisdom,智慧寶石,A small adornment capable of increasing the magic power of a piece of equipment when adorned upon it.,鑲嵌在裝備上能提升魔攻的小飾品.
 955,Arisen Teardrop,重生瑪門之淚,A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponent's attack and magical powers.,
-956,Orange Pinion,橙橘羽毛,A fallen Feather of the great Phoenix. It can grant a weapon additional attributes when adorned upon it.,
+956,Orange Pinion,橙橘羽毛,A fallen Feather of the great Phoenix. It can grant a weapon additional attributes when adorned upon it.,強大鳳凰遺落的羽毛.鑲嵌在武器上時能提供額外的屬性.
 957,Jewel of Attrition,削弱寶石,A small adornment capable of granting the ability to lower an opponent's defenses when adorned upon it.,鑲嵌時能給予對手物理防禦降低的小裝飾品.
 958,Immortal's Ring,不朽之戒,An ageless ring of an Immortal Lord. It grants additional life at the expense of other stats.,不朽領主的永恆之戒.提升持有者的生命值但會降低其他的屬性.
 959,Immortal's Jewel,不朽寶石,An adornment capable of increasing the HP granted by a piece of equipment when adorned upon it.,鑲嵌上去能提升生命值的裝飾品.
@@ -1110,7 +1110,7 @@ id,en,zh,info,info_zh
 1129,Bandit's Axe,土匪之斧,A large axe carried by the mightiest bandits.,最兇惡的土匪持有的大斧。
 1130,Bandit's Dagger,土匪匕首,A small blade ideal for close quartered combat. It slightly increases dexterity.,適合用來近身戰的短刀.能稍微提升敏捷.
 1131,Greater Wisp Staff,上級幽光法杖,Staff imbued with the power of a wisp.,附有幽光魔力的法杖.
-1132,Fjalar Mantle,法亞拉披風,"Crude armor made of the remains of a Fjalar. Does not offer much defense, but raises your dexterity.",
+1132,Fjalar Mantle,法亞拉披風,"Crude armor made of the remains of a Fjalar. Does not offer much defense, but raises your dexterity.",法亞拉遺骸製成的粗甲，只能提供少量的物防，但會增加你的敏捷。
 1133,Fey Dragon Cowl,變異龍風帽,A cowl made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的風帽.穿上它也許能讓你的跟隨者更常行動.
 1134,Fey Dragon Boots,變異龍靴,Boots made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的長靴.穿上它也許能讓你的跟隨者更常行動.
 1135,Fey Dragon Helmet,變異龍盔,A helmet made of the remains of a great dragon lost to Morrigan. Wearing this item may cause your follower to act more often.,使用臣服於摩莉甘的巨龍之遺骸製成的頭盔.穿上它也許能讓你的跟隨者更常行動.
@@ -1434,7 +1434,7 @@ id,en,zh,info,info_zh
 1459,Arisen Dagda Robe,重生達格達長袍,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
 1460,Arisen Dagda Boots,重生達格達長靴,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
 1461,Arisen Dagda Cowl,重生達格達風帽,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
-1462,Arisen Balor Crown,重生巴羅爾王冠,The fabled crown of king Balor.,
+1462,Arisen Balor Crown,重生巴羅爾王冠,The fabled crown of king Balor.,傳說中的巴羅爾王冠。
 1463,Arisen Dagda Helmet,重生達格達頭盔,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
 1464,Arisen Dagda Leggings,重生達格達腿甲,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
 1465,Arisen Dagda Shoes,重生達格達之鞋,"Armor forged of the remains of Dadga, a Balor demon. With Dadga's self healing power, healing items will restore additional HP and mana.",
@@ -1488,15 +1488,15 @@ id,en,zh,info,info_zh
 1513,Ember-Plumed Greaves,餘火羽織護脛,Heavy leg armour of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,
 1514,Ember-Plumed Boots,餘火羽織長靴,Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的腿甲。使用它有機會能暫時提升身體素質。
 1515,Ruby,紅玉,A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent.,散發著緋紅光芒的寶石。鑲嵌在武器上可使你在造成對手傷害的同時治療自己的創傷。
-1516,Ash-plumed Helmet,,Helmet of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的頭盔。使用它有機會能暫時提升身體素質。
-1517,Ash-plumed Cowl,,Headwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的頭具。使用它有機會能暫時提升身體素質。
-1518,Ash-plumed Hood,,Hood of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的兜帽。使用它有機會能暫時提升身體素質。
-1519,Ash-plumed Robe,,Robe of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的法袍。使用它有機會能暫時提升身體素質。
-1520,Ash-plumed Cuirass,,Heavy armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的重鎧甲。使用它有機會能暫時提升身體素質。
-1521,Ash-plumed Garb,,Garb of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,
-1522,Ash-plumed Greaves,,Heavy leg armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的重腿甲。使用它有機會能暫時提升身體素質。
-1523,Ash-plumed Shoes,,Shoes of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,
-1524,Ash-plumed Boots,,Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的腿甲。使用它有機會能暫時提升身體素質。
+1516,Ash-plumed Helmet,灰燼羽織頭盔,Helmet of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的頭盔。使用它有機會能暫時提升身體素質。
+1517,Ash-plumed Cowl,灰燼羽織風帽,Headwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的頭具。使用它有機會能暫時提升身體素質。
+1518,Ash-plumed Hood,灰燼羽織兜帽,Hood of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的兜帽。使用它有機會能暫時提升身體素質。
+1519,Ash-plumed Robe,灰燼羽織法袍,Robe of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的法袍。使用它有機會能暫時提升身體素質。
+1520,Ash-plumed Cuirass,灰燼羽織胸甲,Heavy armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的重鎧甲。使用它有機會能暫時提升身體素質。
+1521,Ash-plumed Garb,灰燼羽織皮甲,Garb of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,
+1522,Ash-plumed Greaves,灰燼羽織護脛,Heavy leg armor of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的重腿甲。使用它有機會能暫時提升身體素質。
+1523,Ash-plumed Shoes,灰燼羽織之鞋,Shoes of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,
+1524,Ash-plumed Boots,灰燼羽織長靴,Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats.,全能鳳凰的崇拜者所穿的腿甲。使用它有機會能暫時提升身體素質。
 1525,Ashen Ruby,蒼白紅玉,A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent.,散發著緋紅光芒的寶石。鑲嵌在武器上可使你在造成對手傷害的同時治療自己的創傷。
 1526,Blackened Eye of Kerberos,黑化的刻耳柏洛斯之眼,Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it.,水晶化的刻耳柏洛斯之眼.鑲嵌在武器上能賦予額外的能力.
 1527,Dark Eye of Kerberos,黑色的刻耳柏洛斯之眼,Crystallized eye of the Kerberos. It can grant a weapon additional properties when adorned upon it.,水晶化的刻耳柏洛斯之眼.鑲嵌在武器上能賦予額外的能力.
@@ -1530,6 +1530,6 @@ id,en,zh,info,info_zh
 1555,Myrkheim Hammer,米爾克海姆之錘,A fine hammer used by the skilled smiths of Myrkheim. Using this item before upgrading equipment at the blacksmith will greatly reduce the time needed to complete the upgrades.,米爾克海姆的老鐵匠使用的上好錘子。在鐵匠鋪升級裝備之前先使用它的話可以大幅降低升級所需時間。
 1556,Questing License,探險證,"A simple piece of parchment given to you by Samson. Using this item will temporarily improve the gold, orns and experience earned when completing the quests.",
 1557,Steward Candle,眷族蠟燭,A candle gifted by Damra as part of the Steward ritual. Light it to summon your Steward.,在眷族秘儀中丹姆萊所贈送的蠟燭。點亮它能召喚你的眷族。
-1558,Realmcrystal,異域水晶,An oddly shaped crystal fallen from Olympia. Using it will allow one to return to another realm without wait.,
+1558,Realmcrystal,異域水晶,An oddly shaped crystal fallen from Olympia. Using it will allow one to return to another realm without wait.,在奧林匹亞偶爾能拾獲的水晶。使用它能讓你不需等待便能重返異域。
 1559,Decor Token,裝飾代幣,A token allowing one to build a decoration in their area.,可以為區域放上裝飾的代幣。
 1560,Small Bestial Potion,小兇殘藥水,A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time.,香甜又營養的藥水。讓你的跟隨者喝下就能在一定時間內提升它們的行動機率。

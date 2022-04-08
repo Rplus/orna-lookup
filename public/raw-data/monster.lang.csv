@@ -20,7 +20,7 @@ id,en,zh
 19,Undead,不死者
 20,Goblin Lord,哥布林領主
 21,Minotaur,牛頭怪
-22,Draconian Warrior,
+22,Draconian Warrior,德肯尼亞戰士
 23,Bat,蝙蝠
 24,Black Widow,黑寡婦
 25,Demon,惡魔
@@ -95,15 +95,15 @@ id,en,zh
 102,Scorcher,灼燒者
 103,Sea Demon,海惡魔
 104,Storm Knight,暴風騎士
-105,Ushi-Oni,
-106,Will-O'-The-Wisp,
+105,Ushi-Oni,牛鬼
+106,Will-O'-The-Wisp,鬼火
 107,Carman's Gargoyle,卡門的石像鬼
 108,Great Gazer,強大的凝視者
 109,Great Jinn,大神燈精靈
 110,Sluagh,勾魂者
 111,Vampire Lord,吸血鬼領主
 112,Great Wyvern,大飛龍
-113,Great Ushi-Oni,
+113,Great Ushi-Oni,大牛鬼
 114,Orthrus,歐西魯斯
 115,Sea Wyvern,海翼龍
 116,Carman,卡門
@@ -134,12 +134,12 @@ id,en,zh
 142,Fenrir,芬里爾
 143,Naga Mage,那伽法師
 144,Naga Warrior,那伽戰士
-145,Ljosalfar Mage,光之精靈法師
+145,Ljosalfar Mage,日之精靈法師
 146,Gorgon,戈爾貢
-147,Ljosalfar,光之精靈
-148,Ljosalfar Knight,光之精靈騎士
+147,Ljosalfar,日之精靈
+148,Ljosalfar Knight,日之精靈騎士
 149,Fafnir,法夫納
-150,Ljosalfar Lord,光之精靈領主
+150,Ljosalfar Lord,日之精靈領主
 151,Arisen Lizarr Lord,重生的蜥蜴人領主
 153,Woodland Elf Mage,林地精靈法師
 154,Gnat,蚋
@@ -177,28 +177,28 @@ id,en,zh
 191,Gheist,鬼魂
 192,Behemoth,貝西摩斯
 193,Cockatrice,雞蛇
-194,Nin-Kilim,
+194,Nin-Kilim,寧-克寧姆
 195,Ogre,食人魔
 196,Carrion Crow,腐肉烏鴉
 197,Ogre Brute,野蠻食人魔
-198,High Draconian Warrior,
+198,High Draconian Warrior,高等德肯尼亞戰士
 199,High Draconian Mage,高等德肯尼亞族法師
-201,Enlightened Acolyte,
+201,Enlightened Acolyte,啟蒙的侍者
 202,Enlightened Guardian,啟蒙的鎮守者
-203,Enlightened Mage,開明的法師
+203,Enlightened Mage,啟蒙者法師
 204,High Fomorian,高等弗摩爾族
-205,High Fomorian Mage,高級弗摩爾族法師
+205,High Fomorian Mage,高等弗摩爾族法師
 206,Orichalcum Knight,奧利哈鋼騎士
 207,Fomor,弗摩爾
 208,Balor Worm,巴羅爾蠕蟲
 209,Gargouille,石像鬼
-210,Enlightened Prince,開明的王子
+210,Enlightened Prince,啟蒙者王子
 211,Great Cockatrice,大雞蛇
 212,Typhon,堤豐
-213,Dokkalfar,暗之精靈
-214,Dokkalfar Knight,暗之精靈騎士
+213,Dokkalfar,夜之精靈
+214,Dokkalfar Knight,夜之精靈騎士
 216,Woodland Lord,林地之主
-217,Dokkalfar Lord,暗之精靈領主
+217,Dokkalfar Lord,夜之精靈領主
 219,Carman of the Underworld,地獄卡門
 220,"Fallen Ithra, the White Knight",墮落白騎士以斯拉
 221,"Fallen Thor, the Storm God",墮落雷神索爾
@@ -229,7 +229,7 @@ id,en,zh
 247,Ancient Mimic,遠古寶箱怪
 248,Crimson Yokai,赤紅妖怪
 249,Arcane Slime,奧術史萊姆
-250,Dokkalfar Warlock,暗之精靈術士
+250,Dokkalfar Warlock,夜之精靈術士
 251,Dark Dragon,暗黑龍
 252,Giant Red Basilisk,巨型赤紅巴西利斯克
 253,Draugr Lord,屍鬼領主
@@ -324,7 +324,7 @@ id,en,zh
 342,Pumpkinhead,南瓜頭
 343,"Arisen Demeter, the Earth Magus",重生大地術師狄蜜特
 344,King of Ljosalfar,光之精靈王
-345,Queen of Dokkalfar,暗之精靈女王
+345,Queen of Dokkalfar,夜之精靈女王
 346,Arisen Fenrir,重生的芬里爾
 347,Scruug,史古基
 348,Ebon Scruug,黑之史古基
@@ -471,39 +471,39 @@ id,en,zh
 489,Spooky Ghost,詭異幽靈
 490,Alfar Lord,古精靈君主
 491,Elite Orc Lord,高端半獸人領主
-492,Elite Draconian Warrior,
+492,Elite Draconian Warrior,高端德肯尼亞戰士
 493,Elite Draconian Mage,高端德肯尼亞族法師
 494,Balor Gateway,巴羅爾任意門
 496,Fallen Ashen Phoenix,墮落蒼白鳳凰
 497,Great Phoenician Mage,上級緋尼斯族法師
 498,Fallen Phoenix,墮落鳳凰
 499,Phoenician Mage,緋尼斯族法師
-500,Phoenician,鳳凰
+500,Phoenician,緋尼斯族
 501,Great Phoenician,上級緋尼斯族
-502,Kin of Kerberos,
-503,Kin of Kerberos,
-504,Follower of Kerberos,
-505,Follower of Kerberos,
-506,Follower of Kerberos,
-507,Follower of Kerberos,
-508,Follower of Kerberos,
-509,Follower of Kerberos,
-510,Follower of Kerberos,
-511,Follower of Kerberos,
-512,Cormac,
-513,Amergin,
-514,Aine,
-515,Conall,
-516,Finn,
-517,Amadan,
-518,Beag,
-519,Fergus,
-520,Bricriu,
+502,Kin of Kerberos,刻耳柏洛斯之子
+503,Kin of Kerberos,刻耳柏洛斯之子
+504,Follower of Kerberos,刻耳柏洛斯的跟隨者
+505,Follower of Kerberos,刻耳柏洛斯的跟隨者
+506,Follower of Kerberos,刻耳柏洛斯的跟隨者
+507,Follower of Kerberos,刻耳柏洛斯的跟隨者
+508,Follower of Kerberos,刻耳柏洛斯的跟隨者
+509,Follower of Kerberos,刻耳柏洛斯的跟隨者
+510,Follower of Kerberos,刻耳柏洛斯的跟隨者
+511,Follower of Kerberos,刻耳柏洛斯的跟隨者
+512,Cormac,康馬克
+513,Amergin,阿默金
+514,Aine,艾涅
+515,Conall,科納爾
+516,Finn,芬恩
+517,Amadan,阿瑪丹
+518,Beag,蓓格
+519,Fergus,弗格斯
+520,Bricriu,布里克留
 521,Arisen Carman's Gargoyle,重生的卡門的石像鬼
-522,"Fallen Hero, Lover Lost",
-523,Enlightened Queen,
-524,Enlightened King,
-525,Fomorian Lord,
+522,"Fallen Hero, Lover Lost",墮落英雄洛佛洛斯特
+523,Enlightened Queen,啟蒙者之后
+524,Enlightened King,啟蒙者之王
+525,Fomorian Lord,弗摩爾領主
 526,Knight Sirius,
 527,The Fool,愚人
 528,The Fool,愚人
