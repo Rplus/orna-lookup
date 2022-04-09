@@ -1,6 +1,6 @@
 <script>
   import Item from './Item.svelte';
-  import { _, locale, locales } from './i18n.js';
+  import { _ } from 'svelte-intl-precompile';
   import { uniq, sortByChar } from './u.js';
   export let data = [];
 

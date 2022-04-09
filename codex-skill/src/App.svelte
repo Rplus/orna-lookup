@@ -4,8 +4,13 @@
   import Lang from './lib/Lang.svelte';
   import List from './lib/List.svelte';
   import { fetchJSON, handleData } from './lib/u.js';
+  // import { load } from './lib/i18n.2.js';
+  import Layout, { load } from './Layout.svelte';
+  import { _ } from 'svelte-intl-precompile';
 
   let promise = getData();
+
+  let promise2 = load();
 
   async function getData() {
     const data = await fetchJSON(dataUrl);
@@ -15,34 +20,38 @@
     window.icons = data.icons;
     return handleData(data.skills);
   }
+
 </script>
 
-<main>
-  <h1 class="text-center">ORnA SkIlLs</h1>
+
+<Layout>
+  <main>
+    <h1 class="text-center">ORnA SkIlLs</h1>
+    <hr>
+
+    {#await promise}
+      Loading~
+    {:then skills}
+      <List data={skills} />
+    {:catch error}
+      <p style="color: red">{error.message}</p>
+    {/await}
+  </main>
+
   <hr>
 
-  {#await promise}
-    Loading~
-  {:then skills}
-    <List data={skills} />
-  {:catch error}
-    <p style="color: red">{error.message}</p>
-  {/await}
-</main>
+  <footer>
+    <Lang />
 
-<hr>
-
-<footer>
-  <Lang />
-
-  <div class="info">
-    Made by Rplus
-    <br>
-    data from <a href="https://playorna.com/codex/spells/" target="orna.codex">playorna / codex</a>
-    <br>
-    ↸ back to <a href="../">../orna-lookup tool</a>
-  </div>
-</footer>
+    <div class="info">
+      Made by Rplus
+      <br>
+      data from <a href="https://playorna.com/codex/spells/" target="orna.codex">playorna / codex</a>
+      <br>
+      ↸ back to <a href="../">../orna-lookup tool</a>
+    </div>
+  </footer>
+</Layout>
 
 <style>
   @import './global.css';

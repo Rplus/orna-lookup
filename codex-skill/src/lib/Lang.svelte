@@ -1,5 +1,5 @@
 <script>
-  import { locale, locales } from './i18n.js';
+  import { locale, locales } from 'svelte-intl-precompile';
   import { saveItem } from './u.js';
 
   locale.subscribe((newLang) => {
@@ -14,7 +14,7 @@
 <div class="lang">
   <span class="lang-emoji"></span>:
   <select bind:value={$locale}>
-    {#each locales as locale}
+    {#each $locales as locale}
       <option value={locale}>{locale}</option>
     {/each}
   </select>
