@@ -66,6 +66,10 @@ function clearData(dd) {
       zh,
     };
 
+    if (_d.category) {
+      _d.category = _d.category.toLowerCase();
+    }
+
     if (_d.description) {
       langObj.info = _d.description;
       langObj.info_zh = findZh(_d.description);
@@ -107,7 +111,7 @@ function clearData(dd) {
       // item
       'boss',
       'arena',
-      'view_distance',
+      // 'view_distance',
 
       // skill
       'is_magic',

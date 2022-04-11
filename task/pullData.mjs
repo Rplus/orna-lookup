@@ -47,6 +47,13 @@ if (type === 'item' || !type) {
     outputJSON(lite, './public/data/raw/item-lite.src.json');
     outputJSON(lite, './public/data/item-lite.min.json', null);
   });
+
+  // getData('item-newer').then(d => {
+  //   outputJSON(d, './public/data/raw/item2.raw.json');
+  //   d = clearData(d);
+  //   outputJSON(d, './public/data/raw/item2.src.json');
+  //  // outputJSON(d, './public/data/item2.min.json', null);
+  // });
 }
 
 function clearData(data) {
@@ -58,6 +65,7 @@ function clearData(data) {
     'element',
     'description',
     'rarity',
+    'category',
     // 'other_effect',
   ];
 

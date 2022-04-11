@@ -19,6 +19,7 @@ export default {
       'equipped_by',
 
       'element',
+      'category',
 
       { field: 'stats.attack.base', title: 'stats.attack', },
       { field: 'stats.magic.base', title: 'stats.magic', },
