@@ -67,11 +67,24 @@ export const words = {
   'g': '2 綠',
   'b': '3 藍',
   'p': '4 紫',
+
+  // category
+  'bows': '弓箭',
+  'swords': '劍',
+  'staffs': '杖',
+  'daggers': '匕首',
+  'instruments': '樂器',
+  'polearms': '長矛',
+  'archistaffs': '大法師杖',
+  'axes & hammers': '斧&錘',
+  'curved swords': '彎刀',
+  'greatbows': '長弓',
 }
 
 export function getList(data) {
   let obj = {
     types: [...new Set(data.map(i => i.type))],
+    categories: [...new Set(data.map(i => i.category))],
     tiers: [...new Set(data.map(i => i.tier))],
     element: [...new Set(data.map(i => i.element))],
     immunities: [...new Set(data.map(i => i.immunities?.split(', ')).flat())],

@@ -35,6 +35,12 @@ export const filtersDef = [
     sort: true,
   },
   {
+    prop: 'category',
+    label: '類別',
+    type: 'text',
+    list: 'categories',
+  },
+  {
     prop: 'prevents',
     label: '-免疫(敵)',
     type: 'text',

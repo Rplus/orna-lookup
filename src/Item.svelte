@@ -109,7 +109,10 @@
   </summary>
 
   <div>
-    <div class="item-more" data-type="【{words[item.type]}】">
+    <div class="item-more"
+      data-type="{words[item.type]}"
+      data-category="{words[item.category] || ''}"
+    >
       <div class="dropped_by">
         <ListDetail
           items={item.dropped_by}
@@ -283,11 +286,14 @@
 }
 
 .item-more::before {
-  content: attr(data-type);
+  content: '【' attr(data-type) '】' var(--category, '');
   opacity: 0.5;
   display: inline-block;
   bottom: 0.5em;
   margin-left: -1em;
+}
+.item-more:not([data-category=""]) {
+  --category: '- ' attr(data-category);
 }
 
 @media (min-width: 900px) {
