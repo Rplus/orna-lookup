@@ -24,6 +24,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 15,
     "dropped_by": [
       7
@@ -45,9 +46,6 @@
       "Mage",
       "Thief",
       "Warrior"
-    ],
-    "dropped_by": [
-      143
     ],
     "image": "useables/small_mana_potion.png",
     "rarity": "w",
@@ -223,17 +221,16 @@
     ],
     "dropped_by": [
       33,
-      176,
-      247,
+      347,
       362,
       430,
+      273,
       149,
       275,
       421,
       337,
       348,
       404,
-      304,
       428
     ],
     "image": "useables/panacea.png",
@@ -262,15 +259,18 @@
       72,
       78,
       81,
+      207,
       176,
       85,
       86,
       160,
       109,
       110,
+      177,
       111,
       116,
       117,
+      119,
       454,
       487,
       491,
@@ -314,14 +314,18 @@
       72,
       78,
       81,
+      207,
+      176,
       85,
       86,
       160,
       109,
       110,
+      177,
       111,
       116,
       117,
+      119,
       454,
       487,
       491,
@@ -349,6 +353,8 @@
     ],
     "dropped_by": [
       266,
+      207,
+      177,
       275,
       421,
       432,
@@ -399,7 +405,7 @@
     "zh": "火炬",
     "tier": 1,
     "type": "Item",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -425,6 +431,7 @@
     ],
     "dropped_by": [
       266,
+      207,
       420,
       142
     ],
@@ -451,15 +458,20 @@
     ],
     "dropped_by": [
       266,
+      207,
       444,
+      288,
       347,
       411,
+      528,
       362,
       430,
       275,
       440,
       348,
+      432,
       431,
+      527,
       443,
       428,
       412
@@ -484,13 +496,18 @@
     ],
     "dropped_by": [
       266,
+      207,
       444,
+      288,
+      347,
       411,
+      528,
       362,
       430,
       275,
       440,
       348,
+      527,
       443,
       428,
       412
@@ -514,10 +531,16 @@
       "Dex ↑"
     ],
     "dropped_by": [
+      207,
+      308,
+      288,
+      528,
       362,
       430,
       275,
       440,
+      307,
+      527,
       428
     ],
     "image": "useables/speed_tonic.png",
@@ -540,7 +563,9 @@
     ],
     "dropped_by": [
       266,
+      207,
       444,
+      288,
       347,
       411,
       413,
@@ -589,10 +614,7 @@
       "Warrior"
     ],
     "dropped_by": [
-      33,
-      176,
-      247,
-      304
+      33
     ],
     "image": "useables/great_remains.png",
     "rarity": "p",
@@ -616,7 +638,7 @@
       "Dex ↑"
     ],
     "image": "useables/coffee.png",
-    "description": "The nectar of the gods."
+    "description": "The nectar of gods."
   },
   {
     "id": 26,
@@ -627,6 +649,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 15,
     "materials": [
       263
@@ -644,6 +667,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 2,
     "stats.magic": 15,
     "materials": [
@@ -662,6 +686,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 10,
     "causes": [
       "Bleeding"
@@ -685,6 +710,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 5,
     "dropped_by": [
       14
@@ -705,6 +731,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 10,
     "dropped_by": [
       32
@@ -725,6 +752,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 1,
     "stats.magic": 5,
     "dropped_by": [
@@ -746,6 +774,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 15,
     "stats.defense": 5,
     "stats.ward": 2,
@@ -770,6 +799,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 4,
     "stats.magic": 22,
     "materials": [
@@ -788,6 +818,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 25,
     "dropped_by": [
       1
@@ -809,6 +840,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "axes & hammers",
     "stats.attack": 31,
     "stats.magic": 8,
     "dropped_by": [
@@ -818,7 +850,7 @@
       253
     ],
     "image": "weapons/axe.png",
-    "description": "An axe wielded by monsters of the night.  Enhanced with dark magic."
+    "description": "An axe wielded by monsters of the night. Enhanced with dark magic."
   },
   {
     "id": 36,
@@ -829,6 +861,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 24,
     "materials": [
       263
@@ -846,6 +879,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 24,
     "stats.magic": 12,
     "dropped_by": [
@@ -867,6 +901,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "daggers",
     "stats.attack": 26,
     "stats.magic": 5,
     "causes": [
@@ -891,6 +926,7 @@
       "Mage"
     ],
     "element": "Water",
+    "category": "staffs",
     "stats.attack": 5,
     "stats.magic": 25,
     "causes": [
@@ -903,7 +939,7 @@
       280
     ],
     "image": "weapons/blue_wand.png",
-    "description": "A wand for casting magic. This one is particular is imbued with ice."
+    "description": "A wand for casting magic. This one in particular is imbued with ice."
   },
   {
     "id": 40,
@@ -914,6 +950,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 30,
     "causes": [
       "Def ↓"
@@ -922,7 +959,7 @@
       276
     ],
     "image": "weapons/great_sword.png",
-    "description": "A large cross-hilted weapon that is seen as a sign of distinction. It may break the enemy's defenses."
+    "description": "A large cross-hilted weapon that is seen as a sign of distinction. It may break an opponent's defenses."
   },
   {
     "id": 41,
@@ -933,6 +970,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 20,
     "materials": [
       283
@@ -950,6 +988,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 35,
     "causes": [
       "Bleeding"
@@ -968,10 +1007,11 @@
     "tier": 2,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 8,
     "stats.magic": 48,
     "dropped_by": [
@@ -992,6 +1032,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 25,
     "materials": [
       254
@@ -1008,6 +1049,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 5,
     "stats.magic": 50,
     "dropped_by": [
@@ -1028,6 +1070,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 30,
     "dropped_by": [
       22,
@@ -1048,6 +1091,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 3,
     "stats.magic": 30,
     "dropped_by": [
@@ -1068,6 +1112,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 25,
     "materials": [
       276
@@ -1084,6 +1129,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 50,
     "dropped_by": [
       3,
@@ -1104,6 +1150,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 50,
     "causes": [
       "Bleeding"
@@ -1126,6 +1173,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 50,
     "dropped_by": [
       5
@@ -1146,6 +1194,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 5,
     "stats.magic": 42,
     "materials": [
@@ -1163,6 +1212,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 45,
     "dropped_by": [
       78
@@ -1182,6 +1232,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 30,
     "materials": [
       263
@@ -1199,6 +1250,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 40,
     "stats.defense": -5,
     "stats.ward": 2,
@@ -1218,6 +1270,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 27,
     "materials": [
       276
@@ -1234,6 +1287,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 27,
     "materials": [
       276
@@ -1251,6 +1305,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 44,
     "dropped_by": [
       21
@@ -1271,6 +1326,7 @@
       "Thief"
     ],
     "element": "Fire",
+    "category": "daggers",
     "stats.attack": 30,
     "stats.magic": 5,
     "causes": [
@@ -1297,6 +1353,7 @@
       "Mage"
     ],
     "element": "Fire",
+    "category": "staffs",
     "stats.attack": 5,
     "stats.magic": 20,
     "causes": [
@@ -1321,6 +1378,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 28,
     "materials": [
       276
@@ -1338,6 +1396,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 30,
     "stats.defense": 10,
     "stats.ward": 4,
@@ -1361,6 +1420,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 70,
     "stats.magic": 70,
     "dropped_by": [
@@ -1390,6 +1450,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "greatbows",
     "stats.attack": 60,
     "stats.magic": 22,
     "causes": [
@@ -1414,6 +1475,7 @@
       "Thief"
     ],
     "element": "Physical",
+    "category": "curved swords",
     "stats.attack": 49,
     "materials": [
       276
@@ -1433,6 +1495,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 78,
     "causes": [
       "Asleep"
@@ -1457,6 +1520,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 75,
     "dropped_by": [
       45
@@ -1477,6 +1541,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 75,
     "dropped_by": [
       46
@@ -1497,9 +1562,13 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 75,
     "dropped_by": [
       47
+    ],
+    "materials": [
+      283
     ],
     "image": "weapons/longbow.png",
     "slots": 4,
@@ -1514,6 +1583,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 60,
     "materials": [
       276
@@ -1533,6 +1603,7 @@
       "Warrior"
     ],
     "element": "Fire",
+    "category": "swords",
     "stats.attack": 60,
     "stats.defense": 20,
     "stats.ward": 3,
@@ -1559,6 +1630,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "daggers",
     "stats.attack": 70,
     "stats.defense": -15,
     "stats.ward": 4,
@@ -1583,6 +1655,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 60,
     "causes": [
       "Paralyzed",
@@ -1609,6 +1682,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 55,
     "dropped_by": [
       36,
@@ -1632,6 +1706,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 55,
     "materials": [
       263
@@ -1650,6 +1725,7 @@
       "Thief"
     ],
     "element": "Physical",
+    "category": "bows",
     "stats.attack": 60,
     "materials": [
       266
@@ -1667,6 +1743,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 48,
     "causes": [
       "Bleeding"
@@ -1687,6 +1764,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 60,
     "materials": [
       266
@@ -1704,6 +1782,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 45,
     "materials": [
       266
@@ -1722,6 +1801,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 55,
     "causes": [
       "Bleeding"
@@ -1743,6 +1823,7 @@
       "Thief"
     ],
     "element": "Holy",
+    "category": "daggers",
     "stats.attack": 60,
     "causes": [
       "Bleeding"
@@ -1765,6 +1846,7 @@
       "Thief"
     ],
     "element": "Holy",
+    "category": "bows",
     "stats.attack": 55,
     "materials": [
       275
@@ -1779,10 +1861,12 @@
     "zh": "狼之杖",
     "tier": 3,
     "type": "Weapon",
+    "boss": 1,
     "equipped_by": [
       "Mage"
     ],
     "element": "Earthen",
+    "category": "staffs",
     "stats.magic": 68,
     "causes": [
       "Rot"
@@ -1807,6 +1891,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 77,
     "stats.magic": 12,
     "stats.dexterity": 8,
@@ -1833,6 +1918,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 102,
     "causes": [
       "Stunned"
@@ -1858,11 +1944,9 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "staffs",
     "stats.attack": 5,
     "stats.magic": 90,
-    "dropped_by": [
-      91
-    ],
     "materials": [
       252,
       345
@@ -1882,6 +1966,7 @@
       "Mage"
     ],
     "element": "Earthen",
+    "category": "archistaffs",
     "stats.attack": 8,
     "stats.magic": 70,
     "causes": [
@@ -1904,6 +1989,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 87,
     "stats.dexterity": 10,
     "causes": [
@@ -1928,6 +2014,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 72,
     "materials": [
       266,
@@ -1946,6 +2033,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 10,
     "stats.magic": 80,
     "dropped_by": [
@@ -1968,6 +2056,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 78,
     "causes": [
       "Bleeding"
@@ -1992,6 +2081,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 81,
     "dropped_by": [
       68
@@ -2014,6 +2104,7 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "staffs",
     "stats.attack": 10,
     "stats.magic": 85,
     "stats.mana": 50,
@@ -2036,6 +2127,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 76,
     "dropped_by": [
       74,
@@ -2057,6 +2149,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 82,
     "dropped_by": [
       100
@@ -2078,6 +2171,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 70,
     "stats.magic": 70,
     "materials": [
@@ -2098,6 +2192,7 @@
       "Thief"
     ],
     "element": "Holy",
+    "category": "daggers",
     "stats.attack": 95,
     "stats.defense": -24,
     "stats.ward": 5,
@@ -2121,6 +2216,7 @@
       "Mage"
     ],
     "element": "Lightning",
+    "category": "archistaffs",
     "stats.attack": 8,
     "stats.magic": 70,
     "causes": [
@@ -2143,6 +2239,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 30,
     "stats.magic": 105,
     "dropped_by": [
@@ -2166,6 +2263,7 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "staffs",
     "stats.attack": 15,
     "stats.magic": 140,
     "dropped_by": [
@@ -2192,6 +2290,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 102,
     "materials": [
       252
@@ -2210,6 +2309,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "polearms",
     "stats.attack": 122,
     "stats.magic": 20,
     "causes": [
@@ -2235,14 +2335,14 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 120,
     "causes": [
       "Burning",
       "Bleeding"
     ],
     "dropped_by": [
-      128,
-      251
+      128
     ],
     "materials": [
       255
@@ -2260,17 +2360,18 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 110,
     "dropped_by": [
       128,
-      251
+      115
     ],
     "materials": [
       255
     ],
     "image": "weapons/dragon_sword.png",
     "slots": 4,
-    "description": "A fine blade crafted of a Dragon's talon."
+    "description": "A fine blade crafted of a Dragon's talon"
   },
   {
     "id": 106,
@@ -2282,6 +2383,7 @@
       "Warrior"
     ],
     "element": "Earthen",
+    "category": "polearms",
     "stats.attack": 130,
     "causes": [
       "Def ↓",
@@ -2296,7 +2398,7 @@
     ],
     "image": "weapons/earth_pike.png",
     "slots": 4,
-    "description": "A pike of an Earth Legionnaire."
+    "description": "A pike of a Earth Legionnaire."
   },
   {
     "id": 107,
@@ -2307,6 +2409,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 110,
     "stats.dexterity": 10,
     "stats.crit": 1,
@@ -2329,6 +2432,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 20,
     "stats.magic": 105,
     "dropped_by": [
@@ -2352,6 +2456,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 90,
     "stats.magic": 20,
     "causes": [
@@ -2374,10 +2479,11 @@
     "tier": 5,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 120,
     "dropped_by": [
       108
@@ -2399,6 +2505,7 @@
       "Mage"
     ],
     "element": "Water",
+    "category": "staffs",
     "stats.attack": 20,
     "stats.magic": 122,
     "causes": [
@@ -2425,6 +2532,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 25,
     "stats.magic": 115,
     "causes": [
@@ -2453,6 +2561,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 115,
     "causes": [
       "Bleeding"
@@ -2477,6 +2586,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 105,
     "stats.defense": 25,
     "stats.ward": 15,
@@ -2499,6 +2609,7 @@
       "Thief"
     ],
     "element": "Fire",
+    "category": "swords",
     "stats.attack": 90,
     "stats.magic": 80,
     "causes": [
@@ -2525,6 +2636,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "axes & hammers",
     "stats.attack": 125,
     "causes": [
       "Paralyzed"
@@ -2548,6 +2660,7 @@
       "Thief"
     ],
     "element": "Holy",
+    "category": "curved swords",
     "stats.attack": 112,
     "stats.magic": 24,
     "causes": [
@@ -2576,6 +2689,7 @@
       "Thief"
     ],
     "element": "Fire",
+    "category": "daggers",
     "stats.attack": 140,
     "stats.magic": 20,
     "stats.dexterity": 10,
@@ -2604,6 +2718,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 145,
     "stats.dexterity": 52,
     "gives": [
@@ -2629,6 +2744,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 120,
     "stats.magic": 70,
     "causes": [
@@ -2655,6 +2771,7 @@
       "Thief"
     ],
     "element": "Dark",
+    "category": "daggers",
     "stats.attack": 148,
     "causes": [
       "Asleep"
@@ -2680,6 +2797,7 @@
       "Warrior"
     ],
     "element": "Fire",
+    "category": "swords",
     "stats.attack": 130,
     "stats.magic": 50,
     "causes": [
@@ -2705,6 +2823,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 140,
     "causes": [
       "Bleeding"
@@ -2726,6 +2845,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 115,
     "stats.dexterity": 24,
     "dropped_by": [
@@ -2750,6 +2870,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 110,
     "stats.magic": 110,
     "dropped_by": [
@@ -2772,6 +2893,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 118,
     "stats.defense": 30,
     "stats.resistance": -10,
@@ -2799,6 +2921,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "swords",
     "stats.attack": 148,
     "stats.defense": -40,
     "stats.dexterity": 10,
@@ -2826,10 +2949,11 @@
     "tier": 7,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 160,
     "dropped_by": [
       131
@@ -2852,6 +2976,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 155,
     "dropped_by": [
       132
@@ -2874,6 +2999,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "axes & hammers",
     "stats.attack": 170,
     "causes": [
       "Blight"
@@ -2887,7 +3013,7 @@
     "image": "weapons/axe_of_tiamat.png",
     "slots": 6,
     "rarity": "b",
-    "description": "A powerful axe forged by the remains of Tiamat, the great ancient dragon."
+    "description": "A powerful axe forged of the remains of Tiamat, the great ancient dragon."
   },
   {
     "id": 131,
@@ -2900,6 +3026,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "greatbows",
     "stats.attack": 170,
     "stats.magic": 55,
     "stats.dexterity": 10,
@@ -2927,6 +3054,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 50,
     "stats.magic": 155,
     "materials": [
@@ -2937,7 +3065,7 @@
     "image": "weapons/crucifix.png",
     "slots": 4,
     "rarity": "b",
-    "description": "A staff of the occult. Boasts strong magic power, but can also be used as a weapon. It heals its wielder when dealing damage. (heals 100HP when dealing damage)"
+    "description": "A staff of the occult. Boasts strong magic power, but can also be used as a weapon. Additionally It heals its wielder when dealing damage."
   },
   {
     "id": 133,
@@ -2950,6 +3078,7 @@
       "Thief"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 180,
     "stats.magic": 20,
     "stats.dexterity": 5,
@@ -2979,6 +3108,7 @@
       "Mage"
     ],
     "element": "Dragon",
+    "category": "archistaffs",
     "stats.magic": 170,
     "causes": [
       "Blight"
@@ -3004,6 +3134,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 88,
     "stats.dexterity": 10,
     "causes": [
@@ -3107,7 +3238,7 @@
       254
     ],
     "image": "armor/draco_hood.png",
-    "description": "A hood of a Draconian mage"
+    "description": "A hood of a Draconian mage."
   },
   {
     "id": 140,
@@ -3193,7 +3324,7 @@
     ],
     "image": "armor/count_hood.png",
     "slots": 4,
-    "description": "Hood of a count. It's quite stylish, really"
+    "description": "Hood of a count. It's quite stylish, really."
   },
   {
     "id": 144,
@@ -3292,6 +3423,7 @@
     "stats.defense": 75,
     "stats.resistance": 20,
     "dropped_by": [
+      65,
       258,
       112
     ],
@@ -3428,8 +3560,7 @@
     "stats.defense": 60,
     "stats.resistance": 80,
     "dropped_by": [
-      112,
-      115
+      112
     ],
     "materials": [
       255
@@ -3456,7 +3587,7 @@
     ],
     "image": "armor/chain_mail.png",
     "rarity": "w",
-    "description": "Armor made of chainmail"
+    "description": "Armor made of chainmail."
   },
   {
     "id": 156,
@@ -3752,8 +3883,7 @@
     "stats.resistance": 24,
     "stats.dexterity": 6,
     "dropped_by": [
-      101,
-      119
+      101
     ],
     "materials": [
       252
@@ -3934,15 +4064,14 @@
     "stats.resistance": 20,
     "dropped_by": [
       65,
-      258,
-      128
+      258
     ],
     "materials": [
       255
     ],
     "image": "armor/drake_mail.png",
     "slots": 4,
-    "description": "Heavy armor smithed of a dragon scale."
+    "description": "Heavy armor smithed of dragon scale."
   },
   {
     "id": 178,
@@ -4025,7 +4154,8 @@
     ],
     "stats.defense": 95,
     "dropped_by": [
-      95
+      95,
+      338
     ],
     "materials": [
       262
@@ -4047,8 +4177,7 @@
     "stats.resistance": 10,
     "stats.dexterity": 10,
     "dropped_by": [
-      126,
-      76
+      126
     ],
     "materials": [
       262
@@ -4091,7 +4220,9 @@
     "stats.resistance": 60,
     "stats.dexterity": 10,
     "dropped_by": [
-      261
+      63,
+      261,
+      89
     ],
     "materials": [
       257,
@@ -4115,6 +4246,10 @@
     "stats.dexterity": 10,
     "dropped_by": [
       88
+    ],
+    "materials": [
+      257,
+      262
     ],
     "image": "armor/dark_elf_robe.png",
     "slots": 4,
@@ -4181,7 +4316,6 @@
     "stats.resistance": 80,
     "dropped_by": [
       112,
-      115,
       120
     ],
     "materials": [
@@ -4473,8 +4607,7 @@
     "stats.dexterity": 3,
     "dropped_by": [
       36,
-      73,
-      363
+      73
     ],
     "materials": [
       262
@@ -4560,7 +4693,6 @@
     "dropped_by": [
       65,
       258,
-      128,
       112
     ],
     "materials": [
@@ -4583,15 +4715,14 @@
     "stats.resistance": 20,
     "dropped_by": [
       65,
-      258,
-      128
+      258
     ],
     "materials": [
       255
     ],
     "image": "armor/drake_leggings.png",
     "slots": 4,
-    "description": "Heavy armor smithed of a dragon scale."
+    "description": "Heavy armor smithed of dragon scale."
   },
   {
     "id": 207,
@@ -4653,7 +4784,7 @@
     ],
     "image": "armor/adam_leggings.png",
     "slots": 4,
-    "description": "Leg armor smithed of adamantine. Surely, it will never break."
+    "description": "Leg armor smithed of adamantine. Surely, they will never break."
   },
   {
     "id": 210,
@@ -4670,7 +4801,7 @@
     "dropped_by": [
       63,
       261,
-      88
+      89
     ],
     "materials": [
       257,
@@ -4717,9 +4848,7 @@
     "stats.defense": 60,
     "stats.resistance": 80,
     "dropped_by": [
-      112,
-      115,
-      120
+      112
     ],
     "materials": [
       255
@@ -5016,7 +5145,7 @@
     "zh": "提燈",
     "tier": 2,
     "type": "Accessory",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -5165,10 +5294,6 @@
     ],
     "stats.attack": -100,
     "stats.magic": 50,
-    "dropped_by": [
-      71,
-      146
-    ],
     "image": "acc/mage_ring.png",
     "description": "A strange magical ring. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magical power."
   },
@@ -5255,7 +5380,7 @@
     "id": 242,
     "name": "Great Monster Tome",
     "zh": "大魔物之典",
-    "tier": 5,
+    "tier": 4,
     "type": "Accessory",
     "equipped_by": [
       "Mage",
@@ -5310,6 +5435,9 @@
     ],
     "stats.defense": 7,
     "stats.resistance": 20,
+    "materials": [
+      345
+    ],
     "image": "armor/magic_robe.png",
     "rarity": "w",
     "description": "A simple robe worn by students of magic."
@@ -5326,6 +5454,9 @@
     ],
     "stats.defense": 6,
     "stats.resistance": 20,
+    "materials": [
+      345
+    ],
     "image": "armor/magic_hood.png",
     "rarity": "w",
     "description": "The hood of a student of magic."
@@ -5413,8 +5544,7 @@
     ],
     "materials": [
       64,
-      300,
-      1433
+      300
     ],
     "image": "materials/stone.png",
     "rarity": "w",
@@ -5436,12 +5566,11 @@
       14,
       163,
       58,
+      466,
       84,
       241,
       242,
       101,
-      204,
-      205,
       478
     ],
     "materials": [
@@ -5513,9 +5642,11 @@
     ],
     "dropped_by": [
       107,
-      209
+      209,
+      521
     ],
     "materials": [
+      1551,
       427,
       135
     ],
@@ -5568,17 +5699,26 @@
       92,
       53,
       59,
+      191,
       71,
       489,
       377,
-      91,
+      157,
       90,
+      91,
+      259,
       297,
+      101,
+      103,
       138,
       248,
       119,
       249,
+      251,
       236,
+      263,
+      309,
+      284,
       453
     ],
     "materials": [
@@ -5596,11 +5736,11 @@
       616,
       618,
       534,
-      746,
       169,
       144,
       170,
       87,
+      746,
       1093,
       1486,
       1159,
@@ -5687,8 +5827,7 @@
       266,
       42,
       43,
-      198,
-      199
+      121
     ],
     "materials": [
       163,
@@ -5744,9 +5883,12 @@
       164,
       224,
       112,
+      115,
       251,
       262,
+      263,
       149,
+      271,
       322,
       433
     ],
@@ -5761,10 +5903,10 @@
       799,
       677,
       104,
-      633,
       730,
-      649,
       105,
+      633,
+      649,
       177,
       205,
       148,
@@ -5825,6 +5967,7 @@
       411,
       139,
       153,
+      386,
       311,
       228,
       254,
@@ -5869,13 +6012,13 @@
       1290,
       1492,
       1168,
+      809,
       1382,
-      589,
       1284,
       1490,
       1282,
-      1279,
       1283,
+      1279,
       739,
       744,
       426,
@@ -5913,6 +6056,7 @@
       261,
       88,
       89,
+      396,
       392,
       139,
       153,
@@ -5924,6 +6068,7 @@
       151,
       184,
       152,
+      185,
       534,
       107,
       108,
@@ -5997,6 +6142,15 @@
       726,
       864,
       863,
+      1524,
+      1517,
+      1520,
+      1521,
+      1522,
+      1516,
+      1518,
+      1519,
+      1523,
       1238,
       1153,
       1154,
@@ -6011,6 +6165,15 @@
       719,
       718,
       122,
+      1514,
+      1508,
+      1510,
+      1511,
+      1513,
+      1507,
+      1506,
+      1509,
+      1512,
       700,
       480,
       72,
@@ -6032,12 +6195,12 @@
       989,
       962,
       967,
+      1001,
       980,
       988,
       997,
       830,
       639,
-      589,
       983,
       968,
       975,
@@ -6210,19 +6373,21 @@
       86,
       76,
       196,
-      89,
-      97,
       96,
+      97,
+      380,
       98,
       268,
-      105,
+      243,
       174,
       140,
+      364,
       114,
+      338,
       387,
       244,
-      237,
       228,
+      357,
       371,
       318
     ],
@@ -6250,6 +6415,7 @@
       151,
       184,
       152,
+      185,
       156,
       906,
       900,
@@ -6295,6 +6461,7 @@
       161,
       1052,
       1017,
+      832,
       901,
       854,
       153,
@@ -6322,22 +6489,30 @@
       5,
       22,
       32,
-      394,
-      295
+      394
     ],
     "materials": [
+      1539,
+      1543,
+      1540,
       999,
       34,
       1129,
       1130,
       36,
+      1544,
+      1541,
       26,
       681,
       481,
       155,
       191,
+      1538,
+      1542,
       28,
       50,
+      1545,
+      1537,
       704,
       306,
       950,
@@ -6403,6 +6578,7 @@
       86,
       76,
       105,
+      243,
       113
     ],
     "materials": [
@@ -6421,6 +6597,7 @@
       200,
       951,
       574,
+      341,
       195,
       137,
       160,
@@ -6463,10 +6640,10 @@
       103,
       284,
       489,
-      589,
       745,
       753,
       99,
+      832,
       640,
       712,
       467,
@@ -6499,23 +6676,22 @@
     ],
     "dropped_by": [
       57,
+      207,
       197,
       198,
-      167,
       204,
       205,
-      492,
-      182
+      492
     ],
     "materials": [
       464,
       1311,
       1355,
-      1384,
       1387,
       1381,
       1385,
       1390,
+      1384,
       1194,
       1185,
       1187,
@@ -6561,14 +6737,14 @@
       354,
       587,
       547,
-      90,
-      92,
-      91,
-      93,
       431,
       702,
       425,
       432,
+      90,
+      92,
+      91,
+      93,
       687,
       111,
       627,
@@ -6578,11 +6754,11 @@
       314,
       307,
       792,
-      1383,
       1386,
       1382,
       1389,
       1388,
+      1383,
       420,
       419,
       960,
@@ -6596,6 +6772,8 @@
       572,
       573,
       782,
+      785,
+      831,
       648,
       918,
       174,
@@ -6691,7 +6869,9 @@
       109,
       413,
       449,
+      524,
       210,
+      523,
       312,
       447
     ],
@@ -6701,6 +6881,7 @@
       790,
       755,
       772,
+      759,
       1416,
       1405,
       1415,
@@ -6717,6 +6898,7 @@
       768,
       769,
       789,
+      779,
       1412,
       1408,
       1407,
@@ -6727,6 +6909,7 @@
       778,
       770,
       788,
+      784,
       821,
       913,
       1053,
@@ -6738,8 +6921,11 @@
       757,
       777,
       773,
+      786,
       112,
       782,
+      785,
+      781,
       764,
       577,
       1198,
@@ -6780,6 +6966,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      207,
       56
     ],
     "materials": [
@@ -6860,10 +7047,10 @@
     "materials": [
       128,
       529,
-      43,
       701,
       568,
-      530
+      530,
+      43
     ],
     "image": "materials/draconite.png",
     "rarity": "g",
@@ -6931,7 +7118,6 @@
       386,
       170,
       494,
-      181,
       318
     ],
     "materials": [
@@ -6946,12 +7132,12 @@
       352,
       351,
       456,
-      1112,
       643,
       617,
       621,
       670,
       641,
+      1112,
       1110,
       1111,
       1099,
@@ -6977,8 +7163,8 @@
       1103,
       1106,
       418,
-      433,
       436,
+      433,
       442,
       534,
       730,
@@ -7009,6 +7195,7 @@
       1098,
       338,
       490,
+      912,
       907,
       693,
       166,
@@ -7080,13 +7267,10 @@
       126,
       59,
       161,
-      69,
       76,
       111,
       243,
-      174,
-      204,
-      205
+      174
     ],
     "materials": [
       801,
@@ -7106,6 +7290,15 @@
       1194,
       1185,
       1187,
+      1524,
+      1517,
+      1520,
+      1521,
+      1522,
+      1516,
+      1518,
+      1519,
+      1523,
       1238,
       1153,
       1154,
@@ -7145,6 +7338,15 @@
       1449,
       1433,
       1443,
+      1514,
+      1508,
+      1510,
+      1511,
+      1513,
+      1507,
+      1506,
+      1509,
+      1512,
       1218,
       1107,
       1137,
@@ -7174,6 +7376,7 @@
       149,
       208,
       180,
+      809,
       756,
       757,
       777,
@@ -7204,11 +7407,13 @@
       989,
       962,
       967,
+      1001,
       980,
       988,
       443,
       732,
       453,
+      912,
       1202,
       1199,
       1203,
@@ -7320,8 +7525,8 @@
       81,
       30,
       1014,
-      62,
       1015,
+      62,
       1121
     ],
     "quests": [
@@ -7356,7 +7561,9 @@
       54,
       195,
       107,
+      207,
       197,
+      166,
       170,
       193
     ],
@@ -7372,6 +7579,9 @@
       914,
       915,
       687,
+      805,
+      813,
+      798,
       907,
       910
     ],
@@ -7400,8 +7610,9 @@
       265
     ],
     "materials": [
-      459,
       691,
+      459,
+      682,
       86,
       654,
       527
@@ -7451,12 +7662,15 @@
       36,
       73,
       299,
+      363,
       94,
       444,
       103,
       411,
       140,
       397,
+      364,
+      386,
       291,
       292,
       293,
@@ -7499,7 +7713,7 @@
       752,
       461,
       705,
-      589,
+      831,
       620,
       907,
       743,
@@ -7586,6 +7800,10 @@
       1300,
       1303,
       1302,
+      1532,
+      1531,
+      1529,
+      1530,
       290,
       899,
       1304,
@@ -7595,10 +7813,14 @@
       1293,
       1298,
       1019,
+      1536,
       565,
       1018,
+      1535,
       563,
+      1533,
       564,
+      1534,
       562,
       1023,
       1020,
@@ -7633,6 +7855,7 @@
       266,
       195,
       60,
+      207,
       86,
       159,
       197,
@@ -7640,21 +7863,28 @@
     ],
     "materials": [
       793,
+      1539,
       783,
+      1543,
+      1540,
       464,
       710,
       485,
       1333,
       1271,
+      1544,
       486,
       767,
       818,
       711,
       2,
+      1541,
       719,
       718,
       27,
       838,
+      1538,
+      1542,
       41,
       348,
       766,
@@ -7667,13 +7897,16 @@
       493,
       494,
       49,
+      70,
+      1545,
       1107,
+      1537,
       700,
+      425,
       90,
       92,
       91,
       93,
-      425,
       703,
       762,
       687,
@@ -7764,6 +7997,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 7,
     "stats.magic": 55,
     "materials": [
@@ -7783,6 +8017,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "axes & hammers",
     "stats.attack": 115,
     "stats.magic": 48,
     "causes": [
@@ -7832,6 +8067,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 155,
     "stats.magic": 25,
     "stats.dexterity": 20,
@@ -7860,6 +8096,7 @@
       "Mage"
     ],
     "element": "Earthen",
+    "category": "staffs",
     "stats.magic": 170,
     "causes": [
       "Rot"
@@ -7925,6 +8162,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 25,
     "materials": [
       276,
@@ -7954,6 +8192,15 @@
     ],
     "materials": [
       1207,
+      1524,
+      1517,
+      1520,
+      1521,
+      1522,
+      1516,
+      1518,
+      1519,
+      1523,
       1238,
       1153,
       1154,
@@ -7964,6 +8211,15 @@
       1148,
       1176,
       1147,
+      1514,
+      1508,
+      1510,
+      1511,
+      1513,
+      1507,
+      1506,
+      1509,
+      1512,
       1182,
       1132,
       985,
@@ -7984,6 +8240,7 @@
       989,
       962,
       967,
+      1001,
       980,
       988,
       997,
@@ -8014,6 +8271,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 28,
     "stats.magic": 5,
     "stats.dexterity": 3,
@@ -8037,6 +8295,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 50,
     "stats.magic": 205,
     "stats.mana": 55,
@@ -8059,6 +8318,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 180,
     "causes": [
       "T. Def ↓",
@@ -8072,7 +8332,7 @@
     "image": "weapons/diana_bow.png",
     "slots": 4,
     "rarity": "p",
-    "description": "Bow of the underworld."
+    "description": "Bow of the underworld. It has a good chance of breaking an opponents defenses."
   },
   {
     "id": 298,
@@ -8085,6 +8345,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "bows",
     "stats.attack": 130,
     "stats.magic": 30,
     "causes": [
@@ -8110,6 +8371,7 @@
       "Thief"
     ],
     "element": "Earthen",
+    "category": "curved swords",
     "stats.attack": 128,
     "stats.magic": 15,
     "stats.dexterity": 10,
@@ -8139,6 +8401,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 150,
     "stats.magic": 150,
     "dropped_by": [
@@ -8161,6 +8424,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 180,
     "causes": [
       "T. Res ↓",
@@ -8193,6 +8457,7 @@
       135,
       373,
       269,
+      285,
       367,
       315
     ],
@@ -8225,6 +8490,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 26,
     "materials": [
       283
@@ -8242,6 +8508,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 172,
     "stats.magic": 55,
     "causes": [
@@ -8268,6 +8535,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 78,
     "stats.dexterity": 5,
     "materials": [
@@ -8287,6 +8555,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "polearms",
     "stats.attack": 32,
     "stats.dexterity": 3,
     "materials": [
@@ -8305,6 +8574,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 105,
     "materials": [
       346,
@@ -8383,6 +8653,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 70,
     "stats.dexterity": 15,
     "materials": [
@@ -8403,6 +8674,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 58,
     "materials": [
       346
@@ -8577,6 +8849,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 72,
     "stats.dexterity": 10,
     "materials": [
@@ -8643,6 +8916,7 @@
       "Mage"
     ],
     "element": "Holy",
+    "category": "staffs",
     "stats.magic": 177,
     "stats.mana": 25,
     "dropped_by": [
@@ -8673,6 +8947,7 @@
       147,
       148,
       145,
+      345,
       254,
       443,
       412
@@ -8680,6 +8955,13 @@
     "materials": [
       851,
       836,
+      878,
+      877,
+      897,
+      883,
+      884,
+      880,
+      898,
       543,
       545,
       546,
@@ -8689,6 +8971,13 @@
       544,
       540,
       542,
+      892,
+      894,
+      888,
+      893,
+      890,
+      889,
+      891,
       732,
       334,
       323,
@@ -8704,7 +8993,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ],
     "image": "materials/lightstone.png",
@@ -8723,7 +9012,6 @@
     "stats.defense": 30,
     "stats.resistance": 155,
     "dropped_by": [
-      147,
       145
     ],
     "materials": [
@@ -8744,6 +9032,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 170,
     "stats.magic": 20,
     "dropped_by": [
@@ -8767,6 +9056,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 176,
     "dropped_by": [
       144
@@ -8793,6 +9083,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "archistaffs",
     "stats.attack": 155,
     "stats.magic": 170,
     "stats.hp": 200,
@@ -8823,7 +9114,8 @@
     "dropped_by": [
       344,
       217,
-      150
+      150,
+      345
     ],
     "materials": [
       881,
@@ -8902,6 +9194,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 172,
     "stats.mana": 80,
     "dropped_by": [
@@ -9006,6 +9299,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 12,
     "stats.magic": 176,
     "dropped_by": [
@@ -9053,6 +9347,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "bows",
     "stats.attack": 170,
     "stats.magic": 60,
     "stats.dexterity": 20,
@@ -9082,6 +9377,9 @@
       "Warrior"
     ],
     "stats.dexterity": 30,
+    "materials": [
+      264
+    ],
     "image": "acc/buckle_belt.png",
     "description": "A leather belt. Improves your dexterity."
   },
@@ -9138,6 +9436,7 @@
       "Mage"
     ],
     "element": "Earthen",
+    "category": "staffs",
     "stats.magic": 128,
     "causes": [
       "Rot"
@@ -9230,10 +9529,12 @@
       73,
       627,
       626,
-      1383,
       1382,
+      1383,
       639,
       55,
+      245,
+      244,
       1074,
       1120,
       620,
@@ -9268,7 +9569,7 @@
       },
       {
         "id": 45,
-        "name": "The Arena"
+        "name": "[The Aftermath] The Arena"
       }
     ],
     "image": "materials/soul.png",
@@ -9310,11 +9611,11 @@
       1261,
       1263,
       1250,
-      1384,
       1387,
       1381,
       1385,
       1390,
+      1384,
       1251,
       1281,
       839,
@@ -9386,9 +9687,9 @@
       1388,
       297,
       1274,
-      1275,
       1276,
       1278,
+      1275,
       868,
       577,
       1101,
@@ -9408,10 +9709,10 @@
       1174,
       1184,
       1166,
-      312,
       588,
       578,
       579,
+      312,
       296
     ],
     "image": "materials/greater_soul.png",
@@ -9452,27 +9753,25 @@
       107,
       176,
       85,
-      86,
-      84,
       160,
       108,
       109,
+      288,
       110,
+      177,
       111,
-      192,
       116,
       117,
       413,
       135,
       118,
+      528,
       362,
       430,
       119,
-      170,
       142,
       273,
       120,
-      193,
       149,
       275,
       487,
@@ -9480,11 +9779,10 @@
       440,
       346,
       337,
-      187,
       491,
       432,
       431,
-      194,
+      527,
       428,
       335,
       486
@@ -9502,6 +9800,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 105,
     "dropped_by": [
       159
@@ -9522,6 +9821,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 105,
     "dropped_by": [
       157
@@ -9544,6 +9844,7 @@
       "Thief"
     ],
     "element": "Fire",
+    "category": "daggers",
     "stats.attack": 165,
     "stats.magic": 65,
     "stats.dexterity": 20,
@@ -9560,7 +9861,7 @@
     "image": "weapons/hell_dagger.png",
     "slots": 5,
     "rarity": "g",
-    "description": "Dagger often carried as a sidearm by demon soldiers.  Has the chance of both burning and causing an opponent to bleed."
+    "description": "Dagger often carried as a sidearm by demon soldiers. Has the chance of both burning and causing an opponent to bleed."
   },
   {
     "id": 351,
@@ -9643,6 +9944,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 148,
     "causes": [
       "Bleeding"
@@ -9738,6 +10040,7 @@
       "Thief"
     ],
     "element": "Earthen",
+    "category": "curved swords",
     "stats.attack": 110,
     "causes": [
       "Rot"
@@ -9937,6 +10240,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 130,
     "stats.mana": 40,
     "dropped_by": [
@@ -10004,6 +10308,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 130,
     "stats.magic": 20,
     "stats.hp": 50,
@@ -10072,6 +10377,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 130,
     "stats.magic": 20,
     "stats.mana": 40,
@@ -10095,6 +10401,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 150,
     "stats.dexterity": 25,
     "stats.mana": 10,
@@ -10119,6 +10426,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 150,
     "stats.defense": 10,
     "dropped_by": [
@@ -10142,6 +10450,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 150,
     "stats.mana": 40,
     "dropped_by": [
@@ -10471,8 +10780,8 @@
       1284,
       1490,
       1282,
-      1279,
       1283,
+      1279,
       378,
       375,
       388,
@@ -10523,7 +10832,7 @@
     ],
     "image": "acc/azure_crystal.png",
     "rarity": "w",
-    "description": "Azure crystal of the night. Increases magical ability at the expense of physical prowess."
+    "description": "An azure crystal of the night. Increases magical ability at the expense of physical prowess."
   },
   {
     "id": 393,
@@ -10534,6 +10843,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 205,
     "stats.defense": -40,
     "stats.dexterity": 10,
@@ -10561,6 +10871,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 205,
     "stats.hp": -100,
     "stats.mana": 100,
@@ -10696,7 +11007,7 @@
     "image": "armor/pale_leggings.png",
     "slots": 4,
     "rarity": "w",
-    "description": "Heavy leggings typically worn by Balor warriors"
+    "description": "Heavy leggings typically worn by Balor warriors."
   },
   {
     "id": 400,
@@ -10755,6 +11066,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 140,
     "stats.defense": 22,
     "stats.ward": 18,
@@ -10788,6 +11100,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 205,
     "causes": [
       "Poisoned"
@@ -10817,6 +11130,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 152,
     "dropped_by": [
       124
@@ -10839,6 +11153,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 152,
     "dropped_by": [
       125
@@ -10863,6 +11178,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 88,
     "causes": [
       "Asleep"
@@ -10890,7 +11206,8 @@
       "Warrior"
     ],
     "dropped_by": [
-      454
+      454,
+      179
     ],
     "materials": [
       519,
@@ -10906,9 +11223,9 @@
       1497,
       1287,
       516,
-      474,
       520,
       483,
+      474,
       438,
       502,
       439,
@@ -11152,6 +11469,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 92,
     "stats.magic": 80,
     "dropped_by": [
@@ -11174,6 +11492,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 160,
     "dropped_by": [
       204
@@ -11196,6 +11515,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 10,
     "stats.magic": 155,
     "dropped_by": [
@@ -11316,6 +11636,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 90,
     "stats.resistance": 15,
     "prevents": [
@@ -11345,6 +11666,7 @@
       "Thief"
     ],
     "element": "Earthen",
+    "category": "curved swords",
     "stats.attack": 140,
     "stats.magic": 65,
     "stats.dexterity": 10,
@@ -11376,6 +11698,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 98,
     "stats.dexterity": 10,
     "causes": [
@@ -11401,6 +11724,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 110,
     "stats.dexterity": 10,
     "dropped_by": [
@@ -11427,6 +11751,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "axes & hammers",
     "stats.attack": 180,
     "stats.defense": -10,
     "stats.resistance": -10,
@@ -11454,6 +11779,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 198,
     "causes": [
       "Stunned"
@@ -11467,7 +11793,7 @@
     "image": "weapons/gada.png",
     "slots": 6,
     "rarity": "g",
-    "description": "A huge mace, favoured by esteemed Dokkalfar warriors. Has a very high chance of stunning an opponent."
+    "description": "A huge mace, favored by esteemed Dokkalfar warriors. Has a very high chance of stunning an opponent."
   },
   {
     "id": 431,
@@ -11479,6 +11805,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 90,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -11505,6 +11832,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 90,
     "dropped_by": [
       207
@@ -11528,6 +11856,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 160,
     "stats.magic": 100,
     "prevents": [
@@ -11550,7 +11879,7 @@
     "image": "weapons/crystalis.png",
     "slots": 8,
     "rarity": "g",
-    "description": "A ceremonial sword of enlightened royalty. It can protect one from having their stats lowered and is well-suited for adornment."
+    "description": "A ceremonial sword of enlightened royalty. It can protect one from having their stats lowered and is well suited for adornment."
   },
   {
     "id": 434,
@@ -11563,6 +11892,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "greatbows",
     "stats.attack": 180,
     "stats.magic": -40,
     "causes": [
@@ -11577,7 +11907,7 @@
     "image": "weapons/bow_of_typhon.png",
     "slots": 6,
     "rarity": "b",
-    "description": "A superb bow forged by the remains of Typhon, the great ancient dragon."
+    "description": "A superb bow forged of the remains of Typhon, the great ancient dragon."
   },
   {
     "id": 435,
@@ -11590,6 +11920,7 @@
       "Mage"
     ],
     "element": "Dragon",
+    "category": "archistaffs",
     "stats.magic": 180,
     "causes": [
       "Blight"
@@ -11614,6 +11945,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 156,
     "stats.resistance": 15,
     "dropped_by": [
@@ -11709,6 +12041,7 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "archistaffs",
     "stats.magic": 155,
     "dropped_by": [
       219
@@ -11861,6 +12194,7 @@
       33,
       188,
       107,
+      466,
       209,
       420,
       208,
@@ -11868,16 +12202,18 @@
       308,
       444,
       288,
+      344,
+      347,
       177,
       411,
       245,
       116,
       219,
       413,
+      528,
       362,
       430,
       178,
-      386,
       210,
       373,
       179,
@@ -11898,7 +12234,7 @@
       431,
       367,
       307,
-      304,
+      527,
       315,
       443,
       428,
@@ -11922,17 +12258,24 @@
       "Warrior"
     ],
     "dropped_by": [
+      207,
       420,
+      288,
+      177,
+      528,
       362,
       430,
+      119,
       142,
       454,
+      149,
       275,
       279,
       440,
       346,
       432,
       431,
+      527,
       322,
       428
     ],
@@ -11952,6 +12295,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      347,
       348
     ],
     "image": "useables/super_elixir.png",
@@ -12010,6 +12354,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 188,
     "stats.magic": 25,
     "stats.dexterity": 20,
@@ -12068,12 +12413,9 @@
     ],
     "dropped_by": [
       33,
-      176,
       420,
-      247,
       273,
       337,
-      304,
       422
     ],
     "image": "useables/berserk_mushroom.png",
@@ -12087,10 +12429,11 @@
     "tier": 7,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 24,
     "stats.magic": 155,
     "causes": [
@@ -12118,6 +12461,7 @@
       "Mage"
     ],
     "element": "Arcane",
+    "category": "staffs",
     "stats.magic": 178,
     "materials": [
       273,
@@ -12138,6 +12482,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 165,
     "stats.crit": 2,
     "causes": [
@@ -12154,7 +12499,7 @@
     "image": "weapons/katana.png",
     "slots": 6,
     "rarity": "g",
-    "description": "Thin sword forged of Baslisk remains. It has a chance to cause either poison or blight."
+    "description": "Thin sword forged of Basilisk remains. It has a chance to cause either poison or blight."
   },
   {
     "id": 458,
@@ -12173,12 +12518,16 @@
     "dropped_by": [
       266,
       444,
+      288,
+      347,
       411,
+      528,
       362,
       430,
       275,
       440,
       348,
+      527,
       443,
       428,
       412
@@ -12197,6 +12546,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 190,
     "causes": [
       "Stunned"
@@ -12245,6 +12595,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "curved swords",
     "stats.attack": 250,
     "stats.magic": 45,
     "stats.dexterity": 100,
@@ -12256,7 +12607,6 @@
       220
     ],
     "materials": [
-      473,
       280
     ],
     "image": "weapons/ithra_katana.png",
@@ -12274,6 +12624,7 @@
       "Mage"
     ],
     "element": "Water",
+    "category": "staffs",
     "stats.magic": 90,
     "stats.mana": 15,
     "causes": [
@@ -12322,6 +12673,7 @@
       "Thief"
     ],
     "element": "Arcane",
+    "category": "curved swords",
     "stats.attack": 178,
     "stats.dexterity": 24,
     "causes": [
@@ -12371,6 +12723,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 178,
     "stats.dexterity": 34,
     "causes": [
@@ -12395,6 +12748,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "axes & hammers",
     "stats.attack": 250,
     "stats.hp": 50,
     "causes": [
@@ -12404,8 +12758,7 @@
       221
     ],
     "materials": [
-      265,
-      473
+      265
     ],
     "image": "weapons/thor_hammer.png",
     "slots": 6,
@@ -12422,6 +12775,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 190,
     "stats.magic": 77,
     "stats.hp": 25,
@@ -12565,12 +12919,14 @@
       "Warrior"
     ],
     "dropped_by": [
+      528,
       362,
       430,
       233,
       220,
       221,
       232,
+      527,
       343,
       349,
       350,
@@ -12581,27 +12937,17 @@
       941,
       933,
       991,
-      865,
-      860,
       992,
       942,
       940,
       939,
       938,
-      866,
-      861,
       936,
       943,
       1360,
       937,
       935,
       934,
-      862,
-      867,
-      864,
-      863,
-      706,
-      566,
       595,
       590,
       591,
@@ -12612,30 +12958,14 @@
       594,
       672,
       592,
-      1356,
-      1353,
-      1346,
-      1345,
       809,
       842,
-      830,
-      461,
-      705,
       843,
       844,
       831,
-      820,
-      589,
-      874,
       805,
-      813,
-      798,
       1370,
-      832,
-      712,
-      467,
-      713,
-      550
+      832
     ],
     "image": "materials/ortanite.png",
     "rarity": "p",
@@ -12651,6 +12981,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 185,
     "stats.magic": 32,
     "stats.hp": 20,
@@ -12680,10 +13011,10 @@
     "stats.defense": 10,
     "stats.resistance": 10,
     "prevents": [
+      "Def ↓",
       "Def ↓↓",
       "T. Def ↓",
-      "T. Def ↓↓",
-      "Def ↓"
+      "T. Def ↓↓"
     ],
     "dropped_by": [
       288,
@@ -12703,6 +13034,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 65,
     "dropped_by": [
       276
@@ -12748,6 +13080,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 190,
     "stats.dexterity": 50,
     "stats.hp": 25,
@@ -12791,12 +13124,13 @@
     "tier": 4,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Thief",
       "Warrior"
     ],
     "element": "Fire",
+    "category": "polearms",
     "stats.attack": 90,
     "stats.magic": 18,
     "causes": [
@@ -12818,6 +13152,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 22,
     "stats.crit": 9,
     "causes": [
@@ -12825,8 +13160,10 @@
     ],
     "dropped_by": [
       276,
+      528,
       362,
-      430
+      430,
+      527
     ],
     "materials": [
       263
@@ -12911,6 +13248,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 142,
     "causes": [
       "Mag ↓"
@@ -12933,9 +13271,11 @@
     "zh": "碧翠絲的法杖",
     "tier": 2,
     "type": "Weapon",
+    "boss": 1,
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 45,
     "stats.mana": 10,
     "dropped_by": [
@@ -12946,7 +13286,7 @@
       283
     ],
     "image": "weapons/draco_sceptre.png",
-    "description": "The staff of the aspiring sorceress, Beatrice.  It slightly boosts its wielder's mana."
+    "description": "The staff of the aspiring sorceress, Beatrice. It slightly boosts its wielder's mana."
   },
   {
     "id": 487,
@@ -12959,6 +13299,7 @@
       "Warrior"
     ],
     "element": "Earthen",
+    "category": "polearms",
     "stats.attack": 90,
     "causes": [
       "Stunned",
@@ -12973,7 +13314,7 @@
     "image": "weapons/earth_pike.png",
     "slots": 6,
     "rarity": "w",
-    "description": "Earthen polearm of Boulder, the Earthen Legion elite.  It has a high chance of stunning an opponent."
+    "description": "Earthen polearm of Boulder, the Earthen Legion elite. It has a high chance of stunning an opponent."
   },
   {
     "id": 488,
@@ -13005,6 +13346,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "polearms",
     "stats.attack": 90,
     "causes": [
       "Paralyzed"
@@ -13023,9 +13365,11 @@
     "zh": "諾蘭之杖",
     "tier": 5,
     "type": "Weapon",
+    "boss": 1,
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 110,
     "stats.mana": 40,
     "materials": [
@@ -13085,6 +13429,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 130,
     "stats.dexterity": 33,
     "dropped_by": [
@@ -13108,6 +13453,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 118,
     "stats.mana": 100,
     "dropped_by": [
@@ -13120,7 +13466,7 @@
     "image": "weapons/druid_staff.png",
     "slots": 4,
     "rarity": "g",
-    "description": "Staff of fallen druid. It greatly increases mana."
+    "description": "Staff of a fallen druid. It greatly increases mana."
   },
   {
     "id": 495,
@@ -13131,6 +13477,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 128,
     "materials": [
       254
@@ -13149,6 +13496,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 128,
     "materials": [
       254
@@ -13204,7 +13552,7 @@
     ],
     "image": "acc/crimson_eye.png",
     "rarity": "g",
-    "description": "A strange crimson eye imbued with even stranger crimson magic. Keeping this in your hand will slightly boost all stats."
+    "description": "A strange crimson eye imbued with even stranger magic. Keeping this in your hand will slightly boost all stats."
   },
   {
     "id": 499,
@@ -13216,6 +13564,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 168,
     "stats.mana": 15,
     "dropped_by": [
@@ -13242,6 +13591,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 182,
     "stats.mana": 100,
     "dropped_by": [
@@ -13389,6 +13739,7 @@
       1353,
       1346,
       1345,
+      786,
       518,
       528,
       477,
@@ -13583,6 +13934,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 182,
     "stats.dexterity": 36,
     "dropped_by": [
@@ -13652,6 +14004,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 164,
     "causes": [
       "Att ↓"
@@ -13665,7 +14018,7 @@
     "image": "weapons/avalon_great_sword.png",
     "slots": 6,
     "rarity": "w",
-    "description": "A heavy great sword carried in Sir Balin's right hand.  A blow from this blade can lower an opponent's attack power."
+    "description": "A heavy great sword carried in Sir Balin's right hand. A blow from this blade can lower an opponent's attack power."
   },
   {
     "id": 525,
@@ -13702,6 +14055,7 @@
       "Thief"
     ],
     "element": "Holy",
+    "category": "curved swords",
     "stats.attack": 190,
     "stats.magic": 56,
     "causes": [
@@ -13729,6 +14083,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 204,
     "causes": [
       "Stunned"
@@ -13777,6 +14132,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 77,
     "stats.dexterity": 20,
     "dropped_by": [
@@ -13799,6 +14155,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 77,
     "stats.magic": 12,
     "stats.hp": 20,
@@ -13822,6 +14179,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 190,
     "stats.mana": 100,
     "dropped_by": [
@@ -13866,6 +14224,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 110,
     "stats.dexterity": 10,
     "stats.crit": 1,
@@ -13879,7 +14238,7 @@
     ],
     "image": "weapons/katana.png",
     "slots": 6,
-    "description": "A highly decorative weapon wielded by Dark Elven lords"
+    "description": "A highly decorative weapon wielded by Dark Elven lords."
   },
   {
     "id": 535,
@@ -13890,6 +14249,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 204,
     "causes": [
       "Paralyzed",
@@ -13921,6 +14281,7 @@
       "Warrior"
     ],
     "element": "Arcane",
+    "category": "swords",
     "stats.attack": 214,
     "stats.dexterity": 30,
     "prevents": [
@@ -14013,6 +14374,7 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "staffs",
     "stats.magic": 185,
     "stats.mana": 30,
     "dropped_by": [
@@ -14034,6 +14396,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 78,
     "causes": [
       "Poisoned"
@@ -14059,6 +14422,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 175,
     "dropped_by": [
       213,
@@ -14128,6 +14492,7 @@
     "stats.defense": 95,
     "stats.resistance": 95,
     "dropped_by": [
+      213,
       214,
       250
     ],
@@ -14150,6 +14515,9 @@
     ],
     "stats.defense": 165,
     "stats.dexterity": 25,
+    "dropped_by": [
+      213
+    ],
     "materials": [
       325
     ],
@@ -14169,6 +14537,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "curved swords",
     "stats.attack": 190,
     "stats.crit": 3,
     "stats.hp": 50,
@@ -14201,6 +14570,7 @@
     ],
     "dropped_by": [
       273,
+      356,
       337,
       427,
       348,
@@ -14220,6 +14590,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 35,
     "causes": [
       "Poisoned"
@@ -14245,6 +14616,7 @@
       "Warrior"
     ],
     "element": "Fire",
+    "category": "swords",
     "stats.attack": 250,
     "stats.magic": 120,
     "stats.resistance": 120,
@@ -14255,8 +14627,7 @@
       232
     ],
     "materials": [
-      259,
-      473
+      259
     ],
     "image": "weapons/vulcan_sword.png",
     "slots": 6,
@@ -14272,6 +14643,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 68,
     "stats.ward": 5,
     "causes": [
@@ -14298,6 +14670,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 192,
     "stats.mana": 80,
     "dropped_by": [
@@ -14535,6 +14908,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 155,
     "stats.magic": 35,
     "stats.defense": -10,
@@ -14581,6 +14955,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 155,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -14601,6 +14976,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 155,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -14627,6 +15003,7 @@
       "Mage"
     ],
     "element": "Earthen",
+    "category": "staffs",
     "stats.magic": 250,
     "stats.mana": 200,
     "causes": [
@@ -14636,13 +15013,12 @@
       233
     ],
     "materials": [
-      256,
-      473
+      256
     ],
     "image": "weapons/demeter_staff.png",
     "slots": 6,
     "rarity": "p",
-    "description": "The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, his fate came long before any notion of normality."
+    "description": "The contorted staff of Demeter. Demeter created the Earthen Legion to restore and maintain balance to this world after the falling. Unfortunately, their fate came long before any notion of normality."
   },
   {
     "id": 567,
@@ -14653,6 +15029,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 55,
     "dropped_by": [
       195
@@ -14674,6 +15051,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 77,
     "stats.mana": 20,
     "dropped_by": [
@@ -14696,6 +15074,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 177,
     "stats.hp": 75,
     "dropped_by": [
@@ -14719,6 +15098,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 177,
     "stats.hp": 75,
     "dropped_by": [
@@ -14842,7 +15222,8 @@
     "stats.mana": 200,
     "dropped_by": [
       430,
-      273
+      273,
+      337
     ],
     "image": "acc/fairy_ring.png",
     "rarity": "b",
@@ -14860,6 +15241,7 @@
       "Warrior"
     ],
     "element": "Earthen",
+    "category": "swords",
     "stats.attack": 180,
     "stats.magic": -60,
     "stats.mana": -60,
@@ -14868,7 +15250,8 @@
       "Rot"
     ],
     "dropped_by": [
-      273
+      273,
+      337
     ],
     "materials": [
       346,
@@ -14963,6 +15346,7 @@
     ],
     "dropped_by": [
       273,
+      356,
       421,
       337,
       427,
@@ -14987,8 +15371,10 @@
     ],
     "dropped_by": [
       273,
+      356,
       421,
       337,
+      427,
       348,
       404,
       422
@@ -15033,6 +15419,7 @@
       "Mage"
     ],
     "element": "Fire",
+    "category": "archistaffs",
     "stats.attack": -24,
     "stats.magic": 155,
     "stats.resistance": -24,
@@ -15108,6 +15495,7 @@
       "Warrior"
     ],
     "element": "Fire",
+    "category": "axes & hammers",
     "stats.attack": 155,
     "stats.defense": 24,
     "stats.resistance": -24,
@@ -15137,6 +15525,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 190,
     "dropped_by": [
       276
@@ -15177,7 +15566,7 @@
     "tier": 9,
     "type": "Off-hand",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -15189,7 +15578,7 @@
     "stats.resistance": 32,
     "stats.dexterity": 32,
     "stats.crit": 2,
-    "stats.ward": 6,
+    "stats.ward": 25,
     "stats.hp": 50,
     "stats.mana": 50,
     "causes": [
@@ -15203,13 +15592,6 @@
       "T. Def ↑",
       "T. Mag ↑",
       "T. Res ↑"
-    ],
-    "materials": [
-      256,
-      259,
-      265,
-      473,
-      280
     ],
     "image": "useables/mammon_sword.png",
     "slots": 3,
@@ -15421,7 +15803,7 @@
     ],
     "image": "armor/fallen_helm.png",
     "slots": 6,
-    "description": "Helmet worm by knights of Mammon, the demon of hubris."
+    "description": "Helmet worn by knights of Mammon, the demon of hubris."
   },
   {
     "id": 599,
@@ -15450,7 +15832,6 @@
       611,
       602,
       609,
-      1039,
       667
     ],
     "image": "materials/realm_ore.png",
@@ -15551,6 +15932,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 220,
     "stats.defense": 55,
     "stats.ward": 9,
@@ -15660,6 +16042,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 55,
     "stats.magic": 220,
     "stats.dexterity": 32,
@@ -15714,6 +16097,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 220,
     "stats.magic": 32,
     "stats.dexterity": 90,
@@ -15795,6 +16179,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 180,
     "stats.ward": 5,
     "dropped_by": [
@@ -16041,6 +16426,7 @@
       "Thief"
     ],
     "element": "Arcane",
+    "category": "greatbows",
     "stats.attack": 132,
     "stats.dexterity": 10,
     "materials": [
@@ -16050,7 +16436,7 @@
     "image": "weapons/longbow.png",
     "slots": 4,
     "rarity": "g",
-    "description": "A Greatbow of  Annwn, capable of loosing arcane arrows. It can cause a variety of status effects."
+    "description": "A Greatbow of Annwn, capable of loosing arcane arrows. It can cause a variety of status effects."
   },
   {
     "id": 624,
@@ -16062,6 +16448,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 142,
     "stats.dexterity": 40,
     "causes": [
@@ -16087,6 +16474,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 162,
     "stats.defense": -22,
     "stats.resistance": -22,
@@ -16115,6 +16503,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 162,
     "causes": [
       "T. Att ↓",
@@ -16139,6 +16528,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 162,
     "causes": [
       "T. Def ↓"
@@ -16162,6 +16552,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 210,
     "stats.defense": 40,
     "stats.resistance": 40,
@@ -16188,6 +16579,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 164,
     "causes": [
       "T. Res ↓"
@@ -16258,6 +16650,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "greatbows",
     "stats.attack": 188,
     "causes": [
       "Blight"
@@ -16312,6 +16705,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 210,
     "stats.dexterity": 24,
     "causes": [
@@ -16339,6 +16733,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 122,
     "stats.resistance": 20,
     "stats.dexterity": 20,
@@ -16368,6 +16763,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "greatbows",
     "stats.magic": 202,
     "stats.dexterity": 20,
     "stats.mana": 20,
@@ -16383,7 +16779,7 @@
     ],
     "image": "weapons/tidal_bow.png",
     "slots": 6,
-    "description": "Azure greatbow of Pollux, the Dioscuri berserker. Pollux and his twin brother seldomly leave the depth of the seas unless truly lacking in other hobbies."
+    "description": "Azure greatbow of Pollux, the Dioscuri berserker. Pollux and his twin brother seldomly leave the depths of the seas unless truly lacking in other hobbies."
   },
   {
     "id": 638,
@@ -16394,6 +16790,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 105,
     "stats.dexterity": 12,
     "materials": [
@@ -16457,6 +16854,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 140,
     "stats.magic": 140,
     "materials": [
@@ -16484,13 +16882,15 @@
     ],
     "dropped_by": [
       283,
+      528,
       362,
       430,
       285,
-      438
+      438,
+      527
     ],
     "image": "useables/speed_tonic.png",
-    "description": "For some reason, the Dioscuri love this terrible drink for its taste and not benefit. Consuming it will temporarily increase you critical hit rate."
+    "description": "For some reason, the Dioscuri love this terrible drink for its taste and not benefit. Consuming it will temporarily increase your critical hit rate."
   },
   {
     "id": 643,
@@ -16524,6 +16924,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "axes & hammers",
     "stats.attack": 202,
     "stats.defense": 20,
     "causes": [
@@ -16547,12 +16948,13 @@
     "tier": 7,
     "type": "Weapon",
     "arena": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Thief",
       "Warrior"
     ],
     "element": "Holy",
+    "category": "swords",
     "stats.attack": 170,
     "causes": [
       "Blind"
@@ -16576,6 +16978,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 110,
     "stats.dexterity": 32,
     "causes": [
@@ -16596,7 +16999,7 @@
     "zh": "午夜之眼",
     "tier": 8,
     "type": "Accessory",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -16648,6 +17051,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "instruments",
     "stats.attack": 142,
     "stats.magic": 142,
     "causes": [
@@ -16679,6 +17083,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 4,
     "stats.magic": 4,
     "gives": [
@@ -16703,6 +17108,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 18,
     "stats.magic": 18,
     "gives": [
@@ -16730,10 +17136,12 @@
     "stats.resistance": -50,
     "stats.mana": -50,
     "dropped_by": [
+      528,
       362,
       430,
       285,
-      438
+      438,
+      527
     ],
     "image": "acc/warrior_ring.png",
     "rarity": "b",
@@ -16751,6 +17159,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "instruments",
     "stats.attack": 190,
     "stats.magic": 190,
     "causes": [
@@ -16788,6 +17197,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 118,
     "stats.magic": 118,
     "gives": [
@@ -16821,9 +17231,11 @@
     "stats.hp": -50,
     "dropped_by": [
       283,
+      528,
       362,
       430,
-      438
+      438,
+      527
     ],
     "image": "acc/mage_ring.png",
     "rarity": "b",
@@ -17025,6 +17437,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 170,
     "stats.magic": 170,
     "gives": [
@@ -17113,15 +17526,15 @@
       678,
       663,
       808,
+      697,
       698,
       694,
       695,
-      696,
-      697
+      696
     ],
     "image": "materials/baldur.png",
     "rarity": "g",
-    "description": "A chunk of Baldur, favoured by the raiders of Nothren."
+    "description": "A chunk of Baldur, favored by the raiders of Nothren."
   },
   {
     "id": 667,
@@ -17135,6 +17548,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 198,
     "stats.magic": 198,
     "stats.hp": 24,
@@ -17221,7 +17635,7 @@
     ],
     "image": "wards/rune_shield.png",
     "rarity": "g",
-    "description": "Mystical shield that boasts extra magical defense."
+    "description": "Mystical shield that boasts extra magic defense."
   },
   {
     "id": 671,
@@ -17378,11 +17792,14 @@
     ],
     "element": "Dragon",
     "stats.ward": 15,
+    "dropped_by": [
+      128
+    ],
     "materials": [
       255
     ],
     "image": "wards/dragon_shield.png",
-    "description": "A shield crested the image of a dragon. It protects one against Dragon attacks while boosting Ward."
+    "description": "A shield crested the image of a Dragon. It protects one against Dragon attacks while boosting Ward."
   },
   {
     "id": 678,
@@ -17488,6 +17905,9 @@
     "dropped_by": [
       84
     ],
+    "materials": [
+      278
+    ],
     "image": "wards/bone_shield.png",
     "description": "A shield made of hardened monster bone."
   },
@@ -17542,9 +17962,11 @@
     "dropped_by": [
       420,
       288,
+      528,
       362,
       430,
-      440
+      440,
+      527
     ],
     "image": "acc/gizmo.png",
     "description": "One of the concoctions of Cade, the great inventor. This gizmo prevents one from having their dexterity, physical or magical prowess lowered."
@@ -17586,6 +18008,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "swords",
     "stats.attack": 199,
     "causes": [
       "Paralyzed",
@@ -17616,6 +18039,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "polearms",
     "stats.attack": 128,
     "causes": [
       "Burning",
@@ -17624,8 +18048,8 @@
       "Paralyzed",
       "Poisoned",
       "Def ↓",
-      "Rot",
-      "Res ↓"
+      "Res ↓",
+      "Rot"
     ],
     "dropped_by": [
       288,
@@ -17734,7 +18158,7 @@
     "other_effect": [
       "技能: Bastion II"
     ],
-    "description": "A shield made of harden monster bone."
+    "description": "A shield made of hardened monster bone."
   },
   {
     "id": 692,
@@ -17760,9 +18184,11 @@
     "dropped_by": [
       420,
       288,
+      528,
       362,
       430,
-      440
+      440,
+      527
     ],
     "image": "acc/gadget.png",
     "description": "One of the concoctions of Cade, the great inventor. This gadget prevents one from having their physical or magical defense lowered."
@@ -17778,6 +18204,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 70,
     "stats.magic": 70,
     "gives": [
@@ -17873,6 +18300,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "swords",
     "stats.attack": 210,
     "stats.resistance": 48,
     "stats.mana": 48,
@@ -18025,6 +18453,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 12,
     "stats.magic": 201,
     "dropped_by": [
@@ -18049,6 +18478,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 201,
     "dropped_by": [
       295
@@ -18072,6 +18502,7 @@
       "Mage"
     ],
     "element": "Water",
+    "category": "staffs",
     "stats.magic": 250,
     "stats.dexterity": 100,
     "causes": [
@@ -18081,7 +18512,6 @@
       220
     ],
     "materials": [
-      473,
       280
     ],
     "image": "weapons/ithra_staff.png",
@@ -18100,6 +18530,7 @@
       "Warrior"
     ],
     "element": "Earthen",
+    "category": "polearms",
     "stats.attack": 250,
     "stats.dexterity": 32,
     "stats.ward": 3,
@@ -18110,8 +18541,7 @@
       233
     ],
     "materials": [
-      256,
-      473
+      256
     ],
     "image": "weapons/demeter_halberd.png",
     "slots": 6,
@@ -18128,6 +18558,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 178,
     "stats.defense": 24,
     "stats.resistance": 24,
@@ -18244,6 +18675,7 @@
     "zh": "枯萎箭矢",
     "tier": 5,
     "type": "Off-hand",
+    "boss": 1,
     "arena": 1,
     "equipped_by": [
       "Mage",
@@ -18276,6 +18708,7 @@
       "Mage"
     ],
     "element": "Lightning",
+    "category": "greatbows",
     "stats.magic": 250,
     "causes": [
       "Paralyzed"
@@ -18284,8 +18717,7 @@
       221
     ],
     "materials": [
-      265,
-      473
+      265
     ],
     "image": "weapons/thor_bow.png",
     "slots": 6,
@@ -18303,6 +18735,7 @@
       "Mage"
     ],
     "element": "Fire",
+    "category": "archistaffs",
     "stats.magic": 250,
     "causes": [
       "Burning"
@@ -18311,8 +18744,7 @@
       232
     ],
     "materials": [
-      259,
-      473
+      259
     ],
     "image": "weapons/vulcan_staff.png",
     "slots": 6,
@@ -18409,9 +18841,11 @@
     "stats.magic": 48,
     "stats.mana": 180,
     "dropped_by": [
+      528,
       430,
       300,
-      421
+      421,
+      527
     ],
     "image": "acc/golden_crystal.png",
     "description": "A yellow crystal carried by Vulcan, the Red Knight. It increases magic power and mana when carried."
@@ -18423,11 +18857,12 @@
     "tier": 5,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
     "element": "Fire",
+    "category": "staffs",
     "stats.attack": 42,
     "stats.magic": 118,
     "stats.dexterity": 24,
@@ -18454,12 +18889,13 @@
     "tier": 5,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Thief",
       "Warrior"
     ],
     "element": "Fire",
+    "category": "polearms",
     "stats.attack": 118,
     "stats.magic": 42,
     "stats.dexterity": 12,
@@ -18494,9 +18930,11 @@
     "stats.resistance": 56,
     "stats.ward": 21,
     "dropped_by": [
+      528,
       430,
       300,
-      421
+      421,
+      527
     ],
     "materials": [
       259,
@@ -18518,9 +18956,11 @@
       "Warrior"
     ],
     "dropped_by": [
+      528,
       430,
       300,
-      421
+      421,
+      527
     ],
     "image": "useables/large_health_potion.png",
     "other_effect": [
@@ -18541,6 +18981,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 220,
     "stats.magic": 220,
     "dropped_by": [
@@ -18590,8 +19031,10 @@
       "Warrior"
     ],
     "dropped_by": [
+      528,
       362,
-      430
+      430,
+      527
     ],
     "image": "acc/sacrifice_ring.png",
     "other_effect": [
@@ -18708,6 +19151,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 218,
     "stats.dexterity": 78,
     "causes": [
@@ -18762,6 +19206,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 182,
     "causes": [
       "Bleeding"
@@ -18788,14 +19233,15 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 210,
     "stats.hp": 24,
     "stats.mana": 24,
     "gives": [
-      "T. Res ↑",
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
+      "T. Res ↑",
       "Fire Def",
       "Water Def",
       "Earth Def",
@@ -18827,6 +19273,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 118,
     "stats.dexterity": 24,
     "causes": [
@@ -18894,7 +19341,7 @@
     ],
     "image": "wards/scroll_purple.png",
     "rarity": "b",
-    "description": "A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects. to spells."
+    "description": "A scroll containing knowledge of a Witch's arts. It improves one's mana at the sacrifice of Ward, while adding a chance to inflict many status effects to spells."
   },
   {
     "id": 736,
@@ -18907,6 +19354,7 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "staffs",
     "stats.attack": 15,
     "stats.magic": 220,
     "dropped_by": [
@@ -18934,6 +19382,7 @@
       "Thief"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 216,
     "stats.magic": 66,
     "stats.dexterity": 15,
@@ -19191,7 +19640,7 @@
     "other_effect": [
       "技能: Volley"
     ],
-    "description": "A quiver of arrows that are charged with the power of the earth below. Carrying these arrows in your off-hand gives the chance to cause an opponent to rot, at the expense of Ward."
+    "description": "A quiver of arrows that charged with the power of the earth below. Carrying these arrows in your off-hand gives the chance cause an opponent to rot, at the expense of Ward."
   },
   {
     "id": 752,
@@ -19290,7 +19739,7 @@
     "image": "armor/royal_hood.png",
     "slots": 6,
     "rarity": "g",
-    "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer"
+    "description": "One of the notoriously recognizable hoods of Merlin, the famed Avalon sorcerer."
   },
   {
     "id": 756,
@@ -19384,6 +19833,9 @@
       413,
       312
     ],
+    "materials": [
+      268
+    ],
     "image": "wards/avalon_shield.png",
     "description": "A relic of Merlin's eccentric collection."
   },
@@ -19446,6 +19898,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 193,
     "stats.hp": 60,
     "stats.mana": 76,
@@ -19497,6 +19950,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 172,
     "stats.magic": 172,
     "gives": [
@@ -19529,6 +19983,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 218,
     "stats.hp": 72,
     "stats.mana": 88,
@@ -19558,6 +20013,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 168,
     "stats.hp": 48,
     "stats.mana": 64,
@@ -19586,6 +20042,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 143,
     "stats.hp": 36,
     "stats.mana": 52,
@@ -19882,6 +20339,9 @@
       413,
       312
     ],
+    "materials": [
+      268
+    ],
     "image": "wards/avalon_shield.png",
     "description": "A relic of Merlin's eccentric collection."
   },
@@ -19929,6 +20389,9 @@
       413,
       312
     ],
+    "materials": [
+      268
+    ],
     "image": "wards/scroll_purple.png",
     "description": "A scroll containing knowledge of a Merlin's lost arts. It improves one's mana at the sacrifice of Ward, while adding a chance to lower an opponent's attack power to spells."
   },
@@ -19942,6 +20405,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 120,
     "stats.magic": 44,
     "stats.defense": 44,
@@ -19950,7 +20414,9 @@
     "stats.ward": 2,
     "stats.mana": 44,
     "dropped_by": [
+      528,
       312,
+      527,
       439
     ],
     "materials": [
@@ -19971,6 +20437,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 118,
     "stats.hp": 24,
     "stats.mana": 40,
@@ -20007,6 +20474,9 @@
     "dropped_by": [
       312
     ],
+    "materials": [
+      268
+    ],
     "image": "wards/avalon_shield.png",
     "description": "A relic of Merlin's eccentric collection."
   },
@@ -20030,6 +20500,10 @@
       312,
       439
     ],
+    "materials": [
+      266,
+      268
+    ],
     "image": "wards/rune_dagger.png",
     "other_effect": [
       "技能: Parry"
@@ -20052,6 +20526,10 @@
     "stats.hp": 124,
     "dropped_by": [
       312
+    ],
+    "materials": [
+      513,
+      268
     ],
     "image": "wards/avalon_shield.png",
     "rarity": "b",
@@ -20166,6 +20644,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 19,
     "materials": [
       283
@@ -20183,6 +20662,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 290,
     "stats.ward": 35,
     "causes": [
@@ -20215,6 +20695,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 242,
     "dropped_by": [
       321
@@ -20237,6 +20718,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 244,
     "dropped_by": [
       328
@@ -20289,6 +20771,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 244,
     "dropped_by": [
       327
@@ -20309,6 +20792,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 272,
     "stats.dexterity": 65,
     "dropped_by": [
@@ -20337,7 +20821,7 @@
       320
     ],
     "materials": [
-      473
+      277
     ],
     "image": "armor/ortanite_helm.png",
     "slots": 4,
@@ -20495,7 +20979,8 @@
       320
     ],
     "materials": [
-      473
+      473,
+      277
     ],
     "image": "armor/ortanite_armor.png",
     "slots": 4,
@@ -20590,7 +21075,9 @@
       324
     ],
     "materials": [
-      473
+      256,
+      473,
+      275
     ],
     "image": "armor/gaia_robe.png",
     "slots": 5,
@@ -20677,7 +21164,7 @@
       320
     ],
     "materials": [
-      473
+      277
     ],
     "image": "armor/ortanite_leggings.png",
     "slots": 4,
@@ -20784,6 +21271,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "polearms",
     "stats.attack": 272,
     "stats.dexterity": 95,
     "stats.crit": 4,
@@ -20814,6 +21302,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 275,
     "stats.magic": 275,
     "gives": [
@@ -20853,8 +21342,7 @@
       336
     ],
     "materials": [
-      795,
-      473
+      795
     ],
     "quests": [
       {
@@ -20877,6 +21365,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.attack": 49,
     "stats.magic": 272,
     "causes": [
@@ -20893,7 +21382,7 @@
     "image": "weapons/dynasty.png",
     "slots": 6,
     "rarity": "g",
-    "description": "An ancient, strange weapon of unknown origin. It is carried by Anubis, the jackal, and can cause an opponent to bleed simply by casting a spell."
+    "description": "An ancient, strange weapon of ages. It is carried by Anubis, the Jackal, and can cause an opponent to bleed simply by casting a spell."
   },
   {
     "id": 822,
@@ -20904,6 +21393,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 245,
     "stats.defense": -40,
     "stats.dexterity": 22,
@@ -21000,6 +21490,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 272,
     "stats.mana": 160,
     "dropped_by": [
@@ -21027,6 +21518,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 272,
     "stats.mana": 160,
     "dropped_by": [
@@ -21067,7 +21559,7 @@
       "經驗加成: 1.75"
     ],
     "rarity": "b",
-    "description": "A tome recounting the cursed stories of Fanir. Increases experience earned at the expense of the potential."
+    "description": "A tome recounting the cursed stories of Fafnir. Increases experience earned at the expense of your potential."
   },
   {
     "id": 829,
@@ -21117,8 +21609,7 @@
     ],
     "materials": [
       259,
-      262,
-      473
+      262
     ],
     "image": "armor/ifrit_feet.png",
     "slots": 5,
@@ -21145,7 +21636,9 @@
       332
     ],
     "materials": [
-      473
+      266,
+      473,
+      280
     ],
     "image": "armor/leviathan_mail.png",
     "slots": 5,
@@ -21173,6 +21666,8 @@
       333
     ],
     "materials": [
+      262,
+      265,
       473
     ],
     "image": "armor/taranis_hood.png",
@@ -21189,6 +21684,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 272,
     "stats.mana": 232,
     "dropped_by": [
@@ -21214,6 +21710,7 @@
       "Warrior"
     ],
     "element": "Earthen",
+    "category": "swords",
     "stats.attack": 190,
     "stats.magic": -60,
     "stats.mana": -60,
@@ -21243,6 +21740,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 290,
     "stats.hp": 24,
     "stats.mana": 24,
@@ -21288,9 +21786,11 @@
     "stats.dexterity": 72,
     "stats.mana": 220,
     "dropped_by": [
+      528,
       362,
       430,
       337,
+      527,
       422
     ],
     "image": "acc/fairy_ring.png",
@@ -21316,9 +21816,11 @@
       "Blight"
     ],
     "dropped_by": [
+      528,
       362,
       430,
-      337
+      337,
+      527
     ],
     "materials": [
       262,
@@ -21419,6 +21921,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 222,
     "stats.dexterity": 60,
     "stats.crit": 4,
@@ -21448,6 +21951,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 220,
     "stats.mana": 220,
     "dropped_by": [
@@ -21470,6 +21974,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 222,
     "stats.ward": 24,
     "dropped_by": [
@@ -21500,14 +22005,14 @@
       "Warrior"
     ],
     "gives": [
-      "Mag ↑",
       "Poisoned",
       "Toxic",
-      "Rot",
-      "Dex ↑",
       "Att ↑",
       "Def ↑",
       "Res ↑",
+      "Mag ↑",
+      "Rot",
+      "Dex ↑",
       "Crit ↑"
     ],
     "dropped_by": [
@@ -21675,12 +22180,15 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 370,
     "stats.ward": -50,
     "stats.mana": 333,
     "dropped_by": [
+      528,
       430,
-      342
+      342,
+      527
     ],
     "materials": [
       261,
@@ -21733,8 +22241,10 @@
       "Warrior"
     ],
     "dropped_by": [
+      528,
       430,
-      342
+      342,
+      527
     ],
     "image": "acc/bag_of_treats.png",
     "other_effect": [
@@ -21744,7 +22254,7 @@
       "經驗加成: 1.03"
     ],
     "rarity": "w",
-    "description": "A bag of treats of lore and luck.  Carrying it increases gold, orns, and experience earned.  You may also find more items."
+    "description": "A bag of treats of lore and luck. Carrying it increases gold, orns, and experience earned. You may also find more items."
   },
   {
     "id": 856,
@@ -21773,11 +22283,13 @@
       "Drenched"
     ],
     "dropped_by": [
+      528,
       430,
-      342
+      342,
+      527
     ],
     "image": "acc/bag_of_tricks.png",
-    "description": "A back of tricks of lore and luck.  Carrying it may add the chance for many status effects to your attacks and spells."
+    "description": "A bag of tricks of lore and luck. Carrying it may add the chance for many status effects to your attacks and spells."
   },
   {
     "id": 857,
@@ -21815,10 +22327,10 @@
     "stats.defense": 72,
     "stats.resistance": 72,
     "prevents": [
-      "Rot",
       "Burning",
       "Frozen",
-      "Paralyzed"
+      "Paralyzed",
+      "Rot"
     ],
     "cures": [
       "Burning",
@@ -21868,6 +22380,7 @@
       "Mage"
     ],
     "element": "Earthen",
+    "category": "staffs",
     "stats.magic": 295,
     "stats.mana": 326,
     "causes": [
@@ -21877,8 +22390,7 @@
       343
     ],
     "materials": [
-      256,
-      473
+      256
     ],
     "image": "weapons/demeter_staff.png",
     "slots": 6,
@@ -21896,6 +22408,7 @@
       "Mage"
     ],
     "element": "Water",
+    "category": "staffs",
     "stats.magic": 292,
     "stats.dexterity": 220,
     "causes": [
@@ -21905,13 +22418,12 @@
       349
     ],
     "materials": [
-      473,
       280
     ],
     "image": "weapons/ithra_staff.png",
     "slots": 6,
     "rarity": "p",
-    "description": "Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconin invasion."
+    "description": "Thin, cold staff of Ithra, the White Knight. Ithra established the Frozenguard to combat the Draconian invasion."
   },
   {
     "id": 862,
@@ -21924,6 +22436,7 @@
       "Mage"
     ],
     "element": "Lightning",
+    "category": "greatbows",
     "stats.magic": 290,
     "stats.resistance": 120,
     "causes": [
@@ -21933,13 +22446,12 @@
       350
     ],
     "materials": [
-      265,
-      473
+      265
     ],
     "image": "weapons/thor_bow.png",
     "slots": 6,
     "rarity": "p",
-    "description": "A masterfully crafted magic bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent."
+    "description": "A masterfully crafted magical bow of Thor. Thor founded the Stormforce shortly before succumbing to the power of the falling. His bow can easily paralyze an opponent."
   },
   {
     "id": 863,
@@ -21953,6 +22465,7 @@
       "Warrior"
     ],
     "element": "Fire",
+    "category": "swords",
     "stats.attack": 292,
     "stats.magic": 167,
     "stats.resistance": 167,
@@ -21963,11 +22476,11 @@
       351
     ],
     "materials": [
-      259,
-      473
+      259
     ],
     "image": "weapons/vulcan_sword.png",
-    "slots": 6
+    "slots": 6,
+    "description": "A seemingly flawless blade wielded by Vulcan, the Red Knight. Vulcan formed the Knights of Inferno to fight alongside the forces of Annwn. His blade can easily burn an opponent."
   },
   {
     "id": 864,
@@ -21980,6 +22493,7 @@
       "Mage"
     ],
     "element": "Fire",
+    "category": "staffs",
     "stats.magic": 290,
     "stats.mana": 80,
     "causes": [
@@ -21989,12 +22503,12 @@
       351
     ],
     "materials": [
-      259,
-      473
+      259
     ],
     "image": "weapons/vulcan_staff.png",
     "slots": 6,
-    "rarity": "p"
+    "rarity": "p",
+    "description": "An embered Archistaff seldom wielded by Vulcan, the Red Knight. Vulcan formed the Knights of Inferno to fight alongside the forces of Annwn. His staff can easily burn an opponent."
   },
   {
     "id": 865,
@@ -22007,6 +22521,7 @@
       "Warrior"
     ],
     "element": "Earthen",
+    "category": "polearms",
     "stats.attack": 295,
     "stats.dexterity": 32,
     "stats.ward": 5,
@@ -22017,8 +22532,7 @@
       343
     ],
     "materials": [
-      256,
-      473
+      256
     ],
     "image": "weapons/demeter_halberd.png",
     "slots": 5,
@@ -22036,6 +22550,7 @@
       "Thief"
     ],
     "element": "Water",
+    "category": "curved swords",
     "stats.attack": 290,
     "stats.magic": 85,
     "stats.dexterity": 215,
@@ -22047,7 +22562,6 @@
       349
     ],
     "materials": [
-      473,
       280
     ],
     "image": "weapons/ithra_katana.png",
@@ -22066,6 +22580,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "axes & hammers",
     "stats.attack": 290,
     "stats.hp": 92,
     "causes": [
@@ -22075,8 +22590,7 @@
       350
     ],
     "materials": [
-      265,
-      473
+      265
     ],
     "image": "weapons/thor_hammer.png",
     "slots": 6,
@@ -22086,7 +22600,7 @@
   {
     "id": 868,
     "name": "Mirror",
-    "zh": "鏡像",
+    "zh": "魔鏡",
     "tier": 5,
     "type": "Off-hand",
     "arena": 1,
@@ -22262,7 +22776,6 @@
       "T. Mag ↓↓"
     ],
     "materials": [
-      473,
       708
     ],
     "image": "armor/nothren_crown.png",
@@ -22285,8 +22798,10 @@
     "dropped_by": [
       420,
       344,
+      528,
       362,
-      430
+      430,
+      527
     ],
     "image": "acc/warrior_ring.png",
     "rarity": "w",
@@ -22302,6 +22817,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 130,
     "stats.hp": 25,
     "stats.mana": 25,
@@ -22339,6 +22855,9 @@
     "dropped_by": [
       344
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_boots.png",
     "slots": 6,
     "description": "Boots of a royal Ljosalfar warrior."
@@ -22359,6 +22878,9 @@
     "stats.hp": 22,
     "dropped_by": [
       344
+    ],
+    "materials": [
+      325
     ],
     "image": "armor/dawn_armor.png",
     "slots": 6,
@@ -22391,8 +22913,10 @@
     "dropped_by": [
       420,
       344,
+      528,
       362,
-      430
+      430,
+      527
     ],
     "image": "acc/warrior_ring.png",
     "rarity": "w",
@@ -22415,6 +22939,9 @@
     "dropped_by": [
       344
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_hood.png",
     "slots": 6,
     "description": "Hood of a royal Ljosalfar mage."
@@ -22429,6 +22956,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 130,
     "stats.magic": 20,
     "stats.dexterity": 60,
@@ -22458,6 +22986,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 130,
     "stats.mana": 50,
     "prevents": [
@@ -22491,6 +23020,9 @@
     "dropped_by": [
       344
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_armor.png",
     "description": "Light armor of a royal Ljosalfar warrior."
   },
@@ -22510,6 +23042,9 @@
     "dropped_by": [
       344
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_helm.png",
     "slots": 6,
     "description": "Helmet of a royal Ljosalfar warrior."
@@ -22524,6 +23059,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 199,
     "stats.hp": 25,
     "stats.mana": 25,
@@ -22551,6 +23087,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 199,
     "stats.magic": 20,
     "stats.dexterity": 60,
@@ -22579,6 +23116,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 199,
     "stats.mana": 50,
     "prevents": [
@@ -22616,6 +23154,9 @@
     "dropped_by": [
       345
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_hood.png",
     "slots": 6,
     "description": "Cowl of a royal Dokkalfar assassin. It grants one immunity from blindness and falling asleep in battle."
@@ -22641,6 +23182,9 @@
     "dropped_by": [
       345
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_hood.png",
     "slots": 6,
     "description": "Hood of a royal Dokkalfar mage. It grants one immunity from blindness and falling asleep in battle."
@@ -22664,6 +23208,9 @@
     ],
     "dropped_by": [
       345
+    ],
+    "materials": [
+      325
     ],
     "image": "armor/dawn_helm.png",
     "slots": 6,
@@ -22690,6 +23237,9 @@
     "dropped_by": [
       345
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_robe.png",
     "slots": 6,
     "description": "Robe of a royal Dokkalfar mage. It grants one immunity from blindness and falling asleep in battle."
@@ -22714,6 +23264,9 @@
     "dropped_by": [
       345
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_armor.png",
     "slots": 6,
     "description": "Armor of a royal Dokkalfar warrior. They grant one immunity from blindness and falling asleep in battle."
@@ -22737,6 +23290,9 @@
     ],
     "dropped_by": [
       345
+    ],
+    "materials": [
+      325
     ],
     "image": "armor/dawn_armor.png",
     "slots": 6,
@@ -22765,6 +23321,9 @@
     "dropped_by": [
       345
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_boots.png",
     "slots": 6,
     "description": "Boots of a royal Dokkalfar warrior. They grant one immunity from blindness and falling asleep in battle."
@@ -22784,9 +23343,11 @@
     "stats.mana": 180,
     "dropped_by": [
       347,
+      528,
       362,
       430,
-      345
+      345,
+      527
     ],
     "image": "acc/cursed_ring.png",
     "description": "Ring of the Queen of Darkness. It provides extra mana to help get through the night."
@@ -22813,9 +23374,11 @@
     ],
     "dropped_by": [
       347,
+      528,
       362,
       430,
-      345
+      345,
+      527
     ],
     "image": "acc/cursed_ring.png",
     "description": "Ring of the Queen of Darkness. It can protect one from having their physical or magical prowess decreased."
@@ -22836,6 +23399,9 @@
     "stats.mana": 22,
     "dropped_by": [
       344
+    ],
+    "materials": [
+      325
     ],
     "image": "armor/dawn_hood.png",
     "slots": 6,
@@ -22858,6 +23424,9 @@
     "dropped_by": [
       344
     ],
+    "materials": [
+      325
+    ],
     "image": "armor/dawn_robe.png",
     "slots": 6,
     "description": "Robe of a royal Ljosalfar mage."
@@ -22872,6 +23441,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 222,
     "stats.magic": 55,
     "causes": [
@@ -22935,9 +23505,11 @@
     "stats.mana": 30,
     "dropped_by": [
       347,
+      528,
       362,
       430,
-      348
+      348,
+      527
     ],
     "materials": [
       262,
@@ -22962,7 +23534,9 @@
     ],
     "dropped_by": [
       347,
-      348
+      528,
+      348,
+      527
     ],
     "image": "acc/presents.png",
     "other_effect": [
@@ -22985,6 +23559,7 @@
     "stats.hp": 90,
     "stats.mana": 45,
     "dropped_by": [
+      347,
       348
     ],
     "image": "acc/fancy_belt.png",
@@ -22996,7 +23571,7 @@
     "zh": "持久的燈籠",
     "tier": 5,
     "type": "Accessory",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -23073,6 +23648,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 132,
     "stats.dexterity": 99,
     "causes": [
@@ -23102,6 +23678,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 132,
     "stats.dexterity": 45,
     "stats.mana": 45,
@@ -23111,9 +23688,11 @@
     ],
     "dropped_by": [
       347,
+      528,
       362,
       430,
-      348
+      348,
+      527
     ],
     "materials": [
       273,
@@ -23141,6 +23720,7 @@
       "Crit ↑"
     ],
     "dropped_by": [
+      347,
       348
     ],
     "image": "useables/energy_potion.png",
@@ -23156,6 +23736,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 132,
     "stats.dexterity": 45,
     "stats.mana": 45,
@@ -23188,6 +23769,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 122,
     "stats.magic": 122,
     "stats.dexterity": 70,
@@ -23197,9 +23779,11 @@
     ],
     "dropped_by": [
       347,
+      528,
       362,
       430,
-      348
+      348,
+      527
     ],
     "materials": [
       273,
@@ -23217,24 +23801,30 @@
     "tier": 5,
     "type": "Off-hand",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
       "Warrior"
     ],
     "stats.ward": 3,
-    "causes": [
-      "T. Res ↑",
+    "gives": [
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
+      "T. Res ↑",
       "T. Crit ↑"
     ],
     "dropped_by": [
       347,
+      528,
       430,
-      348
+      348,
+      527
+    ],
+    "materials": [
+      273,
+      275
     ],
     "image": "useables/canon_waystone.png",
     "other_effect": [
@@ -23249,19 +23839,19 @@
     "tier": 9,
     "type": "Off-hand",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
       "Warrior"
     ],
     "stats.ward": 12,
-    "causes": [
-      "T. Crit ↑",
+    "gives": [
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
-      "T. Res ↑"
+      "T. Res ↑",
+      "T. Crit ↑"
     ],
     "dropped_by": [
       348
@@ -23287,6 +23877,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 231,
     "stats.dexterity": 198,
     "causes": [
@@ -23315,6 +23906,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 231,
     "stats.dexterity": 48,
     "stats.mana": 144,
@@ -23332,7 +23924,7 @@
     ],
     "image": "weapons/sleighblade.png",
     "slots": 6,
-    "description": "A glistening sword carried by followers of Scruug. It is quite chilling to the touch"
+    "description": "A glistening sword carried by followers of Scruug. It is quite chilling to the touch."
   },
   {
     "id": 916,
@@ -23346,6 +23938,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 221,
     "stats.magic": 221,
     "stats.dexterity": 92,
@@ -23375,6 +23968,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 231,
     "stats.dexterity": 74,
     "stats.mana": 74,
@@ -23392,7 +23986,7 @@
     ],
     "image": "weapons/candy_cane.png",
     "slots": 6,
-    "description": "A vibrant cane carried by followers of Scruug.  Some say it is even pleasing to the taste."
+    "description": "A vibrant cane carried by followers of Scruug. Some say it is even pleasing to the taste."
   },
   {
     "id": 918,
@@ -23403,6 +23997,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 238,
     "stats.defense": 10,
     "stats.ward": 29,
@@ -23478,10 +24073,7 @@
       "Warrior"
     ],
     "dropped_by": [
-      33,
-      176,
-      247,
-      304
+      33
     ],
     "image": "jewels/33.png",
     "other_effect": [
@@ -23678,15 +24270,11 @@
       "T. Def ↓↓"
     ],
     "dropped_by": [
-      33,
-      176,
-      247,
-      386,
-      304
+      33
     ],
     "image": "jewels/26.png",
     "rarity": "b",
-    "description": "An adornment of assassins. When Adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses."
+    "description": "An adornment of assassins. When adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses."
   },
   {
     "id": 931,
@@ -23809,7 +24397,7 @@
       "技能: Bastion III"
     ],
     "rarity": "g",
-    "description": "A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being cursed."
+    "description": "A heavy shield carried by knights of Mammon, the demon of hubris. It grants one immunity to being Cursed."
   },
   {
     "id": 936,
@@ -23821,6 +24409,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 302,
     "stats.mana": 220,
     "dropped_by": [
@@ -23977,7 +24566,7 @@
     "image": "armor/fallen_armor.png",
     "slots": 6,
     "rarity": "b",
-    "description": "Light armor worn by rogues of Mammon, the demon of hubris"
+    "description": "Light armor worn by rogues of Mammon, the demon of hubris."
   },
   {
     "id": 943,
@@ -23989,6 +24578,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 302,
     "stats.ward": 28,
     "dropped_by": [
@@ -24075,6 +24665,7 @@
     ],
     "stats.defense": 105,
     "stats.resistance": 192,
+    "stats.hp": 400,
     "prevents": [
       "Blind"
     ],
@@ -24175,6 +24766,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 216,
     "stats.dexterity": 10,
     "stats.crit": 2,
@@ -24270,7 +24862,7 @@
     ],
     "image": "jewels/31.png",
     "rarity": "g",
-    "description": "A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponent's attack and magical powers."
+    "description": "A relic of Mammon capable of granting a piece of equipment additional power while occasionally lowering an opponent's attack or magical power."
   },
   {
     "id": 956,
@@ -24406,6 +24998,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 72,
     "stats.magic": 72,
     "gives": [
@@ -24413,7 +25006,8 @@
       "T. Res ↑↑"
     ],
     "dropped_by": [
-      356
+      356,
+      427
     ],
     "materials": [
       259,
@@ -24462,8 +25056,8 @@
     "stats.defense": 112,
     "stats.resistance": 211,
     "dropped_by": [
-      356,
-      427
+      427,
+      497
     ],
     "materials": [
       259,
@@ -24487,8 +25081,8 @@
     "stats.defense": 211,
     "stats.resistance": 112,
     "dropped_by": [
-      356,
-      427
+      427,
+      501
     ],
     "materials": [
       259,
@@ -24512,6 +25106,7 @@
     "stats.defense": 14,
     "stats.resistance": 113,
     "dropped_by": [
+      499,
       356,
       427
     ],
@@ -24589,6 +25184,7 @@
     "stats.resistance": 14,
     "stats.dexterity": 18,
     "dropped_by": [
+      500,
       356,
       427
     ],
@@ -24614,6 +25210,7 @@
     "stats.defense": 113,
     "stats.resistance": 14,
     "dropped_by": [
+      500,
       356,
       427
     ],
@@ -24640,8 +25237,8 @@
     "stats.resistance": 112,
     "stats.dexterity": 36,
     "dropped_by": [
-      356,
-      427
+      427,
+      501
     ],
     "materials": [
       259,
@@ -24690,6 +25287,7 @@
     "stats.defense": 14,
     "stats.resistance": 113,
     "dropped_by": [
+      499,
       356,
       427
     ],
@@ -24715,8 +25313,8 @@
     "stats.defense": 112,
     "stats.resistance": 211,
     "dropped_by": [
-      356,
-      427
+      427,
+      497
     ],
     "materials": [
       259,
@@ -24741,6 +25339,7 @@
     "stats.resistance": 14,
     "stats.dexterity": 18,
     "dropped_by": [
+      500,
       356,
       427
     ],
@@ -24766,6 +25365,7 @@
     "stats.defense": 113,
     "stats.resistance": 14,
     "dropped_by": [
+      500,
       356,
       427
     ],
@@ -24791,8 +25391,8 @@
     "stats.defense": 211,
     "stats.resistance": 112,
     "dropped_by": [
-      356,
-      427
+      427,
+      501
     ],
     "materials": [
       259,
@@ -24844,7 +25444,6 @@
     "element": "Arcane",
     "stats.ward": 31,
     "dropped_by": [
-      356,
       427
     ],
     "materials": [
@@ -24924,6 +25523,7 @@
     "stats.resistance": 113,
     "stats.mana": 12,
     "dropped_by": [
+      499,
       356,
       427
     ],
@@ -24977,6 +25577,7 @@
     "stats.resistance": 14,
     "stats.dexterity": 18,
     "dropped_by": [
+      500,
       356,
       427
     ],
@@ -25003,8 +25604,8 @@
     "stats.resistance": 211,
     "stats.mana": 60,
     "dropped_by": [
-      356,
-      427
+      427,
+      497
     ],
     "materials": [
       259,
@@ -25029,8 +25630,8 @@
     "stats.resistance": 112,
     "stats.dexterity": 36,
     "dropped_by": [
-      356,
-      427
+      427,
+      501
     ],
     "materials": [
       259,
@@ -25054,8 +25655,8 @@
     "stats.defense": 211,
     "stats.resistance": 112,
     "dropped_by": [
-      356,
-      427
+      427,
+      501
     ],
     "materials": [
       259,
@@ -25079,6 +25680,7 @@
     "stats.defense": 113,
     "stats.resistance": 14,
     "dropped_by": [
+      500,
       356,
       427
     ],
@@ -25201,6 +25803,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 302,
     "stats.dexterity": 60,
     "stats.crit": 5,
@@ -25283,8 +25886,8 @@
     "stats.resistance": 112,
     "stats.dexterity": 36,
     "dropped_by": [
-      356,
-      427
+      427,
+      501
     ],
     "materials": [
       259,
@@ -25307,6 +25910,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 185,
     "stats.magic": 185,
     "gives": [
@@ -25314,7 +25918,7 @@
       "T. Res ↑↑"
     ],
     "dropped_by": [
-      356,
+      427,
       422
     ],
     "materials": [
@@ -25339,6 +25943,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 112,
     "stats.magic": 112,
     "gives": [
@@ -25346,9 +25951,12 @@
       "T. Res ↑↑"
     ],
     "dropped_by": [
+      528,
       362,
       430,
-      356
+      356,
+      427,
+      527
     ],
     "materials": [
       259,
@@ -25375,9 +25983,7 @@
       "Paralyzed"
     ],
     "dropped_by": [
-      33,
-      247,
-      304
+      33
     ],
     "image": "jewels/22.png",
     "rarity": "g",
@@ -25438,6 +26044,11 @@
       356,
       427
     ],
+    "materials": [
+      259,
+      294,
+      275
+    ],
     "image": "armor/phoenix_robe.png",
     "slots": 9,
     "description": "Robe of a worshipper of the mighty Phoenix."
@@ -25488,9 +26099,7 @@
       "Burning"
     ],
     "dropped_by": [
-      33,
-      247,
-      304
+      33
     ],
     "image": "jewels/21.png",
     "rarity": "g",
@@ -25512,9 +26121,7 @@
       "Frozen"
     ],
     "dropped_by": [
-      33,
-      247,
-      304
+      33
     ],
     "image": "jewels/30.png",
     "rarity": "g",
@@ -25614,9 +26221,7 @@
       "Rot"
     ],
     "dropped_by": [
-      33,
-      247,
-      304
+      33
     ],
     "image": "jewels/23.png",
     "rarity": "g",
@@ -25729,6 +26334,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 205,
     "stats.magic": 35,
     "stats.defense": -10,
@@ -25750,6 +26356,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 205,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -25770,6 +26377,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 205,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -25958,17 +26566,17 @@
       1040,
       1044,
       1028,
-      1037,
       1029,
       1033,
       1024,
       1034,
+      1030,
       1032,
-      1031,
-      1039
+      1031
     ],
     "image": "materials/cursed_ortanite.png",
-    "rarity": "g"
+    "rarity": "g",
+    "description": "A mangled piece of Ortanite imbued with the plagued magic of Morrigan, the great witch."
   },
   {
     "id": 1026,
@@ -26004,6 +26612,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 310,
     "stats.dexterity": 32,
     "causes": [
@@ -26033,6 +26642,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 310,
     "stats.hp": 32,
     "stats.mana": 32,
@@ -26063,6 +26673,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 310,
     "stats.hp": 32,
     "stats.mana": 32,
@@ -26098,6 +26709,9 @@
     "stats.dexterity": 48,
     "dropped_by": [
       358
+    ],
+    "materials": [
+      1025
     ],
     "image": "armor/cursed_boots.png",
     "slots": 7,
@@ -26269,7 +26883,6 @@
       358
     ],
     "materials": [
-      1025,
       267
     ],
     "image": "wards/scroll_yellow.png",
@@ -26320,10 +26933,6 @@
     "stats.crit": 1,
     "dropped_by": [
       358
-    ],
-    "materials": [
-      1025,
-      599
     ],
     "image": "wards/katar.png",
     "slots": 6,
@@ -26391,6 +27000,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 335,
     "stats.magic": 96,
     "stats.ward": -1,
@@ -26527,6 +27137,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 342,
     "stats.dexterity": 96,
     "stats.crit": 2,
@@ -26584,6 +27195,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 342,
     "stats.ward": -1,
     "stats.hp": -250,
@@ -26677,7 +27289,8 @@
       "Blight"
     ],
     "dropped_by": [
-      273
+      273,
+      337
     ],
     "materials": [
       346,
@@ -26694,7 +27307,6 @@
     "zh": "仙女的卷軸",
     "tier": 7,
     "type": "Off-hand",
-    "boss": 1,
     "equipped_by": [
       "Mage"
     ],
@@ -26702,7 +27314,8 @@
     "stats.ward": -22,
     "stats.mana": 182,
     "dropped_by": [
-      273
+      273,
+      337
     ],
     "materials": [
       346,
@@ -26723,6 +27336,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 272,
     "stats.magic": 272,
     "stats.dexterity": 32,
@@ -26746,7 +27360,7 @@
     ],
     "slots": 7,
     "rarity": "p",
-    "description": "Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
+    "description": "Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
     "id": 1055,
@@ -26760,6 +27374,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 322,
     "stats.magic": 322,
     "stats.dexterity": 32,
@@ -26906,7 +27521,6 @@
     "stats.defense": -175,
     "stats.resistance": 202,
     "dropped_by": [
-      361,
       359,
       360
     ],
@@ -27005,7 +27619,7 @@
     ],
     "image": "armor/coral_helmet.png",
     "slots": 4,
-    "description": "Headwear of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defense."
+    "description": "Headwear of coral, fetched from the high seas. It boasts great resistance at the sacrifice of physical defenses."
   },
   {
     "id": 1065,
@@ -27068,7 +27682,6 @@
     "stats.crit": 2,
     "stats.mana": 32,
     "dropped_by": [
-      277,
       421
     ],
     "image": "jewels/34.png",
@@ -27127,6 +27740,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 130,
     "stats.crit": 1,
     "dropped_by": [
@@ -27230,7 +27844,7 @@
     ],
     "image": "acc/sacrifice_ring.png",
     "rarity": "b",
-    "description": "A ring crafted for certain slender fingers. It grants protection for the darkness, one cannot fall asleep or become cursed while wearing it."
+    "description": "A ring crafted for certain slender fingers. It grants protection from the darkness, one cannot fall asleep or become cursed while wearing it."
   },
   {
     "id": 1076,
@@ -27245,10 +27859,10 @@
       "Warrior"
     ],
     "prevents": [
-      "Rot",
-      "Toxic",
       "Poisoned",
-      "Blight"
+      "Blight",
+      "Toxic",
+      "Rot"
     ],
     "dropped_by": [
       375
@@ -27319,11 +27933,7 @@
       "T. Res ↓↓"
     ],
     "dropped_by": [
-      33,
-      176,
-      247,
-      386,
-      304
+      33
     ],
     "image": "jewels/27.png",
     "rarity": "b",
@@ -27339,6 +27949,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 162,
     "gives": [
       "Fire Def",
@@ -27367,6 +27978,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 260,
     "stats.magic": 20,
     "stats.dexterity": 60,
@@ -27415,10 +28027,10 @@
       "Warrior"
     ],
     "prevents": [
-      "Rot",
       "Burning",
       "Frozen",
-      "Paralyzed"
+      "Paralyzed",
+      "Rot"
     ],
     "dropped_by": [
       222
@@ -27483,6 +28095,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 22,
     "stats.hp": 12,
     "dropped_by": [
@@ -27511,7 +28124,7 @@
     ],
     "image": "jewels/47.png",
     "rarity": "g",
-    "description": "A feather of a Zu. It can grant a piece of armor additional dexterity when adorned upon it."
+    "description": "The feather of a Zu. It can grant a piece of armor additional dexterity when adorned upon it."
   },
   {
     "id": 1088,
@@ -27560,6 +28173,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 86,
     "causes": [
       "Res ↓"
@@ -27583,6 +28197,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 12,
     "causes": [
       "Burning",
@@ -27628,6 +28243,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 68,
     "stats.mana": 28,
     "dropped_by": [
@@ -27638,7 +28254,7 @@
     ],
     "image": "weapons/dark_staff.png",
     "slots": 4,
-    "description": "A staff of a draugr. Grants additional mana."
+    "description": "The staff of a draugr. It grants additional mana."
   },
   {
     "id": 1094,
@@ -27651,6 +28267,7 @@
       "Mage"
     ],
     "element": "Dark",
+    "category": "archistaffs",
     "stats.magic": 280,
     "stats.mana": 50,
     "prevents": [
@@ -27678,6 +28295,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 242,
     "gives": [
       "Fire Def",
@@ -27694,7 +28312,7 @@
     "image": "weapons/hydra_staff.png",
     "slots": 6,
     "rarity": "b",
-    "description": "Archistaff forged of the remains of a great hydra. It can provide many elemental resistances."
+    "description": "Archistaff forged of the remains of a great Hydra. It can provide one with various elemental resistances."
   },
   {
     "id": 1096,
@@ -27705,6 +28323,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 28,
     "stats.defense": -5,
     "stats.ward": 2,
@@ -27728,6 +28347,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 260,
     "stats.mana": 50,
     "dropped_by": [
@@ -27739,7 +28359,7 @@
     "image": "weapons/dawn_staff.png",
     "slots": 6,
     "rarity": "g",
-    "description": "A powerful archistaff of unknown royalty. It grants one immunity from burning and blindness."
+    "description": "A powerful magical archistaff of unknown royalty. It grants one immunity from burning and blindness."
   },
   {
     "id": 1098,
@@ -27750,6 +28370,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "bows",
     "stats.magic": 18,
     "stats.dexterity": 6,
     "dropped_by": [
@@ -27967,7 +28588,7 @@
       "技能: Volley III"
     ],
     "rarity": "b",
-    "description": "A quiver of arrows that are imbued with unknown magic. They greatly increase ones's attack power at the sacrifice of Ward."
+    "description": "A quiver of arrows that are imbued with unknown magic. They greatly increase one's attack power at the sacrifice of Ward."
   },
   {
     "id": 1108,
@@ -27998,6 +28619,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 18,
     "stats.mana": 6,
     "materials": [
@@ -28077,6 +28699,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 11,
     "stats.magic": 11,
     "causes": [
@@ -28132,6 +28755,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 260,
     "stats.hp": 25,
     "stats.mana": 25,
@@ -28175,6 +28799,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "axes & hammers",
     "stats.attack": 235,
     "stats.magic": 172,
     "causes": [
@@ -28200,6 +28825,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 13,
     "materials": [
       283
@@ -28235,6 +28861,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 20,
     "stats.defense": -5,
     "stats.ward": 2,
@@ -28275,6 +28902,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 145,
     "stats.dexterity": 12,
     "stats.mana": 32,
@@ -28299,6 +28927,7 @@
       "Thief"
     ],
     "element": "Dark",
+    "category": "greatbows",
     "stats.attack": 280,
     "stats.magic": 20,
     "stats.dexterity": 60,
@@ -28329,6 +28958,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 280,
     "stats.hp": 25,
     "stats.mana": 25,
@@ -28357,6 +28987,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 25,
     "stats.mana": 10,
     "dropped_by": [
@@ -28377,6 +29008,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 165,
     "stats.dexterity": 45,
     "stats.crit": 2,
@@ -28400,6 +29032,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 14,
     "dropped_by": [
       1
@@ -28419,6 +29052,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 18,
     "materials": [
       263
@@ -28437,6 +29071,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 22,
     "stats.defense": 5,
     "dropped_by": [
@@ -28457,6 +29092,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 12,
     "stats.dexterity": 4,
     "causes": [
@@ -28480,6 +29116,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 68,
     "stats.hp": 40,
     "dropped_by": [
@@ -28524,6 +29161,7 @@
     "zh": "變異龍風帽",
     "tier": 7,
     "type": "Head",
+    "boss": 1,
     "equipped_by": [
       "Thief"
     ],
@@ -28552,6 +29190,7 @@
     "zh": "變異龍靴",
     "tier": 7,
     "type": "Legs",
+    "boss": 1,
     "equipped_by": [
       "Thief"
     ],
@@ -28609,6 +29248,7 @@
     "zh": "變異龍腿甲",
     "tier": 7,
     "type": "Legs",
+    "boss": 1,
     "equipped_by": [
       "Warrior"
     ],
@@ -28696,6 +29336,7 @@
     "zh": "變異龍鎖鏈甲",
     "tier": 7,
     "type": "Armor",
+    "boss": 1,
     "equipped_by": [
       "Warrior"
     ],
@@ -28724,6 +29365,7 @@
     "zh": "變異龍法靴",
     "tier": 7,
     "type": "Legs",
+    "boss": 1,
     "equipped_by": [
       "Mage"
     ],
@@ -28752,6 +29394,7 @@
     "zh": "變異龍袍",
     "tier": 7,
     "type": "Armor",
+    "boss": 1,
     "equipped_by": [
       "Mage"
     ],
@@ -28787,7 +29430,8 @@
     "dropped_by": [
       386,
       494,
-      404
+      404,
+      527
     ],
     "image": "useables/summoning_scroll.png",
     "rarity": "p",
@@ -29350,6 +29994,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 232,
     "gives": [
       "Dmg ↑"
@@ -29376,6 +30021,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 232,
     "gives": [
       "Dmg ↑"
@@ -29402,6 +30048,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 232,
     "stats.dexterity": 26,
     "gives": [
@@ -29534,7 +30181,7 @@
     ],
     "image": "jewels/47.png",
     "rarity": "g",
-    "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic power at the expense of magical resistance."
+    "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic power at the expense of magical resistance and mana."
   },
   {
     "id": 1170,
@@ -29580,7 +30227,7 @@
     ],
     "image": "jewels/48.png",
     "rarity": "g",
-    "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional attack power at the expense of physical defense."
+    "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional attack power at the expense of physical defense and mana."
   },
   {
     "id": 1172,
@@ -29602,7 +30249,7 @@
     ],
     "image": "jewels/50.png",
     "rarity": "g",
-    "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic resistance at the expense of magical power.."
+    "description": "A feather pulled from the remains of a cursed Cockatrice. It grants additional magic resistance at the expense of magical power."
   },
   {
     "id": 1173,
@@ -29756,6 +30403,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 286,
     "stats.magic": 286,
     "stats.crit": 4,
@@ -29789,6 +30437,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 217,
     "stats.hp": -70,
     "causes": [
@@ -29843,10 +30492,11 @@
     "tier": 6,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 148,
     "stats.dexterity": 24,
     "gives": [
@@ -29874,6 +30524,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 152,
     "stats.magic": 152,
     "gives": [
@@ -29902,6 +30553,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "polearms",
     "stats.attack": 200,
     "stats.hp": -70,
     "dropped_by": [
@@ -29928,6 +30580,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 244,
     "stats.hp": -70,
     "causes": [
@@ -29973,7 +30626,7 @@
     ],
     "image": "armor/royal_chestplate.png",
     "slots": 8,
-    "description": "Light armor of Surtr, the wanderer. It grants its wearer additional Ward and is well suited for adornments."
+    "description": "Light armor of Surtr, the wanderer. It grants its wearer additional Ward and is well suited for adornment."
   },
   {
     "id": 1186,
@@ -30028,7 +30681,7 @@
     ],
     "image": "armor/royal_helm.png",
     "slots": 8,
-    "description": "Helmet of Surtr, the wanderer. It grants its wearer additional HP and is well suited for adornments."
+    "description": "Helmet of Surtr, the wanderer. It grants its wearer additional HP and is well suited for adornment."
   },
   {
     "id": 1188,
@@ -30150,12 +30803,13 @@
     "tier": 10,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 244,
     "stats.magic": 244,
     "stats.dexterity": 56,
@@ -30178,7 +30832,7 @@
       "怪物: 2"
     ],
     "slots": 8,
-    "description": "The extremely bright, decorative sword of Surtr. It can easily blind an opponent and will draw more monsters toward you with its bright, everlasting light."
+    "description": "The extremely bright, decorative sword of Surtr. It can easily blind an opponent and will draw more monsters towards you with it's bright, everlasting light."
   },
   {
     "id": 1193,
@@ -30244,12 +30898,13 @@
     "tier": 5,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 122,
     "stats.magic": 122,
     "stats.dexterity": 36,
@@ -30260,7 +30915,9 @@
     ],
     "dropped_by": [
       411,
+      528,
       430,
+      527,
       412
     ],
     "materials": [
@@ -30282,6 +30939,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 119,
     "stats.dexterity": 30,
     "stats.crit": 1,
@@ -30308,6 +30966,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 292,
     "stats.hp": 92,
     "stats.mana": 160,
@@ -30386,6 +31045,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 270,
     "stats.magic": 270,
     "gives": [
@@ -30495,13 +31155,10 @@
     ],
     "dropped_by": [
       33,
-      176,
       347,
-      247,
-      386,
       348,
       404,
-      304
+      527
     ],
     "image": "useables/chaos_scroll.png",
     "rarity": "p",
@@ -30514,10 +31171,11 @@
     "tier": 10,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 260,
     "stats.resistance": 96,
     "dropped_by": [
@@ -30541,6 +31199,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "bows",
     "stats.attack": 222,
     "stats.magic": 96,
     "stats.dexterity": 48,
@@ -30556,7 +31215,8 @@
     ],
     "image": "weapons/silk_crossbow.png",
     "slots": 6,
-    "rarity": "g"
+    "rarity": "g",
+    "description": "A sturdy crossbow fastened with a thread of strong silk."
   },
   {
     "id": 1208,
@@ -30568,6 +31228,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 192,
     "stats.defense": 232,
     "stats.ward": 21,
@@ -30600,6 +31261,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "axes & hammers",
     "stats.attack": 270,
     "causes": [
       "Blight"
@@ -30612,7 +31274,7 @@
     ],
     "image": "weapons/axe_of_tiamat.png",
     "slots": 6,
-    "description": "A powerful axe forged from the remains of Tiamat, the great ancient dragon."
+    "description": "A powerful axe forged of the remains of Tiamat, the great ancient dragon."
   },
   {
     "id": 1210,
@@ -30625,6 +31287,7 @@
       "Mage"
     ],
     "element": "Dragon",
+    "category": "archistaffs",
     "stats.magic": 270,
     "stats.mana": 270,
     "causes": [
@@ -30651,6 +31314,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "greatbows",
     "stats.attack": 290,
     "stats.defense": -80,
     "stats.resistance": -80,
@@ -30682,6 +31346,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 205,
     "causes": [
       "Cursed"
@@ -30707,6 +31372,7 @@
       "Warrior"
     ],
     "element": "Dark",
+    "category": "swords",
     "stats.attack": 290,
     "stats.defense": -48,
     "stats.resistance": -48,
@@ -30736,6 +31402,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "greatbows",
     "stats.attack": 270,
     "stats.magic": 155,
     "stats.dexterity": 98,
@@ -30763,6 +31430,7 @@
       "Mage"
     ],
     "element": "Dragon",
+    "category": "archistaffs",
     "stats.magic": 290,
     "stats.defense": -40,
     "stats.resistance": -40,
@@ -30780,7 +31448,7 @@
     "image": "weapons/staff_of_typhon.png",
     "slots": 6,
     "rarity": "b",
-    "description": "A superb staff forged of the remains of Typhon, the great ancient dragon"
+    "description": "A superb staff forged of the remains of Typhon, the great ancient dragon."
   },
   {
     "id": 1216,
@@ -30793,6 +31461,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "axes & hammers",
     "stats.attack": 290,
     "stats.defense": -40,
     "stats.resistance": -40,
@@ -30816,7 +31485,7 @@
     "zh": "不滅火炬",
     "tier": 4,
     "type": "Off-hand",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -30850,6 +31519,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 121,
     "stats.crit": 1,
     "causes": [
@@ -30857,7 +31527,9 @@
     ],
     "dropped_by": [
       420,
-      430
+      528,
+      430,
+      527
     ],
     "materials": [
       266,
@@ -30998,7 +31670,7 @@
       "跟隨者行動: +5%"
     ],
     "slots": 6,
-    "description": "Exotic, heavy leg armor made of Chimera remains. Wearing this item increases the power of your follower."
+    "description": "Exotic, heavy leg armor made of Chimeric remains. Wearing this item increases the power of your follower."
   },
   {
     "id": 1224,
@@ -31146,7 +31818,7 @@
     "name": "Azure Carp",
     "zh": "蔚藍鯉魚",
     "tier": 1,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31161,21 +31833,21 @@
     "name": "Balor Muskellunge",
     "zh": "巴羅爾北美狗魚",
     "tier": 6,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
       "Warrior"
     ],
     "image": "materials/fish3.png",
-    "description": "A quite rare fish, seemingly ascended from the Underworld."
+    "description": "Quite a rare fish, seemingly ascended from the Underworld."
   },
   {
     "id": 1233,
     "name": "Crimson Snapper",
     "zh": "緋紅鯛魚",
     "tier": 3,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31189,7 +31861,7 @@
     "name": "Embered Snapper",
     "zh": "灰燼鯛魚",
     "tier": 5,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31203,7 +31875,7 @@
     "name": "Emerald Trout",
     "zh": "翡翠鱒魚",
     "tier": 2,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31218,7 +31890,7 @@
     "name": "Sea Bass",
     "zh": "鱸魚",
     "tier": 3,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31233,7 +31905,7 @@
     "name": "Unremarkable Fish",
     "zh": "平凡的魚",
     "tier": 1,
-    "type": "Other",
+    "type": "Fish",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31334,6 +32006,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 376,
     "stats.ward": -1,
     "stats.hp": -275,
@@ -31368,6 +32041,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 354,
     "stats.magic": 354,
     "stats.dexterity": 35,
@@ -31429,6 +32103,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 376,
     "stats.dexterity": 105,
     "stats.crit": 4,
@@ -31486,6 +32161,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 341,
     "stats.dexterity": 35,
     "causes": [
@@ -31592,6 +32268,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 341,
     "stats.hp": 35,
     "stats.mana": 35,
@@ -31698,6 +32375,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 368,
     "stats.magic": 115,
     "stats.ward": -1,
@@ -31781,6 +32459,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 341,
     "stats.hp": 35,
     "stats.mana": 35,
@@ -31813,6 +32492,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "instruments",
     "stats.attack": 299,
     "stats.magic": 299,
     "stats.dexterity": 35,
@@ -31837,7 +32517,7 @@
     ],
     "slots": 7,
     "rarity": "b",
-    "description": "Cursed lute player by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
+    "description": "Cursed lute played by the sisters of Morrigan. It can grant one additional defenses while having the adverse effect on an opponent."
   },
   {
     "id": 1260,
@@ -32082,6 +32762,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 182,
     "stats.dexterity": 32,
     "causes": [
@@ -32196,7 +32877,7 @@
     ],
     "image": "wards/katar.png",
     "slots": 6,
-    "description": "A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornments."
+    "description": "A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornment."
   },
   {
     "id": 1274,
@@ -32304,6 +32985,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 198,
     "stats.hp": 32,
     "stats.mana": 32,
@@ -32363,6 +33045,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 210,
     "stats.ward": -1,
     "stats.hp": -150,
@@ -32445,6 +33128,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 148,
     "stats.hp": 32,
     "stats.mana": 32,
@@ -32542,6 +33226,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 195,
     "stats.dexterity": 64,
     "stats.crit": 2,
@@ -32684,7 +33369,9 @@
       "Paralyzed"
     ],
     "dropped_by": [
+      507,
       275,
+      505,
       428
     ],
     "image": "jewels/13.png",
@@ -32738,7 +33425,9 @@
       "Rot"
     ],
     "dropped_by": [
+      509,
       275,
+      508,
       428
     ],
     "image": "jewels/14.png",
@@ -32764,7 +33453,9 @@
       "Frozen"
     ],
     "dropped_by": [
+      506,
       275,
+      511,
       428
     ],
     "image": "jewels/15.png",
@@ -32781,6 +33472,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 192,
     "stats.dexterity": 66,
     "stats.crit": 2,
@@ -32813,6 +33505,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 192,
     "stats.mana": 40,
     "dropped_by": [
@@ -32839,6 +33532,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 192,
     "stats.magic": 35,
     "stats.hp": 100,
@@ -32875,7 +33569,9 @@
       "Burning"
     ],
     "dropped_by": [
-      275
+      504,
+      275,
+      510
     ],
     "image": "jewels/11.png",
     "rarity": "g",
@@ -32891,6 +33587,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 272,
     "stats.dexterity": 88,
     "stats.crit": 2,
@@ -32922,6 +33619,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 262,
     "stats.ward": 3,
     "stats.mana": 40,
@@ -32948,6 +33646,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 262,
     "stats.hp": 440,
     "dropped_by": [
@@ -33154,6 +33853,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 220,
     "stats.crit": 2,
     "stats.ward": 3,
@@ -33201,7 +33901,8 @@
       276
     ],
     "image": "wards/whisper.png",
-    "rarity": "g"
+    "rarity": "g",
+    "description": "An off-hand dagger carried by the foul Naggeneen. It is encased in a deadly poison."
   },
   {
     "id": 1312,
@@ -33223,7 +33924,8 @@
       "Poisoned"
     ],
     "dropped_by": [
-      273
+      273,
+      337
     ],
     "materials": [
       266,
@@ -33243,6 +33945,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 170,
     "stats.dexterity": 32,
     "stats.ward": 2,
@@ -33278,7 +33981,8 @@
     "stats.resistance": 132,
     "stats.dexterity": 22,
     "dropped_by": [
-      273
+      273,
+      337
     ],
     "materials": [
       264,
@@ -33345,6 +34049,7 @@
       "Warrior"
     ],
     "element": "Fire",
+    "category": "axes & hammers",
     "stats.attack": 220,
     "stats.defense": 24,
     "stats.resistance": -24,
@@ -33493,8 +34198,11 @@
       "Mage"
     ],
     "element": "Fire",
+    "category": "archistaffs",
     "stats.attack": -24,
     "stats.magic": 220,
+    "stats.resistance": -24,
+    "stats.crit": 3,
     "stats.ward": 3,
     "stats.mana": 120,
     "causes": [
@@ -33603,8 +34311,7 @@
     "zh": "戰爭象徵",
     "tier": 9,
     "type": "Adornment",
-    "boss": 1,
-    "view_distance": 1,
+    "view_distance": 2,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -33629,6 +34336,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 280,
     "stats.dexterity": 50,
     "stats.crit": 11,
@@ -33667,6 +34375,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "axes & hammers",
     "stats.attack": 240,
     "stats.dexterity": -32,
     "stats.crit": 1,
@@ -33732,7 +34441,7 @@
       "跟隨者行動: -5%"
     ],
     "rarity": "p",
-    "description": "Amulet often carried by the Beowulf. Wearing this item greatly increases the power of your follower, may cause them to act less often."
+    "description": "Amulet often carried by the Beowulf. Wearing this item greatly increases the power of your follower,  may cause them to act less often."
   },
   {
     "id": 1336,
@@ -33773,6 +34482,7 @@
       "Mage"
     ],
     "element": "Water",
+    "category": "archistaffs",
     "stats.magic": 212,
     "stats.resistance": 20,
     "stats.dexterity": 20,
@@ -33788,7 +34498,7 @@
     ],
     "image": "weapons/tidal_staff.png",
     "slots": 6,
-    "description": "Azure staff of Castor, the Dioscuri magician. Castor and his twin brother seldomly leave the depths of the seas unless truly lacking other hobbies."
+    "description": "Azure staff of Castor, the Dioscuri magician. Castor and his twin brother seldomly leave the depths of the seas unless truly lacking in other hobbies."
   },
   {
     "id": 1338,
@@ -33803,6 +34513,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "greatbows",
     "stats.attack": 212,
     "stats.magic": 212,
     "stats.hp": 20,
@@ -33832,6 +34543,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "axes & hammers",
     "stats.attack": 226,
     "stats.defense": 60,
     "causes": [
@@ -33961,6 +34673,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 222,
     "stats.defense": 50,
     "stats.resistance": 50,
@@ -33991,6 +34704,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 278,
     "stats.dexterity": 64,
     "stats.ward": 4,
@@ -33998,12 +34712,13 @@
       "T. Def ↓"
     ],
     "dropped_by": [
+      528,
+      527,
       439
     ],
     "materials": [
       247,
-      513,
-      473
+      513
     ],
     "image": "weapons/shotel.png",
     "slots": 6,
@@ -34020,6 +34735,7 @@
       "Thief",
       "Warrior"
     ],
+    "category": "curved swords",
     "stats.attack": 290,
     "stats.crit": 3,
     "stats.ward": 4,
@@ -34032,12 +34748,13 @@
       "T. Res ↓"
     ],
     "dropped_by": [
+      528,
+      527,
       439
     ],
     "materials": [
       247,
-      513,
-      473
+      513
     ],
     "image": "weapons/katana.png",
     "slots": 6,
@@ -34141,7 +34858,6 @@
     "stats.defense": 90,
     "stats.resistance": 90,
     "prevents": [
-      "T. Def ↓↓↓",
       "Def ↓",
       "Def ↓↓",
       "T. Def ↓",
@@ -34149,7 +34865,8 @@
       "Res ↓↓",
       "Res ↓",
       "T. Def ↓↓",
-      "T. Res ↓↓"
+      "T. Res ↓↓",
+      "T. Def ↓↓↓"
     ],
     "dropped_by": [
       440
@@ -34176,9 +34893,9 @@
       "Mag ↓",
       "T. Att ↓",
       "T. Mag ↓",
-      "T. Dex ↓",
       "T. Att ↓↓",
-      "T. Mag ↓↓"
+      "T. Mag ↓↓",
+      "T. Dex ↓"
     ],
     "dropped_by": [
       440
@@ -34219,15 +34936,17 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 300,
     "stats.ward": 4,
     "dropped_by": [
+      528,
+      527,
       439
     ],
     "materials": [
       247,
-      513,
-      473
+      513
     ],
     "image": "weapons/great_sword.png",
     "slots": 12,
@@ -34277,6 +34996,7 @@
       "Warrior"
     ],
     "element": "Lightning",
+    "category": "polearms",
     "stats.attack": 222,
     "stats.magic": 222,
     "causes": [
@@ -34310,6 +35030,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "swords",
     "stats.magic": 300,
     "stats.dexterity": 72,
     "stats.ward": 4,
@@ -34318,12 +35039,13 @@
       "T. Res ↓↓"
     ],
     "dropped_by": [
+      528,
+      527,
       439
     ],
     "materials": [
       247,
-      513,
-      473
+      513
     ],
     "image": "weapons/epee.png",
     "slots": 10,
@@ -34354,6 +35076,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 325,
     "stats.ward": 23,
     "stats.mana": 160,
@@ -34433,6 +35156,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      85,
       445,
       491,
       442
@@ -34519,7 +35243,7 @@
     "id": 1368,
     "name": "Mandrake",
     "zh": "曼德拉草",
-    "tier": 1,
+    "tier": 2,
     "type": "Material",
     "equipped_by": [
       "Mage",
@@ -34571,6 +35295,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 240,
     "stats.ward": 19,
     "stats.mana": 160,
@@ -34639,7 +35364,7 @@
     "image": "armor/askr_boots.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Boot of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
+    "description": "Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
   },
   {
     "id": 1373,
@@ -34666,7 +35391,7 @@
     "image": "armor/askr_hood.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Cowl of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
+    "description": "Cowl of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
     "id": 1374,
@@ -34693,7 +35418,7 @@
     "image": "armor/askr_garb.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
+    "description": "Garb of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
   },
   {
     "id": 1375,
@@ -34719,7 +35444,7 @@
     "image": "armor/askr_leggings.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Heavy leggings of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
+    "description": "Heavy leggings of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
   },
   {
     "id": 1376,
@@ -34744,7 +35469,7 @@
     "image": "armor/askr_hood.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Hood of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
+    "description": "Hood of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
     "id": 1377,
@@ -34772,7 +35497,7 @@
     "image": "armor/askr_robe.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Robe of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
+    "description": "Robe of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
   },
   {
     "id": 1378,
@@ -34799,7 +35524,7 @@
     ],
     "image": "armor/askr_boots.png",
     "slots": 8,
-    "description": "Robe of Yggdrasil, the fallen symbol of life.  Wearing them will keep one from becoming stunned."
+    "description": "Robe of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
   },
   {
     "id": 1379,
@@ -34828,14 +35553,14 @@
     "image": "armor/askr_armor.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Heavy of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
+    "description": "Heavy armor of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
   },
   {
     "id": 1380,
     "name": "Arisen Askr Helmet",
     "zh": "重生阿斯克頭盔",
     "tier": 10,
-    "type": "Armor",
+    "type": "Head",
     "boss": 1,
     "equipped_by": [
       "Warrior"
@@ -34854,7 +35579,7 @@
     "image": "armor/askr_helm.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
+    "description": "Helmet of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
     "id": 1381,
@@ -34886,7 +35611,7 @@
       "技能: Volley III"
     ],
     "slots": 2,
-    "description": "Poison tipped arrows of Hel, the shadowed rogue. The quiver offers addition slots for adornment and may protect one via ward."
+    "description": "Poison tipped arrows of Hel, the shadowed rogue. The quiver offers additional slots for adornment and may protect one via Ward."
   },
   {
     "id": 1382,
@@ -34927,10 +35652,11 @@
     "tier": 5,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 132,
     "stats.magic": 80,
     "stats.dexterity": 40,
@@ -34960,10 +35686,11 @@
     "tier": 10,
     "type": "Weapon",
     "boss": 1,
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Thief"
     ],
+    "category": "greatbows",
     "stats.attack": 284,
     "stats.magic": 80,
     "stats.dexterity": 80,
@@ -34983,7 +35710,7 @@
     ],
     "image": "weapons/reinbow.png",
     "slots": 9,
-    "description": "The mighty bow of Hel. Its loosened arrows will light your path while exploring the world."
+    "description": "The mighty bow of Hel. Its loosed arrows will light your path while exploring the world."
   },
   {
     "id": 1385,
@@ -35012,7 +35739,7 @@
     ],
     "image": "armor/nothren_armor.png",
     "slots": 8,
-    "description": "Light armor of Hel, the shadowed rogue. It grants its weather addition dexterity and status immunities. Additionally, it is well suited for adornment."
+    "description": "Light armor of Hel, the shadowed rogue. It grants its wearer additional dexterity and status immunities. Additionally, it is well suited for adornment."
   },
   {
     "id": 1386,
@@ -35178,7 +35905,8 @@
       345
     ],
     "image": "armor/askr_boots.png",
-    "slots": 8
+    "slots": 8,
+    "description": "Shoes of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
   },
   {
     "id": 1392,
@@ -35201,7 +35929,7 @@
       345
     ],
     "image": "armor/askr_hood.png",
-    "description": "Hood of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
+    "description": "Hood of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
     "id": 1393,
@@ -35231,7 +35959,7 @@
     "image": "armor/askr_garb.png",
     "slots": 8,
     "rarity": "g",
-    "description": "Garb of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
+    "description": "Garb of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
   },
   {
     "id": 1394,
@@ -35256,7 +35984,7 @@
     ],
     "image": "armor/askr_helm.png",
     "slots": 8,
-    "description": "Helmet of Yggdrasil, the fallen symbol of life.  Wearing it may decrease the damage you may inflict upon yourself."
+    "description": "Helmet of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
   },
   {
     "id": 1395,
@@ -35270,6 +35998,10 @@
     ],
     "stats.attack": -100,
     "stats.magic": 50,
+    "dropped_by": [
+      71,
+      146
+    ],
     "image": "acc/mage_ring.png",
     "description": "A strange magical ring. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power."
   },
@@ -35283,6 +36015,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 229,
     "stats.crit": 1,
     "stats.ward": 8,
@@ -35313,6 +36046,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 145,
     "stats.ward": 3,
     "prevents": [
@@ -35382,6 +36116,10 @@
     "prevents": [
       "Mag ↓",
       "T. Mag ↓"
+    ],
+    "dropped_by": [
+      528,
+      527
     ],
     "materials": [
       268
@@ -35546,6 +36284,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 232,
     "stats.crit": 2,
     "stats.ward": 24,
@@ -35620,6 +36359,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 177,
     "stats.crit": 2,
     "stats.ward": 17,
@@ -35898,7 +36638,8 @@
       345
     ],
     "image": "armor/askr_robe.png",
-    "slots": 8
+    "slots": 8,
+    "description": "Robe of Yggdrasil, the fallen symbol of life.  Wearing it may occasionally greatly increase one's power."
   },
   {
     "id": 1421,
@@ -35968,6 +36709,7 @@
       "Thief"
     ],
     "element": "Dragon",
+    "category": "greatbows",
     "stats.attack": 198,
     "stats.ward": 4,
     "causes": [
@@ -35979,7 +36721,7 @@
     "materials": [
       272
     ],
-    "image": "weapons/bow_of_tiamat.png",
+    "image": "weapons/questing_bow.png",
     "other_effect": [
       "歐幣加成: 1.05",
       "金幣加成: 1.1",
@@ -36056,6 +36798,7 @@
       "Warrior"
     ],
     "element": "Dragon",
+    "category": "axes & hammers",
     "stats.attack": 198,
     "stats.ward": 4,
     "causes": [
@@ -36067,7 +36810,7 @@
     "materials": [
       272
     ],
-    "image": "weapons/axe_of_tiamat.png",
+    "image": "weapons/questing_axe.png",
     "other_effect": [
       "歐幣加成: 1.05",
       "金幣加成: 1.1",
@@ -36088,6 +36831,7 @@
       "Mage"
     ],
     "element": "Dragon",
+    "category": "staffs",
     "stats.magic": 215,
     "stats.ward": 4,
     "causes": [
@@ -36099,7 +36843,7 @@
     "materials": [
       272
     ],
-    "image": "weapons/staff_of_tiamat.png",
+    "image": "weapons/questing_staff.png",
     "other_effect": [
       "歐幣加成: 1.05",
       "金幣加成: 1.1",
@@ -36130,7 +36874,7 @@
     "image": "armor/elite_nothren_leggings.png",
     "slots": 4,
     "rarity": "w",
-    "description": "Heavy armor of Nothren Berserkers"
+    "description": "Heavy armor of Nothren berserkers."
   },
   {
     "id": 1429,
@@ -36153,7 +36897,7 @@
     "image": "armor/elite_nothren_boots.png",
     "slots": 4,
     "rarity": "w",
-    "description": "Heavy Armor of Nothren valkyries"
+    "description": "Heavy armor of Nothren valkyries."
   },
   {
     "id": 1430,
@@ -36211,7 +36955,7 @@
       "Thief"
     ],
     "stats.defense": 199,
-    "stats.resistance": 42,
+    "stats.dexterity": 42,
     "dropped_by": [
       470
     ],
@@ -36239,7 +36983,6 @@
       470
     ],
     "materials": [
-      248,
       249,
       275
     ],
@@ -36292,7 +37035,7 @@
     ],
     "image": "wards/elite_nothren_shield.png",
     "rarity": "g",
-    "description": "Shield carried by valkyries of the Northern lands.  It protects one from the cold."
+    "description": "Shield carried by valkyries of the Northern lands. It protects one from the cold."
   },
   {
     "id": 1436,
@@ -36629,6 +37372,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 178,
     "stats.dexterity": 32,
     "dropped_by": [
@@ -36652,6 +37396,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.magic": 178,
     "stats.dexterity": 30,
     "dropped_by": [
@@ -36675,6 +37420,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 205,
     "dropped_by": [
       470
@@ -36697,6 +37443,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "staffs",
     "stats.attack": 12,
     "stats.magic": 199,
     "dropped_by": [
@@ -36943,7 +37690,7 @@
     "image": "armor/crown.png",
     "slots": 13,
     "rarity": "p",
-    "description": "The fabled crown of king Balor."
+    "description": "The fabled crown of King Balor."
   },
   {
     "id": 1463,
@@ -37051,6 +37798,7 @@
     "element": "Arcane",
     "stats.defense": 45,
     "stats.resistance": 280,
+    "stats.ward": 1,
     "dropped_by": [
       461
     ],
@@ -37288,6 +38036,7 @@
       "Warrior"
     ],
     "element": "Water",
+    "category": "swords",
     "stats.attack": 233,
     "stats.resistance": 53,
     "stats.mana": 53,
@@ -37505,7 +38254,11 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 120,
+    "dropped_by": [
+      459
+    ],
     "materials": [
       252
     ],
@@ -37521,6 +38274,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "curved swords",
     "stats.attack": 235,
     "stats.defense": -46,
     "stats.dexterity": 10,
@@ -37547,6 +38301,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 235,
     "stats.hp": -114,
     "stats.mana": 114,
@@ -37570,6 +38325,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "swords",
     "stats.attack": 126,
     "stats.dexterity": 10,
     "dropped_by": [
@@ -37642,6 +38398,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 165,
     "stats.magic": 32,
     "stats.ward": -1,
@@ -37802,9 +38559,11 @@
       464,
       490,
       463,
+      528,
       462,
       467,
-      468
+      468,
+      527
     ],
     "image": "useables/present.png",
     "description": "A gift for another. Open it to find out what it could be."
@@ -37838,7 +38597,7 @@
     "zh": "遠見",
     "tier": 5,
     "type": "Item",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -38222,6 +38981,11 @@
     "zh": "紅玉",
     "tier": 5,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.attack": 3,
     "stats.magic": 3,
     "stats.defense": 3,
@@ -38515,6 +39279,11 @@
     "zh": "蒼白紅玉",
     "tier": 9,
     "type": "Adornment",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.attack": 6,
     "stats.magic": 6,
     "stats.defense": 6,
@@ -38605,6 +39374,7 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 222,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -38630,6 +39400,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 222,
     "stats.magic": 35,
     "stats.defense": -10,
@@ -38685,6 +39456,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 222,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -38694,8 +39466,8 @@
       "Frozen"
     ],
     "dropped_by": [
-      511,
-      510
+      510,
+      511
     ],
     "materials": [
       282
@@ -38714,8 +39486,10 @@
     "equipped_by": [
       "Mage"
     ],
+    "category": "archistaffs",
     "stats.magic": 122,
     "stats.defense": -10,
+    "stats.dexterity": 20,
     "stats.mana": 40,
     "dropped_by": [
       507,
@@ -38737,6 +39511,7 @@
     "equipped_by": [
       "Warrior"
     ],
+    "category": "swords",
     "stats.attack": 122,
     "stats.magic": 35,
     "stats.defense": -10,
@@ -38788,6 +39563,7 @@
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 122,
     "stats.defense": -10,
     "stats.dexterity": 20,
@@ -38797,8 +39573,8 @@
       "Frozen"
     ],
     "dropped_by": [
-      506,
-      504
+      504,
+      506
     ],
     "materials": [
       282
@@ -39001,7 +39777,6 @@
     "zh": "阿瑪丹的法杖",
     "tier": 8,
     "type": "Off-hand",
-    "boss": 1,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -39072,7 +39847,7 @@
       "Warrior"
     ],
     "stats.defense": 90,
-    "stats.resistance": 9,
+    "stats.resistance": 90,
     "stats.ward": 28,
     "dropped_by": [
       519
@@ -39095,6 +39870,11 @@
     "zh": "納根因的腰帶",
     "tier": 7,
     "type": "Accessory",
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
     "stats.dexterity": 50,
     "stats.mana": 50,
     "dropped_by": [
@@ -39147,7 +39927,7 @@
     "zh": "瑪萊的祝福",
     "tier": 3,
     "type": "Accessory",
-    "view_distance": 1,
+    "view_distance": 20,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -39176,9 +39956,11 @@
     "zh": "重生石化匕首",
     "tier": 9,
     "type": "Weapon",
+    "boss": 1,
     "equipped_by": [
       "Thief"
     ],
+    "category": "daggers",
     "stats.attack": 215,
     "stats.dexterity": 48,
     "stats.crit": 1,

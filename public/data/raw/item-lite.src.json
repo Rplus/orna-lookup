@@ -1676,7 +1676,7 @@
     "id": 242,
     "name": "Great Monster Tome",
     "zh": "大魔物之典",
-    "tier": 5,
+    "tier": 4,
     "image": "acc/great_monster_tome.png"
   },
   {
@@ -5938,7 +5938,7 @@
   {
     "id": 868,
     "name": "Mirror",
-    "zh": "鏡像",
+    "zh": "魔鏡",
     "tier": 5,
     "image": "wards/mirror.png"
   },
@@ -9390,7 +9390,7 @@
     "id": 1368,
     "name": "Mandrake",
     "zh": "曼德拉草",
-    "tier": 1,
+    "tier": 2,
     "image": "materials/mandrake.png"
   },
   {
@@ -9776,7 +9776,7 @@
     "name": "Questing Bow",
     "zh": "追跡之弓",
     "tier": 9,
-    "image": "weapons/bow_of_tiamat.png"
+    "image": "weapons/questing_bow.png"
   },
   {
     "id": 1424,
@@ -9797,14 +9797,14 @@
     "name": "Questing Axe",
     "zh": "追跡之斧",
     "tier": 9,
-    "image": "weapons/axe_of_tiamat.png"
+    "image": "weapons/questing_axe.png"
   },
   {
     "id": 1427,
     "name": "Questing Staff",
     "zh": "追跡之杖",
     "tier": 9,
-    "image": "weapons/staff_of_tiamat.png"
+    "image": "weapons/questing_staff.png"
   },
   {
     "id": 1428,
