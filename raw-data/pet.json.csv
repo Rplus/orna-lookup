@@ -66,7 +66,7 @@ id,name,zh,tier,cost,skills,stats.attack,stats.heal,stats.protect,stats.buff,sta
 65,Cerberus,地獄三頭犬,8,875000,"[47,197,90,94,288]",5,,,,25,12,bosses/cerberus.png,A tamed Cerberus of Balor. It can assist in battle with spells of fire.
 66,Crimson Gazer,赤紅凝視者,9,1500000,"[224,221,223,222]",,,,,,8,monsters/crimson_gazer.png,A reckless Gazer. Be careful bringing this one with you.
 67,Camazotz,卡馬佐茲,7,3000000,"[34,285,239,287]",,12,,12,,2,bosses/camazotz.png,The revered bat of death. It can drain HP from your opponents while improving your stats.
-68,Anubis,阿努比斯,10,4000000,"[277,328,326,278,279,280]",,,,,12,7,bosses/anubis.png,The magical might of the Jackal god knows no bounds.
+68,Anubis,阿努比斯,10,4000000,"[372,374,639,376,377]",,,,,12,7,bosses/anubis.png,The magical might of the Jackal god knows no bounds.
 69,Harpy,鷹身女妖,6,1500000,"[71,285,169,82]",2,,,20,7,4,monsters/harpy.png,A happily singing harpy. It can assist you in battle by improving your dexterity or causing an opponent to be lulled to sleep.
 70,Death Worm,死蟲,6,1500000,"[91,160,79,273]",2,,,30,,5,bosses/deathworm.png,The revered Death Worm of the sands. It can harden your defenses while casting Earthen magic.
 71,Nidhogg,尼德霍格,9,1750000,"[419,421,423,420,422]",2,,,,,9,monsters/nidhogg.png,A horrific serpentine dragon capable of beastly attacks.
@@ -108,7 +108,7 @@ id,name,zh,tier,cost,skills,stats.attack,stats.heal,stats.protect,stats.buff,sta
 107,Phoenix,鳳凰,8,875000,"[96,430,197,420,288]",,,3,3,,5,bosses/phoenix.png,"The mighty Phoenix, arisen once again. Available for a limited time only."
 108,Ashen Phoenix,蒼白鳳凰,10,3000000,"[430,428,429,590]",,,3,3,,5,bosses/ashen_phoenix.png,"The mighty Phoenix, fallen once again. Available for a limited time only."
 109,Kerberos,刻耳柏洛斯,8,875000,"[419,591,593,594,592]",3,,,15,,3,bosses/kerberos.png,Arisen from the deep depths of the Underworld. Available for a limited time only.
-110,Arisen Naggeneen,重生納根因,9,2000000,"[396,397,398,400,366,399]",5,,1,,8,20,bosses/naggeneen.png,"Oh, the foul fairy Naggeneen. Available for limited time."
+110,Arisen Naggeneen,重生納根因,9,2000000,"[396,397,400,398,366,399]",5,,1,,8,20,bosses/arisen_naggeneen.png,"Oh, the foul fairy Naggeneen. Available for limited time."
 111,Fey Cactus,變異仙人掌,10,2000000,"[134,445]",3,,,,,9,monsters/fey_cactus.png,A most plagued cactus. It can assist you in battle with barrages of needles.
 112,Raging Cerus,暴怒凱魯斯,9,1500000,"[423,603,429,435]",6,,,,,6,bosses/taurus.png,The untamed beast. Available for a limited time only.
 113,Untamed Cerus,桀驁金牛凱魯斯,9,1500000,"[603,428,409,434]",7,,,,,6,bosses/taurus.png,The untamed beast. Available for a limited time only.
@@ -129,10 +129,10 @@ id,name,zh,tier,cost,skills,stats.attack,stats.heal,stats.protect,stats.buff,sta
 128,Cruel Banshee,惡毒報喪女妖,6,1250000,"[70,612,180]",,,,,5,5,monsters/banshee.png,The reason one would want a banshee with them is still quite unknown. Available for a limited time only.
 129,Alfar Mage,古精靈法師,7,2500000,"[239,275,628]",,3,3,,,60,monsters/alfar_mage.png,A small follower of Scruug. Available for a limited time only.
 130,Alfar,古精靈,4,250000,"[119,176,300]",90,8,4,,,10,monsters/alfar.png,A small follower of Scruug. Available for a limited time only.
-131,Kin of Kerberos,,5,0,"[591,593,594,592]",7,,,15,,,bosses/kerberos.png,Arisen from the deep depths of the Underworld. Available for a limited time only.
-132,Amadan,,8,500000,"[636,643]",1,,2,4,,20,wards/tower_shield.png,Available for a limited time only.
-133,Steward Cactus,,8,0,"[134,445,635]",,,,,,,statuses/confuse.png,A Steward in the form of a Cactus.
-134,Steward Dragon,,8,0,"[342,119,128,129,632]",,,,,,,statuses/confuse.png,A Steward in the form of a dragon.
-135,Steward Gazer,,8,0,"[630,470,340,171]",,,,,,,statuses/confuse.png,A Steward in the form of a Gazer.
-136,Steward Golem,,8,0,"[614,294,136,299]",,,,,,,statuses/confuse.png,A Steward in the form of a golem.
-137,Steward Wolf,,8,0,"[182,285,165,244]",,,,,,,statuses/confuse.png,A Steward in the form of a wolf.
+131,Kin of Kerberos,刻耳柏洛斯之子,5,0,"[591,593,594,592]",7,,,15,,,bosses/kerberos.png,Arisen from the deep depths of the Underworld. Available for a limited time only.
+132,Amadan,阿瑪丹,8,500000,"[636,643]",1,,2,4,,20,monsters/amadan.png,Available for a limited time only.
+133,Steward Cactus,眷族仙人掌,8,0,"[134,445,635]",,,,,,,statuses/confuse.png,A Steward in the form of a Cactus.
+134,Steward Dragon,眷族之龍,8,0,"[342,119,128,129,632]",,,,,,,statuses/confuse.png,A Steward in the form of a dragon.
+135,Steward Gazer,眷族凝視者,8,0,"[630,470,340,171]",,,,,,,statuses/confuse.png,A Steward in the form of a Gazer.
+136,Steward Golem,眷族魔像,8,0,"[614,294,136,299]",,,,,,,statuses/confuse.png,A Steward in the form of a golem.
+137,Steward Wolf,眷族之狼,8,0,"[182,285,165,244]",,,,,,,statuses/confuse.png,A Steward in the form of a wolf.

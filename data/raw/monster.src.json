@@ -158,7 +158,11 @@
     "quests": [
       {
         "id": 38,
-        "name": "Goblins"
+        "name": "[The Aftermath] Goblins"
+      },
+      {
+        "id": 74,
+        "name": "Too many goblins"
       }
     ],
     "image": "monsters/goblin.png"
@@ -184,7 +188,11 @@
     "quests": [
       {
         "id": 39,
-        "name": "Magic"
+        "name": "[The Aftermath] Magic"
+      },
+      {
+        "id": 74,
+        "name": "Too many goblins"
       }
     ],
     "image": "monsters/goblin_mage.png"
@@ -292,8 +300,8 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Bleeding",
-      "Burning"
+      "Burning",
+      "Bleeding"
     ],
     "drops": [
       249,
@@ -317,7 +325,7 @@
     "quests": [
       {
         "id": 37,
-        "name": "993 DCE"
+        "name": "[The Aftermath] 993 DCE"
       }
     ],
     "image": "monsters/slime.png"
@@ -408,7 +416,11 @@
     "quests": [
       {
         "id": 41,
-        "name": "Lord of Goblins"
+        "name": "[The Aftermath] Lord of Goblins"
+      },
+      {
+        "id": 75,
+        "name": "The Lord of Goblins"
       }
     ],
     "image": "bosses/goblin_lord.png"
@@ -437,7 +449,7 @@
   {
     "id": 22,
     "name": "Draconian Warrior",
-    "zh": "德肯尼亞族",
+    "zh": "德肯尼亞戰士",
     "tier": 2,
     "spawns": [
       "Day Only"
@@ -452,6 +464,10 @@
     "quests": [
       {
         "id": 42,
+        "name": "[The Aftermath] The Draconians"
+      },
+      {
+        "id": 77,
         "name": "The Draconians"
       }
     ],
@@ -539,7 +555,11 @@
     "quests": [
       {
         "id": 43,
-        "name": "Mages of Draconia"
+        "name": "[The Aftermath] Mages of Draconia"
+      },
+      {
+        "id": 77,
+        "name": "The Draconians"
       }
     ],
     "image": "monsters/draco_mage.png"
@@ -799,7 +819,11 @@
     "quests": [
       {
         "id": 44,
-        "name": "Lords of Draconia"
+        "name": "[The Aftermath] Lords of Draconia"
+      },
+      {
+        "id": 82,
+        "name": "The Draconian Lord"
       }
     ],
     "image": "bosses/draco_lord.png"
@@ -1465,14 +1489,14 @@
     "skills": [
       69,
       52,
+      54,
+      41,
       75,
       76,
       78,
       63,
       66,
       83,
-      54,
-      41,
       111
     ],
     "drops": [
@@ -1484,7 +1508,7 @@
     "quests": [
       {
         "id": 48,
-        "name": "The Fomorians"
+        "name": "[The Aftermath] The Fomorians"
       }
     ],
     "image": "monsters/fomorian_mage.png"
@@ -1539,7 +1563,7 @@
     "quests": [
       {
         "id": 48,
-        "name": "The Fomorians"
+        "name": "[The Aftermath] The Fomorians"
       }
     ],
     "image": "monsters/fomorian_warrior.png"
@@ -1642,12 +1666,12 @@
     ],
     "quests": [
       {
-        "id": 15,
-        "name": "Beast of the Sea"
+        "id": 46,
+        "name": "[The Aftermath] King of Lizarr"
       },
       {
-        "id": 46,
-        "name": "King of Lizarr"
+        "id": 15,
+        "name": "Beast of the Sea"
       }
     ],
     "image": "monsters/lizard_lord.png"
@@ -1717,8 +1741,8 @@
     ],
     "skills": [
       225,
-      42,
-      41
+      41,
+      42
     ],
     "drops": [
       262,
@@ -1794,8 +1818,8 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Bleeding",
+      "Poisoned",
       "Asleep",
       "Petrified"
     ],
@@ -1810,7 +1834,7 @@
     "quests": [
       {
         "id": 47,
-        "name": "The Pharaoh"
+        "name": "[The Aftermath] The Pharaoh"
       }
     ],
     "image": "bosses/pharaoh.png"
@@ -1873,7 +1897,7 @@
     "quests": [
       {
         "id": 49,
-        "name": "The Undead Giant"
+        "name": "[The Aftermath] The Undead Giant"
       }
     ],
     "image": "bosses/undead_golem.png"
@@ -2240,7 +2264,7 @@
     "quests": [
       {
         "id": 52,
-        "name": "Reapers of Ankou"
+        "name": "[The Aftermath] Reapers of Ankou"
       }
     ],
     "image": "monsters/reaper.png"
@@ -2383,7 +2407,7 @@
     "quests": [
       {
         "id": 50,
-        "name": "Carman's Pet"
+        "name": "[The Aftermath] Carman's Pet"
       }
     ],
     "image": "bosses/gargoyle.png"
@@ -2414,7 +2438,7 @@
     "quests": [
       {
         "id": 59,
-        "name": "The Eyes of Ra"
+        "name": "[The Aftermath] The Eyes of Ra"
       }
     ],
     "image": "bosses/great_gazer.png"
@@ -2641,6 +2665,7 @@
     "skills": [
       69,
       47,
+      661,
       48,
       89,
       53,
@@ -2672,12 +2697,12 @@
     ],
     "quests": [
       {
-        "id": 25,
-        "name": "Slayer of Artifice"
+        "id": 58,
+        "name": "[The Aftermath] The Great Witch"
       },
       {
-        "id": 58,
-        "name": "The Great Witch"
+        "id": 25,
+        "name": "Slayer of Artifice"
       }
     ],
     "image": "bosses/witch.png"
@@ -2712,12 +2737,12 @@
     ],
     "quests": [
       {
-        "id": 26,
-        "name": "A Hunt of Heads"
+        "id": 53,
+        "name": "[The Aftermath] Hound of Balor"
       },
       {
-        "id": 53,
-        "name": "Hound of Balor"
+        "id": 26,
+        "name": "A Hunt of Heads"
       }
     ],
     "image": "bosses/cerberus.png"
@@ -2764,6 +2789,7 @@
       "Water"
     ],
     "skills": [
+      663,
       48,
       51,
       57,
@@ -2785,7 +2811,7 @@
     "quests": [
       {
         "id": 55,
-        "name": "Ankou"
+        "name": "[The Aftermath] Ankou"
       }
     ],
     "image": "bosses/grim_reaper.png"
@@ -2826,11 +2852,11 @@
     ],
     "quests": [
       {
-        "id": 29,
-        "name": "Tiamat"
+        "id": 54,
+        "name": "[The Aftermath] Tiamat"
       },
       {
-        "id": 54,
+        "id": 29,
         "name": "Tiamat"
       }
     ],
@@ -2858,7 +2884,7 @@
     "quests": [
       {
         "id": 60,
-        "name": "Return of the Draconians"
+        "name": "[The Aftermath] Return of the Draconians"
       }
     ],
     "image": "monsters/draco_mystic.png"
@@ -3024,7 +3050,7 @@
     "quests": [
       {
         "id": 51,
-        "name": "Of Dragons"
+        "name": "[The Aftermath] Of Dragons"
       }
     ],
     "image": "monsters/dragon.png"
@@ -3283,9 +3309,9 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Bleeding",
       "Paralyzed",
+      "Poisoned",
       "Blind",
       "Asleep",
       "Petrified"
@@ -3395,7 +3421,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ],
     "image": "monsters/ljosalfar_mage.png"
@@ -3415,7 +3441,7 @@
       83
     ],
     "drops": [
-      237,
+      1395,
       333
     ],
     "image": "monsters/gorgon.png"
@@ -3449,7 +3475,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ],
     "image": "monsters/ljosalfar.png"
@@ -3485,7 +3511,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ],
     "image": "monsters/ljosalfar_knight.png"
@@ -3554,7 +3580,7 @@
     "quests": [
       {
         "id": 61,
-        "name": "The Elven Lords"
+        "name": "[The Aftermath] The Elven Lords"
       }
     ],
     "image": "monsters/ljosalfar_lord.png"
@@ -3776,8 +3802,8 @@
       "Holy"
     ],
     "skills": [
-      89,
       119,
+      89,
       128,
       129
     ],
@@ -4012,11 +4038,11 @@
     ],
     "skills": [
       95,
-      102,
       101,
+      102,
       103,
-      107,
-      106
+      106,
+      107
     ],
     "drops": [
       262,
@@ -4075,17 +4101,17 @@
       "Kingdom Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       121,
@@ -4130,17 +4156,20 @@
       "Kingdom Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       211,
@@ -4190,9 +4219,6 @@
     "resistant_to": [
       "Fire",
       "Lightning"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
     ],
     "skills": [
       207,
@@ -4272,7 +4298,7 @@
     "quests": [
       {
         "id": 62,
-        "name": "The Army of Balor"
+        "name": "[The Aftermath] The Army of Balor"
       }
     ],
     "image": "monsters/balor_mage.png"
@@ -4301,7 +4327,7 @@
     "quests": [
       {
         "id": 62,
-        "name": "The Army of Balor"
+        "name": "[The Aftermath] The Army of Balor"
       }
     ],
     "image": "monsters/balor_rogue.png"
@@ -4332,7 +4358,7 @@
     "quests": [
       {
         "id": 62,
-        "name": "The Army of Balor"
+        "name": "[The Aftermath] The Army of Balor"
       }
     ],
     "image": "monsters/balor_warrior.png"
@@ -4413,6 +4439,11 @@
     "buffs": [
       250
     ],
+    "spawns": [
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -4424,6 +4455,7 @@
       121,
       130,
       146,
+      663,
       184,
       213,
       136,
@@ -4436,7 +4468,7 @@
     "quests": [
       {
         "id": 63,
-        "name": "Balor"
+        "name": "[The Aftermath] Balor"
       },
       {
         "id": 36,
@@ -4477,6 +4509,12 @@
     "tier": 1,
     "buffs": [
       32
+    ],
+    "quests": [
+      {
+        "id": 72,
+        "name": "The Unfelled"
+      }
     ],
     "image": "monsters/rat.png"
   },
@@ -4699,7 +4737,7 @@
   {
     "id": 198,
     "name": "High Draconian Warrior",
-    "zh": "高等德肯尼亞族",
+    "zh": "高等德肯尼亞戰士",
     "tier": 6,
     "skills": [
       35,
@@ -4714,7 +4752,7 @@
     "quests": [
       {
         "id": 60,
-        "name": "Return of the Draconians"
+        "name": "[The Aftermath] Return of the Draconians"
       }
     ],
     "image": "monsters/high_draco.png"
@@ -4737,7 +4775,7 @@
     "quests": [
       {
         "id": 60,
-        "name": "Return of the Draconians"
+        "name": "[The Aftermath] Return of the Draconians"
       }
     ],
     "image": "monsters/high_draco_mage.png"
@@ -4752,7 +4790,8 @@
     ],
     "skills": [
       99,
-      108
+      108,
+      155
     ],
     "image": "monsters/enlightened.png"
   },
@@ -4768,6 +4807,7 @@
       37,
       143,
       136,
+      155,
       138
     ],
     "drops": [
@@ -4778,7 +4818,7 @@
   {
     "id": 203,
     "name": "Enlightened Mage",
-    "zh": "開明的法師",
+    "zh": "啟蒙者法師",
     "tier": 7,
     "spawns": [
       "Moon Only"
@@ -4787,6 +4827,7 @@
       240,
       243,
       210,
+      155,
       181
     ],
     "drops": [
@@ -4821,7 +4862,7 @@
   {
     "id": 205,
     "name": "High Fomorian Mage",
-    "zh": "高級弗摩爾族法師",
+    "zh": "高等弗摩爾族法師",
     "tier": 7,
     "buffs": [
       250
@@ -4885,9 +4926,6 @@
       "Stunned",
       "Petrified",
       "Rot"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
     ],
     "skills": [
       35,
@@ -4978,12 +5016,21 @@
   {
     "id": 210,
     "name": "Enlightened Prince",
-    "zh": "開明的王子",
+    "zh": "啟蒙者王子",
     "tier": 7,
     "level": 175,
     "boss": 1,
     "spawns": [
       "Gauntlet Only"
+    ],
+    "skills": [
+      130,
+      204,
+      367,
+      163,
+      155,
+      180,
+      67
     ],
     "drops": [
       446,
@@ -5100,12 +5147,12 @@
     ],
     "quests": [
       {
-        "id": 32,
-        "name": "Dokkalfar Forces"
+        "id": 57,
+        "name": "[The Aftermath] The Dokkalfar"
       },
       {
-        "id": 57,
-        "name": "The Dokkalfar"
+        "id": 32,
+        "name": "Dokkalfar Forces"
       }
     ],
     "image": "monsters/dokkalfar.png"
@@ -5137,12 +5184,12 @@
     ],
     "quests": [
       {
-        "id": 33,
-        "name": "Dokkalfar Knights"
+        "id": 57,
+        "name": "[The Aftermath] The Dokkalfar"
       },
       {
-        "id": 57,
-        "name": "The Dokkalfar"
+        "id": 33,
+        "name": "Dokkalfar Knights"
       }
     ],
     "image": "monsters/dokkalfar_knight.png"
@@ -5220,12 +5267,12 @@
     ],
     "quests": [
       {
-        "id": 34,
-        "name": "Dokkalfar Lords"
+        "id": 61,
+        "name": "[The Aftermath] The Elven Lords"
       },
       {
-        "id": 61,
-        "name": "The Elven Lords"
+        "id": 34,
+        "name": "Dokkalfar Lords"
       }
     ],
     "image": "bosses/dokkalfar_lord.png"
@@ -5309,7 +5356,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ],
     "image": "bosses/fallen_ithra.png"
@@ -5355,7 +5402,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ],
     "image": "bosses/fallen_thor.png"
@@ -5537,12 +5584,12 @@
     ],
     "quests": [
       {
-        "id": 4,
-        "name": "Hermes' Revenge"
+        "id": 40,
+        "name": "[The Aftermath] Lord of the Bandits"
       },
       {
-        "id": 40,
-        "name": "Lord of the Bandits"
+        "id": 4,
+        "name": "Hermes' Revenge"
       }
     ],
     "image": "bosses/bandit_lord.png"
@@ -5645,7 +5692,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ],
     "image": "bosses/fallen_vulcan.png"
@@ -5695,7 +5742,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ],
     "image": "bosses/fallen_demeter.png"
@@ -5804,15 +5851,15 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       92
@@ -5834,12 +5881,12 @@
       "Night Only"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
+      "Poisoned",
+      "Blight",
       "Blind",
-      "Asleep",
-      "Blight"
+      "Asleep"
     ],
     "skills": [
       225,
@@ -6050,10 +6097,6 @@
       "Asleep",
       "Stunned"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       173,
       152,
@@ -6104,19 +6147,19 @@
     ],
     "resistant_to": [
       "Dark",
-      "Holy",
-      "Dragon"
+      "Dragon",
+      "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       240,
@@ -6192,12 +6235,12 @@
     ],
     "quests": [
       {
-        "id": 35,
-        "name": "Dokkalfar Magic"
+        "id": 57,
+        "name": "[The Aftermath] The Dokkalfar"
       },
       {
-        "id": 57,
-        "name": "The Dokkalfar"
+        "id": 35,
+        "name": "Dokkalfar Magic"
       }
     ],
     "image": "monsters/dokkalfar_mage.png"
@@ -6276,15 +6319,15 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       96,
@@ -6308,15 +6351,15 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       108,
@@ -6390,8 +6433,8 @@
       "Water Only"
     ],
     "immune_to_status": [
-      "Bleeding",
-      "Burning"
+      "Burning",
+      "Bleeding"
     ],
     "skills": [
       40,
@@ -6427,8 +6470,8 @@
       "Water Only"
     ],
     "weak_to": [
-      "Lightning",
-      "Dragon"
+      "Dragon",
+      "Lightning"
     ],
     "immune_to": [
       "Water"
@@ -6657,16 +6700,16 @@
       "Kingdom Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       34,
@@ -6767,15 +6810,15 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       191,
@@ -6868,9 +6911,9 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Burning",
       "Frozen",
+      "Poisoned",
       "Blight"
     ],
     "skills": [
@@ -6890,7 +6933,7 @@
     "level": 175,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "immune_to": [
       "Holy",
@@ -6911,10 +6954,7 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "skills": [
       166,
@@ -6931,11 +6971,13 @@
       16,
       446,
       454,
+      12,
       575,
       576,
       1053,
       1312,
       1313,
+      1546,
       577,
       1307,
       1306,
@@ -6985,7 +7027,7 @@
     "level": 200,
     "boss": 1,
     "spawns": [
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to": [
       "Dark",
@@ -6993,17 +7035,17 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       216,
@@ -7062,20 +7104,20 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Cursed",
-      "Toxic",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Drenched",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       207,
@@ -7144,10 +7186,6 @@
       "Stunned",
       "Blight"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       603,
       121,
@@ -7175,8 +7213,7 @@
       585,
       586,
       1068,
-      583,
-      1067
+      583
     ],
     "image": "bosses/taurus.png"
   },
@@ -7218,20 +7255,17 @@
       "Kingdom Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       253,
@@ -7278,7 +7312,8 @@
     "level": 250,
     "boss": 1,
     "spawns": [
-      "World Only"
+      "Regular Dungeon (T9)",
+      "World"
     ],
     "immune_to": [
       "Dark",
@@ -7326,7 +7361,7 @@
     "quests": [
       {
         "id": 65,
-        "name": "Mammon"
+        "name": "[The Aftermath] Mammon"
       }
     ],
     "image": "bosses/mammon.png"
@@ -7400,11 +7435,11 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Bleeding",
       "Frozen",
-      "Asleep",
-      "Blight"
+      "Poisoned",
+      "Blight",
+      "Asleep"
     ],
     "skills": [
       69,
@@ -7542,16 +7577,16 @@
       "World Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       120,
@@ -7828,16 +7863,16 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       216,
@@ -7890,20 +7925,20 @@
       "Past Event (currently unavailable)"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Cursed",
-      "Toxic",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Drenched",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       174,
@@ -8052,6 +8087,7 @@
       "Rot"
     ],
     "skills": [
+      661,
       277,
       344,
       278,
@@ -8074,6 +8110,7 @@
     "zh": "重生的卡門",
     "tier": 9,
     "skills": [
+      661,
       256,
       277,
       344,
@@ -8216,6 +8253,7 @@
     ],
     "skills": [
       201,
+      663,
       326,
       366,
       203,
@@ -8246,25 +8284,22 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       201,
+      662,
       327,
-      199,
-      197,
       337,
-      198,
-      200,
       366,
       316,
       367
@@ -8320,20 +8355,22 @@
       "Past Event (currently unavailable)"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
-      "T. Res ↓",
+      "Cursed",
+      "Toxic",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       201,
@@ -8411,17 +8448,17 @@
     "level": 230,
     "boss": 1,
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       372,
@@ -8449,17 +8486,17 @@
     "level": 240,
     "boss": 1,
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       328,
@@ -8495,16 +8532,16 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       191,
@@ -8560,17 +8597,17 @@
       32
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       372,
@@ -8633,17 +8670,17 @@
     "zh": "歐坦尼魔像",
     "tier": 10,
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       327,
@@ -8693,17 +8730,17 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       97,
@@ -8926,17 +8963,17 @@
       32
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       327,
@@ -9083,19 +9120,20 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
+      661,
       123,
       100,
       369,
@@ -9125,17 +9163,17 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       356,
@@ -9167,7 +9205,7 @@
     "level": 225,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "immune_to": [
       "Holy",
@@ -9178,20 +9216,20 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Cursed",
-      "Toxic",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Drenched",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       191,
@@ -9220,6 +9258,7 @@
       576,
       1053,
       1312,
+      1546,
       1307,
       1306,
       1309,
@@ -9232,7 +9271,7 @@
       1310,
       1308
     ],
-    "image": "bosses/naggeneen.png"
+    "image": "bosses/arisen_naggeneen.png"
   },
   {
     "id": 338,
@@ -9375,15 +9414,15 @@
       "Earthen"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       147,
@@ -9424,20 +9463,17 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       121,
@@ -9569,17 +9605,17 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       253,
@@ -9715,16 +9751,15 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight",
-      "Petrified"
+      "Stunned"
     ],
     "skills": [
       69,
@@ -9764,15 +9799,15 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       37,
@@ -9808,15 +9843,15 @@
       "Fire"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       148,
@@ -9857,17 +9892,17 @@
       "Dragon"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       256,
@@ -9910,10 +9945,10 @@
       "Holy"
     ],
     "immune_to_status": [
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       400,
@@ -9948,10 +9983,10 @@
       "Holy"
     ],
     "immune_to_status": [
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       190,
@@ -9984,9 +10019,9 @@
       "Holy"
     ],
     "immune_to_status": [
+      "Blight",
       "Blind",
-      "Asleep",
-      "Blight"
+      "Asleep"
     ],
     "skills": [
       190,
@@ -10009,10 +10044,12 @@
     "name": "Phoenix",
     "zh": "鳳凰",
     "tier": 7,
-    "level": 0,
+    "level": 175,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Rise of the Phoenix",
+      "World Raid"
     ],
     "immune_to": [
       "Fire"
@@ -10097,24 +10134,24 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
+      "Mag ↓",
       "Def ↓",
       "Def ↓↓",
       "T. Mag ↓",
-      "Mag ↓",
-      "T. Mag ↓↓",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "T. Mag ↓↓",
+      "Rot"
     ],
     "skills": [
       423,
@@ -10277,18 +10314,18 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Cursed",
-      "Toxic",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Cursed",
+      "Toxic"
     ],
     "skills": [
       191,
@@ -10477,9 +10514,6 @@
     "resistant_to": [
       "Fire"
     ],
-    "vulnerable_to_status": [
-      "Blind"
-    ],
     "skills": [
       240,
       239,
@@ -10522,14 +10556,14 @@
       "Fire"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Asleep",
+      "Poisoned",
       "Blight",
-      "Petrified"
+      "Asleep",
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       158,
@@ -10605,14 +10639,14 @@
       "Fire"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Asleep",
+      "Poisoned",
       "Blight",
-      "Petrified"
+      "Asleep",
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       158,
@@ -10641,10 +10675,10 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
       "Blind",
       "Asleep"
     ],
@@ -10683,13 +10717,13 @@
       "Arcane"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Asleep"
+      "Poisoned",
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       404,
@@ -10884,8 +10918,10 @@
     "zh": "巴羅爾任意門",
     "tier": 7,
     "spawns": [
-      "Gauntlet Only",
-      "Moon Only"
+      "Chaos Portal",
+      "Moon Only",
+      "Regular Gauntlet",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -10900,19 +10936,20 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
+      661,
       467,
       562,
       466,
@@ -11011,10 +11048,10 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
       "Blind",
       "Asleep"
     ],
@@ -11243,11 +11280,6 @@
     "spawns": [
       "World Raid"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       285,
       97,
@@ -11322,16 +11354,15 @@
     ],
     "immune_to_status": [
       "Bleeding",
-      "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
-      "Poisoned"
+      "Rot"
     ],
     "skills": [
       318,
@@ -11422,17 +11453,17 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       430,
@@ -11485,11 +11516,6 @@
       "Asleep",
       "Blight"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       240,
       572,
@@ -11524,15 +11550,15 @@
       "World Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       318,
@@ -11600,11 +11626,6 @@
     "spawns": [
       "World Raid"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       173,
       574,
@@ -11634,11 +11655,6 @@
     "boss": 1,
     "spawns": [
       "World Raid"
-    ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
     ],
     "skills": [
       195,
@@ -11779,16 +11795,16 @@
       "Fire"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       174,
@@ -11838,20 +11854,22 @@
       "Past Event (currently unavailable)"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
-      "T. Res ↓",
+      "Cursed",
+      "Toxic",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "Rot",
+      "Drenched"
     ],
     "skills": [
       201,
@@ -12006,15 +12024,15 @@
       "Woods Only"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       243,
@@ -12206,27 +12224,24 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
+      "Mag ↓",
       "Def ↓",
       "Def ↓↓",
       "T. Mag ↓",
-      "Mag ↓",
-      "T. Mag ↓↓",
       "Res ↓↓",
-      "Res ↓"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
+      "Res ↓",
+      "T. Mag ↓↓",
+      "Rot"
     ],
     "skills": [
       423,
@@ -12293,24 +12308,24 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
+      "Mag ↓",
       "Def ↓",
       "Def ↓↓",
       "T. Mag ↓",
-      "Mag ↓",
-      "T. Mag ↓↓",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "Mag ↓↓",
+      "Rot"
     ],
     "skills": [
       419,
@@ -12353,24 +12368,24 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
+      "Mag ↓",
       "Def ↓",
       "Def ↓↓",
       "T. Mag ↓",
-      "Mag ↓",
-      "T. Mag ↓↓",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "T. Mag ↓↓",
+      "Rot"
     ],
     "skills": [
       419,
@@ -12412,24 +12427,24 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
+      "Mag ↓",
       "Def ↓",
       "Def ↓↓",
       "T. Mag ↓",
-      "Mag ↓",
-      "T. Mag ↓↓",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "T. Mag ↓↓",
+      "Rot"
     ],
     "skills": [
       423,
@@ -12461,10 +12476,12 @@
     "name": "Arisen Phoenix",
     "zh": "重生的鳳凰",
     "tier": 9,
-    "level": 0,
+    "level": 225,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Rise of the Phoenix",
+      "World Raid"
     ],
     "immune_to": [
       "Fire"
@@ -12473,17 +12490,17 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       430,
@@ -12492,7 +12509,6 @@
       404,
       442,
       405,
-      422,
       413,
       573
     ],
@@ -12546,7 +12562,9 @@
     "level": 245,
     "boss": 1,
     "spawns": [
-      "Event: Rise of Kerberos"
+      "Kingdom Raid",
+      "Past Event: Rise of Kerberos",
+      "World Raid"
     ],
     "immune_to": [
       "Dark",
@@ -12554,17 +12572,17 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       216,
@@ -12658,10 +12676,6 @@
       "Lightning",
       "Water"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       207,
       191,
@@ -12747,10 +12761,6 @@
       "Stunned",
       "Blight"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       603,
       121,
@@ -12811,10 +12821,6 @@
       "Asleep",
       "Stunned",
       "Blight"
-    ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
     ],
     "skills": [
       603,
@@ -12894,9 +12900,9 @@
     "immune_to_status": [
       "Frozen",
       "Paralyzed",
-      "Rot",
       "Blind",
-      "Asleep"
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       499,
@@ -12911,7 +12917,7 @@
     "drops": [
       1332
     ],
-    "image": "classes/realmshifter/default_f.png"
+    "image": "bosses/fallen_realmshifter.png"
   },
   {
     "id": 435,
@@ -12929,9 +12935,9 @@
     "immune_to_status": [
       "Frozen",
       "Paralyzed",
-      "Rot",
       "Blind",
-      "Asleep"
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       394,
@@ -12945,7 +12951,7 @@
     "drops": [
       1333
     ],
-    "image": "classes/gilgamesh/1_m.png"
+    "image": "bosses/fallen_gilgamesh.png"
   },
   {
     "id": 436,
@@ -12963,9 +12969,9 @@
     "immune_to_status": [
       "Frozen",
       "Paralyzed",
-      "Rot",
       "Blind",
-      "Asleep"
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       476,
@@ -12981,7 +12987,7 @@
     "drops": [
       1334
     ],
-    "image": "classes/heretic/default_f.png"
+    "image": "bosses/fallen_heretic.png"
   },
   {
     "id": 437,
@@ -12996,9 +13002,9 @@
     "immune_to_status": [
       "Frozen",
       "Paralyzed",
-      "Rot",
       "Blind",
-      "Asleep"
+      "Asleep",
+      "Rot"
     ],
     "skills": [
       423,
@@ -13025,9 +13031,6 @@
     "spawns": [
       "Kingdom Raid",
       "World Raid"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
     ],
     "skills": [
       191,
@@ -13064,16 +13067,16 @@
       "World Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       174,
@@ -13111,14 +13114,14 @@
       "Kingdom Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       120,
@@ -13169,16 +13172,16 @@
       "Past Event (currently unavailable)"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       174,
@@ -13284,10 +13287,6 @@
       "Stunned",
       "Blight"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
-    ],
     "skills": [
       174,
       607,
@@ -13341,20 +13340,16 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight"
-    ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
+      "Rot"
     ],
     "skills": [
       174,
@@ -13398,15 +13393,15 @@
       "World Raid"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       191,
@@ -13456,17 +13451,17 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       356,
@@ -13502,20 +13497,20 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
       "T. Res ↓",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "Rot"
     ],
     "skills": [
       191,
@@ -13605,20 +13600,20 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
       "Petrified",
       "T. Res ↓",
       "Res ↓↓",
-      "Res ↓"
+      "Res ↓",
+      "Rot"
     ],
     "skills": [
       191,
@@ -13686,7 +13681,7 @@
       1423,
       1427
     ],
-    "image": "monsters/coral_lizard_warrior.png"
+    "image": "bosses/glatisant.png"
   },
   {
     "id": 451,
@@ -13703,9 +13698,9 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Bleeding",
       "Frozen",
+      "Poisoned",
       "Blind",
       "Asleep"
     ],
@@ -13782,7 +13777,8 @@
     "level": 0,
     "boss": 1,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event: Balor Invades"
     ],
     "immune_to": [
       "Dark",
@@ -13791,17 +13787,17 @@
       "Lightning"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
       207,
@@ -13840,7 +13836,10 @@
     "level": 140,
     "boss": 1,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -13856,11 +13855,11 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
       "Asleep",
       "Stunned",
       "Petrified"
@@ -13892,6 +13891,11 @@
     "name": "Elite Balor Marauder",
     "zh": "高端巴羅爾掠奪者",
     "tier": 9,
+    "spawns": [
+      "Past Event: Balor Invades",
+      "Underworld Portal",
+      "World"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -13914,6 +13918,12 @@
     "name": "Elite Balor Warlock",
     "zh": "高端巴羅爾術士",
     "tier": 9,
+    "spawns": [
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -13937,7 +13947,11 @@
     "zh": "高端巴羅爾刺客",
     "tier": 9,
     "spawns": [
-      "Day Only"
+      "Day Only",
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -13957,7 +13971,10 @@
     "zh": "高端巴羅爾悍將",
     "tier": 5,
     "spawns": [
-      "Night Only"
+      "Night Only",
+      "Past Event: Balor Invades",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -13980,8 +13997,8 @@
     "level": 240,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -14000,6 +14017,7 @@
       121,
       130,
       146,
+      663,
       184,
       213,
       136,
@@ -14019,8 +14037,9 @@
     "level": 240,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -14036,11 +14055,11 @@
       "Water"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
+      "Poisoned",
       "Asleep",
       "Stunned",
       "Petrified"
@@ -14089,9 +14108,9 @@
     ],
     "immune_to_status": [
       "Paralyzed",
+      "Blight",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       327,
@@ -14127,9 +14146,9 @@
     ],
     "immune_to_status": [
       "Paralyzed",
+      "Blight",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       239,
@@ -14164,9 +14183,9 @@
     ],
     "immune_to_status": [
       "Paralyzed",
+      "Blight",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       182,
@@ -14194,8 +14213,8 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Bleeding",
-      "Burning"
+      "Burning",
+      "Bleeding"
     ],
     "drops": [
       249,
@@ -14222,8 +14241,8 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Bleeding",
-      "Burning"
+      "Burning",
+      "Bleeding"
     ],
     "skills": [
       203,
@@ -14258,9 +14277,9 @@
     ],
     "immune_to_status": [
       "Paralyzed",
+      "Blight",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       327,
@@ -14294,9 +14313,9 @@
     ],
     "immune_to_status": [
       "Paralyzed",
+      "Blight",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       327,
@@ -14325,9 +14344,9 @@
       "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Blight",
       "Blind",
-      "Blight"
+      "Rot"
     ],
     "skills": [
       423,
@@ -14495,8 +14514,8 @@
       "Dark"
     ],
     "immune_to_status": [
-      "Bleeding",
-      "Burning"
+      "Burning",
+      "Bleeding"
     ],
     "skills": [
       378
@@ -14571,7 +14590,10 @@
     "zh": "高端巴羅爾火焰",
     "tier": 9,
     "spawns": [
-      "Sun Only"
+      "Mystic Cave",
+      "Past Event: Balor Invades",
+      "Sun Only",
+      "World"
     ],
     "weak_to": [
       "Arcane",
@@ -14589,9 +14611,9 @@
       "Physical"
     ],
     "immune_to_status": [
-      "Poisoned",
       "Burning",
       "Frozen",
+      "Poisoned",
       "Blight"
     ],
     "skills": [
@@ -14769,8 +14791,9 @@
     "level": 125,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -14842,9 +14865,9 @@
     ],
     "immune_to_status": [
       "Paralyzed",
+      "Blight",
       "Asleep",
-      "Stunned",
-      "Blight"
+      "Stunned"
     ],
     "skills": [
       239,
@@ -14884,7 +14907,7 @@
   {
     "id": 492,
     "name": "Elite Draconian Warrior",
-    "zh": "高端德肯尼亞族",
+    "zh": "高端德肯尼亞戰士",
     "tier": 8,
     "spawns": [
       "Gauntlet Only"
@@ -14949,8 +14972,10 @@
     "zh": "巴羅爾任意門",
     "tier": 9,
     "spawns": [
-      "Gauntlet Only",
-      "Moon Only"
+      "Chaos Portal",
+      "Moon Only",
+      "Regular Gauntlet",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -14965,19 +14990,20 @@
       "Holy"
     ],
     "immune_to_status": [
-      "Poisoned",
-      "Bleeding",
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
-      "Rot",
+      "Poisoned",
+      "Blight",
       "Blind",
       "Asleep",
       "Stunned",
-      "Blight",
-      "Petrified"
+      "Petrified",
+      "Rot"
     ],
     "skills": [
+      661,
       467,
       562,
       466,
@@ -15004,8 +15030,8 @@
     "level": 200,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "immune_to": [
       "Fire"
@@ -15052,7 +15078,8 @@
     "zh": "上級緋尼斯族法師",
     "tier": 9,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "skills": [
       625,
@@ -15076,8 +15103,8 @@
     "level": 100,
     "boss": 1,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "immune_to": [
       "Fire"
@@ -15124,7 +15151,8 @@
     "zh": "緋尼斯族法師",
     "tier": 5,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "skills": [
       367,
@@ -15145,7 +15173,8 @@
     "zh": "緋尼斯族",
     "tier": 5,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "skills": [
       458,
@@ -15168,7 +15197,8 @@
     "zh": "上級緋尼斯族",
     "tier": 9,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "skills": [
       394,
@@ -15195,7 +15225,7 @@
     "boss": 1,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15234,7 +15264,7 @@
     "boss": 1,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15270,7 +15300,7 @@
     "tier": 5,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15297,7 +15327,7 @@
     "tier": 9,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15326,7 +15356,7 @@
     "tier": 5,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15353,7 +15383,7 @@
     "tier": 5,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15382,7 +15412,7 @@
     "tier": 9,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15411,7 +15441,7 @@
     "tier": 5,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15440,7 +15470,7 @@
     "tier": 9,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15467,7 +15497,7 @@
     "tier": 9,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -15493,8 +15523,8 @@
     "zh": "康馬克",
     "tier": 6,
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       174,
@@ -15505,7 +15535,7 @@
     "drops": [
       1542
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/cormac.png"
   },
   {
     "id": 513,
@@ -15513,8 +15543,8 @@
     "zh": "阿默金",
     "tier": 6,
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       174,
@@ -15525,7 +15555,7 @@
     "drops": [
       1540
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/amergin.png"
   },
   {
     "id": 514,
@@ -15533,8 +15563,8 @@
     "zh": "艾涅",
     "tier": 4,
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Goblin Fortress"
+      "Goblin Fortress",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       361,
@@ -15545,7 +15575,7 @@
     "drops": [
       1539
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/aine.png"
   },
   {
     "id": 515,
@@ -15553,8 +15583,8 @@
     "zh": "科納爾",
     "tier": 4,
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Goblin Fortress"
+      "Goblin Fortress",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       642,
@@ -15565,7 +15595,7 @@
     "drops": [
       1538
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/conall.png"
   },
   {
     "id": 516,
@@ -15573,8 +15603,8 @@
     "zh": "芬恩",
     "tier": 4,
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Goblin Fortress"
+      "Goblin Fortress",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       361,
@@ -15585,7 +15615,7 @@
     "drops": [
       1537
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/finn.png"
   },
   {
     "id": 517,
@@ -15596,7 +15626,7 @@
     "boss": 1,
     "spawns": [
       "Chaos Portal",
-      "Event: The Mischievous Clurichauns"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       555,
@@ -15611,7 +15641,7 @@
     "drops": [
       1543
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/amadan.png"
   },
   {
     "id": 518,
@@ -15620,7 +15650,7 @@
     "tier": 8,
     "spawns": [
       "Chaos Portal",
-      "Event: The Mischievous Clurichauns"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       555,
@@ -15635,7 +15665,7 @@
     "drops": [
       1544
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/beag.png"
   },
   {
     "id": 519,
@@ -15644,7 +15674,7 @@
     "tier": 8,
     "spawns": [
       "Chaos Portal",
-      "Event: The Mischievous Clurichauns"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       555,
@@ -15659,7 +15689,7 @@
     "drops": [
       1545
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/fergus.png"
   },
   {
     "id": 520,
@@ -15667,8 +15697,8 @@
     "zh": "布里克留",
     "tier": 6,
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "skills": [
       445,
@@ -15679,7 +15709,7 @@
     "drops": [
       1541
     ],
-    "image": "wards/tower_shield.png"
+    "image": "monsters/bricriu.png"
   },
   {
     "id": 521,
@@ -15704,6 +15734,10 @@
     "tier": 5,
     "level": 120,
     "boss": 1,
+    "spawns": [
+      "Regular Dungeon (T5)",
+      "World"
+    ],
     "weak_to": [
       "Holy"
     ],
@@ -15740,6 +15774,10 @@
     "tier": 7,
     "level": 180,
     "boss": 1,
+    "spawns": [
+      "Regular Dungeon (T7)",
+      "World"
+    ],
     "skills": [
       130,
       367,
@@ -15781,7 +15819,9 @@
     "level": 90,
     "boss": 1,
     "spawns": [
-      "Day Only"
+      "Day Only",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Dark"
@@ -15952,7 +15992,8 @@
     "boss": 1,
     "spawns": [
       "Kingdom Raid",
-      "Past Event: Fool of April"
+      "Past Event: Fool of April",
+      "World Raid"
     ],
     "resistant_to": [
       "Dark",

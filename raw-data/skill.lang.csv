@@ -70,7 +70,7 @@ id,en,zh,info,info_zh
 94,Tricut,三連擊,"Swiftly attack thrice, dealing up to triple damage.",快速的攻擊三次，造成至多三次傷害。
 95,Bear's Might,巨熊的力量,Summon the power of a great bear. Greatly boosts attack power at the expense of your defenses.,召喚巨熊之力。以犧牲物防與魔防為代價，顯著的提高物理攻擊力。
 96,Blightstrike,枯萎之擊,Strike hard with the chance of causing blight.,猛烈的一擊，有機會造成枯萎狀態。
-97,Dragon Breath,龍息術,"Breath of a dragon. (Chance to inflict Blight, Fire Damage)",
+97,Dragon Breath,龍息術,Breath of a dragon.,龍的吐息。
 98,Flare,閃焰術,Deals great dragon damage.,造成巨大的龍系傷害。
 99,Blast,爆破,Deals moderate non-elemental damage with the potential to hinder an opponent's attack power.,造成中等程度的非元素傷害，有可能降低對手的物理攻擊力。
 100,Flare II,閃焰術 II,"Unstable magic that can deal greater dragon damage, but may damage its caster.",不穩定的魔法，可以造成巨量的龍系傷害，但可能會傷害其施法者。
@@ -225,7 +225,7 @@ id,en,zh,info,info_zh
 251,Scout Weakness,弱點觀測,Boosts critical hit rate.,增加暴擊機率.
 252,Hubris,傲慢,"Temporarily increases attack, magic, defense and resistance.",
 253,Apocalypse,終焉降臨,?,
-254,Greed,貪婪,-,
+254,Greed,貪婪,Deals damage and steals HP.,造成傷害的同時吸取生命值。
 255,Envy,嫉妒,Deals arcane damage and may cause curse.,造成奧術傷害且有可能造成詛咒異常狀態。
 256,Despair,絕望,Deals great arcane damage.,造成巨大的奧術傷害。
 257,Pierce,穿刺,"Attack with the point of your weapon, potentially temporarily lowering an opponent's defenses.",用武器的尖端進行攻擊，可能會暫時降低對手的防禦能力。
@@ -340,7 +340,7 @@ id,en,zh,info,info_zh
 366,Miasma,瘴氣,Summon a putrid miasma. May cause poison and blight.,召喚腐敗的瘴氣。可能會造成中毒或是枯萎狀態。
 367,Rebirth,再生術,Heals 1000 health and removes status debuffs.,
 368,Ravage,崩毀,A multi-round attack,
-369,Miasma II,瘴氣 II,"Summon a putrid miasma. May cause poison, toxic, rot and paralysis.",
+369,Miasma II,瘴氣 II,Summon a putrid miasma.,
 370,Starscreen,星幕,"Multi-hitting magical ultimate. Lowers your defenses, blinds, burns and curses.",
 371,Ward of Ortanite,歐坦尼護盾,Recovers and grants Ward for 7 turns and increases damage absorption to 85%.,恢復並獲得7回合的護盾次數，並提高傷害吸收比例至85%。
 372,Flame VI,火焰術 VI,Deals massive fire damage.,造成大量的火系傷害。
@@ -464,7 +464,7 @@ id,en,zh,info,info_zh
 490,The Heretic,異教徒,Spells cost 25% less mana.,
 491,Bastille,堡壘術,"You start battle with less Ward, but become more powerful as your Ward is recovered. Ward is automatically activated in battle and recovers each turn.",你在戰鬥開始時的護盾值較低，但是隨著護盾值的恢復而變得更加強大。護盾在戰鬥時自動開啟並每回合恢復數值。
 492,Guardian,鎮守者,You have a 10% stat boost when defending territories.,
-493,Sortie,突擊,"Atack from the shadows, possibly dealing critical damage and giving Ward for 1 turn.",
+493,Sortie,突擊,"Attack from the shadows, possibly dealing critical damage and giving Ward for 1 turn.",從陰影中偷襲，有可能造成暴擊，並給予護盾一回合。
 494,Magic Sword IV,魔力之刃IV,Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based off one's magic stat rather than attack.,
 495,Realm Strikes,域界連擊,Swiftly attack four times with a good chance to either miss or land a critical strike.,"神速的連續攻擊4次,有高機率揮空或暴擊."
 496,Osmostrikes II,滲透連擊 II,"Swiftly attack thrice, dealing up to triple damage and healing yourself in the process.",快速攻擊三次，最高造成三倍傷害，還可在攻擊中恢復生命值。
@@ -505,7 +505,7 @@ id,en,zh,info,info_zh
 531,Ultima II,究極魔法 II,"Deal mixed damage of all elements, deals extra damage to those weak against any element.  Requires 3 turns in battle.",
 532,Diffuse Ward II,佈防 II,Convert 50% of your available Ward to HP and mana. Requires 2 turns in battle.,
 533,Demigod,半神型態,You become more powerful as your HP and mana decrease in battle.,在戰鬥中，隨著生命值與魔力值的降低，你將變得更加強大。
-534,Unstable Omnimancy,不穩定的元素融合,"You have abanadoned the traditions of the elements.  For every turn in battle, you may be resistant, weak, or immune to some elements.",
+534,Unstable Omnimancy,不穩定的元素融合,"You have abandoned the traditions of the elements.  For every turn in battle, you may be resistant, weak, or immune to some elements.",
 535,Diffuse Ward III,佈防 III,Convert all of your available ward to HP and mana. Requires 4 turns in battle.,將全部護盾轉換為生命跟魔力值。需要4回合才能發動。
 536,Spiked Shield III,荊棘盾擊 III,"Attack with a barbed shield, converting 30% of your available ward to raw damage",
 537,Verse,龍韻,Deals moderate non-elemental damage with the potential to hinder an opponent's defenses.  Total damage is determined by both your attack and magic stats.,
@@ -588,8 +588,8 @@ id,en,zh,info,info_zh
 614,Bastion III,堡壘 III,Grants temporary defenses and grants Ward for 5 turns.,暫時提升防禦並獲得5回合護盾.
 615,Speed III,加速術 III,Temporarily greatly improves one's dexterity.,
 616,Ragnarok,諸神黃昏,Cleanses debuffs.,
-617,Tree of Demise,絕命之樹,-,
-618,Tree of Life,生命之樹,-,
+617,Tree of Demise,絕命之樹,?,
+618,Tree of Life,生命之樹,?,
 619,Lyon's Mark,里昂的標記,-,
 620,Lyon's Execution,里昂的處決,-,
 621,Brilliant Lights,輝煌之光,Unstable elementless magic that can blind an opponent while dealing damage thrice.,不穩定的無屬性法術，發動時造成三次傷害，並使對手目盲。
@@ -629,7 +629,7 @@ id,en,zh,info,info_zh
 655,Provoke II,挑釁 II,"When battling with your party, your opponents will be more likely to target you.",團體戰時，更容易成為集火對象。
 656,Appease,安撫,"When battling with your party, your opponents will be less likely to target you.",團體戰時，不容易成為集火對象。
 657,Appease II,安撫 II,"When battling with your party, your opponents will be less likely to target you.",團體戰時，不容易成為集火對象。
-658,Requiem,安魂曲,N/A,
+658,Requiem,安魂曲,Deals moderate non-elemental damage and may lull an opponent.,
 659,Upward Strike,豬突猛進,"Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle.",用盡雙手之力攻擊，造成極為浮動的傷害。需要2回合施展。
 660,Anthem,聖歌,"Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats.",
 661,Confuse,迷惑,Confuses an opponent.,迷惑對手。
