@@ -1733,28 +1733,24 @@
     },
     "skills": [
       {
-        "id": 277,
-        "name": "Flame V"
+        "id": 372,
+        "name": "Flame VI"
       },
       {
-        "id": 328,
-        "name": "Forbid"
+        "id": 374,
+        "name": "Frost VI"
       },
       {
-        "id": 326,
-        "name": "Forbidden Art"
+        "id": 639,
+        "name": "Lacunus II"
       },
       {
-        "id": 278,
-        "name": "Frost V"
+        "id": 376,
+        "name": "Spark VI"
       },
       {
-        "id": 279,
-        "name": "Spark V"
-      },
-      {
-        "id": 280,
-        "name": "Tremor V"
+        "id": 377,
+        "name": "Tremor VI"
       }
     ]
   },
@@ -3047,7 +3043,7 @@
     "id": 110,
     "name": "Arisen Naggeneen",
     "description": "Oh, the foul fairy Naggeneen. Available for limited time.",
-    "image": "bosses/naggeneen.png",
+    "image": "bosses/arisen_naggeneen.png",
     "tier": 9,
     "cost": 2000000,
     "stats": {
@@ -3066,12 +3062,12 @@
         "name": "Heat Lightning"
       },
       {
-        "id": 398,
-        "name": "Iced Earth"
-      },
-      {
         "id": 400,
         "name": "Ice Storm"
+      },
+      {
+        "id": 398,
+        "name": "Iced Earth"
       },
       {
         "id": 366,
@@ -3715,7 +3711,7 @@
     "id": 132,
     "name": "Amadan",
     "description": "Available for a limited time only.",
-    "image": "wards/tower_shield.png",
+    "image": "monsters/amadan.png",
     "tier": 8,
     "cost": 500000,
     "stats": {

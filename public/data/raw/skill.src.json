@@ -85,12 +85,6 @@
         "name": "Arcanic",
         "level": 1,
         "specialization": false
-      },
-      {
-        "id": 80,
-        "name": "Beowulf",
-        "level": 225,
-        "specialization": false
       }
     ],
     "description": "You have a way of landing that perfect strike."
@@ -314,40 +308,40 @@
     "type": "Passive",
     "is_magic": 1,
     "buffed_by": [
-      10,
       2,
-      17,
+      10,
       16,
-      189,
+      17,
       23,
-      154,
-      122,
+      189,
       24,
       34,
       38,
+      122,
       137,
+      154,
+      50,
+      126,
       156,
       227,
-      126,
-      50,
-      267,
       76,
       95,
       162,
       190,
       235,
-      268,
+      267,
       105,
+      268,
+      113,
       114,
       117,
-      113,
       243,
-      155,
       132,
+      155,
       244,
       228,
-      239,
       237,
+      239,
       194,
       307,
       317,
@@ -383,25 +377,25 @@
     "type": "Passive",
     "is_magic": 1,
     "buffed_by": [
-      258,
       65,
+      258,
       128,
       112,
-      164,
-      274,
       115,
+      164,
       224,
-      251,
+      274,
       120,
+      251,
       252,
       262,
-      144,
-      263,
       143,
+      144,
       149,
-      296,
-      295,
+      263,
       271,
+      295,
+      296,
       322
     ],
     "learned_by": [
@@ -454,7 +448,9 @@
       12,
       266,
       33,
+      95,
       113,
+      338,
       134,
       212,
       182,
@@ -500,6 +496,7 @@
       67,
       69,
       383,
+      268,
       111,
       340,
       198,
@@ -598,6 +595,7 @@
       208,
       488,
       96,
+      97,
       197,
       340,
       202,
@@ -753,11 +751,15 @@
       126,
       53,
       72,
+      66,
       49,
       86,
+      76,
       96,
+      97,
       297,
       101,
+      243,
       112
     ],
     "learned_by": [
@@ -809,6 +811,8 @@
       157,
       459,
       96,
+      97,
+      226,
       243,
       471,
       474,
@@ -848,27 +852,39 @@
     ],
     "monsters_use": [
       154,
+      514,
       190,
       81,
       235,
+      515,
       267,
+      516,
       207,
       383,
       158,
       444,
       268,
+      278,
+      513,
       224,
+      520,
+      512,
       274,
       216,
+      130,
       252,
       273,
       262,
+      517,
+      518,
       193,
+      519,
       211,
       168,
       147,
       144,
       228,
+      416,
       183,
       456,
       295,
@@ -1095,9 +1111,12 @@
       49,
       69,
       108,
+      268,
+      278,
       101,
       111,
       290,
+      116,
       119,
       269,
       228,
@@ -1141,6 +1160,7 @@
       266,
       188,
       281,
+      242,
       400
     ],
     "learned_by": [
@@ -1230,6 +1250,7 @@
       102,
       248,
       119,
+      244,
       237
     ],
     "learned_by": [
@@ -1292,10 +1313,11 @@
       127,
       162,
       339,
+      525,
       66,
       49,
       123,
-      353,
+      232,
       351
     ],
     "learned_by": [
@@ -1342,6 +1364,7 @@
       20,
       11,
       48,
+      258,
       283,
       116,
       219,
@@ -1388,10 +1411,13 @@
       45,
       52,
       127,
+      525,
+      66,
       299,
       49,
       123,
       283,
+      220,
       349
     ],
     "learned_by": [
@@ -1422,10 +1448,12 @@
       77,
       33,
       78,
+      525,
       90,
       99,
       128,
-      111
+      111,
+      130
     ],
     "learned_by": [
       {
@@ -1518,9 +1546,11 @@
       73,
       188,
       363,
+      258,
       281,
       94,
       242,
+      103,
       119
     ],
     "learned_by": [
@@ -1573,6 +1603,7 @@
       266,
       46,
       188,
+      242,
       119
     ],
     "learned_by": [
@@ -1621,6 +1652,7 @@
       3,
       48,
       65,
+      258,
       128
     ],
     "learned_by": [
@@ -1793,12 +1825,14 @@
       64,
       42,
       303,
+      525,
       66,
       84,
       108,
       99,
       341,
       290,
+      116,
       219,
       178,
       153,
@@ -1934,6 +1968,7 @@
       52,
       127,
       61,
+      525,
       66,
       49,
       123,
@@ -1985,8 +2020,15 @@
       32,
       38,
       57,
+      504,
+      506,
+      524,
+      210,
+      523,
       356,
       289,
+      510,
+      511,
       441,
       469,
       439
@@ -2048,14 +2090,17 @@
     "monsters_use": [
       64,
       72,
+      525,
       66,
       299,
       258,
       283,
       94,
       108,
+      103,
       341,
       290,
+      116,
       219,
       135,
       140,
@@ -2119,6 +2164,7 @@
       241,
       242,
       226,
+      260,
       198,
       400,
       204,
@@ -2169,7 +2215,9 @@
       107,
       207,
       209,
+      159,
       100,
+      278,
       102,
       117,
       114,
@@ -2180,6 +2228,7 @@
       144,
       183,
       456,
+      220,
       295,
       349
     ],
@@ -2299,7 +2348,7 @@
   {
     "id": 74,
     "name": "Holystrike",
-    "zh": "神聖之擊",
+    "zh": "聖光之擊",
     "tier": 3,
     "type": "Attack",
     "element": "Holy",
@@ -2364,6 +2413,7 @@
       64,
       65,
       339,
+      525,
       66,
       91,
       108,
@@ -2457,10 +2507,14 @@
       272,
       270,
       464,
+      226,
+      260,
+      257,
       213,
       214,
       148,
-      238
+      238,
+      206
     ],
     "learned_by": [
       {
@@ -2492,11 +2546,13 @@
     "monsters_use": [
       45,
       52,
+      525,
       66,
       123,
       88,
       94,
       116,
+      392,
       151
     ],
     "learned_by": [
@@ -2618,6 +2674,7 @@
       268,
       100,
       104,
+      247,
       117,
       166,
       139,
@@ -2676,6 +2733,7 @@
       104,
       341,
       290,
+      116,
       219,
       153,
       141,
@@ -2766,9 +2824,12 @@
       122,
       38,
       46,
+      95,
       197,
       114,
+      338,
       118,
+      132,
       124,
       289
     ],
@@ -2819,7 +2880,9 @@
       49
     ],
     "monsters_use": [
-      131
+      160,
+      131,
+      130
     ],
     "learned_by": [
       {
@@ -2853,6 +2916,7 @@
     "monsters_use": [
       88,
       109,
+      392,
       131
     ],
     "learned_by": [
@@ -2889,6 +2953,7 @@
       109,
       135,
       140,
+      392,
       131,
       151,
       368
@@ -2920,6 +2985,7 @@
       161,
       207,
       276,
+      116,
       400,
       402,
       406
@@ -2957,6 +3023,7 @@
     "monsters_use": [
       88,
       109,
+      392,
       131
     ],
     "learned_by": [
@@ -3032,16 +3099,16 @@
       207,
       191,
       377,
-      91,
       90,
+      91,
       259,
       297,
       110,
       276,
       111,
+      116,
       119,
       386,
-      251,
       400,
       236,
       284,
@@ -3093,7 +3160,6 @@
       216,
       167,
       142,
-      257,
       125,
       214,
       287,
@@ -3143,8 +3209,10 @@
       209,
       420,
       301,
+      135,
       166,
       274,
+      364,
       139,
       167,
       252,
@@ -3191,6 +3259,7 @@
       27
     ],
     "monsters_use": [
+      174,
       239
     ],
     "learned_by": [
@@ -3261,6 +3330,10 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
+    "causes": [
+      "Burning",
+      "Blight"
+    ],
     "pets_use": [
       76,
       127,
@@ -3272,6 +3345,8 @@
       63
     ],
     "monsters_use": [
+      308,
+      278,
       128,
       164,
       138,
@@ -3297,7 +3372,7 @@
         "specialization": false
       }
     ],
-    "description": "Breath of a dragon. (Chance to inflict Blight, Fire Damage)"
+    "description": "Breath of a dragon."
   },
   {
     "id": 98,
@@ -3321,6 +3396,7 @@
       344,
       301,
       276,
+      247,
       205,
       143,
       254,
@@ -3356,7 +3432,8 @@
     ],
     "monsters_use": [
       123,
-      141
+      141,
+      201
     ],
     "learned_by": [
       {
@@ -3384,6 +3461,8 @@
     "strikes": 1,
     "hp": -5,
     "monsters_use": [
+      176,
+      308,
       138,
       150,
       143,
@@ -3416,6 +3495,7 @@
       "Res ↑↑"
     ],
     "monsters_use": [
+      174,
       231,
       265
     ],
@@ -3444,6 +3524,9 @@
     ],
     "pets_use": [
       81
+    ],
+    "monsters_use": [
+      174
     ],
     "learned_by": [
       {
@@ -3482,7 +3565,8 @@
       97
     ],
     "monsters_use": [
-      276
+      276,
+      174
     ],
     "learned_by": [
       {
@@ -3554,6 +3638,9 @@
       26,
       46
     ],
+    "monsters_use": [
+      174
+    ],
     "learned_by": [
       {
         "id": 12,
@@ -3580,6 +3667,8 @@
       "Blight"
     ],
     "monsters_use": [
+      498,
+      174,
       399,
       149,
       408,
@@ -3619,6 +3708,7 @@
       276,
       341,
       170,
+      201,
       205,
       273,
       250,
@@ -3678,7 +3768,9 @@
     ],
     "monsters_use": [
       452,
+      502,
       199,
+      221,
       350
     ],
     "learned_by": [
@@ -3715,10 +3807,13 @@
       54,
       60,
       303,
+      525,
+      66,
       49,
       123,
       56,
       96,
+      97,
       231,
       233,
       343
@@ -3771,6 +3866,7 @@
     "monsters_use": [
       452,
       160,
+      502,
       199,
       233,
       343
@@ -3902,7 +3998,9 @@
       452,
       490,
       463,
+      502,
       199,
+      220,
       349
     ],
     "learned_by": [
@@ -3936,6 +4034,7 @@
       452,
       490,
       463,
+      502,
       199,
       232,
       351
@@ -3976,11 +4075,13 @@
       130,
       120,
       48,
+      134,
       93,
       63,
       84
     ],
     "monsters_use": [
+      161,
       217,
       390,
       374
@@ -4009,6 +4110,7 @@
     "strikes": 1,
     "crit": 0.05,
     "monsters_use": [
+      288,
       440
     ],
     "learned_by": [
@@ -4035,13 +4137,15 @@
     "turns": 1,
     "strikes": 1,
     "causes": [
-      "Blind"
+      "Blind",
+      "Startstruck"
     ],
     "monsters_use": [
       344,
       177,
       277,
       222,
+      169,
       187,
       432,
       431,
@@ -4083,6 +4187,7 @@
     ],
     "monsters_use": [
       344,
+      499,
       347,
       177,
       277,
@@ -4118,8 +4223,8 @@
       48
     ],
     "monsters_use": [
+      176,
       449,
-      448,
       400,
       150,
       145,
@@ -4296,13 +4401,15 @@
     ],
     "pets_use": [
       48,
+      134,
       63,
       116,
       84
     ],
     "monsters_use": [
       161,
-      390
+      390,
+      374
     ],
     "learned_by": [
       {
@@ -4329,6 +4436,7 @@
     "pets_use": [
       120,
       48,
+      134,
       84
     ],
     "monsters_use": [
@@ -4358,12 +4466,17 @@
     "turns": 1,
     "strikes": 1,
     "causes": [
-      "Frozen"
+      "Frozen",
+      "Startstruck"
     ],
     "monsters_use": [
+      525,
       344,
       177,
       277,
+      524,
+      210,
+      523,
       222,
       169,
       187,
@@ -4401,6 +4514,9 @@
     ],
     "pets_use": [
       114
+    ],
+    "monsters_use": [
+      499
     ],
     "learned_by": [
       {
@@ -4486,9 +4602,11 @@
     "pets_use": [
       78,
       91,
+      133,
       111
     ],
     "monsters_use": [
+      409,
       285,
       429
     ],
@@ -4548,12 +4666,15 @@
     ],
     "pets_use": [
       92,
+      136,
       104,
       72
     ],
     "monsters_use": [
+      176,
       157,
       459,
+      522,
       288,
       455,
       178,
@@ -4839,11 +4960,13 @@
     ],
     "monsters_use": [
       277,
+      225,
       251,
       244,
       263,
       217,
       237,
+      264,
       279,
       187,
       460
@@ -4920,6 +5043,7 @@
       301,
       277,
       455,
+      225,
       255,
       481,
       232,
@@ -4945,7 +5069,7 @@
   {
     "id": 149,
     "name": "Holystrike II",
-    "zh": "神聖之擊 II",
+    "zh": "聖光之擊 II",
     "tier": 5,
     "type": "Attack",
     "element": "Holy",
@@ -4964,6 +5088,7 @@
     ],
     "monsters_use": [
       344,
+      225,
       279
     ],
     "learned_by": [
@@ -5004,7 +5129,9 @@
       225,
       282,
       285,
-      271
+      220,
+      271,
+      349
     ],
     "learned_by": [
       {
@@ -5087,7 +5214,7 @@
       288,
       276,
       245,
-      397,
+      225,
       222,
       263,
       217,
@@ -5119,8 +5246,11 @@
     "hp": 25,
     "crit": 0.05,
     "monsters_use": [
+      522,
       344,
       245,
+      397,
+      225,
       282,
       263,
       217,
@@ -5148,6 +5278,7 @@
     "type": "Passive",
     "is_magic": 1,
     "monsters_use": [
+      376,
       390,
       325,
       324,
@@ -5216,6 +5347,15 @@
     "type": "Passive",
     "is_magic": 1,
     "monsters_use": [
+      522,
+      201,
+      202,
+      524,
+      203,
+      210,
+      523,
+      354,
+      355,
       343,
       349,
       350,
@@ -5334,12 +5474,6 @@
         "specialization": false
       },
       {
-        "id": 80,
-        "name": "Beowulf",
-        "level": 225,
-        "specialization": false
-      },
-      {
         "id": 81,
         "name": "Deity",
         "level": 225,
@@ -5374,6 +5508,7 @@
       254,
       255,
       481,
+      232,
       351
     ],
     "learned_by": [
@@ -5413,6 +5548,7 @@
       269,
       234,
       254,
+      220,
       370,
       349
     ],
@@ -5482,6 +5618,7 @@
       269,
       234,
       254,
+      233,
       343,
       370,
       442
@@ -5588,6 +5725,7 @@
     ],
     "monsters_use": [
       411,
+      210,
       222,
       289,
       234,
@@ -5639,6 +5777,7 @@
       289,
       234,
       300,
+      292,
       279,
       480,
       220,
@@ -5667,10 +5806,15 @@
     "tier": 6,
     "type": "Attack",
     "mana_cost": 10,
+    "causes": [
+      "Blind",
+      "Stunned"
+    ],
     "pets_use": [
       98,
       75,
-      118
+      118,
+      137
     ],
     "monsters_use": [
       444,
@@ -5710,6 +5854,7 @@
       44
     ],
     "monsters_use": [
+      341,
       164,
       138,
       249,
@@ -5746,7 +5891,9 @@
       44
     ],
     "monsters_use": [
+      502,
       347,
+      341,
       164,
       138,
       249,
@@ -5779,6 +5926,18 @@
     "turns": 1,
     "strikes": 1,
     "hp": -5,
+    "gives": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
     "pets_use": [
       44,
       118
@@ -5852,6 +6011,7 @@
       445,
       193,
       211,
+      521,
       265,
       442,
       401
@@ -5875,6 +6035,7 @@
       102,
       49,
       37,
+      135,
       72
     ],
     "monsters_use": [
@@ -5882,11 +6043,17 @@
       44,
       48,
       127,
+      176,
+      88,
+      108,
+      109,
       98,
       290,
+      116,
       407,
       166,
       113,
+      392,
       284,
       181,
       457,
@@ -5938,7 +6105,6 @@
     "monsters_use": [
       245,
       407,
-      306,
       318
     ],
     "learned_by": [
@@ -5970,6 +6136,9 @@
       444,
       411,
       276,
+      513,
+      512,
+      528,
       430,
       425,
       289,
@@ -5977,6 +6146,7 @@
       292,
       470,
       480,
+      527,
       441,
       443,
       423,
@@ -6145,10 +6315,19 @@
     ],
     "monsters_use": [
       129,
+      498,
+      499,
       276,
+      528,
       430,
       141,
+      524,
+      210,
+      523,
       287,
+      496,
+      497,
+      527,
       335
     ],
     "description": "A paralyzing wail that has a chance to greatly reduce an opponent's resistance."
@@ -6169,6 +6348,8 @@
     "strikes": 1,
     "monsters_use": [
       276,
+      247,
+      203,
       169,
       150,
       145,
@@ -6202,6 +6383,7 @@
     ],
     "pets_use": [
       75,
+      137,
       79
     ],
     "monsters_use": [
@@ -6234,12 +6416,18 @@
     "type": "Multi-round Magic",
     "is_magic": 1,
     "mana_cost": 1,
+    "causes": [
+      "Blind",
+      "Stunned"
+    ],
     "monsters_use": [
       344,
       177,
       276,
       277,
-      430
+      528,
+      430,
+      527
     ],
     "description": "Starlord summons the power of the cosmos to destroy you. Chance to stun and blind. Requires 2 turns in battle."
   },
@@ -6303,7 +6491,8 @@
       67,
       363,
       86,
-      96
+      96,
+      97
     ],
     "description": "Boosts physical and magic power."
   },
@@ -6372,6 +6561,7 @@
     "type": "Passive",
     "is_magic": 1,
     "monsters_use": [
+      238,
       324,
       323
     ],
@@ -6522,9 +6712,9 @@
         "specialization": false
       },
       {
-        "id": 81,
-        "name": "Deity",
-        "level": 225,
+        "id": 65,
+        "name": "Omnimancer",
+        "level": 200,
         "specialization": false
       },
       {
@@ -6559,6 +6749,7 @@
     "monsters_use": [
       276,
       449,
+      528,
       362,
       430,
       273,
@@ -6568,6 +6759,7 @@
       337,
       447,
       438,
+      527,
       315,
       442
     ],
@@ -6596,12 +6788,12 @@
       "Paralyzed",
       "Poisoned",
       "Blight",
+      "Def ↓↓",
+      "Res ↓↓",
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
-      "T. Res ↑",
-      "Def ↓↓",
-      "Res ↓↓"
+      "T. Res ↑"
     ],
     "causes": [
       "Burning",
@@ -6613,13 +6805,15 @@
       "Att ↓",
       "Mag ↓",
       "Def ↓",
-      "Rot",
-      "Res ↓"
+      "Res ↓",
+      "Rot"
     ],
     "monsters_use": [
       276,
+      528,
       362,
-      430
+      430,
+      527
     ],
     "learned_by": [
       {
@@ -6678,6 +6872,7 @@
     ],
     "monsters_use": [
       359,
+      322,
       329,
       405
     ],
@@ -6715,9 +6910,11 @@
     ],
     "monsters_use": [
       420,
+      528,
       430,
       408,
-      421
+      421,
+      527
     ],
     "learned_by": [
       {
@@ -6784,11 +6981,9 @@
       356,
       300,
       342,
-      310,
       312,
       431,
-      412,
-      319
+      412
     ],
     "learned_by": [
       {
@@ -6832,7 +7027,6 @@
       285,
       342,
       345,
-      310,
       312,
       447,
       319,
@@ -6875,7 +7069,6 @@
       413,
       451,
       342,
-      310,
       312,
       432,
       372,
@@ -6920,7 +7113,6 @@
       289,
       342,
       345,
-      310,
       319
     ],
     "learned_by": [
@@ -7016,7 +7208,6 @@
       312,
       447,
       470,
-      328,
       319
     ],
     "learned_by": [
@@ -7087,6 +7278,7 @@
     "monsters_use": [
       277,
       413,
+      210,
       311,
       269,
       279,
@@ -7143,6 +7335,10 @@
     "element": "Fire",
     "is_magic": 1,
     "mana_cost": 1,
+    "causes": [
+      "Burning",
+      "Blight"
+    ],
     "pets_use": [
       52
     ],
@@ -7170,11 +7366,17 @@
     "tier": 7,
     "type": "Multi-round Attack",
     "mana_cost": 1,
+    "causes": [
+      "Burning",
+      "Blind"
+    ],
     "monsters_use": [
       276,
+      528,
       430,
       454,
-      179
+      179,
+      527
     ],
     "description": "Very strong attack with chance to burn and blind.  Requires 2 turns in battle."
   },
@@ -7226,10 +7428,16 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
+    "causes": [
+      "Stunned"
+    ],
     "monsters_use": [
+      159,
       160,
       276,
+      247,
       178,
+      203,
       400,
       169,
       145,
@@ -7257,14 +7465,16 @@
     "tier": 6,
     "type": "Multi-round Attack",
     "mana_cost": 1,
-    "cures": [
+    "causes": [
       "Frozen",
       "Asleep"
     ],
     "monsters_use": [
       276,
+      528,
       430,
-      178
+      178,
+      527
     ],
     "description": "Titan's strong attack with a chance to freeze and cause sleep.  Requires 2 turns in battle."
   },
@@ -7282,10 +7492,14 @@
     "monsters_use": [
       347,
       276,
+      528,
       430,
       178,
+      225,
       146,
+      521,
       348,
+      527,
       314
     ],
     "description": "Debuff spell of Titan."
@@ -7309,9 +7523,13 @@
     ],
     "monsters_use": [
       85,
+      504,
+      506,
       308,
       347,
       411,
+      246,
+      192,
       277,
       455,
       140,
@@ -7323,8 +7541,10 @@
       124,
       179,
       425,
+      387,
       300,
       287,
+      239,
       291,
       285,
       342,
@@ -7335,9 +7555,15 @@
       348,
       479,
       491,
+      432,
       404,
+      511,
+      510,
       431,
+      371,
       367,
+      194,
+      294,
       265,
       438,
       406,
@@ -7481,8 +7707,10 @@
       56
     ],
     "monsters_use": [
+      498,
       308,
       356,
+      496,
       271,
       405
     ],
@@ -7568,7 +7796,8 @@
     ],
     "monsters_use": [
       64,
-      101
+      101,
+      103
     ],
     "learned_by": [
       {
@@ -7723,6 +7952,7 @@
       410,
       235,
       76,
+      278,
       224,
       243,
       274,
@@ -7866,7 +8096,7 @@
     "name": "Mage's Dance",
     "zh": "法師之舞",
     "tier": 6,
-    "type": "Magic",
+    "type": "AoE Magic",
     "is_magic": 1,
     "mana_cost": 80,
     "m1": 1,
@@ -7929,18 +8159,18 @@
     "is_magic": 1,
     "mana_cost": 200,
     "gives": [
-      "Mag ↑",
-      "T. Att ↑",
-      "T. Def ↑",
-      "T. Mag ↑",
-      "T. Res ↑",
       "Att ↑",
       "Def ↑",
       "Res ↑",
+      "Mag ↑",
+      "Att ↑↑",
+      "Def ↑↑",
       "Mag ↑↑",
       "Res ↑↑",
-      "Def ↑↑",
-      "Att ↑↑"
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑"
     ],
     "causes": [
       "T. Def ↓",
@@ -8034,6 +8264,7 @@
     "zh": "淨化",
     "tier": 6,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 100,
     "cures": [
       "Burning",
@@ -8046,7 +8277,10 @@
       "Stunned",
       "Petrified",
       "Cursed",
-      "Rot"
+      "Rot",
+      "Confused",
+      "Doom",
+      "Startstruck"
     ],
     "gives": [
       "T. Def ↑",
@@ -8161,6 +8395,7 @@
       250,
       143,
       264,
+      181,
       457,
       371,
       368
@@ -8192,6 +8427,8 @@
     "monsters_use": [
       283,
       276,
+      247,
+      203,
       169,
       150,
       145,
@@ -8227,6 +8464,12 @@
     ],
     "pets_use": [
       96
+    ],
+    "monsters_use": [
+      507,
+      509,
+      505,
+      508
     ],
     "learned_by": [
       {
@@ -8274,7 +8517,9 @@
       33,
       127,
       91,
+      109,
       101,
+      247,
       120,
       150,
       279,
@@ -8304,6 +8549,9 @@
       208,
       488,
       276,
+      247,
+      192,
+      203,
       356,
       212,
       169,
@@ -8348,6 +8596,7 @@
     ],
     "pets_use": [
       75,
+      137,
       79,
       115,
       93
@@ -8399,10 +8648,12 @@
     ],
     "monsters_use": [
       420,
+      528,
       430,
       273,
       421,
       337,
+      527,
       422
     ],
     "description": "Naggeneen feels ill, then throws up on you giving you the Toxic status."
@@ -8418,11 +8669,22 @@
       "Toxic"
     ],
     "monsters_use": [
+      514,
+      515,
+      516,
+      513,
+      520,
+      512,
+      528,
       362,
       430,
       273,
+      517,
+      518,
+      519,
       416,
-      337
+      337,
+      527
     ],
     "description": "Naggeneen used Toxicstrike. Chance to apply Toxic."
   },
@@ -8470,20 +8732,20 @@
     "type": "Passive",
     "is_magic": 1,
     "buffed_by": [
-      68,
       66,
       67,
+      68,
       157,
       208,
       174,
       179,
-      205,
       204,
-      255,
+      205,
       181,
       182,
       183,
-      187
+      187,
+      255
     ],
     "learned_by": [
       {
@@ -8578,7 +8840,7 @@
       280,
       352
     ],
-    "description": "-"
+    "description": "Deals damage and steals HP."
   },
   {
     "id": 255,
@@ -8659,6 +8921,9 @@
     "bought": 1,
     "cost": 2000,
     "mana_cost": 25,
+    "cures": [
+      "Bleeding"
+    ],
     "pets_use": [
       53
     ],
@@ -8674,6 +8939,9 @@
     "bought": 1,
     "cost": 2000,
     "mana_cost": 25,
+    "cures": [
+      "Blind"
+    ],
     "pets_use": [
       53
     ],
@@ -8707,6 +8975,9 @@
     "bought": 1,
     "cost": 2000,
     "mana_cost": 25,
+    "cures": [
+      "Frozen"
+    ],
     "pets_use": [
       53
     ],
@@ -8722,6 +8993,9 @@
     "bought": 1,
     "cost": 2000,
     "mana_cost": 25,
+    "cures": [
+      "Paralyzed"
+    ],
     "pets_use": [
       53
     ],
@@ -8737,11 +9011,11 @@
     "bought": 1,
     "cost": 2000,
     "mana_cost": 25,
+    "cures": [
+      "Poisoned"
+    ],
     "pets_use": [
       53
-    ],
-    "monsters_use": [
-      268
     ],
     "description": "Cures its user of poison."
   },
@@ -9026,9 +9300,6 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "pets_use": [
-      68
-    ],
     "monsters_use": [
       288,
       413,
@@ -9065,9 +9336,6 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "pets_use": [
-      68
-    ],
     "monsters_use": [
       288,
       413,
@@ -9083,6 +9351,7 @@
       485,
       304,
       332,
+      334,
       316
     ],
     "description": "Deals massive ice damage."
@@ -9103,9 +9372,6 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "pets_use": [
-      68
-    ],
     "monsters_use": [
       288,
       413,
@@ -9141,9 +9407,6 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "pets_use": [
-      68
-    ],
     "monsters_use": [
       288,
       413,
@@ -9272,9 +9535,11 @@
       69,
       67,
       75,
+      137,
       90
     ],
     "monsters_use": [
+      380,
       455,
       399,
       425,
@@ -9374,6 +9639,7 @@
     "monsters_use": [
       444,
       301,
+      364,
       356,
       292,
       357,
@@ -9532,6 +9798,9 @@
     "type": "Ward",
     "is_magic": 1,
     "mana_cost": 50,
+    "monsters_use": [
+      206
+    ],
     "learned_by": [
       {
         "id": 22,
@@ -9551,9 +9820,11 @@
     "is_magic": 1,
     "mana_cost": 90,
     "pets_use": [
+      136,
       61
     ],
     "monsters_use": [
+      522,
       301
     ],
     "learned_by": [
@@ -9684,6 +9955,7 @@
     "mana_cost": 120,
     "pets_use": [
       55,
+      136,
       104
     ],
     "monsters_use": [
@@ -9825,6 +10097,8 @@
       61
     ],
     "monsters_use": [
+      522,
+      500,
       301
     ],
     "learned_by": [
@@ -9890,6 +10164,7 @@
       102
     ],
     "monsters_use": [
+      498,
       288,
       440
     ],
@@ -9910,6 +10185,8 @@
       55
     ],
     "monsters_use": [
+      504,
+      506,
       308
     ],
     "description": "Recovers 10% Ward and grants Ward for 3 turns and increases damage absorption to 50%."
@@ -10033,7 +10310,6 @@
       "Fire Att"
     ],
     "monsters_use": [
-      322,
       331
     ],
     "learned_by": [
@@ -10093,7 +10369,9 @@
       309,
       298,
       275,
+      310,
       306,
+      307,
       370,
       428,
       325,
@@ -10356,13 +10634,11 @@
     "strikes": 1,
     "hp": -20,
     "pets_use": [
-      68,
       88
     ],
     "monsters_use": [
       309,
       305,
-      330,
       334,
       401,
       314
@@ -10431,7 +10707,6 @@
     ],
     "pets_use": [
       83,
-      68,
       88
     ],
     "monsters_use": [
@@ -10759,6 +11034,9 @@
       "Att ↓",
       "Mag ↓"
     ],
+    "pets_use": [
+      135
+    ],
     "monsters_use": [
       462,
       342,
@@ -10826,6 +11104,7 @@
       "Blight"
     ],
     "pets_use": [
+      134,
       56,
       60
     ],
@@ -11054,7 +11333,7 @@
     "name": "Mage's Pavane",
     "zh": "法師帕凡舞",
     "tier": 9,
-    "type": "Magic",
+    "type": "AoE Magic",
     "is_magic": 1,
     "mana_cost": 60,
     "m1": 1,
@@ -11197,28 +11476,28 @@
     "is_magic": 1,
     "mana_cost": 180,
     "gives": [
-      "Mag ↑",
       "Att ↑",
       "Def ↑",
       "Res ↑",
-      "T. Res ↑",
+      "Mag ↑",
+      "Att ↑↑",
+      "Def ↑↑",
+      "Mag ↑↑",
+      "Res ↑↑",
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
-      "Res ↑↑",
-      "Att ↑↑",
-      "Def ↑↑",
-      "Mag ↑↑"
+      "T. Res ↑"
     ],
     "causes": [
-      "Res ↓",
       "Att ↓",
       "Mag ↓",
       "Def ↓",
       "T. Def ↓",
       "T. Att ↓",
       "T. Mag ↓",
-      "T. Res ↓"
+      "T. Res ↓",
+      "Res ↓"
     ],
     "monsters_use": [
       448,
@@ -11349,6 +11628,10 @@
       "Burning",
       "Stunned"
     ],
+    "monsters_use": [
+      514,
+      516
+    ],
     "learned_by": [
       {
         "id": 57,
@@ -11432,6 +11715,7 @@
     "zh": "里昂內斯的紋章",
     "tier": 8,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 47,
@@ -11468,7 +11752,15 @@
       57
     ],
     "monsters_use": [
+      514,
+      516,
+      513,
+      520,
+      512,
       413,
+      517,
+      518,
+      519,
       309,
       402,
       310,
@@ -11494,10 +11786,20 @@
     "type": "Buff",
     "is_magic": 1,
     "monsters_use": [
+      498,
+      500,
+      499,
       110,
       455,
       119,
+      524,
+      210,
+      523,
       287,
+      310,
+      496,
+      501,
+      497,
       375,
       330,
       415,
@@ -11512,6 +11814,8 @@
     "tier": 8,
     "type": "Multi-round Attack",
     "monsters_use": [
+      176,
+      192,
       142,
       149,
       418,
@@ -11550,7 +11854,7 @@
       401,
       313
     ],
-    "description": "Summon a putrid miasma. May cause poison, toxic, rot and paralysis."
+    "description": "Summon a putrid miasma."
   },
   {
     "id": 370,
@@ -11588,7 +11892,8 @@
       59
     ],
     "monsters_use": [
-      320
+      510,
+      511
     ],
     "description": "Recovers and grants Ward for 7 turns and increases damage absorption to 85%."
   },
@@ -11609,6 +11914,7 @@
     "turns": 1,
     "strikes": 1,
     "pets_use": [
+      68,
       64
     ],
     "monsters_use": [
@@ -11686,6 +11992,7 @@
     "turns": 1,
     "strikes": 1,
     "pets_use": [
+      68,
       64
     ],
     "monsters_use": [
@@ -11720,6 +12027,7 @@
     "monsters_use": [
       447,
       353,
+      304,
       294,
       438,
       483,
@@ -11760,6 +12068,7 @@
     "turns": 1,
     "strikes": 1,
     "pets_use": [
+      68,
       64
     ],
     "monsters_use": [
@@ -11793,6 +12102,7 @@
     "turns": 1,
     "strikes": 1,
     "pets_use": [
+      68,
       64
     ],
     "monsters_use": [
@@ -11837,6 +12147,7 @@
     "zh": "南瓜衝擊",
     "tier": 8,
     "type": "Multi-round Magic",
+    "is_magic": 1,
     "mana_cost": 5,
     "causes": [
       "Stunned",
@@ -11853,6 +12164,10 @@
     "zh": "騎士之護",
     "tier": 1,
     "type": "Passive",
+    "is_magic": 1,
+    "monsters_use": [
+      525
+    ],
     "learned_by": [
       {
         "id": 4,
@@ -11881,6 +12196,7 @@
     "zh": "瓦爾哈蘭之路",
     "tier": 1,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 5,
@@ -11909,6 +12225,7 @@
     "zh": "魔力節能",
     "tier": 1,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 23,
@@ -11937,6 +12254,7 @@
     "zh": "百夫長之護",
     "tier": 1,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 22,
@@ -11953,7 +12271,9 @@
     "zh": "魔力之潮",
     "tier": 8,
     "type": "Passive",
+    "is_magic": 1,
     "monsters_use": [
+      353,
       436,
       334
     ],
@@ -12010,6 +12330,9 @@
     "turns": 1,
     "strikes": 2,
     "ward": 2,
+    "monsters_use": [
+      526
+    ],
     "learned_by": [
       {
         "id": 64,
@@ -12184,6 +12507,7 @@
     "is_magic": 1,
     "mana_cost": 200,
     "monsters_use": [
+      501,
       435
     ],
     "learned_by": [
@@ -12202,6 +12526,7 @@
     "zh": "巨人的肩膀 II",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "monsters_use": [
       320
     ],
@@ -12232,7 +12557,6 @@
       110
     ],
     "monsters_use": [
-      448,
       446,
       337,
       447
@@ -12294,7 +12618,6 @@
     ],
     "monsters_use": [
       449,
-      448,
       446,
       447,
       353
@@ -12435,6 +12758,7 @@
     "monsters_use": [
       445,
       353,
+      304,
       438,
       324,
       334
@@ -12500,6 +12824,8 @@
     "monsters_use": [
       427,
       472,
+      496,
+      497,
       375,
       330,
       403
@@ -12637,6 +12963,11 @@
     "zh": "元素融合",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
+    "monsters_use": [
+      502,
+      503
+    ],
     "learned_by": [
       {
         "id": 65,
@@ -12653,6 +12984,7 @@
     "zh": "元素解除",
     "tier": 9,
     "type": "Healing",
+    "is_magic": 1,
     "mana_cost": 80,
     "gives": [
       "Elementless"
@@ -12756,6 +13088,7 @@
     ],
     "monsters_use": [
       416,
+      521,
       406,
       443,
       405,
@@ -12797,6 +13130,7 @@
       "T. Res ↓"
     ],
     "monsters_use": [
+      501,
       354,
       355
     ],
@@ -12813,7 +13147,7 @@
   {
     "id": 416,
     "name": "Ward of Balor",
-    "zh": "巴羅爾的護盾",
+    "zh": "巴羅爾護盾",
     "tier": 9,
     "type": "Buff",
     "is_magic": 1,
@@ -12842,6 +13176,7 @@
     "zh": "地城行者",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 66,
@@ -12858,9 +13193,13 @@
     "zh": "破壞王",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "causes": [
       "T. Def ↓",
       "T. Def ↓↓"
+    ],
+    "monsters_use": [
+      353
     ],
     "learned_by": [
       {
@@ -12993,7 +13332,7 @@
     ],
     "monsters_use": [
       345,
-      427,
+      496,
       423,
       403,
       433,
@@ -13056,6 +13395,7 @@
     "zh": "混血魔物",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 67,
@@ -13226,6 +13566,7 @@
     "zh": "引入神力",
     "tier": 9,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 320,
     "gives": [
       "T. All ↑↑↑"
@@ -13421,6 +13762,7 @@
     "zh": "眾神之力 II",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 68,
@@ -13455,6 +13797,10 @@
     "zh": "舉盾",
     "tier": 5,
     "type": "Passive",
+    "is_magic": 1,
+    "monsters_use": [
+      526
+    ],
     "learned_by": [
       {
         "id": 70,
@@ -13623,6 +13969,7 @@
     "zh": "暗殺",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "causes": [
       "Bleeding",
       "T. Def ↓↓↓"
@@ -13643,6 +13990,7 @@
     "zh": "守望者",
     "tier": 7,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 73,
@@ -13668,11 +14016,13 @@
     "pets_use": [
       78,
       91,
+      133,
       93,
       111
     ],
     "monsters_use": [
       409,
+      520,
       406,
       429
     ],
@@ -13715,6 +14065,7 @@
     "zh": "商人",
     "tier": 5,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 75,
@@ -13879,6 +14230,7 @@
     "zh": "瓦爾哈蘭之力 II",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "causes": [
       "Blight"
     ],
@@ -13898,7 +14250,9 @@
     "zh": "堅定不移 II",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "monsters_use": [
+      354,
       355,
       435,
       320
@@ -13921,6 +14275,12 @@
         "name": "Gilgamesh",
         "level": 1,
         "specialization": false
+      },
+      {
+        "id": 77,
+        "name": "Heretic",
+        "level": 225,
+        "specialization": false
       }
     ],
     "description": "You are less likely to be afflicted with a status condition."
@@ -13931,6 +14291,7 @@
     "zh": "護盾回收",
     "tier": 8,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 47,
@@ -13947,6 +14308,7 @@
     "zh": "護盾回收 II",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 64,
@@ -14001,6 +14363,8 @@
     "strikes": 1,
     "crit": 0.25,
     "monsters_use": [
+      522,
+      500,
       301,
       398,
       397,
@@ -14044,6 +14408,7 @@
     "zh": "俠客",
     "tier": 7,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 42,
@@ -14061,12 +14426,81 @@
     "tier": 10,
     "type": "Healing",
     "is_magic": 1,
+    "cures": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Cursed",
+      "Toxic",
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "Res ↓",
+      "Att ↓↓",
+      "Mag ↓↓",
+      "T. Def ↓↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Res ↓↓",
+      "Att ↑",
+      "Def ↑",
+      "Res ↑",
+      "Mag ↑",
+      "Att ↑↑",
+      "Def ↑↑",
+      "Mag ↑↑",
+      "Res ↑↑",
+      "T. Att ↑",
+      "T. Def ↑",
+      "T. Mag ↑",
+      "T. Res ↑",
+      "T. Att ↑↑",
+      "T. Def ↑↑",
+      "T. Mag ↑↑",
+      "T. Res ↑↑",
+      "T. Att ↑↑↑",
+      "T. Mag ↑↑↑",
+      "T. Crit ↑↑",
+      "Rot",
+      "Dmg ↑",
+      "All ↑↑",
+      "Dex ↑",
+      "Crit ↑",
+      "T. All ↑↑↑",
+      "T. Crit ↑",
+      "Dex ↓",
+      "All ↑",
+      "T. Def ↓↓↓",
+      "Lulled",
+      "T. All ↓",
+      "T. Dex ↓",
+      "T. Dex ↑",
+      "T. All ↑",
+      "T.Dex ↑↑↑",
+      "Lyon's Mark",
+      "Stasis"
+    ],
     "monsters_use": [
       424,
+      528,
       362,
       430,
       425,
       426,
+      527,
       423,
       439,
       358
@@ -14088,9 +14522,11 @@
     ],
     "monsters_use": [
       424,
+      528,
       430,
       425,
       426,
+      527,
       422,
       423,
       358
@@ -14123,11 +14559,12 @@
     "monsters_use": [
       12,
       6,
-      92,
       33,
+      92,
       53,
       80,
       489,
+      522,
       297,
       110,
       453,
@@ -14295,7 +14732,8 @@
     "strikes": 1,
     "crit": 0.25,
     "pets_use": [
-      103
+      103,
+      135
     ],
     "monsters_use": [
       407,
@@ -14365,7 +14803,8 @@
       97
     ],
     "monsters_use": [
-      421
+      421,
+      503
     ],
     "learned_by": [
       {
@@ -14397,8 +14836,10 @@
       97
     ],
     "monsters_use": [
+      397,
       421,
-      447
+      447,
+      503
     ],
     "learned_by": [
       {
@@ -14430,7 +14871,8 @@
       81
     ],
     "monsters_use": [
-      421
+      421,
+      503
     ],
     "learned_by": [
       {
@@ -14462,7 +14904,8 @@
     ],
     "monsters_use": [
       445,
-      421
+      421,
+      503
     ],
     "learned_by": [
       {
@@ -14493,8 +14936,10 @@
       97
     ],
     "monsters_use": [
+      528,
       362,
       430,
+      527,
       422,
       414,
       428,
@@ -14530,8 +14975,10 @@
       97
     ],
     "monsters_use": [
+      528,
       362,
       430,
+      527,
       422,
       414,
       428,
@@ -14564,8 +15011,10 @@
     "strikes": 1,
     "crit": 0.2,
     "monsters_use": [
+      528,
       362,
       430,
+      527,
       422,
       414,
       428,
@@ -14598,8 +15047,10 @@
     "strikes": 1,
     "crit": 0.2,
     "monsters_use": [
+      528,
       362,
       430,
+      527,
       414,
       428,
       436,
@@ -14925,7 +15376,7 @@
         "specialization": false
       }
     ],
-    "description": "Atack from the shadows, possibly dealing critical damage and giving Ward for 1 turn."
+    "description": "Attack from the shadows, possibly dealing critical damage and giving Ward for 1 turn."
   },
   {
     "id": 494,
@@ -15152,6 +15603,14 @@
     "is_magic": 1,
     "mana_cost": 80,
     "gives": [
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "T. Def ↓↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Res ↓↓",
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
@@ -15159,15 +15618,7 @@
       "T. Att ↑↑",
       "T. Def ↑↑",
       "T. Mag ↑↑",
-      "T. Res ↑↑",
-      "T. Def ↓",
-      "T. Att ↓",
-      "T. Mag ↓",
-      "T. Res ↓",
-      "T. Mag ↓↓",
-      "T. Res ↓↓",
-      "T. Def ↓↓",
-      "T. Att ↓↓"
+      "T. Res ↑↑"
     ],
     "monsters_use": [
       438
@@ -15185,7 +15636,7 @@
   {
     "id": 502,
     "name": "Magic Arrow IV",
-    "zh": "魔法弓 IV",
+    "zh": "魔法箭矢 IV",
     "tier": 10,
     "type": "Magic",
     "is_magic": 1,
@@ -15215,6 +15666,7 @@
     "zh": "鮮血轉移",
     "tier": 10,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 140,
     "gives": [
       "T. Att ↑",
@@ -15267,6 +15719,7 @@
     "zh": "臨界復甦",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "monsters_use": [
       434
     ],
@@ -15286,6 +15739,7 @@
     "zh": "充能 II",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 79,
@@ -15302,6 +15756,7 @@
     "zh": "藥劑師 III",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 72,
@@ -15318,6 +15773,7 @@
     "zh": "域界之光",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "causes": [
       "Blind"
     ],
@@ -15764,7 +16220,7 @@
   {
     "id": 524,
     "name": "Sacrestrike II",
-    "zh": "神聖之擊",
+    "zh": "神聖之擊 II",
     "tier": 10,
     "type": "Attack",
     "element": "Holy",
@@ -15966,10 +16422,18 @@
     "turns": 2,
     "strikes": 1,
     "crit": 0.25,
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
     "pets_use": [
       97
     ],
     "monsters_use": [
+      524,
+      523,
       422
     ],
     "learned_by": [
@@ -16032,6 +16496,7 @@
     "zh": "半神型態",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 81,
@@ -16048,6 +16513,7 @@
     "zh": "不穩定的元素融合",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 81,
@@ -16056,7 +16522,7 @@
         "specialization": false
       }
     ],
-    "description": "You have abanadoned the traditions of the elements.  For every turn in battle, you may be resistant, weak, or immune to some elements."
+    "description": "You have abandoned the traditions of the elements.  For every turn in battle, you may be resistant, weak, or immune to some elements."
   },
   {
     "id": 535,
@@ -16165,6 +16631,7 @@
     "zh": "卡拉態勢",
     "tier": 10,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 100,
     "monsters_use": [
       437
@@ -16185,6 +16652,7 @@
     "zh": "埃爾態勢",
     "tier": 10,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 100,
     "monsters_use": [
       437
@@ -16228,6 +16696,7 @@
     "zh": "古娜態勢",
     "tier": 10,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 100,
     "learned_by": [
       {
@@ -16245,6 +16714,7 @@
     "zh": "斯洛特拉態勢",
     "tier": 10,
     "type": "Buff",
+    "is_magic": 1,
     "mana_cost": 100,
     "learned_by": [
       {
@@ -16288,6 +16758,7 @@
     "zh": "瓦爾哈蘭的矛盾",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 80,
@@ -16304,6 +16775,7 @@
     "zh": "混血魔物II",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 80,
@@ -16448,7 +16920,7 @@
   {
     "id": 551,
     "name": "Magic Arrow II",
-    "zh": "魔法箭 II",
+    "zh": "魔法箭矢 II",
     "tier": 6,
     "type": "Magic",
     "is_magic": 1,
@@ -16496,6 +16968,11 @@
     "causes": [
       "Res ↓"
     ],
+    "monsters_use": [
+      517,
+      518,
+      519
+    ],
     "learned_by": [
       {
         "id": 65,
@@ -16525,6 +17002,9 @@
       "Def ↓"
     ],
     "monsters_use": [
+      517,
+      518,
+      519,
       487
     ],
     "learned_by": [
@@ -16555,6 +17035,11 @@
     "causes": [
       "Bleeding"
     ],
+    "monsters_use": [
+      517,
+      518,
+      519
+    ],
     "learned_by": [
       {
         "id": 65,
@@ -16568,7 +17053,7 @@
   {
     "id": 555,
     "name": "Magic Arrow III",
-    "zh": "魔法箭 III",
+    "zh": "魔法箭矢 III",
     "tier": 9,
     "type": "Magic",
     "is_magic": 1,
@@ -16581,6 +17066,11 @@
     "crit": 0.05,
     "causes": [
       "Att ↓"
+    ],
+    "monsters_use": [
+      517,
+      518,
+      519
     ],
     "learned_by": [
       {
@@ -16607,6 +17097,9 @@
     "turns": 1,
     "strikes": 3,
     "monsters_use": [
+      517,
+      518,
+      519,
       487
     ],
     "learned_by": [
@@ -16644,7 +17137,7 @@
     "type": "Magic",
     "is_magic": 1,
     "bought": 1,
-    "cost": 2400000000,
+    "cost": 2500000000,
     "mana_cost": 220,
     "m1": 2.5,
     "m2.max": 1,
@@ -16880,7 +17373,8 @@
     "monsters_use": [
       391,
       367,
-      390
+      390,
+      374
     ],
     "description": "-"
   },
@@ -16894,6 +17388,7 @@
     "mana_cost": 5,
     "monsters_use": [
       385,
+      380,
       387,
       371
     ],
@@ -17041,14 +17536,7 @@
     "zh": "奮力求生",
     "tier": 9,
     "type": "Passive",
-    "learned_by": [
-      {
-        "id": 72,
-        "name": "Assassin",
-        "level": 1,
-        "specialization": true
-      }
-    ],
+    "is_magic": 1,
     "description": "Your stats increase when close to falling in battle."
   },
   {
@@ -17057,6 +17545,7 @@
     "zh": "催眠曲 II",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "causes": [
       "Lulled"
     ],
@@ -17076,6 +17565,7 @@
     "zh": "魔力耗竭",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 50,
@@ -17092,6 +17582,7 @@
     "zh": "催眠曲",
     "tier": 7,
     "type": "Passive",
+    "is_magic": 1,
     "causes": [
       "Lulled"
     ],
@@ -17192,6 +17683,7 @@
     "zh": "決鬥者",
     "tier": 5,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 82,
@@ -17208,6 +17700,7 @@
     "zh": "探索者",
     "tier": 5,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 83,
@@ -17224,6 +17717,7 @@
     "zh": "快速詠唱",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 84,
@@ -17308,11 +17802,15 @@
     "zh": "地能附體",
     "tier": 8,
     "type": "Buff",
+    "is_magic": 1,
     "pets_use": [
+      131,
       109
     ],
     "monsters_use": [
+      502,
       275,
+      503,
       428
     ],
     "description": "Aligns you to the element of Earth. You will be immune to earth, weak to fire and deal 50% increased earthen damage. Permanent until overwritten by other alignments."
@@ -17323,11 +17821,15 @@
     "zh": "雷光附體",
     "tier": 8,
     "type": "Buff",
+    "is_magic": 1,
     "pets_use": [
+      131,
       109
     ],
     "monsters_use": [
+      502,
       275,
+      503,
       428
     ],
     "description": "Aligns you to the element of Lightning . You will be immune to lightning, weak to earth and deal 50% increased lightning damage. Permanent until overwritten by other alignments."
@@ -17338,11 +17840,15 @@
     "zh": "火焰附體",
     "tier": 8,
     "type": "Buff",
+    "is_magic": 1,
     "pets_use": [
+      131,
       109
     ],
     "monsters_use": [
+      502,
       275,
+      503,
       428
     ],
     "description": "Aligns you to the element of Fire. You will be immune to fire, weak to water and deal 50% increased fire damage. Permanent until overwritten by other alignments."
@@ -17353,11 +17859,15 @@
     "zh": "寒冰附體",
     "tier": 8,
     "type": "Buff",
+    "is_magic": 1,
     "pets_use": [
+      131,
       109
     ],
     "monsters_use": [
+      502,
       275,
+      503,
       428
     ],
     "description": "Aligns you to the element of Water . You will be immune to water, weak to lightning and deal 50% increased water damage. Permanent until overwritten by other alignments."
@@ -17468,6 +17978,7 @@
     "tier": 1,
     "type": "Multi-round Attack",
     "monsters_use": [
+      501,
       441,
       469,
       439
@@ -17502,6 +18013,7 @@
     "zh": "Defend (Physical)",
     "tier": 6,
     "type": "Buff",
+    "is_magic": 1,
     "monsters_use": [
       277,
       432,
@@ -17515,6 +18027,7 @@
     "zh": "Defend (Magical)",
     "tier": 6,
     "type": "Buff",
+    "is_magic": 1,
     "monsters_use": [
       277,
       432,
@@ -17597,6 +18110,7 @@
     "zh": "根性",
     "tier": 10,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 79,
@@ -17613,9 +18127,7 @@
     "zh": "利器鋪設",
     "tier": 10,
     "type": "Buff",
-    "gives": [
-      "T. Crit ↑↑↑"
-    ],
+    "is_magic": 1,
     "description": "Lay spikes around your opponent, potentially greatly increasing damage and the chance for a critical strike."
   },
   {
@@ -17641,7 +18153,7 @@
     "name": "Upward Strike II",
     "zh": "豬突猛進 II",
     "tier": 10,
-    "type": "Attack",
+    "type": "Multi-round Attack",
     "description": "Attack with both hands gripped tightly, dealing paltry to immense damage.  Requires 2 turns in battle."
   },
   {
@@ -17651,6 +18163,9 @@
     "tier": 10,
     "type": "Ward",
     "is_magic": 1,
+    "pets_use": [
+      136
+    ],
     "description": "Grants temporary defenses and grants Ward for 5 turns."
   },
   {
@@ -17659,6 +18174,7 @@
     "zh": "加速術 III",
     "tier": 7,
     "type": "Buff",
+    "is_magic": 1,
     "gives": [
       "T.Dex ↑↑↑"
     ],
@@ -17691,11 +18207,12 @@
     "zh": "絕命之樹",
     "tier": 7,
     "type": "Buff",
+    "is_magic": 1,
     "monsters_use": [
       445,
       442
     ],
-    "description": "-"
+    "description": "?"
   },
   {
     "id": 618,
@@ -17703,11 +18220,12 @@
     "zh": "生命之樹",
     "tier": 7,
     "type": "Buff",
+    "is_magic": 1,
     "monsters_use": [
       445,
       442
     ],
-    "description": "-"
+    "description": "?"
   },
   {
     "id": 619,
@@ -17755,6 +18273,9 @@
     "type": "Magic",
     "is_magic": 1,
     "mana_cost": 1,
+    "causes": [
+      "Blind"
+    ],
     "monsters_use": [
       449
     ],
@@ -17790,7 +18311,20 @@
     "mana_cost": 200,
     "monsters_use": [
       446,
+      496,
+      505,
+      508,
+      497,
+      503,
       461
+    ],
+    "learned_by": [
+      {
+        "id": 50,
+        "name": "Maji",
+        "level": 200,
+        "specialization": true
+      }
     ],
     "description": "Deals fire damage to all opponents in battle."
   },
@@ -17806,7 +18340,18 @@
     "monsters_use": [
       467,
       468,
-      446
+      446,
+      505,
+      508,
+      503
+    ],
+    "learned_by": [
+      {
+        "id": 50,
+        "name": "Maji",
+        "level": 200,
+        "specialization": true
+      }
     ],
     "description": "Deals ice damage to all opponents in battle."
   },
@@ -17819,6 +18364,20 @@
     "element": "Lightning",
     "is_magic": 1,
     "mana_cost": 200,
+    "monsters_use": [
+      505,
+      508,
+      497,
+      503
+    ],
+    "learned_by": [
+      {
+        "id": 50,
+        "name": "Maji",
+        "level": 200,
+        "specialization": true
+      }
+    ],
     "description": "Deals lightning damage to all opponents in battle."
   },
   {
@@ -17830,6 +18389,19 @@
     "element": "Earthen",
     "is_magic": 1,
     "mana_cost": 200,
+    "monsters_use": [
+      505,
+      508,
+      503
+    ],
+    "learned_by": [
+      {
+        "id": 50,
+        "name": "Maji",
+        "level": 200,
+        "specialization": true
+      }
+    ],
     "description": "Deals earthen damage to all opponents in battle."
   },
   {
@@ -17870,7 +18442,7 @@
     "name": "Wildfire II",
     "zh": "野火 II",
     "tier": 8,
-    "type": "Magic",
+    "type": "AoE Magic",
     "element": "Fire",
     "is_magic": 1,
     "mana_cost": 100,
@@ -17898,6 +18470,9 @@
     "mana_cost": 100,
     "causes": [
       "Paralyzed"
+    ],
+    "pets_use": [
+      135
     ],
     "learned_by": [
       {
@@ -17936,12 +18511,22 @@
     "name": "Wildfire",
     "zh": "野火",
     "tier": 5,
-    "type": "Magic",
+    "type": "AoE Magic",
     "element": "Fire",
     "is_magic": 1,
     "mana_cost": 70,
     "causes": [
       "Burning"
+    ],
+    "pets_use": [
+      134
+    ],
+    "monsters_use": [
+      498,
+      507,
+      509,
+      502,
+      448
     ],
     "learned_by": [
       {
@@ -17967,7 +18552,11 @@
     ],
     "monsters_use": [
       490,
-      463
+      463,
+      507,
+      509,
+      502,
+      448
     ],
     "learned_by": [
       {
@@ -17991,6 +18580,11 @@
     "causes": [
       "Paralyzed"
     ],
+    "monsters_use": [
+      507,
+      509,
+      502
+    ],
     "learned_by": [
       {
         "id": 28,
@@ -18013,6 +18607,14 @@
     "causes": [
       "Rot"
     ],
+    "pets_use": [
+      133
+    ],
+    "monsters_use": [
+      507,
+      509,
+      502
+    ],
     "learned_by": [
       {
         "id": 28,
@@ -18033,6 +18635,9 @@
     "mana_cost": 40,
     "gives": [
       "Foresight ↑"
+    ],
+    "pets_use": [
+      132
     ],
     "learned_by": [
       {
@@ -18109,6 +18714,12 @@
     "causes": [
       "Stasis"
     ],
+    "pets_use": [
+      68
+    ],
+    "monsters_use": [
+      461
+    ],
     "learned_by": [
       {
         "id": 85,
@@ -18176,6 +18787,9 @@
     "causes": [
       "Stasis"
     ],
+    "monsters_use": [
+      515
+    ],
     "learned_by": [
       {
         "id": 87,
@@ -18196,6 +18810,12 @@
     "mana_cost": 160,
     "causes": [
       "Stasis"
+    ],
+    "pets_use": [
+      132
+    ],
+    "monsters_use": [
+      515
     ],
     "learned_by": [
       {
@@ -18388,6 +19008,7 @@
     "zh": "安溫詭計",
     "tier": 9,
     "type": "Passive",
+    "is_magic": 1,
     "learned_by": [
       {
         "id": 72,
@@ -18506,14 +19127,15 @@
     "is_magic": 1,
     "causes": [
       "Lulled"
-    ]
+    ],
+    "description": "Deals moderate non-elemental damage and may lull an opponent."
   },
   {
     "id": 659,
     "name": "Upward Strike",
     "zh": "豬突猛進",
     "tier": 6,
-    "type": "Magic",
+    "type": "Multi-round Attack",
     "description": "Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle."
   },
   {
@@ -18537,7 +19159,9 @@
     ],
     "monsters_use": [
       525,
+      116,
       386,
+      305,
       494,
       304,
       335
@@ -18570,7 +19194,11 @@
       "Doom"
     ],
     "monsters_use": [
-      526
+      119,
+      309,
+      187,
+      526,
+      460
     ],
     "description": "Dooms an opponent."
   },

@@ -52,11 +52,11 @@ id,en,zh,info,info_zh
 51,Reaper,死神,"A stray Reaper of Ankou. It will not attack often, but will wreck havoc when it does.",
 52,Guivre,蛇龍基威爾,An elusive Great Dragon. It can assist in battle with powerful dragon spells.,難以捉摸的巨龍。他能在戰鬥中用強大的龍系法術協助你。
 53,Fae,菲,A great magic fairy. It will cure your status effects in battle,
-54,Griffin,格里芬,"A mighty griffin. It can assist you in battle by improving your dexterity, while casting dragon magic.",
+54,Griffin,格里芬,"A mighty griffin. It can assist you in battle by improving your dexterity, while casting dragon magic.",究極格里芬。它能使用龍系魔法來幫助你戰鬥並提升你的敏捷.
 55,Orichalcum Golem,奧利哈鋼魔像,A golem forged of Orichalcum. It can assist you in battle with Ward and defensive based skills.,奧利哈鋼組成的魔像.其防禦性的技能與護盾能在戰鬥中幫到你.
-56,Mighty Griffin,究極格里芬,"A mighty griffin. It can assist you in battle by improving your critical hit rate, while casting dragon magic.",
+56,Mighty Griffin,究極格里芬,"A mighty griffin. It can assist you in battle by improving your critical hit rate, while casting dragon magic.",究極格里芬。它的龍系魔法能協助你戰鬥並提升你的暴擊機率.
 57,Great Cockatrice,大雞蛇,"The mighty cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle.","強大的雞蛇.能石化或使對手中毒,偶爾還能提升你的敏捷."
-58,Giant Basilisk,巨大巴西利斯克,A Giant Red Basilisk. It will assist in battle by attacking often.,
+58,Giant Basilisk,巨大巴西利斯克,A Giant Red Basilisk. It will assist in battle by attacking often.,巨大的赤紅巴西利斯克.攻擊欲望強烈能幫助你戰鬥.
 59,Ortanite Golem,歐坦尼魔像,A golem forged of Ortanite. It can assist you in battle with Ward and defensive based skills.,用歐坦尼組成的魔像.其防禦性的技能與護盾能在戰鬥中幫助到你.
 60,Chimera,奇美拉,"A fierce Chimera. This follower can cause one to go berserk, while assisting in battle with beastly spells.","兇猛的奇美拉.能使人陷入狂暴,並能施展殘暴的法術."
 61,Undead Golem,不死魔像,A great undead golem. It will assist you in battle by granting and restoring ward.,強大的不死魔像。它會在戰鬥中協助防禦與恢復護盾。
@@ -107,7 +107,7 @@ id,en,zh,info,info_zh
 106,Scruug,史古基,An apparition of greed and envy. Available for a limited time only.,貪婪與忌妒的代名詞.期間限定.
 107,Phoenix,鳳凰,"The mighty Phoenix, arisen once again. Available for a limited time only.",崇偉的鳳凰再次降臨人間.期間限定.
 108,Ashen Phoenix,蒼白鳳凰,"The mighty Phoenix, fallen once again. Available for a limited time only.",崇偉的鳳凰再次降臨人間.期間限定.
-109,Kerberos,刻耳柏洛斯,Arisen from the deep depths of the Underworld. Available for a limited time only.,
+109,Kerberos,刻耳柏洛斯,Arisen from the deep depths of the Underworld. Available for a limited time only.,從冥府深淵重生.期間限定.
 110,Arisen Naggeneen,重生納根因,"Oh, the foul fairy Naggeneen. Available for limited time.",
 111,Fey Cactus,變異仙人掌,A most plagued cactus. It can assist you in battle with barrages of needles.,很擾人的仙人掌，能用細針彈幕幫助你戰鬥。
 112,Raging Cerus,暴怒凱魯斯,The untamed beast. Available for a limited time only.,桀驁不馴的野獸.期間限定.
@@ -129,10 +129,10 @@ id,en,zh,info,info_zh
 128,Cruel Banshee,惡毒報喪女妖,The reason one would want a banshee with them is still quite unknown. Available for a limited time only.,人們帶著報喪女妖的理由依舊成謎。限時特賣。
 129,Alfar Mage,古精靈法師,A small follower of Scruug. Available for a limited time only.,守財奴史古基的小寵物。限時特賣。
 130,Alfar,古精靈,A small follower of Scruug. Available for a limited time only.,守財奴史古基的小寵物。限時特賣。
-131,Kin of Kerberos,,Arisen from the deep depths of the Underworld. Available for a limited time only.,
-132,Amadan,,Available for a limited time only.,期間限定。
-133,Steward Cactus,,A Steward in the form of a Cactus.,
-134,Steward Dragon,,A Steward in the form of a dragon.,
-135,Steward Gazer,,A Steward in the form of a Gazer.,
-136,Steward Golem,,A Steward in the form of a golem.,
-137,Steward Wolf,,A Steward in the form of a wolf.,
+131,Kin of Kerberos,刻耳柏洛斯之子,Arisen from the deep depths of the Underworld. Available for a limited time only.,從冥府深淵重生.期間限定.
+132,Amadan,阿瑪丹,Available for a limited time only.,期間限定。
+133,Steward Cactus,眷族仙人掌,A Steward in the form of a Cactus.,
+134,Steward Dragon,眷族之龍,A Steward in the form of a dragon.,
+135,Steward Gazer,眷族凝視者,A Steward in the form of a Gazer.,
+136,Steward Golem,眷族魔像,A Steward in the form of a golem.,
+137,Steward Wolf,眷族之狼,A Steward in the form of a wolf.,

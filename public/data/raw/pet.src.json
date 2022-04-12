@@ -1077,12 +1077,11 @@
     "tier": 10,
     "cost": 4000000,
     "skills": [
-      277,
-      328,
-      326,
-      278,
-      279,
-      280
+      372,
+      374,
+      639,
+      376,
+      377
     ],
     "stats.debuff": 12,
     "stats.spell": 7,
@@ -1823,8 +1822,8 @@
     "skills": [
       396,
       397,
-      398,
       400,
+      398,
       366,
       399
     ],
@@ -1832,7 +1831,7 @@
     "stats.protect": 1,
     "stats.debuff": 8,
     "stats.spell": 20,
-    "image": "bosses/naggeneen.png",
+    "image": "bosses/arisen_naggeneen.png",
     "description": "Oh, the foul fairy Naggeneen. Available for limited time."
   },
   {
@@ -2193,6 +2192,7 @@
     "name": "Kin of Kerberos",
     "zh": "刻耳柏洛斯之子",
     "tier": 5,
+    "cost": 0,
     "skills": [
       591,
       593,
@@ -2218,13 +2218,13 @@
     "stats.protect": 2,
     "stats.buff": 4,
     "stats.spell": 20,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/amadan.png",
     "description": "Available for a limited time only."
   },
   {
     "id": 133,
     "name": "Steward Cactus",
-    "zh": "Steward Cactus",
+    "zh": "眷族仙人掌",
     "tier": 8,
     "cost": 0,
     "skills": [
@@ -2238,7 +2238,7 @@
   {
     "id": 134,
     "name": "Steward Dragon",
-    "zh": "Steward Dragon",
+    "zh": "眷族之龍",
     "tier": 8,
     "cost": 0,
     "skills": [
@@ -2254,7 +2254,7 @@
   {
     "id": 135,
     "name": "Steward Gazer",
-    "zh": "Steward Gazer",
+    "zh": "眷族凝視者",
     "tier": 8,
     "cost": 0,
     "skills": [
@@ -2269,7 +2269,7 @@
   {
     "id": 136,
     "name": "Steward Golem",
-    "zh": "Steward Golem",
+    "zh": "眷族魔像",
     "tier": 8,
     "cost": 0,
     "skills": [
@@ -2284,7 +2284,7 @@
   {
     "id": 137,
     "name": "Steward Wolf",
-    "zh": "Steward Wolf",
+    "zh": "眷族之狼",
     "tier": 8,
     "cost": 0,
     "skills": [

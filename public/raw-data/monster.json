@@ -301,7 +301,11 @@
     "quests": [
       {
         "id": 38,
-        "name": "Goblins"
+        "name": "[The Aftermath] Goblins"
+      },
+      {
+        "id": 74,
+        "name": "Too many goblins"
       }
     ]
   },
@@ -345,7 +349,11 @@
     "quests": [
       {
         "id": 39,
-        "name": "Magic"
+        "name": "[The Aftermath] Magic"
+      },
+      {
+        "id": 74,
+        "name": "Too many goblins"
       }
     ]
   },
@@ -538,7 +546,7 @@
     "quests": [
       {
         "id": 37,
-        "name": "993 DCE"
+        "name": "[The Aftermath] 993 DCE"
       }
     ]
   },
@@ -682,7 +690,11 @@
     "quests": [
       {
         "id": 41,
-        "name": "Lord of Goblins"
+        "name": "[The Aftermath] Lord of Goblins"
+      },
+      {
+        "id": 75,
+        "name": "The Lord of Goblins"
       }
     ]
   },
@@ -764,6 +776,10 @@
     "quests": [
       {
         "id": 42,
+        "name": "[The Aftermath] The Draconians"
+      },
+      {
+        "id": 77,
         "name": "The Draconians"
       }
     ]
@@ -902,7 +918,11 @@
     "quests": [
       {
         "id": 43,
-        "name": "Mages of Draconia"
+        "name": "[The Aftermath] Mages of Draconia"
+      },
+      {
+        "id": 77,
+        "name": "The Draconians"
       }
     ]
   },
@@ -1396,7 +1416,11 @@
     "quests": [
       {
         "id": 44,
-        "name": "Lords of Draconia"
+        "name": "[The Aftermath] Lords of Draconia"
+      },
+      {
+        "id": 82,
+        "name": "The Draconian Lord"
       }
     ]
   },
@@ -2638,7 +2662,7 @@
     "quests": [
       {
         "id": 48,
-        "name": "The Fomorians"
+        "name": "[The Aftermath] The Fomorians"
       }
     ],
     "buffs": [
@@ -2732,7 +2756,7 @@
     "quests": [
       {
         "id": 48,
-        "name": "The Fomorians"
+        "name": "[The Aftermath] The Fomorians"
       }
     ],
     "buffs": [
@@ -2915,12 +2939,12 @@
     ],
     "quests": [
       {
-        "id": 15,
-        "name": "Beast of the Sea"
+        "id": 46,
+        "name": "[The Aftermath] King of Lizarr"
       },
       {
-        "id": 46,
-        "name": "King of Lizarr"
+        "id": 15,
+        "name": "Beast of the Sea"
       }
     ]
   },
@@ -3219,7 +3243,7 @@
     "quests": [
       {
         "id": 47,
-        "name": "The Pharaoh"
+        "name": "[The Aftermath] The Pharaoh"
       }
     ]
   },
@@ -3327,7 +3351,7 @@
     "quests": [
       {
         "id": 49,
-        "name": "The Undead Giant"
+        "name": "[The Aftermath] The Undead Giant"
       }
     ]
   },
@@ -3993,7 +4017,7 @@
     "quests": [
       {
         "id": 52,
-        "name": "Reapers of Ankou"
+        "name": "[The Aftermath] Reapers of Ankou"
       }
     ]
   },
@@ -4225,7 +4249,7 @@
     "quests": [
       {
         "id": 50,
-        "name": "Carman's Pet"
+        "name": "[The Aftermath] Carman's Pet"
       }
     ]
   },
@@ -4282,7 +4306,7 @@
     "quests": [
       {
         "id": 59,
-        "name": "The Eyes of Ra"
+        "name": "[The Aftermath] The Eyes of Ra"
       }
     ]
   },
@@ -4761,6 +4785,10 @@
         "name": "Burn"
       },
       {
+        "id": 661,
+        "name": "Confuse"
+      },
+      {
         "id": 48,
         "name": "Drain"
       },
@@ -4815,12 +4843,12 @@
     ],
     "quests": [
       {
-        "id": 25,
-        "name": "Slayer of Artifice"
+        "id": 58,
+        "name": "[The Aftermath] The Great Witch"
       },
       {
-        "id": 58,
-        "name": "The Great Witch"
+        "id": 25,
+        "name": "Slayer of Artifice"
       }
     ]
   },
@@ -4875,12 +4903,12 @@
     ],
     "quests": [
       {
-        "id": 26,
-        "name": "A Hunt of Heads"
+        "id": 53,
+        "name": "[The Aftermath] Hound of Balor"
       },
       {
-        "id": 53,
-        "name": "Hound of Balor"
+        "id": 26,
+        "name": "A Hunt of Heads"
       }
     ],
     "buffs": [
@@ -4988,6 +5016,10 @@
     ],
     "skills": [
       {
+        "id": 663,
+        "name": "Doom II"
+      },
+      {
         "id": 48,
         "name": "Drain"
       },
@@ -5015,7 +5047,7 @@
     "quests": [
       {
         "id": 55,
-        "name": "Ankou"
+        "name": "[The Aftermath] Ankou"
       }
     ]
   },
@@ -5089,7 +5121,7 @@
     "quests": [
       {
         "id": 54,
-        "name": "Tiamat"
+        "name": "[The Aftermath] Tiamat"
       },
       {
         "id": 29,
@@ -5156,7 +5188,7 @@
     "quests": [
       {
         "id": 60,
-        "name": "Return of the Draconians"
+        "name": "[The Aftermath] Return of the Draconians"
       }
     ]
   },
@@ -5460,7 +5492,7 @@
     "quests": [
       {
         "id": 51,
-        "name": "Of Dragons"
+        "name": "[The Aftermath] Of Dragons"
       }
     ],
     "buffs": [
@@ -6108,7 +6140,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ]
   },
@@ -6123,8 +6155,8 @@
     ],
     "drops": [
       {
-        "id": 237,
-        "name": "Mage's Ring"
+        "id": 1395,
+        "name": "Spellsword's Ring"
       },
       {
         "id": 333,
@@ -6204,7 +6236,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ]
   },
@@ -6270,7 +6302,7 @@
     "quests": [
       {
         "id": 56,
-        "name": "The Ljosalfar"
+        "name": "[The Aftermath] The Ljosalfar"
       }
     ]
   },
@@ -6403,7 +6435,7 @@
     "quests": [
       {
         "id": 61,
-        "name": "The Elven Lords"
+        "name": "[The Aftermath] The Elven Lords"
       }
     ]
   },
@@ -7751,7 +7783,7 @@
     "quests": [
       {
         "id": 62,
-        "name": "The Army of Balor"
+        "name": "[The Aftermath] The Army of Balor"
       }
     ],
     "buffs": [
@@ -7792,7 +7824,7 @@
     "quests": [
       {
         "id": 62,
-        "name": "The Army of Balor"
+        "name": "[The Aftermath] The Army of Balor"
       }
     ],
     "buffs": [
@@ -7850,7 +7882,7 @@
     "quests": [
       {
         "id": 62,
-        "name": "The Army of Balor"
+        "name": "[The Aftermath] The Army of Balor"
       }
     ],
     "buffs": [
@@ -7966,6 +7998,11 @@
     "boss": true,
     "image": "bosses/king_balor.png",
     "level": 220,
+    "spawns": [
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -7997,6 +8034,10 @@
         "name": "Darkstrike II"
       },
       {
+        "id": 663,
+        "name": "Doom II"
+      },
+      {
         "id": 184,
         "name": "Nightmare II"
       },
@@ -8016,7 +8057,7 @@
     "quests": [
       {
         "id": 63,
-        "name": "Balor"
+        "name": "[The Aftermath] Balor"
       },
       {
         "id": 36,
@@ -8087,6 +8128,12 @@
     "tier": 1,
     "boss": false,
     "image": "monsters/rat.png",
+    "quests": [
+      {
+        "id": 72,
+        "name": "The Unfelled"
+      }
+    ],
     "buffs": [
       {
         "id": 32,
@@ -8485,7 +8532,7 @@
     "quests": [
       {
         "id": 60,
-        "name": "Return of the Draconians"
+        "name": "[The Aftermath] Return of the Draconians"
       }
     ]
   },
@@ -8526,7 +8573,7 @@
     "quests": [
       {
         "id": 60,
-        "name": "Return of the Draconians"
+        "name": "[The Aftermath] Return of the Draconians"
       }
     ]
   },
@@ -8548,6 +8595,10 @@
       {
         "id": 108,
         "name": "Blast II"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
       }
     ]
   },
@@ -8578,6 +8629,10 @@
       {
         "id": 136,
         "name": "Prism Wall"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
       },
       {
         "id": 138,
@@ -8612,6 +8667,10 @@
       {
         "id": 210,
         "name": "Quake III"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
       },
       {
         "id": 181,
@@ -9042,6 +9101,36 @@
         "id": 433,
         "name": "Crystalis"
       }
+    ],
+    "skills": [
+      {
+        "id": 130,
+        "name": "Comet"
+      },
+      {
+        "id": 204,
+        "name": "Omnistrike III"
+      },
+      {
+        "id": 367,
+        "name": "Rebirth"
+      },
+      {
+        "id": 163,
+        "name": "Riposte"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
+      },
+      {
+        "id": 180,
+        "name": "Wail"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      }
     ]
   },
   {
@@ -9226,12 +9315,12 @@
     ],
     "quests": [
       {
-        "id": 32,
-        "name": "Dokkalfar Forces"
+        "id": 57,
+        "name": "[The Aftermath] The Dokkalfar"
       },
       {
-        "id": 57,
-        "name": "The Dokkalfar"
+        "id": 32,
+        "name": "Dokkalfar Forces"
       }
     ]
   },
@@ -9284,12 +9373,12 @@
     ],
     "quests": [
       {
-        "id": 33,
-        "name": "Dokkalfar Knights"
+        "id": 57,
+        "name": "[The Aftermath] The Dokkalfar"
       },
       {
-        "id": 57,
-        "name": "The Dokkalfar"
+        "id": 33,
+        "name": "Dokkalfar Knights"
       }
     ]
   },
@@ -9408,12 +9497,12 @@
     ],
     "quests": [
       {
-        "id": 34,
-        "name": "Dokkalfar Lords"
+        "id": 61,
+        "name": "[The Aftermath] The Elven Lords"
       },
       {
-        "id": 61,
-        "name": "The Elven Lords"
+        "id": 34,
+        "name": "Dokkalfar Lords"
       }
     ]
   },
@@ -9592,7 +9681,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ]
   },
@@ -9667,7 +9756,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ]
   },
@@ -10000,12 +10089,12 @@
     ],
     "quests": [
       {
-        "id": 4,
-        "name": "Hermes' Revenge"
+        "id": 40,
+        "name": "[The Aftermath] Lord of the Bandits"
       },
       {
-        "id": 40,
-        "name": "Lord of the Bandits"
+        "id": 4,
+        "name": "Hermes' Revenge"
       }
     ]
   },
@@ -10182,7 +10271,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ]
   },
@@ -10261,7 +10350,7 @@
     "quests": [
       {
         "id": 64,
-        "name": "Fallen Gods"
+        "name": "[The Aftermath] Fallen Gods"
       }
     ]
   },
@@ -11082,12 +11171,12 @@
     ],
     "quests": [
       {
-        "id": 35,
-        "name": "Dokkalfar Magic"
+        "id": 57,
+        "name": "[The Aftermath] The Dokkalfar"
       },
       {
-        "id": 57,
-        "name": "The Dokkalfar"
+        "id": 35,
+        "name": "Dokkalfar Magic"
       }
     ]
   },
@@ -12314,7 +12403,7 @@
     "image": "bosses/naggeneen.png",
     "level": 175,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "resistant_to": [
       "Earthen"
@@ -12335,10 +12424,7 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "drops": [
       {
@@ -12356,6 +12442,10 @@
       {
         "id": 454,
         "name": "Berserk Mushroom"
+      },
+      {
+        "id": 12,
+        "name": "Panacea"
       },
       {
         "id": 575,
@@ -12376,6 +12466,10 @@
       {
         "id": 1313,
         "name": "Fairy's Wand"
+      },
+      {
+        "id": 1546,
+        "name": "Naggeneen's Belt"
       },
       {
         "id": 577,
@@ -12506,7 +12600,7 @@
     "image": "bosses/kerberos.png",
     "level": 200,
     "spawns": [
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to": [
       "Dark",
@@ -12905,10 +12999,6 @@
       {
         "id": 583,
         "name": "Untamed Bull"
-      },
-      {
-        "id": 1067,
-        "name": "Untamed Bull's Eye"
       }
     ],
     "skills": [
@@ -13029,8 +13119,18 @@
     "spawns": [
       "Kingdom Raid"
     ],
-    "vulnerable_to_status": [
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -13169,7 +13269,8 @@
     "image": "bosses/mammon.png",
     "level": 250,
     "spawns": [
-      "World Only"
+      "Regular Dungeon (T9)",
+      "World"
     ],
     "resistant_to": [
       "Arcane",
@@ -13277,7 +13378,7 @@
     "quests": [
       {
         "id": 65,
-        "name": "Mammon"
+        "name": "[The Aftermath] Mammon"
       }
     ]
   },
@@ -14594,6 +14695,10 @@
     ],
     "skills": [
       {
+        "id": 661,
+        "name": "Confuse"
+      },
+      {
         "id": 277,
         "name": "Flame V"
       },
@@ -14676,6 +14781,10 @@
       }
     ],
     "skills": [
+      {
+        "id": 661,
+        "name": "Confuse"
+      },
       {
         "id": 256,
         "name": "Despair"
@@ -14950,6 +15059,10 @@
         "name": "Darkstrike III"
       },
       {
+        "id": 663,
+        "name": "Doom II"
+      },
+      {
         "id": 326,
         "name": "Forbidden Art"
       },
@@ -15017,28 +15130,16 @@
         "name": "Darkstrike III"
       },
       {
+        "id": 662,
+        "name": "Doom"
+      },
+      {
         "id": 327,
         "name": "Drain III"
       },
       {
-        "id": 199,
-        "name": "Earthstrike III"
-      },
-      {
-        "id": 197,
-        "name": "Firestrike III"
-      },
-      {
         "id": 337,
         "name": "Guarding Strikes"
-      },
-      {
-        "id": 198,
-        "name": "Icestrike III"
-      },
-      {
-        "id": 200,
-        "name": "Lightningstrike III"
       },
       {
         "id": 366,
@@ -16778,6 +16879,10 @@
     ],
     "skills": [
       {
+        "id": 661,
+        "name": "Confuse"
+      },
+      {
         "id": 123,
         "name": "Faith II"
       },
@@ -16908,10 +17013,10 @@
     "name": "Arisen Naggeneen",
     "tier": 9,
     "boss": true,
-    "image": "bosses/naggeneen.png",
+    "image": "bosses/arisen_naggeneen.png",
     "level": 225,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "resistant_to": [
       "Earthen"
@@ -16993,6 +17098,10 @@
       {
         "id": 1312,
         "name": "Fairy's Tanto"
+      },
+      {
+        "id": 1546,
+        "name": "Naggeneen's Belt"
       },
       {
         "id": 1307,
@@ -18643,9 +18752,11 @@
     "tier": 7,
     "boss": true,
     "image": "bosses/phoenix.png",
-    "level": 0,
+    "level": 175,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Rise of the Phoenix",
+      "World Raid"
     ],
     "resistant_to": [
       "Lightning"
@@ -20280,8 +20391,10 @@
     "boss": false,
     "image": "monsters/gateway.png",
     "spawns": [
-      "Gauntlet Only",
-      "Moon Only"
+      "Chaos Portal",
+      "Moon Only",
+      "Regular Gauntlet",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -20343,6 +20456,10 @@
       }
     ],
     "skills": [
+      {
+        "id": 661,
+        "name": "Confuse"
+      },
       {
         "id": 467,
         "name": "Fey Flame"
@@ -23506,12 +23623,30 @@
     "tier": 9,
     "boss": true,
     "image": "bosses/phoenix.png",
-    "level": 0,
+    "level": 225,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Rise of the Phoenix",
+      "World Raid"
+    ],
+    "resistant_to": [
+      "Lightning"
     ],
     "immune_to": [
       "Fire"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -23693,10 +23828,6 @@
         "name": "Heat Lightning II"
       },
       {
-        "id": 422,
-        "name": "Lusus Naturae II"
-      },
-      {
         "id": 413,
         "name": "Omnistrikes"
       },
@@ -23714,7 +23845,9 @@
     "image": "bosses/kerberos.png",
     "level": 245,
     "spawns": [
-      "Event: Rise of Kerberos"
+      "Kingdom Raid",
+      "Past Event: Rise of Kerberos",
+      "World Raid"
     ],
     "immune_to": [
       "Dark",
@@ -24508,7 +24641,7 @@
     "name": "Fallen Realmshifter",
     "tier": 10,
     "boss": true,
-    "image": "classes/realmshifter/default_f.png",
+    "image": "bosses/fallen_realmshifter.png",
     "level": 240,
     "immune_to": [
       "Dark",
@@ -24567,7 +24700,7 @@
     "name": "Fallen Gilgamesh",
     "tier": 10,
     "boss": true,
-    "image": "classes/gilgamesh/1_m.png",
+    "image": "bosses/fallen_gilgamesh.png",
     "level": 240,
     "resistant_to": [
       "Dragon"
@@ -24624,7 +24757,7 @@
     "name": "Fallen Heretic",
     "tier": 10,
     "boss": true,
-    "image": "classes/heretic/default_f.png",
+    "image": "bosses/fallen_heretic.png",
     "level": 240,
     "resistant_to": [
       "Earthen",
@@ -26345,7 +26478,8 @@
     "image": "bosses/lugus.png",
     "level": 0,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event: Balor Invades"
     ],
     "immune_to": [
       "Dark",
@@ -26471,7 +26605,10 @@
     "image": "bosses/dagda.png",
     "level": 140,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -26571,6 +26708,11 @@
     "tier": 9,
     "boss": false,
     "image": "monsters/elite_balor_warrior.png",
+    "spawns": [
+      "Past Event: Balor Invades",
+      "Underworld Portal",
+      "World"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -26617,6 +26759,12 @@
     "tier": 9,
     "boss": false,
     "image": "monsters/elite_balor_mage.png",
+    "spawns": [
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
+    ],
     "weak_to": [
       "Arcane"
     ],
@@ -26664,7 +26812,11 @@
     "boss": false,
     "image": "monsters/elite_balor_rogue.png",
     "spawns": [
-      "Day Only"
+      "Day Only",
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -26693,7 +26845,10 @@
     "boss": false,
     "image": "monsters/elite_balor_guardian.png",
     "spawns": [
-      "Night Only"
+      "Night Only",
+      "Past Event: Balor Invades",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -26727,8 +26882,8 @@
     "image": "bosses/king_balor.png",
     "level": 240,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -26767,6 +26922,10 @@
         "name": "Darkstrike II"
       },
       {
+        "id": 663,
+        "name": "Doom II"
+      },
+      {
         "id": 184,
         "name": "Nightmare II"
       },
@@ -26792,8 +26951,9 @@
     "image": "bosses/dagda.png",
     "level": 240,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Arcane"
@@ -27717,7 +27877,10 @@
     "boss": false,
     "image": "monsters/balor_flame.png",
     "spawns": [
-      "Sun Only"
+      "Mystic Cave",
+      "Past Event: Balor Invades",
+      "Sun Only",
+      "World"
     ],
     "weak_to": [
       "Arcane",
@@ -28083,8 +28246,9 @@
     "image": "bosses/balor_worm.png",
     "level": 125,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Past Event: Balor Invades",
+      "Regular Gauntlet",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -28383,8 +28547,10 @@
     "boss": false,
     "image": "monsters/gateway.png",
     "spawns": [
-      "Gauntlet Only",
-      "Moon Only"
+      "Chaos Portal",
+      "Moon Only",
+      "Regular Gauntlet",
+      "Underworld Portal"
     ],
     "weak_to": [
       "Arcane"
@@ -28447,6 +28613,10 @@
     ],
     "skills": [
       {
+        "id": 661,
+        "name": "Confuse"
+      },
+      {
         "id": 467,
         "name": "Fey Flame"
       },
@@ -28477,8 +28647,8 @@
     "image": "bosses/ashen_phoenix.png",
     "level": 200,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "resistant_to": [
       "Holy",
@@ -28573,7 +28743,8 @@
     "boss": false,
     "image": "packs/phoenician/2_f.png",
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "drops": [
       {
@@ -28620,8 +28791,8 @@
     "image": "bosses/phoenix.png",
     "level": 100,
     "spawns": [
-      "Gauntlet Only",
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "resistant_to": [
       "Holy",
@@ -28716,7 +28887,8 @@
     "boss": false,
     "image": "packs/phoenician/2_f.png",
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "drops": [
       {
@@ -28758,7 +28930,8 @@
     "boss": false,
     "image": "packs/phoenician/1_m.png",
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "drops": [
       {
@@ -28808,7 +28981,8 @@
     "boss": false,
     "image": "packs/phoenician/1_m.png",
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Dragon Roost",
+      "Past Event: Rise of the Phoenix"
     ],
     "drops": [
       {
@@ -28864,7 +29038,7 @@
     "level": 220,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -28950,7 +29124,7 @@
     "level": 220,
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29031,7 +29205,7 @@
     "image": "packs/kerberos/3_f.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29076,7 +29250,7 @@
     "image": "packs/kerberos/1_m.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29129,7 +29303,7 @@
     "image": "packs/kerberos/2_m.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29174,7 +29348,7 @@
     "image": "packs/kerberos/1_m.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29227,7 +29401,7 @@
     "image": "packs/kerberos/1_f.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29280,7 +29454,7 @@
     "image": "packs/kerberos/1_f.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29333,7 +29507,7 @@
     "image": "packs/kerberos/3_f.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29378,7 +29552,7 @@
     "image": "packs/kerberos/2_m.png",
     "spawns": [
       "Beast Den",
-      "Event: Rise of Kerberos"
+      "Past Event: Rise of Kerberos"
     ],
     "immune_to_status": [
       "Burning",
@@ -29420,10 +29594,10 @@
     "name": "Cormac",
     "tier": 6,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/cormac.png",
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29455,10 +29629,10 @@
     "name": "Amergin",
     "tier": 6,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/amergin.png",
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29490,10 +29664,10 @@
     "name": "Aine",
     "tier": 4,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/aine.png",
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Goblin Fortress"
+      "Goblin Fortress",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29525,10 +29699,10 @@
     "name": "Conall",
     "tier": 4,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/conall.png",
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Goblin Fortress"
+      "Goblin Fortress",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29560,10 +29734,10 @@
     "name": "Finn",
     "tier": 4,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/finn.png",
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Goblin Fortress"
+      "Goblin Fortress",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29595,11 +29769,11 @@
     "name": "Amadan",
     "tier": 8,
     "boss": true,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/amadan.png",
     "level": 195,
     "spawns": [
       "Chaos Portal",
-      "Event: The Mischievous Clurichauns"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29647,10 +29821,10 @@
     "name": "Beag",
     "tier": 8,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/beag.png",
     "spawns": [
       "Chaos Portal",
-      "Event: The Mischievous Clurichauns"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29698,10 +29872,10 @@
     "name": "Fergus",
     "tier": 8,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/fergus.png",
     "spawns": [
       "Chaos Portal",
-      "Event: The Mischievous Clurichauns"
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29749,10 +29923,10 @@
     "name": "Bricriu",
     "tier": 6,
     "boss": false,
-    "image": "wards/tower_shield.png",
+    "image": "monsters/bricriu.png",
     "spawns": [
-      "Event: The Mischievous Clurichauns",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Mischievous Clurichauns"
     ],
     "drops": [
       {
@@ -29817,6 +29991,10 @@
     "boss": true,
     "image": "statuses/confuse.png",
     "level": 120,
+    "spawns": [
+      "Regular Dungeon (T5)",
+      "World"
+    ],
     "weak_to": [
       "Holy"
     ],
@@ -29876,6 +30054,10 @@
     "boss": true,
     "image": "statuses/confuse.png",
     "level": 180,
+    "spawns": [
+      "Regular Dungeon (T7)",
+      "World"
+    ],
     "drops": [
       {
         "id": 268,
@@ -29957,7 +30139,9 @@
     "image": "statuses/confuse.png",
     "level": 90,
     "spawns": [
-      "Day Only"
+      "Day Only",
+      "Underworld Portal",
+      "World"
     ],
     "weak_to": [
       "Dark"
@@ -30362,7 +30546,8 @@
     "level": 150,
     "spawns": [
       "Kingdom Raid",
-      "Past Event: Fool of April"
+      "Past Event: Fool of April",
+      "World Raid"
     ],
     "resistant_to": [
       "Dark",
