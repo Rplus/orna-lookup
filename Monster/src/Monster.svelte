@@ -102,11 +102,14 @@
 
     <Chart types={skill_types} />
 
-    <div class="text-center">
-      <em>
-        Spawns: {monster.spawns}
-      </em>
-    </div>
+    {#if monster.spawns}
+      <dl class="spawns">
+        <dt>Spawns:</dt>
+        {#each monster.spawns as spawn}
+          <dd>{spawn}</dd>
+        {/each}
+      </dl>
+    {/if}
   </details>
 
   <hr>
@@ -153,6 +156,16 @@
     justify-content: center;
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+
+  .spawns {
+    width: fit-content;
+    margin: 0 auto;
+    font-style: italic;
+  }
+
+  .spawns dd::before {
+    content: '* ';
   }
 
   dt {
