@@ -67,7 +67,7 @@ export default {
       'resistant_to',
 
       'immune_to_status',
-      'vulnerable_to_status',
+      // 'vulnerable_to_status',
 
       'skills',
       'drops',

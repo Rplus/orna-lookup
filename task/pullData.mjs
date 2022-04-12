@@ -13,6 +13,13 @@ if (type === 'pet' || !type) {
     outputJSON(d, './public/data/raw/pet.src.json');
     outputJSON(d, './public/data/pet.min.json', null);
   });
+
+  getData('pet-newer').then(d => {
+    outputJSON(d, './public/data/raw/pet2.raw.json');
+    d = clearData(d);
+    outputJSON(d, './public/data/raw/pet2.src.json');
+   // outputJSON(d, './public/data/pet2.min.json', null);
+  });
 }
 
 if (type === 'monster' || !type) {
@@ -22,6 +29,13 @@ if (type === 'monster' || !type) {
     outputJSON(d, './public/data/raw/monster.src.json');
     outputJSON(d, './public/data/monster.min.json', null);
   });
+
+  // getData('monster-newer').then(d => {
+  //   outputJSON(d, './public/data/raw/monster2.raw.json');
+  //   d = clearData(d);
+  //   outputJSON(d, './public/data/raw/monster2.src.json');
+  //  // outputJSON(d, './public/data/monster2.min.json', null);
+  // });
 }
 
 if (type === 'skill' || !type) {
@@ -31,6 +45,13 @@ if (type === 'skill' || !type) {
     outputJSON(d, './public/data/raw/skill.src.json');
     outputJSON(d, './public/data/skill.min.json', null);
   });
+
+  // getData('skill-newer').then(d => {
+  //   outputJSON(d, './public/data/raw/skill2.raw.json');
+  //   d = clearData(d);
+  //   outputJSON(d, './public/data/raw/skill2.src.json');
+  //  // outputJSON(d, './public/data/skill2.min.json', null);
+  // });
 }
 
 if (type === 'item' || !type) {
