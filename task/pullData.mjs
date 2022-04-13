@@ -14,12 +14,12 @@ if (type === 'pet' || !type) {
     outputJSON(d, './public/data/pet.min.json', null);
   });
 
-  getData('pet-newer').then(d => {
-    outputJSON(d, './public/data/raw/pet2.raw.json');
-    d = clearData(d);
-    outputJSON(d, './public/data/raw/pet2.src.json');
-   // outputJSON(d, './public/data/pet2.min.json', null);
-  });
+  // getData('pet-newer').then(d => {
+  //   outputJSON(d, './public/data/raw/pet2.raw.json');
+  //   d = clearData(d);
+  //   outputJSON(d, './public/data/raw/pet2.src.json');
+  //  // outputJSON(d, './public/data/pet2.min.json', null);
+  // });
 }
 
 if (type === 'monster' || !type) {
