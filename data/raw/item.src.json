@@ -27983,6 +27983,10 @@
     "stats.magic": 20,
     "stats.dexterity": 60,
     "stats.mana": 12,
+    "prevents": [
+      "Burning",
+      "Blind"
+    ],
     "dropped_by": [
       374
     ],
@@ -28350,6 +28354,10 @@
     "category": "archistaffs",
     "stats.magic": 260,
     "stats.mana": 50,
+    "prevents": [
+      "Burning",
+      "Blind"
+    ],
     "dropped_by": [
       374
     ],
@@ -28759,6 +28767,10 @@
     "stats.attack": 260,
     "stats.hp": 25,
     "stats.mana": 25,
+    "prevents": [
+      "Burning",
+      "Blind"
+    ],
     "dropped_by": [
       374
     ],
