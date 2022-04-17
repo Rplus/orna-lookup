@@ -220,7 +220,6 @@
       "Dex ↓"
     ],
     "dropped_by": [
-      33,
       347,
       362,
       430,
@@ -410,6 +409,9 @@
       "Mage",
       "Thief",
       "Warrior"
+    ],
+    "dropped_by": [
+      33
     ],
     "image": "useables/torch.png",
     "other_effect": [
@@ -612,9 +614,6 @@
       "Mage",
       "Thief",
       "Warrior"
-    ],
-    "dropped_by": [
-      33
     ],
     "image": "useables/great_remains.png",
     "rarity": "p",
@@ -5088,6 +5087,9 @@
       "Thief",
       "Warrior"
     ],
+    "dropped_by": [
+      33
+    ],
     "image": "acc/money_bag.png",
     "other_effect": [
       "金幣加成: 1.05"
@@ -5114,6 +5116,7 @@
     "dropped_by": [
       27,
       44,
+      33,
       49
     ],
     "image": "acc/crystal_eye.png",
@@ -5150,6 +5153,9 @@
       "Mage",
       "Thief",
       "Warrior"
+    ],
+    "dropped_by": [
+      33
     ],
     "image": "acc/lantern.png",
     "other_effect": [
@@ -5388,6 +5394,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      33,
       66
     ],
     "quests": [
@@ -5564,6 +5571,7 @@
     "dropped_by": [
       465,
       14,
+      33,
       163,
       58,
       466,
@@ -5877,6 +5885,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      33,
       65,
       258,
       128,
@@ -5960,6 +5969,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      33,
       60,
       303,
       444,
@@ -6014,6 +6024,7 @@
       1168,
       809,
       1382,
+      589,
       1284,
       1490,
       1282,
@@ -6123,6 +6134,7 @@
     ],
     "dropped_by": [
       31,
+      33,
       339,
       444,
       102,
@@ -6201,6 +6213,7 @@
       997,
       830,
       639,
+      589,
       983,
       968,
       975,
@@ -6626,6 +6639,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      33,
       49,
       302,
       104,
@@ -6640,6 +6654,7 @@
       103,
       284,
       489,
+      589,
       745,
       753,
       99,
@@ -6675,6 +6690,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      33,
       57,
       207,
       197,
@@ -7115,6 +7131,7 @@
     "dropped_by": [
       35,
       394,
+      33,
       386,
       170,
       494,
@@ -7490,6 +7507,7 @@
       "Warrior"
     ],
     "dropped_by": [
+      33,
       56
     ],
     "materials": [
@@ -7559,6 +7577,7 @@
       286,
       369,
       54,
+      33,
       195,
       107,
       207,
@@ -7660,6 +7679,7 @@
       10,
       11,
       36,
+      33,
       73,
       299,
       363,
@@ -7714,6 +7734,7 @@
       461,
       705,
       831,
+      589,
       620,
       907,
       743,
@@ -7853,6 +7874,7 @@
       394,
       270,
       266,
+      33,
       195,
       60,
       207,
@@ -12191,7 +12213,6 @@
     "dropped_by": [
       77,
       253,
-      33,
       188,
       107,
       466,
@@ -12412,7 +12433,6 @@
       "All ↑"
     ],
     "dropped_by": [
-      33,
       420,
       273,
       337,
@@ -12958,11 +12978,13 @@
       594,
       672,
       592,
+      1356,
       809,
       842,
       843,
       844,
       831,
+      589,
       805,
       1370,
       832
@@ -15592,6 +15614,13 @@
       "T. Def ↑",
       "T. Mag ↑",
       "T. Res ↑"
+    ],
+    "materials": [
+      256,
+      259,
+      265,
+      473,
+      280
     ],
     "image": "useables/mammon_sword.png",
     "slots": 3,
@@ -24072,9 +24101,6 @@
       "Thief",
       "Warrior"
     ],
-    "dropped_by": [
-      33
-    ],
     "image": "jewels/33.png",
     "other_effect": [
       "經驗加成: 1.01"
@@ -24268,9 +24294,6 @@
     "causes": [
       "T. Def ↓",
       "T. Def ↓↓"
-    ],
-    "dropped_by": [
-      33
     ],
     "image": "jewels/26.png",
     "rarity": "b",
@@ -25443,6 +25466,10 @@
     ],
     "element": "Arcane",
     "stats.ward": 31,
+    "prevents": [
+      "Burning",
+      "Blind"
+    ],
     "dropped_by": [
       427
     ],
@@ -25470,6 +25497,10 @@
     ],
     "element": "Arcane",
     "stats.ward": 18,
+    "prevents": [
+      "Burning",
+      "Blind"
+    ],
     "dropped_by": [
       356,
       427
@@ -25496,6 +25527,10 @@
     ],
     "element": "Arcane",
     "stats.ward": 22,
+    "prevents": [
+      "Burning",
+      "Blind"
+    ],
     "dropped_by": [
       356,
       427
@@ -25982,9 +26017,6 @@
     "causes": [
       "Paralyzed"
     ],
-    "dropped_by": [
-      33
-    ],
     "image": "jewels/22.png",
     "rarity": "g",
     "description": "A small adornment capable of granting the ability to paralyze an opponent to a piece of equipment when adorned."
@@ -26098,9 +26130,6 @@
     "causes": [
       "Burning"
     ],
-    "dropped_by": [
-      33
-    ],
     "image": "jewels/21.png",
     "rarity": "g",
     "description": "A small adornment capable of granting the ability to burn an opponent to a piece of equipment when adorned."
@@ -26119,9 +26148,6 @@
     "element": "Water",
     "causes": [
       "Frozen"
-    ],
-    "dropped_by": [
-      33
     ],
     "image": "jewels/30.png",
     "rarity": "g",
@@ -26219,9 +26245,6 @@
     "element": "Earthen",
     "causes": [
       "Rot"
-    ],
-    "dropped_by": [
-      33
     ],
     "image": "jewels/23.png",
     "rarity": "g",
@@ -27931,9 +27954,6 @@
     "causes": [
       "T. Res ↓",
       "T. Res ↓↓"
-    ],
-    "dropped_by": [
-      33
     ],
     "image": "jewels/27.png",
     "rarity": "b",
@@ -30357,6 +30377,9 @@
     ],
     "element": "Arcane",
     "stats.ward": 35,
+    "prevents": [
+      "Blind"
+    ],
     "dropped_by": [
       403
     ],
@@ -31166,7 +31189,6 @@
       "Warrior"
     ],
     "dropped_by": [
-      33,
       347,
       348,
       404,
@@ -35057,7 +35079,8 @@
     ],
     "materials": [
       247,
-      513
+      513,
+      473
     ],
     "image": "weapons/epee.png",
     "slots": 10,
@@ -39702,9 +39725,6 @@
     "causes": [
       "Bleeding"
     ],
-    "gives": [
-      "Bleeding"
-    ],
     "dropped_by": [
       513
     ],
@@ -40113,5 +40133,16 @@
     ],
     "image": "useables/small_bestial_potion.png",
     "description": "A sweet and nutritious tonic. Having your follower consume it will increase their action rate for a limited time."
+  },
+  {
+    "id": 1561,
+    "name": "Rosa's Brooch",
+    "zh": "羅莎的胸針",
+    "tier": 7,
+    "equipped_by": [
+      "Mage"
+    ],
+    "image": "acc/brooch.png",
+    "description": "Lunar Catalyst of Rosa, fallen queen of the Enlightened."
   }
 ]
