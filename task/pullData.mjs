@@ -5,76 +5,32 @@ import csvOptions from './csvOptions.mjs';
 import { saveCSV, outputJSON, getArgs } from './u.mjs';
 
 let type = getArgs()?.type;
+let newer = getArgs()?.newer;
 
-if (type === 'pet' || !type) {
-  getData('pet.json').then(d => {
-    outputJSON(d, './public/data/raw/pet.raw.json');
+const dataTypes = [
+  'item',
+  'skill',
+  'monster',
+  'pet',
+];
+
+dataTypes
+  .filter(i => !type || i === type)
+  .forEach(i => doType(i))
+
+function doType(type, min = true, stoploop) {
+  getData(`${type}.json`).then(d => {
+    outputJSON(d, `./public/data/raw/${type}.raw.json`);
     d = clearData(d);
-    outputJSON(d, './public/data/raw/pet.src.json');
-    outputJSON(d, './public/data/pet.min.json', null);
+    outputJSON(d, `./public/data/raw/${type}.src.json`);
+    if (min) {
+      outputJSON(d, `./public/data/${type}.min.json`, null);
+    }
   });
 
-  // getData('pet-newer').then(d => {
-  //   outputJSON(d, './public/data/raw/pet2.raw.json');
-  //   d = clearData(d);
-  //   outputJSON(d, './public/data/raw/pet2.src.json');
-  //  // outputJSON(d, './public/data/pet2.min.json', null);
-  // });
-}
-
-if (type === 'monster' || !type) {
-  getData('monster.json').then(d => {
-    outputJSON(d, './public/data/raw/monster.raw.json');
-    d = clearData(d);
-    outputJSON(d, './public/data/raw/monster.src.json');
-    outputJSON(d, './public/data/monster.min.json', null);
-  });
-
-  // getData('monster-newer').then(d => {
-  //   outputJSON(d, './public/data/raw/monster2.raw.json');
-  //   d = clearData(d);
-  //   outputJSON(d, './public/data/raw/monster2.src.json');
-  //  // outputJSON(d, './public/data/monster2.min.json', null);
-  // });
-}
-
-if (type === 'skill' || !type) {
-  getData('skill.json').then(d => {
-    outputJSON(d, './public/data/raw/skill.raw.json');
-    d = clearData(d);
-    outputJSON(d, './public/data/raw/skill.src.json');
-    outputJSON(d, './public/data/skill.min.json', null);
-  });
-
-  // getData('skill-newer').then(d => {
-  //   outputJSON(d, './public/data/raw/skill2.raw.json');
-  //   d = clearData(d);
-  //   outputJSON(d, './public/data/raw/skill2.src.json');
-  //  // outputJSON(d, './public/data/skill2.min.json', null);
-  // });
-}
-
-if (type === 'item' || !type) {
-  getData('item.json').then(d => {
-    outputJSON(d, './public/data/raw/item.raw.json');
-    d = clearData(d);
-    outputJSON(d, './public/data/raw/item.src.json');
-    outputJSON(d, './public/data/item.min.json', null);
-
-    var lite = d.map(i => {
-      var {id, name, zh, tier, image} = i;
-      return {id, name, zh, tier, image};
-    });
-    outputJSON(lite, './public/data/raw/item-lite.src.json');
-    outputJSON(lite, './public/data/item-lite.min.json', null);
-  });
-
-  // getData('item-newer').then(d => {
-  //   outputJSON(d, './public/data/raw/item2.raw.json');
-  //   d = clearData(d);
-  //   outputJSON(d, './public/data/raw/item2.src.json');
-  //  // outputJSON(d, './public/data/item2.min.json', null);
-  // });
+  if (newer && !stoploop) {
+    doType(`${type}-newer`, false, true);
+  }
 }
 
 function clearData(data) {
