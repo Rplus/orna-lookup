@@ -84,7 +84,7 @@
       <dl>
         <dt>Debuffs</dt>
         {#if monster.skills_effect}
-          {#each monster.skills_effect as debuff}
+          {#each monster.skills_effect as debuff (debuff)}
             <dd>
               <label>
                 <input type="checkbox" readonly />
