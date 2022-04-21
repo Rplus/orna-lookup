@@ -40,3 +40,9 @@ getNewData:
 # sync-data:
 # 	cp -R ./public/data/* ./public/monster/; \
 # 	cp -R ./public/data/* ./Monster/public/
+
+merge-skill: pull-skill
+	node ./task/merge-skill.mjs;
+
+pull-skill:
+	npm run pulldata type=skill;
