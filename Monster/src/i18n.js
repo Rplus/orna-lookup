@@ -114,6 +114,15 @@ const _words = {
     zh: '停滯',
   },
 
+  'Doom': {
+    en: 'Doom',
+    zh: '厄運',
+  },
+  'Confused': {
+    en: 'Confused',
+    zh: '迷惑',
+  },
+
   // element
   'Dark': {
     en: 'Dark',
