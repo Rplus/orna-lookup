@@ -50,124 +50,97 @@ const _words = {
 
   // debuffs
   'Bleeding': {
-    en: 'Bleeding',
     zh: '流血',
   },
   'Frozen': {
-    en: 'Frozen',
     zh: '冰凍',
   },
   'Burning': {
-    en: 'Burning',
     zh: '燃燒',
   },
   'Asleep': {
-    en: 'Asleep',
     zh: '入睡',
   },
   'Paralyzed': {
-    en: 'Paralyzed',
     zh: '麻痺',
   },
   'Blind': {
-    en: 'Blind',
     zh: '致盲',
   },
   'Stunned': {
-    en: 'Stunned',
     zh: '暈眩',
   },
   'Rot': {
-    en: 'Rot',
     zh: '腐敗',
   },
   'Blight': {
-    en: 'Blight',
     zh: '枯萎',
   },
   'Petrified': {
-    en: 'Petrified',
     zh: '石化',
   },
   'Poisoned': {
-    en: 'Poisoned',
     zh: '中毒',
   },
   'Drenched': {
-    en: 'Drenched',
     zh: '濕滑',
   },
   'Cursed': {
-    en: 'Cursed',
     zh: '詛咒',
   },
   'Toxic': {
-    en: 'Toxic',
     zh: '劇毒',
   },
   'Lulled': {
-    en: 'Lulled',
     zh: '安份',
   },
   'Stasis': {
-    en: 'Stasis',
     zh: '停滯',
   },
-
   'Doom': {
-    en: 'Doom',
     zh: '厄運',
   },
   'Confused': {
-    en: 'Confused',
     zh: '迷惑',
+  },
+  'Starstruck': {
+    zh: '暈星',
   },
 
   // element
   'Dark': {
-    en: 'Dark',
     zh: '闇',
   },
   'Water': {
-    en: 'Water',
     zh: '水',
   },
   'Fire': {
-    en: 'Fire',
     zh: '火',
   },
   'Physical': {
-    en: 'Physical',
     zh: '物',
   },
   'Holy': {
-    en: 'Holy',
     zh: '光',
   },
   'Earthen': {
-    en: 'Earthen',
     zh: '土',
   },
   'Lightning': {
-    en: 'Lightning',
     zh: '雷',
   },
   'Dragon': {
-    en: 'Dragon',
     zh: '龍',
   },
   'Arcane': {
-    en: 'Arcane',
     zh: '奧',
   },
 
   // chart
   'Multi-round Attack': {
-    en: 'Multi-round Attack',
     zh: '詠唱 Attack',
   },
   'Multi-round Magic': {
-    en: 'Multi-round Magic',
     zh: '詠唱 Magic',
   },
 
