@@ -58,6 +58,8 @@
       skills: raw_skills,
       pets: raw_pets,
     });
+    window.alldata = data;
+    console.log('all data: window.alldata');
     skills = data.skills;
     items = raw_items;
     queryData.monster = data.monsters;
