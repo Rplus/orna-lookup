@@ -61,7 +61,7 @@
 
 
   <details open>
-    <summary class="text-center">
+    <summary class="text-center img-summary">
       <img class="avatar" src="https://playorna.com/static/img/{monster.image}" alt={monster.zh}>
     </summary>
     <div class="info flex text-start">
@@ -142,6 +142,10 @@
 
 
 <style>
+  .img-summary {
+    width: fit-content;
+    margin: 0 auto;
+  }
   img.avatar {
     width: 96px;
     aspect-ratio: 1;
