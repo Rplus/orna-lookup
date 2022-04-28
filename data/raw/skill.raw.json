@@ -786,7 +786,7 @@
   {
     "id": "53",
     "name": "Freeze",
-    "zh": "冰凍術",
+    "zh": "冰封術",
     "tier": "2",
     "type": "Debuff",
     "element": "Water",
@@ -13050,7 +13050,7 @@
   {
     "id": "494",
     "name": "Magic Sword IV",
-    "zh": "魔力之刃IV",
+    "zh": "魔法劍 IV",
     "tier": "10",
     "type": "Magic",
     "element": "Physical",
@@ -16074,7 +16074,7 @@
   {
     "id": "602",
     "name": "Parry",
-    "zh": "擋格",
+    "zh": "格擋",
     "tier": "1",
     "type": "Multi-round Attack",
     "element": "",
