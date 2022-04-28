@@ -17,9 +17,9 @@ let skillSources = {
   '✓ Off-hand ability': 'off-hand',
 };
 
-fs.unlinkSync(filename);
 
 try {
+  fs.unlinkSync(filename);
   fileData = fs.readFileSync(filename, 'utf8');
   fileData = JSON.parse(fileData);
 } catch (err) {
