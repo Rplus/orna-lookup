@@ -1647,6 +1647,23 @@
       "metas": {}
     },
     {
+      "uid": "WeaponCounterattack",
+      "tier": 6,
+      "img": "spells/bleed.png",
+      "title": {
+        "en": "Counterattack",
+        "zh": "反擊"
+      },
+      "intro": {
+        "en": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws.",
+        "zh": "有機會能將部分的對手攻擊返回對方身上。反擊在PvP平手時有利於勝利。"
+      },
+      "tags": [
+        "off-hand"
+      ],
+      "metas": {}
+    },
+    {
       "uid": "CounterattackII",
       "tier": 9,
       "img": "spells/bleed.png",
@@ -1658,6 +1675,23 @@
         "en": "Grants a great chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws.",
         "zh": "有很大機會能將部分的對手攻擊返回對方身上。反擊在PvP平手時有利於勝利。"
       },
+      "metas": {}
+    },
+    {
+      "uid": "WeaponCounterattackII",
+      "tier": 6,
+      "img": "spells/bleed.png",
+      "title": {
+        "en": "Counterattack II",
+        "zh": "反擊II"
+      },
+      "intro": {
+        "en": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws.",
+        "zh": "有機會能將部分的對手攻擊返回對方身上。反擊在PvP平手時有利於勝利。"
+      },
+      "tags": [
+        "off-hand"
+      ],
       "metas": {}
     },
     {
@@ -2260,7 +2294,7 @@
       },
       "intro": {
         "en": "Attack without care, dealing critical damage to your opponent while taking self damage.",
-        "zh": "隨意的攻擊，對對手造成爆擊同時對自身造成傷害。"
+        "zh": "隨意的攻擊，對對手造成致命性傷害的同時也對自身造成傷害。"
       },
       "metas": {}
     },
@@ -3734,7 +3768,7 @@
       "img": "spells/ice.png",
       "title": {
         "en": "Freeze",
-        "zh": "冰凍術"
+        "zh": "冰封術"
       },
       "intro": {
         "en": "Freezes an opponent.",
@@ -5433,7 +5467,7 @@
       ],
       "metas": {
         "causes": {
-          "Stasis": 0.5
+          "Stasis": 0.15
         }
       }
     },
@@ -6287,7 +6321,7 @@
       "img": "spells/magic.png",
       "title": {
         "en": "Magic Sword IV",
-        "zh": "魔力之刃IV"
+        "zh": "魔法劍 IV"
       },
       "intro": {
         "en": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based on one's magic stat rather than attack.",
@@ -7181,7 +7215,7 @@
       "img": "spells/attack_up.png",
       "title": {
         "en": "Parry",
-        "zh": "擋格"
+        "zh": "格擋"
       },
       "intro": {
         "en": "Wait one turn, then return an opponent's attack back at them.",
@@ -7195,7 +7229,7 @@
       "img": "spells/attack_up.png",
       "title": {
         "en": "Parry",
-        "zh": "擋格"
+        "zh": "格擋"
       },
       "intro": {
         "en": "Wait one turn, then return an opponent's attack back at them.",
@@ -8344,8 +8378,8 @@
         "zh": "盾擊"
       },
       "intro": {
-        "en": "Attack with your shield, converting 10 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
-        "zh": "Attack with your shield, converting 10 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class."
+        "en": "Attack with your shield, converting 10 percent of your available Ward to raw damage.",
+        "zh": "利用盾牌攻擊，轉換10%的護盾成為傷害。"
       },
       "metas": {}
     },
@@ -10825,6 +10859,15 @@
     }
   ],
   "icons": {
+    "Stunned": "statuses/stunned.png",
+    "Burning": "statuses/burning.png",
+    "Paralyzed": "statuses/paralyzed.png",
+    "Frozen": "statuses/frozen.png",
+    "Rot": "statuses/rot.png",
+    "Blind": "statuses/blind.png",
+    "Cursed": "statuses/cursed.png",
+    "Def ↓↓": "statuses/defense_down_double.png",
+    "Res ↓↓": "statuses/magic_defense_down_double.png",
     "T. Att ↓": "statuses/attack_down_temp.png",
     "T. Mag ↓": "statuses/magic_down_temp.png",
     "T. Def ↓": "statuses/defense_down_temp.png",
@@ -10841,90 +10884,81 @@
     "Mag ↑↑": "statuses/magic_up_double.png",
     "Att ↑↑": "statuses/attack_up_double.png",
     "Res ↑↑": "statuses/magic_defense_up_double.png",
-    "Stunned": "statuses/stunned.png",
-    "Burning": "statuses/burning.png",
-    "Blind": "statuses/blind.png",
-    "Cursed": "statuses/cursed.png",
-    "Def ↓↓": "statuses/defense_down_double.png",
-    "Res ↓↓": "statuses/magic_defense_down_double.png",
-    "Paralyzed": "statuses/paralyzed.png",
-    "Frozen": "statuses/frozen.png",
-    "Rot": "statuses/rot.png",
     "Target ↓↓": "statuses/appease_double.png",
     "Target ↓": "statuses/appease.png",
     "Dex ↑": "statuses/dex_up.png",
     "Blight": "statuses/blighted.png",
-    "All ↑": "statuses/berserk_double.png",
-    "Dmg ↑": "statuses/berserk.png",
     "All ↑↑": "statuses/berserk_triple.png",
+    "Dmg ↑": "statuses/berserk.png",
     "Asleep": "statuses/sleep.png",
+    "All ↑": "statuses/berserk_double.png",
     "Poisoned": "statuses/poison.png",
-    "Mag ↓": "statuses/magic_down.png",
-    "Att ↓": "statuses/attack_down.png",
-    "Bleeding": "statuses/bleeding.png",
     "T. Def ↑↑": "statuses/defense_up_double_temp.png",
     "T. Res ↑↑": "statuses/magic_defense_up_double_temp.png",
+    "Bleeding": "statuses/bleeding.png",
+    "Mag ↓": "statuses/magic_down.png",
+    "Att ↓": "statuses/attack_down.png",
     "Bloodshift": "statuses/bloodshift.png",
     "T. Crit ↑": "statuses/crit_up_temp.png",
     "T. All ↓": "statuses/break.png",
     "Starstruck": "statuses/starstruck.png",
-    "Call of Idun": "statuses/idun.png",
     "Call of Skadi": "statuses/skadi.png",
+    "Call of Idun": "statuses/idun.png",
     "Castor": "bosses/castor.png",
-    "Call of Jord": "statuses/jord.png",
     "Call of Brynhild": "statuses/brynhild.png",
-    "Petrified": "statuses/petrified.png",
+    "Call of Jord": "statuses/jord.png",
     "Confused": "statuses/confuse.png",
+    "Petrified": "statuses/petrified.png",
     "Dark Immune": "statuses/dark_wall.png",
-    "Dark Def": "statuses/dark_wall.png",
     "Defending": "statuses/magic_defense_up_triple.png",
+    "Dark Def": "statuses/dark_wall.png",
     "T. All ↑↑↑": "statuses/channel.png",
     "Def ↓": "statuses/defense_down.png",
     "Res ↓": "statuses/magic_defense_down.png",
     "Doom": "statuses/doom.png",
-    "Earth Aligned": "statuses/earth_imbue.png",
-    "Earth Att": "statuses/earth_imbue.png",
     "Earth Def": "statuses/earth_wall.png",
+    "Earth Att": "statuses/earth_imbue.png",
+    "Earth Aligned": "statuses/earth_aligned.png",
     "Elementless": "statuses/no_imbue.png",
-    "Fire Aligned": "statuses/fire_imbue.png",
     "Fire Att": "statuses/fire_imbue.png",
+    "Fire Aligned": "statuses/fire_aligned.png",
     "Fire Def": "statuses/fire_wall.png",
     "T. Att ↓↓": "statuses/attack_down_double_temp.png",
     "Lulled": "statuses/lulled.png",
     "Gunnr": "statuses/gunnr.png",
+    "Kára": "statuses/kara.png",
     "Eir": "statuses/eir.png",
     "Snotra": "statuses/snotra.png",
-    "Kára": "statuses/kara.png",
-    "T. Res ↓↓": "statuses/magic_defense_down_double_temp.png",
-    "T. Mag ↑↑↑": "statuses/magic_up_triple_temp.png",
     "T. Def ↓↓": "statuses/defense_down_double_temp.png",
+    "T. Res ↓↓": "statuses/magic_defense_down_double_temp.png",
     "T. Mag ↓↓": "statuses/magic_down_double_temp.png",
+    "T. Mag ↑↑↑": "statuses/magic_up_triple_temp.png",
     "Foresight ↑": "statuses/foresight_up.png",
     "Holy Immune": "statuses/holy_wall.png",
     "Holy Def": "statuses/holy_wall.png",
-    "Water Aligned": "statuses/ice_imbue.png",
+    "Water Aligned": "statuses/ice_aligned.png",
     "Water Att": "statuses/ice_imbue.png",
-    "Lightning Att": "statuses/lightning_imbue.png",
     "Water Def": "statuses/ice_wall.png",
     "Dmg ↓↓": "statuses/attack_down_double_temp.png",
     "Fire Immune": "statuses/fire_wall.png",
+    "Lightning Att": "statuses/lightning_imbue.png",
     "T. Crit ↑↑": "statuses/crit_up_double_temp.png",
     "Stasis": "statuses/stasis.png",
     "T. Crit ↑↑↑": "statuses/crit_up_triple_temp.png",
     "Lightning Def": "statuses/lightning_wall.png",
-    "Lightning Aligned": "statuses/lightning_imbue.png",
+    "Lightning Aligned": "statuses/lightning_aligned.png",
     "Lyon's Mark": "statuses/lyon.png",
     "Toxic": "statuses/toxic.png",
     "Pollux": "bosses/pollux.png",
-    "Target ↑": "statuses/provoke.png",
     "Target ↑↑": "statuses/provoke_double.png",
+    "Target ↑": "statuses/provoke.png",
     "T. Att ↑↑": "statuses/attack_up_double_temp.png",
     "T. Mag ↑↑": "statuses/magic_up_double_temp.png",
-    "T. Dex ↓": "statuses/dex_down_temp.png",
     "Crit ↑": "statuses/crit_up.png",
+    "T. Dex ↓": "statuses/dex_down_temp.png",
     "Foresight ↓": "statuses/foresight_down.png",
-    "T. Dex ↑↑↑": "statuses/dex_up_triple_temp.png",
     "Lightning Immune": "statuses/lightning_wall.png",
+    "T. Dex ↑↑↑": "statuses/dex_up_triple_temp.png",
     "Earth Immune": "statuses/earth_wall.png",
     "Water Immune": "statuses/ice_wall.png",
     "Tree of Life": "statuses/holy_imbue.png",
