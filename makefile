@@ -41,6 +41,10 @@ getNewData:
 # 	cp -R ./public/data/* ./public/monster/; \
 # 	cp -R ./public/data/* ./Monster/public/
 
+# skills:
+parse-orna-skills:
+	node ./task/skill-parser-in-playerorna.mjs;
+
 merge-skill: pull-skill
 	node ./task/merge-skill.mjs;
 
