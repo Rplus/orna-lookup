@@ -51,6 +51,87 @@ function saveImgData() {
 console.log({type});
 
 
+fitFns.items = function (data) {
+  data.forEach(item => {
+    if (!item.meta) { return; }
+
+    if (item.meta.tags?.length) {
+      item.meta.tags = item.meta.tags.map(t => t.split(',')).flat().map(i => i.replace('✓ Found in ', ''));
+    }
+
+    if (item.meta.stats) {
+      for (let stat in item.meta.stats) {
+        if (!item.meta.stats[stat] && item.meta.stats[stat] !== 0) {
+          item.meta.type = stat;
+          delete item.meta.stats[stat];
+        }
+      }
+    }
+
+    if (item.meta['upgrade materials']?.length) {
+      item.meta.materials = item.meta['upgrade materials'].map(material => {
+        let uid = material.url.match(/([^/]+)\/$/)[1];
+        addImg('item', uid, material.img);
+        return uid;
+      });
+      delete item.meta['upgrade materials'];
+    }
+
+    if (item.meta['dropped by']?.length) {
+      item.meta.dropped = item.meta['dropped by'].map(monster => {
+        let uid = monster.url.match(/([^/]+)\/$/)[1];
+        addImg('monster', uid, monster.img);
+        return [monster.txt, monster.url];
+      });
+      delete item.meta['dropped by'];
+    }
+
+    if (item.meta.immunities?.length) {
+      item.meta.immunities = item.meta.immunities.map(effect => {
+        addImg('effect', effect.txt, effect.img);
+        return effect.txt;
+      });
+    }
+
+    if (item.meta.causes?.length) {
+      item.meta.causes = item.meta.causes.map(effect => {
+        addImg('effect', effect.txt, effect.img);
+        return effect.txt;
+      });
+    }
+
+    if (item.meta.gives?.length) {
+      item.meta.gives = item.meta.gives.map(effect => {
+        let rate = +effect.txt.match(/(\d+)%/)[1];
+        let txt = effect.txt.split(' (')[0];
+        addImg('effect', txt, effect.img);
+        return [txt, rate];
+      });
+    }
+
+    if (item.meta.cures?.length) {
+      item.meta.cures = item.meta.cures.map(effect => {
+        addImg('effect', effect.txt, effect.img);
+        return effect.txt;
+      });
+    }
+
+    if (item.meta.ability?.length) {
+      if (item.meta.ability.length !== 2) {
+        console.log('!edge case: ', item.meta.ability);
+      } else {
+        item.meta.ability = {
+          spell: item.meta.ability[0].txt,
+          intro: item.meta.ability[1].txt,
+        };
+      }
+    }
+
+  });
+
+  return data;
+}
+
 fitFns.monsters = function (data) {
   let imgs = {s: {}, i: {}};
   data.forEach(raid => {
