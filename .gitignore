@@ -3,6 +3,7 @@
 /public/monster/
 /public/skill/
 /task/items/
+task/orna_log/
 
 .DS_Store
 *.err.json

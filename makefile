@@ -41,6 +41,10 @@ getNewData:
 # 	cp -R ./public/data/* ./public/monster/; \
 # 	cp -R ./public/data/* ./Monster/public/
 
+parse-orna:
+	node ./task/playorna-parser.mjs parse=${parse} type=${type};
+
+
 # skills:
 parse-orna-skills:
 	node ./task/skill-parser-in-playerorna.mjs;
