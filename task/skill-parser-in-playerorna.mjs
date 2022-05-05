@@ -3,6 +3,7 @@ import fetch from 'node-fetch';
 import chalk from 'chalk';
 import { parse } from 'node-html-parser';
 import { saveCSV, outputJSON, getArgs } from './u.mjs';
+import { getNextPage, getItemSummary, setFetchHeader } from './playorna-parser-ults.mjs';
 
 const filename = './codex-skill/src/orna-skills.json';
 const langs = ['en', 'zh-hant'];
@@ -17,9 +18,9 @@ let skillSources = {
   '✓ Off-hand ability': 'off-hand',
 };
 
+// fs.unlinkSync(filename);
 
 try {
-  fs.unlinkSync(filename);
   fileData = fs.readFileSync(filename, 'utf8');
   fileData = JSON.parse(fileData);
 } catch (err) {
@@ -35,6 +36,7 @@ if (fileData) {
 
 
 
+
 ///
 ///
 ///
@@ -43,41 +45,21 @@ if (fileData) {
 
 function parseList(page) {
   console.log(`Start parsing: #${page}`);
-  fetch(`https://playorna.com/codex/spells/?p=${page}`, getHeader())
+  fetch(`https://playorna.com/codex/spells/?p=${page}`, setFetchHeader(lang))
   .then(res => res.text())
   .then(d => {
     let html = parse(d);
     let items = html.querySelectorAll('.codex-entries > a.codex-entries-entry');
 
-    items.forEach(elm => {
-      let link = elm.getAttribute('href');
-      let uid = link.split('/').filter(Boolean).pop();
-      let img = elm.querySelector('img')?.getAttribute('src').replace('https://playorna.com/static/img/', '');
-      let title = {
-        en: elm.querySelectorAll('div')[1].textContent.trim(),
-      };
-      let tier = +elm.querySelectorAll('div')[2].textContent.match(/\d+/)[0];
-      data.push({ uid, tier, img, title, });
-    });
+    data = data.concat( getItemSummary(items) );
 
-
-    //
-    let paginations = html.querySelectorAll('.pagination > .button');
-    if (paginations) {
-      let nextPage = paginations.map(btn => {
-        let _href = btn.getAttribute('href');
-        let _page = _href.match(/\d+/)[0];
-        let _next = +_page > +page;
-        return _next && _page;
-      }).filter(Boolean)[0];
-
-      if (nextPage) {
-        parseList(nextPage);
-      } else {
-        saveData();
-        console.log(`End parsing at #${page}`);
-        parseSkills();
-      }
+    let nextPage = getNextPage(html, page);
+    if (nextPage) {
+      parseList(nextPage);
+    } else {
+      saveData();
+      console.log(`End parsing at #${page}`);
+      parseSkills();
     }
   });
 }
@@ -93,7 +75,7 @@ function parseSkills() {
 
 function parseSkill(uid, _lang = lang) {
   console.log(`Start parsing skill: ${uid}, ${_lang}`);
-  fetch(`https://playorna.com/codex/spells/${uid}/`, getHeader(_lang))
+  fetch(`https://playorna.com/codex/spells/${uid}/`, setFetchHeader(_lang))
   .then(res => res.text())
   .then(d => {
     let html = parse(d);
@@ -119,7 +101,7 @@ function parseSkill(uid, _lang = lang) {
 function updateData(opt) {
   let index = data.findIndex(i => i.uid === opt.uid);
   if (index === -1) {
-    console.error(`no match with ${uid}`);
+    console.error(`no match with ${opt.uid}`);
     return;
   }
   let _lang = opt._lang.split('-')[0];
