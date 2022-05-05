@@ -6,9 +6,9 @@ export function handleData(data) {
   data.forEach(i => {
     i.titles = Object.values(i.title).join();
     i.intros = Object.values(i.intro).join();
-    i.effect_types = Object.keys(i.metas);
-    i.effects = Object.keys(i.metas)
-      .map(t => Object.keys(i.metas[t]))
+    i.effect_types = Object.keys(i.meta);
+    i.effects = Object.values(i.meta)
+      .map(j => j[0])
       .flat();
   });
   data.sort((a, b) => a.title.en.localeCompare(b.title.en));
@@ -24,7 +24,7 @@ export async function fetchJSON(url) {
   const res = await fetch(url);
   if (res.ok) {
     const data = await res.json();
-    if (!data?.skills) {
+    if (!data?.data) {
       throw new Error('empty data');
     }
     return data;

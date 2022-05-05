@@ -4,12 +4,14 @@
   import { uniq, sortByChar } from './u.js';
   export let data = [];
 
+  console.log({data});
+
   let quotePerPage = 10;
 
   let tags = uniq(data.map(i => i.tags).flat()).filter(Boolean);
 
-  let gives = uniq(data.map(i => Object.keys(i.metas.gives || [])).flat()).sort(sortByChar);
-  let causes = uniq(data.map(i => Object.keys(i.metas.causes || [])).flat()).sort(sortByChar);
+  let gives = uniq(data.map(i => Object.keys(i.meta.gives || [])).flat()).sort(sortByChar);
+  let causes = uniq(data.map(i => Object.keys(i.meta.causes || [])).flat()).sort(sortByChar);
   gives.unshift('');
   causes.unshift('');
 
@@ -97,10 +99,10 @@
         return data.filter(i => i[rule.prop] === rule.value);
       }
       case 'effect.causes': {
-        return data.filter(i => i.metas.causes?.[rule.value]);
+        return data.filter(i => i.meta.causes?.[rule.value]);
       }
       case 'effect.gives': {
-        return data.filter(i => i.metas.gives?.[rule.value]);
+        return data.filter(i => i.meta.gives?.[rule.value]);
       }
       default:
         return data;

@@ -2,7 +2,7 @@
   export let item = {};
   import { _, locale } from './i18n.js';
   import { trans, Langs } from './u.js';
-  let icons = window.icons;
+  let icons = window.imgs;
 </script>
 
 <li class="item">
@@ -36,16 +36,16 @@
 
   <dl class="effects">
     {#each item.effect_types as effect_type}
-      {#if item.metas[effect_type]}
+      {#if item.meta[effect_type]}
         <dt>{effect_type}</dt>
-        {#each Object.keys(item.metas[effect_type]) as effect}
+        {#each item.meta[effect_type] as effect}
           <dd>
             <span class="percent">
-              {item.metas[effect_type][effect] * 100}%
+              {effect[1]}%
             </span>
             -
-            <img class="effect-icon" src="https://playorna.com/static/img/{icons[effect]}" alt={effect} width="24" height="24" loading="lazy">
-            {$_(effect)}
+            <img class="effect-icon" src="https://playorna.com/static/img/{icons[effect[0]]}" alt={effect[0]} width="24" height="24" loading="lazy">
+            {$_(effect[0])}
           </dd>
         {/each}
       {/if}

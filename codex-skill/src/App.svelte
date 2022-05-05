@@ -1,6 +1,7 @@
 <script>
   import { setContext } from 'svelte';
-  import dataUrl from './orna-skills.min.json?url';
+  // import dataUrl from './orna-skills.min.json?url';
+  import dataUrl from './fit.spells.min.json?url';
   import Lang from './lib/Lang.svelte';
   import List from './lib/List.svelte';
   import { fetchJSON, handleData } from './lib/u.js';
@@ -12,8 +13,8 @@
     if (!data) {
       throw new Error('_ERROR_: fetch data fails');
     }
-    window.icons = data.icons;
-    return handleData(data.skills);
+    window.imgs = data.imgs;
+    return handleData(data.data);
   }
 </script>
 
