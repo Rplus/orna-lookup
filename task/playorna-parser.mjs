@@ -191,27 +191,29 @@ fitFns.spells = function (data) {
   console.log({tags});
   // [ '✓ Off-hand ability', '✓ Found in Arcanists' ]
   let tagsMap = {
-    '✓ Off-hand ability': 'Off-hand',
-    '✓ Found in Arcanists': 'Arcanists',
+    '✓ Off-hand ability': 'off-hand',
+    '✓ Found in Arcanists': 'arcanists',
   };
 
   let imgs = {};
   data.forEach(spell => {
     if (spell.meta?.tags) {
-      spell.meta.tags = spell.meta.tags.map(t => tagsMap[t]);
+      spell.tags = spell.meta.tags.map(t => tagsMap[t]);
+      delete spell.meta.tags;
     }
     ['causes', 'gives'].forEach(p => {
       if (!spell.meta[p]) { return; }
-      spell.meta[p] = spell.meta[p].map(effect => {
+      spell.meta[p] = spell.meta[p].reduce((all, effect) => {
         let rate = +effect.txt.match(/\d+/)[0];
         let txt = effect.txt.split(' (')[0];
         imgs[txt] = effect.img;
         addImg('effect', txt, effect.img);
-        return [txt, rate];
-      });
+        all[txt] = rate;
+        return all;
+      }, {});
     })
   });
-  return data;
+  return {data, imgs};
 }
 
 
@@ -265,6 +267,7 @@ if (args.parse) {
   }
 
   outputJSON(fileData, `./task/orna_log/fit.${type}.json`);
+  outputJSON(fileData, `./task/orna_log/fit.${type}.min.json`, 0);
 }
 
 
