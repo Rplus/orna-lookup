@@ -43,18 +43,32 @@
     let sp = new URLSearchParams(location.search);
     let _rules = [...sp]
       .filter(i => i[1])
-      .map((i, index) => ({
-        prop: i[0],
-        value: i[1],
-        timestamp: +new Date() + index,
-      }));
+      .map((i, index) => {
+        let _rule = {
+          prop: i[0],
+          value: i[1],
+          timestamp: +new Date() + index,
+        };
+
+        if (i[1].includes('_')) {
+          let arr = i[1].split('_');
+          _rule.value = arr[0];
+          _rule.rate = arr[1];
+          _rule.comparator = arr[2];
+        }
+        return _rule;
+      });
     return _rules.length ? _rules : defaultRules;
   }
 
   function updateUrl() {
     let sp = new URLSearchParams();
     rules.forEach(rule => {
-      sp.append(rule.prop, rule.value);
+      let v = rule.value;
+      if (rule.rate) {
+        v += `_${rule.rate}_${rule.comparator}`;
+      }
+      sp.append(rule.prop, v);
     });
     return sp.toString();
   }
@@ -97,14 +111,29 @@
         return data.filter(i => i[rule.prop] === rule.value);
       }
       case 'effect.causes': {
-        return data.filter(i => i.meta.causes?.[rule.value]);
+        return data.filter(i => filterByEffect(i, rule, 'causes'));
       }
       case 'effect.gives': {
-        return data.filter(i => i.meta.gives?.[rule.value]);
+        return data.filter(i => filterByEffect(i, rule, 'gives'));
       }
       default:
         return data;
     }
+  }
+
+  function filterByEffect(skill, rule, type = 'gives') {
+    let _rate = skill.meta[type]?.[rule.value];
+    if (_rate && rule.rate) {
+      switch (rule.comparator) {
+        case '=':
+          return _rate === rule.rate;
+        case '+':
+          return _rate >= rule.rate;
+        case '-':
+          return _rate <= rule.rate;
+      }
+    }
+    return _rate;
   }
 
   function showMore() {
@@ -145,18 +174,18 @@
             {/each}
           </select>
 
-        {:else if (rule.prop === 'effect.gives')}
+        {:else if (rule.prop === 'effect.gives') || (rule.prop === 'effect.causes')}
           <select bind:value={rule.value}>
-            {#each gives as effect}
+            {#each ((rule.prop === 'effect.gives') ? gives : causes) as effect}
               <option value={effect}>{$_(effect)}</option>
             {/each}
           </select>
 
-        {:else if (rule.prop === 'effect.causes')}
-          <select bind:value={rule.value}>
-            {#each causes as effect}
-              <option value={effect}>{$_(effect)}</option>
-            {/each}
+          <input type="number" bind:value={rule.rate} step="10" max="100" min="0">
+          <select bind:value={rule.comparator}>
+            <option value="=">=</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
           </select>
 
         {:else if rule.prop === 'tier'}
