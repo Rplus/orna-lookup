@@ -38,14 +38,14 @@
     {#each item.effect_types as effect_type}
       {#if item.meta[effect_type]}
         <dt>{effect_type}</dt>
-        {#each item.meta[effect_type] as effect}
+        {#each Object.keys(item.meta[effect_type]) as effect}
           <dd>
             <span class="percent">
-              {effect[1]}%
+              {item.meta[effect_type][effect]}%
             </span>
             -
-            <img class="effect-icon" src="https://playorna.com/static/img/{icons[effect[0]]}" alt={effect[0]} width="24" height="24" loading="lazy">
-            {$_(effect[0])}
+            <img class="effect-icon" src="https://playorna.com/static/img/{icons[effect]}" alt={effect} width="24" height="24" loading="lazy">
+            {$_(effect)}
           </dd>
         {/each}
       {/if}

@@ -33,6 +33,10 @@ export default {
     en: 'Gives',
     zh: '給予',
   },
+  'effect.rate': {
+    en: 'Rate',
+    zh: '機率',
+  },
 
 
   'Asleep': {
@@ -195,7 +199,7 @@ export default {
     zh: '目標 ↓↓'
   },
   'Toxic': {
-    zh: ''
+    zh: '劇毒'
   },
   'Tree of Demise': {
     zh: '絕命之樹'

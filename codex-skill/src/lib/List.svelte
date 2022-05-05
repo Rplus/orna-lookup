@@ -4,8 +4,6 @@
   import { uniq, sortByChar } from './u.js';
   export let data = [];
 
-  console.log({data});
-
   let quotePerPage = 10;
 
   let tags = uniq(data.map(i => i.tags).flat()).filter(Boolean);
