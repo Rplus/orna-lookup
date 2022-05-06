@@ -2833,6 +2833,7 @@
     ],
     "image": "weapons/durandal.png",
     "slots": 6,
+    "rarity": "p",
     "description": "A sword brought by an angel of God. Some say it is the sharpest sword in existence, easily causing an opponent to bleed."
   },
   {
@@ -15482,6 +15483,7 @@
     ],
     "image": "armor/horned_helm.png",
     "slots": 9,
+    "rarity": "g",
     "description": "Helmet of Cerus, the untamed. It reduces the mana cost of skills or spells and is well suited for adornment."
   },
   {
@@ -23571,6 +23573,7 @@
     "other_effect": [
       "幸運加成: 1.25"
     ],
+    "rarity": "g",
     "description": "Gifts for you and me. Greatly boosts the chance for monsters to drop items."
   },
   {
@@ -29520,6 +29523,7 @@
     ],
     "image": "armor/horseman_armor.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Armor of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -29544,6 +29548,7 @@
     ],
     "image": "armor/horseman_robe.png",
     "slots": 6,
+    "rarity": "b",
     "description": "Cloak of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -29571,6 +29576,7 @@
     ],
     "image": "armor/horseman_hood.png",
     "slots": 10,
+    "rarity": "b",
     "description": "Hood of the First Horseman, often associated with great famine. It reduces the damage taken from the ultimate attacks of Raid Bosses."
   },
   {
@@ -30752,6 +30758,7 @@
     "zh": "薩圖恩之眼",
     "tier": 6,
     "type": "Adornment",
+    "boss": 1,
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31852,7 +31859,7 @@
     "name": "Azure Carp",
     "zh": "蔚藍鯉魚",
     "tier": 1,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31867,7 +31874,7 @@
     "name": "Balor Muskellunge",
     "zh": "巴羅爾北美狗魚",
     "tier": 6,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31881,7 +31888,7 @@
     "name": "Crimson Snapper",
     "zh": "緋紅鯛魚",
     "tier": 3,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31895,7 +31902,7 @@
     "name": "Embered Snapper",
     "zh": "灰燼鯛魚",
     "tier": 5,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31909,7 +31916,7 @@
     "name": "Emerald Trout",
     "zh": "翡翠鱒魚",
     "tier": 2,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31924,7 +31931,7 @@
     "name": "Sea Bass",
     "zh": "鱸魚",
     "tier": 3,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -31939,7 +31946,7 @@
     "name": "Unremarkable Fish",
     "zh": "平凡的魚",
     "tier": 1,
-    "type": "Fish",
+    "type": "Other",
     "equipped_by": [
       "Mage",
       "Thief",
@@ -32911,6 +32918,7 @@
     ],
     "image": "wards/katar.png",
     "slots": 6,
+    "rarity": "b",
     "description": "A strange side-arm once carried by Apollyon until pilfered by Morrigan. It doesn't offer much in terms of power, but its indentations are well suited for adornment."
   },
   {
@@ -34336,6 +34344,9 @@
       402
     ],
     "image": "jewels/55.png",
+    "other_effect": [
+      "狀態異常防護: +2%"
+    ],
     "rarity": "p",
     "description": "Adornment of the Second Horseman. Adorning it upon a piece of armor will moderately protect one from status ailments."
   },
@@ -34358,6 +34369,7 @@
     "other_effect": [
       "視野加成: +2%"
     ],
+    "rarity": "p",
     "description": "Adornment of the Third Horseman. Adorning upon a weapon will increase the distance that you can see."
   },
   {
@@ -36504,6 +36516,7 @@
       447
     ],
     "image": "acc/draco_amulet.png",
+    "rarity": "b",
     "description": "Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands."
   },
   {
@@ -36523,6 +36536,7 @@
       447
     ],
     "image": "acc/draco_amulet.png",
+    "rarity": "b",
     "description": "Amulet carried by Trevelyan, the storied Lyonesse Warlock. Wearing it will increase your offensive power when carrying a weapon with both hands."
   },
   {
@@ -40139,10 +40153,756 @@
     "name": "Rosa's Brooch",
     "zh": "羅莎的胸針",
     "tier": 7,
+    "type": "Accessory",
     "equipped_by": [
       "Mage"
     ],
     "image": "acc/brooch.png",
     "description": "Lunar Catalyst of Rosa, fallen queen of the Enlightened."
+  },
+  {
+    "id": 1562,
+    "name": "Beguiled Heavy Boots",
+    "zh": "著魔重靴",
+    "tier": 10,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 270,
+    "stats.ward": -10,
+    "stats.hp": 495,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_boots.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1565,
+    "name": "Beguiled Hood",
+    "zh": "著魔兜帽",
+    "tier": 10,
+    "type": "Head",
+    "boss": 1,
+    "stats.defense": 110,
+    "stats.resistance": 230,
+    "stats.dexterity": 24,
+    "stats.ward": -10,
+    "stats.hp": 345,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_hood.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1566,
+    "name": "Beguiled Boots",
+    "zh": "著魔長靴",
+    "tier": 10,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 230,
+    "stats.resistance": 110,
+    "stats.dexterity": 24,
+    "stats.ward": -10,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_boots.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1567,
+    "name": "Beguiled Helmet",
+    "zh": "著魔頭盔",
+    "tier": 10,
+    "type": "Head",
+    "boss": 1,
+    "stats.defense": 270,
+    "stats.ward": -10,
+    "stats.hp": 495,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_helm.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1568,
+    "name": "Beguiled Armor",
+    "zh": "著魔盔甲",
+    "tier": 10,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Warrior"
+    ],
+    "stats.defense": 270,
+    "stats.ward": -10,
+    "stats.hp": 495,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_armor.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1569,
+    "name": "Beguiled Garb",
+    "zh": "著魔皮甲",
+    "tier": 10,
+    "type": "Armor",
+    "boss": 1,
+    "stats.defense": 230,
+    "stats.resistance": 110,
+    "stats.dexterity": 24,
+    "stats.ward": -10,
+    "stats.hp": 345,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_armor.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1570,
+    "name": "Beguiled Shoes",
+    "zh": "著魔鞋子",
+    "tier": 10,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 110,
+    "stats.resistance": 230,
+    "stats.dexterity": 24,
+    "stats.ward": -10,
+    "stats.hp": 345,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_boots.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1571,
+    "name": "Beguiled Robe",
+    "zh": "著魔長袍",
+    "tier": 10,
+    "type": "Armor",
+    "boss": 1,
+    "stats.defense": 110,
+    "stats.resistance": 230,
+    "stats.dexterity": 24,
+    "stats.ward": -10,
+    "stats.hp": 345,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_robe.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1572,
+    "name": "Beguiled Mystic Katar",
+    "zh": "著魔的秘術卡塔拉",
+    "tier": 10,
+    "type": "Off-hand",
+    "boss": 1,
+    "stats.dexterity": 80,
+    "stats.crit": 4,
+    "stats.ward": 29,
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Mag ↑"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      256,
+      259,
+      265,
+      280
+    ],
+    "image": "wards/spectral_katar.png",
+    "description": "A strange side-arm carried by Apollyon. Before being stolen and damaged by morrigan, Apollyon imbued great elemental resistance in this piece."
+  },
+  {
+    "id": 1573,
+    "name": "Beguiled Cowl",
+    "zh": "著魔風帽",
+    "tier": 10,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 230,
+    "stats.resistance": 110,
+    "stats.dexterity": 24,
+    "stats.ward": -10,
+    "stats.hp": 345,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      536
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_cowl.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1574,
+    "name": "Spectral Boots",
+    "zh": "幽鬼長靴",
+    "tier": 5,
+    "type": "Legs",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 115,
+    "stats.resistance": 55,
+    "stats.dexterity": 12,
+    "stats.ward": -10,
+    "stats.hp": 115,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_boots.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1575,
+    "name": "Spectral Cowl",
+    "zh": "幽鬼風帽",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 115,
+    "stats.resistance": 55,
+    "stats.dexterity": 12,
+    "stats.ward": -10,
+    "stats.hp": 115,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_cowl.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1576,
+    "name": "Spectral Garb",
+    "zh": "幽鬼皮甲",
+    "tier": 5,
+    "type": "Armor",
+    "boss": 1,
+    "equipped_by": [
+      "Thief"
+    ],
+    "stats.defense": 115,
+    "stats.resistance": 55,
+    "stats.dexterity": 12,
+    "stats.ward": -10,
+    "stats.hp": 115,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_armor.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1577,
+    "name": "Spectral Hood",
+    "zh": "幽鬼兜帽",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "equipped_by": [
+      "Mage"
+    ],
+    "stats.defense": 55,
+    "stats.resistance": 115,
+    "stats.dexterity": 12,
+    "stats.ward": -10,
+    "stats.hp": 115,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_hood.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1578,
+    "name": "Spectral Robe",
+    "zh": "幽鬼長袍",
+    "tier": 5,
+    "type": "Armor",
+    "boss": 1,
+    "stats.defense": 55,
+    "stats.resistance": 115,
+    "stats.dexterity": 12,
+    "stats.ward": -10,
+    "stats.hp": 115,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_robe.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1579,
+    "name": "Spectral Shoes",
+    "zh": "幽鬼鞋子",
+    "tier": 5,
+    "type": "Legs",
+    "boss": 1,
+    "stats.defense": 55,
+    "stats.resistance": 115,
+    "stats.dexterity": 12,
+    "stats.ward": -10,
+    "stats.hp": 115,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_boots.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1580,
+    "name": "Mystic Katar",
+    "zh": "秘術卡塔拉",
+    "tier": 5,
+    "type": "Off-hand",
+    "boss": 1,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.dexterity": 20,
+    "stats.ward": 16,
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Mag ↑"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      256,
+      259,
+      265,
+      280
+    ],
+    "image": "wards/spectral_katar.png",
+    "description": "A strange side-arm carried by Apollyon. Before being stolen and damaged by morrigan, Apollyon imbued great elemental resistance in this piece."
+  },
+  {
+    "id": 1581,
+    "name": "Spectral Armor",
+    "zh": "幽鬼盔甲",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "stats.defense": 135,
+    "stats.ward": -10,
+    "stats.hp": 165,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_armor.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1582,
+    "name": "Spectral Heavy Boots",
+    "zh": "幽鬼重靴",
+    "tier": 5,
+    "type": "Legs",
+    "boss": 1,
+    "stats.defense": 135,
+    "stats.ward": -10,
+    "stats.hp": 165,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_boots.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1583,
+    "name": "Spectral Helmet",
+    "zh": "幽鬼頭盔",
+    "tier": 5,
+    "type": "Head",
+    "boss": 1,
+    "stats.defense": 135,
+    "stats.ward": -10,
+    "stats.hp": 165,
+    "prevents": [
+      "Doom"
+    ],
+    "dropped_by": [
+      530
+    ],
+    "materials": [
+      262,
+      273,
+      294
+    ],
+    "image": "armor/spectral_helm.png",
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+  },
+  {
+    "id": 1584,
+    "name": "Book of the Arcane",
+    "zh": "奧術之書",
+    "tier": 8,
+    "type": "Accessory",
+    "element": "Arcane",
+    "stats.attack": 25,
+    "stats.magic": 25,
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "gives": [
+      "Arcane Aligned (3%)"
+    ],
+    "dropped_by": [
+      531
+    ],
+    "materials": [
+      256,
+      259,
+      265,
+      280
+    ],
+    "image": "acc/book_arcane.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1585,
+    "name": "Book of Light",
+    "zh": "光之書",
+    "tier": 8,
+    "type": "Accessory",
+    "element": "Holy",
+    "stats.attack": 20,
+    "stats.magic": 20,
+    "causes": [
+      "Blind",
+      "Stunned"
+    ],
+    "gives": [
+      "Holy Aligned (10%)"
+    ],
+    "dropped_by": [
+      531
+    ],
+    "materials": [
+      325
+    ],
+    "image": "acc/book_holy.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1586,
+    "name": "Book of the Dragon",
+    "zh": "龍之書",
+    "tier": 8,
+    "type": "Accessory",
+    "element": "Dragon",
+    "stats.attack": 20,
+    "stats.magic": 20,
+    "causes": [
+      "Blight"
+    ],
+    "gives": [
+      "Dragon Aligned (10%)"
+    ],
+    "dropped_by": [
+      531
+    ],
+    "materials": [
+      255
+    ],
+    "image": "acc/book_dragon.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1587,
+    "name": "Book of Darkness",
+    "zh": "闇之書",
+    "tier": 8,
+    "type": "Accessory",
+    "element": "Dark",
+    "stats.attack": 20,
+    "stats.magic": 20,
+    "causes": [
+      "Asleep"
+    ],
+    "gives": [
+      "Dark Aligned (10%)"
+    ],
+    "dropped_by": [
+      531
+    ],
+    "materials": [
+      252
+    ],
+    "image": "acc/book_dark.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1588,
+    "name": "Book of Earth",
+    "zh": "地之書",
+    "tier": 5,
+    "type": "Accessory",
+    "element": "Earthen",
+    "stats.magic": 20,
+    "causes": [
+      "Rot"
+    ],
+    "gives": [
+      "Earth Aligned (4%)"
+    ],
+    "dropped_by": [
+      535
+    ],
+    "materials": [
+      256
+    ],
+    "image": "acc/book_earth.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1589,
+    "name": "Book of Water",
+    "zh": "水之書",
+    "tier": 5,
+    "type": "Accessory",
+    "element": "Water",
+    "stats.magic": 20,
+    "causes": [
+      "Frozen"
+    ],
+    "gives": [
+      "Water Aligned (4%)"
+    ],
+    "dropped_by": [
+      534
+    ],
+    "materials": [
+      280
+    ],
+    "image": "acc/book_water.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1590,
+    "name": "Book of Fire",
+    "zh": "火之書",
+    "tier": 5,
+    "type": "Accessory",
+    "element": "Fire",
+    "stats.magic": 20,
+    "causes": [
+      "Burning"
+    ],
+    "gives": [
+      "Fire Aligned (4%)"
+    ],
+    "dropped_by": [
+      533
+    ],
+    "materials": [
+      259
+    ],
+    "image": "acc/book_fire.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1591,
+    "name": "Book of Lightning",
+    "zh": "雷之書",
+    "tier": 5,
+    "type": "Accessory",
+    "element": "Lightning",
+    "stats.magic": 20,
+    "causes": [
+      "Paralyzed"
+    ],
+    "gives": [
+      "Lightning Aligned (4%)"
+    ],
+    "dropped_by": [
+      532
+    ],
+    "materials": [
+      265
+    ],
+    "image": "acc/book_lightning.png",
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
   }
 ]
