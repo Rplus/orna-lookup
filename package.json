@@ -5,7 +5,7 @@
   "scripts": {
     "crawer": "node ./task/crawer.js",
     "parser": "node ./task/parser.js",
-    "tocsv": "node ./task/flat.mjs",
+    "tocsv": "node ./task/tocsv.mjs",
     "renew": "node ./task/renew.mjs",
     "pulldata": "node ./task/pullData.mjs",
     "build": "rollup -c",
