@@ -29,7 +29,7 @@ saveCSV(data, `./public/raw-data/${type}.json.csv`,
   csvOptions[type] || csvOptions.defalt
 );
 
-saveCSV(lang, `./public/raw-data/${type}.lang.csv`, csvOptions.defalt);
+// saveCSV(lang, `./public/raw-data/${type}.lang.csv`, csvOptions.defalt);
 
 function findZh(en) {
   let str = zh.find(i => i.source.toLowerCase() === en.toLowerCase())?.target;
