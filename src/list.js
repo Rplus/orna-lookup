@@ -34,15 +34,15 @@ export const words = {
   'Off-hand': '.. 副手',
   'Adornment': '裝飾品',
 
-  'Dark': '闇',
-  'Water': '水',
-  'Fire': '火',
-  'Physical': '物',
-  'Holy': '光',
-  'Earthen': '土',
-  'Lightning': '雷',
-  'Dragon': '龍',
-  'Arcane': '奧',
+  'dark': '闇',
+  'water': '水',
+  'fire': '火',
+  'physical': '物',
+  'holy': '光',
+  'earthen': '土',
+  'lightning': '雷',
+  'dragon': '龍',
+  'arcane': '奧',
 
   'Fire Def': '.火抗',
   'Water Def': '.水抗',
@@ -52,21 +52,26 @@ export const words = {
   'Dark Def': '.闇抗',
 
   // stats
-  'stats.attack': '物攻',
-  'stats.magic': '魔攻',
-  'stats.defense': '物防',
-  'stats.ward': '護盾',
-  'stats.dexterity': '敏捷',
-  'stats.mana': '魔力',
-  'stats.crit': '暴擊',
-  'stats.resistance': '魔防',
-  'stats.hp': '血量',
+  'attack': '物攻',
+  'magic': '魔攻',
+  'defense': '物防',
+  'ward': '護盾',
+  'dexterity': '敏捷',
+  'mana': '魔力',
+  'crit': '暴擊',
+  'resistance': '魔防',
+  'hp': '血量',
+  'foresight': '預知',
 
   // rarity
   'w': '1 白',
   'g': '2 綠',
   'b': '3 藍',
   'p': '4 紫',
+
+  // tags
+  'shops': '商店',
+  'chests': '寶箱',
 
   // category
   'bows': '弓箭',
@@ -87,15 +92,17 @@ export function getList(data) {
     categories: [...new Set(data.map(i => i.category))],
     tiers: [...new Set(data.map(i => i.tier))],
     element: [...new Set(data.map(i => i.element))],
-    immunities: [...new Set(data.map(i => i.immunities?.split(', ')).flat())],
+    immunities: [...new Set(data.map(i => i.immunities).flat())],
     causes: [...new Set(data.map(i => i.causes).flat())],
-    prevents: [...new Set(data.map(i => i.prevents).flat())],
     gives: [...new Set(data.map(i => i.gives).flat())],
     cures: [...new Set(data.map(i => i.cures).flat())],
+    tags: [...new Set(data.map(i => i.tags).flat())],
     rarity: [...new Set(data.map(i => i.rarity))],
     equipped_by: [...new Set(data.map(i => i.equipped_by).flat().filter(Boolean))],
-  }
 
+    // gives: [...new Set(data.map(i => i.gives).flat().map(i => i && i[0]))],
+    // prevents: [...new Set(data.map(i => i.prevents).flat())],
+  }
   return genLabelValue(obj);
 }
 
@@ -122,6 +129,6 @@ function sortLables(label_1, label_2) {
     case 'string':
       return label_1.toLowerCase().localeCompare(label_2.toLowerCase());
     default:
-      return label_1 > label_12;
+      return label_1 > label_2;
   }
 }

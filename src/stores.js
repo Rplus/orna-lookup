@@ -20,17 +20,20 @@ export const fixForm = writable({
 
 Promise.all(
   [
-    './data/item.min.json',
+    './data/merged_items.min.json',
+    // './data/item.min.json',
     './data/monster.min.json',
   ]
     .map(url => fetch(url).then( r => r.json() ) )
 ).then(d => {
-  const raw_items = d[0];
+  const raw_items = d[0].item;
   const raw_monsters = d[1];
-  let o_data = handleData(raw_items, raw_monsters);
+  const raw_spells = d[0].spells;
+  let o_data = handleData(raw_items, raw_monsters, raw_spells);
 
   const items = o_data.items;
   const monsters = o_data.monsters;
+  const spells = o_data.spells;
 
   window.ddd = items;
 
@@ -41,10 +44,10 @@ Promise.all(
     props: [...new Set(items.map(i => Object.keys(i)).flat())],
   })
 
-  let list = getList(items);
   data.set({
     items,
     monsters,
+    spells,
   });
 })
 

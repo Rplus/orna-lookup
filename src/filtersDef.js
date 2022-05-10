@@ -1,13 +1,13 @@
 export const filtersDef = [
   {
-    prop: 'name_zh',
-    label: 'name_zh',
+    prop: 'name.zh',
+    label: 'name.zh',
     type: 'text',
     sort: true,
   },
   {
-    prop: 'name',
-    label: 'name_en',
+    prop: 'name.en',
+    label: 'name.en',
     type: 'text',
     sort: true,
   },
@@ -41,14 +41,14 @@ export const filtersDef = [
     list: 'categories',
   },
   {
-    prop: 'prevents',
+    prop: 'immunities',
     label: '-免疫(敵)',
     type: 'text',
-    list: 'prevents',
+    list: 'immunities',
   },
   {
     prop: 'cures',
-    label: '-治癒(己)',
+    label: '-治療(己)',
     type: 'text',
     list: 'cures',
   },
@@ -60,7 +60,7 @@ export const filtersDef = [
   },
   {
     prop: 'gives',
-    label: '+給予(己)',
+    label: '+賦予(己)',
     type: 'text',
     list: 'gives',
   },
@@ -87,6 +87,12 @@ export const filtersDef = [
     label: '稀有度',
     type: 'text',
     list: 'rarity',
+  },
+  {
+    prop: 'tags',
+    label: 'Tags',
+    type: 'text',
+    list: 'tags',
   },
   {
     prop: 'boss',
@@ -180,6 +186,12 @@ export const filtersDef = [
     sort: true,
   },
   {
+    prop: 'stats.foresight',
+    label: '.預知',
+    type: 'number',
+    sort: true,
+  },
+  {
     prop: 'other_effect',
     label: '加成/技能',
     type: 'text',
@@ -195,8 +207,8 @@ export const filtersDef = [
   //   type: 'text',
   // },
   {
-    prop: 'id',
-    label: 'id',
+    prop: 'gid',
+    label: 'gid',
     type: 'number',
     min: 1,
     sort: true,

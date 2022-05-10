@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 
 export function getDeepProp(object, propChain) {
   return propChain.split('.')
-    .reduce((obj, prop) => obj[prop] || obj, object);
+    .reduce((obj, prop) => obj?.[prop], object);
 }
 
 export function getZh(str) {
@@ -39,7 +39,7 @@ function fixValueType(value, type) {
 
 export function createNewTextFilter(text) {
   return createNewFilter({
-    prop: 'name_zh',
+    prop: 'name.zh',
     value: text || '',
     type: 'text',
   });
@@ -72,7 +72,11 @@ export function fetchAssessData(assessData) {
         'mode': 'cors',
         // 'credentials': 'omit'
       }).then(res => res.json());
-      data.set(response);
+      if (response.error) {
+        error.set(response);
+      } else {
+        data.set(response);
+      }
     } catch(e) {
       error.set(e);
     }
@@ -81,46 +85,82 @@ export function fetchAssessData(assessData) {
 
   get();
 
-  return [ data, loading, error, get];
+  return [ data, loading, error, get ];
 }
 
 
 export function escapeRegExp(string) {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+  return `${string}`.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
 }
 
 
-export function handleData(itemData, monsterData) {
+const equipped_by_map = {
+  M: 'Mage',
+  T: 'Thief',
+  W: 'Warrior',
+};
+export function handleData(items, monsters, spells) {
   let findMonster = (mid) => {
-    let monster = monsterData.find(m => m.id === mid);
+    let monster = monsters.find(m => m.id === mid);
     return monster ? {
-      id: monster.id,
+      gid: monster.id,
       tier: monster.tier,
       name: monster.name,
       name_zh: monster.zh,
     } : null;
   }
   let findItem = (iid) => {
-    let item = itemData.find(i => i.id === iid);
+    let item = items.find(i => i.gid === iid);
     return item ? {
-      id: item.id,
+      gid: item.gid,
+      oid: item.oid,
       tier: item.tier,
-      name: item.name,
-      name_zh: item.zh,
+      name: item.name.en,
+      name_zh: item.name.zh,
     } : null;
   }
 
-  itemData.forEach(item => {
-    item.dropped_by = item.dropped_by?.map(findMonster).sort(sortByTier);
-    item.materials = item.materials?.map(findItem).sort(sortByTier);
-    item.name_zh = item.zh;
+  let materials = {};
+
+  items.forEach(item => {
+    if (item.dropped_by) {
+      item.dropped_by = item.dropped_by.map(findMonster).sort(sortByTier);
+    }
+    // item.materials = item.materials?.map(findItem).sort(sortByTier);
+    if (item.materials) {
+      item.materials.forEach(mid => {
+        materials[mid] = materials[mid] || [];
+        materials[mid].push(item.gid);
+      });
+      item.materials = item.materials.map(findItem).sort(sortByTier);
+    }
+    // item.name_zh = item.zh;
     // delete item.zh;
+    if (item.equipped_by) {
+      item.equipped_by = item.equipped_by.split('').map(i => equipped_by_map[i]);
+    }
+
     item.context = JSON.stringify(item);
   });
 
+  for (let sourceId in materials) {
+    let item = items.find(i => i.gid === +sourceId);
+    if (item) {
+      item.resource = [...new Set(materials[sourceId])].map(findItem).sort(sortByTier);
+    }
+  }
+
+  spells = Object.keys(spells).map(spell => {
+    return {
+      ...spells[spell],
+      oid: spell,
+    }
+  })
+
   return {
-    items: itemData,
-    monsters: monsterData,
+    items: items,
+    monsters: monsters,
+    spells: spells,
   };
 }
 

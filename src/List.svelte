@@ -3,7 +3,7 @@
   import Item from './Item.svelte';
   import { filters } from './stores.js';
   import { filtersDef } from './filtersDef.js';
-  import { escapeRegExp } from './u.js';
+  import { escapeRegExp, getDeepProp } from './u.js';
 
   let sortableProps = filtersDef.filter(i => i.sort);
   $: sortProp = 'tier';
@@ -56,7 +56,7 @@
 
     if (_define.checkId) {
       return data.filter(i => {
-        return i[prop]?.some(j => j.id === value);
+        return getDeepProp(i, prop)?.some(j => j.gid === value);
       });
     }
 
@@ -64,12 +64,12 @@
       case 'checkbox':
         return (
           Boolean(+value)
-            ? data.filter(i => i[prop])
-            : data.filter(i => !i[prop])
+            ? data.filter(i => getDeepProp(i, prop))
+            : data.filter(i => !getDeepProp(i, prop))
         );
       case 'number':
         return data.filter(i => {
-          let targetValue = i[prop];
+          let targetValue = getDeepProp(i, prop);
           switch (comparator) {
             case '+':
               return targetValue >= value;
@@ -82,10 +82,10 @@
       case 'text':
         return data.filter(i => {
           if (_define.list) {
-            return i[prop]?.includes(value);
+            return getDeepProp(i, prop)?.includes(value);
           }
           let reg = new RegExp(escapeRegExp(value), 'i');
-          return reg.test(i[prop])
+          return reg.test(getDeepProp(i, prop))
         });
       default:
         return data;
@@ -95,8 +95,8 @@
   function sortByProp(data = items) {
     return data.sort((a, b) => {
       let dir = sortDirASC ? 1: -1;
-      let targetValueA = a[sortProp] || -9999;
-      let targetValueB = b[sortProp] || -9999;
+      let targetValueA = getDeepProp(a, sortProp) || -9999;
+      let targetValueB = getDeepProp(b, sortProp) || -9999;
 
       if (typeof targetValueB === 'object') {
         targetValueB = -9999;
@@ -159,7 +159,7 @@
 <hr>
 
 <ul class="items" class:showDetails>
-  {#each filteredItems.slice(0, maxItem) as item (item.id)}
+  {#each filteredItems.slice(0, maxItem) as item (item.gid)}
     <li>
       <Item item={item} />
     </li>

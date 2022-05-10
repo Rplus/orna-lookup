@@ -1,26 +1,27 @@
 <script>
   export let item;
-  import { getImgSrc, checkingImg } from './image.js';
+  import { getImgBgStyle } from './image.js';
   import { words } from './list.js';
-  import { getZh } from './u.js';
-  import { dialog, data, fixForm } from './stores.js';
+  import { getZh, getDeepProp, createNewFilter } from './u.js';
+  import { dialog, data, fixForm, filters } from './stores.js';
   import ListDetail from './_ListDetail.svelte';
 
   const statProps = [
-    'stats.hp',
-    'stats.mana',
-    'stats.attack',
-    'stats.magic',
-    'stats.defense',
-    'stats.resistance',
-    'stats.dexterity',
-    'stats.ward',
-    'stats.crit',
+    'hp',
+    'mana',
+    'attack',
+    'magic',
+    'defense',
+    'resistance',
+    'dexterity',
+    'ward',
+    'crit',
+    'foresight',
   ];
 
   let effectTypes = [
     ['causes', '🔪'],
-    ['prevents', '🛡️'],
+    ['immunities', '🛡️'],
     ['gives', '🎁'],
     ['cures', '❤️‍🩹'],
     ['other_effect', '✨'],
@@ -28,7 +29,7 @@
 
   let stats = statProps.map(prop => ({
     prop,
-    value: item[prop],
+    value: item.stats?.[prop],
   }))
   .filter(i => i.value);
 
@@ -47,32 +48,50 @@
     })
   }
 
+  function getSpellUrl(spellEffect) {
+    let zh = spellEffect.split(': ')[1];
+    if (!zh) { return '###'; }
+    let spell = $data.spells.find(s => s.name.zh === zh);
+    if (!spell) { return '###'; }
+    return `https://playorna.com/codex/spells/${spell.oid}/`;
+  }
 </script>
 
 <details class="item-details item-rarity--{item.rarity || 'w'}">
   <summary class="summary">
-    <!-- {item.id} -->
     <ruby>
-      <rb>{item.name_zh}</rb>
-      <rt>{item.name}</rt>
+      <rb>{item.name.zh}</rb>
+      <rt>
+        <a href="https://playorna.com/codex/items/{item.oid}/" target="codex">
+          {item.name.en}
+        </a>
+      </rt>
     </ruby>
+    <sub class="tier" data-tier="{item.tier}">{item.tier}</sub>
 
-    <a href="https://orna.guide/items?show={item.id}" target="orna.guide">
+    <a href="https://orna.guide/items?show={item.gid}" target="orna.guide">
+      <sup>#{item.gid}</sup>
+      <!-- <sup>★{item.tier}</sup> -->
+    </a>
+
+    <!--
+    <a href="https://orna.guide/items?show={item.gid}" target="orna.guide">
       <sup>★{item.tier}</sup>
     </a>
+    -->
 
     <div class="item-info" on:click|preventDefault>
       <div
         class="item-img-box"
-        style={`--bg: url(${getImgSrc(item)}); --bg-fallback: url(${getImgSrc(item, 'small')})`}
+        style={getImgBgStyle(item)}
       />
 
       {#if stats.length}
-        <div>
+        <div on:click={assess} style="cursor: pointer;">
           [ Stats ]
           <br>
           ---------
-          <table on:click={assess} style="cursor: pointer;">
+          <table>
             {#each stats as stat}
               <tr>
                 <th>{getZh(stat.prop)}</th>
@@ -90,7 +109,13 @@
             <br>
             -------
             {#each item[effect[0]] as p}
-              <div>{getZh(p)}</div>
+              {#if p.startsWith && p.startsWith('技能:')}
+                <div>
+                  <a href={getSpellUrl(p)} target="codex" on:click|stopPropagation>{getZh(p)}</a>
+                </div>
+              {:else}
+                <div>{getZh(p)}</div>
+              {/if}
             {/each}
           </div>
         {/if}
@@ -127,19 +152,32 @@
           items={item.materials}
           title="材料"
           type="items"
-          prop="id"
+          prop="gid"
         />
       </div>
 
-      <details>
-        <summary class="text-right"></summary>
-        <pre class="item-pre">
-          { JSON.stringify({...item, context: null}, null, ' ') }
+      {#if item.resource}
+      <div class="resource">
+        <ListDetail
+          items={item.resource}
+          title="分解來源"
+          type="items"
+          prop="gid"
+        />
+      </div>
+      {/if}
+
+
+
+      <details class="raw-details">
+        <summary class="raw-summary text-right"></summary>
+        <pre class="raw-pre item-pre">
+          { JSON.stringify({...item, context: ''}, null, ' ') }
         </pre>
       </details>
-    </div>
 
-    <div class="fixform" on:click={goToFixForm} title="fix data">🛠️</div>
+      <div class="fixform" on:click={goToFixForm} title="FIX DATA">🛠️</div>
+    </div>
   </div>
 </details>
 
@@ -156,6 +194,14 @@
   padding: .5em;
   cursor: copy;
   font-weight: bolder;
+}
+
+.summary > a {
+  opacity: .75;
+  transition: opacity .5s;
+}
+.summary:not(:hover) > a {
+  opacity: 0;
 }
 
 .summary::after {
@@ -217,6 +263,7 @@
   color: #fff9;
   font-family: monospace;
   white-space: nowrap;
+  cursor: initial;
 }
 
 .item-info > * {
@@ -260,26 +307,46 @@
   margin-top: 1rem;
   height: var(--item-img-size, 96px);
   align-self: flex-start;
-  /* background-image: var(--bg, none), var(--bg-fallback, none); */
-  background-image: var(--bg-fallback, none);
+  background-image: var(--bg, none);
   background-size: contain;
   background-repeat: no-repeat;
   image-rendering: pixelated;
 }
 
-.item-pre {
-  margin-left: 5vw;
-  padding: .5em 1em;
-  white-space: pre;
+.raw-summary {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border: 0.5em solid #28231f;
+  border-top-color: #9991;
+  border-left-color: #9991;
+  cursor: pointer;
+}
+.raw-details[open] .raw-summary {
+  top: 0;
+  left: 0;
+  border: unset;
+  backdrop-filter: blur(3px);
+}
+.raw-pre {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  right: 2em;
+  bottom: 0;
+  z-index: 1;
+  margin: 0;
+  padding: 1em;
   overflow: auto;
-  font-size: 1.25em;
-  background-color: #6662;
-  color: #aaa;
+  background-color: #110;
 }
 
 .item-more {
   margin-top: 1em;
   margin-left: 5em;
+  padding-bottom: .5em;
   line-height: 1.4;
   font-size: smaller;
   white-space: nowrap;
@@ -311,9 +378,30 @@ ruby {
   ruby-align: center;
 }
 
+rt > a,
 rt {
   font-weight: normal;
-  color: #999;
+  color: #779;
+}
+
+.tier {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  overflow: hidden;
+  font-size: 10em;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.tier::before {
+  content: attr(data-tier);
+  position: absolute;
+  top: 0.2em;
+  right: -0.12em;
+  visibility: visible;
+  opacity: .05;
 }
 
 table {
@@ -328,10 +416,12 @@ table th {
   position: absolute;
   left: 0;
   bottom: 0;
+  z-index: 2;
   opacity: 0.2;
   transition: opacity .3s;
   cursor: pointer;
 }
+.raw-details[open] + .fixform,
 .fixform:hover {
   opacity: 1;
 }

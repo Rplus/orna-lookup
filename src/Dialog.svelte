@@ -1,7 +1,6 @@
 <script>
   import { dialog } from './stores.js';
-  import { words } from './list.js';
-  import { numSort } from './u.js';
+  import { numSort, getZh } from './u.js';
   import Assess from './Assess.svelte';
 
   $: _stats = [];
@@ -34,8 +33,8 @@
     _stats = stats.map(stat => {
       let [min, max] = [stat.value * 2, ~~(stat.value * .7)].sort(numSort);
       return {
-        oProp: stat.prop.split('.')[1],
-        prop: words[stat.prop] || stat.prop,
+        oProp: stat.prop,
+        prop: getZh(stat.prop),
         value: stat.value,
         oValue: stat.value,
         max: selectedLv === 1 ? max : max * 3,
@@ -63,7 +62,7 @@
     if (!_stats.length) { return; }
 
     let defaultData = {
-      id: $dialog.item.id,
+      id: $dialog.item.gid,
     };
 
     let newData = _stats.reduce((all, i) => {
@@ -109,7 +108,7 @@
           <caption>
             品質試算
             <br />
-            [ {$dialog.item.name_zh} ] Lv.
+            [ {$dialog.item.name.zh} ] Lv.
             <select bind:value={selectedLv}>
               {#each LV as lv}
                 <option value={lv}>{lv}</option>

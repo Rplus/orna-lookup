@@ -13,16 +13,23 @@ let imgs = {
 export function getImgSrc(item, thumbnail) {
   if (!item) { return; }
 
-  if (thumbnail) {
-    return getOrnaThumbImgSrc(item.image, 16);
-    // return getProxyImgSrc(item.image, 16);
-  }
+  return getOrnaThumbImgSrc(item.img);
 
-  return (
-    (item.deadProxyImage || true)
-      ? getOriginImgSrc(item.image)
-      : getProxyImgSrc(item.image)
-  );
+  // if (thumbnail) {
+  //   return getOrnaThumbImgSrc(item.img, 16);
+  //   // return getProxyImgSrc(item.img, 16);
+  // }
+
+  // return (
+  //   (item.deadProxyImage || true)
+  //     ? getOriginImgSrc(item.img)
+  //     : getProxyImgSrc(item.img)
+  // );
+}
+
+export function getImgBgStyle(item) {
+  // return `--bg: url(${getImgSrc(item)}); --bg-fallback: url(${getImgSrc(item, 's')})`;
+  return `--bg: url(${getImgSrc(item)});`;
 }
 
 export function checkingImg(item) {
@@ -62,7 +69,7 @@ function getProxyImgSrc(imgPath, size = 96) {
   // if (imgPath === 'useables/small_health_potion.png') {
   //   return imgPath;
   // }
-  return `https://images.weserv.nl/?w=${size}&il&url=${getOriginImgSrc(imgPath)}`;
+  return `https://images.weserv.nl/?w=${size}&il&url=${getOrnaThumbImgSrc(imgPath)}`;
 }
 
 function getOriginImgSrc(imgPath) {

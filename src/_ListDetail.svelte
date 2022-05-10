@@ -24,7 +24,7 @@
     <ul>
       {#each items as item}
         <li>
-          <a href="https://orna.guide/{type}?show={item.id}" target="orna.guide" on:click|preventDefault={() => handleClick(item.id)}>
+          <a href="https://orna.guide/{type}?show={item.gid}" target="orna.guide" on:click|preventDefault={() => handleClick(item.gid)}>
             <small>
               ★{item.tier} -
             </small>

@@ -2,6 +2,7 @@
   export let assessData = {};
   import { numSort, fetchAssessData, getZh } from './u.js';
   $: [data, loading, error, get] = fetchAssessData(assessData);
+  console.log({assessData});
 </script>
 
 {#if $loading}
@@ -39,6 +40,7 @@ Loading...
 {:else if !$loading}
 <blockquote>
   GG
+  <pre>{JSON.stringify($error)}</pre>
   <!--
   若點了 [ Assess ] 沒反應，<br>
   請至 cors-anywhere ，並點擊按鈕，<br>
@@ -74,5 +76,9 @@ blockquote {
 
 td, th {
   padding: .15em .25em;
+}
+pre {
+  white-space: pre-wrap;
+  max-width: 15em;
 }
 </style>
