@@ -21868,7 +21868,7 @@
     "id": 839,
     "name": "Arisen Naggeneen's Hat",
     "zh": "重生納根因的帽子",
-    "tier": 7,
+    "tier": 9,
     "type": "Head",
     "boss": 1,
     "equipped_by": [
@@ -34627,7 +34627,7 @@
     "id": 1341,
     "name": "Spoiled Dioscuri Mead",
     "zh": "臭酸的狄奧斯庫洛伊蜂蜜酒",
-    "tier": 9,
+    "tier": 8,
     "type": "Other",
     "equipped_by": [
       "Mage",
@@ -35290,7 +35290,7 @@
     "id": 1368,
     "name": "Mandrake",
     "zh": "曼德拉草",
-    "tier": 2,
+    "tier": 1,
     "type": "Material",
     "equipped_by": [
       "Mage",
@@ -40904,5 +40904,41 @@
     ],
     "image": "acc/book_lightning.png",
     "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity."
+  },
+  {
+    "id": 1592,
+    "name": "Verrick's Ring",
+    "zh": "凡列克之戒",
+    "tier": 7,
+    "type": "Accessory",
+    "equipped_by": [
+      "Mage"
+    ],
+    "dropped_by": [
+      524
+    ],
+    "image": "acc/blue_ring.png",
+    "description": "Lunar Catalyst of Verrick, fallen king of the Enlightened."
+  },
+  {
+    "id": 1593,
+    "name": "Unfelled Concord",
+    "zh": "不落者協議",
+    "tier": 10,
+    "type": "Accessory",
+    "view_distance": 20,
+    "equipped_by": [
+      "Mage",
+      "Thief",
+      "Warrior"
+    ],
+    "stats.attack": 20,
+    "stats.magic": 20,
+    "stats.defense": 20,
+    "stats.resistance": 20,
+    "stats.dexterity": 20,
+    "stats.ward": 1,
+    "image": "acc/garnet.png",
+    "description": "A large garnet that symbolizes one's allegiance to the Order of the Unfelled. Wearing this gem will allow one to enter dungeons found in the world more frequently."
   }
 ]

@@ -16084,7 +16084,7 @@
   {
     "id": 529,
     "name": "Medea",
-    "zh": "Medea",
+    "zh": "重生者女王美狄亞",
     "tier": 10,
     "level": 250,
     "boss": 1,
@@ -16142,7 +16142,7 @@
   {
     "id": 530,
     "name": "Young Apollyon",
-    "zh": "Young Apollyon",
+    "zh": "青年亞坡倫",
     "tier": 5,
     "level": 120,
     "boss": 1,
@@ -16193,7 +16193,7 @@
   {
     "id": 531,
     "name": "Apollyon's Apprentice",
-    "zh": "Apollyon's Apprentice",
+    "zh": "亞坡倫的學徒",
     "tier": 8,
     "spawns": [
       "Event: The Plight of Apollyon",
@@ -16229,7 +16229,7 @@
   {
     "id": 532,
     "name": "Apollyon's Pupil (lightning)",
-    "zh": "Apollyon's Pupil (lightning)",
+    "zh": "亞坡倫的弟子",
     "tier": 5,
     "spawns": [
       "Event: The Plight of Apollyon",
@@ -16252,7 +16252,7 @@
   {
     "id": 533,
     "name": "Apollyon's Pupil (fire)",
-    "zh": "Apollyon's Pupil (fire)",
+    "zh": "亞坡倫的弟子",
     "tier": 5,
     "spawns": [
       "Event: The Plight of Apollyon",
@@ -16275,7 +16275,7 @@
   {
     "id": 534,
     "name": "Apollyon's Pupil (ice)",
-    "zh": "Apollyon's Pupil (ice)",
+    "zh": "亞坡倫的弟子",
     "tier": 5,
     "spawns": [
       "Event: The Plight of Apollyon",
@@ -16298,7 +16298,7 @@
   {
     "id": 535,
     "name": "Apollyon's Pupil (earth)",
-    "zh": "Apollyon's Pupil (earth)",
+    "zh": "亞坡倫的弟子",
     "tier": 5,
     "spawns": [
       "Event: The Plight of Apollyon",
@@ -16321,7 +16321,7 @@
   {
     "id": 536,
     "name": "Beguiled Apollyon",
-    "zh": "Beguiled Apollyon",
+    "zh": "著魔的亞坡倫",
     "tier": 10,
     "level": 250,
     "boss": 1,

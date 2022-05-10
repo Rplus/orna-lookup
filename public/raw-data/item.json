@@ -75861,5 +75861,72 @@
     "gives": [
       "Lightning Aligned (4%)"
     ]
+  },
+  {
+    "name": "Verrick's Ring",
+    "id": 1592,
+    "description": "Lunar Catalyst of Verrick, fallen king of the Enlightened.",
+    "type": "Accessory",
+    "tier": 7,
+    "boss": false,
+    "arena": false,
+    "image": "acc/blue_ring.png",
+    "dropped_by": [
+      {
+        "id": 524,
+        "name": "Enlightened King"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Unfelled Concord",
+    "id": 1593,
+    "description": "A large garnet that symbolizes one's allegiance to the Order of the Unfelled. Wearing this gem will allow one to enter dungeons found in the world more frequently.",
+    "type": "Accessory",
+    "tier": 10,
+    "boss": false,
+    "arena": false,
+    "image": "acc/garnet.png",
+    "stats": {
+      "attack": {
+        "base": 20
+      },
+      "defense": {
+        "base": 20
+      },
+      "dexterity": {
+        "base": 20
+      },
+      "magic": {
+        "base": 20
+      },
+      "resistance": {
+        "base": 20
+      },
+      "ward": {
+        "base": 1
+      }
+    },
+    "view_distance": 20,
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
   }
 ]
