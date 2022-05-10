@@ -54,3 +54,9 @@ merge-skill: pull-skill
 
 pull-skill:
 	npm run pulldata type=skill;
+
+merge-item:
+	node ./task/pullData.mjs; \
+	node ./task/playorna-parser.mjs parse=1 type=items; \
+	node ./task/playorna-parser.mjs type=items; \
+	node ./task/merge-item.mjs;
