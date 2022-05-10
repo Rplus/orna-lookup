@@ -62,7 +62,7 @@ fitFns.items = function (data) {
     if (item.meta.stats) {
       for (let stat in item.meta.stats) {
         if (!item.meta.stats[stat] && item.meta.stats[stat] !== 0) {
-          item.meta.type = stat;
+          item.meta.element = stat;
           delete item.meta.stats[stat];
         }
       }
