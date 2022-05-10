@@ -74523,5 +74523,1410 @@
         "name": "Mage"
       }
     ]
+  },
+  {
+    "name": "Beguiled Heavy Boots",
+    "id": 1562,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Legs",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_boots.png",
+    "stats": {
+      "defense": {
+        "base": 270
+      },
+      "hp": {
+        "base": 495
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  null,
+  null,
+  {
+    "name": "Beguiled Hood",
+    "id": 1565,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_hood.png",
+    "stats": {
+      "defense": {
+        "base": 110
+      },
+      "dexterity": {
+        "base": 24
+      },
+      "hp": {
+        "base": 345
+      },
+      "resistance": {
+        "base": 230
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Boots",
+    "id": 1566,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Legs",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_boots.png",
+    "stats": {
+      "defense": {
+        "base": 230
+      },
+      "dexterity": {
+        "base": 24
+      },
+      "resistance": {
+        "base": 110
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 3,
+        "name": "Thief"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Helmet",
+    "id": 1567,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_helm.png",
+    "stats": {
+      "defense": {
+        "base": 270
+      },
+      "hp": {
+        "base": 495
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Armor",
+    "id": 1568,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Armor",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_armor.png",
+    "stats": {
+      "defense": {
+        "base": 270
+      },
+      "hp": {
+        "base": 495
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Garb",
+    "id": 1569,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Armor",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_armor.png",
+    "stats": {
+      "defense": {
+        "base": 230
+      },
+      "dexterity": {
+        "base": 24
+      },
+      "hp": {
+        "base": 345
+      },
+      "resistance": {
+        "base": 110
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Shoes",
+    "id": 1570,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Legs",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_boots.png",
+    "stats": {
+      "defense": {
+        "base": 110
+      },
+      "dexterity": {
+        "base": 24
+      },
+      "hp": {
+        "base": 345
+      },
+      "resistance": {
+        "base": 230
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Robe",
+    "id": 1571,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Armor",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_robe.png",
+    "stats": {
+      "defense": {
+        "base": 110
+      },
+      "dexterity": {
+        "base": 24
+      },
+      "hp": {
+        "base": 345
+      },
+      "resistance": {
+        "base": 230
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Beguiled Mystic Katar",
+    "id": 1572,
+    "description": "A strange side-arm carried by Apollyon. Before being stolen and damaged by morrigan, Apollyon imbued great elemental resistance in this piece.",
+    "type": "Off-hand",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "wards/spectral_katar.png",
+    "stats": {
+      "crit": {
+        "base": 4
+      },
+      "dexterity": {
+        "base": 80
+      },
+      "ward": {
+        "base": 29
+      }
+    },
+    "materials": [
+      {
+        "id": 256,
+        "name": "Earthstone"
+      },
+      {
+        "id": 259,
+        "name": "Firestone"
+      },
+      {
+        "id": 265,
+        "name": "Lightningstone"
+      },
+      {
+        "id": 280,
+        "name": "Waterstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Mag ↑"
+    ],
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ]
+  },
+  {
+    "name": "Beguiled Cowl",
+    "id": 1573,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 10,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_cowl.png",
+    "stats": {
+      "defense": {
+        "base": 230
+      },
+      "dexterity": {
+        "base": 24
+      },
+      "hp": {
+        "base": 345
+      },
+      "resistance": {
+        "base": 110
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 536,
+        "name": "Beguiled Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 3,
+        "name": "Thief"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Boots",
+    "id": 1574,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Legs",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_boots.png",
+    "stats": {
+      "defense": {
+        "base": 115
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "hp": {
+        "base": 115
+      },
+      "resistance": {
+        "base": 55
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 3,
+        "name": "Thief"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Cowl",
+    "id": 1575,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_cowl.png",
+    "stats": {
+      "defense": {
+        "base": 115
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "hp": {
+        "base": 115
+      },
+      "resistance": {
+        "base": 55
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 3,
+        "name": "Thief"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Garb",
+    "id": 1576,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Armor",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_armor.png",
+    "stats": {
+      "defense": {
+        "base": 115
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "hp": {
+        "base": 115
+      },
+      "resistance": {
+        "base": 55
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 3,
+        "name": "Thief"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Hood",
+    "id": 1577,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_hood.png",
+    "stats": {
+      "defense": {
+        "base": 55
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "hp": {
+        "base": 115
+      },
+      "resistance": {
+        "base": 115
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Robe",
+    "id": 1578,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Armor",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_robe.png",
+    "stats": {
+      "defense": {
+        "base": 55
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "hp": {
+        "base": 115
+      },
+      "resistance": {
+        "base": 115
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Shoes",
+    "id": 1579,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Legs",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_boots.png",
+    "stats": {
+      "defense": {
+        "base": 55
+      },
+      "dexterity": {
+        "base": 12
+      },
+      "hp": {
+        "base": 115
+      },
+      "resistance": {
+        "base": 115
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Mystic Katar",
+    "id": 1580,
+    "description": "A strange side-arm carried by Apollyon. Before being stolen and damaged by morrigan, Apollyon imbued great elemental resistance in this piece.",
+    "type": "Off-hand",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "wards/spectral_katar.png",
+    "stats": {
+      "dexterity": {
+        "base": 20
+      },
+      "ward": {
+        "base": 16
+      }
+    },
+    "materials": [
+      {
+        "id": 256,
+        "name": "Earthstone"
+      },
+      {
+        "id": 259,
+        "name": "Firestone"
+      },
+      {
+        "id": 265,
+        "name": "Lightningstone"
+      },
+      {
+        "id": 280,
+        "name": "Waterstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ],
+    "gives": [
+      "T. Att ↑",
+      "T. Mag ↑"
+    ],
+    "prevents": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ]
+  },
+  {
+    "name": "Spectral Armor",
+    "id": 1581,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_armor.png",
+    "stats": {
+      "defense": {
+        "base": 135
+      },
+      "hp": {
+        "base": 165
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Heavy Boots",
+    "id": 1582,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Legs",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_boots.png",
+    "stats": {
+      "defense": {
+        "base": 135
+      },
+      "hp": {
+        "base": 165
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Spectral Helmet",
+    "id": 1583,
+    "description": "A piece threaded of distant memories. Memories of the famed, yet feared, \"angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses.",
+    "type": "Head",
+    "tier": 5,
+    "boss": true,
+    "arena": false,
+    "image": "armor/spectral_helm.png",
+    "stats": {
+      "defense": {
+        "base": 135
+      },
+      "hp": {
+        "base": 165
+      },
+      "ward": {
+        "base": -10
+      }
+    },
+    "materials": [
+      {
+        "id": 262,
+        "name": "Hide"
+      },
+      {
+        "id": 273,
+        "name": "Runestone"
+      },
+      {
+        "id": 294,
+        "name": "Silk"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 530,
+        "name": "Young Apollyon"
+      }
+    ],
+    "prevents": [
+      "Doom"
+    ]
+  },
+  {
+    "name": "Book of the Arcane",
+    "id": 1584,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_arcane.png",
+    "stats": {
+      "attack": {
+        "base": 25
+      },
+      "magic": {
+        "base": 25
+      }
+    },
+    "element": "Arcane",
+    "materials": [
+      {
+        "id": 256,
+        "name": "Earthstone"
+      },
+      {
+        "id": 259,
+        "name": "Firestone"
+      },
+      {
+        "id": 265,
+        "name": "Lightningstone"
+      },
+      {
+        "id": 280,
+        "name": "Waterstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 531,
+        "name": "Apollyon's Apprentice"
+      }
+    ],
+    "causes": [
+      "Burning",
+      "Frozen",
+      "Paralyzed",
+      "Rot"
+    ],
+    "gives": [
+      "Arcane Aligned (3%)"
+    ]
+  },
+  {
+    "name": "Book of Light",
+    "id": 1585,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_holy.png",
+    "stats": {
+      "attack": {
+        "base": 20
+      },
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Holy",
+    "materials": [
+      {
+        "id": 325,
+        "name": "Lightstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 531,
+        "name": "Apollyon's Apprentice"
+      }
+    ],
+    "causes": [
+      "Blind",
+      "Stunned"
+    ],
+    "gives": [
+      "Holy Aligned (10%)"
+    ]
+  },
+  {
+    "name": "Book of the Dragon",
+    "id": 1586,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_dragon.png",
+    "stats": {
+      "attack": {
+        "base": 20
+      },
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Dragon",
+    "materials": [
+      {
+        "id": 255,
+        "name": "Dragonite"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 531,
+        "name": "Apollyon's Apprentice"
+      }
+    ],
+    "causes": [
+      "Blight"
+    ],
+    "gives": [
+      "Dragon Aligned (10%)"
+    ]
+  },
+  {
+    "name": "Book of Darkness",
+    "id": 1587,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 8,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_dark.png",
+    "stats": {
+      "attack": {
+        "base": 20
+      },
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Dark",
+    "materials": [
+      {
+        "id": 252,
+        "name": "Darkstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 531,
+        "name": "Apollyon's Apprentice"
+      }
+    ],
+    "causes": [
+      "Asleep"
+    ],
+    "gives": [
+      "Dark Aligned (10%)"
+    ]
+  },
+  {
+    "name": "Book of Earth",
+    "id": 1588,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 5,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_earth.png",
+    "stats": {
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Earthen",
+    "materials": [
+      {
+        "id": 256,
+        "name": "Earthstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 535,
+        "name": "Apollyon's Pupil (earth)"
+      }
+    ],
+    "causes": [
+      "Rot"
+    ],
+    "gives": [
+      "Earth Aligned (4%)"
+    ]
+  },
+  {
+    "name": "Book of Water",
+    "id": 1589,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 5,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_water.png",
+    "stats": {
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Water",
+    "materials": [
+      {
+        "id": 280,
+        "name": "Waterstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 534,
+        "name": "Apollyon's Pupil (ice)"
+      }
+    ],
+    "causes": [
+      "Frozen"
+    ],
+    "gives": [
+      "Water Aligned (4%)"
+    ]
+  },
+  {
+    "name": "Book of Fire",
+    "id": 1590,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 5,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_fire.png",
+    "stats": {
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Fire",
+    "materials": [
+      {
+        "id": 259,
+        "name": "Firestone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 533,
+        "name": "Apollyon's Pupil (fire)"
+      }
+    ],
+    "causes": [
+      "Burning"
+    ],
+    "gives": [
+      "Fire Aligned (4%)"
+    ]
+  },
+  {
+    "name": "Book of Lightning",
+    "id": 1591,
+    "description": "A book carried by a Student of Apollyon. Before being Beguiled with destructive magics, Apollyon studied the elven ways of elemental balance. These books contain great elemental affinity.",
+    "type": "Accessory",
+    "tier": 5,
+    "boss": false,
+    "arena": false,
+    "image": "acc/book_lightning.png",
+    "stats": {
+      "magic": {
+        "base": 20
+      }
+    },
+    "element": "Lightning",
+    "materials": [
+      {
+        "id": 265,
+        "name": "Lightningstone"
+      }
+    ],
+    "dropped_by": [
+      {
+        "id": 532,
+        "name": "Apollyon's Pupil (lightning)"
+      }
+    ],
+    "causes": [
+      "Paralyzed"
+    ],
+    "gives": [
+      "Lightning Aligned (4%)"
+    ]
+  },
+  {
+    "name": "Verrick's Ring",
+    "id": 1592,
+    "description": "Lunar Catalyst of Verrick, fallen king of the Enlightened.",
+    "type": "Accessory",
+    "tier": 7,
+    "boss": false,
+    "arena": false,
+    "image": "acc/blue_ring.png",
+    "dropped_by": [
+      {
+        "id": 524,
+        "name": "Enlightened King"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Unfelled Concord",
+    "id": 1593,
+    "description": "A large garnet that symbolizes one's allegiance to the Order of the Unfelled. Wearing this gem will allow one to enter dungeons found in the world more frequently.",
+    "type": "Accessory",
+    "tier": 10,
+    "boss": false,
+    "arena": false,
+    "image": "acc/garnet.png",
+    "stats": {
+      "attack": {
+        "base": 20
+      },
+      "defense": {
+        "base": 20
+      },
+      "dexterity": {
+        "base": 20
+      },
+      "magic": {
+        "base": 20
+      },
+      "resistance": {
+        "base": 20
+      },
+      "ward": {
+        "base": 1
+      }
+    },
+    "view_distance": 20,
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
   }
 ]

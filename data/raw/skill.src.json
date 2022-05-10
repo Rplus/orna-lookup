@@ -464,7 +464,7 @@
         "specialization": false
       }
     ],
-    "description": "25 percent chance per stat to boost a stat."
+    "description": "25% chance per stat to boost a stat."
   },
   {
     "id": 35,
@@ -682,10 +682,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals light fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals light fire damage."
   },
   {
     "id": 40,
@@ -730,10 +727,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals light ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals light ice damage."
   },
   {
     "id": 41,
@@ -776,7 +770,7 @@
         "specialization": false
       }
     ],
-    "description": "Recover 100 health points."
+    "description": "Recovers 100 HP"
   },
   {
     "id": 42,
@@ -833,7 +827,7 @@
         "specialization": false
       }
     ],
-    "description": "Run at your enemy with your weapon extended for a 50 percent critical chance."
+    "description": "Run at your enemy with your weapon extended for a 50% critical chance."
   },
   {
     "id": 43,
@@ -1003,10 +997,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals light lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals light lightning damage."
   },
   {
     "id": 46,
@@ -1043,10 +1034,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals light earthen damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals light earthen damage."
   },
   {
     "id": 47,
@@ -1229,10 +1217,7 @@
         "specialization": false
       }
     ],
-    "description": "Light an arrow aflame and attack the enemy. 25 percent chance to cause an opponent to burn.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Light an arrow aflame and attack the enemy. 25 percent chance to cause an opponent to burn."
   },
   {
     "id": 51,
@@ -1355,10 +1340,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals moderate fire damage."
   },
   {
     "id": 53,
@@ -1452,10 +1434,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals moderate ice damage."
   },
   {
     "id": 55,
@@ -1534,7 +1513,7 @@
         "specialization": false
       }
     ],
-    "description": "Freeze an arrow and attack the enemy. 25 percent chance to freeze an opponent."
+    "description": "Freeze an arrow and attack the enemy. 25% chance to freeze an opponent."
   },
   {
     "id": 57,
@@ -1770,7 +1749,7 @@
         "specialization": false
       }
     ],
-    "description": "Attempt to poison an opponent, dealing damage every turn."
+    "description": "90% chance to poison an enemy, causing 5% damage per turn.  NOTE: The in-game description is incorrect. The actual damage is 2% per turn."
   },
   {
     "id": 62,
@@ -1880,10 +1859,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great earthen damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals great earthen damage."
   },
   {
     "id": 64,
@@ -2020,10 +1996,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals moderate lightning damage."
   },
   {
     "id": 67,
@@ -2160,10 +2133,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals great ice damage."
   },
   {
     "id": 70,
@@ -2217,10 +2187,7 @@
         "specialization": false
       }
     ],
-    "description": "Imbue your weapon with the occult and attack the enemy.",
-    "causes": [
-      "Asleep"
-    ]
+    "description": "Imbue your weapon with the occult and attack the enemy."
   },
   {
     "id": 71,
@@ -2485,10 +2452,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals great fire damage."
   },
   {
     "id": 76,
@@ -2675,7 +2639,7 @@
         "specialization": false
       }
     ],
-    "description": "Throw a dart with the chance to cause an opponent to fall asleep."
+    "description": "Throw a dart with the chance to cause an opponent to fall asleep (75% chance)."
   },
   {
     "id": 82,
@@ -2798,10 +2762,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals great lightning damage."
   },
   {
     "id": 84,
@@ -2842,7 +2803,7 @@
         "specialization": false
       }
     ],
-    "description": "Throw a dart with the chance to stun an opponent."
+    "description": "Throw a dart with the chance to stun an opponent (90% chance)."
   },
   {
     "id": 85,
@@ -2898,7 +2859,7 @@
         "specialization": false
       }
     ],
-    "description": "Decreases the opponents attack power."
+    "description": "Decrease the opponent's attack power."
   },
   {
     "id": 86,
@@ -2931,13 +2892,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive earthen damage, but may damage or cause its caster to rot.",
-    "causes": [
-      "Rot"
-    ],
-    "gives": [
-      "Rot"
-    ]
+    "description": "Unstable magic that can deal massive earthen damage, but may damage or stun its caster."
   },
   {
     "id": 87,
@@ -2972,13 +2927,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive lightning damage, but may damage or paralyze its caster.",
-    "causes": [
-      "Paralyzed"
-    ],
-    "gives": [
-      "Paralyzed"
-    ]
+    "description": "Unstable magic that can deal massive lightning damage, but may damage or paralyze its caster."
   },
   {
     "id": 88,
@@ -3017,13 +2966,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive ice damage, but may damage or freeze its caster.",
-    "causes": [
-      "Frozen"
-    ],
-    "gives": [
-      "Frozen"
-    ]
+    "description": "Unstable magic that can deal massive ice damage, but may damage or freeze its caster."
   },
   {
     "id": 89,
@@ -3055,10 +2998,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great holy damage.",
-    "causes": [
-      "Blind"
-    ]
+    "description": "Deals great holy damage."
   },
   {
     "id": 90,
@@ -3094,13 +3034,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive fire damage, but may damage or burn its caster.",
-    "causes": [
-      "Burning"
-    ],
-    "gives": [
-      "Burning"
-    ]
+    "description": "Unstable magic that can deal massive fire damage, but may damage or burn its caster."
   },
   {
     "id": 91,
@@ -3193,10 +3127,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great dark damage.",
-    "causes": [
-      "Asleep"
-    ]
+    "description": "Deals great dark damage."
   },
   {
     "id": 93,
@@ -3480,10 +3411,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great dragon damage.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Deals great dragon damage."
   },
   {
     "id": 99,
@@ -3551,10 +3479,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal greater dragon damage, but may damage its caster.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Unstable magic that can deal greater dragon damage, but may damage its caster."
   },
   {
     "id": 101,
@@ -3582,7 +3507,7 @@
         "specialization": false
       }
     ],
-    "description": "Summon the power of a golem. It can greatly boost defenses at the expense of attack power."
+    "description": "Summon the power of a golem. Greatly boosts defenses at the expense of attack power."
   },
   {
     "id": 102,
@@ -3724,7 +3649,7 @@
         "specialization": false
       }
     ],
-    "description": "Recover 300 health points and cure common statuses."
+    "description": "Recovers 300 health points and cure common statuses."
   },
   {
     "id": 107,
@@ -3822,7 +3747,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals damage according to the amount of beasts one has recently slain. This spell may not have its damage directly increased by buffs."
+    "description": "Deals damage according to the amount of beasts one has recently slain."
   },
   {
     "id": 110,
@@ -3919,10 +3844,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate earthen damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals moderate earthen damage."
   },
   {
     "id": 112,
@@ -4053,7 +3975,7 @@
         "specialization": true
       }
     ],
-    "description": "Imbues your weapon with the power of the earth."
+    "description": "Imbues your weapon with the power of earth."
   },
   {
     "id": 117,
@@ -4199,7 +4121,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals damage proportional to the physical attack skills of an opponent."
+    "description": "Deals damage proportional to the physical attack potential of an opponent"
   },
   {
     "id": 121,
@@ -4239,7 +4161,7 @@
         "specialization": true
       }
     ],
-    "description": "Summon a bright star, with the chance of blinding your opponent."
+    "description": "Summon a bright star, with a chance of blinding your opponent."
   },
   {
     "id": 122,
@@ -4256,8 +4178,7 @@
     "strikes": 1,
     "causes": [
       "Burning",
-      "Blind",
-      "Starstruck"
+      "Blind"
     ],
     "pets_use": [
       106,
@@ -4287,7 +4208,7 @@
         "specialization": true
       }
     ],
-    "description": "Summon a mighty star, with the chance of blinding or burning your opponent."
+    "description": "Summon a mighty star, with a chance of blinding or burning your opponent."
   },
   {
     "id": 123,
@@ -4324,10 +4245,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals great holy damage.",
-    "causes": [
-      "Blind"
-    ]
+    "description": "Deals great holy damage."
   },
   {
     "id": 124,
@@ -4393,7 +4311,7 @@
         "specialization": true
       }
     ],
-    "description": "Grants protection against the power of the earth."
+    "description": "Grants protection against the power of earth."
   },
   {
     "id": 126,
@@ -4608,11 +4526,7 @@
         "specialization": true
       }
     ],
-    "description": "Unstable cosmic magic that can deal immense damage, but may damage or stun its caster.",
-    "causes": [
-      "Stunned",
-      "Starstruck"
-    ]
+    "description": "Unstable cosmic magic that can deal immense damage, but may damage or stun its caster."
   },
   {
     "id": 132,
@@ -4642,7 +4556,7 @@
         "specialization": true
       }
     ],
-    "description": "Utilize a dragon slaying arrow to conquer a beast. Deals greater damage to dragons."
+    "description": "Deals greater damage to Dragons"
   },
   {
     "id": 133,
@@ -4671,10 +4585,7 @@
         "specialization": true
       }
     ],
-    "description": "Loose an arrow with great might, either missing or dealing critical damage while breaking an opponent's defenses.",
-    "causes": [
-      "Def ↓"
-    ]
+    "description": "Loose an arrow with great might, breaking an opponent's defense while causing critical damage."
   },
   {
     "id": 134,
@@ -4854,7 +4765,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals damage proportional to the magic potential of an opponent."
+    "description": "Deals damage proportional to the magic potential of an opponent"
   },
   {
     "id": 139,
@@ -4965,7 +4876,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals damage proportional to the damage one has taken."
+    "description": "Deals damage proportional to damage one has taken"
   },
   {
     "id": 143,
@@ -5068,10 +4979,7 @@
         "specialization": false
       }
     ],
-    "description": "Imbue your weapon with the occult and attack the enemy.",
-    "causes": [
-      "Asleep"
-    ]
+    "description": "Imbue your weapon with the occult and attack the enemy."
   },
   {
     "id": 147,
@@ -5156,7 +5064,7 @@
         "specialization": false
       }
     ],
-    "description": "Light your weapon aflame and attack the enemy."
+    "description": "Light your weapon afire and attack the enemy"
   },
   {
     "id": 149,
@@ -5191,7 +5099,7 @@
         "specialization": false
       }
     ],
-    "description": "Purify your weapon and attack the enemy."
+    "description": "Purify your weapon and attack the enemy"
   },
   {
     "id": 150,
@@ -5239,7 +5147,7 @@
         "specialization": false
       }
     ],
-    "description": "Freeze your weapon and attack the enemy."
+    "description": "Freeze your weapon and attack the enemy"
   },
   {
     "id": 151,
@@ -5281,7 +5189,7 @@
         "specialization": false
       }
     ],
-    "description": "Electrify your weapon and attack the enemy."
+    "description": "Electrify your weapon and attack the enemy"
   },
   {
     "id": 152,
@@ -5360,7 +5268,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack, healing yourself in the process."
+    "description": "Attack, healing yourself in the process"
   },
   {
     "id": 154,
@@ -5611,10 +5519,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate fire damage thrice.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals moderate fire damage thrice."
   },
   {
     "id": 158,
@@ -5726,10 +5631,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate earthen damage thrice.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals moderate earthen damage thrice."
   },
   {
     "id": 161,
@@ -5845,7 +5747,7 @@
         "specialization": false
       }
     ],
-    "description": "Temporarily boosts your offense and defense and gives Ward for 1 turn."
+    "description": "A perfect counterattack.  Temporarily boosts your offense and defense and gives Ward for 1 turn."
   },
   {
     "id": 164,
@@ -5895,7 +5797,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack multiple times, changing the course of the battle. It may cause multiple buffs and debuffs."
+    "description": "Attack multiple times, changing the course of the battle.  It may cause multiple buffs and debuffs."
   },
   {
     "id": 165,
@@ -5931,7 +5833,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack quickly, dealing more or less damage. An opponent may be stunned or blinded by your strike."
+    "description": "Attack quickly, dealing more or less damage.  An opponent may be stunned or blinded by your strike."
   },
   {
     "id": 166,
@@ -5967,13 +5869,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals light arcane damage.",
-    "causes": [
-      "Burning",
-      "Paralyzed",
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Deals light arcane damage."
   },
   {
     "id": 167,
@@ -6013,13 +5909,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate arcane damage.",
-    "causes": [
-      "Burning",
-      "Paralyzed",
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Deals moderate arcane damage."
   },
   {
     "id": 168,
@@ -6097,7 +5987,7 @@
       284,
       453
     ],
-    "description": "Attempt to cause an opponent to fall asleep."
+    "description": "Causes an opponent to fall asleep"
   },
   {
     "id": 170,
@@ -6139,8 +6029,7 @@
       "Att ↓",
       "Mag ↓",
       "Def ↓",
-      "Res ↓",
-      "Confused"
+      "Res ↓"
     ],
     "pets_use": [
       102,
@@ -6195,13 +6084,7 @@
         "specialization": false
       }
     ],
-    "description": "Release the arcane hidden powers of Annwn, the promised land. Requires 3 turns in battle.",
-    "causes": [
-      "Burning",
-      "Paralyzed",
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Release the arcane hidden powers of Annwn, the promised land.  Requires 3 turns in battle."
   },
   {
     "id": 173,
@@ -6232,13 +6115,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack thrice with unrelenting arcane energy. Requires 2 turns in battle.",
-    "causes": [
-      "Frozen",
-      "Burning",
-      "Paralyzed",
-      "Rot"
-    ]
+    "description": "Attacking thrice with unrelenting arcane energy.  Requires 2 turns in battle."
   },
   {
     "id": 174,
@@ -6286,7 +6163,7 @@
         "specialization": false
       }
     ],
-    "description": "Perform the perfect strike at the perfect time. This attack never misses and requires 3 turns in battle."
+    "description": "Perform the perfect strike at the perfect time. This attack never misses but requires 3 turns in battle."
   },
   {
     "id": 175,
@@ -6314,7 +6191,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack your opponent while spinning, inflicting damage thrice. Your opponent may become stunned."
+    "description": "Attack your opponent while spinning, inflecting damage thrice.  Your opponent may become stunned."
   },
   {
     "id": 176,
@@ -6363,7 +6240,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals immense damage according to the amount of dragons one has recently conquered. Requires 2 turns in battle. This skill may not have its damage directly increased by buffs."
+    "description": "Deals immense damage according to the amount of dragons one has recently conquered. Requires 2 turns in battle."
   },
   {
     "id": 178,
@@ -6386,7 +6263,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals immense damage according to the amount of beasts one has recently slain. Requires 2 turns in battle. This spell may not have its damage directly increased by buffs."
+    "description": "Deals immense damage according to the amount of beasts one has recently slain. Requires 2 turns in battle."
   },
   {
     "id": 179,
@@ -6415,7 +6292,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals damage multiple times according to the amount of beasts one has recently slain. Requires 3 turns in battle. This spell may not have its damage directly increased by buffs."
+    "description": "Deals damage multiple times according to the amount of beasts one has recently slain. Requires 3 turns in battle."
   },
   {
     "id": 180,
@@ -6453,7 +6330,7 @@
       527,
       335
     ],
-    "description": "A shrill wail."
+    "description": "A paralyzing wail that has a chance to greatly reduce an opponent's resistance."
   },
   {
     "id": 181,
@@ -6491,10 +6368,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals great lightning damage"
   },
   {
     "id": 182,
@@ -6555,7 +6429,7 @@
       430,
       527
     ],
-    "description": "Unstable cosmic magic that can deal immense damage."
+    "description": "Starlord summons the power of the cosmos to destroy you. Chance to stun and blind. Requires 2 turns in battle."
   },
   {
     "id": 184,
@@ -6596,10 +6470,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great dark damage.",
-    "causes": [
-      "Asleep"
-    ]
+    "description": "Deals great dark damage."
   },
   {
     "id": 185,
@@ -6623,11 +6494,7 @@
       96,
       97
     ],
-    "description": "Boosts attack and magic power.",
-    "gives": [
-      "Att ↑",
-      "Mag ↑"
-    ]
+    "description": "Boosts physical and magic power."
   },
   {
     "id": 186,
@@ -6649,7 +6516,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals damage according to the amount of dragons one has recently conquered. This skill may not have its damage directly increased by buffs."
+    "description": "Deals damage according to the amount of dragons one has recently conquered."
   },
   {
     "id": 187,
@@ -6904,7 +6771,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great non-elemental damage with the potential to hinder an opponent's attack power. Requires 2 turns in battle."
+    "description": "Deals great non-elemental damage with the potential to hinder an opponent's attack power.  Requires 2 turns in battle."
   },
   {
     "id": 192,
@@ -6926,9 +6793,7 @@
       "T. Att ↑",
       "T. Def ↑",
       "T. Mag ↑",
-      "T. Res ↑",
-      "Rot",
-      "Blind"
+      "T. Res ↑"
     ],
     "causes": [
       "Burning",
@@ -6941,8 +6806,7 @@
       "Mag ↓",
       "Def ↓",
       "Res ↓",
-      "Rot",
-      "Blind"
+      "Rot"
     ],
     "monsters_use": [
       276,
@@ -7020,7 +6884,7 @@
         "specialization": false
       }
     ],
-    "description": "Summons a wyvern to swiftly attack thrice. May cause blight."
+    "description": "Summons a wyvern to swiftly attack thrice.  May cause blight."
   },
   {
     "id": 195,
@@ -7088,11 +6952,7 @@
         "specialization": false
       }
     ],
-    "description": "Breath of the mighty Tiamat. Requires 3 turns in battle.",
-    "causes": [
-      "Burning",
-      "Blight"
-    ]
+    "description": "Breath of the mighty Tiamat.  Requires 3 turns in battle."
   },
   {
     "id": 197,
@@ -7186,7 +7046,7 @@
         "specialization": false
       }
     ],
-    "description": "Freeze your weapon and attack the enemy."
+    "description": "Freeze your weapon and attack the enemy"
   },
   {
     "id": 199,
@@ -7316,10 +7176,7 @@
         "specialization": false
       }
     ],
-    "description": "Imbue your weapon with the occult and attack the enemy.",
-    "causes": [
-      "Asleep"
-    ]
+    "description": "Imbue your weapon with the occult and attack the enemy."
   },
   {
     "id": 202,
@@ -7361,7 +7218,7 @@
         "specialization": false
       }
     ],
-    "description": "Purify your weapon and attack the enemy."
+    "description": "Purify your weapon and attack the enemy"
   },
   {
     "id": 203,
@@ -7467,13 +7324,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack thrice with unrelenting arcane energy. Requires 3 turns in battle.",
-    "causes": [
-      "Frozen",
-      "Burning",
-      "Paralyzed",
-      "Rot"
-    ]
+    "description": "Attacking thrice with the unrelenting arcane energy.  Requires 3 turns in battle."
   },
   {
     "id": 206,
@@ -7506,7 +7357,7 @@
       419,
       417
     ],
-    "description": "The Great breath of a dragon."
+    "description": "Balor Elite summons a Fireball to destroy you.  Chance to burn and blight."
   },
   {
     "id": 207,
@@ -7527,7 +7378,7 @@
       179,
       527
     ],
-    "description": "Unstable balor magic that can deal immense damage."
+    "description": "Very strong attack with chance to burn and blind.  Requires 2 turns in battle."
   },
   {
     "id": 208,
@@ -7544,7 +7395,7 @@
       276,
       234
     ],
-    "description": "Unstable royal magic that can deal immense damage."
+    "description": "Extremely powerful magic attack of Fallen King Arthus.  Requires 2 turns in battle."
   },
   {
     "id": 209,
@@ -7578,8 +7429,7 @@
     "turns": 1,
     "strikes": 1,
     "causes": [
-      "Stunned",
-      "Rot"
+      "Stunned"
     ],
     "monsters_use": [
       159,
@@ -7606,7 +7456,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great earthen damage."
+    "description": "Deals great earthen damage.  Chance to stun."
   },
   {
     "id": 211,
@@ -7626,7 +7476,7 @@
       178,
       527
     ],
-    "description": "Unstable magic that can deal immense damage."
+    "description": "Titan's strong attack with a chance to freeze and cause sleep.  Requires 2 turns in battle."
   },
   {
     "id": 212,
@@ -7652,7 +7502,7 @@
       527,
       314
     ],
-    "description": "Deal magic damage with a chance to petrify."
+    "description": "Debuff spell of Titan."
   },
   {
     "id": 213,
@@ -7729,7 +7579,7 @@
       439,
       374
     ],
-    "description": "Deals extra damage and may cause negative effects."
+    "description": "Strike twice with the chance to greatly reduce an opponent's defenses."
   },
   {
     "id": 214,
@@ -7799,10 +7649,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate dragon damage thrice.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Deals moderate dragon damage thrice."
   },
   {
     "id": 216,
@@ -7897,7 +7744,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals damage multiple times according to the amount of dragons one has recently slain. Requires 3 turns in battle. This skill may not have its damage directly increased by buffs."
+    "description": "Deals damage multiple times according to the amount of dragons one has recently slain. Requires 3 turns in battle."
   },
   {
     "id": 219,
@@ -7988,13 +7835,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive lightning damage, but may damage or paralyze its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Paralyzed"
-    ],
-    "gives": [
-      "Paralyzed"
-    ]
+    "description": "Unstable magic that can deal massive lightning damage, but may damage or paralyze its caster. Requires 3 turns in battle"
   },
   {
     "id": 222,
@@ -8022,13 +7863,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive fire damage, but may damage or burn its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Burning"
-    ],
-    "gives": [
-      "Burning"
-    ]
+    "description": "Unstable magic that can deal massive fire damage, but may damage or burn its caster. Requires 3 turns in battle"
   },
   {
     "id": 223,
@@ -8057,13 +7892,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive ice damage, but may damage or freeze its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Frozen"
-    ],
-    "gives": [
-      "Frozen"
-    ]
+    "description": "Unstable magic that can deal massive ice damage, but may damage or freeze its caster. Requires 3 turns in battle"
   },
   {
     "id": 224,
@@ -8094,13 +7923,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive earthen damage, but may damage or cause its caster to rot. Requires 3 turns in battle.",
-    "causes": [
-      "Rot"
-    ],
-    "gives": [
-      "Rot"
-    ]
+    "description": "Unstable magic that can deal massive earthen damage, but may damage or cause its caster to rot. Requires 3 turns in battle"
   },
   {
     "id": 225,
@@ -8140,7 +7963,7 @@
       228,
       405
     ],
-    "description": "Attack with your teeth."
+    "description": "Orthrus pet ability."
   },
   {
     "id": 226,
@@ -8162,7 +7985,7 @@
       237,
       228
     ],
-    "description": "Attack with your teeth."
+    "description": "Beastly scratch that may cause an opponent to bleed."
   },
   {
     "id": 227,
@@ -8370,7 +8193,7 @@
         "specialization": true
       }
     ],
-    "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponent stats."
+    "description": "Potentially boosts attack, magic, defenses, and resistance while potentially decreasing opponent stats."
   },
   {
     "id": 234,
@@ -8407,7 +8230,7 @@
         "specialization": true
       }
     ],
-    "description": "Possibly greatly hinder an opponent's magical prowess temporarily."
+    "description": "Possibly greatly hinder an opponent's magical prowess temporarily (50% chance)."
   },
   {
     "id": 235,
@@ -8626,10 +8449,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals great ice damage."
   },
   {
     "id": 241,
@@ -8706,7 +8526,7 @@
       419,
       417
     ],
-    "description": "Shifts the tide of battle."
+    "description": "A skill that causes a myriad of debuffs and grants the user some buffs."
   },
   {
     "id": 243,
@@ -8756,10 +8576,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals great fire damage."
   },
   {
     "id": 244,
@@ -8827,9 +8644,7 @@
     "is_magic": 1,
     "mana_cost": 1,
     "causes": [
-      "Toxic",
-      "Poisoned",
-      "Blind"
+      "Toxic"
     ],
     "monsters_use": [
       420,
@@ -8841,7 +8656,7 @@
       527,
       422
     ],
-    "description": "Attack the opponent the most putrid of breath."
+    "description": "Naggeneen feels ill, then throws up on you giving you the Toxic status."
   },
   {
     "id": 247,
@@ -8871,7 +8686,7 @@
       337,
       527
     ],
-    "description": "Attack with a chance of causing toxicity."
+    "description": "Naggeneen used Toxicstrike. Chance to apply Toxic."
   },
   {
     "id": 248,
@@ -8907,10 +8722,7 @@
       266,
       207
     ],
-    "description": "Attack the opponent with unstoppable unrelenting fury.",
-    "gives": [
-      "T. Att ↑"
-    ]
+    "description": "The user becomes angry and attacks the next turn. Chance to stun, cause bleeding, lower defense, and raise the user's attack."
   },
   {
     "id": 250,
@@ -8991,7 +8803,7 @@
       280,
       352
     ],
-    "description": "Boosts all stats."
+    "description": "Temporarily increases attack, magic, defense and resistance."
   },
   {
     "id": 253,
@@ -9012,7 +8824,7 @@
       279,
       348
     ],
-    "description": "Unstable apocalytic magic that can deal immense damage."
+    "description": "?"
   },
   {
     "id": 254,
@@ -9077,13 +8889,7 @@
       280,
       352
     ],
-    "description": "Deals great arcane damage.",
-    "causes": [
-      "Frozen",
-      "Paralyzed",
-      "Burning",
-      "Rot"
-    ]
+    "description": "Deals great arcane damage."
   },
   {
     "id": 257,
@@ -9121,7 +8927,7 @@
     "pets_use": [
       53
     ],
-    "description": "Cures one of bleeding."
+    "description": "Cures its user of bleeding."
   },
   {
     "id": 259,
@@ -9139,7 +8945,7 @@
     "pets_use": [
       53
     ],
-    "description": "Cures one of being blinded."
+    "description": "Cures its user of being blinded."
   },
   {
     "id": 260,
@@ -9157,7 +8963,7 @@
     "pets_use": [
       53
     ],
-    "description": "Cures one of burning."
+    "description": "Cures its user of burning."
   },
   {
     "id": 261,
@@ -9175,7 +8981,7 @@
     "pets_use": [
       53
     ],
-    "description": "Cures one of being frozen."
+    "description": "Cures its user of being frozen."
   },
   {
     "id": 262,
@@ -9193,7 +8999,7 @@
     "pets_use": [
       53
     ],
-    "description": "Cures one of being paralyzed."
+    "description": "Cures its user of being paralyzed."
   },
   {
     "id": 263,
@@ -9211,7 +9017,7 @@
     "pets_use": [
       53
     ],
-    "description": "Cures one of poison."
+    "description": "Cures its user of poison."
   },
   {
     "id": 264,
@@ -9383,10 +9189,7 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "description": "Deals heavy lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals heavy lightning damage."
   },
   {
     "id": 273,
@@ -9411,10 +9214,7 @@
     "monsters_use": [
       442
     ],
-    "description": "Deals heavy earthen damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals heavy earthen damage."
   },
   {
     "id": 274,
@@ -9432,13 +9232,7 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "description": "Deals light arcane damage.",
-    "causes": [
-      "Burning",
-      "Paralyzed",
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Deals light arcane damage."
   },
   {
     "id": 275,
@@ -9464,10 +9258,7 @@
     "monsters_use": [
       455
     ],
-    "description": "Deals heavy fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals heavy fire damage."
   },
   {
     "id": 276,
@@ -9491,10 +9282,7 @@
     "monsters_use": [
       449
     ],
-    "description": "Deals heavy ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals heavy ice damage."
   },
   {
     "id": 277,
@@ -9530,10 +9318,7 @@
       334,
       316
     ],
-    "description": "Deals massive fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals massive fire damage."
   },
   {
     "id": 278,
@@ -9569,10 +9354,7 @@
       334,
       316
     ],
-    "description": "Deals massive ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals massive ice damage."
   },
   {
     "id": 279,
@@ -9607,10 +9389,7 @@
       333,
       316
     ],
-    "description": "Deals massive lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals massive lightning damage."
   },
   {
     "id": 280,
@@ -9647,10 +9426,7 @@
       334,
       316
     ],
-    "description": "Deals massive earthen damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals massive earthen damage."
   },
   {
     "id": 281,
@@ -10033,7 +9809,7 @@
         "specialization": false
       }
     ],
-    "description": "Recovers 30 percent of Ward. Requires 2 turns in battle."
+    "description": "Recovers 30% of Ward. Requires 2 turns in battle."
   },
   {
     "id": 294,
@@ -10059,7 +9835,7 @@
         "specialization": false
       }
     ],
-    "description": "Recovers 50 percent of Ward. Requires 3 turns in battle."
+    "description": "Recovers 50% of Ward. Requires 3 turns in battle."
   },
   {
     "id": 295,
@@ -10080,7 +9856,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward for 1 turn and increases damage absorption to 50 percent."
+    "description": "Grants Ward for 1 turn and increases damage absorbtion to 50%."
   },
   {
     "id": 296,
@@ -10224,7 +10000,7 @@
       57,
       87
     ],
-    "description": "Grants Ward for 1 turn and increases damage absorption to 35%."
+    "description": "Grants Ward for 1 turn and increases damage absorbtion to 35%."
   },
   {
     "id": 302,
@@ -10333,7 +10109,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward for 2 turns and increases damage absorption to 75 percent."
+    "description": "Grants Ward for 2 turns and increases damage absorption to 75%."
   },
   {
     "id": 306,
@@ -10372,10 +10148,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater lightning damage thrice.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals greater lightning magic thrice."
   },
   {
     "id": 307,
@@ -10385,10 +10158,7 @@
     "type": "Debuff",
     "mana_cost": 5,
     "causes": [
-      "Stunned",
-      "Blind",
-      "Paralyzed",
-      "Burning"
+      "Stunned"
     ],
     "pets_use": [
       102
@@ -10398,7 +10168,7 @@
       288,
       440
     ],
-    "description": "Good chance of causing debuffs."
+    "description": "Ingenious Cade uses. Damages with chance to stun."
   },
   {
     "id": 308,
@@ -10419,7 +10189,7 @@
       506,
       308
     ],
-    "description": "Recovers and grants Ward for 3 turns and increases damage absorption to 50%."
+    "description": "Recovers 10% Ward and grants Ward for 3 turns and increases damage absorption to 50%."
   },
   {
     "id": 309,
@@ -10478,7 +10248,7 @@
       57,
       87
     ],
-    "description": "Recovers 10 percent of Ward."
+    "description": "Recovers 10% of Ward."
   },
   {
     "id": 312,
@@ -10692,13 +10462,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack 4 times with unrelenting arcane energy. Requires 3 turns in battle.",
-    "causes": [
-      "Frozen",
-      "Burning",
-      "Paralyzed",
-      "Rot"
-    ]
+    "description": "Attack 4 times with unrelenting arcane energy. Requires 3 turns in battle."
   },
   {
     "id": 319,
@@ -10724,13 +10488,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with unrelenting arcane energy. It will deal especially high damage to those weak against Arcane.",
-    "causes": [
-      "Frozen",
-      "Burning",
-      "Paralyzed",
-      "Rot"
-    ]
+    "description": "Attack with unrelenting arcane energy. It will deal especially high damage to those weak against Arcane."
   },
   {
     "id": 320,
@@ -10807,7 +10565,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals damage according to the amount of foes one has recently slain. This spell may not have its damage directly increased by buffs."
+    "description": "Deals damage according to the amount of foes one has recently slain."
   },
   {
     "id": 324,
@@ -10830,7 +10588,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals immense damage according to the amount of foes one has recently slain. Requires 2 turns in battle. This spell may not have its damage directly increased by buffs."
+    "description": "Deals immense damage according to the amount of foes one has recently slain. Requires 2 turns in battle."
   },
   {
     "id": 325,
@@ -10859,10 +10617,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate dark damage thrice.",
-    "causes": [
-      "Asleep"
-    ]
+    "description": "Deals moderate dark damage thrice."
   },
   {
     "id": 326,
@@ -10896,13 +10651,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive non-elemental damage, but may weaken and harm its caster. Requires 2 turns in battle.",
-    "gives": [
-      "T. Att ↓",
-      "T. Mag ↓",
-      "T. Res ↓",
-      "T. Def ↓"
-    ]
+    "description": "Unstable magic that can deal massive non-elemental damage, but may weaken and harm its caster."
   },
   {
     "id": 327,
@@ -10979,7 +10728,7 @@
         "specialization": false
       }
     ],
-    "description": "50 percent chance to temporarily greatly hinder an opponent's attack power."
+    "description": "50% chance to greatly hinder an opponent's attack power."
   },
   {
     "id": 329,
@@ -11086,7 +10835,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and protection against the power of the earth."
+    "description": "Grants Ward and protection against the power of  the earth."
   },
   {
     "id": 334,
@@ -11173,7 +10922,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals holy damage, recovers Ward, and recovers a percentage of damage dealt. An opponent may also be blinded from the light."
+    "description": "Deals holy damage, recovers Ward, and recovers a percentage of damage dealt.  An opponent may also be blinded from the light. (Recovers 15% of ward and 25% of Damage dealt)"
   },
   {
     "id": 337,
@@ -11244,7 +10993,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with holy might thrice, recovering and giving Ward for 1 turn."
+    "description": "Attack with holy might thrice, recovering and giving Ward for 1 turn. (Recovers 5% of Ward)"
   },
   {
     "id": 339,
@@ -11266,7 +11015,7 @@
         "specialization": false
       }
     ],
-    "description": "Recovers and grants Ward for 5 turns and increases damage absorption to 100%. Requires 3 turns of battle."
+    "description": "Recovers and grants Ward for 5 turns and increases damage absorption to 100%.  Requires 3 turns of battle. (Recovers 50% of total ward.)"
   },
   {
     "id": 340,
@@ -11301,7 +11050,7 @@
         "specialization": false
       }
     ],
-    "description": "Jump high and attack your opponent from the air, possibly breaking their offensive power upon landing. Gives Ward for 3 turns and requires 2 turns in battle."
+    "description": "Jump high and attack your opponent from the air, possibly breaking their offensive power upon landing.  Gives Ward for 3 turns and requires 2 turns in battle."
   },
   {
     "id": 341,
@@ -11335,7 +11084,7 @@
         "specialization": false
       }
     ],
-    "description": "Boosts critical hit rate and temporarily boosts magic and attack power."
+    "description": "Boosts critical hit rate permanently and temporarily boosts magic and attack power."
   },
   {
     "id": 342,
@@ -11442,10 +11191,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive dragon damage, but may damage its caster.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Unstable magic that can deal massive dragon damage, but may damage its caster."
   },
   {
     "id": 345,
@@ -11477,7 +11223,7 @@
         "specialization": false
       }
     ],
-    "description": "Summon a blast, representative of the mighty Chimera. Requires 3 turns in battle, deals massive damage, and burns, poisons, and paralyzes an opponent."
+    "description": "Summon a blast, representative of the mighty Chimera.  Requires 3 turns in battle, deals massive damage, and burns, poisons, and paralyzes an opponent."
   },
   {
     "id": 346,
@@ -11667,7 +11413,7 @@
         "specialization": true
       }
     ],
-    "description": "Boosts magic power while potentially decreasing an opponent magic power."
+    "description": "Boosts magic power while potentially decreasing and opponent magic power."
   },
   {
     "id": 354,
@@ -11769,7 +11515,7 @@
         "specialization": true
       }
     ],
-    "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponent stats."
+    "description": "Potentially boost attack, magic, defense, and resistance while potentially decreasing opponent stats."
   },
   {
     "id": 357,
@@ -11894,7 +11640,7 @@
         "specialization": true
       }
     ],
-    "description": "Throw a dart with the chance to stun or burn an opponent."
+    "description": "Throw a dart with the chance to stun or burn an opponent (25% chance per effect)."
   },
   {
     "id": 362,
@@ -11916,7 +11662,7 @@
         "specialization": true
       }
     ],
-    "description": "Throw a dart with the chance to blind an opponent or cause them to fall asleep."
+    "description": "Throw a dart with the chance to blind an opponent or cause them to fall asleep (25% chance per effect)."
   },
   {
     "id": 363,
@@ -11938,7 +11684,7 @@
         "specialization": true
       }
     ],
-    "description": "Throw a dart with the chance to poison or freeze an opponent."
+    "description": "Throw a dart with the chance to poison or freeze an opponent (25% chance per effect)."
   },
   {
     "id": 364,
@@ -12059,7 +11805,7 @@
       415,
       314
     ],
-    "description": "Recover 1000 health points."
+    "description": "Heals 1000 health and removes status debuffs."
   },
   {
     "id": 368,
@@ -12079,10 +11825,7 @@
       335,
       415
     ],
-    "description": "Attack the opponent with unrelenting fury.",
-    "gives": [
-      "T. Att ↑"
-    ]
+    "description": "A multi-round attack"
   },
   {
     "id": 369,
@@ -12097,8 +11840,7 @@
       "Paralyzed",
       "Poisoned",
       "Toxic",
-      "Rot",
-      "Blight"
+      "Rot"
     ],
     "monsters_use": [
       345,
@@ -12112,7 +11854,7 @@
       401,
       313
     ],
-    "description": "Summon a putrid miasma. May cause poison and blight, paralysis, rot, and toxic."
+    "description": "Summon a putrid miasma."
   },
   {
     "id": 370,
@@ -12134,7 +11876,7 @@
       432,
       431
     ],
-    "description": "Unstable cosmic magic that can deal immense damage thrice."
+    "description": "Multi-hitting magical ultimate. Lowers your defenses, blinds, burns and curses."
   },
   {
     "id": 371,
@@ -12191,10 +11933,7 @@
       313,
       358
     ],
-    "description": "Deals massive fire damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals massive fire damage."
   },
   {
     "id": 373,
@@ -12234,10 +11973,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater fire damage thrice.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals greater fire magic thrice."
   },
   {
     "id": 374,
@@ -12272,10 +12008,7 @@
       313,
       358
     ],
-    "description": "Deals massive ice damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals massive ice damage."
   },
   {
     "id": 375,
@@ -12316,10 +12049,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater ice damage thrice.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals greater ice magic thrice."
   },
   {
     "id": 376,
@@ -12353,10 +12083,7 @@
       321,
       358
     ],
-    "description": "Deals massive lightning damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals massive lightning damage."
   },
   {
     "id": 377,
@@ -12390,10 +12117,7 @@
       321,
       358
     ],
-    "description": "Deals massive earthen damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals massive earthen damage."
   },
   {
     "id": 378,
@@ -12415,7 +12139,7 @@
       342,
       478
     ],
-    "description": "Strike hard from above, breaking defenses temporarily."
+    "description": "Pumpkinhead used Wallop!"
   },
   {
     "id": 379,
@@ -12432,7 +12156,7 @@
     "monsters_use": [
       342
     ],
-    "description": "A giant pumpkin."
+    "description": "Pumpkinhead's head is flying towards you! -- Pumpkinhead used Pumpkin Smash!"
   },
   {
     "id": 380,
@@ -12646,7 +12370,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals holy damage, recovers Ward, and recovers a percentage of damage dealt. An opponent may also be blinded from the light."
+    "description": "Deals holy damage, recovers Ward, and recovers a percentage of damage dealt. An opponent may also be blinded from the light. (Recovers 15% of Ward and 25% of Damage Dealt)"
   },
   {
     "id": 388,
@@ -12656,8 +12380,7 @@
     "type": "Ward",
     "mana_cost": 200,
     "gives": [
-      "T. Fire Immune",
-      "Fire Immune"
+      "T. Fire Immune"
     ],
     "pets_use": [
       104
@@ -12670,7 +12393,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and temporary immunity to the power of fire. Requires 2 turns in battle."
+    "description": "Grants Ward and temporary immunity to the power of fire. Requires 2 turns in battle. (Grants 2 ward turns.)"
   },
   {
     "id": 389,
@@ -12680,8 +12403,7 @@
     "type": "Ward",
     "mana_cost": 200,
     "gives": [
-      "T. Water Immune",
-      "Water Immune"
+      "T. Water Immune"
     ],
     "learned_by": [
       {
@@ -12691,7 +12413,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and temporary immunity to the power of water & ice. Requires 2 turns in battle."
+    "description": "Grants Ward and temporary immunity to the power of water & ice. Requires 2 turns in battle. (Grants 2 ward turns.)"
   },
   {
     "id": 390,
@@ -12701,8 +12423,7 @@
     "type": "Ward",
     "mana_cost": 200,
     "gives": [
-      "T. Earth Immune",
-      "Earth Immune"
+      "T. Earth Immune"
     ],
     "learned_by": [
       {
@@ -12712,7 +12433,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and temporary immunity to the power of the earth. Requires 2 turns in battle."
+    "description": "Grants Ward and temporary immunity to the power of earth. Requires 2 turns in battle. (Grants 2 ward turns.)"
   },
   {
     "id": 391,
@@ -12722,8 +12443,7 @@
     "type": "Ward",
     "mana_cost": 200,
     "gives": [
-      "T. Lightning Immune",
-      "Lightning Immune"
+      "T. Lightning Immune"
     ],
     "pets_use": [
       104
@@ -12736,7 +12456,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and temporary immunity to the power of lightning. Requires 2 turns in battle."
+    "description": "Grants Ward and temporary immunity to the power of lightning. Requires 2 turns in battle. (Grants 2 ward turns.)"
   },
   {
     "id": 392,
@@ -12746,8 +12466,7 @@
     "type": "Ward",
     "mana_cost": 200,
     "gives": [
-      "T. Holy Immune",
-      "Holy Immune"
+      "T. Holy Immune"
     ],
     "learned_by": [
       {
@@ -12757,7 +12476,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and temporary immunity to holy power. Requires 2 turns in battle."
+    "description": "Grants Ward and temporary immunity to holy power. Requires 2 turns in battle. (Grants 3 ward turns.)"
   },
   {
     "id": 393,
@@ -12767,8 +12486,7 @@
     "type": "Ward",
     "mana_cost": 200,
     "gives": [
-      "T. Dark Immune",
-      "Dark Immune"
+      "T. Dark Immune"
     ],
     "learned_by": [
       {
@@ -12778,7 +12496,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants Ward and temporary immunity to dark power. Requires 2 turns in battle."
+    "description": "Grants Ward and temporary immunity to dark power. Requires 2 turns in battle. (Grants 3 ward turns.)"
   },
   {
     "id": 394,
@@ -12800,7 +12518,7 @@
         "specialization": false
       }
     ],
-    "description": "Recovers and grants Ward for 8 turns and increases damage absorption to 100%. Requires 3 turns of battle."
+    "description": "Recovers and grants Ward for 8 turns and increases damage absorption to 100%. Requires 3 turns of battle. (Recovers 85% of total ward.)"
   },
   {
     "id": 395,
@@ -12851,11 +12569,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed fire and ice damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Burning",
-      "Frozen"
-    ]
+    "description": "Deals mixed fire and ice damage and deals extra damage to those weak against either element."
   },
   {
     "id": 397,
@@ -12884,11 +12598,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed fire and lightning damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Burning",
-      "Paralyzed"
-    ]
+    "description": "Deals mixed fire and lightning damage and deals extra damage to those weak against either element."
   },
   {
     "id": 398,
@@ -12920,11 +12630,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed ice and earthen damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Deals mixed ice and earthen damage and deals extra damage to those weak against either element."
   },
   {
     "id": 399,
@@ -12953,11 +12659,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed lightning and earthen damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Rot",
-      "Paralyzed"
-    ]
+    "description": "Deals mixed lightning and earthen damage and deals extra damage to those weak against either element."
   },
   {
     "id": 400,
@@ -12987,11 +12689,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed ice and lightning damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Frozen",
-      "Paralyzed"
-    ]
+    "description": "Deals mixed ice and lightning damage and deals extra damage to those weak against either element."
   },
   {
     "id": 401,
@@ -13017,11 +12715,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed earthen and fire damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Burning",
-      "Rot"
-    ]
+    "description": "Deals mixed earthen and fire damage and deals extra damage to those weak against either element."
   },
   {
     "id": 402,
@@ -13046,19 +12740,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive arcane damage, but may damage its caster.",
-    "causes": [
-      "Burning",
-      "Paralyzed",
-      "Frozen",
-      "Rot"
-    ],
-    "gives": [
-      "Burning",
-      "Paralyzed",
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Unstable magic that can deal massive arcane damage, but may damage its caster."
   },
   {
     "id": 403,
@@ -13095,10 +12777,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater earthen damage thrice.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals greater earthen magic thrice."
   },
   {
     "id": 404,
@@ -13127,11 +12806,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed fire and ice damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Burning",
-      "Frozen"
-    ]
+    "description": "Deals mixed fire and ice damage and deals extra damage to those weak against either element."
   },
   {
     "id": 405,
@@ -13163,11 +12838,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed fire and lightning damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Burning",
-      "Paralyzed"
-    ]
+    "description": "Deals mixed fire and lightning damage and deals extra damage to those weak against either element."
   },
   {
     "id": 406,
@@ -13195,11 +12866,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed ice and earthen damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Frozen",
-      "Rot"
-    ]
+    "description": "Deals mixed ice and earthen damage and deals extra damage to those weak against either element."
   },
   {
     "id": 407,
@@ -13227,11 +12894,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed lightning and earthen damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Rot",
-      "Paralyzed"
-    ]
+    "description": "Deals mixed lightning and earthen damage and deals extra damage to those weak against either element."
   },
   {
     "id": 408,
@@ -13261,11 +12924,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed ice and lightning damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Frozen",
-      "Paralyzed"
-    ]
+    "description": "Deals mixed ice and lightning damage and deals extra damage to those weak against either element."
   },
   {
     "id": 409,
@@ -13296,11 +12955,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed earthen and fire damage and deals extra damage to those weak against either element.",
-    "causes": [
-      "Burning",
-      "Rot"
-    ]
+    "description": "Deals mixed earthen and fire damage and deals extra damage to those weak against either element."
   },
   {
     "id": 410,
@@ -13624,10 +13279,7 @@
         "specialization": false
       }
     ],
-    "description": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 421,
@@ -13694,10 +13346,7 @@
         "specialization": false
       }
     ],
-    "description": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 423,
@@ -13837,13 +13486,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive fire damage, but may damage or burn its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Burning"
-    ],
-    "gives": [
-      "Burning"
-    ]
+    "description": "Unstable magic that can deal massive fire damage, but may damage or burn its caster."
   },
   {
     "id": 428,
@@ -13963,7 +13606,7 @@
         "specialization": false
       }
     ],
-    "description": "Channel the true power of Gods, temporarily greatly increasing all stats and generates Ward for 2 turns. Requires 3 turns in battle."
+    "description": "Channel the true power of Gods, temporarily greatly increasing all stats and generated Ward for 2 turns. Requires 3 turns in battle."
   },
   {
     "id": 431,
@@ -14045,13 +13688,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive earthen damage, but may damage or cause its caster to rot. Requires 3 turns in battle.",
-    "causes": [
-      "Rot"
-    ],
-    "gives": [
-      "Rot"
-    ]
+    "description": "Unstable magic that can deal massive earthen damage, but may damage or cause its caster to rot. Requires 3 turns in battle."
   },
   {
     "id": 434,
@@ -14260,13 +13897,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive lightning damage, but may damage or paralyze its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Paralyzed"
-    ],
-    "gives": [
-      "Paralyzed"
-    ]
+    "description": "Unstable magic that can deal massive lightning damage, but may damage or paralyze its caster."
   },
   {
     "id": 441,
@@ -14426,10 +14057,7 @@
         "specialization": true
       }
     ],
-    "description": "Loose an arrow with great might, either missing or dealing triple damage while breaking an opponent's defenses.",
-    "causes": [
-      "Def ↓"
-    ]
+    "description": "Loose an arrow with great might, either missing or dealing triple damage while breaking an opponent's defenses."
   },
   {
     "id": 447,
@@ -14477,7 +14105,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 449,
@@ -14508,7 +14136,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt.  Grants Ward for 2 turns."
   },
   {
     "id": 450,
@@ -14540,7 +14168,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 451,
@@ -14569,7 +14197,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive ice damage and absorbs a small amount of HP from damage dealt.  Grants Ward for 2 turns."
   },
   {
     "id": 452,
@@ -14594,13 +14222,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive ice damage, but may damage or freeze its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Frozen"
-    ],
-    "gives": [
-      "Frozen"
-    ]
+    "description": "Unstable magic that can deal massive ice damage, buy may damage or freeze its caster."
   },
   {
     "id": 453,
@@ -14722,7 +14344,7 @@
     "monsters_use": [
       398
     ],
-    "description": "Run at your enemy with your weapon extended, dealing extra damage and a 25 percent critical chance."
+    "description": "Run at your enemy with your weapon extended, dealing extra damage and a 25% critical chance."
   },
   {
     "id": 458,
@@ -14749,7 +14371,7 @@
       364,
       361
     ],
-    "description": "Run at your enemy with your weapon extended,  dealing extra damage and a 25 percent critical chance."
+    "description": "Run at your opponent with your weapon extended, dealing extra damage and a 25% critical chance."
   },
   {
     "id": 459,
@@ -14883,7 +14505,7 @@
       439,
       358
     ],
-    "description": "Cures all status ailments."
+    "description": "Description pending."
   },
   {
     "id": 462,
@@ -14896,13 +14518,7 @@
       "Poisoned",
       "Blight",
       "Toxic",
-      "T. Def ↓↓",
-      "Burning",
-      "Paralyzed",
-      "Rot",
-      "T. Att ↓",
-      "T. Mag ↓",
-      "T. Res ↓"
+      "T. Def ↓↓"
     ],
     "monsters_use": [
       424,
@@ -14915,7 +14531,7 @@
       423,
       358
     ],
-    "description": "Summon a putrid miasma. May cause poison and blight, paralysis, rot, and toxic."
+    "description": "Description pending."
   },
   {
     "id": 463,
@@ -14928,10 +14544,7 @@
       423,
       358
     ],
-    "description": "Channel the true power of Gods, temporarily greatly increasing all stats and generates Ward for 2 turns. Requires 3 turns in battle.",
-    "gives": [
-      "T. ? ↑↑↑"
-    ]
+    "description": "Yeah we dont know, it buffs t.? ^^^"
   },
   {
     "id": 464,
@@ -14957,7 +14570,7 @@
       453,
       415
     ],
-    "description": "Attempt to curse an enemy, causing 25 percent damage per turn."
+    "description": "Causes curse"
   },
   {
     "id": 465,
@@ -14979,7 +14592,7 @@
       423,
       358
     ],
-    "description": "Unstable evil magic that can deal immense damage."
+    "description": "This skill will ruin your day."
   },
   {
     "id": 466,
@@ -15006,10 +14619,7 @@
       386,
       494
     ],
-    "description": "Deals lightning damage with a chance to deal critical damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals ligthing damage with a chance to deal critical damage."
   },
   {
     "id": 467,
@@ -15038,10 +14648,7 @@
       386,
       494
     ],
-    "description": "Deals fire damage with a chance to deal critical damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals fire damage with a chance to deal critical damage."
   },
   {
     "id": 468,
@@ -15074,10 +14681,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy fire damage with a chance to deal critical damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals heavy fire damage with a chance to deal critical damage."
   },
   {
     "id": 469,
@@ -15110,10 +14714,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy ice damage with a chance to deal critical damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals heavy ice damage with a chance to deal critical damage."
   },
   {
     "id": 470,
@@ -15147,10 +14748,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy lightning damage with a chance to deal critical damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals heavy lightning damage with a chance to deal critical damage."
   },
   {
     "id": 471,
@@ -15183,10 +14781,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy earthen damage with a chance to deal critical damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals heavy earthen damage with a chance to deal critical damage."
   },
   {
     "id": 472,
@@ -15219,10 +14814,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy fire damage with a chance to deal critical damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals heavy fire damage with a chance to deal critical damage."
   },
   {
     "id": 473,
@@ -15257,10 +14849,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy ice damage with a chance to deal critical damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals heavy ice damage with a chance to deal critical damage."
   },
   {
     "id": 474,
@@ -15293,10 +14882,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy lightning damage with a chance to deal critical damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals heavy lightning damage with a chance to deal critical damage."
   },
   {
     "id": 475,
@@ -15329,10 +14915,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals heavy earthen damage with a chance to deal critical damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals heavy earthen damage with a chance to deal critical damage."
   },
   {
     "id": 476,
@@ -15371,10 +14954,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive fire damage with a chance to deal critical damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals massive fire damage with a chance to deal critical damage."
   },
   {
     "id": 477,
@@ -15413,10 +14993,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive ice damage with a chance to deal critical damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals massive ice damage with a chance to deal critical damage."
   },
   {
     "id": 478,
@@ -15452,10 +15029,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive lightning damage with a chance to deal critical damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals massive lightning damage with a chance to deal critical damage."
   },
   {
     "id": 479,
@@ -15490,10 +15064,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive earthen damage with a chance to deal critical damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals massive earthen damage with a chance to deal critical damage."
   },
   {
     "id": 480,
@@ -15521,10 +15092,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater fire damage thrice.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals greater fire damage thrice."
   },
   {
     "id": 481,
@@ -15548,10 +15116,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater ice damage thrice.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals greater ice damage thrice."
   },
   {
     "id": 482,
@@ -15575,10 +15140,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater lightning damage thrice.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals greater lightning damage thrice."
   },
   {
     "id": 483,
@@ -15602,10 +15164,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals greater earthen damage thrice.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals greater earthen damage thrice."
   },
   {
     "id": 484,
@@ -15630,13 +15189,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive fire damage with a good chance to deal critical damage, but may damage or burn its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Burning"
-    ],
-    "gives": [
-      "Burning"
-    ]
+    "description": "Unstable magic that can deal massive fire damage with a good chance to deal critical damage, but may damage or burn its caster. Requires 3 turns in battle."
   },
   {
     "id": 485,
@@ -15661,13 +15214,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive ice damage with a good chance to deal critical damage, but may damage or freeze its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Frozen"
-    ],
-    "gives": [
-      "Frozen"
-    ]
+    "description": "Unstable magic that can deal massive ice damage with a good chance to deal critical damage, but may damage or freeze its caster. Requires 3 turns in battle."
   },
   {
     "id": 486,
@@ -15692,13 +15239,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive lightning damage with a good chance to deal critical damage, but may damage or paralyze its caster. Requires 3 turns in battle.",
-    "causes": [
-      "Paralyzed"
-    ],
-    "gives": [
-      "Paralyzed"
-    ]
+    "description": "Unstable magic that can deal massive lightning damage with a good chance to deal critical damage, but may damage or paralyze its caster. Requires 3 turns in battle."
   },
   {
     "id": 487,
@@ -15723,13 +15264,7 @@
         "specialization": false
       }
     ],
-    "description": "Unstable magic that can deal massive earthen damage with a good chance to deal critical damage, but may damage or cause its caster to rot. Requires 3 turns in battle.",
-    "causes": [
-      "Rot"
-    ],
-    "gives": [
-      "Rot"
-    ]
+    "description": "Unstable magic that can deal massive earthen damage with a good chance to deal critical damage, but may damage or cause its caster to rot. Requires 3 turns in battle."
   },
   {
     "id": 488,
@@ -15873,7 +15408,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based on one's magic stat rather than attack."
+    "description": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based off one's magic stat rather than attack."
   },
   {
     "id": 495,
@@ -15994,7 +15529,7 @@
         "specialization": false
       }
     ],
-    "description": "Swiftly attack thrice with the chance of weakening your opponent's attack or defenses."
+    "description": "Swiftly attack thrice with the changce of weakening your opponent's attack or defenses."
   },
   {
     "id": 499,
@@ -16026,7 +15561,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack twice and reset position, granting additional critical chance."
+    "description": "Attack twice and reset position, gaining additional critical chance."
   },
   {
     "id": 500,
@@ -16138,8 +15673,7 @@
       "T. Def ↑",
       "T. Mag ↑",
       "T. Res ↑",
-      "T. Crit ↑",
-      "Bloodshift"
+      "T. Crit ↑"
     ],
     "learned_by": [
       {
@@ -16280,7 +15814,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 510,
@@ -16331,7 +15865,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with a barbed shield, converting 15 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class."
+    "description": "Attack with a barbed shield, converting 15% of your available Ward to raw damage."
   },
   {
     "id": 512,
@@ -16359,7 +15893,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 513,
@@ -16391,7 +15925,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 514,
@@ -16422,7 +15956,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 515,
@@ -16451,7 +15985,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 516,
@@ -16479,7 +16013,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 517,
@@ -16496,7 +16030,7 @@
         "specialization": false
       }
     ],
-    "description": "Convert 30 percent of your available Ward to HP and mana. Requires 2 turns in battle."
+    "description": "Convert 30% of your available Ward to HP and mana. Requires 2 turns in battle."
   },
   {
     "id": 518,
@@ -16528,7 +16062,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 519,
@@ -16559,7 +16093,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt. Grants Ward for one turn."
+    "description": "Deals arcane damage and absorbs a small amount of HP from damage dealt.  Grants Ward for one turn."
   },
   {
     "id": 520,
@@ -16617,7 +16151,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 522,
@@ -16645,7 +16179,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive dragon damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 523,
@@ -16681,7 +16215,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 524,
@@ -16716,7 +16250,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive holy damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 525,
@@ -16751,7 +16285,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 526,
@@ -16786,7 +16320,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive dark damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 527,
@@ -16818,7 +16352,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 528,
@@ -16849,7 +16383,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt. Grants Ward for 2 turns."
+    "description": "Deals massive arcane damage and absorbs a small amount of HP from damage dealt.  Grants Ward for two turns."
   },
   {
     "id": 529,
@@ -16872,7 +16406,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with a barbed shield, converting 20 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class."
+    "description": "Attack with a barbed shield, converting 20% of your available ward to raw damage"
   },
   {
     "id": 530,
@@ -16892,10 +16426,7 @@
       "Burning",
       "Frozen",
       "Paralyzed",
-      "Rot",
-      "Blind",
-      "Asleep",
-      "Blight"
+      "Rot"
     ],
     "pets_use": [
       97
@@ -16913,7 +16444,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed damage of all elements, dealing extra damage to those weak against any element. Requires 2 turns in battle."
+    "description": "Deal mixed damage of all elements, deals extra damage to those weak against any element.  Requires 2 turns in battle."
   },
   {
     "id": 531,
@@ -16940,16 +16471,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals mixed damage of all elements, dealing extra damage to those weak against any element. Requires 3 turns in battle.",
-    "causes": [
-      "Burning",
-      "Rot",
-      "Frozen",
-      "Paralyzed",
-      "Blind",
-      "Asleep",
-      "Blight"
-    ]
+    "description": "Deal mixed damage of all elements, deals extra damage to those weak against any element.  Requires 3 turns in battle."
   },
   {
     "id": 532,
@@ -16966,7 +16488,7 @@
         "specialization": false
       }
     ],
-    "description": "Convert 50 percent of your available Ward to HP and mana. Requires 2 turns in battle."
+    "description": "Convert 50% of your available Ward to HP and mana. Requires 2 turns in battle."
   },
   {
     "id": 533,
@@ -17018,7 +16540,7 @@
         "specialization": false
       }
     ],
-    "description": "Convert all of your available Ward to HP and mana. Requires 4 turns in battle."
+    "description": "Convert all of your available ward to HP and mana. Requires 4 turns in battle."
   },
   {
     "id": 536,
@@ -17041,7 +16563,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with a barbed shield, converting 30 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class."
+    "description": "Attack with a barbed shield, converting 30% of your available ward to raw damage"
   },
   {
     "id": 537,
@@ -17067,11 +16589,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals moderate non-elemental damage with the potential to hinder an opponent's defenses. Total damage is determined by both your attack and magic stats.",
-    "causes": [
-      "T. Def ↓",
-      "T. Res ↓"
-    ]
+    "description": "Deals moderate non-elemental damage with the potential to hinder an opponent's defenses.  Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 538,
@@ -17105,7 +16623,7 @@
         "specialization": false
       }
     ],
-    "description": "Swiftly attack thrice with the might of beasts, with a greater chance of dealing critical damage. Total damage is determined by both your attack and magic stats."
+    "description": "Swiftly attack thrice with the might of beasts, with a greater chance of dealing critical damage.  Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 539,
@@ -17126,10 +16644,7 @@
         "specialization": false
       }
     ],
-    "description": "A battle stance favored by a Valkyrie of Life. Taking this stance in battle will further increase your physical defenses at the expense of magical power and resistance.",
-    "gives": [
-      "Kára"
-    ]
+    "description": "A battle stance favored by a Valkyrie of Life.  Taking this stance in battle will further increase your physical defenses at the expense of magic power and resistance."
   },
   {
     "id": 540,
@@ -17150,10 +16665,7 @@
         "specialization": false
       }
     ],
-    "description": "A battle stance favored by a Valkyrie of Life. Taking this stance in battle will further increase your magical resistance at the expense of physical power and defenses.",
-    "gives": [
-      "Eir"
-    ]
+    "description": "A battle stance favored by a Valkyrie of Life.  Take this stance in battle will further increase your magical resistance at the expense of physical power and defenses."
   },
   {
     "id": 541,
@@ -17176,11 +16688,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great non-elemental damage with the potential to hinder an opponent's defenses. Total damage is determined by both your attack and magic stats.",
-    "causes": [
-      "T. Def ↓",
-      "T. Res ↓"
-    ]
+    "description": "Deals great non-elemental damage with the potential to hinder an opponent's defenses.  Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 542,
@@ -17198,10 +16706,7 @@
         "specialization": false
       }
     ],
-    "description": "A battle stance favored by a Valkyrie of War. Taking this stance in battle will further increase your attack power at the expense of magical power and resistance.",
-    "gives": [
-      "Gunnr"
-    ]
+    "description": "A battle stance favored by a Valkyrie of War.  Take this stance in battle will further increase your attack power at the expense of magical power and resistance."
   },
   {
     "id": 543,
@@ -17219,10 +16724,7 @@
         "specialization": false
       }
     ],
-    "description": "A battle stance favored by a Valkyrie of Wisdom. Taking this stance in battle will further increase your magic power at the expense of physical power and defenses.",
-    "gives": [
-      "Snotra"
-    ]
+    "description": "A battle stance favored by a Valkyrie of Wisdom.  Take this stance in battle will further increase your magic power at the expense of physical power and defenses."
   },
   {
     "id": 544,
@@ -17248,11 +16750,7 @@
         "specialization": false
       }
     ],
-    "description": "Deals great non-elemental damage with the potential to hinder an opponent's defenses. Total damage is determined by both your attack and magic stats.",
-    "causes": [
-      "T. Def ↓",
-      "T. Res ↓"
-    ]
+    "description": "Deals great non-elemental damage with the potential to hinder an opponent's defenses.  Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 545,
@@ -17321,7 +16819,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based on one's magic stat rather than attack."
+    "description": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based off one's magic stat rather than attack."
   },
   {
     "id": 548,
@@ -17483,7 +16981,7 @@
         "specialization": false
       }
     ],
-    "description": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based on one's magic stat rather than attack."
+    "description": "Attack with a sharp sword made of magic which may lower an opponent's magic defense. Damage is based off one's magic stat rather than attack."
   },
   {
     "id": 553,
@@ -17646,7 +17144,7 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "description": "Deals non-elemental magic damage and recovers Ward."
+    "description": "Deals non-elemental magic damage and recovers Ward. (Recovers 15% Ward)"
   },
   {
     "id": 559,
@@ -17663,7 +17161,7 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "description": "Deals non-elemental magic damage and recovers Ward."
+    "description": "Deals non-elemental magic damage and recovers Ward. (Recovers 10% Ward)"
   },
   {
     "id": 560,
@@ -17680,7 +17178,7 @@
     "m2.min": 1,
     "turns": 1,
     "strikes": 1,
-    "description": "Deals non-elemental magic damage and recovers Ward."
+    "description": "Deals non-elemental magic damage and recovers Ward. (Recovers 15% Ward)"
   },
   {
     "id": 561,
@@ -17707,10 +17205,7 @@
       386,
       494
     ],
-    "description": "Deals earthen damage with a chance to deal critical damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals earthen damage with a chance to deal critical damage."
   },
   {
     "id": 562,
@@ -17738,10 +17233,7 @@
       386,
       494
     ],
-    "description": "Deals ice damage with a chance to deal critical damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals ice damage with a chance to deal critical damage."
   },
   {
     "id": 563,
@@ -17767,10 +17259,7 @@
       420,
       424
     ],
-    "description": "Deals moderate fire damage with a chance to deal critical damage.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals moderate fire damage with a chance to deal critical damage."
   },
   {
     "id": 564,
@@ -17797,10 +17286,7 @@
       449,
       424
     ],
-    "description": "Deals moderate ice damage with a chance to deal critical damage.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals moderate ice damage with a chance to deal critical damage."
   },
   {
     "id": 565,
@@ -17826,10 +17312,7 @@
       420,
       424
     ],
-    "description": "Deals moderate lightning damage with a chance to deal critical damage.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals moderate lightning damage with a chance to deal critical damage."
   },
   {
     "id": 566,
@@ -17855,10 +17338,7 @@
       420,
       424
     ],
-    "description": "Deals moderate earthen damage with a chance to deal critical damage.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals moderate earthen damage with a chance to deal critical damage."
   },
   {
     "id": 567,
@@ -17874,10 +17354,7 @@
       77,
       118
     ],
-    "description": "Cast a bright light, blinding an opponent.",
-    "causes": [
-      "Blind"
-    ]
+    "description": "Cast a bright light, blinding an opponent."
   },
   {
     "id": 568,
@@ -17899,7 +17376,7 @@
       390,
       374
     ],
-    "description": "Attack four times with hoofs, dealing up to quadruple damage."
+    "description": "-"
   },
   {
     "id": 569,
@@ -17915,10 +17392,7 @@
       387,
       371
     ],
-    "description": "Attack and paralyze an opponent.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "-"
   },
   {
     "id": 570,
@@ -17937,7 +17411,7 @@
       408,
       405
     ],
-    "description": "Summons a giant fireball."
+    "description": "-"
   },
   {
     "id": 571,
@@ -17950,8 +17424,7 @@
       "T. Def ↓↓",
       "T. Att ↓↓",
       "T. Mag ↓↓",
-      "T. Res ↓↓",
-      "Cursed"
+      "T. Res ↓↓"
     ],
     "monsters_use": [
       400,
@@ -17959,7 +17432,7 @@
       406,
       401
     ],
-    "description": "Apocalytic power."
+    "description": "The ultimate attack of the Four Horsemen. Requires 3 turns in battle."
   },
   {
     "id": 572,
@@ -17973,12 +17446,7 @@
       438,
       442
     ],
-    "description": "Unstable magic that can deal immense damage.",
-    "causes": [
-      "Rot",
-      "Stunned",
-      "Def ↓↓"
-    ]
+    "description": "The ultimate attack of Fey Yeti."
   },
   {
     "id": 573,
@@ -17990,15 +17458,14 @@
     "causes": [
       "Blind",
       "Def ↓↓",
-      "Res ↓↓",
-      "Burning"
+      "Res ↓↓"
     ],
     "monsters_use": [
       356,
       427,
       403
     ],
-    "description": "Unstable magic that can deal immense damage."
+    "description": "-"
   },
   {
     "id": 574,
@@ -18014,7 +17481,7 @@
     "monsters_use": [
       407
     ],
-    "description": "A cursed ball of energy."
+    "description": "-"
   },
   {
     "id": 575,
@@ -18061,7 +17528,7 @@
         "specialization": true
       }
     ],
-    "description": "Immensely boosts magic power for a limited time while potentionally lower an opponent's resistance. Requires 3 turns in battle."
+    "description": "Immensely boosts magic power for a limited time while potentially lowering an opponent's resistance. Requires 3 turns in battle."
   },
   {
     "id": 577,
@@ -18208,7 +17675,7 @@
         "specialization": true
       }
     ],
-    "description": "Swiftly attack thrice, then swap your primary weapon and off-hand. Requires 2 turns in battle."
+    "description": "Swiftly attack thrice, then swap your primary and off-hand. Requires 2 turns in battle."
   },
   {
     "id": 585,
@@ -18327,10 +17794,7 @@
     "monsters_use": [
       433
     ],
-    "description": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats.",
-    "causes": [
-      "Blight"
-    ]
+    "description": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats."
   },
   {
     "id": 591,
@@ -18349,10 +17813,7 @@
       503,
       428
     ],
-    "description": "Align with nature, becoming immune to and dealing extra earthen damage. However, you will become weak against fire magic.",
-    "gives": [
-      "Earth Aligned"
-    ]
+    "description": "Aligns you to the element of Earth. You will be immune to earth, weak to fire and deal 50% increased earthen damage. Permanent until overwritten by other alignments."
   },
   {
     "id": 592,
@@ -18371,10 +17832,7 @@
       503,
       428
     ],
-    "description": "Align with the storms, becoming immune to and dealing extra lightning damage. However, you will become weak against earthen magic.",
-    "gives": [
-      "Lightning Aligned"
-    ]
+    "description": "Aligns you to the element of Lightning . You will be immune to lightning, weak to earth and deal 50% increased lightning damage. Permanent until overwritten by other alignments."
   },
   {
     "id": 593,
@@ -18393,10 +17851,7 @@
       503,
       428
     ],
-    "description": "Align with the flames, becoming immune to and dealing extra fire damage. However, you will become weak against ice magic.",
-    "gives": [
-      "Fire Aligned"
-    ]
+    "description": "Aligns you to the element of Fire. You will be immune to fire, weak to water and deal 50% increased fire damage. Permanent until overwritten by other alignments."
   },
   {
     "id": 594,
@@ -18415,10 +17870,7 @@
       503,
       428
     ],
-    "description": "Align with the cold, becoming immune to and dealing extra ice damage. However, you will become weak against lightning magic.",
-    "gives": [
-      "Water Aligned"
-    ]
+    "description": "Aligns you to the element of Water . You will be immune to water, weak to lightning and deal 50% increased water damage. Permanent until overwritten by other alignments."
   },
   {
     "id": 595,
@@ -18428,17 +17880,13 @@
     "type": "Multi-round Attack",
     "causes": [
       "Bleeding",
-      "Stunned",
-      "Def ↓"
+      "Stunned"
     ],
     "monsters_use": [
       275,
       428
     ],
-    "description": "Attack the opponent with unstoppable unrelenting fury.",
-    "gives": [
-      "T. Att ↑"
-    ]
+    "description": "The Ultimate attack of Kerberos. Rapidly strikes 4 times and requires 2 turns in battle."
   },
   {
     "id": 596,
@@ -18498,7 +17946,7 @@
     "tier": 1,
     "type": "Healing",
     "is_magic": 1,
-    "description": "Slightly restores mana."
+    "description": "Slightly restores mana. (5% of max mana)"
   },
   {
     "id": 600,
@@ -18512,10 +17960,7 @@
     "turns": 1,
     "strikes": 3,
     "ward": 2,
-    "description": "Deals damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity.",
-    "gives": [
-      "T. Dex ↑"
-    ]
+    "description": "Deals damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity."
   },
   {
     "id": 601,
@@ -18524,7 +17969,7 @@
     "tier": 8,
     "type": "Multi-round Magic",
     "is_magic": 1,
-    "description": "Converts most of your available mana into damage against an opponent."
+    "description": "Converts most of your available mana into damage against an opponent. (Burns 70% of your current mana)"
   },
   {
     "id": 602,
@@ -18538,7 +17983,7 @@
       469,
       439
     ],
-    "description": "Wait one turn, then return an opponent's attack back at them."
+    "description": "Wait one turn, then return twice the amount of damage taken while waiting."
   },
   {
     "id": 603,
@@ -18560,7 +18005,7 @@
       432,
       431
     ],
-    "description": "Cast extremely destructive magic, dealing minimal damage but lowering all of an opponent's stats. Requires 2 turns in battle."
+    "description": "Temporarily lowers attack, magic, defense, resistance and dexterity. Takes 2 turns in battle."
   },
   {
     "id": 604,
@@ -18623,7 +18068,7 @@
       412,
       439
     ],
-    "description": "Perform the perfect strike at the perfect time. This attack never misses and requires 3 turns in battle."
+    "description": "Perform the perfect strike at the perfect time. This attack never misses but requires 3 turns in battle."
   },
   {
     "id": 608,
@@ -18640,7 +18085,7 @@
     "gives": [
       "T. Dex ↑"
     ],
-    "description": "Deals damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity."
+    "description": "Deal damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity."
   },
   {
     "id": 609,
@@ -18657,7 +18102,7 @@
     "gives": [
       "T. Dex ↑"
     ],
-    "description": "Deals damage thrice, grants 3 turns of Ward, and may temporarily increase dexterity."
+    "description": "Deal damage thrice, grants 3 turns of Ward, and may temporarily increase dexterity."
   },
   {
     "id": 610,
@@ -18683,10 +18128,7 @@
     "tier": 10,
     "type": "Buff",
     "is_magic": 1,
-    "description": "Lay spikes around your opponent, potentially greatly increasing damage and the chance for a critical strike.",
-    "gives": [
-      "T. Crit ↑↑↑"
-    ]
+    "description": "Lay spikes around your opponent, potentially greatly increasing damage and the chance for a critical strike."
   },
   {
     "id": 612,
@@ -18704,10 +18146,7 @@
       475,
       476
     ],
-    "description": "Attack with your weapon extended, dealing moderate damage but mitigating damage from your opponent's next attack.",
-    "causes": [
-      "Dmg ↓↓"
-    ]
+    "description": "Attack with your weapon extended, dealing moderate damage but mitigating damage from your opponent's next attack."
   },
   {
     "id": 613,
@@ -18715,7 +18154,7 @@
     "zh": "豬突猛進 II",
     "tier": 10,
     "type": "Multi-round Attack",
-    "description": "Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle."
+    "description": "Attack with both hands gripped tightly, dealing paltry to immense damage.  Requires 2 turns in battle."
   },
   {
     "id": 614,
@@ -18746,7 +18185,7 @@
       444,
       443
     ],
-    "description": "Boosts dexterity."
+    "description": "Temporarily greatly improves one's dexterity."
   },
   {
     "id": 616,
@@ -18773,10 +18212,7 @@
       445,
       442
     ],
-    "description": "?",
-    "gives": [
-      "Tree of Demise"
-    ]
+    "description": "?"
   },
   {
     "id": 618,
@@ -18789,10 +18225,7 @@
       445,
       442
     ],
-    "description": "?",
-    "gives": [
-      "Tree of Life"
-    ]
+    "description": "?"
   },
   {
     "id": 619,
@@ -18812,7 +18245,7 @@
       446,
       447
     ],
-    "description": "Places a mark for execution upon an opponent."
+    "description": "-"
   },
   {
     "id": 620,
@@ -18830,7 +18263,7 @@
       446,
       447
     ],
-    "description": "Deals great damage to those who are marked for execution."
+    "description": "-"
   },
   {
     "id": 621,
@@ -18893,10 +18326,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals fire damage to all opponents in battle.",
-    "causes": [
-      "Burning"
-    ]
+    "description": "Deals fire damage to all opponents in battle."
   },
   {
     "id": 624,
@@ -18923,10 +18353,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals ice damage to all opponents in battle.",
-    "causes": [
-      "Frozen"
-    ]
+    "description": "Deals ice damage to all opponents in battle."
   },
   {
     "id": 625,
@@ -18951,10 +18378,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals lightning damage to all opponents in battle.",
-    "causes": [
-      "Paralyzed"
-    ]
+    "description": "Deals lightning damage to all opponents in battle."
   },
   {
     "id": 626,
@@ -18978,10 +18402,7 @@
         "specialization": true
       }
     ],
-    "description": "Deals earthen damage to all opponents in battle.",
-    "causes": [
-      "Rot"
-    ]
+    "description": "Deals earthen damage to all opponents in battle."
   },
   {
     "id": 627,
@@ -19328,7 +18749,7 @@
         "specialization": true
       }
     ],
-    "description": "Temporarily increases all party members' foresight."
+    "description": "Temporarily increases all party member's foresight."
   },
   {
     "id": 641,
@@ -19432,8 +18853,7 @@
     "is_magic": 1,
     "mana_cost": 200,
     "gives": [
-      "Skadi",
-      "Call of Skadi"
+      "Skadi"
     ],
     "learned_by": [
       {
@@ -19454,8 +18874,7 @@
     "is_magic": 1,
     "mana_cost": 200,
     "gives": [
-      "Jord",
-      "Call of Jord"
+      "Jord"
     ],
     "learned_by": [
       {
@@ -19465,7 +18884,7 @@
         "specialization": false
       }
     ],
-    "description": "Greatly increases the chance of your follower protecting you. This skill will be most effective when Valhallan classes attempt it."
+    "description": "Increases the chance of your follower protecting you. This skill will be more effective when Valhallan classes attempt it."
   },
   {
     "id": 647,
@@ -19476,8 +18895,7 @@
     "is_magic": 1,
     "mana_cost": 100,
     "gives": [
-      "Brynhild",
-      "Call of Brynhild"
+      "Brynhild"
     ],
     "learned_by": [
       {
@@ -19498,8 +18916,7 @@
     "is_magic": 1,
     "mana_cost": 100,
     "gives": [
-      "Idun",
-      "Call of Idun"
+      "Idun"
     ],
     "learned_by": [
       {
@@ -19565,7 +18982,7 @@
         "specialization": false
       }
     ],
-    "description": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws."
+    "description": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favourable to win in PvP draws."
   },
   {
     "id": 652,
@@ -19618,7 +19035,7 @@
         "specialization": true
       }
     ],
-    "description": "Grants a great chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws."
+    "description": "Grants a great chance to return a portion of an opponent's attack back at them. Counterattacks are favourable to win in PvP draws."
   },
   {
     "id": 655,
@@ -19711,7 +19128,7 @@
     "causes": [
       "Lulled"
     ],
-    "description": "Deals moderate non-elemental damage and may lull an opponent"
+    "description": "Deals moderate non-elemental damage and may lull an opponent."
   },
   {
     "id": 659,
@@ -19728,27 +19145,7 @@
     "tier": 8,
     "type": "Buff",
     "is_magic": 1,
-    "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponent stats.",
-    "causes": [
-      "T. Att ↓",
-      "T. Mag ↓",
-      "T. Def ↓",
-      "T. Res ↓"
-    ],
-    "gives": [
-      "Att ↑",
-      "T. Att ↑",
-      "Mag ↑",
-      "T. Mag ↑",
-      "Def ↑",
-      "T. Def ↑",
-      "Res ↑",
-      "T. Res ↑",
-      "Def ↑↑",
-      "Mag ↑↑",
-      "Att ↑↑",
-      "Res ↑↑"
-    ]
+    "description": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponents stats."
   },
   {
     "id": 661,
@@ -19815,7 +19212,7 @@
     "causes": [
       "Lulled"
     ],
-    "description": "Deals moderate non-elemental damage and may lull an opponent"
+    "description": "Deals moderate non-elemental damage and may lull an opponent."
   },
   {
     "id": 665,
@@ -19827,7 +19224,7 @@
     "causes": [
       "Lulled"
     ],
-    "description": "Deals moderate non-elemental damage and may lull an opponent"
+    "description": "Deals moderate non-elemental damage and may lull an opponent."
   },
   {
     "id": 666,

@@ -12324,7 +12324,7 @@
       "T. Mag ↓",
       "Res ↓↓",
       "Res ↓",
-      "Mag ↓↓",
+      "T. Mag ↓↓",
       "Rot"
     ],
     "skills": [
@@ -15886,7 +15886,7 @@
   {
     "id": 527,
     "name": "The Fool",
-    "zh": "愚人",
+    "zh": "愚人 (2022)",
     "tier": 9,
     "level": 220,
     "boss": 1,
@@ -15986,7 +15986,7 @@
   {
     "id": 528,
     "name": "The Fool",
-    "zh": "愚人",
+    "zh": "愚人 (2022)",
     "tier": 6,
     "level": 150,
     "boss": 1,
@@ -16080,5 +16080,296 @@
       853
     ],
     "image": "packs/fools/3_f.png"
+  },
+  {
+    "id": 529,
+    "name": "Medea",
+    "zh": "重生者女王美狄亞",
+    "tier": 10,
+    "level": 250,
+    "boss": 1,
+    "spawns": [
+      "Mystic Cave"
+    ],
+    "resistant_to": [
+      "Earthen",
+      "Fire",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Poisoned",
+      "Blight",
+      "Asleep",
+      "Petrified",
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "T. Def ↓↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Res ↓↓",
+      "Rot",
+      "T. Def ↓↓↓",
+      "Stasis"
+    ],
+    "skills": [
+      394,
+      255,
+      525,
+      526,
+      254,
+      252,
+      527,
+      528,
+      523,
+      524,
+      155,
+      521,
+      522,
+      520
+    ],
+    "image": "bosses/medea.png"
+  },
+  {
+    "id": 530,
+    "name": "Young Apollyon",
+    "zh": "青年亞坡倫",
+    "tier": 5,
+    "level": 120,
+    "boss": 1,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Kingdom Raid",
+      "World Raid"
+    ],
+    "weak_to": [
+      "Arcane"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
+    "skills": [
+      207,
+      651,
+      118,
+      117,
+      110,
+      164,
+      112
+    ],
+    "drops": [
+      1580,
+      1581,
+      1574,
+      1575,
+      1576,
+      1582,
+      1583,
+      1577,
+      1578,
+      1579
+    ],
+    "image": "bosses/apollyon_spirit.png"
+  },
+  {
+    "id": 531,
+    "name": "Apollyon's Apprentice",
+    "zh": "亞坡倫的學徒",
+    "tier": 8,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Arcane",
+      "Dark",
+      "Dragon",
+      "Holy"
+    ],
+    "resistant_to": [
+      "Earthen",
+      "Fire",
+      "Lightning",
+      "Water"
+    ],
+    "skills": [
+      173,
+      216,
+      201,
+      202
+    ],
+    "drops": [
+      1587,
+      1585,
+      1584,
+      1586
+    ],
+    "image": "packs/apollyon/7_f.png"
+  },
+  {
+    "id": 532,
+    "name": "Apollyon's Pupil (lightning)",
+    "zh": "亞坡倫的弟子",
+    "tier": 5,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Lightning"
+    ],
+    "skills": [
+      592,
+      151,
+      272
+    ],
+    "drops": [
+      1591
+    ],
+    "image": "packs/apollyon/1_f.png"
+  },
+  {
+    "id": 533,
+    "name": "Apollyon's Pupil (fire)",
+    "zh": "亞坡倫的弟子",
+    "tier": 5,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Fire"
+    ],
+    "skills": [
+      593,
+      148,
+      275
+    ],
+    "drops": [
+      1590
+    ],
+    "image": "packs/apollyon/3_f.png"
+  },
+  {
+    "id": 534,
+    "name": "Apollyon's Pupil (ice)",
+    "zh": "亞坡倫的弟子",
+    "tier": 5,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Water"
+    ],
+    "skills": [
+      276,
+      594,
+      150
+    ],
+    "drops": [
+      1589
+    ],
+    "image": "packs/apollyon/4_f.png"
+  },
+  {
+    "id": 535,
+    "name": "Apollyon's Pupil (earth)",
+    "zh": "亞坡倫的弟子",
+    "tier": 5,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Earthen"
+    ],
+    "skills": [
+      591,
+      147,
+      273
+    ],
+    "drops": [
+      1588
+    ],
+    "image": "packs/apollyon/2_m.png"
+  },
+  {
+    "id": 536,
+    "name": "Beguiled Apollyon",
+    "zh": "著魔的亞坡倫",
+    "tier": 10,
+    "level": 250,
+    "boss": 1,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Kingdom Raid",
+      "World Raid"
+    ],
+    "weak_to": [
+      "Arcane"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
+    "skills": [
+      207,
+      318,
+      500,
+      497,
+      504,
+      494,
+      498,
+      650,
+      164,
+      544
+    ],
+    "drops": [
+      1568,
+      1566,
+      1573,
+      1569,
+      1562,
+      1567,
+      1565,
+      1572,
+      1571,
+      1570
+    ],
+    "image": "bosses/apollyon_spirit.png"
   }
 ]

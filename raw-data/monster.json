@@ -30810,5 +30810,518 @@
         "name": "Wail"
       }
     ]
+  },
+  {
+    "id": 529,
+    "name": "Medea",
+    "tier": 10,
+    "boss": true,
+    "image": "bosses/medea.png",
+    "level": 250,
+    "spawns": [
+      "Mystic Cave"
+    ],
+    "resistant_to": [
+      "Earthen",
+      "Fire",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Poisoned",
+      "Blight",
+      "Asleep",
+      "Petrified",
+      "Att ↓",
+      "Mag ↓",
+      "Def ↓",
+      "Def ↓↓",
+      "T. Def ↓",
+      "T. Att ↓",
+      "T. Mag ↓",
+      "T. Res ↓",
+      "Res ↓↓",
+      "T. Def ↓↓",
+      "T. Att ↓↓",
+      "T. Mag ↓↓",
+      "T. Res ↓↓",
+      "Rot",
+      "T. Def ↓↓↓",
+      "Stasis"
+    ],
+    "skills": [
+      {
+        "id": 394,
+        "name": "Divine Bastion II"
+      },
+      {
+        "id": 255,
+        "name": "Envy"
+      },
+      {
+        "id": 525,
+        "name": "Gloomseal II"
+      },
+      {
+        "id": 526,
+        "name": "Gloomstrike II"
+      },
+      {
+        "id": 254,
+        "name": "Greed"
+      },
+      {
+        "id": 252,
+        "name": "Hubris"
+      },
+      {
+        "id": 527,
+        "name": "Lostseal II"
+      },
+      {
+        "id": 528,
+        "name": "Loststrike II"
+      },
+      {
+        "id": 523,
+        "name": "Sacreseal II"
+      },
+      {
+        "id": 524,
+        "name": "Sacrestrike II"
+      },
+      {
+        "id": 155,
+        "name": "Second Chance"
+      },
+      {
+        "id": 521,
+        "name": "Viperseal II"
+      },
+      {
+        "id": 522,
+        "name": "Viperstrike II"
+      },
+      {
+        "id": 520,
+        "name": "Ward of Balor II"
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "name": "Young Apollyon",
+    "tier": 5,
+    "boss": true,
+    "image": "bosses/apollyon_spirit.png",
+    "level": 120,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Kingdom Raid",
+      "World Raid"
+    ],
+    "weak_to": [
+      "Arcane"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1580,
+        "name": "Mystic Katar"
+      },
+      {
+        "id": 1581,
+        "name": "Spectral Armor"
+      },
+      {
+        "id": 1574,
+        "name": "Spectral Boots"
+      },
+      {
+        "id": 1575,
+        "name": "Spectral Cowl"
+      },
+      {
+        "id": 1576,
+        "name": "Spectral Garb"
+      },
+      {
+        "id": 1582,
+        "name": "Spectral Heavy Boots"
+      },
+      {
+        "id": 1583,
+        "name": "Spectral Helmet"
+      },
+      {
+        "id": 1577,
+        "name": "Spectral Hood"
+      },
+      {
+        "id": 1578,
+        "name": "Spectral Robe"
+      },
+      {
+        "id": 1579,
+        "name": "Spectral Shoes"
+      }
+    ],
+    "skills": [
+      {
+        "id": 207,
+        "name": "Annihilation"
+      },
+      {
+        "id": 651,
+        "name": "Counterattack"
+      },
+      {
+        "id": 118,
+        "name": "Flame III"
+      },
+      {
+        "id": 117,
+        "name": "Frost III"
+      },
+      {
+        "id": 110,
+        "name": "Spark III"
+      },
+      {
+        "id": 164,
+        "name": "Swordplay"
+      },
+      {
+        "id": 112,
+        "name": "Tremor III"
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "name": "Apollyon's Apprentice",
+    "tier": 8,
+    "boss": false,
+    "image": "packs/apollyon/7_f.png",
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "resistant_to": [
+      "Earthen",
+      "Fire",
+      "Lightning",
+      "Water"
+    ],
+    "immune_to": [
+      "Arcane",
+      "Dark",
+      "Dragon",
+      "Holy"
+    ],
+    "drops": [
+      {
+        "id": 1587,
+        "name": "Book of Darkness"
+      },
+      {
+        "id": 1585,
+        "name": "Book of Light"
+      },
+      {
+        "id": 1584,
+        "name": "Book of the Arcane"
+      },
+      {
+        "id": 1586,
+        "name": "Book of the Dragon"
+      }
+    ],
+    "skills": [
+      {
+        "id": 173,
+        "name": "Arcane Strikes"
+      },
+      {
+        "id": 216,
+        "name": "Blightstrike II"
+      },
+      {
+        "id": 201,
+        "name": "Darkstrike III"
+      },
+      {
+        "id": 202,
+        "name": "Holystrike III"
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "name": "Apollyon's Pupil (lightning)",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/apollyon/1_f.png",
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Lightning"
+    ],
+    "drops": [
+      {
+        "id": 1591,
+        "name": "Book of Lightning"
+      }
+    ],
+    "skills": [
+      {
+        "id": 592,
+        "name": "Lightning Alignment"
+      },
+      {
+        "id": 151,
+        "name": "Lightningstrike II"
+      },
+      {
+        "id": 272,
+        "name": "Spark IV"
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "name": "Apollyon's Pupil (fire)",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/apollyon/3_f.png",
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Fire"
+    ],
+    "drops": [
+      {
+        "id": 1590,
+        "name": "Book of Fire"
+      }
+    ],
+    "skills": [
+      {
+        "id": 593,
+        "name": "Fire Alignment"
+      },
+      {
+        "id": 148,
+        "name": "Firestrike II"
+      },
+      {
+        "id": 275,
+        "name": "Flame IV"
+      }
+    ]
+  },
+  {
+    "id": 534,
+    "name": "Apollyon's Pupil (ice)",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/apollyon/4_f.png",
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Water"
+    ],
+    "drops": [
+      {
+        "id": 1589,
+        "name": "Book of Water"
+      }
+    ],
+    "skills": [
+      {
+        "id": 276,
+        "name": "Frost IV"
+      },
+      {
+        "id": 594,
+        "name": "Ice Alignment"
+      },
+      {
+        "id": 150,
+        "name": "Icestrike II"
+      }
+    ]
+  },
+  {
+    "id": 535,
+    "name": "Apollyon's Pupil (earth)",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/apollyon/2_m.png",
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Gauntlet Only",
+      "Mystic Cave"
+    ],
+    "immune_to": [
+      "Earthen"
+    ],
+    "drops": [
+      {
+        "id": 1588,
+        "name": "Book of Earth"
+      }
+    ],
+    "skills": [
+      {
+        "id": 591,
+        "name": "Earth Alignment"
+      },
+      {
+        "id": 147,
+        "name": "Earthstrike II"
+      },
+      {
+        "id": 273,
+        "name": "Tremor IV"
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "name": "Beguiled Apollyon",
+    "tier": 10,
+    "boss": true,
+    "image": "bosses/apollyon_spirit.png",
+    "level": 250,
+    "spawns": [
+      "Event: The Plight of Apollyon",
+      "Kingdom Raid",
+      "World Raid"
+    ],
+    "weak_to": [
+      "Arcane"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
+    "drops": [
+      {
+        "id": 1568,
+        "name": "Beguiled Armor"
+      },
+      {
+        "id": 1566,
+        "name": "Beguiled Boots"
+      },
+      {
+        "id": 1573,
+        "name": "Beguiled Cowl"
+      },
+      {
+        "id": 1569,
+        "name": "Beguiled Garb"
+      },
+      {
+        "id": 1562,
+        "name": "Beguiled Heavy Boots"
+      },
+      {
+        "id": 1567,
+        "name": "Beguiled Helmet"
+      },
+      {
+        "id": 1565,
+        "name": "Beguiled Hood"
+      },
+      {
+        "id": 1572,
+        "name": "Beguiled Mystic Katar"
+      },
+      {
+        "id": 1571,
+        "name": "Beguiled Robe"
+      },
+      {
+        "id": 1570,
+        "name": "Beguiled Shoes"
+      }
+    ],
+    "skills": [
+      {
+        "id": 207,
+        "name": "Annihilation"
+      },
+      {
+        "id": 318,
+        "name": "Arcane Strikes III"
+      },
+      {
+        "id": 500,
+        "name": "Magic Dagger IV"
+      },
+      {
+        "id": 497,
+        "name": "Magic Hammer IV"
+      },
+      {
+        "id": 504,
+        "name": "Magic Strikes IV"
+      },
+      {
+        "id": 494,
+        "name": "Magic Sword IV"
+      },
+      {
+        "id": 498,
+        "name": "Omnistrikes II"
+      },
+      {
+        "id": 650,
+        "name": "Refract"
+      },
+      {
+        "id": 164,
+        "name": "Swordplay"
+      },
+      {
+        "id": 544,
+        "name": "Verse III"
+      }
+    ]
   }
 ]
