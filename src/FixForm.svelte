@@ -59,7 +59,7 @@
             修正資料
           </legend>
           <strong>
-            #{$fixForm.item.id} - {$fixForm.item.zh}
+            #{$fixForm.item.gid} - {$fixForm.item.name.zh}
           </strong>
           <br>
           <select bind:value={fixProp}>
