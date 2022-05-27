@@ -91,7 +91,7 @@
                 <span>
                   {$_(debuff)}
                 </span>
-                <a href="https://rplus.github.io/orna-lookup/?prevents={debuff}" target="ornagle">↗</a>
+                <a href="https://rplus.github.io/orna-lookup/?immunities={debuff}" target="ornagle">↗</a>
               </label>
             </dd>
           {/each}
