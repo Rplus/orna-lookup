@@ -1085,66 +1085,78 @@
     ],
     "drops": [
       {
-        "id": 446,
-        "name": "Gauntlet Key"
+        "id": 249,
+        "name": "Bone"
       },
       {
-        "id": 1005,
-        "name": "Jewel of Aqua"
+        "id": 255,
+        "name": "Dragonite"
       },
       {
-        "id": 1004,
-        "name": "Jewel of Fira"
+        "id": 256,
+        "name": "Earthstone"
       },
       {
-        "id": 1011,
-        "name": "Jewel of Natura"
+        "id": 259,
+        "name": "Firestone"
       },
       {
-        "id": 998,
-        "name": "Jewel of Storma"
+        "id": 265,
+        "name": "Lightningstone"
       },
       {
-        "id": 454,
-        "name": "Berserk Mushroom"
+        "id": 266,
+        "name": "Mythril"
       },
       {
-        "id": 24,
-        "name": "Great Monster Remains"
+        "id": 273,
+        "name": "Runestone"
       },
       {
-        "id": 12,
-        "name": "Panacea"
+        "id": 276,
+        "name": "Steel"
       },
       {
-        "id": 1205,
-        "name": "Scroll of Chaos"
+        "id": 277,
+        "name": "Stone"
       },
       {
-        "id": 921,
-        "name": "Jewel of Growth"
+        "id": 17,
+        "name": "Torch"
       },
       {
-        "id": 930,
-        "name": "Assassin's Jewel"
+        "id": 280,
+        "name": "Waterstone"
       },
       {
-        "id": 1079,
-        "name": "Heretic's Jewel"
+        "id": 283,
+        "name": "Wood"
+      },
+      {
+        "id": 228,
+        "name": "Lantern"
+      },
+      {
+        "id": 225,
+        "name": "Coin Purse"
+      },
+      {
+        "id": 226,
+        "name": "Crystal Eye"
+      },
+      {
+        "id": 242,
+        "name": "Great Monster Tome"
       }
     ],
     "skills": [
       {
-        "id": 34,
-        "name": "Battle Dance"
+        "id": 661,
+        "name": "Confuse"
       },
       {
         "id": 464,
         "name": "Curse"
-      },
-      {
-        "id": 242,
-        "name": "Distortion"
       },
       {
         "id": 55,
@@ -1722,6 +1734,12 @@
         "id": 111,
         "name": "Tremor II"
       }
+    ],
+    "quests": [
+      {
+        "id": 86,
+        "name": "Remember the Fallen"
+      }
     ]
   },
   {
@@ -1765,6 +1783,12 @@
         "id": 85,
         "name": "Threaten"
       }
+    ],
+    "quests": [
+      {
+        "id": 86,
+        "name": "Remember the Fallen"
+      }
     ]
   },
   {
@@ -1803,6 +1827,12 @@
         "id": 56,
         "name": "Ice Arrow"
       }
+    ],
+    "quests": [
+      {
+        "id": 86,
+        "name": "Remember the Fallen"
+      }
     ]
   },
   {
@@ -1817,16 +1847,16 @@
         "name": "Arena Token"
       },
       {
+        "id": 1368,
+        "name": "Mandrake"
+      },
+      {
         "id": 1369,
         "name": "Dayleaf"
       },
       {
         "id": 49,
         "name": "Fallen Mage's Staff"
-      },
-      {
-        "id": 1368,
-        "name": "Mandrake"
       }
     ],
     "skills": [
@@ -1865,6 +1895,12 @@
       {
         "id": 45,
         "name": "Spark"
+      }
+    ],
+    "quests": [
+      {
+        "id": 86,
+        "name": "Remember the Fallen"
       }
     ]
   },
@@ -2575,12 +2611,6 @@
         "id": 75,
         "name": "Meteor"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -2663,6 +2693,10 @@
       {
         "id": 48,
         "name": "[The Aftermath] The Fomorians"
+      },
+      {
+        "id": 90,
+        "name": "Attack of the Fomorians!"
       }
     ],
     "buffs": [
@@ -2724,6 +2758,12 @@
         "name": "Poison"
       }
     ],
+    "quests": [
+      {
+        "id": 90,
+        "name": "Attack of the Fomorians!"
+      }
+    ],
     "buffs": [
       {
         "id": 250,
@@ -2757,6 +2797,10 @@
       {
         "id": 48,
         "name": "[The Aftermath] The Fomorians"
+      },
+      {
+        "id": 90,
+        "name": "Attack of the Fomorians!"
       }
     ],
     "buffs": [
@@ -2878,7 +2922,7 @@
     "name": "Lizarr Lord",
     "tier": 3,
     "boss": true,
-    "image": "monsters/lizard_lord.png",
+    "image": "bosses/lizarr_king.png",
     "level": 50,
     "spawns": [
       "Water Only"
@@ -4161,7 +4205,7 @@
   },
   {
     "id": 105,
-    "name": "Ushi-Oni",
+    "name": "Ushi-oni",
     "tier": 5,
     "boss": false,
     "image": "monsters/ushi.png",
@@ -4480,6 +4524,10 @@
     ],
     "skills": [
       {
+        "id": 225,
+        "name": "Bite"
+      },
+      {
         "id": 35,
         "name": "Bleed"
       },
@@ -4552,17 +4600,11 @@
         "id": 75,
         "name": "Meteor"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
     "id": 113,
-    "name": "Great Ushi-Oni",
+    "name": "Great Ushi-oni",
     "tier": 6,
     "boss": false,
     "image": "monsters/great_ushi.png",
@@ -4706,12 +4748,6 @@
         "id": 97,
         "name": "Dragon Breath"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -4727,16 +4763,16 @@
         "name": "Arena Token"
       },
       {
+        "id": 1368,
+        "name": "Mandrake"
+      },
+      {
         "id": 1369,
         "name": "Dayleaf"
       },
       {
         "id": 13,
         "name": "Lucky Coin"
-      },
-      {
-        "id": 1368,
-        "name": "Mandrake"
       },
       {
         "id": 1367,
@@ -5127,12 +5163,6 @@
         "id": 29,
         "name": "Tiamat"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -5494,12 +5524,6 @@
         "id": 51,
         "name": "[The Aftermath] Of Dragons"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -5539,12 +5563,24 @@
     ],
     "skills": [
       {
+        "id": 225,
+        "name": "Bite"
+      },
+      {
         "id": 86,
         "name": "Cataclysm"
       },
       {
+        "id": 622,
+        "name": "Fright"
+      },
+      {
         "id": 55,
         "name": "Great Heal"
+      },
+      {
+        "id": 203,
+        "name": "Osmostrike III"
       },
       {
         "id": 43,
@@ -5694,7 +5730,7 @@
     "name": "Finfolk",
     "tier": 6,
     "boss": true,
-    "image": "monsters/water_demon.png",
+    "image": "bosses/water_demon.png",
     "level": 125,
     "spawns": [
       "Water Only"
@@ -6037,12 +6073,6 @@
         "id": 100,
         "name": "Flare II"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -6069,12 +6099,6 @@
       {
         "id": 43,
         "name": "Poisonstrike"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -6371,12 +6395,6 @@
         "id": 107,
         "name": "Wyvern's Wrath"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -6444,7 +6462,7 @@
     "name": "Arisen Lizarr Lord",
     "tier": 8,
     "boss": false,
-    "image": "monsters/lizard_lord.png",
+    "image": "bosses/lizarr_king.png",
     "spawns": [
       "Water Only"
     ],
@@ -6568,7 +6586,7 @@
     "name": "Arisen Cerberus",
     "tier": 7,
     "boss": false,
-    "image": "bosses/cerberus.png",
+    "image": "bosses/arisen_cerberus.png",
     "spawns": [
       "Night Only"
     ],
@@ -6947,12 +6965,6 @@
       {
         "id": 184,
         "name": "Nightmare II"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -7478,12 +7490,21 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "drops": [
+      {
+        "id": 347,
+        "name": "Arena Token"
+      },
+      {
+        "id": 15,
+        "name": "EXP Potion"
+      },
+      {
+        "id": 13,
+        "name": "Lucky Coin"
+      },
       {
         "id": 16,
         "name": "Dowsing Rod"
@@ -7493,8 +7514,16 @@
         "name": "Gauntlet Key"
       },
       {
+        "id": 14,
+        "name": "Lucky Silver Coin"
+      },
+      {
         "id": 390,
         "name": "Titanium"
+      },
+      {
+        "id": 447,
+        "name": "Affinity Candle"
       },
       {
         "id": 923,
@@ -7597,10 +7626,32 @@
     "immune_to": [
       "Dark"
     ],
-    "vulnerable_to_status": [
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
+      {
+        "id": 347,
+        "name": "Arena Token"
+      },
+      {
+        "id": 15,
+        "name": "EXP Potion"
+      },
+      {
+        "id": 13,
+        "name": "Lucky Coin"
+      },
       {
         "id": 16,
         "name": "Dowsing Rod"
@@ -7612,6 +7663,14 @@
       {
         "id": 407,
         "name": "Balorite"
+      },
+      {
+        "id": 14,
+        "name": "Lucky Silver Coin"
+      },
+      {
+        "id": 447,
+        "name": "Affinity Candle"
       },
       {
         "id": 519,
@@ -7682,12 +7741,6 @@
       {
         "id": 105,
         "name": "Wyvern Speed"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 250,
-        "name": "Crest of Annwn"
       }
     ]
   },
@@ -8335,7 +8388,7 @@
   },
   {
     "id": 194,
-    "name": "Nin-Kilim",
+    "name": "Nin-kilim",
     "tier": 9,
     "boss": true,
     "image": "bosses/rat_king.png",
@@ -9090,10 +9143,6 @@
     ],
     "drops": [
       {
-        "id": 446,
-        "name": "Gauntlet Key"
-      },
-      {
         "id": 268,
         "name": "Perfect Runestone"
       },
@@ -9519,12 +9568,12 @@
     ],
     "drops": [
       {
-        "id": 1369,
-        "name": "Dayleaf"
-      },
-      {
         "id": 1368,
         "name": "Mandrake"
+      },
+      {
+        "id": 1369,
+        "name": "Dayleaf"
       },
       {
         "id": 1367,
@@ -9851,12 +9900,6 @@
       {
         "id": 43,
         "name": "Poisonstrike"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -10375,15 +10418,20 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "drops": [
       {
+        "id": 15,
+        "name": "EXP Potion"
+      },
+      {
         "id": 446,
         "name": "Gauntlet Key"
+      },
+      {
+        "id": 447,
+        "name": "Affinity Candle"
       },
       {
         "id": 479,
@@ -11227,12 +11275,6 @@
         "id": 184,
         "name": "Nightmare II"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -11275,12 +11317,6 @@
       {
         "id": 94,
         "name": "Tricut"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -11362,6 +11398,10 @@
         "name": "Firestone"
       },
       {
+        "id": 265,
+        "name": "Lightningstone"
+      },
+      {
         "id": 280,
         "name": "Waterstone"
       },
@@ -11428,7 +11468,7 @@
     ],
     "weak_to": [
       "Arcane",
-      "Physical",
+      "Earthen",
       "Water"
     ],
     "resistant_to": [
@@ -11580,12 +11620,6 @@
       {
         "id": 59,
         "name": "Magic Boost"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -11755,12 +11789,6 @@
         "id": 43,
         "name": "Poisonstrike"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -11802,12 +11830,6 @@
       {
         "id": 153,
         "name": "Osmostrike II"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -12352,12 +12374,6 @@
         "id": 217,
         "name": "Wyvern Speed II"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -12403,7 +12419,9 @@
     "image": "bosses/naggeneen.png",
     "level": 175,
     "spawns": [
-      "Past Event: The Mischievous Clurichauns"
+      "Kingdom Raid",
+      "Past Event: The Mischievous Clurichauns",
+      "World Raid"
     ],
     "resistant_to": [
       "Earthen"
@@ -12584,12 +12602,6 @@
         "id": 94,
         "name": "Tricut"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -12600,7 +12612,9 @@
     "image": "bosses/kerberos.png",
     "level": 200,
     "spawns": [
-      "Past Event: Rise of Kerberos"
+      "Kingdom Raid",
+      "Past Event: Rise of Kerberos",
+      "World Raid"
     ],
     "immune_to": [
       "Dark",
@@ -12769,7 +12783,9 @@
     "image": "monsters/mimic.png",
     "level": 100,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "resistant_to": [
       "Dragon",
@@ -12947,19 +12963,48 @@
     "name": "Cerus",
     "tier": 6,
     "boss": true,
-    "image": "bosses/taurus.png",
+    "image": "bosses/cerus.png",
     "level": 150,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event: Cerus the Untamed"
     ],
     "resistant_to": [
       "Fire"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "drops": [
+      {
+        "id": 347,
+        "name": "Arena Token"
+      },
+      {
+        "id": 15,
+        "name": "EXP Potion"
+      },
+      {
+        "id": 19,
+        "name": "Attack Tonic"
+      },
+      {
+        "id": 446,
+        "name": "Gauntlet Key"
+      },
+      {
+        "id": 23,
+        "name": "Monster Remains"
+      },
       {
         "id": 1084,
         "name": "Greater Attack Tonic"
@@ -12967,6 +13012,10 @@
       {
         "id": 1085,
         "name": "Greater Magic Tonic"
+      },
+      {
+        "id": 447,
+        "name": "Affinity Candle"
       },
       {
         "id": 582,
@@ -12991,10 +13040,6 @@
       {
         "id": 586,
         "name": "Raging Bull"
-      },
-      {
-        "id": 1068,
-        "name": "Raging Bull's Eye"
       },
       {
         "id": 583,
@@ -13049,10 +13094,6 @@
       {
         "id": 183,
         "name": "Quasar"
-      },
-      {
-        "id": 234,
-        "name": "Rebuke"
       },
       {
         "id": 251,
@@ -13204,16 +13245,8 @@
         "name": "Apocalypse"
       },
       {
-        "id": 166,
-        "name": "Arcana"
-      },
-      {
         "id": 167,
         "name": "Arcana II"
-      },
-      {
-        "id": 70,
-        "name": "Darkstrike"
       },
       {
         "id": 146,
@@ -13226,10 +13259,6 @@
       {
         "id": 123,
         "name": "Faith II"
-      },
-      {
-        "id": 74,
-        "name": "Holystrike"
       },
       {
         "id": 149,
@@ -13246,10 +13275,6 @@
       {
         "id": 213,
         "name": "Onslaught"
-      },
-      {
-        "id": 153,
-        "name": "Osmostrike II"
       },
       {
         "id": 163,
@@ -13269,7 +13294,7 @@
     "image": "bosses/mammon.png",
     "level": 250,
     "spawns": [
-      "Regular Dungeon (T9)",
+      "Regular Dungeon (T9, last floor)",
       "World"
     ],
     "resistant_to": [
@@ -13874,7 +13899,20 @@
     "image": "npcs/balin.png",
     "level": 200,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "drops": [
       {
@@ -13918,6 +13956,10 @@
       {
         "id": 200,
         "name": "Lightningstrike III"
+      },
+      {
+        "id": 602,
+        "name": "Parry"
       },
       {
         "id": 163,
@@ -14254,12 +14296,6 @@
         "id": 43,
         "name": "Poisonstrike"
       }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
-      }
     ]
   },
   {
@@ -14290,12 +14326,6 @@
       {
         "id": 100,
         "name": "Flare II"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -14748,12 +14778,12 @@
     "image": "bosses/witch.png",
     "drops": [
       {
-        "id": 1369,
-        "name": "Dayleaf"
-      },
-      {
         "id": 1368,
         "name": "Mandrake"
+      },
+      {
+        "id": 1369,
+        "name": "Dayleaf"
       },
       {
         "id": 1367,
@@ -15214,7 +15244,9 @@
     "image": "bosses/merlin.png",
     "level": 200,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to_status": [
       "Burning",
@@ -15227,14 +15259,16 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
+      "T. Res ↓",
       "Res ↓↓",
       "Res ↓",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "drops": [
+      {
+        "id": 347,
+        "name": "Arena Token"
+      },
       {
         "id": 22,
         "name": "Magic Tonic"
@@ -15340,6 +15374,10 @@
         "name": "Lady of the Lake"
       },
       {
+        "id": 513,
+        "name": "Avalon Ore"
+      },
+      {
         "id": 762,
         "name": "Gamma Myrddin"
       },
@@ -15438,10 +15476,6 @@
         "name": "Flame V"
       },
       {
-        "id": 344,
-        "name": "Flare III"
-      },
-      {
         "id": 278,
         "name": "Frost V"
       },
@@ -15454,20 +15488,28 @@
         "name": "Icestrike III"
       },
       {
+        "id": 200,
+        "name": "Lightningstrike III"
+      },
+      {
         "id": 366,
         "name": "Miasma"
       },
       {
-        "id": 215,
-        "name": "Multi-flare"
+        "id": 373,
+        "name": "Multi-flame II"
       },
       {
-        "id": 325,
-        "name": "Multi-shadow"
+        "id": 375,
+        "name": "Multi-frost II"
       },
       {
         "id": 306,
         "name": "Multi-spark II"
+      },
+      {
+        "id": 403,
+        "name": "Multi-tremor II"
       },
       {
         "id": 204,
@@ -16098,12 +16140,6 @@
       {
         "id": 194,
         "name": "Wyvern's Wrath II"
-      }
-    ],
-    "buffs": [
-      {
-        "id": 33,
-        "name": "Dragon Slayer"
       }
     ]
   },
@@ -17016,7 +17052,9 @@
     "image": "bosses/arisen_naggeneen.png",
     "level": 225,
     "spawns": [
-      "Past Event: The Mischievous Clurichauns"
+      "Kingdom Raid",
+      "Past Event: The Mischievous Clurichauns",
+      "World Raid"
     ],
     "resistant_to": [
       "Earthen"
@@ -17037,10 +17075,7 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "drops": [
       {
@@ -17078,10 +17113,6 @@
       {
         "id": 834,
         "name": "Arisen Clurichaun Blade"
-      },
-      {
-        "id": 839,
-        "name": "Arisen Naggeneen's Hat"
       },
       {
         "id": 838,
@@ -17142,6 +17173,10 @@
       {
         "id": 1310,
         "name": "Arisen Fairy's Wand"
+      },
+      {
+        "id": 839,
+        "name": "Arisen Naggeneen's Hat"
       },
       {
         "id": 1308,
@@ -17335,16 +17370,38 @@
     "image": "packs/halloween/1_m.png",
     "level": 200,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Petrified",
       "Def ↓",
-      "Res ↓"
+      "Def ↓↓",
+      "Res ↓↓",
+      "Res ↓",
+      "Rot"
     ],
     "drops": [
       {
+        "id": 446,
+        "name": "Gauntlet Key"
+      },
+      {
         "id": 858,
         "name": "Hallowed Witch's Hat"
+      },
+      {
+        "id": 12,
+        "name": "Panacea"
       },
       {
         "id": 855,
@@ -17361,6 +17418,18 @@
       {
         "id": 857,
         "name": "Hallowed Monster Tome"
+      },
+      {
+        "id": 548,
+        "name": "X Elixir"
+      },
+      {
+        "id": 580,
+        "name": "X Health Potion"
+      },
+      {
+        "id": 581,
+        "name": "X Mana Potion"
       },
       {
         "id": 854,
@@ -17766,7 +17835,7 @@
     "name": "Arisen Fenrir",
     "tier": 9,
     "boss": false,
-    "image": "bosses/fenrir.png",
+    "image": "bosses/arisen_fenrir.png",
     "spawns": [
       "Woods Only"
     ],
@@ -17974,13 +18043,28 @@
     "image": "bosses/scruuge.png",
     "level": 0,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "resistant_to": [
       "Water"
     ],
     "immune_to": [
       "Dark"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -18755,6 +18839,7 @@
     "level": 175,
     "spawns": [
       "Kingdom Raid",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix",
       "World Raid"
     ],
@@ -18763,6 +18848,19 @@
     ],
     "immune_to": [
       "Fire"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -18984,6 +19082,10 @@
     ],
     "drops": [
       {
+        "id": 446,
+        "name": "Gauntlet Key"
+      },
+      {
         "id": 1056,
         "name": "Ambrosia"
       },
@@ -19006,6 +19108,10 @@
       {
         "id": 1054,
         "name": "Crowsong"
+      },
+      {
+        "id": 1025,
+        "name": "Cursed Ortanite"
       },
       {
         "id": 1038,
@@ -19319,7 +19425,9 @@
     "image": "npcs/man1.png",
     "level": 0,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "resistant_to": [
       "Dark",
@@ -19727,7 +19835,7 @@
     "name": "Arisen Finfolk",
     "tier": 10,
     "boss": false,
-    "image": "monsters/water_demon.png",
+    "image": "bosses/water_demon.png",
     "spawns": [
       "Water Only"
     ],
@@ -20289,7 +20397,7 @@
     "name": "Wild Wolf",
     "tier": 2,
     "boss": false,
-    "image": "monsters/wolf.png",
+    "image": "monsters/wolf_wild.png",
     "spawns": [
       "Night Only"
     ],
@@ -20662,7 +20770,7 @@
     "name": "Feral Horse",
     "tier": 2,
     "boss": false,
-    "image": "monsters/horse.png",
+    "image": "monsters/feral_horse.png",
     "spawns": [
       "Day Only"
     ],
@@ -20998,10 +21106,16 @@
     "spawns": [
       "World Raid"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Rot"
     ],
     "drops": [
       {
@@ -21090,6 +21204,19 @@
       "Dark",
       "Holy"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
     "drops": [
       {
         "id": 1144,
@@ -21170,6 +21297,7 @@
       "Holy"
     ],
     "immune_to_status": [
+      "Burning",
       "Bleeding",
       "Frozen",
       "Paralyzed",
@@ -21233,10 +21361,6 @@
         "name": "Fey Tremor V"
       },
       {
-        "id": 326,
-        "name": "Forbidden Art"
-      },
-      {
         "id": 369,
         "name": "Miasma II"
       },
@@ -21275,6 +21399,19 @@
     "immune_to": [
       "Dark",
       "Holy"
+    ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -21465,10 +21602,16 @@
       "Earthen",
       "Water"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Rot"
     ],
     "drops": [
       {
@@ -21643,6 +21786,19 @@
       "Dark",
       "Holy"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
     "drops": [
       {
         "id": 1331,
@@ -21718,12 +21874,22 @@
     "spawns": [
       "World Raid"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Rot"
     ],
     "drops": [
+      {
+        "id": 258,
+        "name": "Eyestone"
+      },
       {
         "id": 1503,
         "name": "All-seer's Gem"
@@ -21794,10 +21960,16 @@
     "spawns": [
       "World Raid"
     ],
-    "vulnerable_to_status": [
-      "Stunned",
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Rot"
     ],
     "drops": [
       {
@@ -22216,7 +22388,9 @@
     "image": "bosses/merlin.png",
     "level": 150,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to_status": [
       "Burning",
@@ -22229,12 +22403,10 @@
       "Asleep",
       "Stunned",
       "Petrified",
-      "Cursed",
-      "Toxic",
+      "T. Res ↓",
       "Res ↓↓",
       "Res ↓",
-      "Rot",
-      "Drenched"
+      "Rot"
     ],
     "drops": [
       {
@@ -22340,10 +22512,6 @@
         "name": "Flame V"
       },
       {
-        "id": 344,
-        "name": "Flare III"
-      },
-      {
         "id": 278,
         "name": "Frost V"
       },
@@ -22362,6 +22530,22 @@
       {
         "id": 366,
         "name": "Miasma"
+      },
+      {
+        "id": 373,
+        "name": "Multi-flame II"
+      },
+      {
+        "id": 375,
+        "name": "Multi-frost II"
+      },
+      {
+        "id": 306,
+        "name": "Multi-spark II"
+      },
+      {
+        "id": 403,
+        "name": "Multi-tremor II"
       },
       {
         "id": 204,
@@ -22702,6 +22886,19 @@
       "Kingdom Raid",
       "Past Event (currently unavailable)"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
     "drops": [
       {
         "id": 18,
@@ -22810,6 +23007,19 @@
       "Kingdom Raid",
       "Past Event (currently unavailable)"
     ],
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
+    ],
     "drops": [
       {
         "id": 15,
@@ -22848,10 +23058,6 @@
         "name": "Arisen Clurichaun Blade"
       },
       {
-        "id": 839,
-        "name": "Arisen Naggeneen's Hat"
-      },
-      {
         "id": 580,
         "name": "X Health Potion"
       },
@@ -22882,6 +23088,10 @@
       {
         "id": 715,
         "name": "Vulcan Cuirass"
+      },
+      {
+        "id": 839,
+        "name": "Arisen Naggeneen's Hat"
       }
     ],
     "skills": [
@@ -22939,7 +23149,17 @@
       "World Raid"
     ],
     "immune_to_status": [
-      "Def ↓↓"
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -22949,10 +23169,6 @@
       {
         "id": 837,
         "name": "Arisen Fairy's Ring"
-      },
-      {
-        "id": 839,
-        "name": "Arisen Naggeneen's Hat"
       },
       {
         "id": 548,
@@ -22993,6 +23209,10 @@
       {
         "id": 685,
         "name": "Tizona"
+      },
+      {
+        "id": 839,
+        "name": "Arisen Naggeneen's Hat"
       },
       {
         "id": 1219,
@@ -23037,6 +23257,10 @@
         "name": "Fey Spark V"
       },
       {
+        "id": 479,
+        "name": "Fey Tremor V"
+      },
+      {
         "id": 462,
         "name": "Miasma III"
       },
@@ -23066,7 +23290,10 @@
     "image": "bosses/arisen_morrigan.png",
     "level": 300,
     "spawns": [
-      "World Raid"
+      "Kingdom Raid",
+      "Past Event: Sisters of Morrigan",
+      "World Raid",
+      "World Raid year-round"
     ],
     "resistant_to": [
       "Dark",
@@ -23092,9 +23319,6 @@
       "Res ↓",
       "T. Mag ↓↓",
       "Rot"
-    ],
-    "vulnerable_to_status": [
-      "Lulled"
     ],
     "drops": [
       {
@@ -23281,7 +23505,9 @@
     "image": "bosses/neman.png",
     "level": 150,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Sisters of Morrigan",
+      "World Raid"
     ],
     "resistant_to": [
       "Dark",
@@ -23397,7 +23623,9 @@
     "image": "bosses/badb.png",
     "level": 175,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Sisters of Morrigan",
+      "World Raid"
     ],
     "resistant_to": [
       "Dark",
@@ -23509,7 +23737,9 @@
     "image": "bosses/macha.png",
     "level": 200,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event: Sisters of Morrigan",
+      "World Raid"
     ],
     "resistant_to": [
       "Dark",
@@ -23626,6 +23856,7 @@
     "level": 225,
     "spawns": [
       "Kingdom Raid",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix",
       "World Raid"
     ],
@@ -23828,6 +24059,10 @@
         "name": "Heat Lightning II"
       },
       {
+        "id": 422,
+        "name": "Lusus Naturae II"
+      },
+      {
         "id": 413,
         "name": "Omnistrikes"
       },
@@ -23842,7 +24077,7 @@
     "name": "Arisen Kerberos",
     "tier": 10,
     "boss": true,
-    "image": "bosses/kerberos.png",
+    "image": "bosses/arisen_kerberos.png",
     "level": 245,
     "spawns": [
       "Kingdom Raid",
@@ -23931,10 +24166,6 @@
       {
         "id": 1292,
         "name": "Yellow Eye of Kerberos"
-      },
-      {
-        "id": 1022,
-        "name": "Wolven Tower Shield"
       },
       {
         "id": 1301,
@@ -24317,17 +24548,26 @@
     "name": "Furious Cerus",
     "tier": 9,
     "boss": true,
-    "image": "bosses/taurus.png",
+    "image": "bosses/furiouscerus.png",
     "level": 0,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event: Cerus the Untamed"
     ],
     "resistant_to": [
       "Fire"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "drops": [
       {
@@ -24459,17 +24699,26 @@
     "name": "Ferocious Cerus",
     "tier": 9,
     "boss": true,
-    "image": "bosses/taurus.png",
+    "image": "bosses/ferociouscerus.png",
     "level": 0,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Past Event: Cerus the Untamed",
+      "World Raid"
     ],
     "resistant_to": [
       "Fire"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "drops": [
       {
@@ -24822,7 +25071,7 @@
     "name": "Fallen Beowulf",
     "tier": 10,
     "boss": true,
-    "image": "classes/beowulf/3_m.png",
+    "image": "bosses/fallen_beowulf.png",
     "level": 240,
     "immune_to": [
       "Dragon"
@@ -24884,10 +25133,21 @@
     "level": 0,
     "spawns": [
       "Kingdom Raid",
+      "Past Event: The Dioscuri",
       "World Raid"
     ],
-    "vulnerable_to_status": [
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Petrified",
+      "Rot"
     ],
     "drops": [
       {
@@ -24915,6 +25175,10 @@
         "name": "Dioscuri Greatbow"
       },
       {
+        "id": 1341,
+        "name": "Spoiled Dioscuri Mead"
+      },
+      {
         "id": 1340,
         "name": "Azure Dioscuri Ring"
       },
@@ -24929,10 +25193,6 @@
       {
         "id": 1339,
         "name": "Pollux's Greataxe"
-      },
-      {
-        "id": 1341,
-        "name": "Spoiled Dioscuri Mead"
       }
     ],
     "skills": [
@@ -24974,6 +25234,7 @@
     "image": "npcs/finesse.png",
     "level": 250,
     "spawns": [
+      "Past Event (currently unavailable)",
       "World Raid"
     ],
     "immune_to_status": [
@@ -25074,18 +25335,22 @@
     "name": "Arisen Cade",
     "tier": 9,
     "boss": true,
-    "image": "npcs/inventor.png",
+    "image": "npcs/inventor2.png",
     "level": 220,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to_status": [
       "Burning",
+      "Bleeding",
       "Frozen",
       "Paralyzed",
       "Poisoned",
       "Blight",
       "Blind",
+      "Asleep",
       "Stunned",
       "Rot"
     ],
@@ -25227,10 +25492,12 @@
     "name": "Arisen Balin",
     "tier": 10,
     "boss": true,
-    "image": "npcs/balin.png",
+    "image": "npcs/arisen_balin.png",
     "level": 240,
     "spawns": [
-      "Past Event (currently unavailable)"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "immune_to_status": [
       "Burning",
@@ -25356,12 +25623,12 @@
     ],
     "drops": [
       {
-        "id": 1369,
-        "name": "Dayleaf"
-      },
-      {
         "id": 1368,
         "name": "Mandrake"
+      },
+      {
+        "id": 1369,
+        "name": "Dayleaf"
       },
       {
         "id": 1367,
@@ -25464,14 +25731,23 @@
     "level": 250,
     "spawns": [
       "Kingdom Raid",
+      "Past Event (currently unavailable)",
       "World Raid"
     ],
     "immune_to": [
       "Lightning"
     ],
-    "vulnerable_to_status": [
-      "Petrified",
-      "Lulled"
+    "immune_to_status": [
+      "Burning",
+      "Bleeding",
+      "Frozen",
+      "Paralyzed",
+      "Poisoned",
+      "Blight",
+      "Blind",
+      "Asleep",
+      "Stunned",
+      "Rot"
     ],
     "drops": [
       {
@@ -25757,12 +26033,12 @@
     ],
     "drops": [
       {
-        "id": 1369,
-        "name": "Dayleaf"
-      },
-      {
         "id": 1368,
         "name": "Mandrake"
+      },
+      {
+        "id": 1369,
+        "name": "Dayleaf"
       },
       {
         "id": 1367,
@@ -25950,7 +26226,9 @@
     "image": "bosses/trevelyan.png",
     "level": 225,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)",
+      "World Raid"
     ],
     "resistant_to": [
       "Earthen",
@@ -26051,6 +26329,10 @@
       {
         "id": 191,
         "name": "Blast III"
+      },
+      {
+        "id": 621,
+        "name": "Brilliant Lights"
       },
       {
         "id": 123,
@@ -26162,7 +26444,8 @@
     "image": "bosses/trevelyan.png",
     "level": 150,
     "spawns": [
-      "Kingdom Raid"
+      "Kingdom Raid",
+      "Past Event (currently unavailable)"
     ],
     "resistant_to": [
       "Earthen",
@@ -28648,6 +28931,7 @@
     "level": 200,
     "spawns": [
       "Dragon Roost",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix"
     ],
     "resistant_to": [
@@ -28670,39 +28954,39 @@
     "drops": [
       {
         "id": 1524,
-        "name": "Ash-plumed Boots"
+        "name": "Ash-Plumed Boots"
       },
       {
         "id": 1517,
-        "name": "Ash-plumed Cowl"
+        "name": "Ash-Plumed Cowl"
       },
       {
         "id": 1520,
-        "name": "Ash-plumed Cuirass"
+        "name": "Ash-Plumed Cuirass"
       },
       {
         "id": 1521,
-        "name": "Ash-plumed Garb"
+        "name": "Ash-Plumed Garb"
       },
       {
         "id": 1522,
-        "name": "Ash-plumed Greaves"
+        "name": "Ash-Plumed Greaves"
       },
       {
         "id": 1516,
-        "name": "Ash-plumed Helmet"
+        "name": "Ash-Plumed Helmet"
       },
       {
         "id": 1518,
-        "name": "Ash-plumed Hood"
+        "name": "Ash-Plumed Hood"
       },
       {
         "id": 1519,
-        "name": "Ash-plumed Robe"
+        "name": "Ash-Plumed Robe"
       },
       {
         "id": 1523,
-        "name": "Ash-plumed Shoes"
+        "name": "Ash-Plumed Shoes"
       },
       {
         "id": 1525,
@@ -28744,6 +29028,7 @@
     "image": "packs/phoenician/2_f.png",
     "spawns": [
       "Dragon Roost",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix"
     ],
     "drops": [
@@ -28792,6 +29077,7 @@
     "level": 100,
     "spawns": [
       "Dragon Roost",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix"
     ],
     "resistant_to": [
@@ -28888,6 +29174,7 @@
     "image": "packs/phoenician/2_f.png",
     "spawns": [
       "Dragon Roost",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix"
     ],
     "drops": [
@@ -28931,6 +29218,7 @@
     "image": "packs/phoenician/1_m.png",
     "spawns": [
       "Dragon Roost",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix"
     ],
     "drops": [
@@ -28982,6 +29270,7 @@
     "image": "packs/phoenician/1_m.png",
     "spawns": [
       "Dragon Roost",
+      "Past Event: Return of the Phoenix",
       "Past Event: Rise of the Phoenix"
     ],
     "drops": [
@@ -29035,7 +29324,7 @@
     "tier": 5,
     "boss": true,
     "image": "bosses/kerberos.png",
-    "level": 220,
+    "level": 120,
     "spawns": [
       "Beast Den",
       "Past Event: Rise of Kerberos"
@@ -29117,7 +29406,7 @@
   },
   {
     "id": 503,
-    "name": "Kin of Kerberos",
+    "name": "Arisen Kin of Kerberos",
     "tier": 9,
     "boss": true,
     "image": "bosses/kerberos.png",
@@ -29958,7 +30247,7 @@
     "name": "Arisen Carman's Gargoyle",
     "tier": 9,
     "boss": false,
-    "image": "monsters/gargoyle.png",
+    "image": "bosses/gargoyle.png",
     "drops": [
       {
         "id": 250,
@@ -29989,10 +30278,10 @@
     "name": "Fallen Hero, Lover Lost",
     "tier": 5,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "bosses/donta.png",
     "level": 120,
     "spawns": [
-      "Regular Dungeon (T5)",
+      "Regular Dungeon (T5, last floor)",
       "World"
     ],
     "weak_to": [
@@ -30052,16 +30341,20 @@
     "name": "Enlightened Queen",
     "tier": 7,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "bosses/enlightened_queen.png",
     "level": 180,
     "spawns": [
-      "Regular Dungeon (T7)",
+      "Regular Dungeon (T7, last floor)",
       "World"
     ],
     "drops": [
       {
         "id": 268,
         "name": "Perfect Runestone"
+      },
+      {
+        "id": 1561,
+        "name": "Rosa's Brooch"
       }
     ],
     "skills": [
@@ -30096,12 +30389,16 @@
     "name": "Enlightened King",
     "tier": 7,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "bosses/enlightened_king.png",
     "level": 180,
     "drops": [
       {
         "id": 268,
         "name": "Perfect Runestone"
+      },
+      {
+        "id": 1592,
+        "name": "Verrick's Ring"
       }
     ],
     "skills": [
@@ -30136,7 +30433,7 @@
     "name": "Fomorian Lord",
     "tier": 4,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "monsters/fomorian_lord.png",
     "level": 90,
     "spawns": [
       "Day Only",
@@ -30205,12 +30502,12 @@
   },
   {
     "id": 526,
-    "name": "Knight Sirius",
+    "name": "Knight Sirus",
     "tier": 9,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "bosses/balor_knight2.png",
     "level": 220,
-    "resistant_to": [
+    "weak_to": [
       "Arcane"
     ],
     "immune_to": [
@@ -30260,7 +30557,7 @@
     "name": "The Fool",
     "tier": 9,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "packs/fools/3_f.png",
     "level": 220,
     "spawns": [
       "Kingdom Raid",
@@ -30542,7 +30839,7 @@
     "name": "The Fool",
     "tier": 6,
     "boss": true,
-    "image": "statuses/confuse.png",
+    "image": "packs/fools/1_m.png",
     "level": 150,
     "spawns": [
       "Kingdom Raid",
@@ -30885,6 +31182,10 @@
         "name": "Loststrike II"
       },
       {
+        "id": 652,
+        "name": "Reflect"
+      },
+      {
         "id": 523,
         "name": "Sacreseal II"
       },
@@ -30918,8 +31219,8 @@
     "image": "bosses/apollyon_spirit.png",
     "level": 120,
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Kingdom Raid",
+      "Past Event: The Plight of Apollyon",
       "World Raid"
     ],
     "weak_to": [
@@ -31018,9 +31319,9 @@
     "boss": false,
     "image": "packs/apollyon/7_f.png",
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Gauntlet Only",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Plight of Apollyon"
     ],
     "resistant_to": [
       "Earthen",
@@ -31073,14 +31374,14 @@
   },
   {
     "id": 532,
-    "name": "Apollyon's Pupil (lightning)",
+    "name": "Apollyon's Pupil [lightning]",
     "tier": 5,
     "boss": false,
-    "image": "packs/apollyon/1_f.png",
+    "image": "packs/apollyon/1_m.png",
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Gauntlet Only",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Plight of Apollyon"
     ],
     "immune_to": [
       "Lightning"
@@ -31108,14 +31409,14 @@
   },
   {
     "id": 533,
-    "name": "Apollyon's Pupil (fire)",
+    "name": "Apollyon's Pupil [fire]",
     "tier": 5,
     "boss": false,
-    "image": "packs/apollyon/3_f.png",
+    "image": "packs/apollyon/3_m.png",
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Gauntlet Only",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Plight of Apollyon"
     ],
     "immune_to": [
       "Fire"
@@ -31143,14 +31444,14 @@
   },
   {
     "id": 534,
-    "name": "Apollyon's Pupil (ice)",
+    "name": "Apollyon's Pupil [ice]",
     "tier": 5,
     "boss": false,
     "image": "packs/apollyon/4_f.png",
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Gauntlet Only",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Plight of Apollyon"
     ],
     "immune_to": [
       "Water"
@@ -31178,14 +31479,14 @@
   },
   {
     "id": 535,
-    "name": "Apollyon's Pupil (earth)",
+    "name": "Apollyon's Pupil [earth]",
     "tier": 5,
     "boss": false,
-    "image": "packs/apollyon/2_m.png",
+    "image": "packs/apollyon/2_f.png",
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Gauntlet Only",
-      "Mystic Cave"
+      "Mystic Cave",
+      "Past Event: The Plight of Apollyon"
     ],
     "immune_to": [
       "Earthen"
@@ -31219,8 +31520,8 @@
     "image": "bosses/apollyon_spirit.png",
     "level": 250,
     "spawns": [
-      "Event: The Plight of Apollyon",
       "Kingdom Raid",
+      "Past Event: The Plight of Apollyon",
       "World Raid"
     ],
     "weak_to": [
@@ -31321,6 +31622,94 @@
       {
         "id": 544,
         "name": "Verse III"
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "name": "Lost Memory",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/memories/1_m.png",
+    "spawns": [
+      "Mystic Cave"
+    ],
+    "skills": [
+      {
+        "id": 291,
+        "name": "Fortify II"
+      },
+      {
+        "id": 293,
+        "name": "Mend Wall II"
+      },
+      {
+        "id": 655,
+        "name": "Provoke II"
+      },
+      {
+        "id": 295,
+        "name": "Rampart II"
+      },
+      {
+        "id": 67,
+        "name": "Warcry"
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "name": "Lost Memory",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/memories/3_m.png",
+    "spawns": [
+      "Mystic Cave"
+    ],
+    "skills": [
+      {
+        "id": 118,
+        "name": "Flame III"
+      },
+      {
+        "id": 117,
+        "name": "Frost III"
+      },
+      {
+        "id": 110,
+        "name": "Spark III"
+      },
+      {
+        "id": 112,
+        "name": "Tremor III"
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "name": "Lost Memory",
+    "tier": 5,
+    "boss": false,
+    "image": "packs/memories/2_f.png",
+    "spawns": [
+      "Mystic Cave"
+    ],
+    "skills": [
+      {
+        "id": 458,
+        "name": "Lunge III"
+      },
+      {
+        "id": 251,
+        "name": "Scout Weakness"
+      },
+      {
+        "id": 307,
+        "name": "Super Bomb"
+      },
+      {
+        "id": 288,
+        "name": "Tricut II"
       }
     ]
   }

@@ -27030,5 +27030,14 @@
         "name": "Knight Sirius"
       }
     ]
+  },
+  {
+    "name": "Read Scroll II",
+    "id": 670,
+    "tier": 1,
+    "type": "Healing",
+    "description": "Slightly restores mana.",
+    "is_magic": true,
+    "bought": false
   }
 ]
