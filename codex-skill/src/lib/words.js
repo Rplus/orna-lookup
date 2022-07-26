@@ -225,4 +225,71 @@ export default {
   'off-hand': {
     zh: '副手',
   },
+  'Dark Sigil': {
+    zh: '暗之印記'
+  },
+  'Darkblight': {
+    zh: '暗黑疫病'
+  },
+  'Dragon Sigil': {
+    zh: '龍之印記'
+  },
+  'Drakeblight': {
+    zh: '龍獸疫病'
+  },
+  'Earth Sigil': {
+    zh: '土之印記'
+  },
+  'Earthblight': {
+    zh: '土之疫病'
+  },
+  'Fire Sigil': {
+    zh: '火之印記'
+  },
+  'Fireblight': {
+    zh: '火之疫病'
+  },
+  'Holy Sigil': {
+    zh: '聖之印記'
+  },
+  'Holyblight': {
+    zh: '神聖疫病'
+  },
+  'Lightning Sigil': {
+    zh: '雷之印記',
+  },
+  'Lightningblight': {
+    zh: '雷之疫病'
+  },
+  'Water Sigil': {
+    zh: '水之印記'
+  },
+  'Waterblight': {
+    zh: '水之疫病'
+  },
+  'Windblight': {
+    zh: '水之疫病'
+  },
+  'Windswept': {
+    zh: '逆風'
+  },
+  'Brynhild': {
+    zh: '布倫希爾德',
+  },
+  'Dumbr': {
+    zh: '杜波',
+  },
+  'Idun': {
+    zh: '伊登',
+  },
+  'Jord': {
+    zh: '嬌德',
+  },
+  'Skadi': {
+    zh: '斯卡蒂',
+  },
+  'Wind Aligned': {
+    zh: '風行者',
+  },
+
 };

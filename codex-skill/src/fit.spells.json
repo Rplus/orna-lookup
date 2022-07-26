@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "uid": "AerialBarrage",
+      "tier": 7,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Aerial Barrage",
+        "zh": "飛空狙擊"
+      },
+      "intro": {
+        "en": "Attack from the skies many times with a beak, possibly causing an opponent to bleed and landing a critical hit.",
+        "zh": "Attack from the skies many times with a beak, possibly causing an opponent to bleed and landing a critical hit."
+      },
+      "meta": {
+        "causes": {
+          "Bleeding": 75
+        }
+      }
+    },
+    {
       "uid": "AlphaDart",
       "tier": 3,
       "img": "spells/spark.png",
@@ -475,20 +493,6 @@
       "meta": {}
     },
     {
-      "uid": "Attack",
-      "tier": 1,
-      "img": "spells/multi_attack.png",
-      "title": {
-        "en": "Attack",
-        "zh": "攻擊"
-      },
-      "intro": {
-        "en": "",
-        "zh": ""
-      },
-      "meta": {}
-    },
-    {
       "uid": "Bandage",
       "tier": 1,
       "img": "spells/heal.png",
@@ -728,7 +732,7 @@
       },
       "intro": {
         "en": "Swiftly attack thrice with the might of beasts, with a greater chance of dealing critical damage. Total damage is determined by both your attack and magic stats.",
-        "zh": "使用野獸的蠻力神速地連擊3次,有高機率造成爆擊.你的物攻及魔攻都會影響傷害."
+        "zh": "使用野獸的蠻力神速地連擊3次,有高機率造成暴擊.你的物攻及魔攻都會影響傷害."
       },
       "meta": {
         "causes": {
@@ -810,42 +814,6 @@
       }
     },
     {
-      "uid": "Bind",
-      "tier": 1,
-      "img": "spells/multi_attack.png",
-      "title": {
-        "en": "Bind",
-        "zh": "致盲"
-      },
-      "intro": {
-        "en": "Attack and paralyze an opponent.",
-        "zh": "攻擊對手並造成麻痺。"
-      },
-      "meta": {
-        "causes": {
-          "Paralyzed": 100
-        }
-      }
-    },
-    {
-      "uid": "Bite",
-      "tier": 1,
-      "img": "spells/multi_attack.png",
-      "title": {
-        "en": "Bite",
-        "zh": "咬"
-      },
-      "intro": {
-        "en": "Attack with your teeth.",
-        "zh": "用牙齒攻擊。"
-      },
-      "meta": {
-        "causes": {
-          "Poisoned": 10
-        }
-      }
-    },
-    {
       "uid": "Blast",
       "tier": 3,
       "img": "spells/blast.png",
@@ -912,7 +880,7 @@
       },
       "intro": {
         "en": "Attack with a good chance of a critical hit. May cause bleeding.",
-        "zh": "攻擊有不錯的機率造成爆擊。可能會造成流血狀態。"
+        "zh": "攻擊有不錯的機率造成暴擊。可能會造成流血狀態。"
       },
       "meta": {
         "causes": {
@@ -1056,17 +1024,12 @@
         "zh": "鮮血轉移"
       },
       "intro": {
-        "en": "Has the potential to temporarily boost many stats, but incur temporary damage over time.",
-        "zh": "有機率短暫提升各種身體素質,但隨著時間消逝會自損生命."
+        "en": "Has the potential to temporarily boost many stats, but healing will be much less effective.",
+        "zh": "有機會獲得多方面屬性的提升，但治癒效果會大幅下滑。"
       },
       "meta": {
         "gives": {
-          "Bloodshift": 100,
-          "T. Att ↑": 100,
-          "T. Mag ↑": 100,
-          "T. Def ↑": 100,
-          "T. Res ↑": 100,
-          "T. Crit ↑": 100
+          "Bloodshift": 100
         }
       }
     },
@@ -1277,7 +1240,25 @@
       },
       "meta": {
         "gives": {
-          "Call of Brynhild": 100
+          "Brynhild": 100
+        }
+      }
+    },
+    {
+      "uid": "CallOfDumbr",
+      "tier": 10,
+      "img": "spells/control.png",
+      "title": {
+        "en": "Call of Dumbr",
+        "zh": "杜波的呼召"
+      },
+      "intro": {
+        "en": "Lulls your follower, decreasing the rate at which they will act in a turn.",
+        "zh": "安撫你的追隨者，降低其在此一回合行動的機率。"
+      },
+      "meta": {
+        "gives": {
+          "Dumbr": 100
         }
       }
     },
@@ -1295,7 +1276,7 @@
       },
       "meta": {
         "gives": {
-          "Call of Idun": 100
+          "Idun": 100
         }
       }
     },
@@ -1313,7 +1294,7 @@
       },
       "meta": {
         "gives": {
-          "Call of Jord": 100
+          "Jord": 100
         }
       }
     },
@@ -1331,9 +1312,37 @@
       },
       "meta": {
         "gives": {
-          "Call of Skadi": 100
+          "Skadi": 100
         }
       }
+    },
+    {
+      "uid": "CastedShadows",
+      "tier": 7,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Casted Shadows",
+        "zh": "陰影投射"
+      },
+      "intro": {
+        "en": "Deals dark damage to many times dependant on the amount of status effects an opponent may have.",
+        "zh": "視對手的異常狀態數量來造成相對應次數的暗屬性傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "CastedShadowsII",
+      "tier": 10,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Casted Shadows II",
+        "zh": "陰影投射 II"
+      },
+      "intro": {
+        "en": "Deals dark damage to many times dependant on the amount of status effects an opponent may have.",
+        "zh": "視對手的異常狀態數量來造成相對應次數的暗屬性傷害。"
+      },
+      "meta": {}
     },
     {
       "uid": "CastorFirst",
@@ -1731,6 +1740,27 @@
       }
     },
     {
+      "uid": "Crush",
+      "tier": 1,
+      "img": "spells/bleed.png",
+      "title": {
+        "en": "Crush",
+        "zh": "粉碎擊"
+      },
+      "intro": {
+        "en": "Deals extra damage and may stun an opponent.",
+        "zh": "造成額外的傷害同時有機會使對手暈眩。"
+      },
+      "meta": {
+        "causes": {
+          "Stunned": 5
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
       "uid": "CureBleeding",
       "tier": 1,
       "img": "spells/bleed.png",
@@ -1906,6 +1936,24 @@
       }
     },
     {
+      "uid": "DarkRune",
+      "tier": 6,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Dark Sigil",
+        "zh": "暗之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Dark Sigil": 75
+        }
+      }
+    },
+    {
       "uid": "DarkWall",
       "tier": 5,
       "img": "spells/nightmare.png",
@@ -1920,6 +1968,42 @@
       "meta": {
         "gives": {
           "Dark Def": 100
+        }
+      }
+    },
+    {
+      "uid": "DarkBlight",
+      "tier": 6,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Darkblight",
+        "zh": "暗黑疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Darkblight": 10
+        }
+      }
+    },
+    {
+      "uid": "DarkBlightII",
+      "tier": 6,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Darkblight II",
+        "zh": "暗黑疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Darkblight": 100
         }
       }
     },
@@ -1994,20 +2078,6 @@
           "Rot": 90
         }
       }
-    },
-    {
-      "uid": "Defend",
-      "tier": 1,
-      "img": "spells/multi_attack.png",
-      "title": {
-        "en": "Defend",
-        "zh": "防禦"
-      },
-      "intro": {
-        "en": "",
-        "zh": ""
-      },
-      "meta": {}
     },
     {
       "uid": "CerusDefendPhys",
@@ -2131,8 +2201,8 @@
         "zh": "佈防"
       },
       "intro": {
-        "en": "Convert 30 percent of your available Ward to HP and mana. Requires 2 turns in battle.",
-        "zh": "將護盾的30%轉換為生命跟魔力值。需要2回合才能發動。"
+        "en": "Convert 30 percent of your available Ward to HP and mana.",
+        "zh": "將現有護盾的30%轉換成HP和MP。"
       },
       "meta": {}
     },
@@ -2145,8 +2215,8 @@
         "zh": "佈防 II"
       },
       "intro": {
-        "en": "Convert 50 percent of your available Ward to HP and mana. Requires 2 turns in battle.",
-        "zh": "將護盾的50%轉換為生命跟魔力值。需要2回合才能發動。"
+        "en": "Convert 50 percent of your available Ward to HP and mana.",
+        "zh": "將現有護盾的50%轉換成HP和MP。"
       },
       "meta": {}
     },
@@ -2159,8 +2229,8 @@
         "zh": "佈防 III"
       },
       "intro": {
-        "en": "Convert all of your available Ward to HP and mana. Requires 4 turns in battle.",
-        "zh": "將全部護盾轉換為生命跟魔力值。需要4回合才能發動。"
+        "en": "Convert all of your available Ward to HP and mana. Requires 2 turns in battle.",
+        "zh": "將全部現有的護盾轉換成HP和MP。需要2回合施展。"
       },
       "meta": {}
     },
@@ -2360,6 +2430,24 @@
       }
     },
     {
+      "uid": "DragonRune",
+      "tier": 6,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Dragon Sigil",
+        "zh": "龍之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Dragon Sigil": 75
+        }
+      }
+    },
+    {
       "uid": "Vengeance",
       "tier": 5,
       "img": "spells/sorrow.png",
@@ -2475,6 +2563,42 @@
       "meta": {}
     },
     {
+      "uid": "DrakeBlight",
+      "tier": 6,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Drakeblight",
+        "zh": "龍獸疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Drakeblight": 10
+        }
+      }
+    },
+    {
+      "uid": "DrakeBlightII",
+      "tier": 6,
+      "img": "spells/shadow.png",
+      "title": {
+        "en": "Drakeblight II",
+        "zh": "龍獸疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Drakeblight": 100
+        }
+      }
+    },
+    {
       "uid": "EarthAffinity",
       "tier": 8,
       "img": "spells/quake.png",
@@ -2507,6 +2631,60 @@
       "meta": {
         "gives": {
           "Earth Aligned": 100
+        }
+      }
+    },
+    {
+      "uid": "EarthRune",
+      "tier": 6,
+      "img": "spells/quake.png",
+      "title": {
+        "en": "Earth Sigil",
+        "zh": "地之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Earth Sigil": 75
+        }
+      }
+    },
+    {
+      "uid": "EarthBlight",
+      "tier": 6,
+      "img": "spells/quake.png",
+      "title": {
+        "en": "Earthblight",
+        "zh": "地之疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Earthblight": 10
+        }
+      }
+    },
+    {
+      "uid": "EarthBlightII",
+      "tier": 6,
+      "img": "spells/quake.png",
+      "title": {
+        "en": "Earthblight II",
+        "zh": "地之疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Earthblight": 100
         }
       }
     },
@@ -2793,7 +2971,7 @@
       },
       "intro": {
         "en": "Unstable magic that can deal massive earthen damage with a good chance to deal critical damage, but may damage or cause its caster to rot. Requires 3 turns in battle.",
-        "zh": "不穩定的魔法，可以造成巨量的土系傷害，並有不錯的機率產生爆擊，但可能會傷害或是使其施法者獲得負面的腐爛狀態。在戰鬥中需要3回合才能發動。"
+        "zh": "不穩定的魔法，可以造成巨量的土系傷害，並有不錯的機率產生暴擊，但可能會傷害或是使其施法者獲得負面的腐爛狀態。在戰鬥中需要3回合才能發動。"
       },
       "meta": {
         "causes": {
@@ -3006,7 +3184,7 @@
       },
       "intro": {
         "en": "Unstable magic that can deal massive lightning damage with a good chance to deal critical damage, but may damage or paralyze its caster. Requires 3 turns in battle.",
-        "zh": "不穩定的魔法，可以造成巨量的電系傷害，並有不錯的機率產生爆擊，但可能會傷害或是使其施法者獲得負面的麻痺狀態。在戰鬥中需要3回合才能發動。"
+        "zh": "不穩定的魔法，可以造成巨量的電系傷害，並有不錯的機率產生暴擊，但可能會傷害或是使其施法者獲得負面的麻痺狀態。在戰鬥中需要3回合才能發動。"
       },
       "meta": {
         "causes": {
@@ -3027,7 +3205,7 @@
       },
       "intro": {
         "en": "Unstable magic that can deal massive ice damage with a good chance to deal critical damage, but may damage or freeze its caster. Requires 3 turns in battle.",
-        "zh": "不穩定的魔法，可以造成巨量的冰系傷害，並有不錯的機率產生爆擊，但可能會傷害或是使其施法者獲得負面的冰凍狀態。在戰鬥中需要3回合才能發動。"
+        "zh": "不穩定的魔法，可以造成巨量的冰系傷害，並有不錯的機率產生暴擊，但可能會傷害或是使其施法者獲得負面的冰凍狀態。在戰鬥中需要3回合才能發動。"
       },
       "meta": {
         "causes": {
@@ -3048,7 +3226,7 @@
       },
       "intro": {
         "en": "Unstable magic that can deal massive fire damage with a good chance to deal critical damage, but may damage or burn its caster. Requires 3 turns in battle.",
-        "zh": "不穩定的魔法，可以造成巨量的火系傷害，並有不錯的機率產生爆擊，但可能會傷害或是使其施法者獲得負面的燃燒狀態。在戰鬥中需要3回合才能發動。"
+        "zh": "不穩定的魔法，可以造成巨量的火系傷害，並有不錯的機率產生暴擊，但可能會傷害或是使其施法者獲得負面的燃燒狀態。在戰鬥中需要3回合才能發動。"
       },
       "meta": {
         "causes": {
@@ -3306,6 +3484,24 @@
       }
     },
     {
+      "uid": "FireRune",
+      "tier": 6,
+      "img": "spells/flame.png",
+      "title": {
+        "en": "Fire Sigil",
+        "zh": "火之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Fire Sigil": 75
+        }
+      }
+    },
+    {
       "uid": "FireWall",
       "tier": 3,
       "img": "spells/flame.png",
@@ -3339,6 +3535,42 @@
         "causes": {
           "Burning": 50,
           "Blight": 50
+        }
+      }
+    },
+    {
+      "uid": "FireBlight",
+      "tier": 6,
+      "img": "spells/flame.png",
+      "title": {
+        "en": "Fireblight",
+        "zh": "火之疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Fireblight": 10
+        }
+      }
+    },
+    {
+      "uid": "FireBlightII",
+      "tier": 6,
+      "img": "spells/flame.png",
+      "title": {
+        "en": "Fireblight II",
+        "zh": "火之疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Fireblight": 100
         }
       }
     },
@@ -3528,6 +3760,24 @@
       ]
     },
     {
+      "uid": "FlameVII",
+      "tier": 10,
+      "img": "spells/flame.png",
+      "title": {
+        "en": "Flame VII",
+        "zh": "火焰術 VII"
+      },
+      "intro": {
+        "en": "Deals massive fire damage.",
+        "zh": "造成大量的火系傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Burning": 20
+        }
+      }
+    },
+    {
       "uid": "Flare",
       "tier": 4,
       "img": "spells/flare.png",
@@ -3695,6 +3945,20 @@
           "T. Def ↓": 25
         }
       }
+    },
+    {
+      "uid": "ForbiddenArtII",
+      "tier": 9,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Forbidden Art II",
+        "zh": "禁術 II"
+      },
+      "intro": {
+        "en": "Unstable magic that can deal massive non-elemental damage to all opponents.",
+        "zh": "能對所有對手造成巨量無屬性傷害的不穩定魔法。"
+      },
+      "meta": {}
     },
     {
       "uid": "Foresee",
@@ -3916,6 +4180,24 @@
       "tags": [
         "arcanists"
       ]
+    },
+    {
+      "uid": "FrostVII",
+      "tier": 10,
+      "img": "spells/ice.png",
+      "title": {
+        "en": "Frost VII",
+        "zh": "冰凍術 VII"
+      },
+      "intro": {
+        "en": "Deals massive ice damage.",
+        "zh": "造成大量的冰系傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Frozen": 20
+        }
+      }
     },
     {
       "uid": "Frostfire",
@@ -4373,6 +4655,28 @@
       }
     },
     {
+      "uid": "TempestIII",
+      "tier": 10,
+      "img": "spells/flare.png",
+      "title": {
+        "en": "Grand Tempest",
+        "zh": "狂風暴雨"
+      },
+      "intro": {
+        "en": "Strong wind magic that may cause windswept.",
+        "zh": "強力的暴風魔法，有機會造成逆風狀態。"
+      },
+      "meta": {
+        "causes": {
+          "Windswept": 50,
+          "Windblight": 50
+        },
+        "gives": {
+          "Wind Aligned": 4
+        }
+      }
+    },
+    {
       "uid": "GreatCollapse",
       "tier": 9,
       "img": "spells/quake.png",
@@ -4649,7 +4953,7 @@
       },
       "intro": {
         "en": "Attack your opponent with blind courage, either missing or dealing critical damage.",
-        "zh": "以盲目的勇氣攻擊對手，不是失誤就是爆擊。"
+        "zh": "以盲目的勇氣攻擊對手，不是失誤就是致命傷害。"
       },
       "meta": {}
     },
@@ -4795,6 +5099,42 @@
       }
     },
     {
+      "uid": "HolyLightII",
+      "tier": 7,
+      "img": "spells/holy.png",
+      "title": {
+        "en": "Holy Light II",
+        "zh": "聖光術 II"
+      },
+      "intro": {
+        "en": "Deals holy damage and recovers a percentage of damage dealt.",
+        "zh": "造成神聖屬性傷害並從中回復一個百分比的生命."
+      },
+      "meta": {
+        "causes": {
+          "Blind": 5
+        }
+      }
+    },
+    {
+      "uid": "HolyRune",
+      "tier": 6,
+      "img": "spells/holy.png",
+      "title": {
+        "en": "Holy Sigil",
+        "zh": "聖之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Holy Sigil": 75
+        }
+      }
+    },
+    {
       "uid": "HolyWall",
       "tier": 5,
       "img": "spells/holy.png",
@@ -4809,6 +5149,42 @@
       "meta": {
         "gives": {
           "Holy Def": 100
+        }
+      }
+    },
+    {
+      "uid": "HolyBlight",
+      "tier": 6,
+      "img": "spells/holy.png",
+      "title": {
+        "en": "Holyblight",
+        "zh": "神聖疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Holyblight": 10
+        }
+      }
+    },
+    {
+      "uid": "HolyBlightII",
+      "tier": 6,
+      "img": "spells/holy.png",
+      "title": {
+        "en": "Holyblight II",
+        "zh": "神聖疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Holyblight": 100
         }
       }
     },
@@ -4981,6 +5357,24 @@
       }
     },
     {
+      "uid": "IceRune",
+      "tier": 6,
+      "img": "spells/ice.png",
+      "title": {
+        "en": "Ice Sigil",
+        "zh": "冰之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Water Sigil": 75
+        }
+      }
+    },
+    {
       "uid": "IceStorm",
       "tier": 9,
       "img": "spells/multi.png",
@@ -5033,6 +5427,42 @@
       "meta": {
         "gives": {
           "Water Def": 100
+        }
+      }
+    },
+    {
+      "uid": "IceBlight",
+      "tier": 6,
+      "img": "spells/ice.png",
+      "title": {
+        "en": "Iceblight",
+        "zh": "冰之疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Waterblight": 10
+        }
+      }
+    },
+    {
+      "uid": "IceBlightII",
+      "tier": 6,
+      "img": "spells/ice.png",
+      "title": {
+        "en": "Iceblight II",
+        "zh": "冰之疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Waterblight": 100
         }
       }
     },
@@ -5197,6 +5627,24 @@
       "meta": {
         "gives": {
           "Lightning Att": 100
+        }
+      }
+    },
+    {
+      "uid": "ZweiImpale",
+      "tier": 7,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Impale",
+        "zh": "尖刺酷刑"
+      },
+      "intro": {
+        "en": "Attack with your weapon extended, dealing moderate damage but mitigating damage from your opponent's next attack.",
+        "zh": "用額外的武器來攻擊，傷害量一般般但能降低對手下次攻擊的傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Dmg ↓↓": 75
         }
       }
     },
@@ -5556,7 +6004,7 @@
       },
       "intro": {
         "en": "Lay spikes around your opponent, potentially greatly increasing damage and the chance for a critical strike.",
-        "zh": "在對手的周遭擺下利器，有機會大幅增加傷害跟爆擊機率。"
+        "zh": "在對手的周遭擺下利器，有機會大幅增加傷害跟暴擊機率。"
       },
       "meta": {
         "gives": {
@@ -5604,6 +6052,24 @@
       }
     },
     {
+      "uid": "LightningRune",
+      "tier": 6,
+      "img": "spells/spark.png",
+      "title": {
+        "en": "Lightning Sigil",
+        "zh": "雷之印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Lightning Sigil": 75
+        }
+      }
+    },
+    {
       "uid": "LightningWall",
       "tier": 3,
       "img": "spells/spark.png",
@@ -5618,6 +6084,42 @@
       "meta": {
         "gives": {
           "Lightning Def": 100
+        }
+      }
+    },
+    {
+      "uid": "LightningBlight",
+      "tier": 6,
+      "img": "spells/spark.png",
+      "title": {
+        "en": "Lightningblight",
+        "zh": "雷之疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Lightningblight": 10
+        }
+      }
+    },
+    {
+      "uid": "LightningBlightII",
+      "tier": 6,
+      "img": "spells/spark.png",
+      "title": {
+        "en": "Lightningblight II",
+        "zh": "雷之疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Lightningblight": 100
         }
       }
     },
@@ -6334,6 +6836,20 @@
       }
     },
     {
+      "uid": "ZweiManaBurn",
+      "tier": 7,
+      "img": "spells/magic_up.png",
+      "title": {
+        "en": "Mana Burn",
+        "zh": "魔力燃燒"
+      },
+      "intro": {
+        "en": "Converts half of your available mana into damage against an opponent.",
+        "zh": "將你現有魔力值的一半轉換成對敵人的傷害."
+      },
+      "meta": {}
+    },
+    {
       "uid": "ManaBurn",
       "tier": 1,
       "img": "spells/magic_up.png",
@@ -6480,7 +6996,7 @@
       },
       "intro": {
         "en": "Summon a putrid miasma. May cause poison and blight, paralysis, rot, and toxic.",
-        "zh": "召喚一陣腐敗的瘴氣。可能會造成中毒，枯萎，麻痺，腐蝕和劇毒。"
+        "zh": "召喚一陣腐敗的瘴氣。可能會造成中毒，枯萎，麻痺，腐敗和劇毒。"
       },
       "meta": {
         "causes": {
@@ -6503,7 +7019,7 @@
       },
       "intro": {
         "en": "Summon a putrid miasma. May cause poison and blight, paralysis, rot, and toxic.",
-        "zh": "召喚一陣腐敗的瘴氣。可能會造成中毒，枯萎，麻痺，腐蝕和劇毒。"
+        "zh": "召喚一陣腐敗的瘴氣。可能會造成中毒，枯萎，麻痺，腐敗和劇毒。"
       },
       "meta": {
         "causes": {
@@ -6979,6 +7495,30 @@
       "meta": {}
     },
     {
+      "uid": "Octoblast",
+      "tier": 10,
+      "img": "spells/nova.png",
+      "title": {
+        "en": "Octoblast",
+        "zh": "八方震爆"
+      },
+      "intro": {
+        "en": "Deals mixed damage of all elements.",
+        "zh": "以所有屬性混合來造成傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Burning": 2,
+          "Rot": 2,
+          "Frozen": 2,
+          "Paralyzed": 2,
+          "Blind": 2,
+          "Asleep": 2,
+          "Blight": 2
+        }
+      }
+    },
+    {
       "uid": "Omnistrike",
       "tier": 4,
       "img": "spells/omni.png",
@@ -7241,6 +7781,24 @@
       ]
     },
     {
+      "uid": "Peck",
+      "tier": 1,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Peck",
+        "zh": "啄食"
+      },
+      "intro": {
+        "en": "Attack with a sharp beak, possibly causing an opponent to bleed.",
+        "zh": "用尖銳的啄攻擊，有可能使對手流血。"
+      },
+      "meta": {
+        "causes": {
+          "Bleeding": 50
+        }
+      }
+    },
+    {
       "uid": "PerfectShot",
       "tier": 1,
       "img": "spells/bleed.png",
@@ -7501,6 +8059,78 @@
           "Water Def": 100,
           "Earth Def": 100,
           "Lightning Def": 100
+        }
+      }
+    },
+    {
+      "uid": "PrismaRune",
+      "tier": 6,
+      "img": "spells/omni.png",
+      "title": {
+        "en": "Prisma Sigil",
+        "zh": "四方印記"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Fire Sigil": 20,
+          "Water Sigil": 20,
+          "Earth Sigil": 20,
+          "Lightning Sigil": 20,
+          "Holy Sigil": 20,
+          "Dark Sigil": 20,
+          "Dragon Sigil": 20
+        }
+      }
+    },
+    {
+      "uid": "PrismaBlight",
+      "tier": 6,
+      "img": "spells/omni.png",
+      "title": {
+        "en": "Prismablight",
+        "zh": "四方疫病"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Fireblight": 5,
+          "Waterblight": 5,
+          "Earthblight": 5,
+          "Lightningblight": 5,
+          "Holyblight": 5,
+          "Darkblight": 5,
+          "Drakeblight": 5
+        }
+      }
+    },
+    {
+      "uid": "PrismaBlightII",
+      "tier": 6,
+      "img": "spells/omni.png",
+      "title": {
+        "en": "Prismablight II",
+        "zh": "四方疫病 II"
+      },
+      "intro": {
+        "en": "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element.",
+        "zh": "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Fireblight": 20,
+          "Waterblight": 20,
+          "Earthblight": 20,
+          "Lightningblight": 20,
+          "Holyblight": 20,
+          "Darkblight": 20,
+          "Drakeblight": 20
         }
       }
     },
@@ -7877,6 +8507,28 @@
           "T. Att ↑": 50
         }
       }
+    },
+    {
+      "uid": "WeaponRavage",
+      "tier": 5,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Ravage",
+        "zh": "崩毀"
+      },
+      "intro": {
+        "en": "Attack the opponent with unrelenting fury.",
+        "zh": "毫不留情的重擊對手。"
+      },
+      "meta": {
+        "gives": {
+          "Paralyzed": 5,
+          "Stunned": 5
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
     },
     {
       "uid": "ReadScroll",
@@ -8321,6 +8973,42 @@
       }
     },
     {
+      "uid": "Scythestrike",
+      "tier": 6,
+      "img": "spells/bleed.png",
+      "title": {
+        "en": "Scythestrike",
+        "zh": "大鐮擊"
+      },
+      "intro": {
+        "en": "Strike with a reaper's scythe, causing bleed and restoring HP for damage dealt.",
+        "zh": "用死神的鐮刀攻擊，造成流血並從造成的傷害中吸取HP。"
+      },
+      "meta": {
+        "causes": {
+          "Bleeding": 30
+        }
+      }
+    },
+    {
+      "uid": "ScythestrikeII",
+      "tier": 6,
+      "img": "spells/bleed.png",
+      "title": {
+        "en": "Scythestrike II",
+        "zh": "大鐮擊 II"
+      },
+      "intro": {
+        "en": "Strike with a reaper's scythe, causing bleed and restoring HP for damage dealt.",
+        "zh": "用死神的鐮刀攻擊，造成流血並從造成的傷害中吸取HP。"
+      },
+      "meta": {
+        "causes": {
+          "Bleeding": 30
+        }
+      }
+    },
+    {
       "uid": "Shadow",
       "tier": 3,
       "img": "spells/shadow.png",
@@ -8497,6 +9185,27 @@
           "Asleep": 75
         }
       }
+    },
+    {
+      "uid": "Slice",
+      "tier": 1,
+      "img": "spells/bleed.png",
+      "title": {
+        "en": "Slice",
+        "zh": "切裂"
+      },
+      "intro": {
+        "en": "Deals extra damage and may cause bleeding.",
+        "zh": "造成額外的傷害且可能導致流血狀態。"
+      },
+      "meta": {
+        "causes": {
+          "Bleeding": 10
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
     },
     {
       "uid": "Slow",
@@ -8957,6 +9666,24 @@
       ]
     },
     {
+      "uid": "SparkVII",
+      "tier": 10,
+      "img": "spells/spark.png",
+      "title": {
+        "en": "Spark VII",
+        "zh": "星火術 VII"
+      },
+      "intro": {
+        "en": "Deals massive lightning damage.",
+        "zh": "造成大量的電系傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Paralyzed": 20
+        }
+      }
+    },
+    {
       "uid": "Speed",
       "tier": 3,
       "img": "spells/speed.png",
@@ -9207,6 +9934,20 @@
       "meta": {}
     },
     {
+      "uid": "SummonFallenIII",
+      "tier": 8,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Summon Dead III",
+        "zh": "亡靈之力 III"
+      },
+      "intro": {
+        "en": "Deals great damage according to the amount of foes one has recently slain, but may miss its mark.",
+        "zh": "根據最近擊殺的敵人數量造成巨量傷害，但有時會失去準星。"
+      },
+      "meta": {}
+    },
+    {
       "uid": "SuperBomb",
       "tier": 5,
       "img": "spells/blind.png",
@@ -9248,6 +9989,27 @@
           "Stunned": 50
         }
       }
+    },
+    {
+      "uid": "WeaponSwansong",
+      "tier": 10,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Swansong",
+        "zh": "天鵝終曲"
+      },
+      "intro": {
+        "en": "Use both your magic and attack stats to cast the famous song of the Swansong.",
+        "zh": "同時使用你的物攻及魔攻來施放天鵝終曲聞名的那首歌。"
+      },
+      "meta": {
+        "causes": {
+          "Lulled": 15
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
     },
     {
       "uid": "Swordplay",
@@ -9327,6 +10089,42 @@
           "T. Def ↑": 33,
           "T. Res ↑": 33,
           "T. Mag ↑": 33
+        }
+      }
+    },
+    {
+      "uid": "Tempest",
+      "tier": 5,
+      "img": "spells/flare.png",
+      "title": {
+        "en": "Tempest",
+        "zh": "暴風雨"
+      },
+      "intro": {
+        "en": "Strong wind magic that may cause windswept.",
+        "zh": "強力的暴風魔法，有機會造成逆風狀態。"
+      },
+      "meta": {
+        "causes": {
+          "Windswept": 50
+        }
+      }
+    },
+    {
+      "uid": "TempestII",
+      "tier": 9,
+      "img": "spells/flare.png",
+      "title": {
+        "en": "Tempest II",
+        "zh": "暴風雨 II"
+      },
+      "intro": {
+        "en": "Strong wind magic that may cause windswept.",
+        "zh": "強力的暴風魔法，有機會造成逆風狀態。"
+      },
+      "meta": {
+        "causes": {
+          "Windswept": 80
         }
       }
     },
@@ -9856,6 +10654,24 @@
       ]
     },
     {
+      "uid": "TremorVII",
+      "tier": 10,
+      "img": "spells/quake.png",
+      "title": {
+        "en": "Tremor VII",
+        "zh": "地顫術 VII"
+      },
+      "intro": {
+        "en": "Deals massive earthen damage.",
+        "zh": "造成大量的土系傷害。"
+      },
+      "meta": {
+        "causes": {
+          "Rot": 20
+        }
+      }
+    },
+    {
       "uid": "TripleCut",
       "tier": 4,
       "img": "spells/multi_attack.png",
@@ -9931,7 +10747,38 @@
         "causes": {
           "T. Res ↓": 10
         }
-      }
+      },
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "ZweiTwinBlast",
+      "tier": 7,
+      "img": "spells/blast.png",
+      "title": {
+        "en": "Twofold Blast",
+        "zh": "重武爆破"
+      },
+      "intro": {
+        "en": "Cast a simple spell that hits twice.",
+        "zh": "施展一個能攻擊兩次的法術。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "ZweiUpwardStrike",
+      "tier": 7,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Twofold Strike",
+        "zh": "重武打擊"
+      },
+      "intro": {
+        "en": "Attack with both hands gripped tightly, potentially dealing immense damage. Requires 2 turns in battle.",
+        "zh": "雙手緊握武器做攻擊，有可能造成強力的傷害。需要2回合使用。"
+      },
+      "meta": {}
     },
     {
       "uid": "Ultima",
@@ -10373,6 +11220,20 @@
       }
     },
     {
+      "uid": "WardOfBone",
+      "tier": 8,
+      "img": "spells/ward.png",
+      "title": {
+        "en": "Ward of Bone",
+        "zh": "骨之護盾"
+      },
+      "intro": {
+        "en": "Recovers and grants Ward for 6 turns and increases damage absorption to 80%.",
+        "zh": "恢復並獲得6回合的護盾次數，並提高傷害吸收比例至80%。"
+      },
+      "meta": {}
+    },
+    {
       "uid": "WardOfIron",
       "tier": 4,
       "img": "spells/ward.png",
@@ -10406,6 +11267,27 @@
           "Blind": 15
         }
       }
+    },
+    {
+      "uid": "WeaponWardOfLight",
+      "tier": 10,
+      "img": "spells/holy.png",
+      "title": {
+        "en": "Ward of Light",
+        "zh": "光明護盾"
+      },
+      "intro": {
+        "en": "Deals holy damage, recovers Ward, and recovers a percentage of damage dealt. An opponent may also be blinded from the light.",
+        "zh": "造成光屬傷害，恢復護盾值，並依傷害恢復一定比率的生命。攻擊還有可能造成對方致盲。"
+      },
+      "meta": {
+        "causes": {
+          "Blind": 5
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
     },
     {
       "uid": "WardOfLightII",
@@ -10719,7 +11601,7 @@
       },
       "intro": {
         "en": "Boosts critical hit rate and temporarily boosts magic and attack power.",
-        "zh": "提升爆擊率且暫時提高魔攻及物攻。"
+        "zh": "提升暴擊率且暫時提高魔攻及物攻。"
       },
       "meta": {
         "gives": {
@@ -10859,6 +11741,7 @@
     }
   ],
   "imgs": {
+    "Bleeding": "/statuses/bleeding.png",
     "Stunned": "/statuses/stunned.png",
     "Burning": "/statuses/burning.png",
     "Blind": "/statuses/blind.png",
@@ -10892,53 +11775,68 @@
     "All ↑": "/statuses/berserk_double.png",
     "All ↑↑": "/statuses/berserk_triple.png",
     "Asleep": "/statuses/sleep.png",
-    "Poisoned": "/statuses/poison.png",
     "Mag ↓": "/statuses/magic_down.png",
     "Att ↓": "/statuses/attack_down.png",
-    "Bleeding": "/statuses/bleeding.png",
     "T. Def ↑↑": "/statuses/defense_up_double_temp.png",
     "T. Res ↑↑": "/statuses/magic_defense_up_double_temp.png",
     "Bloodshift": "/statuses/bloodshift.png",
-    "T. Crit ↑": "/statuses/crit_up_temp.png",
     "T. All ↓": "/statuses/break.png",
     "Starstruck": "/statuses/starstruck.png",
-    "Call of Brynhild": "/statuses/brynhild.png",
-    "Call of Idun": "/statuses/idun.png",
-    "Call of Jord": "/statuses/jord.png",
-    "Call of Skadi": "/statuses/skadi.png",
+    "Brynhild": "/statuses/brynhild.png",
+    "Dumbr": "/statuses/dumbr.png",
+    "Idun": "/statuses/idun.png",
+    "Jord": "/statuses/jord.png",
+    "Skadi": "/statuses/skadi.png",
     "Castor": "/bosses/castor.png",
+    "Poisoned": "/statuses/poison.png",
     "Petrified": "/statuses/petrified.png",
     "Confused": "/statuses/confuse.png",
     "Dark Immune": "/statuses/dark_wall.png",
+    "Dark Sigil": "/statuses/dark_rune.png",
     "Dark Def": "/statuses/dark_wall.png",
+    "Darkblight": "/statuses/dark_rune.png",
     "Defending": "/statuses/magic_defense_up_triple.png",
     "T. All ↑↑↑": "/statuses/channel.png",
     "Def ↓": "/statuses/defense_down.png",
     "Res ↓": "/statuses/magic_defense_down.png",
     "Doom": "/statuses/doom.png",
+    "Dragon Sigil": "/statuses/dragon_rune.png",
+    "Drakeblight": "/statuses/dragon_rune.png",
     "Earth Att": "/statuses/earth_imbue.png",
     "Earth Aligned": "/statuses/earth_aligned.png",
+    "Earth Sigil": "/statuses/earth_rune.png",
+    "Earthblight": "/statuses/earth_rune.png",
     "Earth Def": "/statuses/earth_wall.png",
     "Elementless": "/statuses/no_imbue.png",
+    "T. Crit ↑": "/statuses/crit_up_temp.png",
     "Fire Att": "/statuses/fire_imbue.png",
     "Fire Aligned": "/statuses/fire_aligned.png",
+    "Fire Sigil": "/statuses/fire_rune.png",
     "Fire Def": "/statuses/fire_wall.png",
+    "Fireblight": "/statuses/fire_rune.png",
     "T. Att ↓↓": "/statuses/attack_down_double_temp.png",
     "Lulled": "/statuses/lulled.png",
     "Eir": "/statuses/eir.png",
     "Gunnr": "/statuses/gunnr.png",
     "Kára": "/statuses/kara.png",
     "Snotra": "/statuses/snotra.png",
+    "Windswept": "/statuses/windswept.png",
+    "Windblight": "/statuses/wind_rune.png",
+    "Wind Aligned": "/statuses/wind_aligned.png",
     "T. Mag ↑↑↑": "/statuses/magic_up_triple_temp.png",
     "T. Res ↓↓": "/statuses/magic_defense_down_double_temp.png",
     "T. Def ↓↓": "/statuses/defense_down_double_temp.png",
     "T. Mag ↓↓": "/statuses/magic_down_double_temp.png",
     "Foresight ↑": "/statuses/foresight_up.png",
     "Holy Immune": "/statuses/holy_wall.png",
+    "Holy Sigil": "/statuses/holy_rune.png",
     "Holy Def": "/statuses/holy_wall.png",
+    "Holyblight": "/statuses/holy_rune.png",
     "Water Att": "/statuses/ice_imbue.png",
     "Water Aligned": "/statuses/ice_aligned.png",
+    "Water Sigil": "/statuses/ice_rune.png",
     "Water Def": "/statuses/ice_wall.png",
+    "Waterblight": "/statuses/ice_rune.png",
     "Lightning Att": "/statuses/lightning_imbue.png",
     "Dmg ↓↓": "/statuses/attack_down_double_temp.png",
     "Fire Immune": "/statuses/fire_wall.png",
@@ -10946,7 +11844,9 @@
     "Stasis": "/statuses/stasis.png",
     "T. Crit ↑↑↑": "/statuses/crit_up_triple_temp.png",
     "Lightning Aligned": "/statuses/lightning_aligned.png",
+    "Lightning Sigil": "/statuses/lightning_rune.png",
     "Lightning Def": "/statuses/lightning_wall.png",
+    "Lightningblight": "/statuses/lightning_rune.png",
     "Lyon's Mark": "/statuses/lyon.png",
     "Toxic": "/statuses/toxic.png",
     "Pollux": "/bosses/pollux.png",

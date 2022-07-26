@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { saveCSV, outputJSON, getArgs } from './u.mjs';
 
-let ornaSkills = getJson('./codex-skill/src/orna-skills.json')?.skills;
+let ornaSkills = getJson('./codex-skill/src/fit.spells.json')?.data;
 let guideSkills = getJson('./public/data/raw/skill.src.json');
 
 function getJson(path) {

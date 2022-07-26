@@ -3865,5 +3865,213 @@
         "name": "Sidesteps"
       }
     ]
+  },
+  {
+    "id": 138,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/3_m.png",
+    "tier": 10,
+    "cost": 2500000,
+    "stats": {
+      "spell": 15,
+      "buff": 3
+    },
+    "skills": [
+      {
+        "id": 428,
+        "name": "Emberseal II"
+      },
+      {
+        "id": 429,
+        "name": "Emberstrike II"
+      },
+      {
+        "id": 593,
+        "name": "Fire Alignment"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/1_m.png",
+    "tier": 10,
+    "cost": 2500000,
+    "stats": {
+      "spell": 15,
+      "buff": 3
+    },
+    "skills": [
+      {
+        "id": 441,
+        "name": "Galeseal II"
+      },
+      {
+        "id": 442,
+        "name": "Galestrike II"
+      },
+      {
+        "id": 592,
+        "name": "Lightning Alignment"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/4_f.png",
+    "tier": 10,
+    "cost": 2500000,
+    "stats": {
+      "spell": 15,
+      "buff": 5
+    },
+    "skills": [
+      {
+        "id": 594,
+        "name": "Ice Alignment"
+      },
+      {
+        "id": 451,
+        "name": "Tidalseal II"
+      },
+      {
+        "id": 449,
+        "name": "Tidalstrike II"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/2_f.png",
+    "tier": 10,
+    "cost": 2500000,
+    "stats": {
+      "spell": 15,
+      "buff": 5
+    },
+    "skills": [
+      {
+        "id": 591,
+        "name": "Earth Alignment"
+      },
+      {
+        "id": 434,
+        "name": "Terraseal II"
+      },
+      {
+        "id": 435,
+        "name": "Terrastrike II"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/2_m.png",
+    "tier": 5,
+    "cost": 625000,
+    "stats": {
+      "spell": 15,
+      "buff": 3
+    },
+    "skills": [
+      {
+        "id": 591,
+        "name": "Earth Alignment"
+      },
+      {
+        "id": 147,
+        "name": "Earthstrike II"
+      },
+      {
+        "id": 273,
+        "name": "Tremor IV"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/3_f.png",
+    "tier": 5,
+    "cost": 625000,
+    "stats": {
+      "spell": 15,
+      "buff": 3
+    },
+    "skills": [
+      {
+        "id": 593,
+        "name": "Fire Alignment"
+      },
+      {
+        "id": 148,
+        "name": "Firestrike II"
+      },
+      {
+        "id": 275,
+        "name": "Flame IV"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/1_f.png",
+    "tier": 5,
+    "cost": 625000,
+    "stats": {
+      "spell": 15,
+      "buff": 3
+    },
+    "skills": [
+      {
+        "id": 592,
+        "name": "Lightning Alignment"
+      },
+      {
+        "id": 151,
+        "name": "Lightningstrike II"
+      },
+      {
+        "id": 272,
+        "name": "Spark IV"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Apollyon's apprentice",
+    "description": "Available for a limited time only.",
+    "image": "packs/apollyon/4_m.png",
+    "tier": 5,
+    "cost": 625000,
+    "stats": {
+      "spell": 15,
+      "buff": 3
+    },
+    "skills": [
+      {
+        "id": 276,
+        "name": "Frost IV"
+      },
+      {
+        "id": 594,
+        "name": "Ice Alignment"
+      },
+      {
+        "id": 150,
+        "name": "Icestrike II"
+      }
+    ]
   }
 ]

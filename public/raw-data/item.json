@@ -75928,5 +75928,66 @@
         "name": "Warrior"
       }
     ]
+  },
+  {
+    "name": "Macha Robe",
+    "id": 1594,
+    "description": "Cursed robe of a follower of Macha, the great witch.",
+    "type": "Armor",
+    "tier": 8,
+    "boss": true,
+    "arena": false,
+    "image": "armor/cursed_robe.png",
+    "stats": {
+      "defense": {
+        "base": 72
+      },
+      "mana": {
+        "base": 48
+      },
+      "resistance": {
+        "base": 198
+      }
+    },
+    "materials": [
+      {
+        "id": 513,
+        "name": "Avalon Ore"
+      },
+      {
+        "id": 346,
+        "name": "Greater Soul"
+      }
+    ],
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      }
+    ]
+  },
+  {
+    "name": "Diluted Mnemonic",
+    "id": 1595,
+    "description": "A catalyst with an area's lost memories trapped within. Using it will begin a hunt for shattered memories in your area.",
+    "type": "Item",
+    "tier": 4,
+    "boss": false,
+    "arena": false,
+    "image": "useables/mnemonic.png",
+    "equipped_by": [
+      {
+        "id": 2,
+        "name": "Mage"
+      },
+      {
+        "id": 3,
+        "name": "Thief"
+      },
+      {
+        "id": 1,
+        "name": "Warrior"
+      }
+    ]
   }
 ]
