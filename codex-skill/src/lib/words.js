@@ -268,7 +268,7 @@ export default {
     zh: '水之疫病'
   },
   'Windblight': {
-    zh: '水之疫病'
+    zh: '風之疫病'
   },
   'Windswept': {
     zh: '逆風'
