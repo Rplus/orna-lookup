@@ -1,7 +1,21 @@
 {
   "data": [
     {
-      "uid": "AerialBarrage",
+      "uid": "achlys-pact",
+      "tier": 10,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Achlys Pact",
+        "zh": "艾柯呂斯盟約"
+      },
+      "intro": {
+        "en": "Sacrifices all but the strongest summon. This summon will absorb all positive and negative status effects of the sacrificed summons.",
+        "zh": "僅保留最強的小夥伴，犧牲其餘的小夥伴。留下的將會獲得所有被犧牲者的正向及負面狀態。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "aerial-barrage",
       "tier": 7,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10,7 +24,7 @@
       },
       "intro": {
         "en": "Attack from the skies many times with a beak, possibly causing an opponent to bleed and landing a critical hit.",
-        "zh": "Attack from the skies many times with a beak, possibly causing an opponent to bleed and landing a critical hit."
+        "zh": "從高空用啄連擊多次，有機會暴擊並使對手流血。"
       },
       "meta": {
         "causes": {
@@ -19,7 +33,7 @@
       }
     },
     {
-      "uid": "AlphaDart",
+      "uid": "alpha-dart",
       "tier": 3,
       "img": "spells/spark.png",
       "title": {
@@ -38,7 +52,7 @@
       }
     },
     {
-      "uid": "Annihilation",
+      "uid": "annihilation",
       "tier": 6,
       "img": "spells/meteor.png",
       "title": {
@@ -57,7 +71,7 @@
       }
     },
     {
-      "uid": "AnnwnFury",
+      "uid": "annwn-fury",
       "tier": 6,
       "img": "spells/arcane.png",
       "title": {
@@ -78,12 +92,12 @@
       }
     },
     {
-      "uid": "WeaponAnthem",
+      "uid": "anthem",
       "tier": 8,
       "img": "spells/song.png",
       "title": {
-        "en": "Anthem",
-        "zh": "聖歌"
+        "en": "Anthem (Off-hand)",
+        "zh": "聖歌 (副手)"
       },
       "intro": {
         "en": "Potentially boost attack, magic, defenses, and resistance while potentially decreasing opponent stats.",
@@ -116,7 +130,7 @@
       ]
     },
     {
-      "uid": "SongOfAvalon",
+      "uid": "anthem-of-avalon",
       "tier": 6,
       "img": "spells/song.png",
       "title": {
@@ -151,7 +165,7 @@
       }
     },
     {
-      "uid": "SongOfAvalonII",
+      "uid": "anthem-of-lyonesse",
       "tier": 9,
       "img": "spells/song.png",
       "title": {
@@ -186,7 +200,7 @@
       }
     },
     {
-      "uid": "Apocalypse",
+      "uid": "apocalypse",
       "tier": 9,
       "img": "spells/meteor.png",
       "title": {
@@ -208,7 +222,7 @@
       }
     },
     {
-      "uid": "Appease",
+      "uid": "appease",
       "tier": 3,
       "img": "spells/speed.png",
       "title": {
@@ -226,7 +240,7 @@
       }
     },
     {
-      "uid": "AppeaseII",
+      "uid": "appease-ii",
       "tier": 7,
       "img": "spells/speed.png",
       "title": {
@@ -244,7 +258,7 @@
       }
     },
     {
-      "uid": "Arc",
+      "uid": "arc",
       "tier": 4,
       "img": "spells/arcane.png",
       "title": {
@@ -268,7 +282,7 @@
       ]
     },
     {
-      "uid": "Arcana",
+      "uid": "arcana",
       "tier": 4,
       "img": "spells/arcane.png",
       "title": {
@@ -289,7 +303,7 @@
       }
     },
     {
-      "uid": "ArcanaII",
+      "uid": "arcana-ii",
       "tier": 5,
       "img": "spells/arcane.png",
       "title": {
@@ -310,7 +324,7 @@
       }
     },
     {
-      "uid": "ArcaneStrikes",
+      "uid": "arcane-strikes",
       "tier": 5,
       "img": "spells/arcane.png",
       "title": {
@@ -331,7 +345,7 @@
       }
     },
     {
-      "uid": "ArcaneStrikesII",
+      "uid": "arcane-strikes-ii",
       "tier": 7,
       "img": "spells/arcane.png",
       "title": {
@@ -352,7 +366,7 @@
       }
     },
     {
-      "uid": "ArcaneStrikesIII",
+      "uid": "arcane-strikes-iii",
       "tier": 8,
       "img": "spells/arcane.png",
       "title": {
@@ -373,7 +387,7 @@
       }
     },
     {
-      "uid": "ArcanicStrike",
+      "uid": "arcanic-strike",
       "tier": 8,
       "img": "spells/arcane.png",
       "title": {
@@ -394,7 +408,7 @@
       }
     },
     {
-      "uid": "Arcanus",
+      "uid": "arcanus",
       "tier": 6,
       "img": "spells/arcane.png",
       "title": {
@@ -421,7 +435,7 @@
       }
     },
     {
-      "uid": "ArcanusII",
+      "uid": "arcanus-ii",
       "tier": 9,
       "img": "spells/arcane.png",
       "title": {
@@ -448,7 +462,7 @@
       }
     },
     {
-      "uid": "ArrowStorm",
+      "uid": "arrowstorm",
       "tier": 3,
       "img": "spells/multi_attack.png",
       "title": {
@@ -462,12 +476,12 @@
       "meta": {}
     },
     {
-      "uid": "WeaponArrowStorm",
+      "uid": "arrowstorm-2",
       "tier": 3,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Arrowstorm",
-        "zh": "箭雨"
+        "en": "Arrowstorm (Off-hand)",
+        "zh": "箭雨 (副手)"
       },
       "intro": {
         "en": "Bombard your opponent with many arrows.",
@@ -479,7 +493,7 @@
       ]
     },
     {
-      "uid": "ArrowStormII",
+      "uid": "arrowstorm-ii",
       "tier": 7,
       "img": "spells/multi_attack.png",
       "title": {
@@ -493,7 +507,7 @@
       "meta": {}
     },
     {
-      "uid": "Bandage",
+      "uid": "bandage",
       "tier": 1,
       "img": "spells/heal.png",
       "title": {
@@ -510,7 +524,7 @@
       ]
     },
     {
-      "uid": "Barrier",
+      "uid": "barrier",
       "tier": 3,
       "img": "spells/shield.png",
       "title": {
@@ -529,7 +543,7 @@
       }
     },
     {
-      "uid": "BarrierII",
+      "uid": "barrier-ii",
       "tier": 4,
       "img": "spells/shield.png",
       "title": {
@@ -548,12 +562,12 @@
       }
     },
     {
-      "uid": "Bastion",
+      "uid": "bastion",
       "tier": 1,
       "img": "spells/ward.png",
       "title": {
-        "en": "Bastion",
-        "zh": "堡壘"
+        "en": "Bastion (Off-hand)",
+        "zh": "堡壘 (副手)"
       },
       "intro": {
         "en": "Grants temporary defenses and grants Ward for 3 turns.",
@@ -565,12 +579,12 @@
       ]
     },
     {
-      "uid": "BastionII",
+      "uid": "bastion-ii",
       "tier": 1,
       "img": "spells/ward.png",
       "title": {
-        "en": "Bastion II",
-        "zh": "堡壘 II"
+        "en": "Bastion II (Off-hand)",
+        "zh": "堡壘 II (副手)"
       },
       "intro": {
         "en": "Grants temporary defenses and grants Ward for 4 turns.",
@@ -582,12 +596,12 @@
       ]
     },
     {
-      "uid": "BastionIII",
+      "uid": "bastion-iii",
       "tier": 1,
       "img": "spells/ward.png",
       "title": {
-        "en": "Bastion III",
-        "zh": "堡壘 III"
+        "en": "Bastion III (Off-hand)",
+        "zh": "堡壘 III (副手)"
       },
       "intro": {
         "en": "Grants temporary defenses and grants Ward for 5 turns.",
@@ -599,7 +613,7 @@
       ]
     },
     {
-      "uid": "BattleDance",
+      "uid": "battle-dance",
       "tier": 4,
       "img": "spells/dance.png",
       "title": {
@@ -621,7 +635,7 @@
       }
     },
     {
-      "uid": "BearsMight",
+      "uid": "bears-might",
       "tier": 5,
       "img": "monsters/bear.png",
       "title": {
@@ -641,7 +655,7 @@
       }
     },
     {
-      "uid": "BeastSlayer",
+      "uid": "beastslayer",
       "tier": 7,
       "img": "spells/break.png",
       "title": {
@@ -655,7 +669,7 @@
       "meta": {}
     },
     {
-      "uid": "BeastSlayerII",
+      "uid": "beastslayer-ii",
       "tier": 9,
       "img": "spells/break.png",
       "title": {
@@ -669,7 +683,7 @@
       "meta": {}
     },
     {
-      "uid": "Beaststrike",
+      "uid": "beaststrike",
       "tier": 9,
       "img": "spells/blight.png",
       "title": {
@@ -687,7 +701,7 @@
       }
     },
     {
-      "uid": "BeaststrikeII",
+      "uid": "beaststrike-ii",
       "tier": 9,
       "img": "spells/blight.png",
       "title": {
@@ -705,7 +719,7 @@
       }
     },
     {
-      "uid": "BeaststrikeIII",
+      "uid": "beaststrike-iii",
       "tier": 9,
       "img": "spells/blight.png",
       "title": {
@@ -723,7 +737,7 @@
       }
     },
     {
-      "uid": "Beaststrikes",
+      "uid": "beaststrikes",
       "tier": 10,
       "img": "spells/blight.png",
       "title": {
@@ -741,7 +755,7 @@
       }
     },
     {
-      "uid": "Berserk",
+      "uid": "berserk",
       "tier": 5,
       "img": "spells/attack_up.png",
       "title": {
@@ -759,7 +773,7 @@
       }
     },
     {
-      "uid": "BerserkII",
+      "uid": "berserk-ii",
       "tier": 5,
       "img": "spells/attack_up.png",
       "title": {
@@ -777,7 +791,7 @@
       }
     },
     {
-      "uid": "BerserkIII",
+      "uid": "berserk-iii",
       "tier": 9,
       "img": "spells/attack_up.png",
       "title": {
@@ -795,7 +809,7 @@
       }
     },
     {
-      "uid": "BetaDart",
+      "uid": "beta-dart",
       "tier": 3,
       "img": "spells/spark.png",
       "title": {
@@ -814,7 +828,7 @@
       }
     },
     {
-      "uid": "Blast",
+      "uid": "blast",
       "tier": 3,
       "img": "spells/blast.png",
       "title": {
@@ -833,7 +847,7 @@
       }
     },
     {
-      "uid": "BigBlast",
+      "uid": "blast-ii",
       "tier": 4,
       "img": "spells/blast.png",
       "title": {
@@ -852,7 +866,7 @@
       }
     },
     {
-      "uid": "BlastIII",
+      "uid": "blast-iii",
       "tier": 7,
       "img": "spells/blast.png",
       "title": {
@@ -871,7 +885,7 @@
       }
     },
     {
-      "uid": "Bleed",
+      "uid": "bleed",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
@@ -889,7 +903,7 @@
       }
     },
     {
-      "uid": "BlessedShield",
+      "uid": "blessed-shield",
       "tier": 6,
       "img": "spells/magic_shield.png",
       "title": {
@@ -908,7 +922,49 @@
       }
     },
     {
-      "uid": "Blightstrike",
+      "uid": "blight-arrow",
+      "tier": 10,
+      "img": "spells/blight.png",
+      "title": {
+        "en": "Blight Arrow (Off-hand)",
+        "zh": "枯萎弓矢 (副手)"
+      },
+      "intro": {
+        "en": "Deals dragon damage and potentially causes blight.",
+        "zh": "造成龍屬性傷害並有機會造成枯萎。"
+      },
+      "meta": {
+        "causes": {
+          "Blight": 10
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "blightblast",
+      "tier": 10,
+      "img": "spells/blight.png",
+      "title": {
+        "en": "Blightblast (Off-hand)",
+        "zh": "枯萎震爆 (副手)"
+      },
+      "intro": {
+        "en": "Deals dragon damage and potentially causes blight.",
+        "zh": "造成龍屬性傷害並有機會造成枯萎。"
+      },
+      "meta": {
+        "causes": {
+          "Blight": 10
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "blightstrike",
       "tier": 5,
       "img": "spells/blight.png",
       "title": {
@@ -926,7 +982,28 @@
       }
     },
     {
-      "uid": "BlightstrikeII",
+      "uid": "blightstrike-2",
+      "tier": 10,
+      "img": "spells/blight.png",
+      "title": {
+        "en": "Blightstrike (Off-hand)",
+        "zh": "枯萎之擊 (副手)"
+      },
+      "intro": {
+        "en": "Deals dragon damage and potentially causes blight.",
+        "zh": "造成龍屬性傷害並有機會造成枯萎。"
+      },
+      "meta": {
+        "causes": {
+          "Blight": 10
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "blightstrike-ii",
       "tier": 7,
       "img": "spells/blight.png",
       "title": {
@@ -944,7 +1021,7 @@
       }
     },
     {
-      "uid": "BlightstrikeIII",
+      "uid": "blightstrike-iii",
       "tier": 8,
       "img": "spells/blight.png",
       "title": {
@@ -962,7 +1039,7 @@
       }
     },
     {
-      "uid": "Blizzard",
+      "uid": "blizzard",
       "tier": 3,
       "img": "spells/ice.png",
       "title": {
@@ -980,7 +1057,7 @@
       }
     },
     {
-      "uid": "BigBlizzard",
+      "uid": "blizzard-ii",
       "tier": 4,
       "img": "spells/ice.png",
       "title": {
@@ -998,7 +1075,49 @@
       }
     },
     {
-      "uid": "BigAttackBoost",
+      "uid": "blood-pact",
+      "tier": 7,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Blood Pact",
+        "zh": "鮮血盟約"
+      },
+      "intro": {
+        "en": "Converts a percentage of all summoned beast's HP into damage.",
+        "zh": "將所有小夥伴的部分HP轉換為傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "blood-pact-ii",
+      "tier": 8,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Blood Pact II",
+        "zh": "鮮血盟約 II"
+      },
+      "intro": {
+        "en": "Converts a percentage of all summoned beast's HP into damage.",
+        "zh": "將所有小夥伴的部分HP轉換為傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "blood-pact-iii",
+      "tier": 10,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Blood Pact III",
+        "zh": "鮮血盟約 III"
+      },
+      "intro": {
+        "en": "Converts a percentage of all summoned beast's HP into damage. Requires 2 turns in battle.",
+        "zh": "將所有小夥伴的部分HP轉換為傷害。需要2回合施展。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "bloodlust",
       "tier": 4,
       "img": "spells/attack_up.png",
       "title": {
@@ -1016,7 +1135,7 @@
       }
     },
     {
-      "uid": "Bloodshift",
+      "uid": "bloodshift",
       "tier": 10,
       "img": "spells/bleed.png",
       "title": {
@@ -1034,7 +1153,7 @@
       }
     },
     {
-      "uid": "MagicBolt",
+      "uid": "bolt",
       "tier": 1,
       "img": "spells/magic.png",
       "title": {
@@ -1048,7 +1167,7 @@
       "meta": {}
     },
     {
-      "uid": "BigMagicBolt",
+      "uid": "bolt-ii",
       "tier": 2,
       "img": "spells/magic.png",
       "title": {
@@ -1065,7 +1184,7 @@
       ]
     },
     {
-      "uid": "MagicBoltII",
+      "uid": "bolt-iii",
       "tier": 4,
       "img": "spells/magic.png",
       "title": {
@@ -1079,7 +1198,7 @@
       "meta": {}
     },
     {
-      "uid": "Break",
+      "uid": "break",
       "tier": 8,
       "img": "spells/blast.png",
       "title": {
@@ -1097,7 +1216,7 @@
       }
     },
     {
-      "uid": "BreakPower",
+      "uid": "break-power",
       "tier": 5,
       "img": "spells/break.png",
       "title": {
@@ -1111,7 +1230,7 @@
       "meta": {}
     },
     {
-      "uid": "BrightStar",
+      "uid": "bright-star",
       "tier": 5,
       "img": "spells/star.png",
       "title": {
@@ -1130,7 +1249,7 @@
       }
     },
     {
-      "uid": "BrightStarII",
+      "uid": "bright-star-ii",
       "tier": 9,
       "img": "spells/star.png",
       "title": {
@@ -1149,7 +1268,7 @@
       }
     },
     {
-      "uid": "BrilliantLightsUltimate",
+      "uid": "brilliant-lights",
       "tier": 6,
       "img": "spells/flare.png",
       "title": {
@@ -1167,12 +1286,12 @@
       }
     },
     {
-      "uid": "WeaponBrilliantLights",
+      "uid": "brilliant-lights-2",
       "tier": 6,
       "img": "spells/flare.png",
       "title": {
-        "en": "Brilliant Lights",
-        "zh": "輝煌之光"
+        "en": "Brilliant Lights (Off-hand)",
+        "zh": "輝煌之光 (副手)"
       },
       "intro": {
         "en": "Unstable elementless magic that can blind an opponent while dealing damage thrice.",
@@ -1188,7 +1307,7 @@
       ]
     },
     {
-      "uid": "Burn",
+      "uid": "burn",
       "tier": 2,
       "img": "spells/flame.png",
       "title": {
@@ -1206,12 +1325,12 @@
       }
     },
     {
-      "uid": "WeaponBurn",
+      "uid": "burn-2",
       "tier": 2,
       "img": "spells/flame.png",
       "title": {
-        "en": "Burn",
-        "zh": "焚燒"
+        "en": "Burn (Off-hand)",
+        "zh": "焚燒 (副手)"
       },
       "intro": {
         "en": "Sets an opponent ablaze.",
@@ -1227,7 +1346,7 @@
       ]
     },
     {
-      "uid": "CallOfBrynhild",
+      "uid": "call-of-brynhild",
       "tier": 8,
       "img": "spells/control.png",
       "title": {
@@ -1245,8 +1364,8 @@
       }
     },
     {
-      "uid": "CallOfDumbr",
-      "tier": 10,
+      "uid": "call-of-dumbr",
+      "tier": 9,
       "img": "spells/control.png",
       "title": {
         "en": "Call of Dumbr",
@@ -1263,7 +1382,7 @@
       }
     },
     {
-      "uid": "CallOfIdun",
+      "uid": "call-of-idun",
       "tier": 9,
       "img": "spells/control.png",
       "title": {
@@ -1281,7 +1400,7 @@
       }
     },
     {
-      "uid": "CallOfJord",
+      "uid": "call-of-jord",
       "tier": 10,
       "img": "spells/control.png",
       "title": {
@@ -1299,7 +1418,7 @@
       }
     },
     {
-      "uid": "CallOfSkadi",
+      "uid": "call-of-skadi",
       "tier": 10,
       "img": "spells/control.png",
       "title": {
@@ -1317,7 +1436,7 @@
       }
     },
     {
-      "uid": "CastedShadows",
+      "uid": "casted-shadows",
       "tier": 7,
       "img": "spells/shadow.png",
       "title": {
@@ -1325,13 +1444,13 @@
         "zh": "陰影投射"
       },
       "intro": {
-        "en": "Deals dark damage to many times dependant on the amount of status effects an opponent may have.",
+        "en": "Deals dark damage many times dependant on the amount of status effects an opponent may have.",
         "zh": "視對手的異常狀態數量來造成相對應次數的暗屬性傷害。"
       },
       "meta": {}
     },
     {
-      "uid": "CastedShadowsII",
+      "uid": "casted-shadows-ii",
       "tier": 10,
       "img": "spells/shadow.png",
       "title": {
@@ -1339,13 +1458,13 @@
         "zh": "陰影投射 II"
       },
       "intro": {
-        "en": "Deals dark damage to many times dependant on the amount of status effects an opponent may have.",
+        "en": "Deals dark damage many times dependant on the amount of status effects an opponent may have.",
         "zh": "視對手的異常狀態數量來造成相對應次數的暗屬性傷害。"
       },
       "meta": {}
     },
     {
-      "uid": "CastorFirst",
+      "uid": "castors-wit",
       "tier": 8,
       "img": "spells/magic_up.png",
       "title": {
@@ -1363,7 +1482,7 @@
       }
     },
     {
-      "uid": "Cataclysm",
+      "uid": "cataclysm",
       "tier": 4,
       "img": "spells/quake.png",
       "title": {
@@ -1384,7 +1503,7 @@
       }
     },
     {
-      "uid": "CataclysmII",
+      "uid": "cataclysm-ii",
       "tier": 8,
       "img": "spells/quake.png",
       "title": {
@@ -1405,7 +1524,7 @@
       }
     },
     {
-      "uid": "CataclysmIII",
+      "uid": "cataclysm-iii",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -1426,7 +1545,7 @@
       }
     },
     {
-      "uid": "Catastrophe",
+      "uid": "catastrophe",
       "tier": 6,
       "img": "spells/nightmare.png",
       "title": {
@@ -1445,7 +1564,7 @@
       }
     },
     {
-      "uid": "ChainLightning",
+      "uid": "chain-lightning",
       "tier": 5,
       "img": "spells/spark.png",
       "title": {
@@ -1463,7 +1582,7 @@
       }
     },
     {
-      "uid": "ChainLightningII",
+      "uid": "chain-lightning-ii",
       "tier": 7,
       "img": "spells/spark.png",
       "title": {
@@ -1481,7 +1600,7 @@
       }
     },
     {
-      "uid": "ChainLightningIII",
+      "uid": "chain-lightning-iii",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -1499,7 +1618,7 @@
       }
     },
     {
-      "uid": "Charge",
+      "uid": "charge",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -1513,7 +1632,7 @@
       "meta": {}
     },
     {
-      "uid": "ChargeII",
+      "uid": "charge-ii",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -1527,7 +1646,21 @@
       "meta": {}
     },
     {
-      "uid": "ChimeraSong",
+      "uid": "charon-pact",
+      "tier": 9,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Charon Pact",
+        "zh": "凱倫盟約"
+      },
+      "intro": {
+        "en": "Sacrifices your weakest summon to heal the next weakest.",
+        "zh": "犧牲你最弱的小夥伴來治療次弱的。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "chimeras-song",
       "tier": 8,
       "img": "spells/flare.png",
       "title": {
@@ -1547,7 +1680,7 @@
       }
     },
     {
-      "uid": "Cleanse",
+      "uid": "cleanse",
       "tier": 6,
       "img": "spells/heal.png",
       "title": {
@@ -1566,7 +1699,7 @@
       }
     },
     {
-      "uid": "CockatriceBreath",
+      "uid": "cockatrice-breath",
       "tier": 7,
       "img": "bosses/cockatrice.png",
       "title": {
@@ -1586,7 +1719,7 @@
       }
     },
     {
-      "uid": "Comet",
+      "uid": "comet",
       "tier": 5,
       "img": "spells/comet.png",
       "title": {
@@ -1605,7 +1738,7 @@
       }
     },
     {
-      "uid": "CometII",
+      "uid": "comet-ii",
       "tier": 9,
       "img": "spells/comet.png",
       "title": {
@@ -1624,7 +1757,7 @@
       }
     },
     {
-      "uid": "Confuse",
+      "uid": "confuse",
       "tier": 2,
       "img": "spells/mindblast.png",
       "title": {
@@ -1642,7 +1775,7 @@
       }
     },
     {
-      "uid": "Counterattack",
+      "uid": "counterattack",
       "tier": 6,
       "img": "spells/bleed.png",
       "title": {
@@ -1656,12 +1789,12 @@
       "meta": {}
     },
     {
-      "uid": "WeaponCounterattack",
+      "uid": "counterattack-2",
       "tier": 6,
       "img": "spells/bleed.png",
       "title": {
-        "en": "Counterattack",
-        "zh": "反擊"
+        "en": "Counterattack (Off-hand)",
+        "zh": "反擊 (副手)"
       },
       "intro": {
         "en": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws.",
@@ -1673,7 +1806,7 @@
       ]
     },
     {
-      "uid": "CounterattackII",
+      "uid": "counterattack-ii",
       "tier": 9,
       "img": "spells/bleed.png",
       "title": {
@@ -1687,12 +1820,12 @@
       "meta": {}
     },
     {
-      "uid": "WeaponCounterattackII",
+      "uid": "counterattack-ii-2",
       "tier": 6,
       "img": "spells/bleed.png",
       "title": {
-        "en": "Counterattack II",
-        "zh": "反擊II"
+        "en": "Counterattack II (Off-hand)",
+        "zh": "反擊II (副手)"
       },
       "intro": {
         "en": "Grants a chance to return a portion of an opponent's attack back at them. Counterattacks are favorable to win in PvP draws.",
@@ -1704,7 +1837,7 @@
       ]
     },
     {
-      "uid": "CoupDeGrace",
+      "uid": "coup-de-grace-2",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -1722,7 +1855,7 @@
       }
     },
     {
-      "uid": "CoupDeGraceII",
+      "uid": "coup-de-grace-ii",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -1740,12 +1873,12 @@
       }
     },
     {
-      "uid": "Crush",
+      "uid": "crush",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
-        "en": "Crush",
-        "zh": "粉碎擊"
+        "en": "Crush (Off-hand)",
+        "zh": "粉碎擊 (副手)"
       },
       "intro": {
         "en": "Deals extra damage and may stun an opponent.",
@@ -1761,7 +1894,7 @@
       ]
     },
     {
-      "uid": "CureBleeding",
+      "uid": "cure-bleeding",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
@@ -1778,7 +1911,7 @@
       ]
     },
     {
-      "uid": "CureBlindness",
+      "uid": "cure-blindness",
       "tier": 1,
       "img": "spells/blind.png",
       "title": {
@@ -1795,7 +1928,7 @@
       ]
     },
     {
-      "uid": "CureBurn",
+      "uid": "cure-burn",
       "tier": 1,
       "img": "spells/flame.png",
       "title": {
@@ -1812,7 +1945,7 @@
       ]
     },
     {
-      "uid": "CureFrozen",
+      "uid": "cure-frozen",
       "tier": 1,
       "img": "spells/ice.png",
       "title": {
@@ -1829,7 +1962,7 @@
       ]
     },
     {
-      "uid": "CureParalysis",
+      "uid": "cure-paralysis",
       "tier": 1,
       "img": "spells/spark.png",
       "title": {
@@ -1846,7 +1979,7 @@
       ]
     },
     {
-      "uid": "CurePoison",
+      "uid": "cure-poison",
       "tier": 1,
       "img": "spells/poison.png",
       "title": {
@@ -1863,7 +1996,7 @@
       ]
     },
     {
-      "uid": "Curse",
+      "uid": "curse",
       "tier": 5,
       "img": "spells/nightmare.png",
       "title": {
@@ -1881,7 +2014,7 @@
       }
     },
     {
-      "uid": "CursedGlare",
+      "uid": "cursed-glare",
       "tier": 6,
       "img": "spells/meteor.png",
       "title": {
@@ -1900,7 +2033,7 @@
       }
     },
     {
-      "uid": "Cyclone",
+      "uid": "cyclone",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -1918,7 +2051,7 @@
       }
     },
     {
-      "uid": "DarkFacade",
+      "uid": "dark-facade",
       "tier": 9,
       "img": "spells/nightmare.png",
       "title": {
@@ -1936,7 +2069,7 @@
       }
     },
     {
-      "uid": "DarkRune",
+      "uid": "dark-sigil",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -1954,7 +2087,7 @@
       }
     },
     {
-      "uid": "DarkWall",
+      "uid": "dark-wall",
       "tier": 5,
       "img": "spells/nightmare.png",
       "title": {
@@ -1972,7 +2105,7 @@
       }
     },
     {
-      "uid": "DarkBlight",
+      "uid": "darkblight",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -1985,12 +2118,12 @@
       },
       "meta": {
         "causes": {
-          "Darkblight": 10
+          "Darkblight": 40
         }
       }
     },
     {
-      "uid": "DarkBlightII",
+      "uid": "darkblight-ii",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -2008,7 +2141,7 @@
       }
     },
     {
-      "uid": "Darkstrike",
+      "uid": "darkstrike",
       "tier": 3,
       "img": "spells/shadow.png",
       "title": {
@@ -2026,7 +2159,7 @@
       }
     },
     {
-      "uid": "BigDarkstrike",
+      "uid": "darkstrike-ii",
       "tier": 5,
       "img": "spells/shadow.png",
       "title": {
@@ -2044,7 +2177,7 @@
       }
     },
     {
-      "uid": "DarkstrikeIII",
+      "uid": "darkstrike-iii",
       "tier": 7,
       "img": "spells/shadow.png",
       "title": {
@@ -2062,7 +2195,7 @@
       }
     },
     {
-      "uid": "Rot",
+      "uid": "decay",
       "tier": 2,
       "img": "spells/poison.png",
       "title": {
@@ -2080,7 +2213,7 @@
       }
     },
     {
-      "uid": "CerusDefendPhys",
+      "uid": "defend-2",
       "tier": 8,
       "img": "spells/magic_up.png",
       "title": {
@@ -2098,7 +2231,7 @@
       }
     },
     {
-      "uid": "CerusDefendMag",
+      "uid": "defend-3",
       "tier": 8,
       "img": "spells/attack_up.png",
       "title": {
@@ -2116,7 +2249,7 @@
       }
     },
     {
-      "uid": "DeificChannel",
+      "uid": "deific-channel",
       "tier": 9,
       "img": "spells/star.png",
       "title": {
@@ -2134,7 +2267,7 @@
       }
     },
     {
-      "uid": "Dispair",
+      "uid": "despair",
       "tier": 9,
       "img": "spells/nightmare.png",
       "title": {
@@ -2155,12 +2288,12 @@
       }
     },
     {
-      "uid": "WeaponDespair",
+      "uid": "despair-2",
       "tier": 9,
       "img": "spells/nightmare.png",
       "title": {
-        "en": "Despair",
-        "zh": "絕望"
+        "en": "Despair (Off-hand)",
+        "zh": "絕望 (副手)"
       },
       "intro": {
         "en": "Deals great arcane damage.",
@@ -2179,7 +2312,7 @@
       ]
     },
     {
-      "uid": "Desperation",
+      "uid": "desperation",
       "tier": 5,
       "img": "spells/break.png",
       "title": {
@@ -2193,7 +2326,7 @@
       "meta": {}
     },
     {
-      "uid": "DiffuseWard",
+      "uid": "diffuse-ward",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -2207,7 +2340,7 @@
       "meta": {}
     },
     {
-      "uid": "DiffuseWardII",
+      "uid": "diffuse-ward-ii",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -2221,7 +2354,7 @@
       "meta": {}
     },
     {
-      "uid": "DiffuseWardIII",
+      "uid": "diffuse-ward-iii",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -2235,7 +2368,7 @@
       "meta": {}
     },
     {
-      "uid": "Dispel",
+      "uid": "dispel",
       "tier": 4,
       "img": "spells/heal.png",
       "title": {
@@ -2249,7 +2382,7 @@
       "meta": {}
     },
     {
-      "uid": "DispelII",
+      "uid": "dispel-ii",
       "tier": 10,
       "img": "spells/heal.png",
       "title": {
@@ -2263,7 +2396,7 @@
       "meta": {}
     },
     {
-      "uid": "Distortion",
+      "uid": "distortion",
       "tier": 5,
       "img": "spells/mindblast.png",
       "title": {
@@ -2291,7 +2424,7 @@
       }
     },
     {
-      "uid": "DivineBastion",
+      "uid": "divine-bastion",
       "tier": 8,
       "img": "spells/holy.png",
       "title": {
@@ -2305,7 +2438,7 @@
       "meta": {}
     },
     {
-      "uid": "DivineBastionII",
+      "uid": "divine-bastion-ii",
       "tier": 9,
       "img": "spells/holy.png",
       "title": {
@@ -2319,7 +2452,7 @@
       "meta": {}
     },
     {
-      "uid": "Doom",
+      "uid": "doom",
       "tier": 7,
       "img": "spells/nightmare.png",
       "title": {
@@ -2337,7 +2470,7 @@
       }
     },
     {
-      "uid": "DoomII",
+      "uid": "doom-ii",
       "tier": 9,
       "img": "spells/nightmare.png",
       "title": {
@@ -2355,7 +2488,7 @@
       }
     },
     {
-      "uid": "DoubleEdge",
+      "uid": "double-edge",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -2369,7 +2502,7 @@
       "meta": {}
     },
     {
-      "uid": "DoubleCut",
+      "uid": "doublecut",
       "tier": 3,
       "img": "spells/multi_attack.png",
       "title": {
@@ -2383,7 +2516,24 @@
       "meta": {}
     },
     {
-      "uid": "DoubleCutSwap",
+      "uid": "doublecut-2",
+      "tier": 5,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Doublecut (Off-hand)",
+        "zh": "二連擊 (副手)"
+      },
+      "intro": {
+        "en": "Swiftly attack twice, dealing up to double damage.",
+        "zh": "快速攻擊兩次，造成雙倍傷害。"
+      },
+      "meta": {},
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "doublecut-swap",
       "tier": 5,
       "img": "spells/multi_attack.png",
       "title": {
@@ -2397,7 +2547,7 @@
       "meta": {}
     },
     {
-      "uid": "DoubleCutII",
+      "uid": "doublecut-ii",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -2411,7 +2561,7 @@
       "meta": {}
     },
     {
-      "uid": "DragonBreath",
+      "uid": "dragon-breath",
       "tier": 5,
       "img": "spells/meteor.png",
       "title": {
@@ -2430,7 +2580,7 @@
       }
     },
     {
-      "uid": "DragonRune",
+      "uid": "dragon-sigil",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -2448,7 +2598,7 @@
       }
     },
     {
-      "uid": "Vengeance",
+      "uid": "dragons-vengeance",
       "tier": 5,
       "img": "spells/sorrow.png",
       "title": {
@@ -2462,7 +2612,7 @@
       "meta": {}
     },
     {
-      "uid": "VengeanceII",
+      "uid": "dragons-vengeance-ii",
       "tier": 5,
       "img": "spells/sorrow.png",
       "title": {
@@ -2476,7 +2626,7 @@
       "meta": {}
     },
     {
-      "uid": "VengeanceIII",
+      "uid": "dragons-vengeance-iii",
       "tier": 6,
       "img": "spells/sorrow.png",
       "title": {
@@ -2490,7 +2640,7 @@
       "meta": {}
     },
     {
-      "uid": "Dragonslayer",
+      "uid": "dragonslayer",
       "tier": 5,
       "img": "spells/blight.png",
       "title": {
@@ -2504,7 +2654,7 @@
       "meta": {}
     },
     {
-      "uid": "Dragonstrike",
+      "uid": "dragonstrike",
       "tier": 4,
       "img": "spells/blight.png",
       "title": {
@@ -2521,7 +2671,7 @@
       ]
     },
     {
-      "uid": "Drain",
+      "uid": "drain",
       "tier": 2,
       "img": "spells/drain.png",
       "title": {
@@ -2535,7 +2685,7 @@
       "meta": {}
     },
     {
-      "uid": "DrainII",
+      "uid": "drain-ii",
       "tier": 5,
       "img": "spells/drain.png",
       "title": {
@@ -2549,7 +2699,7 @@
       "meta": {}
     },
     {
-      "uid": "DrainIII",
+      "uid": "drain-iii",
       "tier": 8,
       "img": "spells/drain.png",
       "title": {
@@ -2563,7 +2713,7 @@
       "meta": {}
     },
     {
-      "uid": "DrakeBlight",
+      "uid": "drakeblight",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -2576,12 +2726,12 @@
       },
       "meta": {
         "causes": {
-          "Drakeblight": 10
+          "Drakeblight": 40
         }
       }
     },
     {
-      "uid": "DrakeBlightII",
+      "uid": "drakeblight-ii",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -2599,7 +2749,7 @@
       }
     },
     {
-      "uid": "EarthAffinity",
+      "uid": "earth-affinity",
       "tier": 8,
       "img": "spells/quake.png",
       "title": {
@@ -2617,7 +2767,7 @@
       }
     },
     {
-      "uid": "EarthAlignment",
+      "uid": "earth-alignment",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -2635,7 +2785,7 @@
       }
     },
     {
-      "uid": "EarthRune",
+      "uid": "earth-sigil",
       "tier": 6,
       "img": "spells/quake.png",
       "title": {
@@ -2653,7 +2803,7 @@
       }
     },
     {
-      "uid": "EarthBlight",
+      "uid": "earthblight",
       "tier": 6,
       "img": "spells/quake.png",
       "title": {
@@ -2666,12 +2816,12 @@
       },
       "meta": {
         "causes": {
-          "Earthblight": 10
+          "Earthblight": 40
         }
       }
     },
     {
-      "uid": "EarthBlightII",
+      "uid": "earthblight-ii",
       "tier": 6,
       "img": "spells/quake.png",
       "title": {
@@ -2689,7 +2839,7 @@
       }
     },
     {
-      "uid": "EarthWall",
+      "uid": "earthen-wall",
       "tier": 3,
       "img": "spells/quake.png",
       "title": {
@@ -2707,7 +2857,7 @@
       }
     },
     {
-      "uid": "Earthstrike",
+      "uid": "earthstrike",
       "tier": 2,
       "img": "spells/quake.png",
       "title": {
@@ -2725,7 +2875,7 @@
       }
     },
     {
-      "uid": "BigEarthstrike",
+      "uid": "earthstrike-ii",
       "tier": 5,
       "img": "spells/quake.png",
       "title": {
@@ -2743,7 +2893,7 @@
       }
     },
     {
-      "uid": "EarthstrikeIII",
+      "uid": "earthstrike-iii",
       "tier": 7,
       "img": "spells/quake.png",
       "title": {
@@ -2761,7 +2911,7 @@
       }
     },
     {
-      "uid": "Elementless",
+      "uid": "elementless",
       "tier": 9,
       "img": "spells/multi_attack.png",
       "title": {
@@ -2779,7 +2929,27 @@
       }
     },
     {
-      "uid": "Emberseal",
+      "uid": "elysian-judgment",
+      "tier": 5,
+      "img": "spells/meteor.png",
+      "title": {
+        "en": "Elysian Judgment",
+        "zh": "淨土審判"
+      },
+      "intro": {
+        "en": "",
+        "zh": ""
+      },
+      "meta": {
+        "causes": {
+          "Stunned": 100,
+          "T. Mag ↓↓": 100,
+          "T. Att ↓↓": 100
+        }
+      }
+    },
+    {
+      "uid": "emberseal",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -2797,7 +2967,7 @@
       }
     },
     {
-      "uid": "EmbersealII",
+      "uid": "emberseal-ii",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -2815,7 +2985,7 @@
       }
     },
     {
-      "uid": "Emberstrike",
+      "uid": "emberstrike",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -2833,7 +3003,7 @@
       }
     },
     {
-      "uid": "EmberstrikeII",
+      "uid": "emberstrike-ii",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -2851,7 +3021,7 @@
       }
     },
     {
-      "uid": "Envy",
+      "uid": "envy",
       "tier": 9,
       "img": "spells/bleed.png",
       "title": {
@@ -2869,12 +3039,12 @@
       }
     },
     {
-      "uid": "WeaponEnvy",
+      "uid": "envy-2",
       "tier": 9,
       "img": "spells/bleed.png",
       "title": {
-        "en": "Envy",
-        "zh": "嫉妒"
+        "en": "Envy (Off-hand)",
+        "zh": "嫉妒 (副手)"
       },
       "intro": {
         "en": "Deals arcane damage and may cause curse.",
@@ -2890,7 +3060,7 @@
       ]
     },
     {
-      "uid": "EvasiveStrikes",
+      "uid": "evasive-strikes",
       "tier": 10,
       "img": "spells/shadow.png",
       "title": {
@@ -2908,7 +3078,7 @@
       }
     },
     {
-      "uid": "DefenseDown",
+      "uid": "exploit",
       "tier": 3,
       "img": "spells/defense_down.png",
       "title": {
@@ -2926,7 +3096,7 @@
       }
     },
     {
-      "uid": "Holy",
+      "uid": "faith",
       "tier": 4,
       "img": "spells/holy.png",
       "title": {
@@ -2944,7 +3114,7 @@
       }
     },
     {
-      "uid": "BigHoly",
+      "uid": "faith-ii",
       "tier": 8,
       "img": "spells/holy.png",
       "title": {
@@ -2962,7 +3132,7 @@
       }
     },
     {
-      "uid": "FeyCataclysm",
+      "uid": "fey-cataclysm",
       "tier": 10,
       "img": "spells/quake.png",
       "title": {
@@ -2983,7 +3153,7 @@
       }
     },
     {
-      "uid": "FeyFlame",
+      "uid": "fey-flame",
       "tier": 4,
       "img": "spells/flame.png",
       "title": {
@@ -3004,7 +3174,7 @@
       ]
     },
     {
-      "uid": "FeyFlameII",
+      "uid": "fey-flame-ii",
       "tier": 6,
       "img": "spells/flame.png",
       "title": {
@@ -3025,7 +3195,7 @@
       ]
     },
     {
-      "uid": "FeyFlameIII",
+      "uid": "fey-flame-iii",
       "tier": 8,
       "img": "spells/flame.png",
       "title": {
@@ -3043,7 +3213,7 @@
       }
     },
     {
-      "uid": "FeyFlameIV",
+      "uid": "fey-flame-iv",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -3061,7 +3231,7 @@
       }
     },
     {
-      "uid": "FeyFlameV",
+      "uid": "fey-flame-v",
       "tier": 10,
       "img": "spells/flame.png",
       "title": {
@@ -3079,7 +3249,7 @@
       }
     },
     {
-      "uid": "FeyFrost",
+      "uid": "fey-frost",
       "tier": 4,
       "img": "spells/ice.png",
       "title": {
@@ -3100,7 +3270,7 @@
       ]
     },
     {
-      "uid": "FeyFrostII",
+      "uid": "fey-frost-ii",
       "tier": 6,
       "img": "spells/ice.png",
       "title": {
@@ -3121,7 +3291,7 @@
       ]
     },
     {
-      "uid": "FeyFrostIII",
+      "uid": "fey-frost-iii",
       "tier": 8,
       "img": "spells/ice.png",
       "title": {
@@ -3139,7 +3309,7 @@
       }
     },
     {
-      "uid": "FeyFrostIV",
+      "uid": "fey-frost-iv",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -3157,7 +3327,7 @@
       }
     },
     {
-      "uid": "FeyFrostV",
+      "uid": "fey-frost-v",
       "tier": 10,
       "img": "spells/ice.png",
       "title": {
@@ -3175,7 +3345,7 @@
       }
     },
     {
-      "uid": "FeyFulmination",
+      "uid": "fey-fulmination",
       "tier": 10,
       "img": "spells/spark.png",
       "title": {
@@ -3196,7 +3366,7 @@
       }
     },
     {
-      "uid": "FeyGlacier",
+      "uid": "fey-glacier",
       "tier": 10,
       "img": "spells/ice.png",
       "title": {
@@ -3217,7 +3387,7 @@
       }
     },
     {
-      "uid": "FeyInferno",
+      "uid": "fey-inferno",
       "tier": 10,
       "img": "spells/flame.png",
       "title": {
@@ -3238,7 +3408,7 @@
       }
     },
     {
-      "uid": "FeySpark",
+      "uid": "fey-spark",
       "tier": 4,
       "img": "spells/spark.png",
       "title": {
@@ -3259,7 +3429,7 @@
       ]
     },
     {
-      "uid": "FeySparkII",
+      "uid": "fey-spark-ii",
       "tier": 6,
       "img": "spells/spark.png",
       "title": {
@@ -3280,7 +3450,7 @@
       ]
     },
     {
-      "uid": "FeySparkIII",
+      "uid": "fey-spark-iii",
       "tier": 8,
       "img": "spells/spark.png",
       "title": {
@@ -3298,7 +3468,7 @@
       }
     },
     {
-      "uid": "FeySparkIV",
+      "uid": "fey-spark-iv",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -3316,7 +3486,7 @@
       }
     },
     {
-      "uid": "FeySparkV",
+      "uid": "fey-spark-v",
       "tier": 10,
       "img": "spells/spark.png",
       "title": {
@@ -3334,7 +3504,7 @@
       }
     },
     {
-      "uid": "FeyTremor",
+      "uid": "fey-tremor",
       "tier": 4,
       "img": "spells/quake.png",
       "title": {
@@ -3355,7 +3525,7 @@
       ]
     },
     {
-      "uid": "FeyTremorII",
+      "uid": "fey-tremor-ii",
       "tier": 6,
       "img": "spells/quake.png",
       "title": {
@@ -3376,7 +3546,7 @@
       ]
     },
     {
-      "uid": "FeyTremorIII",
+      "uid": "fey-tremor-iii",
       "tier": 8,
       "img": "spells/quake.png",
       "title": {
@@ -3394,7 +3564,7 @@
       }
     },
     {
-      "uid": "FeyTremorIV",
+      "uid": "fey-tremor-iv",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -3412,7 +3582,7 @@
       }
     },
     {
-      "uid": "FeyTremorV",
+      "uid": "fey-tremor-v",
       "tier": 10,
       "img": "spells/quake.png",
       "title": {
@@ -3430,7 +3600,7 @@
       }
     },
     {
-      "uid": "FireAffinity",
+      "uid": "fire-affinity",
       "tier": 8,
       "img": "spells/flame.png",
       "title": {
@@ -3448,7 +3618,7 @@
       }
     },
     {
-      "uid": "FireAlignment",
+      "uid": "fire-alignment",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -3466,7 +3636,7 @@
       }
     },
     {
-      "uid": "FireArrow",
+      "uid": "fire-arrow",
       "tier": 2,
       "img": "spells/flame.png",
       "title": {
@@ -3484,7 +3654,7 @@
       }
     },
     {
-      "uid": "FireRune",
+      "uid": "fire-sigil",
       "tier": 6,
       "img": "spells/flame.png",
       "title": {
@@ -3502,7 +3672,7 @@
       }
     },
     {
-      "uid": "FireWall",
+      "uid": "fire-wall",
       "tier": 3,
       "img": "spells/flame.png",
       "title": {
@@ -3520,7 +3690,7 @@
       }
     },
     {
-      "uid": "Fireball",
+      "uid": "fireball",
       "tier": 5,
       "img": "spells/meteor.png",
       "title": {
@@ -3539,7 +3709,7 @@
       }
     },
     {
-      "uid": "FireBlight",
+      "uid": "fireblight",
       "tier": 6,
       "img": "spells/flame.png",
       "title": {
@@ -3552,12 +3722,12 @@
       },
       "meta": {
         "causes": {
-          "Fireblight": 10
+          "Fireblight": 40
         }
       }
     },
     {
-      "uid": "FireBlightII",
+      "uid": "fireblight-ii",
       "tier": 6,
       "img": "spells/flame.png",
       "title": {
@@ -3575,7 +3745,7 @@
       }
     },
     {
-      "uid": "Firestrike",
+      "uid": "firestrike",
       "tier": 2,
       "img": "spells/flame.png",
       "title": {
@@ -3593,7 +3763,7 @@
       }
     },
     {
-      "uid": "BigFirestrike",
+      "uid": "firestrike-ii",
       "tier": 5,
       "img": "spells/flame.png",
       "title": {
@@ -3611,7 +3781,7 @@
       }
     },
     {
-      "uid": "FirestrikeIII",
+      "uid": "firestrike-iii",
       "tier": 7,
       "img": "spells/flame.png",
       "title": {
@@ -3629,7 +3799,7 @@
       }
     },
     {
-      "uid": "FirstAid",
+      "uid": "first-aid",
       "tier": 1,
       "img": "spells/heal.png",
       "title": {
@@ -3643,7 +3813,7 @@
       "meta": {}
     },
     {
-      "uid": "SmallFlame",
+      "uid": "flame",
       "tier": 1,
       "img": "spells/flame.png",
       "title": {
@@ -3661,7 +3831,7 @@
       }
     },
     {
-      "uid": "BigFlame",
+      "uid": "flame-ii",
       "tier": 2,
       "img": "spells/flame.png",
       "title": {
@@ -3679,7 +3849,7 @@
       }
     },
     {
-      "uid": "FlameIII",
+      "uid": "flame-iii",
       "tier": 5,
       "img": "spells/flame.png",
       "title": {
@@ -3697,7 +3867,7 @@
       }
     },
     {
-      "uid": "FlameIV",
+      "uid": "flame-iv",
       "tier": 6,
       "img": "spells/flame.png",
       "title": {
@@ -3718,7 +3888,7 @@
       ]
     },
     {
-      "uid": "FlameV",
+      "uid": "flame-v",
       "tier": 8,
       "img": "spells/flame.png",
       "title": {
@@ -3739,7 +3909,7 @@
       ]
     },
     {
-      "uid": "FlameVI",
+      "uid": "flame-vi",
       "tier": 10,
       "img": "spells/flame.png",
       "title": {
@@ -3760,7 +3930,7 @@
       ]
     },
     {
-      "uid": "FlameVII",
+      "uid": "flame-vii",
       "tier": 10,
       "img": "spells/flame.png",
       "title": {
@@ -3778,7 +3948,7 @@
       }
     },
     {
-      "uid": "Flare",
+      "uid": "flare",
       "tier": 4,
       "img": "spells/flare.png",
       "title": {
@@ -3796,7 +3966,7 @@
       }
     },
     {
-      "uid": "BigFlare",
+      "uid": "flare-ii",
       "tier": 5,
       "img": "spells/flare.png",
       "title": {
@@ -3814,7 +3984,7 @@
       }
     },
     {
-      "uid": "FlareIII",
+      "uid": "flare-iii",
       "tier": 8,
       "img": "spells/flare.png",
       "title": {
@@ -3832,7 +4002,7 @@
       }
     },
     {
-      "uid": "Flash",
+      "uid": "flash",
       "tier": 1,
       "img": "spells/holy.png",
       "title": {
@@ -3853,7 +4023,7 @@
       ]
     },
     {
-      "uid": "Flurry",
+      "uid": "flurry",
       "tier": 3,
       "img": "spells/multi_attack.png",
       "title": {
@@ -3871,7 +4041,7 @@
       }
     },
     {
-      "uid": "FlurryII",
+      "uid": "flurry-ii",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -3889,7 +4059,7 @@
       }
     },
     {
-      "uid": "Focus",
+      "uid": "focus",
       "tier": 2,
       "img": "spells/attack_up.png",
       "title": {
@@ -3908,7 +4078,7 @@
       }
     },
     {
-      "uid": "Forbid",
+      "uid": "forbid",
       "tier": 8,
       "img": "spells/attack_down.png",
       "title": {
@@ -3926,7 +4096,7 @@
       }
     },
     {
-      "uid": "ForbiddenArt",
+      "uid": "forbidden-art",
       "tier": 8,
       "img": "spells/sorrow.png",
       "title": {
@@ -3947,7 +4117,7 @@
       }
     },
     {
-      "uid": "ForbiddenArtII",
+      "uid": "forbidden-art-ii",
       "tier": 9,
       "img": "spells/sorrow.png",
       "title": {
@@ -3961,7 +4131,7 @@
       "meta": {}
     },
     {
-      "uid": "Foresee",
+      "uid": "foresee",
       "tier": 1,
       "img": "spells/magic_shield.png",
       "title": {
@@ -3982,7 +4152,7 @@
       ]
     },
     {
-      "uid": "Fortify",
+      "uid": "fortify",
       "tier": 3,
       "img": "spells/ward.png",
       "title": {
@@ -3999,7 +4169,7 @@
       ]
     },
     {
-      "uid": "FortifyII",
+      "uid": "fortify-ii",
       "tier": 3,
       "img": "spells/ward.png",
       "title": {
@@ -4013,7 +4183,7 @@
       "meta": {}
     },
     {
-      "uid": "FortifyIII",
+      "uid": "fortify-iii",
       "tier": 5,
       "img": "spells/ward.png",
       "title": {
@@ -4027,7 +4197,7 @@
       "meta": {}
     },
     {
-      "uid": "Freeze",
+      "uid": "freeze",
       "tier": 2,
       "img": "spells/ice.png",
       "title": {
@@ -4045,7 +4215,7 @@
       }
     },
     {
-      "uid": "Fright",
+      "uid": "fright",
       "tier": 7,
       "img": "spells/blight.png",
       "title": {
@@ -4065,7 +4235,7 @@
       }
     },
     {
-      "uid": "SmallFrost",
+      "uid": "frost",
       "tier": 1,
       "img": "spells/ice.png",
       "title": {
@@ -4083,7 +4253,7 @@
       }
     },
     {
-      "uid": "BigFrost",
+      "uid": "frost-ii",
       "tier": 2,
       "img": "spells/ice.png",
       "title": {
@@ -4101,7 +4271,7 @@
       }
     },
     {
-      "uid": "FrostIII",
+      "uid": "frost-iii",
       "tier": 5,
       "img": "spells/ice.png",
       "title": {
@@ -4119,7 +4289,7 @@
       }
     },
     {
-      "uid": "FrostIV",
+      "uid": "frost-iv",
       "tier": 6,
       "img": "spells/ice.png",
       "title": {
@@ -4140,7 +4310,7 @@
       ]
     },
     {
-      "uid": "FrostV",
+      "uid": "frost-v",
       "tier": 8,
       "img": "spells/ice.png",
       "title": {
@@ -4161,7 +4331,7 @@
       ]
     },
     {
-      "uid": "FrostVI",
+      "uid": "frost-vi",
       "tier": 10,
       "img": "spells/ice.png",
       "title": {
@@ -4182,7 +4352,7 @@
       ]
     },
     {
-      "uid": "FrostVII",
+      "uid": "frost-vii",
       "tier": 10,
       "img": "spells/ice.png",
       "title": {
@@ -4200,7 +4370,7 @@
       }
     },
     {
-      "uid": "Frostfire",
+      "uid": "frostfire",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -4219,7 +4389,7 @@
       }
     },
     {
-      "uid": "FrostfireII",
+      "uid": "frostfire-ii",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -4238,7 +4408,7 @@
       }
     },
     {
-      "uid": "FullBend",
+      "uid": "full-bend",
       "tier": 3,
       "img": "spells/strength.png",
       "title": {
@@ -4256,7 +4426,7 @@
       }
     },
     {
-      "uid": "FullBendII",
+      "uid": "full-bend-ii",
       "tier": 7,
       "img": "spells/strength.png",
       "title": {
@@ -4274,7 +4444,7 @@
       }
     },
     {
-      "uid": "Fulmination",
+      "uid": "fulmination",
       "tier": 4,
       "img": "spells/spark.png",
       "title": {
@@ -4295,7 +4465,7 @@
       }
     },
     {
-      "uid": "FulminationII",
+      "uid": "fulmination-ii",
       "tier": 8,
       "img": "spells/spark.png",
       "title": {
@@ -4316,7 +4486,7 @@
       }
     },
     {
-      "uid": "FulminationIII",
+      "uid": "fulmination-iii",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -4337,7 +4507,7 @@
       }
     },
     {
-      "uid": "MagicDefenseGait",
+      "uid": "gait-of-eir",
       "tier": 10,
       "img": "spells/magic_shield.png",
       "title": {
@@ -4355,7 +4525,7 @@
       }
     },
     {
-      "uid": "AttackGait",
+      "uid": "gait-of-gunnr",
       "tier": 10,
       "img": "spells/attack_up.png",
       "title": {
@@ -4373,7 +4543,7 @@
       }
     },
     {
-      "uid": "DefenseGait",
+      "uid": "gait-of-kara",
       "tier": 10,
       "img": "spells/shield.png",
       "title": {
@@ -4391,7 +4561,7 @@
       }
     },
     {
-      "uid": "MagicGait",
+      "uid": "gait-of-snotra",
       "tier": 10,
       "img": "spells/magic_up.png",
       "title": {
@@ -4409,7 +4579,7 @@
       }
     },
     {
-      "uid": "Galeseal",
+      "uid": "galeseal",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -4427,7 +4597,7 @@
       }
     },
     {
-      "uid": "GalesealII",
+      "uid": "galeseal-ii",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -4445,7 +4615,7 @@
       }
     },
     {
-      "uid": "Galestrike",
+      "uid": "galestrike",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -4463,7 +4633,7 @@
       }
     },
     {
-      "uid": "GalestrikeII",
+      "uid": "galestrike-ii",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -4481,7 +4651,7 @@
       }
     },
     {
-      "uid": "GammaDart",
+      "uid": "gamma-dart",
       "tier": 3,
       "img": "spells/spark.png",
       "title": {
@@ -4500,7 +4670,7 @@
       }
     },
     {
-      "uid": "Glacier",
+      "uid": "glacier",
       "tier": 4,
       "img": "spells/ice.png",
       "title": {
@@ -4521,7 +4691,7 @@
       }
     },
     {
-      "uid": "GlacierII",
+      "uid": "glacier-ii",
       "tier": 8,
       "img": "spells/ice.png",
       "title": {
@@ -4542,7 +4712,7 @@
       }
     },
     {
-      "uid": "GlacierIII",
+      "uid": "glacier-iii",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -4563,7 +4733,7 @@
       }
     },
     {
-      "uid": "Gloomseal",
+      "uid": "gloomseal",
       "tier": 10,
       "img": "spells/shadow.png",
       "title": {
@@ -4581,7 +4751,7 @@
       }
     },
     {
-      "uid": "GloomsealII",
+      "uid": "gloomseal-ii",
       "tier": 10,
       "img": "spells/shadow.png",
       "title": {
@@ -4599,7 +4769,7 @@
       }
     },
     {
-      "uid": "Gloomstrike",
+      "uid": "gloomstrike",
       "tier": 10,
       "img": "spells/shadow.png",
       "title": {
@@ -4617,7 +4787,7 @@
       }
     },
     {
-      "uid": "GloomstrikeII",
+      "uid": "gloomstrike-ii",
       "tier": 10,
       "img": "spells/shadow.png",
       "title": {
@@ -4635,7 +4805,7 @@
       }
     },
     {
-      "uid": "GolemFortitude",
+      "uid": "golems-fortitude",
       "tier": 5,
       "img": "monsters/golem.png",
       "title": {
@@ -4655,12 +4825,29 @@
       }
     },
     {
-      "uid": "TempestIII",
+      "uid": "grand-summon",
+      "tier": 10,
+      "img": "spells/control.png",
+      "title": {
+        "en": "Grand Summon (Off-hand)",
+        "zh": "冠位召喚 (副手)"
+      },
+      "intro": {
+        "en": "Summon one to many beasts to assist you. Requires 3 turns in battle.",
+        "zh": "召喚一到數個小夥伴來協助你。需要三回合發動。"
+      },
+      "meta": {},
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "grand-tempest",
       "tier": 10,
       "img": "spells/flare.png",
       "title": {
         "en": "Grand Tempest",
-        "zh": "狂風暴雨"
+        "zh": "巨型風暴"
       },
       "intro": {
         "en": "Strong wind magic that may cause windswept.",
@@ -4677,7 +4864,7 @@
       }
     },
     {
-      "uid": "GreatCollapse",
+      "uid": "great-collapse",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -4697,7 +4884,7 @@
       }
     },
     {
-      "uid": "GreatFireball",
+      "uid": "great-fireball",
       "tier": 8,
       "img": "spells/meteor.png",
       "title": {
@@ -4716,7 +4903,7 @@
       }
     },
     {
-      "uid": "GreatHeal",
+      "uid": "great-heal",
       "tier": 2,
       "img": "spells/heal.png",
       "title": {
@@ -4730,7 +4917,7 @@
       "meta": {}
     },
     {
-      "uid": "GreatMeditation",
+      "uid": "great-meditation",
       "tier": 7,
       "img": "spells/magic_up.png",
       "title": {
@@ -4748,7 +4935,7 @@
       }
     },
     {
-      "uid": "GreatMeditationII",
+      "uid": "great-meditation-ii",
       "tier": 9,
       "img": "spells/magic_up.png",
       "title": {
@@ -4769,7 +4956,7 @@
       }
     },
     {
-      "uid": "GreatMimicsMischief",
+      "uid": "great-mimics-mischief",
       "tier": 7,
       "img": "monsters/great_mimic.png",
       "title": {
@@ -4814,7 +5001,7 @@
       }
     },
     {
-      "uid": "GreatPlague",
+      "uid": "great-plague",
       "tier": 10,
       "img": "spells/blight.png",
       "title": {
@@ -4836,7 +5023,28 @@
       }
     },
     {
-      "uid": "Greed",
+      "uid": "great-rally-of-charon",
+      "tier": 8,
+      "img": "spells/magic_up.png",
+      "title": {
+        "en": "Great Rally of Charon",
+        "zh": "凱倫大團結"
+      },
+      "intro": {
+        "en": "Has the potential to temporarily boost the offensive or defensive abilities of all summoned allies. Requires 2 turns in battle.",
+        "zh": "有機會暫時性地提升所有小夥伴的攻擊或是防禦能力。需要兩回合發動。"
+      },
+      "meta": {
+        "gives": {
+          "T. Att ↑": 50,
+          "T. Mag ↑": 50,
+          "T. Def ↑": 50,
+          "T. Res ↑": 50
+        }
+      }
+    },
+    {
+      "uid": "greed",
       "tier": 9,
       "img": "spells/bleed.png",
       "title": {
@@ -4850,12 +5058,12 @@
       "meta": {}
     },
     {
-      "uid": "WeaponGreed",
+      "uid": "greed-2",
       "tier": 9,
       "img": "spells/bleed.png",
       "title": {
-        "en": "Greed",
-        "zh": "貪婪"
+        "en": "Greed (Off-hand)",
+        "zh": "貪婪 (副手)"
       },
       "intro": {
         "en": "Deals damage and steals HP.",
@@ -4867,7 +5075,7 @@
       ]
     },
     {
-      "uid": "Guard",
+      "uid": "guard",
       "tier": 1,
       "img": "spells/shield.png",
       "title": {
@@ -4888,7 +5096,7 @@
       ]
     },
     {
-      "uid": "GuardingStrike",
+      "uid": "guarding-strike",
       "tier": 8,
       "img": "spells/ward.png",
       "title": {
@@ -4902,7 +5110,7 @@
       "meta": {}
     },
     {
-      "uid": "GuardingStrikes",
+      "uid": "guarding-strikes",
       "tier": 8,
       "img": "spells/ward.png",
       "title": {
@@ -4916,7 +5124,7 @@
       "meta": {}
     },
     {
-      "uid": "GuardingStrikesII",
+      "uid": "guarding-strikes-ii",
       "tier": 9,
       "img": "spells/ward.png",
       "title": {
@@ -4930,7 +5138,7 @@
       "meta": {}
     },
     {
-      "uid": "GuardingStrikesIII",
+      "uid": "guarding-strikes-iii",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -4944,7 +5152,7 @@
       "meta": {}
     },
     {
-      "uid": "Guts",
+      "uid": "guts",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -4958,7 +5166,7 @@
       "meta": {}
     },
     {
-      "uid": "HackAndSlash",
+      "uid": "hack-and-slash",
       "tier": 2,
       "img": "spells/multi_attack.png",
       "title": {
@@ -4975,7 +5183,7 @@
       ]
     },
     {
-      "uid": "Haste",
+      "uid": "haste",
       "tier": 3,
       "img": "spells/speed.png",
       "title": {
@@ -4993,7 +5201,7 @@
       }
     },
     {
-      "uid": "GreatHaste",
+      "uid": "haste-2",
       "tier": 8,
       "img": "spells/speed.png",
       "title": {
@@ -5011,7 +5219,7 @@
       }
     },
     {
-      "uid": "Heal",
+      "uid": "heal",
       "tier": 1,
       "img": "spells/heal.png",
       "title": {
@@ -5025,7 +5233,7 @@
       "meta": {}
     },
     {
-      "uid": "HeatLightning",
+      "uid": "heat-lightning",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -5044,7 +5252,7 @@
       }
     },
     {
-      "uid": "HeatLightningII",
+      "uid": "heat-lightning-ii",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -5063,7 +5271,7 @@
       }
     },
     {
-      "uid": "HolyFacade",
+      "uid": "holy-facade",
       "tier": 9,
       "img": "spells/holy.png",
       "title": {
@@ -5081,7 +5289,7 @@
       }
     },
     {
-      "uid": "HolyLight",
+      "uid": "holy-light",
       "tier": 4,
       "img": "spells/holy.png",
       "title": {
@@ -5099,7 +5307,7 @@
       }
     },
     {
-      "uid": "HolyLightII",
+      "uid": "holy-light-ii",
       "tier": 7,
       "img": "spells/holy.png",
       "title": {
@@ -5117,7 +5325,7 @@
       }
     },
     {
-      "uid": "HolyRune",
+      "uid": "holy-sigil",
       "tier": 6,
       "img": "spells/holy.png",
       "title": {
@@ -5135,7 +5343,7 @@
       }
     },
     {
-      "uid": "HolyWall",
+      "uid": "holy-wall",
       "tier": 5,
       "img": "spells/holy.png",
       "title": {
@@ -5153,7 +5361,7 @@
       }
     },
     {
-      "uid": "HolyBlight",
+      "uid": "holyblight",
       "tier": 6,
       "img": "spells/holy.png",
       "title": {
@@ -5166,12 +5374,12 @@
       },
       "meta": {
         "causes": {
-          "Holyblight": 10
+          "Holyblight": 40
         }
       }
     },
     {
-      "uid": "HolyBlightII",
+      "uid": "holyblight-ii",
       "tier": 6,
       "img": "spells/holy.png",
       "title": {
@@ -5189,7 +5397,7 @@
       }
     },
     {
-      "uid": "Holystrike",
+      "uid": "holystrike",
       "tier": 3,
       "img": "spells/holy.png",
       "title": {
@@ -5207,7 +5415,7 @@
       }
     },
     {
-      "uid": "BigHolystrike",
+      "uid": "holystrike-ii",
       "tier": 5,
       "img": "spells/holy.png",
       "title": {
@@ -5225,7 +5433,7 @@
       }
     },
     {
-      "uid": "HolystrikeIII",
+      "uid": "holystrike-iii",
       "tier": 7,
       "img": "spells/holy.png",
       "title": {
@@ -5243,7 +5451,7 @@
       }
     },
     {
-      "uid": "HorizontalSlash",
+      "uid": "horizontal-slash",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -5261,12 +5469,12 @@
       }
     },
     {
-      "uid": "WeaponHorizontalSlash",
+      "uid": "horizontal-slash-2",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Horizontal Slash",
-        "zh": "水平斬"
+        "en": "Horizontal Slash (Off-hand)",
+        "zh": "水平斬 (副手)"
       },
       "intro": {
         "en": "Attack from the side, cutting an opponent's defenses and giving Ward for 1 turn.",
@@ -5282,7 +5490,7 @@
       ]
     },
     {
-      "uid": "Hubris",
+      "uid": "hubris",
       "tier": 9,
       "img": "spells/attack_up.png",
       "title": {
@@ -5303,7 +5511,7 @@
       }
     },
     {
-      "uid": "IceAffinity",
+      "uid": "ice-affinity",
       "tier": 8,
       "img": "spells/ice.png",
       "title": {
@@ -5321,7 +5529,7 @@
       }
     },
     {
-      "uid": "IceAlignment",
+      "uid": "ice-alignment",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -5339,7 +5547,7 @@
       }
     },
     {
-      "uid": "IceArrow",
+      "uid": "ice-arrow",
       "tier": 2,
       "img": "spells/ice.png",
       "title": {
@@ -5357,7 +5565,7 @@
       }
     },
     {
-      "uid": "IceRune",
+      "uid": "ice-sigil",
       "tier": 6,
       "img": "spells/ice.png",
       "title": {
@@ -5375,7 +5583,7 @@
       }
     },
     {
-      "uid": "IceStorm",
+      "uid": "ice-storm",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -5394,7 +5602,7 @@
       }
     },
     {
-      "uid": "IceStormII",
+      "uid": "ice-storm-ii",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -5413,7 +5621,7 @@
       }
     },
     {
-      "uid": "IceWall",
+      "uid": "ice-wall",
       "tier": 3,
       "img": "spells/ice.png",
       "title": {
@@ -5431,7 +5639,7 @@
       }
     },
     {
-      "uid": "IceBlight",
+      "uid": "iceblight",
       "tier": 6,
       "img": "spells/ice.png",
       "title": {
@@ -5444,12 +5652,12 @@
       },
       "meta": {
         "causes": {
-          "Waterblight": 10
+          "Waterblight": 40
         }
       }
     },
     {
-      "uid": "IceBlightII",
+      "uid": "iceblight-ii",
       "tier": 6,
       "img": "spells/ice.png",
       "title": {
@@ -5467,7 +5675,7 @@
       }
     },
     {
-      "uid": "IcedEarth",
+      "uid": "iced-earth",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -5486,7 +5694,7 @@
       }
     },
     {
-      "uid": "IcedEarthII",
+      "uid": "iced-earth-ii",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -5505,7 +5713,7 @@
       }
     },
     {
-      "uid": "Icestrike",
+      "uid": "icestrike",
       "tier": 2,
       "img": "spells/ice.png",
       "title": {
@@ -5523,7 +5731,7 @@
       }
     },
     {
-      "uid": "BigIcestrike",
+      "uid": "icestrike-ii",
       "tier": 5,
       "img": "spells/ice.png",
       "title": {
@@ -5541,7 +5749,7 @@
       }
     },
     {
-      "uid": "IcestrikeIII",
+      "uid": "icestrike-iii",
       "tier": 7,
       "img": "spells/ice.png",
       "title": {
@@ -5559,7 +5767,7 @@
       }
     },
     {
-      "uid": "EarthImbue",
+      "uid": "imbue-earth",
       "tier": 5,
       "img": "spells/quake.png",
       "title": {
@@ -5577,7 +5785,7 @@
       }
     },
     {
-      "uid": "FireImbue",
+      "uid": "imbue-fire",
       "tier": 5,
       "img": "spells/flame.png",
       "title": {
@@ -5595,7 +5803,7 @@
       }
     },
     {
-      "uid": "IceImbue",
+      "uid": "imbue-ice",
       "tier": 5,
       "img": "spells/ice.png",
       "title": {
@@ -5613,7 +5821,7 @@
       }
     },
     {
-      "uid": "LightningImbue",
+      "uid": "imbue-lightning",
       "tier": 5,
       "img": "spells/spark.png",
       "title": {
@@ -5631,7 +5839,7 @@
       }
     },
     {
-      "uid": "ZweiImpale",
+      "uid": "impale",
       "tier": 7,
       "img": "spells/multi_attack.png",
       "title": {
@@ -5649,7 +5857,7 @@
       }
     },
     {
-      "uid": "QuickImpale",
+      "uid": "impale-2",
       "tier": 7,
       "img": "spells/multi_attack.png",
       "title": {
@@ -5667,12 +5875,12 @@
       }
     },
     {
-      "uid": "Impale",
+      "uid": "impale-3",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Impale",
-        "zh": "尖刺酷刑"
+        "en": "Impale (Off-hand)",
+        "zh": "尖刺酷刑 (副手)"
       },
       "intro": {
         "en": "Attack with your weapon extended, dealing moderate damage but mitigating damage from your opponent's next attack.",
@@ -5688,7 +5896,7 @@
       ]
     },
     {
-      "uid": "Inferno",
+      "uid": "inferno",
       "tier": 4,
       "img": "spells/flame.png",
       "title": {
@@ -5709,7 +5917,7 @@
       }
     },
     {
-      "uid": "FireFacade",
+      "uid": "inferno-facade",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -5727,7 +5935,7 @@
       }
     },
     {
-      "uid": "InfernoII",
+      "uid": "inferno-ii",
       "tier": 8,
       "img": "spells/flame.png",
       "title": {
@@ -5748,7 +5956,7 @@
       }
     },
     {
-      "uid": "InfernoIII",
+      "uid": "inferno-iii",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -5769,7 +5977,7 @@
       }
     },
     {
-      "uid": "FireWard",
+      "uid": "inferno-ward",
       "tier": 8,
       "img": "spells/flame.png",
       "title": {
@@ -5787,7 +5995,7 @@
       }
     },
     {
-      "uid": "Inquest",
+      "uid": "inquest",
       "tier": 6,
       "img": "spells/attack_up.png",
       "title": {
@@ -5805,7 +6013,7 @@
       }
     },
     {
-      "uid": "JinnsTalent",
+      "uid": "jinns-talent",
       "tier": 5,
       "img": "monsters/jinn.png",
       "title": {
@@ -5825,7 +6033,7 @@
       }
     },
     {
-      "uid": "Jump",
+      "uid": "jump",
       "tier": 7,
       "img": "spells/multi_attack.png",
       "title": {
@@ -5844,7 +6052,7 @@
       }
     },
     {
-      "uid": "JumpII",
+      "uid": "jump-ii",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -5863,7 +6071,7 @@
       }
     },
     {
-      "uid": "KingsReign",
+      "uid": "kings-reign",
       "tier": 8,
       "img": "spells/nova.png",
       "title": {
@@ -5881,7 +6089,7 @@
       }
     },
     {
-      "uid": "Lacuna",
+      "uid": "lacuna",
       "tier": 7,
       "img": "spells/star.png",
       "title": {
@@ -5899,12 +6107,12 @@
       }
     },
     {
-      "uid": "WeaponLacuna",
+      "uid": "lacuna-2",
       "tier": 4,
       "img": "spells/star.png",
       "title": {
-        "en": "Lacuna",
-        "zh": "時空間隙"
+        "en": "Lacuna (Off-hand)",
+        "zh": "時空間隙 (副手)"
       },
       "intro": {
         "en": "Deals non-elemental magic damage and may suspend an enemy in time.",
@@ -5920,7 +6128,7 @@
       ]
     },
     {
-      "uid": "LacunaII",
+      "uid": "lacuna-ii",
       "tier": 9,
       "img": "spells/star.png",
       "title": {
@@ -5938,7 +6146,7 @@
       }
     },
     {
-      "uid": "Lacunus",
+      "uid": "lacunus",
       "tier": 7,
       "img": "spells/star.png",
       "title": {
@@ -5956,16 +6164,16 @@
       }
     },
     {
-      "uid": "WeaponLacunus",
+      "uid": "lacunus-2",
       "tier": 9,
       "img": "spells/star.png",
       "title": {
-        "en": "Lacunus",
-        "zh": "時空斷裂"
+        "en": "Lacunus (Off-hand)",
+        "zh": "時空斷裂 (副手)"
       },
       "intro": {
-        "en": "Deals non-elemental magic damage and may suspend an enemy in time.",
-        "zh": "造成無屬性傷害並有機會將對手限制在時間之中。"
+        "en": "Deals non-elemental magic damage to all enemies and may suspend an enemy in time.",
+        "zh": "對所有對手造成無屬性傷害並有機會將對手限制在時間之中。"
       },
       "meta": {
         "causes": {
@@ -5977,7 +6185,7 @@
       ]
     },
     {
-      "uid": "LacunusII",
+      "uid": "lacunus-ii",
       "tier": 9,
       "img": "spells/star.png",
       "title": {
@@ -5995,12 +6203,12 @@
       }
     },
     {
-      "uid": "LaySpikes",
+      "uid": "lay-spikes",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Lay Spikes",
-        "zh": "利器鋪設"
+        "en": "Lay Spikes (Off-hand)",
+        "zh": "利器鋪設 (副手)"
       },
       "intro": {
         "en": "Lay spikes around your opponent, potentially greatly increasing damage and the chance for a critical strike.",
@@ -6016,7 +6224,49 @@
       ]
     },
     {
-      "uid": "LightningAffinity",
+      "uid": "life-pact",
+      "tier": 7,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Life Pact",
+        "zh": "生命盟約"
+      },
+      "intro": {
+        "en": "Use 10 percent of your total HP to heal all summons.",
+        "zh": "使用你10%的生命值用來治療所有小夥伴們。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "life-pact-ii",
+      "tier": 8,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Life Pact II",
+        "zh": "生命盟約 II"
+      },
+      "intro": {
+        "en": "Use 20 percent of your total HP to heal all summons.",
+        "zh": "使用你的20% HP來治療所有小夥伴。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "life-pact-iii",
+      "tier": 9,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Life Pact III",
+        "zh": "生命盟約 III"
+      },
+      "intro": {
+        "en": "Use 30 percent of your total HP to heal all summons. Requires 2 turns in battle.",
+        "zh": "使用你的30% HP來治療小夥伴。需要2回合施展。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "lightning-affinity",
       "tier": 8,
       "img": "spells/spark.png",
       "title": {
@@ -6034,7 +6284,7 @@
       }
     },
     {
-      "uid": "LightningAlignment",
+      "uid": "lightning-alignment",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -6052,7 +6302,7 @@
       }
     },
     {
-      "uid": "LightningRune",
+      "uid": "lightning-sigil",
       "tier": 6,
       "img": "spells/spark.png",
       "title": {
@@ -6070,7 +6320,7 @@
       }
     },
     {
-      "uid": "LightningWall",
+      "uid": "lightning-wall",
       "tier": 3,
       "img": "spells/spark.png",
       "title": {
@@ -6088,7 +6338,7 @@
       }
     },
     {
-      "uid": "LightningBlight",
+      "uid": "lightningblight",
       "tier": 6,
       "img": "spells/spark.png",
       "title": {
@@ -6101,12 +6351,12 @@
       },
       "meta": {
         "causes": {
-          "Lightningblight": 10
+          "Lightningblight": 40
         }
       }
     },
     {
-      "uid": "LightningBlightII",
+      "uid": "lightningblight-ii",
       "tier": 6,
       "img": "spells/spark.png",
       "title": {
@@ -6124,7 +6374,7 @@
       }
     },
     {
-      "uid": "Lightningstrike",
+      "uid": "lightningstrike",
       "tier": 2,
       "img": "spells/spark.png",
       "title": {
@@ -6142,7 +6392,7 @@
       }
     },
     {
-      "uid": "BigLightningstrike",
+      "uid": "lightningstrike-ii",
       "tier": 5,
       "img": "spells/spark.png",
       "title": {
@@ -6160,7 +6410,7 @@
       }
     },
     {
-      "uid": "LightningstrikeIII",
+      "uid": "lightningstrike-iii",
       "tier": 7,
       "img": "spells/spark.png",
       "title": {
@@ -6178,7 +6428,7 @@
       }
     },
     {
-      "uid": "Lostseal",
+      "uid": "lostseal",
       "tier": 10,
       "img": "spells/arcane.png",
       "title": {
@@ -6199,7 +6449,7 @@
       }
     },
     {
-      "uid": "LostsealII",
+      "uid": "lostseal-ii",
       "tier": 10,
       "img": "spells/arcane.png",
       "title": {
@@ -6220,7 +6470,7 @@
       }
     },
     {
-      "uid": "Loststrike",
+      "uid": "loststrike",
       "tier": 10,
       "img": "spells/arcane.png",
       "title": {
@@ -6241,7 +6491,7 @@
       }
     },
     {
-      "uid": "LoststrikeII",
+      "uid": "loststrike-ii",
       "tier": 10,
       "img": "spells/arcane.png",
       "title": {
@@ -6262,7 +6512,7 @@
       }
     },
     {
-      "uid": "Lunge",
+      "uid": "lunge",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6276,7 +6526,7 @@
       "meta": {}
     },
     {
-      "uid": "LungeII",
+      "uid": "lunge-ii",
       "tier": 3,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6293,7 +6543,7 @@
       ]
     },
     {
-      "uid": "LungeIII",
+      "uid": "lunge-iii",
       "tier": 5,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6310,7 +6560,7 @@
       ]
     },
     {
-      "uid": "LususNaturae",
+      "uid": "lusus-naturae",
       "tier": 9,
       "img": "spells/blight.png",
       "title": {
@@ -6319,7 +6569,7 @@
       },
       "intro": {
         "en": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats.",
-        "zh": "造成大量龍屬性物理傷害，傷害量同時計入物攻及魔攻，並啟動護盾一回合。"
+        "zh": "造成大量龍屬性魔法傷害，傷害量同時計入物攻及魔攻，並啟動護盾一回合。"
       },
       "meta": {
         "causes": {
@@ -6328,7 +6578,7 @@
       }
     },
     {
-      "uid": "LususNaturaeII",
+      "uid": "lusus-naturae-ii",
       "tier": 9,
       "img": "spells/blight.png",
       "title": {
@@ -6337,7 +6587,7 @@
       },
       "intro": {
         "en": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats.",
-        "zh": "造成大量龍屬性物理傷害，傷害量同時計入物攻及魔攻，並啟動護盾一回合。"
+        "zh": "造成大量龍屬性魔法傷害，傷害量同時計入物攻及魔攻，並啟動護盾一回合。"
       },
       "meta": {
         "causes": {
@@ -6346,7 +6596,7 @@
       }
     },
     {
-      "uid": "LususNaturaeIII",
+      "uid": "lusus-naturae-iii",
       "tier": 10,
       "img": "spells/blight.png",
       "title": {
@@ -6355,7 +6605,7 @@
       },
       "intro": {
         "en": "Deal magic damage with the might of beasts and acquire Ward for 1 turn. Total damage is determined by both your attack and magic stats.",
-        "zh": "造成大量龍屬性物理傷害，傷害量同時計入物攻及魔攻，並啟動護盾一回合。"
+        "zh": "造成大量龍屬性魔法傷害，傷害量同時計入物攻及魔攻，並啟動護盾一回合。"
       },
       "meta": {
         "causes": {
@@ -6364,7 +6614,7 @@
       }
     },
     {
-      "uid": "ExecuteMarked",
+      "uid": "lyons-execution",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -6378,7 +6628,7 @@
       "meta": {}
     },
     {
-      "uid": "LyonsMark",
+      "uid": "lyons-mark",
       "tier": 6,
       "img": "spells/shadow.png",
       "title": {
@@ -6396,7 +6646,7 @@
       }
     },
     {
-      "uid": "DanceOfMagic",
+      "uid": "mages-dance",
       "tier": 6,
       "img": "spells/blast.png",
       "title": {
@@ -6417,7 +6667,7 @@
       }
     },
     {
-      "uid": "DanceOfMagicII",
+      "uid": "mages-pavane",
       "tier": 9,
       "img": "spells/blast.png",
       "title": {
@@ -6438,7 +6688,7 @@
       }
     },
     {
-      "uid": "MagicArrow",
+      "uid": "magic-arrow",
       "tier": 4,
       "img": "spells/magic.png",
       "title": {
@@ -6456,7 +6706,7 @@
       }
     },
     {
-      "uid": "MagicArrowII",
+      "uid": "magic-arrow-ii",
       "tier": 6,
       "img": "spells/magic.png",
       "title": {
@@ -6474,7 +6724,7 @@
       }
     },
     {
-      "uid": "MagicArrowIII",
+      "uid": "magic-arrow-iii",
       "tier": 8,
       "img": "spells/magic.png",
       "title": {
@@ -6492,7 +6742,7 @@
       }
     },
     {
-      "uid": "MagicArrowIV",
+      "uid": "magic-arrow-iv",
       "tier": 10,
       "img": "spells/magic.png",
       "title": {
@@ -6510,7 +6760,7 @@
       }
     },
     {
-      "uid": "MagicBoost",
+      "uid": "magic-boost",
       "tier": 2,
       "img": "spells/magic_up.png",
       "title": {
@@ -6528,7 +6778,7 @@
       }
     },
     {
-      "uid": "MagicDagger",
+      "uid": "magic-dagger",
       "tier": 4,
       "img": "spells/magic.png",
       "title": {
@@ -6546,7 +6796,7 @@
       }
     },
     {
-      "uid": "MagicDaggerII",
+      "uid": "magic-dagger-ii",
       "tier": 6,
       "img": "spells/magic.png",
       "title": {
@@ -6564,7 +6814,7 @@
       }
     },
     {
-      "uid": "MagicDaggerIII",
+      "uid": "magic-dagger-iii",
       "tier": 8,
       "img": "spells/magic.png",
       "title": {
@@ -6582,7 +6832,7 @@
       }
     },
     {
-      "uid": "MagicDaggerIV",
+      "uid": "magic-dagger-iv",
       "tier": 10,
       "img": "spells/magic.png",
       "title": {
@@ -6600,7 +6850,7 @@
       }
     },
     {
-      "uid": "MagicHammer",
+      "uid": "magic-hammer",
       "tier": 4,
       "img": "spells/magic.png",
       "title": {
@@ -6618,7 +6868,7 @@
       }
     },
     {
-      "uid": "MagicHammerII",
+      "uid": "magic-hammer-ii",
       "tier": 6,
       "img": "spells/magic.png",
       "title": {
@@ -6636,7 +6886,7 @@
       }
     },
     {
-      "uid": "MagicHammerIII",
+      "uid": "magic-hammer-iii",
       "tier": 8,
       "img": "spells/magic.png",
       "title": {
@@ -6654,7 +6904,7 @@
       }
     },
     {
-      "uid": "MagicHammerIV",
+      "uid": "magic-hammer-iv",
       "tier": 10,
       "img": "spells/magic.png",
       "title": {
@@ -6672,7 +6922,7 @@
       }
     },
     {
-      "uid": "MagicShield",
+      "uid": "magic-shield",
       "tier": 2,
       "img": "spells/magic_shield.png",
       "title": {
@@ -6690,7 +6940,7 @@
       }
     },
     {
-      "uid": "GreatMagicShield",
+      "uid": "magic-shield-ii",
       "tier": 4,
       "img": "spells/magic_shield.png",
       "title": {
@@ -6708,7 +6958,7 @@
       }
     },
     {
-      "uid": "MagicCuts",
+      "uid": "magic-strikes",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6722,7 +6972,7 @@
       "meta": {}
     },
     {
-      "uid": "MagicCutsII",
+      "uid": "magic-strikes-ii",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6736,7 +6986,7 @@
       "meta": {}
     },
     {
-      "uid": "MagicCutsIII",
+      "uid": "magic-strikes-iii",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6750,7 +7000,7 @@
       "meta": {}
     },
     {
-      "uid": "MagicCutsIV",
+      "uid": "magic-strikes-iv",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -6764,7 +7014,7 @@
       "meta": {}
     },
     {
-      "uid": "MagicSword",
+      "uid": "magic-sword",
       "tier": 4,
       "img": "spells/magic.png",
       "title": {
@@ -6782,7 +7032,7 @@
       }
     },
     {
-      "uid": "MagicSwordII",
+      "uid": "magic-sword-ii",
       "tier": 6,
       "img": "spells/magic.png",
       "title": {
@@ -6800,7 +7050,7 @@
       }
     },
     {
-      "uid": "MagicSwordIII",
+      "uid": "magic-sword-iii",
       "tier": 8,
       "img": "spells/magic.png",
       "title": {
@@ -6818,7 +7068,7 @@
       }
     },
     {
-      "uid": "MagicSwordIV",
+      "uid": "magic-sword-iv",
       "tier": 10,
       "img": "spells/magic.png",
       "title": {
@@ -6836,7 +7086,7 @@
       }
     },
     {
-      "uid": "ZweiManaBurn",
+      "uid": "mana-burn",
       "tier": 7,
       "img": "spells/magic_up.png",
       "title": {
@@ -6850,12 +7100,12 @@
       "meta": {}
     },
     {
-      "uid": "ManaBurn",
+      "uid": "mana-burn-2",
       "tier": 1,
       "img": "spells/magic_up.png",
       "title": {
-        "en": "Mana Burn",
-        "zh": "魔力燃燒"
+        "en": "Mana Burn (Off-hand)",
+        "zh": "魔力燃燒 (副手)"
       },
       "intro": {
         "en": "Converts half of your available mana into damage against an opponent.",
@@ -6867,12 +7117,12 @@
       ]
     },
     {
-      "uid": "ManaBurnII",
+      "uid": "mana-burn-ii",
       "tier": 1,
       "img": "spells/magic_up.png",
       "title": {
-        "en": "Mana Burn II",
-        "zh": "魔力燃燒 II"
+        "en": "Mana Burn II (Off-hand)",
+        "zh": "魔力燃燒 II (副手)"
       },
       "intro": {
         "en": "Converts most of your available mana into damage against an opponent.",
@@ -6884,7 +7134,7 @@
       ]
     },
     {
-      "uid": "MendWall",
+      "uid": "mend-wall",
       "tier": 3,
       "img": "spells/heal.png",
       "title": {
@@ -6901,7 +7151,7 @@
       ]
     },
     {
-      "uid": "MendWallII",
+      "uid": "mend-wall-ii",
       "tier": 3,
       "img": "spells/heal.png",
       "title": {
@@ -6915,7 +7165,7 @@
       "meta": {}
     },
     {
-      "uid": "MendWallIII",
+      "uid": "mend-wall-iii",
       "tier": 5,
       "img": "spells/heal.png",
       "title": {
@@ -6929,7 +7179,7 @@
       "meta": {}
     },
     {
-      "uid": "Meteor",
+      "uid": "meteor",
       "tier": 3,
       "img": "spells/meteor.png",
       "title": {
@@ -6947,7 +7197,7 @@
       }
     },
     {
-      "uid": "BigMeteor",
+      "uid": "meteor-ii",
       "tier": 4,
       "img": "spells/meteor.png",
       "title": {
@@ -6965,7 +7215,7 @@
       }
     },
     {
-      "uid": "Miasma",
+      "uid": "miasma",
       "tier": 8,
       "img": "spells/blight.png",
       "title": {
@@ -6987,7 +7237,7 @@
       ]
     },
     {
-      "uid": "MiasmaII",
+      "uid": "miasma-ii",
       "tier": 9,
       "img": "spells/blight.png",
       "title": {
@@ -7010,7 +7260,7 @@
       }
     },
     {
-      "uid": "MiasmaIII",
+      "uid": "miasma-iii",
       "tier": 10,
       "img": "spells/blight.png",
       "title": {
@@ -7037,7 +7287,7 @@
       }
     },
     {
-      "uid": "MightyCharge",
+      "uid": "mighty-charge",
       "tier": 3,
       "img": "spells/multi_attack.png",
       "title": {
@@ -7051,7 +7301,7 @@
       "meta": {}
     },
     {
-      "uid": "MimicsMischief",
+      "uid": "mimics-mischief",
       "tier": 5,
       "img": "monsters/mimic.png",
       "title": {
@@ -7080,7 +7330,7 @@
       }
     },
     {
-      "uid": "Mindblast",
+      "uid": "mindblast",
       "tier": 5,
       "img": "spells/mindblast.png",
       "title": {
@@ -7102,7 +7352,7 @@
       }
     },
     {
-      "uid": "Miracle",
+      "uid": "miracle",
       "tier": 3,
       "img": "spells/heal.png",
       "title": {
@@ -7121,7 +7371,7 @@
       }
     },
     {
-      "uid": "MultiFlame",
+      "uid": "multi-flame",
       "tier": 6,
       "img": "spells/flame.png",
       "title": {
@@ -7139,7 +7389,7 @@
       }
     },
     {
-      "uid": "MultiFlameII",
+      "uid": "multi-flame-ii",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -7157,7 +7407,7 @@
       }
     },
     {
-      "uid": "MultiFlameIII",
+      "uid": "multi-flame-iii",
       "tier": 10,
       "img": "spells/flame.png",
       "title": {
@@ -7175,7 +7425,7 @@
       }
     },
     {
-      "uid": "MultiFlare",
+      "uid": "multi-flare",
       "tier": 7,
       "img": "spells/flare.png",
       "title": {
@@ -7193,7 +7443,7 @@
       }
     },
     {
-      "uid": "MultiFrost",
+      "uid": "multi-frost",
       "tier": 6,
       "img": "spells/ice.png",
       "title": {
@@ -7211,7 +7461,7 @@
       }
     },
     {
-      "uid": "MultiFrostII",
+      "uid": "multi-frost-ii",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -7229,7 +7479,7 @@
       }
     },
     {
-      "uid": "MultiFrostIII",
+      "uid": "multi-frost-iii",
       "tier": 10,
       "img": "spells/ice.png",
       "title": {
@@ -7247,7 +7497,7 @@
       }
     },
     {
-      "uid": "MultiDark",
+      "uid": "multi-shadow",
       "tier": 8,
       "img": "spells/nightmare.png",
       "title": {
@@ -7265,7 +7515,7 @@
       }
     },
     {
-      "uid": "MultiSpark",
+      "uid": "multi-spark",
       "tier": 6,
       "img": "spells/spark.png",
       "title": {
@@ -7283,7 +7533,7 @@
       }
     },
     {
-      "uid": "MultiSparkII",
+      "uid": "multi-spark-ii",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -7301,7 +7551,7 @@
       }
     },
     {
-      "uid": "MultiSparkIII",
+      "uid": "multi-spark-iii",
       "tier": 10,
       "img": "spells/spark.png",
       "title": {
@@ -7319,7 +7569,7 @@
       }
     },
     {
-      "uid": "MultiQuake",
+      "uid": "multi-tremor",
       "tier": 6,
       "img": "spells/quake.png",
       "title": {
@@ -7337,7 +7587,7 @@
       }
     },
     {
-      "uid": "MultiQuakeII",
+      "uid": "multi-tremor-ii",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -7355,7 +7605,7 @@
       }
     },
     {
-      "uid": "MultiQuakeIII",
+      "uid": "multi-tremor-iii",
       "tier": 10,
       "img": "spells/quake.png",
       "title": {
@@ -7373,7 +7623,7 @@
       }
     },
     {
-      "uid": "MagicDown",
+      "uid": "mute",
       "tier": 3,
       "img": "spells/magic_down.png",
       "title": {
@@ -7391,7 +7641,7 @@
       }
     },
     {
-      "uid": "Natura",
+      "uid": "natura",
       "tier": 5,
       "img": "spells/quake.png",
       "title": {
@@ -7409,7 +7659,7 @@
       }
     },
     {
-      "uid": "NaturaII",
+      "uid": "natura-ii",
       "tier": 7,
       "img": "spells/quake.png",
       "title": {
@@ -7427,7 +7677,7 @@
       }
     },
     {
-      "uid": "NaturaIII",
+      "uid": "natura-iii",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -7445,7 +7695,49 @@
       }
     },
     {
-      "uid": "Nightmare",
+      "uid": "nekrosis",
+      "tier": 8,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Nekrosis",
+        "zh": "亡靈異變"
+      },
+      "intro": {
+        "en": "Deals damage according to the amount of foes one has recently slain. This spell may not have its damage directly increased by buffs.",
+        "zh": "根據最近擊殺的敵人數量造成傷害。增益效果可能不會直接提升此魔法的傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "nekrosis-ii",
+      "tier": 8,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Nekrosis II",
+        "zh": "亡靈異變 II"
+      },
+      "intro": {
+        "en": "Deals immense damage according to the amount of foes one has recently slain. Requires 2 turns in battle. This spell may not have its damage directly increased by buffs.",
+        "zh": "根據最近擊殺的敵人數量造成巨量傷害。施放需要兩回合。增益效果可能不會直接提升此魔法的傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "nekrosis-iii",
+      "tier": 8,
+      "img": "spells/sorrow.png",
+      "title": {
+        "en": "Nekrosis III",
+        "zh": "亡靈異變 III"
+      },
+      "intro": {
+        "en": "Deals great damage according to the amount of foes one has recently slain, but may miss its mark.",
+        "zh": "根據最近擊殺的敵人數量造成巨量傷害，但有時會失去準星。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "nightmare",
       "tier": 4,
       "img": "spells/nightmare.png",
       "title": {
@@ -7463,7 +7755,7 @@
       }
     },
     {
-      "uid": "BigNightmare",
+      "uid": "nightmare-ii",
       "tier": 8,
       "img": "spells/nightmare.png",
       "title": {
@@ -7481,7 +7773,7 @@
       }
     },
     {
-      "uid": "NoAffinity",
+      "uid": "no-affinity",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -7495,7 +7787,7 @@
       "meta": {}
     },
     {
-      "uid": "Octoblast",
+      "uid": "octoblast",
       "tier": 10,
       "img": "spells/nova.png",
       "title": {
@@ -7519,7 +7811,7 @@
       }
     },
     {
-      "uid": "Omnistrike",
+      "uid": "omnistrike",
       "tier": 4,
       "img": "spells/omni.png",
       "title": {
@@ -7540,7 +7832,7 @@
       }
     },
     {
-      "uid": "BigOmnistrike",
+      "uid": "omnistrike-ii",
       "tier": 4,
       "img": "spells/omni.png",
       "title": {
@@ -7561,7 +7853,7 @@
       }
     },
     {
-      "uid": "OmnistrikeIII",
+      "uid": "omnistrike-iii",
       "tier": 7,
       "img": "spells/omni.png",
       "title": {
@@ -7582,7 +7874,7 @@
       }
     },
     {
-      "uid": "OmniTripleCut",
+      "uid": "omnistrikes",
       "tier": 9,
       "img": "spells/omni.png",
       "title": {
@@ -7603,7 +7895,7 @@
       }
     },
     {
-      "uid": "OmniTripleCutII",
+      "uid": "omnistrikes-ii",
       "tier": 10,
       "img": "spells/omni.png",
       "title": {
@@ -7624,7 +7916,7 @@
       }
     },
     {
-      "uid": "Onslaught",
+      "uid": "onslaught",
       "tier": 5,
       "img": "spells/bleed.png",
       "title": {
@@ -7643,7 +7935,7 @@
       }
     },
     {
-      "uid": "OnslaughtII",
+      "uid": "onslaught-ii",
       "tier": 5,
       "img": "spells/bleed.png",
       "title": {
@@ -7662,7 +7954,7 @@
       }
     },
     {
-      "uid": "Osmostrike",
+      "uid": "osmostrike",
       "tier": 3,
       "img": "spells/drain.png",
       "title": {
@@ -7676,7 +7968,7 @@
       "meta": {}
     },
     {
-      "uid": "BigOsmostrike",
+      "uid": "osmostrike-ii",
       "tier": 5,
       "img": "spells/drain.png",
       "title": {
@@ -7690,7 +7982,7 @@
       "meta": {}
     },
     {
-      "uid": "OsmostrikeIII",
+      "uid": "osmostrike-iii",
       "tier": 7,
       "img": "spells/drain.png",
       "title": {
@@ -7704,7 +7996,7 @@
       "meta": {}
     },
     {
-      "uid": "OsmoTripleCut",
+      "uid": "osmostrikes",
       "tier": 9,
       "img": "spells/multi_attack.png",
       "title": {
@@ -7718,7 +8010,7 @@
       "meta": {}
     },
     {
-      "uid": "OsmoTripleCutII",
+      "uid": "osmostrikes-ii",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -7732,7 +8024,7 @@
       "meta": {}
     },
     {
-      "uid": "MagicDefenseDown",
+      "uid": "outwill",
       "tier": 3,
       "img": "spells/magic_defense_down.png",
       "title": {
@@ -7750,7 +8042,7 @@
       }
     },
     {
-      "uid": "GreatParry",
+      "uid": "parry",
       "tier": 9,
       "img": "spells/attack_up.png",
       "title": {
@@ -7764,12 +8056,12 @@
       "meta": {}
     },
     {
-      "uid": "Parry",
+      "uid": "parry-2",
       "tier": 1,
       "img": "spells/attack_up.png",
       "title": {
-        "en": "Parry",
-        "zh": "格擋"
+        "en": "Parry (Off-hand)",
+        "zh": "格擋 (副手)"
       },
       "intro": {
         "en": "Wait one turn, then return an opponent's attack back at them.",
@@ -7781,7 +8073,7 @@
       ]
     },
     {
-      "uid": "Peck",
+      "uid": "peck",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -7799,7 +8091,7 @@
       }
     },
     {
-      "uid": "PerfectShot",
+      "uid": "perfect-shot",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
@@ -7816,7 +8108,7 @@
       ]
     },
     {
-      "uid": "Petrify",
+      "uid": "petrify",
       "tier": 5,
       "img": "spells/sleep.png",
       "title": {
@@ -7834,7 +8126,7 @@
       }
     },
     {
-      "uid": "PhoenixRise",
+      "uid": "phoenixs-rise",
       "tier": 10,
       "img": "spells/meteor.png",
       "title": {
@@ -7855,7 +8147,7 @@
       }
     },
     {
-      "uid": "Pierce",
+      "uid": "pierce",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
@@ -7876,7 +8168,7 @@
       ]
     },
     {
-      "uid": "Poison",
+      "uid": "poison",
       "tier": 2,
       "img": "spells/poison.png",
       "title": {
@@ -7894,7 +8186,7 @@
       }
     },
     {
-      "uid": "Poisonstrike",
+      "uid": "poisonstrike",
       "tier": 1,
       "img": "spells/poison.png",
       "title": {
@@ -7912,12 +8204,12 @@
       }
     },
     {
-      "uid": "WeaponPoisonstrike",
+      "uid": "poisonstrike-2",
       "tier": 1,
       "img": "spells/poison.png",
       "title": {
-        "en": "Poisonstrike",
-        "zh": "毒藥之擊"
+        "en": "Poisonstrike (Off-hand)",
+        "zh": "毒藥之擊 (副手)"
       },
       "intro": {
         "en": "Attack with a chance of causing poison.",
@@ -7933,7 +8225,7 @@
       ]
     },
     {
-      "uid": "PolluxFirst",
+      "uid": "polluxs-might",
       "tier": 8,
       "img": "spells/attack_up.png",
       "title": {
@@ -7951,7 +8243,7 @@
       }
     },
     {
-      "uid": "PommelStrike",
+      "uid": "pommel-strike",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -7972,12 +8264,12 @@
       ]
     },
     {
-      "uid": "WeaponPommelStrike",
+      "uid": "pommel-strike-2",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Pommel Strike",
-        "zh": "劍柄攻擊"
+        "en": "Pommel Strike (Off-hand)",
+        "zh": "劍柄攻擊 (副手)"
       },
       "intro": {
         "en": "Strike an enemy with the hilt of a weapon, increasing the chance to stun.",
@@ -7993,7 +8285,7 @@
       ]
     },
     {
-      "uid": "Ponder",
+      "uid": "ponder",
       "tier": 1,
       "img": "spells/magic_up.png",
       "title": {
@@ -8014,7 +8306,7 @@
       ]
     },
     {
-      "uid": "Pray",
+      "uid": "pray",
       "tier": 4,
       "img": "spells/heal.png",
       "title": {
@@ -8028,7 +8320,7 @@
       "meta": {}
     },
     {
-      "uid": "GreatPray",
+      "uid": "pray-ii",
       "tier": 5,
       "img": "spells/heal.png",
       "title": {
@@ -8042,7 +8334,7 @@
       "meta": {}
     },
     {
-      "uid": "PrismWall",
+      "uid": "prism-wall",
       "tier": 5,
       "img": "spells/omni.png",
       "title": {
@@ -8063,7 +8355,7 @@
       }
     },
     {
-      "uid": "PrismaRune",
+      "uid": "prisma-sigil",
       "tier": 6,
       "img": "spells/omni.png",
       "title": {
@@ -8087,7 +8379,7 @@
       }
     },
     {
-      "uid": "PrismaBlight",
+      "uid": "prismablight",
       "tier": 6,
       "img": "spells/omni.png",
       "title": {
@@ -8100,18 +8392,15 @@
       },
       "meta": {
         "causes": {
-          "Fireblight": 5,
-          "Waterblight": 5,
-          "Earthblight": 5,
-          "Lightningblight": 5,
-          "Holyblight": 5,
-          "Darkblight": 5,
-          "Drakeblight": 5
+          "Fireblight": 10,
+          "Waterblight": 10,
+          "Earthblight": 10,
+          "Lightningblight": 10
         }
       }
     },
     {
-      "uid": "PrismaBlightII",
+      "uid": "prismablight-ii",
       "tier": 6,
       "img": "spells/omni.png",
       "title": {
@@ -8135,7 +8424,7 @@
       }
     },
     {
-      "uid": "Protection",
+      "uid": "protection",
       "tier": 2,
       "img": "spells/shield.png",
       "title": {
@@ -8153,7 +8442,7 @@
       }
     },
     {
-      "uid": "GreatProtection",
+      "uid": "protection-ii",
       "tier": 3,
       "img": "spells/shield.png",
       "title": {
@@ -8171,7 +8460,7 @@
       }
     },
     {
-      "uid": "Provoke",
+      "uid": "provoke",
       "tier": 3,
       "img": "spells/attack_up.png",
       "title": {
@@ -8189,7 +8478,7 @@
       }
     },
     {
-      "uid": "ProvokeII",
+      "uid": "provoke-ii",
       "tier": 7,
       "img": "spells/attack_up.png",
       "title": {
@@ -8207,7 +8496,7 @@
       }
     },
     {
-      "uid": "PumpkinSmash",
+      "uid": "pumpkin-smash",
       "tier": 8,
       "img": "spells/quake.png",
       "title": {
@@ -8226,7 +8515,7 @@
       }
     },
     {
-      "uid": "Purify",
+      "uid": "purify",
       "tier": 3,
       "img": "spells/holy.png",
       "title": {
@@ -8240,7 +8529,7 @@
       "meta": {}
     },
     {
-      "uid": "BigPurify",
+      "uid": "purify-ii",
       "tier": 4,
       "img": "spells/holy.png",
       "title": {
@@ -8254,7 +8543,7 @@
       "meta": {}
     },
     {
-      "uid": "PurifyingStrikes",
+      "uid": "purifying-strikes",
       "tier": 8,
       "img": "spells/holy.png",
       "title": {
@@ -8272,7 +8561,7 @@
       }
     },
     {
-      "uid": "PutridBreath",
+      "uid": "putrid-breath",
       "tier": 6,
       "img": "spells/poison.png",
       "title": {
@@ -8292,7 +8581,7 @@
       }
     },
     {
-      "uid": "QuadCut",
+      "uid": "quadcut",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8306,7 +8595,7 @@
       "meta": {}
     },
     {
-      "uid": "QuadCutII",
+      "uid": "quadcut-ii",
       "tier": 9,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8320,7 +8609,7 @@
       "meta": {}
     },
     {
-      "uid": "BigQuake",
+      "uid": "quake",
       "tier": 3,
       "img": "spells/quake.png",
       "title": {
@@ -8338,7 +8627,7 @@
       }
     },
     {
-      "uid": "BiggerQuake",
+      "uid": "quake-iii",
       "tier": 4,
       "img": "spells/quake.png",
       "title": {
@@ -8356,7 +8645,7 @@
       }
     },
     {
-      "uid": "QuakeStorm",
+      "uid": "quakestorm",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -8375,7 +8664,7 @@
       }
     },
     {
-      "uid": "QuakeStormII",
+      "uid": "quakestorm-ii",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -8394,7 +8683,7 @@
       }
     },
     {
-      "uid": "Quasar",
+      "uid": "quasar",
       "tier": 6,
       "img": "spells/nova.png",
       "title": {
@@ -8413,7 +8702,7 @@
       }
     },
     {
-      "uid": "QuickAttack",
+      "uid": "quick-attack",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8432,7 +8721,7 @@
       }
     },
     {
-      "uid": "Ragnarok",
+      "uid": "ragnarok",
       "tier": 9,
       "img": "spells/meteor.png",
       "title": {
@@ -8446,7 +8735,45 @@
       "meta": {}
     },
     {
-      "uid": "Rampart",
+      "uid": "raise-dead",
+      "tier": 8,
+      "img": "monsters/skeleton_warrior.png",
+      "title": {
+        "en": "Raise Dead",
+        "zh": "死者蘇生"
+      },
+      "intro": {
+        "en": "Summon skeletons to assist you. Skeletons may be weak, but may save you a fatal hit. Requires 2 turns in battle.",
+        "zh": "召喚骷髏來協助你。骷髏或許很肉腳，但也許能幫你擋下致命傷。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "rally-of-charon",
+      "tier": 1,
+      "img": "spells/magic_up.png",
+      "title": {
+        "en": "Rally of Charon (Off-hand)",
+        "zh": "凱倫團結 (副手)"
+      },
+      "intro": {
+        "en": "Has the potential to temporarily boost the offensive or defensive abilities of all summoned allies. Requires 2 turns in battle.",
+        "zh": "有機會暫時性地提升所有小夥伴的攻擊或是防禦能力。需要兩回合發動。"
+      },
+      "meta": {
+        "gives": {
+          "T. Att ↑": 25,
+          "T. Mag ↑": 25,
+          "T. Def ↑": 25,
+          "T. Res ↑": 25
+        }
+      },
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "rampart",
       "tier": 3,
       "img": "spells/ward.png",
       "title": {
@@ -8463,7 +8790,7 @@
       ]
     },
     {
-      "uid": "RampartII",
+      "uid": "rampart-ii",
       "tier": 3,
       "img": "spells/ward.png",
       "title": {
@@ -8477,7 +8804,7 @@
       "meta": {}
     },
     {
-      "uid": "RampartIII",
+      "uid": "rampart-iii",
       "tier": 5,
       "img": "spells/ward.png",
       "title": {
@@ -8491,7 +8818,7 @@
       "meta": {}
     },
     {
-      "uid": "Ravish",
+      "uid": "ravage",
       "tier": 5,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8509,12 +8836,12 @@
       }
     },
     {
-      "uid": "WeaponRavage",
+      "uid": "ravage-2",
       "tier": 5,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Ravage",
-        "zh": "崩毀"
+        "en": "Ravage (Off-hand)",
+        "zh": "崩毀 (副手)"
       },
       "intro": {
         "en": "Attack the opponent with unrelenting fury.",
@@ -8531,12 +8858,12 @@
       ]
     },
     {
-      "uid": "ReadScroll",
+      "uid": "read-scroll",
       "tier": 1,
       "img": "spells/magic_up.png",
       "title": {
-        "en": "Read Scroll",
-        "zh": "閱卷"
+        "en": "Read Scroll (Off-hand)",
+        "zh": "閱卷 (副手)"
       },
       "intro": {
         "en": "Slightly restores mana.",
@@ -8548,12 +8875,12 @@
       ]
     },
     {
-      "uid": "ReadScrollII",
+      "uid": "read-scroll-ii",
       "tier": 1,
       "img": "spells/magic_up.png",
       "title": {
-        "en": "Read Scroll II",
-        "zh": "閱卷 II"
+        "en": "Read Scroll II (Off-hand)",
+        "zh": "閱卷 II (副手)"
       },
       "intro": {
         "en": "Slightly restores mana.",
@@ -8565,7 +8892,7 @@
       ]
     },
     {
-      "uid": "RealmStrikes",
+      "uid": "realm-strikes",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8579,7 +8906,7 @@
       "meta": {}
     },
     {
-      "uid": "Realmshift",
+      "uid": "realmshift",
       "tier": 10,
       "img": "spells/mindblast.png",
       "title": {
@@ -8612,7 +8939,7 @@
       }
     },
     {
-      "uid": "Rebirth",
+      "uid": "rebirth",
       "tier": 5,
       "img": "spells/heal.png",
       "title": {
@@ -8626,7 +8953,7 @@
       "meta": {}
     },
     {
-      "uid": "Rebuke",
+      "uid": "rebuke",
       "tier": 6,
       "img": "spells/magic_down.png",
       "title": {
@@ -8644,7 +8971,7 @@
       }
     },
     {
-      "uid": "Reflect",
+      "uid": "reflect",
       "tier": 6,
       "img": "spells/multi.png",
       "title": {
@@ -8658,7 +8985,7 @@
       "meta": {}
     },
     {
-      "uid": "Refract",
+      "uid": "refract",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -8672,7 +8999,7 @@
       "meta": {}
     },
     {
-      "uid": "Remedy",
+      "uid": "remedy",
       "tier": 3,
       "img": "spells/heal.png",
       "title": {
@@ -8686,12 +9013,12 @@
       "meta": {}
     },
     {
-      "uid": "Requiem",
+      "uid": "requiem",
       "tier": 1,
       "img": "spells/blast.png",
       "title": {
-        "en": "Requiem",
-        "zh": "安魂曲"
+        "en": "Requiem (Off-hand)",
+        "zh": "安魂曲 (副手)"
       },
       "intro": {
         "en": "Deals moderate non-elemental damage and may lull an opponent",
@@ -8707,12 +9034,12 @@
       ]
     },
     {
-      "uid": "RequiemII",
+      "uid": "requiem-ii",
       "tier": 1,
       "img": "spells/blast.png",
       "title": {
-        "en": "Requiem II",
-        "zh": "安魂曲 II"
+        "en": "Requiem II (Off-hand)",
+        "zh": "安魂曲 II (副手)"
       },
       "intro": {
         "en": "Deals moderate non-elemental damage and may lull an opponent",
@@ -8728,12 +9055,12 @@
       ]
     },
     {
-      "uid": "RequiemIII",
+      "uid": "requiem-iii",
       "tier": 1,
       "img": "spells/blast.png",
       "title": {
-        "en": "Requiem III",
-        "zh": "安魂曲 III"
+        "en": "Requiem III (Off-hand)",
+        "zh": "安魂曲 III (副手)"
       },
       "intro": {
         "en": "Deals moderate non-elemental damage and may lull an opponent",
@@ -8749,7 +9076,7 @@
       ]
     },
     {
-      "uid": "Revive",
+      "uid": "revive",
       "tier": 4,
       "img": "spells/heal.png",
       "title": {
@@ -8763,7 +9090,7 @@
       "meta": {}
     },
     {
-      "uid": "ReviveII",
+      "uid": "revive-ii",
       "tier": 6,
       "img": "spells/heal.png",
       "title": {
@@ -8777,7 +9104,7 @@
       "meta": {}
     },
     {
-      "uid": "ReviveIII",
+      "uid": "revive-iii",
       "tier": 9,
       "img": "spells/heal.png",
       "title": {
@@ -8791,7 +9118,66 @@
       "meta": {}
     },
     {
-      "uid": "Riposte",
+      "uid": "rhada-pact",
+      "tier": 10,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Rhada Pact",
+        "zh": "拉達盟約"
+      },
+      "intro": {
+        "en": "Disperses all temporary status effects you may have to your summons. Requires 2 summons on the field and 2 turns in battle.",
+        "zh": "分散所有暫時性的效果到你的小夥伴們身上。需要兩個以上的小夥伴在場上以及兩回合來發動。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "rhada-pact-ii",
+      "tier": 10,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Rhada Pact II",
+        "zh": "拉達盟約 II"
+      },
+      "intro": {
+        "en": "Disperses all temporary status effects you may have to your summons. Requires 2 summons on the field.",
+        "zh": "分散所有暫時性的效果到你的小夥伴們身上。需要兩個以上的小夥伴在場上來發動。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "rhada-stomp",
+      "tier": 7,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Rhada Stomp",
+        "zh": "拉達重跺"
+      },
+      "intro": {
+        "en": "Stomp one foot down, taking a defensive position and reducing damage for 1 turn. On the next turn, deliver a powerful strike.",
+        "zh": "一腳重跺於地，採取防禦姿態一回合來降低傷害。下一回合則會進行強力回擊。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "rhada-stomp-2",
+      "tier": 6,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Rhada Stomp (Off-hand)",
+        "zh": "拉達重跺 (副手)"
+      },
+      "intro": {
+        "en": "Stomp one foot down, taking a defensive position and reducing damage for 1 turn. On the next turn, deliver a powerful strike.",
+        "zh": "一腳重跺於地，採取防禦姿態一回合來降低傷害。下一回合則會進行強力回擊。"
+      },
+      "meta": {},
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "riposte",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8810,7 +9196,7 @@
       }
     },
     {
-      "uid": "Sacreseal",
+      "uid": "sacreseal",
       "tier": 10,
       "img": "spells/holy.png",
       "title": {
@@ -8828,7 +9214,7 @@
       }
     },
     {
-      "uid": "SacresealII",
+      "uid": "sacreseal-ii",
       "tier": 10,
       "img": "spells/holy.png",
       "title": {
@@ -8846,7 +9232,7 @@
       }
     },
     {
-      "uid": "Sacrestrike",
+      "uid": "sacrestrike",
       "tier": 10,
       "img": "spells/holy.png",
       "title": {
@@ -8864,7 +9250,7 @@
       }
     },
     {
-      "uid": "SacrestrikeII",
+      "uid": "sacrestrike-ii",
       "tier": 10,
       "img": "spells/holy.png",
       "title": {
@@ -8882,7 +9268,35 @@
       }
     },
     {
-      "uid": "Sap",
+      "uid": "sacrificial-pact",
+      "tier": 9,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Sacrificial Pact",
+        "zh": "獻祭"
+      },
+      "intro": {
+        "en": "Sacrifices a summon and heals the summoner by the summon's remaining HP.",
+        "zh": "把場上的一個小夥伴當作祭品，用其剩餘的生命值治療召喚師。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "sacrificial-pact-ii",
+      "tier": 10,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Sacrificial Pact II",
+        "zh": "獻祭 II"
+      },
+      "intro": {
+        "en": "Sacrifices all summons and heals the summoner by a portion of their remaining HP.",
+        "zh": "把場上的所有小夥伴當作祭品，用其部分剩餘的生命值治療召喚師。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "sap",
       "tier": 2,
       "img": "spells/drain.png",
       "title": {
@@ -8899,7 +9313,7 @@
       ]
     },
     {
-      "uid": "ScorchedEarth",
+      "uid": "scorched-earth",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -8918,7 +9332,7 @@
       }
     },
     {
-      "uid": "ScorchedEarthII",
+      "uid": "scorched-earth-ii",
       "tier": 9,
       "img": "spells/multi.png",
       "title": {
@@ -8937,7 +9351,7 @@
       }
     },
     {
-      "uid": "CritUp",
+      "uid": "scout-weakness",
       "tier": 5,
       "img": "spells/attack_up.png",
       "title": {
@@ -8955,7 +9369,7 @@
       }
     },
     {
-      "uid": "Scratch",
+      "uid": "scratch",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
@@ -8973,7 +9387,7 @@
       }
     },
     {
-      "uid": "Scythestrike",
+      "uid": "scythestrike",
       "tier": 6,
       "img": "spells/bleed.png",
       "title": {
@@ -8991,7 +9405,7 @@
       }
     },
     {
-      "uid": "ScythestrikeII",
+      "uid": "scythestrike-ii",
       "tier": 6,
       "img": "spells/bleed.png",
       "title": {
@@ -9009,7 +9423,7 @@
       }
     },
     {
-      "uid": "Shadow",
+      "uid": "shadow",
       "tier": 3,
       "img": "spells/shadow.png",
       "title": {
@@ -9023,7 +9437,7 @@
       "meta": {}
     },
     {
-      "uid": "BigShadow",
+      "uid": "shadow-ii",
       "tier": 4,
       "img": "spells/shadow.png",
       "title": {
@@ -9037,7 +9451,7 @@
       "meta": {}
     },
     {
-      "uid": "Sharpen",
+      "uid": "sharpen",
       "tier": 1,
       "img": "spells/attack_up.png",
       "title": {
@@ -9058,7 +9472,7 @@
       ]
     },
     {
-      "uid": "ShieldBash",
+      "uid": "shield-bash",
       "tier": 5,
       "img": "spells/multi_attack.png",
       "title": {
@@ -9072,7 +9486,21 @@
       "meta": {}
     },
     {
-      "uid": "Shock",
+      "uid": "shield-bash-ii",
+      "tier": 5,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Shield Bash II",
+        "zh": "盾擊 II"
+      },
+      "intro": {
+        "en": "Attack with your shield, converting 10 percent of your available Ward to raw damage.",
+        "zh": "利用盾牌攻擊，轉換10%的護盾成為傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "shock",
       "tier": 2,
       "img": "spells/spark.png",
       "title": {
@@ -9090,7 +9518,7 @@
       }
     },
     {
-      "uid": "ShootingStar",
+      "uid": "shooting-star",
       "tier": 5,
       "img": "spells/star.png",
       "title": {
@@ -9110,7 +9538,7 @@
       }
     },
     {
-      "uid": "Sidesteps",
+      "uid": "sidesteps",
       "tier": 7,
       "img": "spells/attack_down.png",
       "title": {
@@ -9133,7 +9561,7 @@
       }
     },
     {
-      "uid": "Slash",
+      "uid": "slash",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
@@ -9151,7 +9579,7 @@
       }
     },
     {
-      "uid": "Sleep",
+      "uid": "sleep",
       "tier": 3,
       "img": "spells/sleep.png",
       "title": {
@@ -9169,7 +9597,7 @@
       }
     },
     {
-      "uid": "SleepDart",
+      "uid": "sleep-dart",
       "tier": 3,
       "img": "spells/sleep.png",
       "title": {
@@ -9187,12 +9615,12 @@
       }
     },
     {
-      "uid": "Slice",
+      "uid": "slice",
       "tier": 1,
       "img": "spells/bleed.png",
       "title": {
-        "en": "Slice",
-        "zh": "切裂"
+        "en": "Slice (Off-hand)",
+        "zh": "切裂 (副手)"
       },
       "intro": {
         "en": "Deals extra damage and may cause bleeding.",
@@ -9208,7 +9636,7 @@
       ]
     },
     {
-      "uid": "Slow",
+      "uid": "slow",
       "tier": 3,
       "img": "spells/speed.png",
       "title": {
@@ -9226,7 +9654,7 @@
       }
     },
     {
-      "uid": "GreatSlow",
+      "uid": "slow-2",
       "tier": 8,
       "img": "spells/speed.png",
       "title": {
@@ -9244,7 +9672,7 @@
       }
     },
     {
-      "uid": "Smite",
+      "uid": "smite",
       "tier": 3,
       "img": "spells/holy.png",
       "title": {
@@ -9263,7 +9691,7 @@
       }
     },
     {
-      "uid": "Blind",
+      "uid": "smoke-bomb",
       "tier": 2,
       "img": "spells/blind.png",
       "title": {
@@ -9281,7 +9709,7 @@
       }
     },
     {
-      "uid": "Solarseals",
+      "uid": "solarseals",
       "tier": 7,
       "img": "spells/break.png",
       "title": {
@@ -9295,7 +9723,7 @@
       "meta": {}
     },
     {
-      "uid": "Solarstrikes",
+      "uid": "solarstrikes",
       "tier": 7,
       "img": "spells/break.png",
       "title": {
@@ -9309,7 +9737,7 @@
       "meta": {}
     },
     {
-      "uid": "SongOfDefenseII",
+      "uid": "sonata-of-defense",
       "tier": 9,
       "img": "spells/song.png",
       "title": {
@@ -9332,7 +9760,7 @@
       }
     },
     {
-      "uid": "SongOfMagicII",
+      "uid": "sonata-of-magic",
       "tier": 9,
       "img": "spells/song.png",
       "title": {
@@ -9355,7 +9783,7 @@
       }
     },
     {
-      "uid": "SongOfPowerII",
+      "uid": "sonata-of-power",
       "tier": 9,
       "img": "spells/song.png",
       "title": {
@@ -9378,7 +9806,7 @@
       }
     },
     {
-      "uid": "SongOfResistanceII",
+      "uid": "sonata-of-resistance",
       "tier": 9,
       "img": "spells/song.png",
       "title": {
@@ -9401,7 +9829,7 @@
       }
     },
     {
-      "uid": "SongOfDefense",
+      "uid": "song-of-defense",
       "tier": 6,
       "img": "spells/song.png",
       "title": {
@@ -9424,7 +9852,7 @@
       }
     },
     {
-      "uid": "SongOfMagic",
+      "uid": "song-of-magic",
       "tier": 6,
       "img": "spells/song.png",
       "title": {
@@ -9447,7 +9875,7 @@
       }
     },
     {
-      "uid": "SongOfPower",
+      "uid": "song-of-power",
       "tier": 6,
       "img": "spells/song.png",
       "title": {
@@ -9470,7 +9898,7 @@
       }
     },
     {
-      "uid": "SongOfResistance",
+      "uid": "song-of-resistance",
       "tier": 6,
       "img": "spells/song.png",
       "title": {
@@ -9493,7 +9921,7 @@
       }
     },
     {
-      "uid": "SummonDead",
+      "uid": "sorrow",
       "tier": 5,
       "img": "spells/sorrow.png",
       "title": {
@@ -9507,7 +9935,7 @@
       "meta": {}
     },
     {
-      "uid": "SummonDeadII",
+      "uid": "sorrow-ii",
       "tier": 5,
       "img": "spells/sorrow.png",
       "title": {
@@ -9521,7 +9949,7 @@
       "meta": {}
     },
     {
-      "uid": "Sorrows",
+      "uid": "sorrow-iii",
       "tier": 6,
       "img": "spells/sorrow.png",
       "title": {
@@ -9535,7 +9963,7 @@
       "meta": {}
     },
     {
-      "uid": "Sortie",
+      "uid": "sortie",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -9549,7 +9977,7 @@
       "meta": {}
     },
     {
-      "uid": "SmallSpark",
+      "uid": "spark",
       "tier": 1,
       "img": "spells/spark.png",
       "title": {
@@ -9567,7 +9995,7 @@
       }
     },
     {
-      "uid": "BigSpark",
+      "uid": "spark-ii",
       "tier": 2,
       "img": "spells/spark.png",
       "title": {
@@ -9585,7 +10013,7 @@
       }
     },
     {
-      "uid": "SparkIII",
+      "uid": "spark-iii",
       "tier": 5,
       "img": "spells/spark.png",
       "title": {
@@ -9603,7 +10031,7 @@
       }
     },
     {
-      "uid": "SparkIV",
+      "uid": "spark-iv",
       "tier": 6,
       "img": "spells/spark.png",
       "title": {
@@ -9624,7 +10052,7 @@
       ]
     },
     {
-      "uid": "SparkV",
+      "uid": "spark-v",
       "tier": 8,
       "img": "spells/spark.png",
       "title": {
@@ -9645,7 +10073,7 @@
       ]
     },
     {
-      "uid": "SparkVI",
+      "uid": "spark-vi",
       "tier": 10,
       "img": "spells/spark.png",
       "title": {
@@ -9666,7 +10094,7 @@
       ]
     },
     {
-      "uid": "SparkVII",
+      "uid": "spark-vii",
       "tier": 10,
       "img": "spells/spark.png",
       "title": {
@@ -9684,7 +10112,7 @@
       }
     },
     {
-      "uid": "Speed",
+      "uid": "speed",
       "tier": 3,
       "img": "spells/speed.png",
       "title": {
@@ -9702,7 +10130,7 @@
       }
     },
     {
-      "uid": "SpeedIII",
+      "uid": "speed-iii",
       "tier": 5,
       "img": "spells/speed.png",
       "title": {
@@ -9720,7 +10148,7 @@
       }
     },
     {
-      "uid": "Spellbreaker",
+      "uid": "spellbreaker",
       "tier": 5,
       "img": "spells/break.png",
       "title": {
@@ -9734,7 +10162,7 @@
       "meta": {}
     },
     {
-      "uid": "SpikedShield",
+      "uid": "spiked-shield",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -9742,13 +10170,13 @@
         "zh": "荊棘盾擊"
       },
       "intro": {
-        "en": "Attack with a barbed shield, converting 15 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
-        "zh": "利用綁有刺的盾牌攻擊，轉換15%的護盾成為傷害。此技能由吉爾伽美什系職業來使用最有效。"
+        "en": "Attack with a barbed shield, converting some of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
+        "zh": "用帶刺的盾牌進行攻擊，將你可用的護盾值的一部分轉換為傷害。吉爾伽美什系職業能最有效地使用此技能。"
       },
       "meta": {}
     },
     {
-      "uid": "SpikedShieldII",
+      "uid": "spiked-shield-ii",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -9756,13 +10184,13 @@
         "zh": "荊棘盾擊 II"
       },
       "intro": {
-        "en": "Attack with a barbed shield, converting 20 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
-        "zh": "利用綁有刺的盾牌攻擊，轉換20%的護盾成為傷害。此技能由吉爾伽美什系職業來使用最有效。"
+        "en": "Attack with a barbed shield, converting some of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
+        "zh": "用帶刺的盾牌進行攻擊，將你可用的護盾值的一部分轉換為傷害。吉爾伽美什系職業能最有效地使用此技能。"
       },
       "meta": {}
     },
     {
-      "uid": "SpikedShieldIII",
+      "uid": "spiked-shield-iii",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
@@ -9770,13 +10198,13 @@
         "zh": "荊棘盾擊 III"
       },
       "intro": {
-        "en": "Attack with a barbed shield, converting 30 percent of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
-        "zh": "利用綁有刺的盾牌攻擊，轉換30%的護盾成為傷害。此技能由吉爾伽美什系職業來使用最有效。"
+        "en": "Attack with a barbed shield, converting some of your available Ward to raw damage. This skill will be most effective when used by the Gilgamesh class.",
+        "zh": "用帶刺的盾牌進行攻擊，將你可用的護盾值的一部分轉換為傷害。吉爾伽美什系職業能最有效地使用此技能。"
       },
       "meta": {}
     },
     {
-      "uid": "Starscreen",
+      "uid": "starscreen",
       "tier": 9,
       "img": "spells/flare.png",
       "title": {
@@ -9798,7 +10226,7 @@
       }
     },
     {
-      "uid": "StoneStare",
+      "uid": "stone-stare",
       "tier": 5,
       "img": "spells/flare.png",
       "title": {
@@ -9816,7 +10244,7 @@
       }
     },
     {
-      "uid": "Storm",
+      "uid": "storm",
       "tier": 3,
       "img": "spells/spark.png",
       "title": {
@@ -9834,7 +10262,7 @@
       }
     },
     {
-      "uid": "LightningFacade",
+      "uid": "storm-facade",
       "tier": 9,
       "img": "spells/spark.png",
       "title": {
@@ -9852,7 +10280,7 @@
       }
     },
     {
-      "uid": "BigStorm",
+      "uid": "storm-ii",
       "tier": 4,
       "img": "spells/spark.png",
       "title": {
@@ -9870,7 +10298,7 @@
       }
     },
     {
-      "uid": "LightningWard",
+      "uid": "storm-ward",
       "tier": 8,
       "img": "spells/spark.png",
       "title": {
@@ -9888,7 +10316,7 @@
       }
     },
     {
-      "uid": "StunDart",
+      "uid": "stun-dart",
       "tier": 3,
       "img": "spells/spark.png",
       "title": {
@@ -9906,49 +10334,343 @@
       }
     },
     {
-      "uid": "SummonFallen",
-      "tier": 8,
-      "img": "spells/sorrow.png",
+      "uid": "summon-animal",
+      "tier": 5,
+      "img": "monsters/crow.png",
       "title": {
-        "en": "Summon Dead",
-        "zh": "亡靈之力"
+        "en": "Summon Animal",
+        "zh": "召喚動物"
       },
       "intro": {
-        "en": "Deals damage according to the amount of foes one has recently slain. This spell may not have its damage directly increased by buffs.",
-        "zh": "根據最近擊殺的敵人數量造成傷害。增益效果可能不會直接提升此魔法的傷害。"
+        "en": "Summon an animal to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻動物來協助你。需要兩回合施放。"
       },
       "meta": {}
     },
     {
-      "uid": "SummonFallenII",
-      "tier": 8,
-      "img": "spells/sorrow.png",
+      "uid": "summon-anubis",
+      "tier": 10,
+      "img": "bosses/anubis.png",
       "title": {
-        "en": "Summon Dead II",
-        "zh": "亡靈之力 II"
+        "en": "Summon Anubis",
+        "zh": "召喚阿努比斯"
       },
       "intro": {
-        "en": "Deals immense damage according to the amount of foes one has recently slain. Requires 2 turns in battle. This spell may not have its damage directly increased by buffs.",
-        "zh": "根據最近擊殺的敵人數量造成巨量傷害。施放需要兩回合。增益效果可能不會直接提升此魔法的傷害。"
+        "en": "Summon a great beast to assist you. Requires 4 turns in battle.",
+        "zh": "召喚強大的野獸來幫助你。召喚需要4回合。"
       },
       "meta": {}
     },
     {
-      "uid": "SummonFallenIII",
+      "uid": "summon-basilisk",
       "tier": 8,
-      "img": "spells/sorrow.png",
+      "img": "monsters/black_basilisk.png",
       "title": {
-        "en": "Summon Dead III",
-        "zh": "亡靈之力 III"
+        "en": "Summon Basilisk",
+        "zh": "召喚巴西利斯克"
       },
       "intro": {
-        "en": "Deals great damage according to the amount of foes one has recently slain, but may miss its mark.",
-        "zh": "根據最近擊殺的敵人數量造成巨量傷害，但有時會失去準星。"
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
       },
       "meta": {}
     },
     {
-      "uid": "SuperBomb",
+      "uid": "summon-bear",
+      "tier": 8,
+      "img": "monsters/fire_bear.png",
+      "title": {
+        "en": "Summon Bear",
+        "zh": "召喚熊"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-behemoth",
+      "tier": 6,
+      "img": "bosses/behemoth.png",
+      "title": {
+        "en": "Summon Behemoth",
+        "zh": "召喚貝西摩斯"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-chimera",
+      "tier": 10,
+      "img": "monsters/chimera.png",
+      "title": {
+        "en": "Summon Chimera",
+        "zh": "召喚奇美拉"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-cockatrice",
+      "tier": 8,
+      "img": "bosses/cockatrice.png",
+      "title": {
+        "en": "Summon Cockatrice",
+        "zh": "召喚雞蛇"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 3 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要三回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-colossus",
+      "tier": 7,
+      "img": "monsters/colossus.png",
+      "title": {
+        "en": "Summon Colossus",
+        "zh": "召喚巨像"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 3 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要三回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-dark-pegasus",
+      "tier": 10,
+      "img": "bosses/dark_pegasus.png",
+      "title": {
+        "en": "Summon Dark Pegasus",
+        "zh": "召喚暗黑天馬"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 3 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要三回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-dragon",
+      "tier": 7,
+      "img": "monsters/black_dragon.png",
+      "title": {
+        "en": "Summon Dragon",
+        "zh": "召喚龍"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-garm",
+      "tier": 8,
+      "img": "monsters/garm.png",
+      "title": {
+        "en": "Summon Garm",
+        "zh": "召喚加姆"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-gazer",
+      "tier": 9,
+      "img": "monsters/crimson_gazer.png",
+      "title": {
+        "en": "Summon Gazer",
+        "zh": "召喚凝視者"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-golem",
+      "tier": 9,
+      "img": "monsters/sandstone_golem.png",
+      "title": {
+        "en": "Summon Golem",
+        "zh": "召喚魔像"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-great-golem",
+      "tier": 10,
+      "img": "monsters/ortanite_golem.png",
+      "title": {
+        "en": "Summon Great Golem",
+        "zh": "召喚強大的魔像"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-great-hydra",
+      "tier": 10,
+      "img": "bosses/hydra_arisen.png",
+      "title": {
+        "en": "Summon Great Hydra",
+        "zh": "召喚強大的九頭蛇"
+      },
+      "intro": {
+        "en": "Summon a great beast to assist you. Requires 4 turns in battle.",
+        "zh": "召喚強大的野獸來幫助你。召喚需要4回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-guivre",
+      "tier": 9,
+      "img": "monsters/guivre.png",
+      "title": {
+        "en": "Summon Guivre",
+        "zh": "召喚蛇龍基威爾"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-harpy",
+      "tier": 6,
+      "img": "monsters/harpy.png",
+      "title": {
+        "en": "Summon Harpy",
+        "zh": "召喚鷹身女妖"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-hydra",
+      "tier": 7,
+      "img": "bosses/hydra.png",
+      "title": {
+        "en": "Summon Hydra",
+        "zh": "召喚九頭蛇"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 3 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要三回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-kelpie",
+      "tier": 9,
+      "img": "bosses/kelpie.png",
+      "title": {
+        "en": "Summon Kelpie",
+        "zh": "召喚凱爾皮"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 3 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要三回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-slime",
+      "tier": 7,
+      "img": "monsters/arcane_slime.png",
+      "title": {
+        "en": "Summon Slime",
+        "zh": "召喚史萊姆"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-troll",
+      "tier": 6,
+      "img": "monsters/ice_troll.png",
+      "title": {
+        "en": "Summon Troll",
+        "zh": "召喚巨魔"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-troll-2",
+      "tier": 10,
+      "img": "monsters/arcane_troll.png",
+      "title": {
+        "en": "Summon Troll",
+        "zh": "召喚巨魔"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you. Requires 2 turns in battle.",
+        "zh": "召喚一隻野獸來協助你。召喚需要兩回合。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-warg",
+      "tier": 7,
+      "img": "monsters/warg.png",
+      "title": {
+        "en": "Summon Warg",
+        "zh": "召喚座狼"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "summon-wyvern",
+      "tier": 6,
+      "img": "monsters/wyvern_great.png",
+      "title": {
+        "en": "Summon Wyvern",
+        "zh": "召喚飛龍"
+      },
+      "intro": {
+        "en": "Summon a beast to assist you.",
+        "zh": "召喚一隻野獸來協助你。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "super-bomb",
       "tier": 5,
       "img": "spells/blind.png",
       "title": {
@@ -9969,7 +10691,7 @@
       }
     },
     {
-      "uid": "Supernova",
+      "uid": "supernova",
       "tier": 5,
       "img": "spells/nova.png",
       "title": {
@@ -9991,12 +10713,12 @@
       }
     },
     {
-      "uid": "WeaponSwansong",
+      "uid": "swansong",
       "tier": 10,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Swansong",
-        "zh": "天鵝終曲"
+        "en": "Swansong (Off-hand)",
+        "zh": "天鵝終曲 (副手)"
       },
       "intro": {
         "en": "Use both your magic and attack stats to cast the famous song of the Swansong.",
@@ -10012,7 +10734,21 @@
       ]
     },
     {
-      "uid": "Swordplay",
+      "uid": "sweep",
+      "tier": 7,
+      "img": "spells/multi_attack.png",
+      "title": {
+        "en": "Sweep",
+        "zh": "橫掃"
+      },
+      "intro": {
+        "en": "Deals damage to all opponents.",
+        "zh": "對所有對手造成傷害。"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "swordplay",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10039,7 +10775,7 @@
       }
     },
     {
-      "uid": "SwordplayII",
+      "uid": "swordplay-ii",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10066,7 +10802,7 @@
       }
     },
     {
-      "uid": "SwordplayIII",
+      "uid": "swordplay-iii",
       "tier": 9,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10093,7 +10829,7 @@
       }
     },
     {
-      "uid": "Tempest",
+      "uid": "tempest",
       "tier": 5,
       "img": "spells/flare.png",
       "title": {
@@ -10111,7 +10847,7 @@
       }
     },
     {
-      "uid": "TempestII",
+      "uid": "tempest-ii",
       "tier": 9,
       "img": "spells/flare.png",
       "title": {
@@ -10129,7 +10865,7 @@
       }
     },
     {
-      "uid": "EarthFacade",
+      "uid": "terra-facade",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -10147,7 +10883,7 @@
       }
     },
     {
-      "uid": "EarthWard",
+      "uid": "terra-ward",
       "tier": 8,
       "img": "spells/quake.png",
       "title": {
@@ -10165,7 +10901,7 @@
       }
     },
     {
-      "uid": "Terraseal",
+      "uid": "terraseal",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -10183,7 +10919,7 @@
       }
     },
     {
-      "uid": "TerrasealII",
+      "uid": "terraseal-ii",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -10201,7 +10937,7 @@
       }
     },
     {
-      "uid": "Terrastrike",
+      "uid": "terrastrike",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -10219,7 +10955,7 @@
       }
     },
     {
-      "uid": "TerrastrikeII",
+      "uid": "terrastrike-ii",
       "tier": 9,
       "img": "spells/quake.png",
       "title": {
@@ -10237,7 +10973,7 @@
       }
     },
     {
-      "uid": "AttackDown",
+      "uid": "threaten",
       "tier": 3,
       "img": "spells/attack_down.png",
       "title": {
@@ -10255,7 +10991,7 @@
       }
     },
     {
-      "uid": "TiamatBreath",
+      "uid": "tiamats-breath",
       "tier": 7,
       "img": "bosses/tiamat.png",
       "title": {
@@ -10274,7 +11010,7 @@
       }
     },
     {
-      "uid": "IceFacade",
+      "uid": "tidal-facade",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -10292,7 +11028,7 @@
       }
     },
     {
-      "uid": "IceWard",
+      "uid": "tidal-ward",
       "tier": 8,
       "img": "spells/ice.png",
       "title": {
@@ -10310,7 +11046,7 @@
       }
     },
     {
-      "uid": "Tidalseal",
+      "uid": "tidalseal",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -10328,7 +11064,7 @@
       }
     },
     {
-      "uid": "TidalsealII",
+      "uid": "tidalseal-ii",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -10346,7 +11082,7 @@
       }
     },
     {
-      "uid": "Tidalstrike",
+      "uid": "tidalstrike",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -10364,7 +11100,7 @@
       }
     },
     {
-      "uid": "TidalstrikeII",
+      "uid": "tidalstrike-ii",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -10382,7 +11118,7 @@
       }
     },
     {
-      "uid": "Torchstrike",
+      "uid": "torchstrike",
       "tier": 2,
       "img": "spells/flame.png",
       "title": {
@@ -10400,7 +11136,24 @@
       }
     },
     {
-      "uid": "Toxicstrike",
+      "uid": "tower-of-strength",
+      "tier": 1,
+      "img": "spells/ward.png",
+      "title": {
+        "en": "Tower of Strength (Off-hand)",
+        "zh": "力量之塔 (副手)"
+      },
+      "intro": {
+        "en": "Recovers Ward. Requires 2 turns in battle.",
+        "zh": "恢復護盾值。需要2回合施展。"
+      },
+      "meta": {},
+      "tags": [
+        "off-hand"
+      ]
+    },
+    {
+      "uid": "toxicstrike",
       "tier": 1,
       "img": "spells/poison.png",
       "title": {
@@ -10418,7 +11171,7 @@
       }
     },
     {
-      "uid": "Trample",
+      "uid": "trample",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10432,7 +11185,7 @@
       "meta": {}
     },
     {
-      "uid": "Transference",
+      "uid": "transference",
       "tier": 6,
       "img": "spells/ward.png",
       "title": {
@@ -10449,7 +11202,7 @@
       ]
     },
     {
-      "uid": "TransferenceII",
+      "uid": "transference-ii",
       "tier": 8,
       "img": "spells/ward.png",
       "title": {
@@ -10466,7 +11219,7 @@
       ]
     },
     {
-      "uid": "TransferenceIII",
+      "uid": "transference-iii",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -10483,7 +11236,21 @@
       ]
     },
     {
-      "uid": "TreeTrunk",
+      "uid": "treat",
+      "tier": 5,
+      "img": "spells/heal.png",
+      "title": {
+        "en": "Treat",
+        "zh": "Treat"
+      },
+      "intro": {
+        "en": "???",
+        "zh": "???"
+      },
+      "meta": {}
+    },
+    {
+      "uid": "tree-trunk",
       "tier": 2,
       "img": "spells/quake.png",
       "title": {
@@ -10501,7 +11268,7 @@
       }
     },
     {
-      "uid": "TreeOfDemise",
+      "uid": "tree-of-demise",
       "tier": 7,
       "img": "spells/attack_up.png",
       "title": {
@@ -10519,7 +11286,7 @@
       }
     },
     {
-      "uid": "TreeOfLife",
+      "uid": "tree-of-life",
       "tier": 7,
       "img": "spells/attack_up.png",
       "title": {
@@ -10537,7 +11304,7 @@
       }
     },
     {
-      "uid": "Tremor",
+      "uid": "tremor",
       "tier": 1,
       "img": "spells/quake.png",
       "title": {
@@ -10555,7 +11322,7 @@
       }
     },
     {
-      "uid": "Quake",
+      "uid": "tremor-ii",
       "tier": 2,
       "img": "spells/quake.png",
       "title": {
@@ -10573,7 +11340,7 @@
       }
     },
     {
-      "uid": "TremorIII",
+      "uid": "tremor-iii",
       "tier": 5,
       "img": "spells/quake.png",
       "title": {
@@ -10591,7 +11358,7 @@
       }
     },
     {
-      "uid": "TremorIV",
+      "uid": "tremor-iv",
       "tier": 6,
       "img": "spells/quake.png",
       "title": {
@@ -10612,7 +11379,7 @@
       ]
     },
     {
-      "uid": "TremorV",
+      "uid": "tremor-v",
       "tier": 8,
       "img": "spells/quake.png",
       "title": {
@@ -10633,7 +11400,7 @@
       ]
     },
     {
-      "uid": "TremorVI",
+      "uid": "tremor-vi",
       "tier": 10,
       "img": "spells/quake.png",
       "title": {
@@ -10654,7 +11421,7 @@
       ]
     },
     {
-      "uid": "TremorVII",
+      "uid": "tremor-vii",
       "tier": 10,
       "img": "spells/quake.png",
       "title": {
@@ -10672,7 +11439,26 @@
       }
     },
     {
-      "uid": "TripleCut",
+      "uid": "trick",
+      "tier": 5,
+      "img": "spells/star.png",
+      "title": {
+        "en": "Trick",
+        "zh": "Trick"
+      },
+      "intro": {
+        "en": "???",
+        "zh": "???"
+      },
+      "meta": {
+        "causes": {
+          "Doom": 100,
+          "Confused": 100
+        }
+      }
+    },
+    {
+      "uid": "tricut",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10686,7 +11472,7 @@
       "meta": {}
     },
     {
-      "uid": "TripleCutSwap",
+      "uid": "tricut-swap",
       "tier": 5,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10700,7 +11486,7 @@
       "meta": {}
     },
     {
-      "uid": "TripleCutII",
+      "uid": "tricut-ii",
       "tier": 4,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10714,7 +11500,7 @@
       "meta": {}
     },
     {
-      "uid": "TwinAttack",
+      "uid": "twin-attack",
       "tier": 2,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10732,12 +11518,12 @@
       }
     },
     {
-      "uid": "TwinBlast",
+      "uid": "twin-blast",
       "tier": 2,
       "img": "spells/blast.png",
       "title": {
-        "en": "Twin Blast",
-        "zh": "雙重炸裂"
+        "en": "Twin Blast (Off-hand)",
+        "zh": "雙重炸裂 (副手)"
       },
       "intro": {
         "en": "Cast a simple spell with both staves, potentially breaking an opponent's magical defenses.",
@@ -10753,7 +11539,7 @@
       ]
     },
     {
-      "uid": "ZweiTwinBlast",
+      "uid": "twofold-blast",
       "tier": 7,
       "img": "spells/blast.png",
       "title": {
@@ -10767,7 +11553,7 @@
       "meta": {}
     },
     {
-      "uid": "ZweiUpwardStrike",
+      "uid": "twofold-strike",
       "tier": 7,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10781,7 +11567,7 @@
       "meta": {}
     },
     {
-      "uid": "Ultima",
+      "uid": "ultima",
       "tier": 10,
       "img": "spells/nova.png",
       "title": {
@@ -10805,7 +11591,7 @@
       }
     },
     {
-      "uid": "UltimaII",
+      "uid": "ultima-ii",
       "tier": 10,
       "img": "spells/nova.png",
       "title": {
@@ -10829,7 +11615,7 @@
       }
     },
     {
-      "uid": "BigRavage",
+      "uid": "unrelenting-fury",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -10852,7 +11638,7 @@
       }
     },
     {
-      "uid": "UnstableChannel",
+      "uid": "unstable-channel",
       "tier": 10,
       "img": "spells/star.png",
       "title": {
@@ -10870,12 +11656,12 @@
       }
     },
     {
-      "uid": "UpwardStrike",
+      "uid": "upward-strike",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Upward Strike",
-        "zh": "豬突猛進"
+        "en": "Upward Strike (Off-hand)",
+        "zh": "豬突猛進 (副手)"
       },
       "intro": {
         "en": "Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle.",
@@ -10887,12 +11673,12 @@
       ]
     },
     {
-      "uid": "UpwardStrikeII",
+      "uid": "upward-strike-ii",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Upward Strike II",
-        "zh": "豬突猛進 II"
+        "en": "Upward Strike II (Off-hand)",
+        "zh": "豬突猛進 II (副手)"
       },
       "intro": {
         "en": "Attack with both hands gripped tightly, dealing paltry to immense damage. Requires 2 turns in battle.",
@@ -10904,7 +11690,7 @@
       ]
     },
     {
-      "uid": "Verse",
+      "uid": "verse",
       "tier": 10,
       "img": "spells/blast.png",
       "title": {
@@ -10923,7 +11709,7 @@
       }
     },
     {
-      "uid": "VerseII",
+      "uid": "verse-ii",
       "tier": 10,
       "img": "spells/blast.png",
       "title": {
@@ -10942,7 +11728,7 @@
       }
     },
     {
-      "uid": "VerseIII",
+      "uid": "verse-iii",
       "tier": 10,
       "img": "spells/blast.png",
       "title": {
@@ -10961,7 +11747,7 @@
       }
     },
     {
-      "uid": "Viperseal",
+      "uid": "viperseal",
       "tier": 10,
       "img": "spells/flare.png",
       "title": {
@@ -10979,7 +11765,7 @@
       }
     },
     {
-      "uid": "VipersealII",
+      "uid": "viperseal-ii",
       "tier": 10,
       "img": "spells/flare.png",
       "title": {
@@ -10997,7 +11783,7 @@
       }
     },
     {
-      "uid": "Viperstrike",
+      "uid": "viperstrike",
       "tier": 10,
       "img": "spells/flare.png",
       "title": {
@@ -11015,7 +11801,7 @@
       }
     },
     {
-      "uid": "ViperstrikeII",
+      "uid": "viperstrike-ii",
       "tier": 10,
       "img": "spells/flare.png",
       "title": {
@@ -11033,12 +11819,12 @@
       }
     },
     {
-      "uid": "Volley",
+      "uid": "volley",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Volley",
-        "zh": "齊射"
+        "en": "Volley (Off-hand)",
+        "zh": "齊射 (副手)"
       },
       "intro": {
         "en": "Deals damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity.",
@@ -11054,12 +11840,12 @@
       ]
     },
     {
-      "uid": "VolleyII",
+      "uid": "volley-ii",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Volley II",
-        "zh": "齊射 II"
+        "en": "Volley II (Off-hand)",
+        "zh": "齊射 II (副手)"
       },
       "intro": {
         "en": "Deals damage thrice, grants 2 turns of Ward, and may temporarily increase dexterity.",
@@ -11075,12 +11861,12 @@
       ]
     },
     {
-      "uid": "VolleyIII",
+      "uid": "volley-iii",
       "tier": 1,
       "img": "spells/multi_attack.png",
       "title": {
-        "en": "Volley III",
-        "zh": "齊射 III"
+        "en": "Volley III (Off-hand)",
+        "zh": "齊射 III (副手)"
       },
       "intro": {
         "en": "Deals damage thrice, grants 3 turns of Ward, and may temporarily increase dexterity.",
@@ -11096,7 +11882,7 @@
       ]
     },
     {
-      "uid": "Wail",
+      "uid": "wail",
       "tier": 5,
       "img": "spells/nightmare.png",
       "title": {
@@ -11116,7 +11902,7 @@
       }
     },
     {
-      "uid": "Wallop",
+      "uid": "wallop",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -11135,7 +11921,7 @@
       }
     },
     {
-      "uid": "AttackBoost",
+      "uid": "warcry",
       "tier": 2,
       "img": "spells/attack_up.png",
       "title": {
@@ -11153,7 +11939,7 @@
       }
     },
     {
-      "uid": "WardOfAnnwn",
+      "uid": "ward-of-annwn",
       "tier": 8,
       "img": "spells/ward.png",
       "title": {
@@ -11174,7 +11960,7 @@
       }
     },
     {
-      "uid": "WardOfBalor",
+      "uid": "ward-of-balor",
       "tier": 9,
       "img": "spells/ward.png",
       "title": {
@@ -11197,7 +11983,7 @@
       }
     },
     {
-      "uid": "WardOfBalorII",
+      "uid": "ward-of-balor-ii",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -11220,7 +12006,7 @@
       }
     },
     {
-      "uid": "WardOfBone",
+      "uid": "ward-of-bone",
       "tier": 8,
       "img": "spells/ward.png",
       "title": {
@@ -11234,7 +12020,7 @@
       "meta": {}
     },
     {
-      "uid": "WardOfIron",
+      "uid": "ward-of-iron",
       "tier": 4,
       "img": "spells/ward.png",
       "title": {
@@ -11251,7 +12037,7 @@
       ]
     },
     {
-      "uid": "WardOfLight",
+      "uid": "ward-of-light",
       "tier": 8,
       "img": "spells/holy.png",
       "title": {
@@ -11269,12 +12055,12 @@
       }
     },
     {
-      "uid": "WeaponWardOfLight",
+      "uid": "ward-of-light-2",
       "tier": 10,
       "img": "spells/holy.png",
       "title": {
-        "en": "Ward of Light",
-        "zh": "光明護盾"
+        "en": "Ward of Light (Off-hand)",
+        "zh": "光明護盾 (副手)"
       },
       "intro": {
         "en": "Deals holy damage, recovers Ward, and recovers a percentage of damage dealt. An opponent may also be blinded from the light.",
@@ -11290,7 +12076,7 @@
       ]
     },
     {
-      "uid": "WardOfLightII",
+      "uid": "ward-of-light-ii",
       "tier": 9,
       "img": "spells/holy.png",
       "title": {
@@ -11308,7 +12094,7 @@
       }
     },
     {
-      "uid": "WardOfMythril",
+      "uid": "ward-of-mythril",
       "tier": 6,
       "img": "spells/ward.png",
       "title": {
@@ -11325,7 +12111,7 @@
       ]
     },
     {
-      "uid": "WardOfOrtanite",
+      "uid": "ward-of-ortanite",
       "tier": 10,
       "img": "spells/ward.png",
       "title": {
@@ -11342,7 +12128,7 @@
       ]
     },
     {
-      "uid": "WardOfSteel",
+      "uid": "ward-of-steel",
       "tier": 5,
       "img": "spells/ward.png",
       "title": {
@@ -11359,7 +12145,7 @@
       ]
     },
     {
-      "uid": "DanceOfPower",
+      "uid": "warriors-dance",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -11378,7 +12164,7 @@
       }
     },
     {
-      "uid": "DanceOfPowerII",
+      "uid": "warriors-pavane",
       "tier": 9,
       "img": "spells/multi_attack.png",
       "title": {
@@ -11397,7 +12183,7 @@
       }
     },
     {
-      "uid": "WeaponSwap",
+      "uid": "weapon-swap",
       "tier": 5,
       "img": "spells/dance.png",
       "title": {
@@ -11411,7 +12197,7 @@
       "meta": {}
     },
     {
-      "uid": "Wildfire",
+      "uid": "wildfire",
       "tier": 5,
       "img": "spells/flame.png",
       "title": {
@@ -11429,7 +12215,7 @@
       }
     },
     {
-      "uid": "WildfireII",
+      "uid": "wildfire-ii",
       "tier": 7,
       "img": "spells/flame.png",
       "title": {
@@ -11447,7 +12233,7 @@
       }
     },
     {
-      "uid": "WildfireIII",
+      "uid": "wildfire-iii",
       "tier": 9,
       "img": "spells/flame.png",
       "title": {
@@ -11465,7 +12251,7 @@
       }
     },
     {
-      "uid": "WinterWind",
+      "uid": "winter-wind",
       "tier": 5,
       "img": "spells/ice.png",
       "title": {
@@ -11483,7 +12269,7 @@
       }
     },
     {
-      "uid": "WinterWindII",
+      "uid": "winter-wind-ii",
       "tier": 7,
       "img": "spells/ice.png",
       "title": {
@@ -11501,7 +12287,7 @@
       }
     },
     {
-      "uid": "WinterWindIII",
+      "uid": "winter-wind-iii",
       "tier": 9,
       "img": "spells/ice.png",
       "title": {
@@ -11519,7 +12305,7 @@
       }
     },
     {
-      "uid": "WispsHeal",
+      "uid": "wisps-heal",
       "tier": 5,
       "img": "monsters/wisp.png",
       "title": {
@@ -11533,7 +12319,7 @@
       "meta": {}
     },
     {
-      "uid": "WispsHealII",
+      "uid": "wisps-heal-ii",
       "tier": 7,
       "img": "monsters/will_wisp.png",
       "title": {
@@ -11547,7 +12333,7 @@
       "meta": {}
     },
     {
-      "uid": "WolvenStrikes",
+      "uid": "wolven-strikes",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -11570,7 +12356,7 @@
       }
     },
     {
-      "uid": "WorldsEnd",
+      "uid": "worlds-end",
       "tier": 8,
       "img": "spells/meteor.png",
       "title": {
@@ -11592,7 +12378,7 @@
       }
     },
     {
-      "uid": "WyrmSong",
+      "uid": "wyrms-song",
       "tier": 8,
       "img": "spells/attack_up.png",
       "title": {
@@ -11612,7 +12398,7 @@
       }
     },
     {
-      "uid": "WyvernSpeed",
+      "uid": "wyvern-speed",
       "tier": 5,
       "img": "spells/speed.png",
       "title": {
@@ -11631,7 +12417,7 @@
       }
     },
     {
-      "uid": "WyvernSpeedII",
+      "uid": "wyvern-speed-ii",
       "tier": 5,
       "img": "spells/speed.png",
       "title": {
@@ -11651,7 +12437,7 @@
       }
     },
     {
-      "uid": "WyvernSpeedIII",
+      "uid": "wyvern-speed-iii",
       "tier": 10,
       "img": "spells/speed.png",
       "title": {
@@ -11671,7 +12457,7 @@
       }
     },
     {
-      "uid": "WyvernStrikes",
+      "uid": "wyvern-strikes",
       "tier": 8,
       "img": "spells/multi_attack.png",
       "title": {
@@ -11685,7 +12471,7 @@
       "meta": {}
     },
     {
-      "uid": "WyvernWrath",
+      "uid": "wyverns-wrath",
       "tier": 5,
       "img": "monsters/wyvern.png",
       "title": {
@@ -11703,7 +12489,7 @@
       }
     },
     {
-      "uid": "WyvernWrathII",
+      "uid": "wyverns-wrath-ii",
       "tier": 7,
       "img": "monsters/sea_dragon.png",
       "title": {
@@ -11721,7 +12507,7 @@
       }
     },
     {
-      "uid": "XSlash",
+      "uid": "x-slash",
       "tier": 6,
       "img": "spells/multi_attack.png",
       "title": {
@@ -11808,13 +12594,14 @@
     "Earthblight": "/statuses/earth_rune.png",
     "Earth Def": "/statuses/earth_wall.png",
     "Elementless": "/statuses/no_imbue.png",
+    "T. Mag ↓↓": "/statuses/magic_down_double_temp.png",
+    "T. Att ↓↓": "/statuses/attack_down_double_temp.png",
     "T. Crit ↑": "/statuses/crit_up_temp.png",
     "Fire Att": "/statuses/fire_imbue.png",
     "Fire Aligned": "/statuses/fire_aligned.png",
     "Fire Sigil": "/statuses/fire_rune.png",
     "Fire Def": "/statuses/fire_wall.png",
     "Fireblight": "/statuses/fire_rune.png",
-    "T. Att ↓↓": "/statuses/attack_down_double_temp.png",
     "Lulled": "/statuses/lulled.png",
     "Eir": "/statuses/eir.png",
     "Gunnr": "/statuses/gunnr.png",
@@ -11826,7 +12613,6 @@
     "T. Mag ↑↑↑": "/statuses/magic_up_triple_temp.png",
     "T. Res ↓↓": "/statuses/magic_defense_down_double_temp.png",
     "T. Def ↓↓": "/statuses/defense_down_double_temp.png",
-    "T. Mag ↓↓": "/statuses/magic_down_double_temp.png",
     "Foresight ↑": "/statuses/foresight_up.png",
     "Holy Immune": "/statuses/holy_wall.png",
     "Holy Sigil": "/statuses/holy_rune.png",
