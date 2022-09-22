@@ -116,7 +116,7 @@ function updateItem(item) {
 // parsing //
 /////////////
 
-function setFetchHeader(_lang) {
+export function setFetchHeader(_lang) {
   return {
     headers: {
       cookie: `ornalang=${_lang}`
@@ -124,7 +124,7 @@ function setFetchHeader(_lang) {
   }
 }
 
-function getItemSummary(items) {
+export function getItemSummary(items) {
   return items.map(elm => {
     let divs = elm.querySelectorAll('div');
     let link = elm.getAttribute('href');
@@ -148,7 +148,7 @@ function getItemSummary(items) {
   });
 }
 
-function getNextPage(html, page) {
+export function getNextPage(html, page) {
   let paginations = html.querySelectorAll('.pagination > .button');
   let nextPage;
 
