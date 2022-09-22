@@ -100,12 +100,14 @@
     }
 
     switch (rule.prop) {
+      // strings
       case 'uid':
       case 'img':
       case 'tags':
       case 'titles':
       case 'intros': {
-        return data.filter(i => i[rule.prop]?.includes(rule.value));
+        let regex = new RegExp(rule.value, 'i');
+        return data.filter(i => regex.test(i[rule.prop]));
       }
       case 'tier': {
         return data.filter(i => i[rule.prop] === rule.value);
